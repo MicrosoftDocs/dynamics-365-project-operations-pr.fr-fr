@@ -1,0 +1,1 @@
+<span data-ttu-id="c9cd8-101">S'applique à l'application Project Service version 2.4.4.30 ou antérieure sur Dynamics 365 (online) version 9.x</span><span class="sxs-lookup"><span data-stu-id="c9cd8-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>

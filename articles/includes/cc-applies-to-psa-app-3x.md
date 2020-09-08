@@ -1,0 +1,1 @@
+<span data-ttu-id="63ed4-101">S'applique à la version 3.x de l'application Project Service</span><span class="sxs-lookup"><span data-stu-id="63ed4-101">Applies to Project Service app version 3.x</span></span>
