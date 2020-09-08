@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Les fonctionnalités mentionnées dans cet article sont disponibles pour les utilisateurs ciblés dans le cadre d'une version préliminaire. Le contenu et les fonctionnalités sont susceptibles d’être modifiés. Pour en savoir plus concernant les versions préliminaires, consultez [FAQ relative aux mises à jour de service à une version](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
