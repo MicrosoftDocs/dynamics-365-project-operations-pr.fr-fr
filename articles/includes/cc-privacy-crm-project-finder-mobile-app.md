@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069548"
+---
 En activant l'application Project Finder Mobile, vous accordez aux utilisateurs de l'organisation une visibilité dans la tâche du projet et la capacité à s'inscrire pour la tâche. Les utilisateurs peuvent aussi utiliser l'application Project Finder pour afficher et mettre à jour leurs qualifications. L'application Project Finder Mobile est activée via Valeurs de paramètres du Project Service, en définissant la valeur des attributs Besoins en ressources visibles pour les ressources et Autoriser la mise à jour des qualifications par ressource sur Oui. La modification de la valeur de ces attributs sur Non désactive cette fonctionnalité.  
   
  Lorsque vous utilisez cette fonctionnalité, veillez à prendre en compte les points clés suivants :  
