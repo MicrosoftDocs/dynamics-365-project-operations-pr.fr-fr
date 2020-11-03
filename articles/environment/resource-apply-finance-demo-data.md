@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948855"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096619"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Appliquer les données de démonstration Project Operations à un environnement hébergé par le cloud Finance
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
->[Important] Cette rubrique ne s’applique qu’à Microsoft Dynamics 365 Finance version 10.0.13 et ne peut être effectuée que sur un environnement hébergé dans le cloud. Suivez les étapes de cette rubrique **AVANT** d’appliquer des mises à jour de qualité à l’environnement.
+> [!IMPORTANT]
+> Cette rubrique ne s'applique qu'à Microsoft Dynamics 365 Finance version 10.0.13 et ne peut être effectuée que sur un environnement hébergé dans le cloud. Suivez les étapes de cette rubrique **AVANT** d’appliquer des mises à jour de qualité à l’environnement.
 
 1. Dans votre projet LCS, ouvrez la page **Détails de l’environnement**. Notez qu’elle inclut les détails nécessaires pour se connecter à l’environnement à l’aide du protocole RDP (Remote Desktop Protocol).
 
@@ -45,7 +46,7 @@ Le premier ensemble d’informations d’identification mises en évidence sont 
 
 6. Dans l’Explorateur d’objets, **Bases de données** et localisez **AXDB**. Vous allez remplacer la base de données par une nouvelle base de données située dans le [centre de téléchargement](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Copiez le fichier zip sur la machine virtuelle dans laquelle vous êtes distant et extrayez le contenu du zip.
-8. Dans SQL Server Management Studio, cliquez avec le bouton droit sur **AxDB**, puis sélectionnez **Tâches** > **Restaurer** > **Base de données**.
+8. Dans SQL Server Management Studio, cliquez avec le bouton droit sur **AxDB** , puis sélectionnez **Tâches** > **Restaurer** > **Base de données**.
 
 ![Restaurer la base de données](./media/5RestoreDatabase.png)
 
@@ -53,7 +54,7 @@ Le premier ensemble d’informations d’identification mises en évidence sont 
 
 ![Périphériques sources](./media/6SourceDevice.png)
 
-10. Sélectionnez **Options**, puis **Remplacer la base de données existante** et **Fermer les connexions existantes à la base de données de destination**. 
+10. Sélectionnez **Options** , puis **Remplacer la base de données existante** et **Fermer les connexions existantes à la base de données de destination**. 
 11. Cliquez sur **OK**.
 
 ![Restaurer les paramètres](./media/7RestoreSetting.png)
