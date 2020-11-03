@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 4a8e605109e48b50da68abeee989f8ac8d3d659c
-ms.sourcegitcommit: cf79185c8c84c55fbae55f9cfc1b17840e072b49
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930088"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075628"
 ---
 # <a name="resource-management-modes-overview"></a>Vue d’ensemble des modes de gestion des ressources
 

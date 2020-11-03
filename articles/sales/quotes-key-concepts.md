@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b252f6e02d0809c352d3665731ec5e02e4e9a73f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 42ea1eb71b3285159b3fdf79ba34a562f948fd6e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898439"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075906"
 ---
 # <a name="quotes---key-concepts"></a>Devis - Concepts clés
 
@@ -31,20 +30,20 @@ _**S'applique à :** Project Operations pour les scénarios basés sur les res
 
 Dans Dynamics 365 Project Operations, il existe deux types de devis : les devis de projet et de vente. Ces deux types de devis diffèrent des façons suivantes :
 
-- **Grilles pour les lignes** : Dans un devis de vente, il n'existe qu'une grille pour les lignes. Dans un devis de projet, il y a deux grilles pour les lignes. L'une des grilles est destinée aux lignes de projet et l'autre aux lignes de produits.
-- **Activation et révisions** : Les devis de vente prennent en charge l'activation et les révisions. Ces processus ne sont pas pris en charge sur un devis de projet.
-- **Commandes jointes** : Vous pouvez joindre plusieurs commandes à un devis de vente. Un seul contrat de projet peut être joint à un devis de projet.
-- **Gagner un devis** : Lorsque vous remportez un devis de vente, l'opportunité associée peut rester ouverte. Lorsqu'un devis de projet qui conclus, une opportunité associée est fermée.
-- **Champs et concepts** : Un devis de vente ne comprend pas certains champs et les concepts qui se trouvent sur un devis de projet. Les champs incluent **Unité contractuelle**, **Gestionnaire de comptes** et **Nom du contact de facturation**.  
-- **Type** : Les devis de vente et les devis de projet sont également identifiés par un champ basé sur un jeu de données nommé **Type**. Pour un devis de vente, ce champ a la valeur **Basé sur l'article**. Pour un devis de projet, il a la valeur **Basé sur le travail**.
+- **Grilles pour les lignes**  : Dans un devis de vente, il n'existe qu'une grille pour les lignes. Dans un devis de projet, il y a deux grilles pour les lignes. L'une des grilles est destinée aux lignes de projet et l'autre aux lignes de produits.
+- **Activation et révisions**  : Les devis de vente prennent en charge l'activation et les révisions. Ces processus ne sont pas pris en charge sur un devis de projet.
+- **Commandes jointes**  : Vous pouvez joindre plusieurs commandes à un devis de vente. Un seul contrat de projet peut être joint à un devis de projet.
+- **Gagner un devis**  : Lorsque vous remportez un devis de vente, l'opportunité associée peut rester ouverte. Lorsqu'un devis de projet qui conclus, une opportunité associée est fermée.
+- **Champs et concepts**  : Un devis de vente ne comprend pas certains champs et les concepts qui se trouvent sur un devis de projet. Les champs incluent **Unité contractuelle** , **Gestionnaire de comptes** et **Nom du contact de facturation**.  
+- **Type**  : Les devis de vente et les devis de projet sont également identifiés par un champ basé sur un jeu de données nommé **Type**. Pour un devis de vente, ce champ a la valeur **Basé sur l'article**. Pour un devis de projet, il a la valeur **Basé sur le travail**.
 
 Cette rubrique se concentre sur les détails des devis de projet.
 
 Un devis de projet dans Project Operations peut avoir plusieurs lignes ou lignes de devis. En fait, un devis de projet a deux grilles pour les lignes. Une grille pour les lignes basées sur le projet qui permettent des estimations détaillées. L'autre grille est pour les lignes basées sur le produit qui utilisent un seul prix unitaire et une approche basée sur la quantité.
 
-- **Basé sur le projet** : La valeur du devis est déterminée après avoir estimé le volume de travail requis. Vous pouvez estimer le travail à un niveau élevé, directement sous forme de détails de ligne sous chaque ligne de devis, ou sur la base d'estimations à la base, en utilisant un projet et un plan de projet. Les lignes de devis basées sur un projet sont disponibles uniquement dans les devis basés sur un projet créés à l'aide de Project Operations. Ce type de ligne de devis est un formulaire personnalisé des lignes de devis hors catalogue disponibles dans Microsoft Dynamics 365 Sales.
+- **Basé sur le projet**  : La valeur du devis est déterminée après avoir estimé le volume de travail requis. Vous pouvez estimer le travail à un niveau élevé, directement sous forme de détails de ligne sous chaque ligne de devis, ou sur la base d'estimations à la base, en utilisant un projet et un plan de projet. Les lignes de devis basées sur un projet sont disponibles uniquement dans les devis basés sur un projet créés à l'aide de Project Operations. Ce type de ligne de devis est un formulaire personnalisé des lignes de devis hors catalogue disponibles dans Microsoft Dynamics 365 Sales.
 
-- **Basé sur le produit** : La valeur du devis est déterminée selon la quantité d'unités vendue et du prix de vente unitaire du produit. Le produit sur une ligne basée sur un produit peut provenir d'un catalogue de produits dans Sales, ou peut être un produit que vous définissez. Ce type de ligne de devis est également disponible sur les devis basés sur un projet créés à l'aide de Project Operations.
+- **Basé sur le produit**  : La valeur du devis est déterminée selon la quantité d'unités vendue et du prix de vente unitaire du produit. Le produit sur une ligne basée sur un produit peut provenir d'un catalogue de produits dans Sales, ou peut être un produit que vous définissez. Ce type de ligne de devis est également disponible sur les devis basés sur un projet créés à l'aide de Project Operations.
 
 Le montant d'un devis est le total des lignes basées sur le produit et des lignes basées sur le projet.
 
@@ -76,12 +75,12 @@ Project Operations prend en charge les trois types de planifications de facture 
 
 Les organisations de services professionnels établissement des devis et facturent leurs clients généralement selon la classification des coûts. Les coûts sont représentés par les classifications de transaction suivantes :
 
-- **Temps** : Cette classification représente le coût de temps de la main-d'œuvre ou des ressources humaines dans un projet.
-- **Dépenses** : Cette classification représente tous les autres types de dépenses dans un projet. Étant donné que les dépenses peuvent être globalement classifiées, la plupart des organisations créent des sous-catégories, telles que le trajet, la location de voiture, l'hôtel ou les fournitures de bureau.
-- **Frais** : Cette classification représente des dépassements, pénalités et autres postes divers qui sont imputés au client. 
-- **Taxes** : Cette classification représentent les montants des taxes que les utilisateurs ajoutent lorsqu'ils entrer des dépenses.
-- **Transaction matérielle** : Cette classification représente les chiffres réels des lignes de produits sur une facture de projet confirmée.
-- **Jalon** : Cette classification est utilisée par la logique de facturation à prix fixe.
+- **Temps**  : Cette classification représente le coût de temps de la main-d'œuvre ou des ressources humaines dans un projet.
+- **Dépenses**  : Cette classification représente tous les autres types de dépenses dans un projet. Étant donné que les dépenses peuvent être globalement classifiées, la plupart des organisations créent des sous-catégories, telles que le trajet, la location de voiture, l'hôtel ou les fournitures de bureau.
+- **Frais**  : Cette classification représente des dépassements, pénalités et autres postes divers qui sont imputés au client. 
+- **Taxes**  : Cette classification représentent les montants des taxes que les utilisateurs ajoutent lorsqu'ils entrer des dépenses.
+- **Transaction matérielle**  : Cette classification représente les chiffres réels des lignes de produits sur une facture de projet confirmée.
+- **Jalon**  : Cette classification est utilisée par la logique de facturation à prix fixe.
 
 Une ou plusieurs de ces classifications de transactions peuvent être associées à chaque ligne de devis. Une fois que le devis est remporté, le mappage entre la classification des transactions et la ligne de devis est transmis à la ligne de contrat.
   
@@ -91,16 +90,16 @@ Par exemple, un devis peut contenir les deux lignes de devis suivantes :
 - Frais de votre voyage associés qui utilisent un mode de facturation à prix fixe. Par exemple, toutes les dépenses en voyage pour l'exemple de projet **Mise en œuvre de Dynamics AX** sont appliquées à une valeur monétaire fixe.
 
 > [!NOTE]
-> La combinaison des classifications de projet et de transaction **Temps**, **Dépenses** et **Frais** associées à une ligne de devis ou à une ligne de contrat doit être unique. Si la même combinaison de projet et de classe de transaction est associée à plusieurs lignes de contrat ou lignes de devis, Project Operations ne fonctionnera pas correctement.
+> La combinaison des classifications de projet et de transaction **Temps** , **Dépenses** et **Frais** associées à une ligne de devis ou à une ligne de contrat doit être unique. Si la même combinaison de projet et de classe de transaction est associée à plusieurs lignes de contrat ou lignes de devis, Project Operations ne fonctionnera pas correctement.
 
 ## <a name="billing-types"></a>Types de facturations
 
 Le champ **Type de facturation** définit le concept d'exigibilité. Il s'agit d'un groupe d'options avec les valeurs possibles suivantes :
 
-- **Facturable** : Le coût cumulé par ce rôle/cette catégorie est un coût direct qui dirige la réalisation du projet, et le client payera pour ce travail. Le paiement peut être administré sous forme d'agencement Temps et matériel ou à prix fixe. Toutefois, l'employé qui consacre ce temps recevra le crédit correspondant pour son utilisation facturable.
-- **Non facturable** : Le coût cumulé par ce rôle/cette catégorie est considéré comme un coût direct qui dirige la réalisation du projet, même si le client ne reconnaît pas ce fait et ne payera pas pour ce travail. L'employé qui consacre ce temps ne sera pas crédité de l'utilisation facturable à cet effet.
-- **Gratuit** : Le coût cumulé par ce rôle/cette catégorie est considéré comme un coût direct qui dirige la réalisation du projet, et le client payera reconnaît ce fait. L'employé qui consacre ce temps sera crédité de l'utilisation facturable à cet effet. Toutefois, ce coût n'est pas imputé au client.
-- **Non disponible** : Les coûts qui sont encourus dans les projets internes qui ne nécessitent pas de suivi du revenu sont suivis à l'aide de cette option.
+- **Facturable**  : Le coût cumulé par ce rôle/cette catégorie est un coût direct qui dirige la réalisation du projet, et le client payera pour ce travail. Le paiement peut être administré sous forme d'agencement Temps et matériel ou à prix fixe. Toutefois, l'employé qui consacre ce temps recevra le crédit correspondant pour son utilisation facturable.
+- **Non facturable**  : Le coût cumulé par ce rôle/cette catégorie est considéré comme un coût direct qui dirige la réalisation du projet, même si le client ne reconnaît pas ce fait et ne payera pas pour ce travail. L'employé qui consacre ce temps ne sera pas crédité de l'utilisation facturable à cet effet.
+- **Gratuit**  : Le coût cumulé par ce rôle/cette catégorie est considéré comme un coût direct qui dirige la réalisation du projet, et le client payera reconnaît ce fait. L'employé qui consacre ce temps sera crédité de l'utilisation facturable à cet effet. Toutefois, ce coût n'est pas imputé au client.
+- **Non disponible**  : Les coûts qui sont encourus dans les projets internes qui ne nécessitent pas de suivi du revenu sont suivis à l'aide de cette option.
 
 ## <a name="invoice-schedule"></a>Planification de facture
 
@@ -116,11 +115,11 @@ Ces trois valeurs d'attribut permettent de générer un ensemble de dates provis
 
 La fréquence de facture est une entité qui stocke les valeurs d'attributs permettant d'exprimer la fréquence de la création de facture. Les attributs suivants expriment ou définissent l'entité de fréquence de facture :
 
-- **Période** : Mensuelle, bihebdomadaire et hebdomadaire sont prises en charge. 
-- **Exécutions par période** : Pour les périodes hebdomadaires et bihebdomadaires, vous pouvez définir une seul exécution par période. Pour les périodes mensuelles, vous pouvez définir entre une et quatre exécutions par période. 
-- **Jours d'exécution** : Les jours où la facturation doit être exécutée. Vous pouvez configurer cet attribut de deux manières :
-  - **Jours ouvrables** : Par exemple, vous pouvez spécifier que la facturation est exécutée chaque lundi ou un lundi sur deux. Les clients qui doivent définir la facturation à exécuter pendant un jour ouvrable peuvent préférer ce genre de configuration. 
-  - **Jours civils** : Vous pouvez par exemple spécifier que la facturation est exécutée le septième et le vingt-et-unième jour de chaque mois. Certaines organisations peuvent préférer ce genre de configuration, car il permet de garantir que la facturation est exécutée à dates fixes tous les mois.
+- **Période**  : Mensuelle, bihebdomadaire et hebdomadaire sont prises en charge. 
+- **Exécutions par période**  : Pour les périodes hebdomadaires et bihebdomadaires, vous pouvez définir une seul exécution par période. Pour les périodes mensuelles, vous pouvez définir entre une et quatre exécutions par période. 
+- **Jours d'exécution**  : Les jours où la facturation doit être exécutée. Vous pouvez configurer cet attribut de deux manières :
+  - **Jours ouvrables**  : Par exemple, vous pouvez spécifier que la facturation est exécutée chaque lundi ou un lundi sur deux. Les clients qui doivent définir la facturation à exécuter pendant un jour ouvrable peuvent préférer ce genre de configuration. 
+  - **Jours civils**  : Vous pouvez par exemple spécifier que la facturation est exécutée le septième et le vingt-et-unième jour de chaque mois. Certaines organisations peuvent préférer ce genre de configuration, car il permet de garantir que la facturation est exécutée à dates fixes tous les mois.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Planification de facture pour une ligne de devis à prix fixe
 

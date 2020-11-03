@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948851"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075611"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Ajouter un abonnement Azure au projet LCS
 
@@ -23,11 +23,11 @@ Les environnements hébergés dans le cloud doivent être déployés à l’aide
 
 ## <a name="grant-admin-consent"></a>Accorder un consentement d’administrateur
 
-1. Dans votre projet LCS, dans la section **Environnements**, sélectionnez **Paramètres Microsoft Azure**.
+1. Dans votre projet LCS, dans la section **Environnements** , sélectionnez **Paramètres Microsoft Azure**.
 
 ![Paramètres de l’application Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. Sur la page **Paramètres du projet**, sur l’onglet **Connecteurs Azure**, sélectionnez **Autoriser**. Cela permet aux environnements d’être déployés dans ce projet.
+2. Sur la page **Paramètres du projet** , sur l’onglet **Connecteurs Azure** , sélectionnez **Autoriser**. Cela permet aux environnements d’être déployés dans ce projet.
 
 ![Connecteurs Azure](./media/2AzureConnectors.png)
 
@@ -50,18 +50,18 @@ L’autorisation est maintenant terminée.
 ![Détails de l’abonnement Azure](./media/6AzureSubscription.png)
 
 2. Sélectionnez **Contrôle d’accès (IAM)** dans le volet de navigation, puis sélectionnez **Ajouter une attribution de rôle**.
-3. Dans le curseur sur le côté droit, sélectionnez **Rôle Contributeur**, et dans la liste fournie, recherchez et sélectionnez **Dynamics Deployment Services**. 
+3. Dans le curseur sur le côté droit, sélectionnez **Rôle Contributeur** , et dans la liste fournie, recherchez et sélectionnez **Dynamics Deployment Services**. 
 4. Sélectionnez **Enregistrer**.
 
 ![Accès à l’abonnement](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Ajouter un connecteur d’abonnement à un projet LCS
 
-1. Dans votre projet LCS, sur la page **Paramètres Microsoft Azure**, sélectionnez **Ajouter** pour ajouter un nouveau connecteur.
+1. Dans votre projet LCS, sur la page **Paramètres Microsoft Azure** , sélectionnez **Ajouter** pour ajouter un nouveau connecteur.
 2. Entrer votre ID d’abonnement Azure. Vous pouvez trouver votre ID d’abonnement Azure dans le [portail Azure](https://ms.portal.azure.com/), sous **Paramètres** en bas à gauche de l’écran.
-3. Dans le champ **Configurer pour utiliser Azure Resource Manager**, sélectionnez **Oui**.
+3. Dans le champ **Configurer pour utiliser Azure Resource Manager** , sélectionnez **Oui**.
 4. Assurez-vous que le domaine du client AAD d’abonnement d’Azure correspond à l’abonnement Azure propriétaire du domaine que vous utilisez, puis sélectionnez **Suivant**.
-5. Sur l’écran **Configuration Microsoft Azure**, sélectionnez **Suivant** pour confirmer. Si vous recevez une erreur sur cet écran, revenez à la section [Fournir l’accès à Dynamics Deployment Services à l’abonnement Azure](#provide) dans cette rubrique et assurez-vous que vous avez terminé toutes les étapes.
+5. Sur l’écran **Configuration Microsoft Azure** , sélectionnez **Suivant** pour confirmer. Si vous recevez une erreur sur cet écran, revenez à la section [Fournir l’accès à Dynamics Deployment Services à l’abonnement Azure](#provide) dans cette rubrique et assurez-vous que vous avez terminé toutes les étapes.
 6. Téléchargez le certificat de gestion Azure dans un dossier local sur votre ordinateur, puis chargez-le sur le Portail de gestion Azure en accédant à **Paramètres** > **Certificats de gestion**. Ce certificat permettra à LCS de communiquer avec Azure en votre nom. Vous pouvez ignorer cette étape si votre utilisateur a accès à l’abonnement.
 7. Cliquez sur **Suivant**.
 8. Sélectionnez la région Azure dans laquelle déployer et sélectionnez un centre de données proche de l’endroit où vous prévoyez d’utiliser ce système.

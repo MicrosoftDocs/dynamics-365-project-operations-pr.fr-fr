@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fbab7fd94fa429876216ee82b716da8d847fb01a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896638"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075810"
 ---
 # <a name="define-expense-policies"></a>Définir des politiques de dépenses
 
@@ -37,12 +36,12 @@ définissez la politique.
         
 Vous pouvez définir trois types de politiques :         
         
-- **Avertissement** : Permet à l'employé de soumettre une note de frais ou une demande de voyage, mais la dépense sera marquée pour tous les approbateurs et         
+- **Avertissement**  : Permet à l'employé de soumettre une note de frais ou une demande de voyage, mais la dépense sera marquée pour tous les approbateurs et         
   pour un rapport ultérieur.        
 
-- **Erreur** : Oblige l'employé à réviser la dépense pour se conformer à la politique avant de soumettre la note de frais ou la demande de voyage.        
+- **Erreur**  : Oblige l'employé à réviser la dépense pour se conformer à la politique avant de soumettre la note de frais ou la demande de voyage.        
  
- - **Justification** : Oblige l'employé ou un gestionnaire à saisir une justification pour le dépassement du montant, conformément à la politique, avant de soumettre la note de frais ou la demande de déplacement.        
+ - **Justification**  : Oblige l'employé ou un gestionnaire à saisir une justification pour le dépassement du montant, conformément à la politique, avant de soumettre la note de frais ou la demande de déplacement.        
 
 ## <a name="policy-tips"></a>Conseils en matière de politique
 Voici quelques suggestions qui peuvent vous aider lors de la création de nouvelles politiques de gestion des dépenses : 

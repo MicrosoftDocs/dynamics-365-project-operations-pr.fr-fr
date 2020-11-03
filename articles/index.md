@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4efd5d182b14d8b3b54ddde47176bbdeccfdeb69
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: 8e1001144bf5347ba1c170cdeae494deef6c2d9c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949269"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075709"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -33,7 +32,7 @@ Microsoft Dynamics 365 Project Operations connecte les équipes de vente, d’a
 -   **Les ventes sont activées** pour gagner plus d’offres et accélérer le cycle de vente avec des devis rapides et précis, des prix flexibles et des transitions fluides de l’estimation à l’exécution.
 -   **L’allocation de ressources est mise en place pour optimiser** l’utilisation des ressources en alignant les bonnes personnes, avec les bonnes compétences, sur les bons projets. Cela améliore la qualité et aide à fidéliser les meilleurs.
 -   **Les chefs de projet peuvent accélérer** la livraison de projet avec une gestion de projets intégrée de pointe qui utilise des fonctionnalités Microsoft Project conviviales et faciles à utiliser.
--   **Les membres de l’équipe peuvent améliorer la productivité**, la collaboration et la visibilité avec l’intégration à Microsoft Teams et soumettre le temps et les dépenses de n’importe où.
+-   **Les membres de l’équipe peuvent améliorer la productivité** , la collaboration et la visibilité avec l’intégration à Microsoft Teams et soumettre le temps et les dépenses de n’importe où.
 -   **Les finances peuvent simplifier la comptabilité de projet** avec la gouvernance du suivi du temps et des dépenses, le coût des projets, la budgétisation, la facturation, la constatation des revenus, la conformité et la visibilité des indicateurs clés de la santé de l’entreprise.
 
 Project Operations est puissant en soi, mais peut être étendu par nos clients qui ont besoin de fonctionnalités supplémentaires de Dynamics 365. Cela inclut Marketing, Human Resources, Customer Service, etc. Que vous souhaitiez bénéficier des fonctionnalités supplémentaires d’une autre application Dynamics 365 ou ajouter une application personnalisée créée avec Power Apps, tout fonctionne ensemble et comme prévu, car elles partagent la base commune d’une solution basée sur le cloud sécurisée, privée et conforme.

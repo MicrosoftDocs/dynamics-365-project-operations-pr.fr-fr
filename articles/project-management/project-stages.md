@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b11c67ebd21fdf423eeae2db8154f26787c2e64f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897943"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075867"
 ---
 # <a name="project-stages"></a>Phases du projet
 
@@ -46,11 +45,11 @@ Lorsque vous créez un projet, la phase de projet est définie sur **Nouveau**. 
 
 ## <a name="quote"></a>Devis
 
-Lorsque vous associez un projet à un devis ou que vous créez un projet depuis un devis, la phase de projet est définie sur **Devis**, et les dates de début et de fin estimées sont mises à jour. Lorsque le projet est dans la phase **Devis**, l'onglet **Ventes** de la page **Entité du projet** affiche les détails du devis.
+Lorsque vous associez un projet à un devis ou que vous créez un projet depuis un devis, la phase de projet est définie sur **Devis** , et les dates de début et de fin estimées sont mises à jour. Lorsque le projet est dans la phase **Devis** , l'onglet **Ventes** de la page **Entité du projet** affiche les détails du devis.
 
 ## <a name="plan"></a>Planifier
 
-Lorsque vous ayez conclu un devis associé à un projet, et que le projet passe à la phase **Contrat**, la phase du projet est mise à jour sur **Planifier**. Lorsque le projet est dans la phase **Planifier**, la page **Entité du projet** affiche les détails du contrat.
+Lorsque vous ayez conclu un devis associé à un projet, et que le projet passe à la phase **Contrat** , la phase du projet est mise à jour sur **Planifier**. Lorsque le projet est dans la phase **Planifier** , la page **Entité du projet** affiche les détails du contrat.
 
 ## <a name="deliver"></a>Livrer
 
@@ -58,7 +57,7 @@ Lorsque le plan du projet est terminé, et que vous êtes prêt à lancer le pro
 
 ## <a name="complete"></a>Fin 
 
-Lorsque le travail du projet est terminé, le chef de projet peut mettre à jour la phase sur **Terminer**. En mettant à jour la phase du projet sur **Terminer**, le chef de projet indique que le travail est terminé à 100 pourcent, mais que le projet est maintenu ouvert afin que toutes les entrées de temps ou de dépenses en attente puissent être enregistrées.
+Lorsque le travail du projet est terminé, le chef de projet peut mettre à jour la phase sur **Terminer**. En mettant à jour la phase du projet sur **Terminer** , le chef de projet indique que le travail est terminé à 100 pourcent, mais que le projet est maintenu ouvert afin que toutes les entrées de temps ou de dépenses en attente puissent être enregistrées.
 
 ## <a name="close"></a>Fermer
 

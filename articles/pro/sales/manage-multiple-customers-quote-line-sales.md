@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965779"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075641"
 ---
 # <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Gestion de plusieurs clients sur les lignes de devis selon les projets
 
@@ -33,10 +33,10 @@ Le tableau suivant affiche les champs sur l’enregistrement de client de la lig
 
 | Champ | Emplacement | Description et conseils | Impact en aval |
 | --- | --- | --- | --- |
-| **Compte** | Grille modifiable sur l’onglet **Clients de ligne du devis**, le formulaires principal et les formulaires de création rapide pour un client de ligne de devis. | Répertorie tous les comptes actifs. Ce champ est verrouillé après la création de l’enregistrement. Si vous devez mettre à jour le champ, supprimez et recréez l’enregistrement. Si vous avez enregistré des chiffres réels, vous ne pouvez pas supprimer l’enregistrement. | Lorsque vous sélectionnez un compte dans la liste principale des comptes à ajouter, le client de la ligne de devis est également ajouté en tant que client de devis lorsque vous l’enregistrez. Lorsqu’un devis est conclu, les clients de la ligne de devis sont également copiés vers les clients de la ligne du contrat de projet. |
-| **Pourcentage de facturation fractionnée** | Grille modifiable sur l’onglet **Clients de ligne du devis**, le formulaires principal et les formulaires de création rapide pour un client de ligne de devis. | Représente le pourcentage de chaque transaction de vente non facturée qui sera attribuée à ce client de ligne de devis. | Copié vers les clients de la ligne du contrat du projet. |
-| **Limite à ne pas dépasser** | Grille modifiable sur l’onglet **Clients de ligne du devis**, le formulaires principal et les formulaires de création rapide pour un client de ligne de devis. | Indique s’il existe une limite ou un plafond négocié au montant global qui sera facturé à ce client pour cette ligne de devis. | Copié vers les clients de la ligne du contrat de projet lorsqu’un devis est remporté. |
-| **Est arrondi** | Grille modifiable sur l’onglet **Clients de ligne du devis**, le formulaires principal et les formulaires de création rapide pour un client de ligne de devis. | Indique si ce client est un client arrondi par défaut pour cette ligne de devis basée sur un projet. | Copié vers les clients du contrat de projet lorsqu’un devis est remporté. |
+| **Compte** | Grille modifiable sur l’onglet **Clients de ligne du devis** , le formulaires principal et les formulaires de création rapide pour un client de ligne de devis. | Répertorie tous les comptes actifs. Ce champ est verrouillé après la création de l’enregistrement. Si vous devez mettre à jour le champ, supprimez et recréez l’enregistrement. Si vous avez enregistré des chiffres réels, vous ne pouvez pas supprimer l’enregistrement. | Lorsque vous sélectionnez un compte dans la liste principale des comptes à ajouter, le client de la ligne de devis est également ajouté en tant que client de devis lorsque vous l’enregistrez. Lorsqu’un devis est conclu, les clients de la ligne de devis sont également copiés vers les clients de la ligne du contrat de projet. |
+| **Pourcentage de facturation fractionnée** | Grille modifiable sur l’onglet **Clients de ligne du devis** , le formulaires principal et les formulaires de création rapide pour un client de ligne de devis. | Représente le pourcentage de chaque transaction de vente non facturée qui sera attribuée à ce client de ligne de devis. | Copié vers les clients de la ligne du contrat du projet. |
+| **Limite à ne pas dépasser** | Grille modifiable sur l’onglet **Clients de ligne du devis** , le formulaires principal et les formulaires de création rapide pour un client de ligne de devis. | Indique s’il existe une limite ou un plafond négocié au montant global qui sera facturé à ce client pour cette ligne de devis. | Copié vers les clients de la ligne du contrat de projet lorsqu’un devis est remporté. |
+| **Est arrondi** | Grille modifiable sur l’onglet **Clients de ligne du devis** , le formulaires principal et les formulaires de création rapide pour un client de ligne de devis. | Indique si ce client est un client arrondi par défaut pour cette ligne de devis basée sur un projet. | Copié vers les clients du contrat de projet lorsqu’un devis est remporté. |
 
 ## <a name="edit-billing-split-percentages"></a>Modifier des pourcentages de facturation fractionnée
 

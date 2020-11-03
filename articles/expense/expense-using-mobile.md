@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897043"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075742"
 ---
 # <a name="expense-using-mobile"></a>Dépenser via mobile
 
@@ -106,13 +105,13 @@ Téléchargez et installez l'application mobile Dynamics 365 Unified Ops :
 3. Sélectionnez **Prendre une photo** ou **Choisir une image**.
 4. Suivez l'une de ces étapes :
 
-   - Si vous avez sélectionné **Prendre une photo**, suivez ces étapes :
+   - Si vous avez sélectionné **Prendre une photo** , suivez ces étapes :
 
       1. Vous êtes dirigé vers l'appareil photo de votre appareil mobile, afin de pouvoir prendre une photo du reçu. 
       2. Lorsque vous avez terminé de prendre la photo, cliquez sur **OK** pour accepter la photo.
       3. Facultatif : Saisissez un nom pour la photo et saisissez des notes.
 
-    - Si vous avez sélectionné **Choisir une image**, suivez ces étapes :
+    - Si vous avez sélectionné **Choisir une image** , suivez ces étapes :
 
         1. Sélectionnez une image dans la liste.
         2. Facultatif : Saisissez un nom pour l'image et saisissez des notes.
@@ -131,8 +130,8 @@ Téléchargez et installez l'application mobile Dynamics 365 Unified Ops :
 8. Sélectionnez **Prendre une photo** ou **Choisir une image**.
 9. Suivez l'une de ces étapes :
 
-    - Si vous avez sélectionné **Prendre une photo**, vous êtes dirigé vers l'appareil photo de votre appareil mobile, afin que vous puissiez prendre une photo du reçu. Lorsque vous avez terminé de prendre la photo, cliquez sur **OK** pour accepter la photo.
-    - Si vous avez sélectionné **Choisir une image**, sélectionnez une image dans la liste.
+    - Si vous avez sélectionné **Prendre une photo** , vous êtes dirigé vers l'appareil photo de votre appareil mobile, afin que vous puissiez prendre une photo du reçu. Lorsque vous avez terminé de prendre la photo, cliquez sur **OK** pour accepter la photo.
+    - Si vous avez sélectionné **Choisir une image** , sélectionnez une image dans la liste.
 
 10. Cliquez sur **Terminé**.
 
@@ -145,7 +144,7 @@ Téléchargez et installez l'application mobile Dynamics 365 Unified Ops :
     
 3. Sélectionnez une note de frais pour afficher les détails des dépenses.
 4. Sélectionnez une dépense pour en afficher les détails. Les informations affichées pour une dépense incluent tous les détails de ticket de caisse, d'invité et de justificatif.
-5. De retour sur la page **État de dépenses**, choisissez d'approuver ou de rejeter la note de frais.
+5. De retour sur la page **État de dépenses** , choisissez d'approuver ou de rejeter la note de frais.
 6. Saisissez des commentaires pour l'action d'approbation.
 7. Cliquez sur **Terminé**.
 
@@ -167,60 +166,60 @@ Téléchargez et installez l'application mobile Dynamics 365 Unified Ops :
 14. Sélectionnez la devise de la dépense. Une liste affiche les codes de devise chargées dans votre application pour une utilisation hors connexion. Par défaut, 400 devises sont chargées, mais un développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si votre devise ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par devise ou passez à la recherche par nom.
 15. Cliquez sur **Terminé**.
 16. Pour ajouter plus de détails à la dépense, sélectionnez **Ajouter plus de détails**. Les champs disponibles dépendent de la configuration de la gestion des dépenses de votre entreprise.
-17. Si la politique de l'entreprise exige un reçu pour la dépense, sélectionnez **Reçus**, puis suivez ces étapes :
+17. Si la politique de l'entreprise exige un reçu pour la dépense, sélectionnez **Reçus** , puis suivez ces étapes :
 
     1. Sélectionnez **Capturer le reçu** ou **Joindre le reçu**.
     2. Suivez l'une de ces étapes :
 
-        - Si vous avez sélectionné **Capturer le reçu**, suivez ces étapes :
+        - Si vous avez sélectionné **Capturer le reçu** , suivez ces étapes :
 
             1. Sélectionnez **Prendre une photo** ou **Choisir une image**.
             2. Suivez l'une de ces étapes :
 
-                - Si vous avez sélectionné **Prendre une photo**, suivez ces étapes :
+                - Si vous avez sélectionné **Prendre une photo** , suivez ces étapes :
 
                     1. Vous êtes dirigé vers l'appareil photo de votre appareil mobile, afin de pouvoir prendre une photo du reçu. Lorsque vous avez terminé de prendre la photo, cliquez sur **OK** pour accepter la photo.
                     2. Facultatif : Saisissez un nom pour la photo et saisissez des notes.
 
-                - Si vous avez sélectionné **Choisir une image**, suivez ces étapes :
+                - Si vous avez sélectionné **Choisir une image** , suivez ces étapes :
 
                     1. Sélectionnez une image dans la liste.
                     2. Facultatif : Saisissez un nom pour l'image et saisissez des notes.
 
             3.  Cliquez sur **Terminé**.
 
-        - Si vous avez sélectionné **Joindre le reçu**, suivez ces étapes :
+        - Si vous avez sélectionné **Joindre le reçu** , suivez ces étapes :
 
             1.  Sélectionnez une ou plusieurs images dans la liste.
             2.  Cliquez sur **Terminé**.
 
     3. Cliquez sur le bouton **Précédent** pour revenir aux détails des dépenses.
 
-18. Si la politique de l'entreprise exige des invités pour la dépense, sélectionnez **Invités**, puis suivez ces étapes :
+18. Si la politique de l'entreprise exige des invités pour la dépense, sélectionnez **Invités** , puis suivez ces étapes :
 
-    1. Sélectionnez **Invité**, **Invités précédents** ou **Collègues**.
+    1. Sélectionnez **Invité** , **Invités précédents** ou **Collègues**.
     2. Suivez l'une de ces étapes :
 
-        - Si vous avez sélectionné **Invité**, suivez ces étapes :
+        - Si vous avez sélectionné **Invité** , suivez ces étapes :
 
             1. Entrez le nom de l'invité.
             2. Facultatif : Saisissez l'organisation et/ou le pays de l'invité.
             3. Facultatif : Saisissez la fonction de l'invité.
             4. Cliquez sur **Terminé**.
 
-        - Si vous avez sélectionné **Invités précédents**, suivez ces étapes :
+        - Si vous avez sélectionné **Invités précédents** , suivez ces étapes :
 
             1. Sélectionnez un ou plusieurs invités précédents dans la liste. Vous voyez une liste des invités précédents que vous avez ajoutés aux notes de frais précédentes qui sont chargées dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si votre invité précédent ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par nom ou passez à une recherche par organisation, pays ou fonction.
             2. Cliquez sur **Terminé**.
 
-        - Si vous avez sélectionné **Collègues**, suivez ces étapes :
+        - Si vous avez sélectionné **Collègues** , suivez ces étapes :
 
             1. Sélectionnez un ou plusieurs collègues dans la liste. Une liste affiche les collègues chargés dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si votre collègue ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par nom ou passez à une recherche par société ou fonction.
             2. Cliquez sur **Terminé**.
 
     3. Cliquez sur le bouton **Précédent** pour revenir aux détails des dépenses.
 
-19. Si la politique de l'entreprise exige que le reçu soit détaillé, sélectionnez **Détailler**, puis suivez ces étapes :
+19. Si la politique de l'entreprise exige que le reçu soit détaillé, sélectionnez **Détailler** , puis suivez ces étapes :
 
     1. Sélectionnez la première date à détailler.
     2. Sélectionnez **Ajouter un justificatif**.

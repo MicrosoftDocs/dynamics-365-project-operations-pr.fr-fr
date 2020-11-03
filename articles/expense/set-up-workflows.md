@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfc5945f32bb8d4073fc31499979ba279fef66a4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896548"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075767"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Configurer des workflows pour la gestion des dépenses
 
@@ -31,9 +30,9 @@ Vous pouvez configurer un processus de workflow pour examiner et approuver les d
 
 Un workflow représente un processus métier et définit la manière dont un document circule dans le système. Le workflow indique également qui doit terminer une tâche ou approuver un document. Il y a plusieurs avantages à utiliser le système de workflow dans votre organisation :
 
-- **Processus cohérents** : Vous pouvez définir le processus d'approbation pour des documents spécifiques, tels que les demandes d'achat et les notes de frais. Le système de workflow permet de garantir que les documents sont traités et approuvés de manière cohérente et efficace.
-- **Visibilité des processus** : Vous pouvez suivre le statut, l'historique et les indicateurs de performance d'une instance de workflow spécifique. Cette approche vous aide à déterminer si des modifications doivent être apportées au workflow pour améliorer l'efficacité.
-- **Liste de travail centralisée** : Les utilisateurs peuvent afficher une liste de travail centralisée pour afficher les tâches de workflow et les approbations qui leur sont affectées. 
+- **Processus cohérents**  : Vous pouvez définir le processus d'approbation pour des documents spécifiques, tels que les demandes d'achat et les notes de frais. Le système de workflow permet de garantir que les documents sont traités et approuvés de manière cohérente et efficace.
+- **Visibilité des processus**  : Vous pouvez suivre le statut, l'historique et les indicateurs de performance d'une instance de workflow spécifique. Cette approche vous aide à déterminer si des modifications doivent être apportées au workflow pour améliorer l'efficacité.
+- **Liste de travail centralisée**  : Les utilisateurs peuvent afficher une liste de travail centralisée pour afficher les tâches de workflow et les approbations qui leur sont affectées. 
 
 ## <a name="workflow-types"></a>Types de workflow
 

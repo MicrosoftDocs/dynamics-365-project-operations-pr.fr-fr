@@ -3,23 +3,23 @@ title: Copier un projet
 description: Cette rubrique fournit des informations sur la copie des projets dans Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908099"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075681"
 ---
 # <a name="copy-a-project"></a>Copier un projet
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Avec Dynamics 365 Project Operations, vous pouvez créer rapidement des projets en utilisant l’action **Copier un projet** sur le formulaire **Projets**. Pour copier un projet, sélectionnez un projet, puis sélectionnez **Copier**. L’action copiera :
+Avec Dynamics 365 Project Operations, vous pouvez créer rapidement des projets en sélectionnant **Copier un projet** sur le formulaire **Projets**. Pour copier un projet, ouvrez le projet que vous souhaitez copier, puis sélectionnez **Copier le projet**. L’action copiera :
 
 - les propriétés du projet ;
 - la structure de répartition du travail ;
@@ -58,4 +58,6 @@ Lorsqu’une équipe de projet est copiée à partir du projet source, les resso
 
 ## <a name="estimates"></a>Estimations
 
-Lorsque le projet est copié, les lignes d’estimation des ressources et des dépenses sont copiées à partir du projet source.
+Lorsque le projet est copié, les lignes d’estimation des ressources et des dépenses sont copiées à partir du projet source. 
+
+Pour plus d'informations sur l'accès par programme à Copier le projet, voir [Développer des modèles de projet avec Copier le projet](dev-copy-project.md).

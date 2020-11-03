@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896278"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075664"
 ---
 # <a name="project-quote-key-concepts"></a>Concepts clés de devis de projet
 
@@ -78,7 +78,7 @@ Les transactions multi-clients se produisent lorsqu’il y a plus d’un client 
 
 ## <a name="invoice-schedules"></a>Planifications de facture
 
-Les planifications de facture sont spécifiques à chaque ligne de devis et sont également facultatifs. Les planifications de facture sont créées en fonction de certaines dates de début et de fin et de la fréquence de facturation. Les planifications de facture sont utilisées à l’étape du contrat lorsque le processus de création automatique de facture est configuré. À la phase de devis, les planifications sont facultatives. Lorsque les planifications de facture sont créées à la phase **Devis**, elles sont copiées dans le contrat de projet créé lorsqu’un devis de projet est remporté.
+Les planifications de facture sont spécifiques à chaque ligne de devis et sont également facultatifs. Les planifications de facture sont créées en fonction de certaines dates de début et de fin et de la fréquence de facturation. Les planifications de facture sont utilisées à l’étape du contrat lorsque le processus de création automatique de facture est configuré. À la phase de devis, les planifications sont facultatives. Lorsque les planifications de facture sont créées à la phase **Devis** , elles sont copiées dans le contrat de projet créé lorsqu’un devis de projet est remporté.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Modifications par rapport au devis Dynamics 365 Sales :
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906152"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075609"
 ---
 # <a name="travel-requisitions"></a>Demandes de déplacement
 
@@ -33,7 +33,7 @@ Les demandes de déplacement peuvent être configurées comme « obligatoires 
 
 1. Accédez à **Mes dépenses : Demande de déplacement** et sélectionnez **Nouvelle demande de déplacement**.
 2. Saisissez un objet et une destination pour la demande.
-3. Dans le champ **Description du déplacement**, entrez toute information supplémentaire. 
+3. Dans le champ **Description du déplacement** , entrez toute information supplémentaire. 
 4. Pour chacune des dépenses attendues, telles que le vol, les repas ou la location de voiture, créez une ligne de dépenses. Incluez la date estimée, le montant estimé et la devise de chaque dépense. 
 5. Lorsque vous avez terminé d’ajouter les dépenses prévues, sélectionnez **Enregistrer**.
 6. Lorsque vous êtes prêt à soumettre la demande de déplacement, sélectionnez **Workflow** > **Envoyer**.

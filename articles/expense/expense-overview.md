@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967363"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075620"
 ---
 # <a name="expense-home-page"></a>Page d’accueil des dépenses
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations prend en charge la capacité de traiter les dé
 
 Dans Project Operations, il existe deux modèles de déploiement pris en charge pour les dépenses : 
 
-- **Complet** : Le déploiement complet est disponible pour **Project Operations pour les scénarios basés sur les ressources/non stockés** ou **Project Operations pour les scénarios basés sur les ordres de fabrication**.
-- **De base** : Le déploiement de base est disponible pour **Project Operations pour les scénarios basés sur les ressources/non stockés** et **Déploiement simplifié – Traiter la facturation pro forma**.
+- **Complet**  : Le déploiement complet est disponible pour **Project Operations pour les scénarios basés sur les ressources/non stockés** ou **Project Operations pour les scénarios basés sur les ordres de fabrication**.
+- **De base**  : Le déploiement de base est disponible pour **Project Operations pour les scénarios basés sur les ressources/non stockés** et **Déploiement simplifié – Traiter la facturation pro forma**.
 
 ## <a name="full"></a>Complet 
 Le déploiement de dépenses complet fournit une application complète des stratégies qui inclut la possibilité de créer des stratégies, telles que :

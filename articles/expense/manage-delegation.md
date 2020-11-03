@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c6a721849bfe556fb637f21898c0fa00083760dd
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896863"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075741"
 ---
 # <a name="manage-delegation"></a>Gérer la délégation
 Un délégué aux dépenses peut créer et gérer des notes de frais pour un autre employé.
@@ -30,7 +29,7 @@ Un délégué aux dépenses peut créer et gérer des notes de frais pour un aut
 
 Pour configurer un utilisateur en tant que délégué aux dépenses, procédez comme suit. 
 1. Accédez à **Gestion des dépenses** > **Configurer** > **Général** > **Délégués**. 
-2. Sur la page **Délégués**, sélectionnez **Nouveau**, puis sélectionnez l’employé qui aura un délégué défini. 
+2. Sur la page **Délégués** , sélectionnez **Nouveau** , puis sélectionnez l’employé qui aura un délégué défini. 
 3. Entrez l’alias de l’utilisateur délégué, ainsi que les dates de début et de fin de la période de délégation.
 
 ## <a name="manage-expenses-on-behalf-of-another-employee"></a>Gérer les dépenses au nom d’un autre employé

@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3891212"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075939"
 ---
 # <a name="sales-processes-overview"></a>Vue d’ensemble des processus de vente
 
@@ -39,7 +38,7 @@ La valeur d'une vente peut être estimée sur la base de projets précédemment 
 
 Vous pouvez créer une estimation générale de devis. À la fin, cette évaluation générale sera remplacée par une estimation plus détaillée basée sur un plan du projet créé en utilisant des modèles de projets normalisés. Ces modèles permettent d'établir une planification et de déterminer des valeurs monétaires sur le devis et ses composants (lignes de devis). 
 
-Vous pouvez créer plusieurs devis pour un projet et les regrouper sous un enregistrement d’opportunité unique. À la fin, l'un de ces devis est marqué comme **Fermé et conclu**, et un contrat de projet ou un énoncé des travaux est créé. Un contrat de projet contient la valeur contractuelle de chaque composant (ligne de contrat) qui est acceptée par le client pour la livraison. Un énoncé des travaux est généralement créé en tant que document Microsoft Word. Toutes les factures envoyées au client pendant la durée de la livraison du projet fait référence au contrat du projet ou à l'énoncé des travaux.
+Vous pouvez créer plusieurs devis pour un projet et les regrouper sous un enregistrement d’opportunité unique. À la fin, l'un de ces devis est marqué comme **Fermé et conclu** , et un contrat de projet ou un énoncé des travaux est créé. Un contrat de projet contient la valeur contractuelle de chaque composant (ligne de contrat) qui est acceptée par le client pour la livraison. Un énoncé des travaux est généralement créé en tant que document Microsoft Word. Toutes les factures envoyées au client pendant la durée de la livraison du projet fait référence au contrat du projet ou à l'énoncé des travaux.
 
 Vous pouvez également créer des devis alternatifs sous un enregistrement d’opportunité ou configurer le système pour qu'un contrat de projet soit créé lorsqu'un devis est conclu. Dans ce cas, vous pouvez joindre un document Word qui représente l'énoncé des travaux à l'enregistrement de contrat du projet.
 
@@ -57,12 +56,12 @@ Par exemple, votre société peut comporter les six étapes suivantes dans le pr
  
 Votre organisation peut utiliser différentes entités pour représenter la même transaction à mesure qu'elle évolue. Au début du processus de vente, une transaction est représentée par l'entité Opportunité. Au fil du temps et à mesure que des informations émergent, vous pouvez utiliser des estimations générales pour créer un ou plusieurs devis. Si l'un de ces devis est examiné par les parties prenantes internes et du client, l'entité Devis représente la transaction. Une fois que le client accepte le devis, un contrat du projet ou un énoncé des travaux représente la transaction. Pour soutenir ce comportement, des flux des processus d'entreprise sont structurés afin que chaque phase du processus soit liée à une table de base de données différente.
 
-La phase **Inclure** dans le processus de vente peut être soutenue par une entité Opportunité. Les phases **Estimation** et **Révision interne** ne sont soutenus par une entité Devis. Les phases **Contrat**, **Livraison** et **Fermer** peuvent être soutenues par une entité Contrat du projet.
+La phase **Inclure** dans le processus de vente peut être soutenue par une entité Opportunité. Les phases **Estimation** et **Révision interne** ne sont soutenus par une entité Devis. Les phases **Contrat** , **Livraison** et **Fermer** peuvent être soutenues par une entité Contrat du projet.
 
 Lorsque vous déplacez les transactions via les phases, vous êtes invité à créer l'enregistrement d'entité approprié pour vous aider et vous guider dans le processus. Les phases peuvent être conditionnelles. Par exemple, si vous avez besoin d'une révision interne d'un devis uniquement si le devis utilise des tarifs personnalisés, vous pouvez configurer cette condition à la phase appropriée du processus d'entreprise. La phase **Révision interne** est affichée alors uniquement pour les devis qui utilisent des tarifs personnalisés. Pour toutes les autres transactions et devis, la phase **Estimation** est suivie de la phase **Contrat**.
 
 > [!NOTE]
-> Project Operations a des pages spécifiques pour les enregistrements d'entité Opportunité, Devis, Commande et Facture. Vous devez créer ces enregistrements à l'aide des pages d'informations sur le projet de ces entités. Sinon, vous ne pourrez pas ouvrir les enregistrements à partir de la page **Informations de projet**. Si vous souhaitez ouvrir un enregistrement à partir de la page **Informations de projet**, vous devez supprimer l'enregistrement et le recréer à l'aide de la page **Informations de projet** où la logique métier de chacun de ces types d'entités garantit que le champ **Type** de l'enregistrement est correctement défini et que tous les concepts obligatoires sont correctement initialisés.
+> Project Operations a des pages spécifiques pour les enregistrements d'entité Opportunité, Devis, Commande et Facture. Vous devez créer ces enregistrements à l'aide des pages d'informations sur le projet de ces entités. Sinon, vous ne pourrez pas ouvrir les enregistrements à partir de la page **Informations de projet**. Si vous souhaitez ouvrir un enregistrement à partir de la page **Informations de projet** , vous devez supprimer l'enregistrement et le recréer à l'aide de la page **Informations de projet** où la logique métier de chacun de ces types d'entités garantit que le champ **Type** de l'enregistrement est correctement défini et que tous les concepts obligatoires sont correctement initialisés.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Suivre des révisions des devis et des plans de projet dans le cycle de vente

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908098"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075662"
 ---
 # <a name="expense-estimates"></a>Estimations de dépenses
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
@@ -32,9 +32,9 @@ Effectuez les étapes suivantes pour afficher, ajouter ou supprimer une dépense
 
 Les attributs suivants sont définis pour chaque poste de dépense :
 
-- **Catégorie** : Groupements communs utilisés pour décrire toutes les dépenses engagées sur un projet.
-- **Date de début** : Date à laquelle la dépense devrait être engagée.
-- **Quantité** : Nombre estimé de postes de dépenses pour une catégorie spécifique.
-- **Prix de revient unitaire** : Prix unitaire utilisé pour calculer le coût de la dépense.
-- **Prix de vente unitaire** : Prix unitaire utilisé pour calculer le prix de vente de la dépense.
+- **Catégorie**  : Groupements communs utilisés pour décrire toutes les dépenses engagées sur un projet.
+- **Date de début**  : Date à laquelle la dépense devrait être engagée.
+- **Quantité**  : Nombre estimé de postes de dépenses pour une catégorie spécifique.
+- **Prix de revient unitaire**  : Prix unitaire utilisé pour calculer le coût de la dépense.
+- **Prix de vente unitaire**  : Prix unitaire utilisé pour calculer le prix de vente de la dépense.
 

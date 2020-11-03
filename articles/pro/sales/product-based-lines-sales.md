@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896233"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075666"
 ---
 # <a name="product-based-opportunity-lines"></a>Lignes des opportunités selon les produits
 
@@ -25,4 +25,4 @@ Les lignes basées sur les produits peuvent être des articles de catalogue ou d
 
 Un concept sur les lignes d’opportunités basées sur les produits qui est spécifique aux opportunités basées sur des projets est **Budget client**. Utilisez ce champ pour suivre le montant que le client est prêt à payer pour l’élément de ligne.
 
-Si la méthode de revenus du récapitulatif des opportunités est définie sur **Système calculé**, les valeurs du budget client sur les lignes de produits et de projets sont résumées pour calculer les revenus estimés.
+Si la méthode de revenus du récapitulatif des opportunités est définie sur **Système calculé** , les valeurs du budget client sur les lignes de produits et de projets sont résumées pour calculer les revenus estimés.

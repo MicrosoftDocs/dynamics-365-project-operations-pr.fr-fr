@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02c1bafbe907a657689b610ae792f88085320903
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896998"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075705"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Faire correspondre un reçu à une dépense via OCR
 
@@ -47,11 +46,11 @@ Pour joindre automatiquement des reçus qui incluent des transactions par carte 
 ## <a name="create-or-match-receipts-to-an-expense-report"></a>Créer ou faire correspondre des reçus à une note de frais
 Pour créer une dépense ou faire correspondre une dépense à partir d'un reçu, procédez comme suit.
 
-  1. Sur une note de frais, sur l'onglet **Reçus**, joignez un reçu en sélectionnant **Ajouter des reçus**.
+  1. Sur une note de frais, sur l'onglet **Reçus** , joignez un reçu en sélectionnant **Ajouter des reçus**.
   2. Sous l'image téléchargée du reçu, notez les options **Créer** et **Faire correspondre**.
 
       - Sélectionnez **Créer** pour créer une transaction de dépense saisie manuellement et remplir les valeurs extraites du reçu.
-      - Si vous sélectionnez **Faire correspondre**, le système essaie de faire correspondre une dépense existante au reçu.
+      - Si vous sélectionnez **Faire correspondre** , le système essaie de faire correspondre une dépense existante au reçu.
 
 ## <a name="installation"></a>Installation
 
@@ -59,13 +58,13 @@ Pour utiliser ces fonctionnalités avancées de gestion des dépenses, installez
 
 1. Connectez-vous à LCS et ouvrez l'environnement souhaité.
 2. Accédez à **Télécharger avec informations détaillées**.
-3. Sélectionnez **Maintenir à jour**, ou faites défiler vers le bas jusqu'au raccourci **Compléments d'environnement**.
+3. Sélectionnez **Maintenir à jour** , ou faites défiler vers le bas jusqu'au raccourci **Compléments d'environnement**.
 4. Sélectionnez **Installez un nouveau complément**.
 5. Sélectionnez **Service de gestion des dépenses**.
 6. Suivez le guide d'installation et acceptez les termes et conditions.
 7. Sélectionnez **Installer**.
 
-Dans l'espace de travail **Gestion des fonctionnalités**, activez les fonctionnalités suivantes :
+Dans l'espace de travail **Gestion des fonctionnalités** , activez les fonctionnalités suivantes :
 
 - Notes de frais réinventées
 - Correspondance automatique et création de dépenses à partir d'un reçu

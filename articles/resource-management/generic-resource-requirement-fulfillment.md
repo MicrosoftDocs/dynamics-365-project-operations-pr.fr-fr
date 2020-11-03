@@ -1,29 +1,19 @@
 ---
 title: Répondre aux besoins en ressources génériques
-description: Cette rubrique fournit des informations sur la réservation des ressources nommées pour un besoin en ressources générique.
+description: Cette rubrique fournit des informations sur le mode de réservation des ressources nommées pour un besoin en ressources générique.
 author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: ruhercul
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 76dd47fa2451b5cb61298ff332d77bae646a288a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075685"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Répondre aux besoins en ressources génériques
 
@@ -31,9 +21,9 @@ _**S'applique à :** Project Operations pour les scénarios basés sur les res
 
 Vous pouvez réserver une ressource nommée pour remplacer une ressource génériques qui a un besoin en ressources.
 
-1. Sur la page **Projets**, sélectionnez l'onglet **Équipe**.
+1. Sur la page **Projets** , sélectionnez l'onglet **Équipe**.
 2. Sélectionnez la ressource générique qui a un besoin en ressources dans la liste, puis cliquez sur **Réserver**. Ou, ouvrez le besoin en ressources puis cliquez sur **Réserver**.
-3. Dans la page **Assistant Planifier**, sélectionnez une ressource nommée à réserver sur votre équipe du projet, puis cliquez sur **Réserver**.
+3. Dans la page **Assistant Planifier** , sélectionnez une ressource nommée à réserver sur votre équipe du projet, puis cliquez sur **Réserver**.
 
 Une fois la réservation effectuée et satisfaite par une ressource nommée, la ressource générique est remplacée par la ressource nommée.
 

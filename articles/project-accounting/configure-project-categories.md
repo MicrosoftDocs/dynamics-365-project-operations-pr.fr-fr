@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 84033182ce047d230724409eef9bc6afcaefd2b4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895963"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075636"
 ---
 # <a name="configure-project-categories"></a>Configurer les catégories de projets
 
@@ -37,19 +37,19 @@ Les catégories de transaction sont définies dans le module Project Operations.
 
 ## <a name="shared-categories"></a>Catégories partagées
 
-Dynamics 365 utilise le concept de catégories partagées pour classer les dépenses dans différentes applications, telles que Dynamics 365 Finance, Dynamics 365 Supply Chain et Dynamics 365 Project Operations. Pour chaque catégorie de transaction créée, Project Operations crée automatiquement quatre catégories partagées associées : Heures, Dépenses, Frais et Article. Vous pouvez consulter et ajuster les catégories partagées en accédant à **Gestion de projet et comptabilité** \> **Configurer** \> **Catégories** \> **Catégories partagées**.
+Dynamics 365 utilise le concept de catégories partagées pour classer les dépenses dans différentes applications, telles que Dynamics 365 Finance, Dynamics 365 Supply Chain et Dynamics 365 Project Operations. Pour chaque catégorie de transaction créée, Project Operations crée automatiquement quatre catégories partagées associées : Heures, Dépenses, Frais et Article. Vous pouvez consulter et ajuster les catégories partagées en accédant à **Gestion de projets et comptabilité** \> **Configurer** \> **Catégories** \> **Catégories partagées**.
 
 ## <a name="project-categories"></a>Catégories de projets
 
 Les catégories de projet représentent le niveau le plus granulaire de configuration de catégorie et doivent être configurées séparément, et pour chaque entreprise, par un comptable de projet.
 
-1. Accédez à **Gestion de projet et comptabilité** \> **Configurer** \> **Catégories** \> **Catégories de projets**.
+1. Accédez à **Gestion de projets et comptabilité** \> **Configurer** \> **Catégories** \> **Catégories de projets**.
 2. Cliquez sur **Nouveau**.
-3. Sélectionnez l’**Identificateur de catégorie** de la catégorie partagée créée dans la section précédente. Project Operations permet d’utiliser uniquement les catégories partagées associées aux catégories de transaction.
+3. Sélectionnez l’ **Identificateur de catégorie** de la catégorie partagée créée dans la section précédente. Project Operations permet d’utiliser uniquement les catégories partagées associées aux catégories de transaction.
 4. Sélectionnez un groupe de catégories.
 
 ## <a name="category-groups"></a>Groupes de catégories
 
 Les groupes de catégories sont utilisés pour partager des propriétés, principalement des profils de publication, entre des catégories de projet associées. Il doit y avoir au moins un groupe de catégories pour chaque type de transaction et chaque catégorie de projet se voit attribuer un groupe.
 
-Les spécifications de validation dans Project Operations sont définies par les règles de profil de coût et de produit du projet, les catégories de projet et les groupes de catégories. Vous pouvez configurer des groupes de catégories en accédant à **Gestion de projet et comptabilité** \> **Configurer** \> **Catégories** \> **Groupes de catégories**.
+Les spécifications de validation dans Project Operations sont définies par les règles de profil de coût et de produit du projet, les catégories de projet et les groupes de catégories. Vous pouvez configurer des groupes de catégories en accédant à **Gestion de projets et comptabilité** \> **Configurer** \> **Catégories** \> **Groupes de catégories**.

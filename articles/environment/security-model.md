@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896728"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075625"
 ---
 # <a name="security-model"></a>Modèle de sécurité
 
@@ -36,10 +36,11 @@ Les fonctionnalités frontales de Project Operations incluent les rôles suivant
 
 
 Microsoft Project pour le web comprend les rôles suivants :
-| Rôle                          | Description                                                                                                          | Portée |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Utilisateur du projet | Utilisateur collaboratif de projet capable de créer ses propres projets et de visualiser tous les projets partagés avec eux.| Utilisateur|
-| Système de projet | Rôle utilisé pour le contexte de l’application. Les clients ne doivent pas utiliser ce rôle système. | Global|
+
+| Rôle           | Description                                                                                                        | Portée  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Utilisateur du projet   | Utilisateur collaboratif de projet capable de créer ses propres projets et de visualiser tous les projets partagés avec eux. | Utilisateur   |
+| Système de projet | Rôle utilisé pour le contexte de l’application. Les clients ne doivent pas utiliser ce rôle système.                                    | Global |
 
 ## <a name="security-enforcement"></a>Application de la sécurité
 Les actions exécutées au niveau du projet sont effectuées dans le contexte de l’utilisateur connecté. Cela signifie que pour créer, ouvrir ou supprimer un projet, l’utilisateur doit disposer d’un accès disponible dans CDS. L’accès à CDS peut être accordé via l’un des mécanismes possibles inclus dans la plateforme. Par exemple, un utilisateur avec une plus grande portée peut accéder au projet ou si une action de partage de projet explicite a été effectuée qui accorde l’accès à l’utilisateur.
@@ -56,6 +57,8 @@ Les groupes permettent de travailler en collaboration sur les autorisations du p
 Project Operations ne crée pas de groupe via une action implicite et ne le fait que via l’action explicite d’appuyer sur des groupes.
 
 La recherche de membre du groupe dans la boîte de dialogue **Gestion de groupe** est limitée à ceux qui sont définis comme faisant partie du groupe de sécurité de l’environnement. Pour plus d’informations, voir [Contrôle de l’accès des utilisateurs aux environnements : groupes de sécurité et licences](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Mode groupe](./media/groupsmode.png)
 
 1. Le projet est créé et appartient à l’utilisateur créateur.
 2. Le propriétaire du projet est mis à jour dans l’équipe.

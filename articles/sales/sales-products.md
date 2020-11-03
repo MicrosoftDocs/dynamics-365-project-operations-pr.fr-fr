@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898708"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075837"
 ---
 # <a name="products"></a>Produits
 
@@ -34,27 +33,27 @@ Les produits sont la colonne vertébrale de votre entreprise. Le catalogue de pr
 ## <a name="add-a-product"></a>Ajouter un produit
 
 1.  Assurez-vous de disposer du rôle de gestionnaire de Sales Professional ou d'Administrateur système pour pouvoir ajouter des produits à Dynamics 365 Sales Professional.
-2.  Sur le plan de site, sous **Configuration**, sélectionnez **Produits**.
+2.  Sur le plan de site, sous **Configuration** , sélectionnez **Produits**.
 3.  Sélectionnez **Ajouter un produit** et renseignez les informations suivantes :
 
     -  **Nom**
     -  **ID produit**
-    -  **Parent** : Sélectionnez une famille de produits parente pour le produit. Si vous créez un produit enfant dans une famille de produits, le nom de la famille de produits parente est renseignée ici. Elle ne peut pas être modifiée une fois l'enregistrement validé.
-    -  **Valide à partir du**/**Valide jusqu'au** : Définissez la période pendant laquelle le produit est valide en sélectionnant une date **Valide à partir du** et **Valide jusqu'au**.
-    -  **Groupe d'unités** : sélectionnez un groupe d'unités. Un groupe d'unités est un ensemble d'unités diverses dans lesquelles un produit est vendu. Il définit comment des éléments individuels sont regroupés en de plus grandes quantités. Par exemple, si vous ajoutez des graines en tant que produit, vous pouvez avoir créé un groupe d'unités appelé « Graines » et défini son unité principale en tant que « paquet ».
-    -  **Unité par défaut** : sélectionnez l'unité dans laquelle le produit est le plus souvent vendu. Les unités sont les quantités ou les unités de mesure dans lesquelles vous vendez vos produits. Par exemple, si vous ajoutez des graines en tant que produit, vous pouvez les vendre par paquets, boîtes ou palettes. Chacun de ces éléments devient une unité du produit. Si les graines sont principalement vendues en paquets, sélectionnez cette unité.
-    -  **Tarifs par défaut** : S'il s'agit d'un nouveau produit, les données de ce champ sont accessibles en lecture seule. Avant de pouvoir sélectionner un tarif par défaut, vous devez compléter les champs obligatoires, puis enregistrer l’enregistrement. Bien que le tarif par défaut ne soit pas nécessaire, après avoir enregistré le produit, il est bon de définir un tarif par défaut pour chaque produit. Ainsi, si un enregistrement de client ne contient pas de tarif, Sales peut utiliser celui par défaut pour générer des devis, des commandes et des factures.
-    -  **Décimales prises en charge** : Entrez un nombre entier compris entre 0 et 5. Si le produit ne peut pas être fractionné, entrez 0. La précision du champ **Quantité** dans l'enregistrement produit du devis, de la commande ou de la facture est validée par rapport à la valeur dans ce champ si le produit ne comprend pas de tarif associé.
-    -  **Objet** : Associer ce produit à un sujet. Vous pouvez utiliser des sujets pour classer vos produits et appliquer des filtres sur les rapports.
+    -  **Parent**  : Sélectionnez une famille de produits parente pour le produit. Si vous créez un produit enfant dans une famille de produits, le nom de la famille de produits parente est renseignée ici. Elle ne peut pas être modifiée une fois l'enregistrement validé.
+    -  **Valide à partir du**/**Valide jusqu'au**  : Définissez la période pendant laquelle le produit est valide en sélectionnant une date **Valide à partir du** et **Valide jusqu'au**.
+    -  **Groupe d'unités**  : sélectionnez un groupe d'unités. Un groupe d'unités est un ensemble d'unités diverses dans lesquelles un produit est vendu. Il définit comment des éléments individuels sont regroupés en de plus grandes quantités. Par exemple, si vous ajoutez des graines en tant que produit, vous pouvez avoir créé un groupe d'unités appelé « Graines » et défini son unité principale en tant que « paquet ».
+    -  **Unité par défaut**  : sélectionnez l'unité dans laquelle le produit est le plus souvent vendu. Les unités sont les quantités ou les unités de mesure dans lesquelles vous vendez vos produits. Par exemple, si vous ajoutez des graines en tant que produit, vous pouvez les vendre par paquets, boîtes ou palettes. Chacun de ces éléments devient une unité du produit. Si les graines sont principalement vendues en paquets, sélectionnez cette unité.
+    -  **Tarifs par défaut**  : S'il s'agit d'un nouveau produit, les données de ce champ sont accessibles en lecture seule. Avant de pouvoir sélectionner un tarif par défaut, vous devez compléter les champs obligatoires, puis enregistrer l’enregistrement. Bien que le tarif par défaut ne soit pas nécessaire, après avoir enregistré le produit, il est bon de définir un tarif par défaut pour chaque produit. Ainsi, si un enregistrement de client ne contient pas de tarif, Sales peut utiliser celui par défaut pour générer des devis, des commandes et des factures.
+    -  **Décimales prises en charge**  : Entrez un nombre entier compris entre 0 et 5. Si le produit ne peut pas être fractionné, entrez 0. La précision du champ **Quantité** dans l'enregistrement produit du devis, de la commande ou de la facture est validée par rapport à la valeur dans ce champ si le produit ne comprend pas de tarif associé.
+    -  **Objet**  : Associer ce produit à un sujet. Vous pouvez utiliser des sujets pour classer vos produits et appliquer des filtres sur les rapports.
 
 4.  Sélectionnez **Enregistrer**.
-5.  Dans l'onglet **Détails supplémentaires**, dans la section **Éléments tarifaires**, sélectionnez **Plus de commandes**, puis sélectionnez **Ajouter un nouvel élément tarifaire**.
-7.  Dans l'onglet **Détails supplémentaires**, dans la section **Relation de produit**, sélectionnez l'icône **Plus de commandes**, puis sélectionnez **Ajouter une nouvelle la relation de produit.**
-8.  Dans le formulaire **Nouvelle relation de produit**, entrez les détails suivants, et dans la barre de commandes, sélectionnez **Enregistrer et fermer** :
+5.  Dans l'onglet **Détails supplémentaires** , dans la section **Éléments tarifaires** , sélectionnez **Plus de commandes** , puis sélectionnez **Ajouter un nouvel élément tarifaire**.
+7.  Dans l'onglet **Détails supplémentaires** , dans la section **Relation de produit** , sélectionnez l'icône **Plus de commandes** , puis sélectionnez **Ajouter une nouvelle la relation de produit.**
+8.  Dans le formulaire **Nouvelle relation de produit** , entrez les détails suivants, et dans la barre de commandes, sélectionnez **Enregistrer et fermer**  :
 
-    -   **Produit lié** : Sélectionnez un produit à ajouter en tant que produit associé à l'enregistrement de produit existant sur lequel vous travaillez.
-    -   **Type de relation des ventes** : Indiquez si vous souhaitez ajouter le produit en tant que produit de vente incitative, vente croisée, substitut ou accessoire.
-    -   **Direction** : Indiquez si les relations entre les produits sont unidirectionnelles ou bidirectionnelles. Lorsque vous sélectionnez Unidirectionnel, le produit que vous sélectionnez dans **Produit lié** sera indiqué comme recommandation pour le produit existant, mais pas inversement.
+    -   **Produit lié**  : Sélectionnez un produit à ajouter en tant que produit associé à l'enregistrement de produit existant sur lequel vous travaillez.
+    -   **Type de relation des ventes**  : Indiquez si vous souhaitez ajouter le produit en tant que produit de vente incitative, vente croisée, substitut ou accessoire.
+    -   **Direction**  : Indiquez si les relations entre les produits sont unidirectionnelles ou bidirectionnelles. Lorsque vous sélectionnez Unidirectionnel, le produit que vous sélectionnez dans **Produit lié** sera indiqué comme recommandation pour le produit existant, mais pas inversement.
 
 9.  Dans le formulaire Produit, sélectionnez **Enregistrer**.
 
@@ -69,7 +68,7 @@ Conservez l'inventaire de produits à jour en révisant rapidement les propriét
 1.  Assurez-vous de disposer de l'un des rôles de sécurité suivants ou des autorisations équivalentes : Administrateur système, Personnalisateur de système, Directeur commercial, Directeur de division, Vice-président du marketing ou Directeur général/Dirigeant d’entreprise.
 2.  Sur le plan de site, sélectionnez **Produits**.
 3.  Ouvrez un produit actif à modifier, puis, dans la barre de commandes, sélectionnez **Réviser**.
-4.  Dans la boîte de dialogue **Confirmer la révision**, sélectionnez **Confirmer**. Le statut du produit devient **En cours de révision**.
+4.  Dans la boîte de dialogue **Confirmer la révision** , sélectionnez **Confirmer**. Le statut du produit devient **En cours de révision**.
 5.  Une fois que vous avez terminé les modifications, dans la barre de commandes, sélectionnez **Publier**.
 
     > [!TIP]
@@ -93,7 +92,7 @@ Si votre organisation ne vend plus un produit, mettez-le hors service afin qu'il
 1.  Assurez-vous de disposer du rôle d'Administrateur système ou de gestionnaire de Sales Professional ou d'autorisations équivalentes.
 2.  Sur le plan de site, sélectionnez **Produits**.
 3.  Ouvrez un produit actif à mettre hors service, puis, dans la barre de commandes, sélectionnez **Mettre hors service**.
-4.  Dans la boîte de dialogue **Confirmer la mise hors service**, sélectionnez **Confirmer**.
+4.  Dans la boîte de dialogue **Confirmer la mise hors service** , sélectionnez **Confirmer**.
 
 
 ## <a name="delete-a-product"></a>Supprimer un produit
@@ -106,7 +105,7 @@ Pour arrêter de vendre un produit, supprimez-le.
 1.  Assurez-vous de disposer du rôle d'Administrateur système ou de gestionnaire de Sales Professional ou d'autorisations équivalentes.
 2.  Sur le plan de site, sélectionnez **Produits**.
 3.  Sélectionnez un enregistrement de produit à supprimer, puis, dans la barre de commandes, sélectionnez **Supprimer**.
-4.  Dans la boîte de dialogue **Confirmer la suppression**, cliquez sur **Continuer**.
+4.  Dans la boîte de dialogue **Confirmer la suppression** , cliquez sur **Continuer**.
  
  ## <a name="quantity-factors-for-products"></a>Facteurs de quantité pour les produits
 
@@ -120,8 +119,8 @@ Le système valide que seules les propriétés numériques ou les propriétés d
 
 Par exemple, s'il existe les propriétés suivantes : 
 
-- **Nombre d'utilisateurs** : Le nombre d'utilisateurs 
-- **Nombre de mois** : Le nombre de mois d'abonnement
+- **Nombre d'utilisateurs**  : Le nombre d'utilisateurs 
+- **Nombre de mois**  : Le nombre de mois d'abonnement
 - **SKU produit** 
 
 Les propriétés **Nombre d'utilisateurs** et **Nombre de mois** peuvent être marquées comme facteurs de quantité en modifiant les propriétés de la ligne de produit. 

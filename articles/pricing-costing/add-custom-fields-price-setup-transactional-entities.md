@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a27bfe881fdb6431941fa860d279e3e7b526f623
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898303"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075780"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Ajouter des champs personnalisés obligatoires au paramétrage de tarifs et aux entités transactionnelles
 
@@ -34,7 +33,7 @@ Cette rubrique suppose que vous avez effectué les procédures de la rubrique [C
 Dans cette rubrique, les procédures vous afficheront comment ajouter des références de champ aux entités personnalisées requises et aux éléments de l'interface utilisateur (IU), tels que les formulaires et les vues.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Ajouter des champs de dimension de tarification personnalisée 
-Une fois les champs et entités personnalisés créés, l'étape suivante consiste à configurer les prix et informer les entités transactionnelles de toutes les entités ou jeux d'options personnalisés en créant des champs de référence. Selon que votre liste de dimensions de tarification comprend les dimensions de jeu d'options ou les dimensions d'entité, ou les deux, suivez uniquement les étapes de **Dimensions de tarification personnalisées basées sur un jeu d'options** ou **Dimensions de tarification personnalisées basées sur une entité**, ou les deux, respectivement.
+Une fois les champs et entités personnalisés créés, l'étape suivante consiste à configurer les prix et informer les entités transactionnelles de toutes les entités ou jeux d'options personnalisés en créant des champs de référence. Selon que votre liste de dimensions de tarification comprend les dimensions de jeu d'options ou les dimensions d'entité, ou les deux, suivez uniquement les étapes de **Dimensions de tarification personnalisées basées sur un jeu d'options** ou **Dimensions de tarification personnalisées basées sur une entité** , ou les deux, respectivement.
 
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Dimensions de tarification personnalisées basées sur un jeu d'options
 Lorsqu'une dimension de tarification option personnalisée est basée sur un jeu d'options, ajoutez-la en tant que champ dans les entités principales. Dans la procédure suivante, **Emplacement de travail des ressources** et **Heures de travail des ressources** sont utilisées comme dimensions de tarification basées sur un jeu d'options. Elles doivent être préalablement ajoutées en tant que champs dans les entités de tarification, **Prix du rôle** et **Majoration du prix de rôle**.
@@ -43,31 +42,31 @@ Lorsqu'une dimension de tarification option personnalisée est basée sur un jeu
 2. Dans l'Explorateur de solutions, sur le volet de navigation de gauche, sélectionnez **Entités > Prix du rôle**.
 3. Développez l'entité **Prix du rôle** et sélectionnez **Champs**.
 4. Cliquez sur **Nouveau** pour créer un champ nommé **Emplacement de travail des ressources** et sélectionnez **Jeu d'options** comme type de champ. 
-5. Sélectionnez **Utiliser un jeu d'options existant**, sélectionnez le jeu d'options **Emplacement de travail des ressources**, puis cliquez sur **Enregistrer**.
+5. Sélectionnez **Utiliser un jeu d'options existant** , sélectionnez le jeu d'options **Emplacement de travail des ressources** , puis cliquez sur **Enregistrer**.
 6. Répétez les étapes 1 à 5 pour ajouter ce champ à l'entité **Majoration du prix du rôle**. 
 7. Répétez les étapes 1 à 5 du jeu d'options **Heures de travail des ressources**.
 
 > [!IMPORTANT]
 > Lorsque vous ajoutez un champ à plusieurs entités, utilisez le même nom de champ dans toutes les entités. 
 
-Dans les phases de ventes et d'estimation d'un projet, les estimations de l'effort de travail sont requises pour effectuer le travail **Local** et **Sur le site**, et les **Heures régulières** et **Heures supplémentaires**, sont utilisées pour évaluer la valeur du devis/projet. Les champs **Emplacement de travail des ressources** et **Heures de travail des ressources** sont ajoutés aux entités d'estimation, **Détail de la ligne de devis**, **Détails de la ligne de contrat**, **Membre de l'équipe du projet**, puis **Ligne d'estimation**.
+Dans les phases de ventes et d'estimation d'un projet, les estimations de l'effort de travail sont requises pour effectuer le travail **Local** et **Sur le site** , et les **Heures régulières** et **Heures supplémentaires** , sont utilisées pour évaluer la valeur du devis/projet. Les champs **Emplacement de travail des ressources** et **Heures de travail des ressources** sont ajoutés aux entités d'estimation, **Détail de la ligne de devis** , **Détails de la ligne de contrat** , **Membre de l'équipe du projet** , puis **Ligne d'estimation**.
 
-1. Dans Project Operations, sélectionnez **Paramètres** > **Solutions**, puis double-cliquez sur **\<your organization name> dimensions de tarification**. 
+1. Dans Project Operations, sélectionnez **Paramètres** > **Solutions** , puis double-cliquez sur **\<your organization name> dimensions de tarification**. 
 2. Dans l'Explorateur de solutions, sur le volet de navigation de gauche, sélectionnez **Entités > Détail de la ligne de devis**.
-3. Développez l'entité **Détail de la ligne de devis**, et sélectionnez **Champs**.
+3. Développez l'entité **Détail de la ligne de devis** , et sélectionnez **Champs**.
 4. Cliquez sur **Nouveau** pour créer un champ nommé **Emplacement de travail des ressources** et sélectionnez **Jeu d'options** comme type de champ. 
-5. Sélectionnez **Utiliser un jeu d'options existant** et **Emplacement de travail des ressources**, puis cliquez sur **Enregistrer**.
-6. Répétez les étapes 1 à 5 pour ajouter ce champ aux entités **Détails de la ligne de contrat de projet**, **Membre de l'équipe de projet**, et **Ligne d'estimation**.
+5. Sélectionnez **Utiliser un jeu d'options existant** et **Emplacement de travail des ressources** , puis cliquez sur **Enregistrer**.
+6. Répétez les étapes 1 à 5 pour ajouter ce champ aux entités **Détails de la ligne de contrat de projet** , **Membre de l'équipe de projet** , et **Ligne d'estimation**.
 7. Répétez les étapes 1 à 6 du jeu d'options **Heures de travail des ressources**. 
 
-Pour la livraison et la facturation, le travail effectué doit avoir le prix exact pour sélectionner si c'était **Local** ou **Sur le site**, et si effectué pendant les **Heures régulières** ou en **Heures supplémentaires** par rapport aux chiffres réels du projet. Les champs **Emplacement de travail des ressources** et **Heures de travail des ressources** doivent être ajoutés aux entités **Entrée de temps**, **Chiffre réel**, **Détail de la ligne de facture**, et **Ligne de journal**.
+Pour la livraison et la facturation, le travail effectué doit avoir le prix exact pour sélectionner si c'était **Local** ou **Sur le site** , et si effectué pendant les **Heures régulières** ou en **Heures supplémentaires** par rapport aux chiffres réels du projet. Les champs **Emplacement de travail des ressources** et **Heures de travail des ressources** doivent être ajoutés aux entités **Entrée de temps** , **Chiffre réel** , **Détail de la ligne de facture** , et **Ligne de journal**.
 
-1. Sélectionnez **Paramètres** > **Solutions**, puis double-cliquez sur **\<your organization name> dimensions de tarification**.
+1. Sélectionnez **Paramètres** > **Solutions** , puis double-cliquez sur **\<your organization name> dimensions de tarification**.
 2. Dans l'Explorateur de solutions, sur le volet de navigation de gauche, sélectionnez **Entités > Entrée de temps**.
-3. Développez l'entité **Détail de la ligne de devis**, puis sélectionnez **Champs**.
+3. Développez l'entité **Détail de la ligne de devis** , puis sélectionnez **Champs**.
 4. Cliquez sur **Nouveau** pour créer un champ nommé **Emplacement de travail des ressources** et sélectionnez **Jeu d'options** comme type de champ. 
-5. Sélectionnez **Utiliser un jeu d'options existant**, sélectionnez le jeu d'options **Emplacement de travail des ressources**, puis cliquez sur **Enregistrer**.
-6. Répétez les étapes 1 à 5 pour ajouter ce champ aux entités **Chiffre réel**, **Détail de la ligne de facture**, et **Ligne de journal**.
+5. Sélectionnez **Utiliser un jeu d'options existant** , sélectionnez le jeu d'options **Emplacement de travail des ressources** , puis cliquez sur **Enregistrer**.
+6. Répétez les étapes 1 à 5 pour ajouter ce champ aux entités **Chiffre réel** , **Détail de la ligne de facture** , et **Ligne de journal**.
 7. Répétez les étapes 1 à 6 du jeu d'options **Heures de travail des ressources**. 
 
 Cela termine les modifications de schéma requises pour les dimensions personnalisées basées sur un jeu d'options.
@@ -76,7 +75,7 @@ Cela termine les modifications de schéma requises pour les dimensions personnal
 
 Lorsque la dimension personnalisée de tarification est une entité, vous ajoutez une relation 1 à N entre l'entité de dimension et les entités principales. Avec l'exemple de titre standard ci-dessus, il est logique de prévoir que chaque employé se voit attribuer un titre standard. Par conséquent, vous devez disposer d'une relation 1 à N entre le Titre standard et la Ressource réservable, ou une relation N à 1, si elle a été créée entre la Ressource réservable et le Titre standard.
 
-1. Dans Project Operations, sélectionnez **Paramètres** > **Solutions**, puis double-cliquez sur **\<your organization name> dimensions de tarification**. 
+1. Dans Project Operations, sélectionnez **Paramètres** > **Solutions** , puis double-cliquez sur **\<your organization name> dimensions de tarification**. 
 2. Dans l'Explorateur de solutions, sur le volet de navigation de gauche, sélectionnez **Entités > Titre standard**.
 3. Développez l'entité **Titre standard** et sélectionnez **Relation 1 à N**.
 4. Cliquez sur **Nouveau** pour créer une Relation 1 à N appelée **Titre standard à Ressource réservable**. Entrez les informations requises, puis cliquez sur **Enregistrer**.
@@ -86,7 +85,7 @@ Le Titre standard devra également être ajouté aux entités Tarification, **Pr
 1. Dans l'Explorateur de solutions, sur le volet de navigation de gauche, sélectionnez **Entités > Titre standard**.
 2. Développez l'entité **Titre standard** et sélectionnez **Relation 1 à N**.
 3. Cliquez sur **Nouveau** pour créer une Relation 1 à N appelée **Titre standard à Prix du rôle**. Entrez les informations requises, puis cliquez sur **Enregistrer**.
-4. Répétez les étapes 1 à 4 pour créer des relations 1 à N entre les entités **Titre standard** et **Majoration les prix de rôle**,
+4. Répétez les étapes 1 à 4 pour créer des relations 1 à N entre les entités **Titre standard** et **Majoration les prix de rôle** ,
 
 Dans les phases de ventes et d'estimation du projet, pour évaluer le devis/projet, des estimations de l'effort de travail sont requises pour chaque titre standard. Cela signifie que les relations 1 à N entre le Titre standard et chacune de ces entités d'estimation sont nécessaires : 
 
@@ -95,18 +94,18 @@ Dans les phases de ventes et d'estimation du projet, pour évaluer le devis/proj
 - **Membre de l'équipe du projet**
 - **Ligne d'estimation**
 
-5. Répétez les étapes 1 à 5 pour créer des relations 1 à N entre **Titre standard** et **Détail de la ligne de devis**, **Détail de la ligne de contrat du projet**, **Membre de l'équipe du projet**, et **Ligne d'estimation**.
+5. Répétez les étapes 1 à 5 pour créer des relations 1 à N entre **Titre standard** et **Détail de la ligne de devis** , **Détail de la ligne de contrat du projet** , **Membre de l'équipe du projet** , et **Ligne d'estimation**.
 
-  Au cours des phases de livraison et de facturation, le travail effectué par chaque titre standard doit être tarifé exactement dans les chiffres réels du projet. Cela signifie qu'il faut des relations 1 à N entre **Titre standard** et **Entrée de temps**, **Chiffre réel**, **Détail de la ligne de facture**, et **Entités de ligne du journal**.
+  Au cours des phases de livraison et de facturation, le travail effectué par chaque titre standard doit être tarifé exactement dans les chiffres réels du projet. Cela signifie qu'il faut des relations 1 à N entre **Titre standard** et **Entrée de temps** , **Chiffre réel** , **Détail de la ligne de facture** , et **Entités de ligne du journal**.
 
-6. Répétez les étapes 1 à 6 pour créer des relations 1 à N entre **Titre standard** et **Entrée de temps**, **Chiffre réel**, **Détail de la ligne de facture**, et **Entités de ligne du journal**.
+6. Répétez les étapes 1 à 6 pour créer des relations 1 à N entre **Titre standard** et **Entrée de temps** , **Chiffre réel** , **Détail de la ligne de facture** , et **Entités de ligne du journal**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Configuration de la valeur par défaut de Dimension à l'aide des fonctionnalités de mappages de la plateforme
 Pour Entrée de temps, il est utile d'avoir la valeur système par défaut du titre standard sur l'Entrée de temps à partir de la Ressource réservable qui enregistre l'entrée de temps. Suivez les étapes ci-dessous pour ajouter des mappages de champs sur la relation 1 à N entre **Ressource pouvant être réservée** et **Entrée de temps**.
 
 1. Dans l'Explorateur de solutions, sur le volet de navigation de gauche, sélectionnez **Entités > Titre standard**.
 2. Développez l'entité **Titre standard** et sélectionnez **Relation 1 à N**.
-3. Double-cliquez sur **Ressource pouvant être réservée à Entrée de temps**. Dans la page **Relation**, cliquez sur **Utiliser les mappages de champs**. 
+3. Double-cliquez sur **Ressource pouvant être réservée à Entrée de temps**. Dans la page **Relation** , cliquez sur **Utiliser les mappages de champs**. 
 4. Cliquez sur **Nouveau** pour créer un mappage de champs entre le champ **Titre standard** sur l'entité **Ressource pouvant être réservée** et le champ de référence **Titre standard** sur l'entité **Entrée de temps**. 
 
 Cela termine les modifications de schéma requises pour les dimensions personnalisées basées sur une entité.
@@ -116,7 +115,7 @@ Cela termine les modifications de schéma requises pour les dimensions personnal
 Après avoir apporté toutes les modifications requises au schéma, l'étape suivante consiste à rendre les champs visibles dans l'interface utilisateur en ajoutant les champs aux formulaires et aux vues.
 
 1. Ouvrez le formulaire ou la vue. Dans le volet de navigation droit, sélectionnez le champ et faites-le glisser sur le canevas de formulaire. 
-2. Si vous modifiez une vue, utilisez le volet de navigation droit, cliquez sur **Ajouter des champs**, puis dans la boîte de dialogue **Liste des champs**, sélectionnez les champs dont vous avez besoin et cliquez sur **OK**.
+2. Si vous modifiez une vue, utilisez le volet de navigation droit, cliquez sur **Ajouter des champs** , puis dans la boîte de dialogue **Liste des champs** , sélectionnez les champs dont vous avez besoin et cliquez sur **OK**.
 
 Le tableau suivant fournit une liste complète des formulaires et vues prédéfinis, par entité, qui doivent être mis à jour avec les nouveaux champs. Si vous disposez de vues ou formulaires supplémentaires dans vos personnalisations de ces entités, ajoutez-y également les nouveaux champs.
 

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898663"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075966"
 ---
 # <a name="project-price-lists"></a>Tarifs des projets
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations étend l'entité Tarifs dans Dynamics 365 Sales.
 
 Les tarifs inclut des informations fournies par quatre entités distinctes :
 
-- **Tarifs** : Cette entité stocke des informations sur le contexte, la devise, la validité de la date, et l'unité de temps pour la tarification. Le contexte indique si les tarifs sont des taux de coût ou des taux de ventes. 
-- **Devise** : Cette entité stocke la devise des prix sur les tarifs. 
-- **Date** : Cette entité est utilisée lorsque le système essaie d'entrer un prix par défaut dans une transaction. Un tarif contenant une validité de date qui inclut la date de la transaction est sélectionné. Si plusieurs tarifs effectifs sont trouvés à la date de transaction jointe au devis, contrat ou unité d'organisation associée, alors aucun prix n'a de valeur par défaut. 
-- **Temps** : Cette entité stocke l'unité du temps dans laquelle les tarifs sont exprimés, comme les taux quotidiens ou horaires. 
+- **Tarifs**  : Cette entité stocke des informations sur le contexte, la devise, la validité de la date, et l'unité de temps pour la tarification. Le contexte indique si les tarifs sont des taux de coût ou des taux de ventes. 
+- **Devise**  : Cette entité stocke la devise des prix sur les tarifs. 
+- **Date**  : Cette entité est utilisée lorsque le système essaie d'entrer un prix par défaut dans une transaction. Un tarif contenant une validité de date qui inclut la date de la transaction est sélectionné. Si plusieurs tarifs effectifs sont trouvés à la date de transaction jointe au devis, contrat ou unité d'organisation associée, alors aucun prix n'a de valeur par défaut. 
+- **Temps**  : Cette entité stocke l'unité du temps dans laquelle les tarifs sont exprimés, comme les taux quotidiens ou horaires. 
 
 L'entité Tarifs comporte trois tables associées qui stockent des prix :
 
-  - **Prix du rôle** : Cette table stocke un taux pour une combinaison de valeurs de rôle et d'unité d'organisation et est utilisé pour définir des tarifs basés sur les rôles pour les ressources humaines.
-  - **Prix de la catégorie de transaction** : Cette table stocke les prix par catégorie de transaction et est utilisée pour définir les prix des catégories de dépenses.
-  - **Éléments tarifaires** : Cette table stocke les prix des produits du catalogue.
+  - **Prix du rôle**  : Cette table stocke un taux pour une combinaison de valeurs de rôle et d'unité d'organisation et est utilisé pour définir des tarifs basés sur les rôles pour les ressources humaines.
+  - **Prix de la catégorie de transaction**  : Cette table stocke les prix par catégorie de transaction et est utilisée pour définir les prix des catégories de dépenses.
+  - **Éléments tarifaires**  : Cette table stocke les prix des produits du catalogue.
  
 Les tarifs sont une carte de tarifs. Une carte de tarifs est une combinaison de l'entité Tarifs et des lignes associées dans les tables Prix du rôle, Prix de la catégorie de la transaction et Éléments tarifaires.
 
@@ -54,15 +53,15 @@ Le terme *rôle de la ressource* fait référence à un ensemble de compétences
 
 Le temps des ressources humaines est estimé dans le devis selon le rôle qu'une ressource remplit sur un projet spécifique. Pour le temps de ressources humaines, les coûts et la facturation sont basés sur le rôle de la ressource. Le temps peut avoir le prix contenu dans n'importe quelle unité du groupe d'unités **Temps**.
 
-Le groupe d'unités **Temps** est créé lorsque vous installez Project Operations. Son unité par défaut est **Heure**. Vous ne pouvez pas supprimer, renommer, ou modifier les attributs du groupe d'unités **Temps** ou l'unité **Heure**. Cependant, vous pouvez ajouter d'autres unités au groupe d'unités **Temps**. Si vous essayez de supprimer le groupe d'unités **Temps** ou l'unité **Heure**, cela peut entraîner des défaillances dans la logique métier.
+Le groupe d'unités **Temps** est créé lorsque vous installez Project Operations. Son unité par défaut est **Heure**. Vous ne pouvez pas supprimer, renommer, ou modifier les attributs du groupe d'unités **Temps** ou l'unité **Heure**. Cependant, vous pouvez ajouter d'autres unités au groupe d'unités **Temps**. Si vous essayez de supprimer le groupe d'unités **Temps** ou l'unité **Heure** , cela peut entraîner des défaillances dans la logique métier.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Catégories de transactions et catégories de dépenses
 
 Les voyages et autres dépenses encourus par les consultants de projet sont facturés au client. La tarification des catégories de dépenses est effectuée en utilisant des tarifs. Les billets d'avion, l'hôtel et la location de voiture sont des exemples de catégories de dépenses. Chaque ligne de tarif pour les dépenses spécifie la tarification d'une catégorie spécifique de dépenses. Les trois méthodes suivantes sont utilisées pour fixer le prix des catégories de dépenses :
 
-- **À prix coûtant** : Le coût des dépenses est facturé au client, et aucune majoration n'est appliquée.
-- **Pourcentage de majoration** : Le pourcentage sur le coût réel est facturé au client. 
-- **Prix unitaire** : Le prix de facturation est défini par unité de la catégorie de dépenses. Le montant facturé au client est calculé selon le nombre d'unités de dépenses que le consultant signale. Le kilométrage utilise le mode de tarification de prix unitaire. Par exemple, la catégorie de dépenses de kilométrage peut être configurée pour 30 dollars américains (USD) par jour ou 2 USD par mile. Lorsqu'un consultant enregistre le kilométrage d'un projet, le montant à facturer est calculé selon le nombre de miles que le consultant a signalés.
+- **À prix coûtant**  : Le coût des dépenses est facturé au client, et aucune majoration n'est appliquée.
+- **Pourcentage de majoration**  : Le pourcentage sur le coût réel est facturé au client. 
+- **Prix unitaire**  : Le prix de facturation est défini par unité de la catégorie de dépenses. Le montant facturé au client est calculé selon le nombre d'unités de dépenses que le consultant signale. Le kilométrage utilise le mode de tarification de prix unitaire. Par exemple, la catégorie de dépenses de kilométrage peut être configurée pour 30 dollars américains (USD) par jour ou 2 USD par mile. Lorsqu'un consultant enregistre le kilométrage d'un projet, le montant à facturer est calculé selon le nombre de miles que le consultant a signalés.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Tarification et remplacements de ventes du projet
 
@@ -104,7 +103,7 @@ Vous pouvez créer des remplacements spécifiques aux transactions pour des prix
 
 Par défaut, un contrat du projet est toujours une copie du tarif de ventes principal au lieu d'un lien direct vers celui-ci. Ce comportement aide à garantir que les accords tarifaires conclus avec un client dans un énoncé des travaux ne changent pas si le tarif principal est modifié.
 
-Toutefois, dans un devis, vous pouvez utiliser un tarif principal. Par ailleurs, vous pouvez copier un tarif principal et le modifier pour créer un tarif personnalisé qui s'applique uniquement à ce devis. Pour créer un tarif spécifique à un devis, sur la page **Devis**, sélectionnez **Créer la tarification personnalisée**. Vous pouvez accéder au tarif du projet spécifique à la transaction uniquement à partir du devis. 
+Toutefois, dans un devis, vous pouvez utiliser un tarif principal. Par ailleurs, vous pouvez copier un tarif principal et le modifier pour créer un tarif personnalisé qui s'applique uniquement à ce devis. Pour créer un tarif spécifique à un devis, sur la page **Devis** , sélectionnez **Créer la tarification personnalisée**. Vous pouvez accéder au tarif du projet spécifique à la transaction uniquement à partir du devis. 
 
 Lorsque vous créez un tarif personnalisé de projet, seuls les composants de projet des tarifs sont copiés. En d'autres termes, des tarifs créés comme copie du tarif existant de projet attaché au devis, et ce nouveau tarif est associé uniquement aux prix des rôles et aux prix des catégories de transactions.
   

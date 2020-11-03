@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965778"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075624"
 ---
 # <a name="expense-entry-lite"></a>Entrée de dépense (simplifiée)
 
@@ -28,7 +28,7 @@ Pour plus d’informations sur les fonctionnalités de dépense dans Project Ope
 Vous pouvez capturer vos dépenses afin de pouvoir les envoyer à l’approbateur.
 
 1. Accédez à **Dépenses** et sélectionnez **Nouveau**.
-2. Sur la page **Nouvelle dépense**, entrez les informations sur la dépense requise, puis cliquez sur **Enregistrer**.
+2. Sur la page **Nouvelle dépense** , entrez les informations sur la dépense requise, puis cliquez sur **Enregistrer**.
 
 ## <a name="submit-a-basic-expense"></a>Envoyer une dépense de base
 
@@ -41,7 +41,7 @@ Une fois que vous avez fini de saisir toutes vos dépenses et que vous êtes pr�
 
 Lorsque vous envoyez une dépense par erreur, vous pouvez la rappeler. Le temps nécessaire pour rappeler une entrée de dépense dépend de son stade d’approbation.  Si l’approbateur n’a pas encore approuvé l’entrée, le rappel peut avoir lieu immédiatement. Cependant, si l’entrée a déjà été approuvée, l’approbateur est invité à approuver le rappel et à annuler les transactions.
 
-1. Accédez à **Dépenses**, puis, dans la liste des dépenses, sélectionnez la dépense à rappeler.
+1. Accédez à **Dépenses** , puis, dans la liste des dépenses, sélectionnez la dépense à rappeler.
 2. Sélectionnez **Rappeler**. Si l’entrée de dépenses n’a pas encore été approuvée, le système la rappelle immédiatement. Si l’écriture de dépenses a déjà été approuvée, une demande de rappel est créée pour informer l’approbateur que vous souhaitez annuler la dépense. L’approbateur confirmera alors que l’annulation peut être effectuée et l’entrée sera renvoyée.
 
 ## <a name="delete-a-basic-expense"></a>Supprimer une dépense de base

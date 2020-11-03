@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948847"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075605"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Appliquer la configuration de démonstration et les données de configuration pour le déploiement simplifié de Project Operations – Traiter la facturation pro forma
 
@@ -21,11 +21,11 @@ _**Déploiement simplifié – traiter la facturation pro forma_
 
 1. Téléchargez le [package de données principal](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Accédez au dossier *ProjOpsDemoDataSetupAndMaster - Integrated CMT* et exécutez le fichier exécutable, *DataMigrationUtility*.
-3. Sur la page 1 de l’Assistant de migration de configuration (CMT) Common Data Service, sélectionnez **Importer des données**, puis **Continuer**.
+3. Sur la page 1 de l’Assistant de migration de configuration (CMT) Common Data Service, sélectionnez **Importer des données** , puis **Continuer**.
 
 ![Migration de la configuration](./media/1ConfigurationMigration.png)
 
-4. Sur la page 2 de l’Assistant CMT, sélectionnez **Office 365** comme le **Type de déploiement**.
+4. Sur la page 2 de l'Assistant CMT, sélectionnez **Microsoft 365** comme **Type de déploiement**.
 5. Cochez les cases **Afficher une liste des organisations disponibles** et **Afficher les paramètres avancés**.
 6. Sélectionnez la région de votre client, entrez vos informations d’identification, puis sélectionnez **Connexion**.
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908101"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075670"
 ---
 # <a name="project-based-quote-lines-pro"></a>Lignes du devis selon les projets (Pro)
 
@@ -49,15 +49,15 @@ Le tableau suivant fournit des informations sur les champs de l’onglet **Gén�
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Règles de validation pour les champs de l’onglet Général des lignes de devis basées sur le projet
 
-**Règle 1** : Si le champ **Tâches incluses** est vide ou s’il est défini sur **Toutes les tâches du projet**, un projet est inclus dans la ligne de devis.
+**Règle 1**  : Si le champ **Tâches incluses** est vide ou s’il est défini sur **Toutes les tâches du projet** , un projet est inclus dans la ligne de devis.
 
-**Règle 2** : Si le champ **Tâches incluses** est vide ou s’il est défini sur **Toutes les tâches du projet**, un projet et une certaine classe de transaction ne peuvent être inclus que sur une seule ligne de devis basée sur un projet d’un devis.
+**Règle 2**  : Si le champ **Tâches incluses** est vide ou s’il est défini sur **Toutes les tâches du projet** , un projet et une certaine classe de transaction ne peuvent être inclus que sur une seule ligne de devis basée sur un projet d’un devis.
 
-**Règle 3** : Si le champ **Tâches incluses** est défini sur **Tâches du projet sélectionnées uniquement**, un projet et une certaine classe de transaction ne peuvent être inclus que sur plusieurs lignes de devis basées sur un projet d’un devis.
+**Règle 3**  : Si le champ **Tâches incluses** est défini sur **Tâches du projet sélectionnées uniquement** , un projet et une certaine classe de transaction ne peuvent être inclus que sur plusieurs lignes de devis basées sur un projet d’un devis.
 
-**Règle 4** : Si une opportunité comporte plusieurs devis, il peut y avoir des lignes de devis de différents devis qui font toutes référence au même projet et incluent la même classe de transaction.
+**Règle 4**  : Si une opportunité comporte plusieurs devis, il peut y avoir des lignes de devis de différents devis qui font toutes référence au même projet et incluent la même classe de transaction.
 
-**Règle 5** : Si les devis n’appartiennent pas à la même opportunité, ils ne peuvent pas inclure le même projet et la même classe de transaction.
+**Règle 5**  : Si les devis n’appartiennent pas à la même opportunité, ils ne peuvent pas inclure le même projet et la même classe de transaction.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

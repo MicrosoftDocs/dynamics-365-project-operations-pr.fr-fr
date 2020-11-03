@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948850"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075613"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Configurer et appliquer les données de configuration dans le Common Data Service pour Project Operations
 
@@ -23,11 +23,11 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 1. Téléchargez, débloquez et décompressez le [Package de données d’installation et de configuration](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
 2. Accédez au dossier décompressé et exécutez le fichier exécutable, *DataMigrationUtility*.
-3. Sur la page 1 de l’Assistant de migration de configuration (CMT) Common Data Service, sélectionnez **Importer des données**, puis **Continuer**.
+3. Sur la page 1 de l’Assistant de migration de configuration (CMT) Common Data Service, sélectionnez **Importer des données** , puis **Continuer**.
 
 ![Migration de la configuration](./media/1ConfigurationMigration.png)
 
-4. Sur la page 2 de l’Assistant CMT, sélectionnez **Office 365** comme le **Type de déploiement**.
+4. Sur la page 2 de l'Assistant CMT, sélectionnez **Microsoft 365** comme **Type de déploiement**.
 5. Cochez les cases **Afficher une liste des organisations disponibles** et **Afficher les paramètres avancés**.
 6. Sélectionnez la région de votre client, entrez vos informations d’identification et sélectionnez **Connexion**.
 
@@ -75,15 +75,15 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 ![Ouvrir l’environnement](./media/7OpenEnvironment.png)
 
-2. Accédez à **Projets** > **Ressources**, puis sélectionnez **Nouveau** pour créer une ressource réservable pour votre utilisateur.
+2. Accédez à **Projets** > **Ressources** , puis sélectionnez **Nouveau** pour créer une ressource réservable pour votre utilisateur.
 
 ![Ressources pouvant être réservées](./media/8BookableResources.png)
 
-3. Sur l’onglet **Général**, sélectionnez votre utilisateur administrateur. Vérifiez que le fuseau horaire correspond à celui dans lequel vous vous trouvez. 
+3. Sur l’onglet **Général** , sélectionnez votre utilisateur administrateur. Vérifiez que le fuseau horaire correspond à celui dans lequel vous vous trouvez. 
 
 ![Nouvelle ressource pouvant être réservée](./media/9NewBookableResource.png)
 
-4. Sur l’onglet **Planification**, dans le champ **Société**, choisissez la société **USPM**, puis **Enregistrer**. 
+4. Sur l’onglet **Planification** , dans le champ **Société** , choisissez la société **USPM** , puis **Enregistrer**. 
 
 ![Onglet Planification](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
  
 12. Mettez à jour les champs suivants :
 
- - **Société par défaut** : USPM
- - **Unité d’organisation par défaut** : Contoso Robotics Global
- - **Fréquence de facturation** : Septième et dernier jour
- - **Modèle d’heure de travail** : Passez au modèle que vous avez créé.
+ - **Société par défaut**  : USPM
+ - **Unité d’organisation par défaut**  : Contoso Robotics Global
+ - **Fréquence de facturation**  : Septième et dernier jour
+ - **Modèle d’heure de travail**  : Passez au modèle que vous avez créé.
 
 13. Sélectionnez **Enregistrer**. 
 

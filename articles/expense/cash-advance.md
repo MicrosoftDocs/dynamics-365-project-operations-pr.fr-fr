@@ -11,11 +11,11 @@ ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
 ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908092"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075623"
 ---
 # <a name="cash-advance"></a>Paiement en avance
 
@@ -25,17 +25,17 @@ Une avance de fonds permet aux employés d’emprunter de l’argent à leur ent
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Créer et soumettre une demande d’avance de fonds
 
-1. Sous **Mes dépenses**, sélectionnez **Avances de fonds** > **Nouveau** pour créer une avance de fonds. 
-2. Sur la page **Nouvelle demande d’avance de fonds**, entrez l’objet de la dépense et sélectionnez l’emplacement où la dépense sera engagée.
+1. Sous **Mes dépenses** , sélectionnez **Avances de fonds** > **Nouveau** pour créer une avance de fonds. 
+2. Sur la page **Nouvelle demande d’avance de fonds** , entrez l’objet de la dépense et sélectionnez l’emplacement où la dépense sera engagée.
 3. Saisissez le montant et la devise demandés, puis sélectionnez **Enregistrer**. 
-4. Lorsque vous êtes prêt à soumettre la demande d’avance de fonds, sur la page **Demande d’avance de fonds**, sélectionnez **Workflow** > **Envoyer**.
+4. Lorsque vous êtes prêt à soumettre la demande d’avance de fonds, sur la page **Demande d’avance de fonds** , sélectionnez **Workflow** > **Envoyer**.
 
 ## <a name="modify-a-cash-advance-request"></a>Modifier une demande d’avance de fonds
 
 Vous pouvez modifier une demande d’avance de fonds si elle n’a pas été envoyée pour approbation.
 
-1. Sous **Mes dépenses : avances de fonds**, recherchez et sélectionnez l’avance de fonds à modifier.
-2. Sélectionnez **Modifier**, et apportez les modifications nécessaires à la demande d’avance de fonds. 
+1. Sous **Mes dépenses : avances de fonds** , recherchez et sélectionnez l’avance de fonds à modifier.
+2. Sélectionnez **Modifier** , et apportez les modifications nécessaires à la demande d’avance de fonds. 
 3. Sélectionnez **Enregistrer et fermer**.
 
 
@@ -46,13 +46,13 @@ Vous pouvez consulter la liste de toutes les avances de fonds qui sont en projet
 
 Les gestionnaires ou utilisateurs configurés comme approbateurs dans le workflow pourront approuver les avances de fonds qui leur sont envoyées pour examen. 
 
-1. Pour approuver une avance de fonds, sous **Traiter les avances de fonds**, sélectionnez **Avances de fonds pour révision**.
+1. Pour approuver une avance de fonds, sous **Traiter les avances de fonds** , sélectionnez **Avances de fonds pour révision**.
 2. Sélectionnez l’avance de fonds à vérifier et sélectionnez **Approuver**.  
 
 ## <a name="pay-cash-advances"></a>Payer une avance de fonds 
 La procédure suivante est généralement effectuée par un comptable ou un utilisateur disposant d’autorisations de comptabilité.
 
-1. Pour valider les avances de fonds approuvées, sélectionnez **Avances de fonds approuvées**, puis **Payer et transférer**.  
+1. Pour valider les avances de fonds approuvées, sélectionnez **Avances de fonds approuvées** , puis **Payer et transférer**.  
 2. Fournissez les détails du journal pour les avances de fonds, puis sélectionnez **OK**. 
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Envoyer une note de frais contre une avance de fonds versée 

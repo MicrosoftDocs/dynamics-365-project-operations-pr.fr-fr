@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961163"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075600"
 ---
 # <a name="approvals-overview"></a>Vue d’ensemble des approbations
 
@@ -27,7 +27,7 @@ Lorsque vous créez et envoyez une entrée de temps ou de dépense, une entrée 
 ## <a name="approve-an-entry"></a>Approuver une entrée
 Le formulaire **Approbations** vous permet de basculer entre différentes vues afin de pouvoir afficher les différents types d’approbations.
   
-1. Accédez au formulaire **Approbations** et sélectionnez **Dépenses**, **Temps**, ou **Rappels**.
+1. Accédez au formulaire **Approbations** et sélectionnez **Dépenses** , **Temps** , ou **Rappels**.
 2. Passez en revue chaque approbation et sélectionnez celles que vous souhaitez approuver.
 3. Sélectionnez **Approuver** pour approuver les entrées sélectionnées.
 Le système traitera ces entrées et créera des chiffres réels ou une réservation.
@@ -47,7 +47,7 @@ En tant qu’approbateur de projet, vous devrez peut-être renvoyer une entrée 
 Chaque projet dispose d’un certain nombre de membres de l’équipe de projet. Vous pouvez spécifier les membres de l’équipe qui sont également des approbateurs de projet.
 
 1. Accédez au formulaire **Projets** et ouvrez le projet dans la liste.
-2. Sur l’onglet **Équipe**, sélectionnez le membre de l’équipe qui sera un approbateur de projet, puis sélectionnez **Modifier**.
+2. Sur l’onglet **Équipe** , sélectionnez le membre de l’équipe qui sera un approbateur de projet, puis sélectionnez **Modifier**.
 3. Définissez le champ **Approbateur du projet** sur **Oui**.
 4. Sélectionnez **Enregistrer**.
 5. Répétez les étapes 2 à 4 pour ajouter des approbateurs de projet supplémentaires.
@@ -55,7 +55,7 @@ Chaque projet dispose d’un certain nombre de membres de l’équipe de projet.
 ## <a name="configure-the-users-manager"></a>Configurer le gestionnaire de l’utilisateur
 
 1. Accédez à **Paramètres** > **Sécurité** > **Utilisateurs**.
-2. Sélectionnez l’utilisateur auquel vous affectez un responsable et dans la zone **Informations sur l’organisation**, sélectionnez le responsable dans la liste. 
+2. Sélectionnez l’utilisateur auquel vous affectez un responsable et dans la zone **Informations sur l’organisation** , sélectionnez le responsable dans la liste. 
 3. Sélectionnez **Enregistrer**.
 
 

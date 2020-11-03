@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ff624a13ec88ae64dba18715fbe9b94353b070e8
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961859"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075658"
 ---
 # <a name="navigating-the-user-interface"></a>Parcourir l’interface utilisateur
 
@@ -23,37 +23,37 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 Le formulaire principal du projet est divisé en plusieurs onglets. Chaque onglet représente un niveau de détail différent au sein du projet.
 
-- **Résumé** : Fournit une description du projet et regroupe les performances prévues et réelles du projet.
+- **Résumé**  : Fournit une description du projet et regroupe les performances prévues et réelles du projet.
 
     ![Onglet et champs Résumé](media/navigation7.png)
 
-- **Tâches** : Fournit les détails concernant la structure de répartition du travail représentée par une vue de grille, une vue de tableau et un gantt.
+- **Tâches**  : Fournit les détails concernant la structure de répartition du travail représentée par une vue de grille, une vue de tableau et un gantt.
 
     ![Onglet et champs Tâche](media/navigation8.png)
 
-- **Équipe** : Fournit des détails sur les participants au projet. L’effort assigné à chaque membre de l’équipe est également résumé dans cette vue.
+- **Équipe**  : Fournit des détails sur les participants au projet. L’effort assigné à chaque membre de l’équipe est également résumé dans cette vue.
 
     ![Onglet et champs Équipe](media/navigation9.png)
 
-- **Affectations de ressources** : Fournit une vue échelonnée de l’effort pour chaque ressource d’un projet.
+- **Affectations de ressources**  : Fournit une vue échelonnée de l’effort pour chaque ressource d’un projet.
 
     ![Onglet et champs Affectations de ressources](media/navigation10.png)
 
-- **Rapprochement des ressources** : Fournit une vue chronologique des différences entre les affectations de chaque ressource nommée et leurs réservations.
+- **Rapprochement des ressources**  : Fournit une vue chronologique des différences entre les affectations de chaque ressource nommée et leurs réservations.
 
     ![Onglet et champs Rapprochement de ressources](media/navigation11.png)
 
-- **Estimations** : Fournit une vue échelonnée des estimations des coûts et des ventes d’un projet.
+- **Estimations**  : Fournit une vue échelonnée des estimations des coûts et des ventes d’un projet.
 
     ![Onglet et champs Estimations](media/navigation12.png)
 
-- **Suivi** : Fournit une vue qui montre la progression des tâches dans la structure de répartition du travail pour l’effort, le coût et les ventes.
+- **Suivi**  : Fournit une vue qui montre la progression des tâches dans la structure de répartition du travail pour l’effort, le coût et les ventes.
 
     ![Onglet et champs Suivi](media/navigation13.png)
 
-- **Ventes** : Fournit des liens profonds vers les devis et les contrats associés au projet.
+- **Ventes**  : Fournit des liens profonds vers les devis et les contrats associés au projet.
 
-- **Estimations des dépenses** : Fournit une grille qui définit les dépenses du projet en fonction des catégories de dépenses organisationnelles.
+- **Estimations des dépenses**  : Fournit une grille qui définit les dépenses du projet en fonction des catégories de dépenses organisationnelles.
 
     ![Onglet et champs Estimations des dépenses](media/navigation14.png)
 
@@ -63,42 +63,42 @@ Ce qui suit est un bref aperçu des contrôles typiques trouvés sur les différ
 
 ### <a name="refresh"></a>Refresh
 
-**Actualiser** : Récupère les dernières données du serveur si des modifications se sont produites après le chargement de la grille.
+**Actualiser**  : Récupère les dernières données du serveur si des modifications se sont produites après le chargement de la grille.
 
 ![Bouton Actualiser](media/navigation7.png)
 
 ### <a name="group-by"></a>Regrouper par
 
-**Regrouper par** : Met à jour le regroupement des lignes dans la grille pour refléter les ressources, les rôles ou les catégories en fonction des besoins de l’utilisateur.
+**Regrouper par**  : Met à jour le regroupement des lignes dans la grille pour refléter les ressources, les rôles ou les catégories en fonction des besoins de l’utilisateur.
 
 ![Bouton Regrouper par](media/navigation6.png)
 
 ### <a name="previousnext"></a>Précédent/Suivant
 
-**Précédent**/**Suivant** : Mettre à jour les périodes de temps visibles sur les grilles chronologiques.
+**Précédent**/**Suivant**  : Mettre à jour les périodes de temps visibles sur les grilles chronologiques.
 
 ![Boutons Précédent et Suivant](media/navigation2.png)
 
 ### <a name="timescale"></a>Échelle de temps
 
-**Échelle de temps** : Modifiez l’agrégation des données chronologiques entre les jours, les semaines, les mois et les années.
+**Échelle de temps**  : Modifiez l’agrégation des données chronologiques entre les jours, les semaines, les mois et les années.
 
 ![Bouton Échelle de temps](media/navigation3.png)
 
 ### <a name="expand"></a>Développer
 
-**Développer** : Rendre la grille visible en plein écran, offrant plus de possibilité de voir des rôles supplémentaires.
+**Développer**  : Rendre la grille visible en plein écran, offrant plus de possibilité de voir des rôles supplémentaires.
 
 ![bouton Développer](media/navigation4.png)
 
 ### <a name="time-phase-by"></a>Phase de temps par
 
-**Phase de temps par** : Mettez à jour le regroupement des lignes de la grille pour refléter les estimations de coût pour les estimations de ventes. Ce contrôle s’applique également au script d’estimation et à la grille de suivi.
+**Phase de temps par**  : Mettez à jour le regroupement des lignes de la grille pour refléter les estimations de coût pour les estimations de ventes. Ce contrôle s’applique également au script d’estimation et à la grille de suivi.
 
 ![Bouton Phase de temps par](media/navigation0.png)
 
 ### <a name="add-column"></a>Ajouter une colonne
 
-**Ajouter une colonne** : Permet à l’utilisateur de définir les colonnes visibles dans la grille. Seules les colonnes prêtes à l’emploi peuvent être ajoutées aux grilles dans le formulaire **Planification de projet**.
+**Ajouter une colonne**  : Permet à l’utilisateur de définir les colonnes visibles dans la grille. Seules les colonnes prêtes à l’emploi peuvent être ajoutées aux grilles dans le formulaire **Planification de projet**.
 
 ![Bouton Ajouter une colonne](media/navigation5.png)

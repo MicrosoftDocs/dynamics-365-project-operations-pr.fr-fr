@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 336e479ad39653af14cca7930fe63e906b7de489
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965673"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075612"
 ---
 # <a name="understand-project-status"></a>Comprendre le statut du projet
 

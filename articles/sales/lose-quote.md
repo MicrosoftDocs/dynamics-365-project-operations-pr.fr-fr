@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928563"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075617"
 ---
 # <a name="copy-project-based-quotes"></a>Copier les devis selon les projets
 
@@ -21,13 +21,13 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 Vous pouvez facilement créer un devis de projet en copiant un existant. 
 
-- Pour copier un devis de projet, sur la page de liste **Devis de projets** ou la page des détails **Devis de projet**, sélectionnez le devis de projet à copier, puis sélectionnez **Copier**.
+- Pour copier un devis de projet, sur la page de liste **Devis de projets** ou la page des détails **Devis de projet** , sélectionnez le devis de projet à copier, puis sélectionnez **Copier**.
 
 Cela ouvrira une page de dialogue où vous pourrez entrer les paramètres de la copie. Le tableau suivant répertorie les champs inclus dans la page de dialogue : Selon les valeurs que vous sélectionnez, le processus de copie peut changer.
 
 | **Champ** | **Pertinence, objectif et conseils** | **Impact en aval** |
 | --- | --- | --- |
-| Rubrique | Saisissez le sujet, ou le nom, du devis cible. Lorsque la boîte de dialogue s’ouvre, le système le définira sur le sujet du devis source avec **-copie** comme suffixe. | |
+| Rubrique | Saisissez la rubrique, ou le nom, du devis cible. Lorsque la boîte de dialogue s’ouvre, le système le définira sur la rubrique du devis source avec **-copie** comme suffixe. | |
 | Prospect | Référence à la société ou à l’enregistrement de compte du client. Lorsque la boîte de dialogue s’ouvre, le système le définira sur le compte du devis source. | Ce champ est le client principal du devis. |
 | Unité contractuelle | Unité organisationnelle responsable de la livraison du ou des projets associés à cette transaction.
 Lorsque la boîte de dialogue s’ouvre, le système le définira sur l’unité contractuelle du devis source. | L’unité contractuelle est la division de l’entreprise qui exécutera les projets après la conclusion de la transaction. Chaque unité contractuelle dispose d’une devise. La devise est utilisée pour déclarer les coûts estimés et réels engagés pendant l’exécution du projet. |

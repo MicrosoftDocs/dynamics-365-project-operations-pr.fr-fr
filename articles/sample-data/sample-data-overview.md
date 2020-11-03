@@ -7,7 +7,6 @@ ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,11 +17,11 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d6fa1239770064adb3c63cdbbfa427ab3ef3d300
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: b4164b912cc9ecc0d1452ca9f8c6073ba24316c5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898799"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075953"
 ---
 # <a name="sample-data-home-page"></a>Page d’accueil des exemples de données

@@ -3,17 +3,17 @@ title: S’inscrire à l’abonnement à la version préliminaire
 description: Cette rubrique fournit des informations sur la façon de souscrire et de déployer le déploiement simplifié de Project Operations – Traiter la facturation pro forma.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a9c1432e8971eeb7918e23e00be9989294335f49
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948849"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075603"
 ---
 # <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Inscrivez-vous à un abonnement à la version préliminaire pour le déploiement simplifié – traiter la facturation pro forma
 
@@ -26,98 +26,67 @@ Cette rubrique explique des informations sur la façon de souscrire à l’offre
 
 - Vous recevrez un e-mail vous invitant à participer à la version préliminaire. Vous pouvez demander une version préliminaire sur le [site web de Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
 - L’utilisateur qui déploie la version préliminaire doit disposer des droits administrateur général du client Azure.
-- L’utilisateur qui déploie la version préliminaire aura besoin d’un numéro de téléphone et d’une carte de crédit valide. Lors de l’inscription, il n’y aura pas de frais sur la carte pendant six mois. Après six mois, vous devez annuler l’abonnement. 
 - Passez en revue tous les termes et conditions.
 
-## <a name="subscribe"></a>S’abonner
+## <a name="subscribe"></a>S'abonner
 
-Lorsque vous recevez une approbation d’une [demande de version préliminaire](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), vous recevez deux offres de Microsoft par e-mail. Ces offres vous permettent de déployer la version préliminaire de Project Operations :
+Lorsque vous recevez une approbation d'une [demande de version préliminaire](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), vous recevez deux offres de Microsoft par e-mail. Ces offres vous permettent de déployer la version préliminaire de Project Operations :
 
-- Version d’essai de Dynamics 365 Customer Service – Code à usage unique
-- Dynamics 365 Project Operations – Version d’essai
+- Dynamics 365 Project Operations (CRM) – Version d’essai
+- Office 365 Project Operations - Version d'essai
 
-### <a name="dynamics-365-customer-service-paid-offer"></a>Offre payée de Dynamics 365 Customer Service
+> [!IMPORTANT]
+> Une seule personne, l’administrateur du client, dans une organisation doit effectuer cette tâche. Si vous n’êtes pas abonné à cette version, attendez que votre organisation soit inscrite et que vous ayez reçu vos informations d’identification utilisateur.
 
-1. À l’aide d’une fenêtre de navigateur InPrivate/Incognito, utilisez le premier code d’offre pour Dynamics 365 Customer Service. Pour vous inscrire à Customer Service, vous aurez besoin de :
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Version d’essai 
 
-- un numéro de téléphone ;
-- une carte de crédit. Lors de votre inscription, il n’y aura pas de frais sur la carte pendant six mois. Après six mois, vous devez annuler l’abonnement.
-- Passez en revue tous les termes et conditions.
+Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur avec le compte de travail de l'utilisateur dans le client où vous souhaitez la version préliminaire de Project Operations.
 
-2. Fournissez vos coordonnées de contact.
+1. Utilisez le premier code promotionnel **Dynamics 365 Project Operations (CRM) - Version d'essai** en le collant dans l'URL du navigateur.
 
-![Informations sur le contact](./media/1ContactInformation.png)
+![Accepter l’offre](./media/16RedeemFirstOfferNew.png)
 
-3. Fournissez les détails du nouveau client.
+2. Confirmez votre commande.
+![Confirmer la commande](./media/17ConfirmOrderNew.png)
 
-![Créer un ID utilisateur](./media/2CreateUserID.png)
+Vous verrez la confirmation que l'offre a été utilisée avec succès.
 
-4. Vérifiez votre identité, enregistrez votre nouvel ID utilisateur, puis sélectionnez **Configurer**.
+![Confirmation](./media/18OrderConfirmationNew.png)
 
-![Enregistrer les informations](./media/3SaveInfo.png)
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Version d'essai
 
-5. Complétez l’inscription par carte de crédit et révisez toutes les conditions générales. 
-
-![Remplissez la carte de crédit](./media/4CompleteCreditCard.png)
-
-![Payer par carte de crédit](./media/5CreditCardCheckout.png)
-
-![Enregistrer la commande](./media/6SaveOrder.png)
-
-![Confirmation de la carte de crédit](./media/7Confirmation.png)
-
-## <a name="cancel-the-dynamics-365-customer-service-enterprise-offer"></a>Annuler l’offre Dynamics 365 Customer Service, édition Enterprise
-
-L’offre Dynamics 365 Customer Service, édition Enterprise est fournie gratuitement pendant six mois. L’offre sera renouvelée au tarif plein à la fin de la période de six mois. Pour annuler avant la date de renouvellement, suivez les instructions suivantes. 
-
-> [!NOTE]
-> Une fois ces étapes terminées, vous ne pourrez plus utiliser l’environnement de version préliminaire publique de Project Operations.
-
-1. Accédez au [Portail d’administration](https://admin.microsoft.com/), et sous **Facturation**, sélectionnez **Vos produits**.
-
-![Portail d’administration, votre page produits](./media/8AdminPortal.png)
-
-2. Sélectionnez l’offre **Dynamics 365 Customer Service, édition Enterprise**.
-
-![Annuler l’abonnement](./media/9CancelSubscription.png)
-
-3. Sélectionnez **Paramètres** > **Actions** > **Annuler l’abonnement**.
-4. Sur le formulaire **Annulation de l’abonnement**, entrez les informations dans les champs obligatoires.
-5. Sélectionnez **Annuler** > **Abonnement.**
-
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – Version d’essai
-
-1. Utilisez la deuxième offre, version d’essai Dynamics 365 Project Operations avec l’URL fournie dans votre e-mail de bienvenue.
-
-![Accepter l’offre 2](./media/10RedeemOffer2.png)
-
-2. Vérifiez que vous êtes connecté en tant qu’utilisateur appartenant à la même organisation qui a été abonnée à l’aide du premier code d’offre, puis continuez à utiliser l’offre. 
-3. Sélectionnez **Oui, ajoutez-le à mon compte**.
-
-![Ajouter au compte](./media/11AddToAccount.png)
-
-![Écran Essayer maintenant](./media/12TryNow.png)
-
-![Détails de la commande](./media/13Confirmation.png)
+Répétez les mêmes étapes que pour le premier code d'offre. Assurez-vous d'ajouter le deuxième code d'offre en utilisant le même compte d'utilisateur que celui utilisé avec le premier code d'offre.
 
 ## <a name="assign-licenses"></a>Attribuer des licences
 
 > [!IMPORTANT]
-> Vous aurez besoin d’un accès administratif au portail Office 365 de votre organisation pour terminer les étapes suivantes.
+> Vous aurez besoin d'un accès administratif au portail Microsoft 365 de votre organisation pour terminer les étapes suivantes.
+
 
 1. Accédez au [Centre d’administration Microsoft 365](https://portal.office.com/) pour attribuer les licences à vos utilisateurs.
 
 ![Page d’accueil du centre d’administration](./media/14AdminPortal.png)
 
-2. Sur la page **Utilisateurs actifs**, sélectionnez les utilisateurs auxquels vous souhaitez attribuer une licence.
+2. Sur la page **Utilisateurs actifs** , sélectionnez les utilisateurs auxquels vous souhaitez attribuer une licence.
 
 ![Attribuer des licences](./media/15AssignLicenses.png)
 
-3. Vérifiez que les licences **Customer Service, édition Enterprise** et **Project Operations** ont été sélectionnées et sélectionnez **Enregistrer les modifications**.
+3. Vérifiez que les licences **Dynamics 365 Project Operations (CRM) - Version préliminaire** et **Office 365 Project Operations - Version préliminaire** sont sélectionnées. 
+4. Sélectionnez **Enregistrer les modifications**.
 
 ## <a name="create-a-new-cds-environment"></a>Créer un environnement CDS
 
-Mettez en service un nouvel environnement de déploiement CDS Project Operations en suivant les instructions de la rubrique [Modèle de déploiement CDS](lite-deployment.md).
+1. Mettez en service un nouvel environnement de déploiement CDS Project Operations en suivant les instructions de la rubrique [Modèle de déploiement CDS](lite-deployment.md). Lorsque vous sélectionnez le type d'environnement, assurez-vous d'utiliser la **Version d'essai (basé sur un abonnement)**.
+![Nouvel environnement](./media/19CreateEnvironment.png)
+
+2. Sélectionnez le paramètre **Activer les applications Dynamics 365** , puis laissez **Déployer automatiquement ces applications** vide.  
+3. Sélectionnez **Enregistrer** pour créer l'environnement.
+
+![Ajouter une base de données](./media/20CreateEnvironment1.png)
+
+4. Une fois l'environnement créé, installez la solution **Microsoft Dynamics 365 Project Operations**. 
+
+![Installer la solution](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installez une configuration CDS et des données de démonstration de configuration
 

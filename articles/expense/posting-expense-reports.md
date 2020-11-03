@@ -7,7 +7,6 @@ ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec897373cd74f7d7f63cd9ca4c46f4245336eb7f
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 866252c1961f359cecdb729ca909d96bcb03b1f4
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075704"
 ---
 # <a name="post-expense-reports"></a>Publier des notes de frais
 
@@ -29,6 +28,6 @@ Une fois qu’une note de frais a été approuvée et transférée dans la feuil
 
 Si les dépenses sur une note de frais sont imputées à une entreprise autre que l’entreprise qui emploie l’employé, vous devez vérifier à la fois l’entreprise à laquelle ces dépenses sont dues et l’entreprise à laquelle elles sont dues. Par exemple, l’employé qui a soumis une note de frais travaille pour la société DAT mais a facturé une dépense à la société DIR. Dans ce cas, DAT est l’entreprise à laquelle la dépense est due et DIR est l’entreprise à laquelle la dépense est due. Après avoir vérifié ces lignes de journal, vous pouvez enregistrer les lignes de dépenses dans la comptabilité.
 
-Pour valider une note de frais, sur la page **Notes de frais approuvées**, sélectionnez la note de frais, puis, dans le volet Actions, sélectionnez **Valider**.
+Pour valider une note de frais, sur la page **Notes de frais approuvées** , sélectionnez la note de frais, puis, dans le volet Actions, sélectionnez **Valider**.
 
 Vous pouvez également valider toutes les notes de frais de la liste en même temps. Sélectionnez toutes les notes de frais, puis sélectionnez **Valider**.

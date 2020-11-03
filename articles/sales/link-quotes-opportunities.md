@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898529"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075652"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Créer des devis de projet à partir d’opportunités
 
@@ -30,7 +30,7 @@ Les devis peuvent être créés à partir d’opportunités de projet des maniè
 Pour créer un devis de projet à partir d’une opportunité, procédez comme suit.
 
 1. Ouvrez la page **Opportunité de projet** et sélectionnez l’onglet **Devis**. 
-2. Sur la sous-grille **Devis**, sélectionnez le **+** pour créer un devis de projet en fonction de l’opportunité. Toutes les lignes d’opportunité et les tarifs de projet associés sont copiés dans le nouveau devis à partir de l’opportunité.
+2. Sur la sous-grille **Devis** , sélectionnez le **+** pour créer un devis de projet en fonction de l’opportunité. Toutes les lignes d’opportunité et les tarifs de projet associés sont copiés dans le nouveau devis à partir de l’opportunité.
 
 ## <a name="from-the-opportunity-sales-process-flow"></a>À partir du flux des processus de vente Opportunité
 
@@ -38,8 +38,8 @@ Pour créer un devis de projet à partir du flux des processus de vente Opportun
 
 1. Dans le flux des processus de vente Opportunité, ouvrez l’opportunité.
 2. Sélectionnez la phase **Qualifier**. 
-3. Sélectionnez **Suivant**, puis **+ Créer** pour créer un devis. La plupart des informations sur l’onglet **Résumé** pour ce nouveau devis seront par défaut à partir de l’opportunité. 
-4. Entrez les informations requises manquantes ou mettez à jour les valeurs par défaut si nécessaire sur l’onglet **Résumé**,
+3. Sélectionnez **Suivant** , puis **+ Créer** pour créer un devis. La plupart des informations sur l’onglet **Résumé** pour ce nouveau devis seront par défaut à partir de l’opportunité. 
+4. Entrez les informations requises manquantes ou mettez à jour les valeurs par défaut si nécessaire sur l’onglet **Résumé** ,
 5. Sélectionnez **Enregistrer**. Le devis est créé et associé à l’opportunité. Vous pouvez maintenant afficher les informations de devis sur l’onglet **Devis** de la page **Opportunité**. 
 
    Le processus de vente d’opportunité passe à l’étape suivante, **Proposer**.
@@ -50,9 +50,9 @@ Pour créer un devis de projet à partir du flux des processus de vente Opportun
 Un devis existant peut être lié à une opportunité. Effectuez les étapes suivantes pour mettre à jour les informations d’opportunité sur un devis existant.
 
 1. Ouvrez la page **Devis** et sélectionnez l’onglet **Résumé**.
-2. Dans le champ **Opportunité**, sélectionnez l’opportunité que vous souhaitez lier au devis. Vous pouvez voir le devis dans la grille **Devis** de l’opportunité. 
+2. Dans le champ **Opportunité** , sélectionnez l’opportunité que vous souhaitez lier au devis. Vous pouvez voir le devis dans la grille **Devis** de l’opportunité. 
 3. À l’aide du processus de vente Opportunité, l’opportunité peut être déplacée vers l’étape suivante, **Proposer**. 
 
    Lorsque vous déplacez une opportunité vers cette phase, vous pouvez sélectionner ce devis dans une liste de devis associés à cette opportunité. La sélection de ce devis indique que vous poursuivez.
 
-   Tous les autres devis associés à l’opportunité seront toujours disponibles et actifs jusqu’à ce que l’un d’eux soit remporté. Vous pouvez ramener le processus de vente à la phase précédente **Qualifier**, et choisir un autre devis pour avancer.
+   Tous les autres devis associés à l’opportunité seront toujours disponibles et actifs jusqu’à ce que l’un d’eux soit remporté. Vous pouvez ramener le processus de vente à la phase précédente **Qualifier** , et choisir un autre devis pour avancer.

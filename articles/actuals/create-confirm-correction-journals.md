@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 274f99527804b0db81b26201a22eb5a8cbe86c9a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075737"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Créer et confirmer des journaux de correction
 
@@ -37,31 +36,31 @@ Pour effectuer les procédures de cette rubrique, vous aurez besoin des autorisa
 
 Effectuez les étapes suivantes pour corriger des entrées de temps individuellement ou en masse pour un projet.
 
-1. Dans la zone **Ventes**, sélectionnez **Transactions**, puis **Heure approuvée**. 
+1. Dans la zone **Ventes** , sélectionnez **Transactions** , puis **Heure approuvée**. 
 
-2. Dans la liste **Heure approuvée**, localisez et sélectionnez une ou plusieurs entrées d'heure approuvées à corriger. Vous pouvez utiliser le filtre pour localiser les entrées associées. Par exemple, vous pouvez filtrer sur un ID de projet et sélectionner toutes les entrées de temps approuvées ayant cet ID de projet.
+2. Dans la liste **Heure approuvée** , localisez et sélectionnez une ou plusieurs entrées d'heure approuvées à corriger. Vous pouvez utiliser le filtre pour localiser les entrées associées. Par exemple, vous pouvez filtrer sur un ID de projet et sélectionner toutes les entrées de temps approuvées ayant cet ID de projet.
 
 3. Sélectionnez **Corriger les entrées**. Un nouveau journal de correction est automatiquement créé, avec le type **Correction de temps** attribué. Les entrées que vous avez sélectionnées sont ajoutées au journal. 
 
-4. Sur la page **Nouveau journal**, entrez une **Description** pour votre journal de correction, puis sélectionnez l'onglet **Corrections d'entrée de temps**.  
+4. Sur la page **Nouveau journal** , entrez une **Description** pour votre journal de correction, puis sélectionnez l'onglet **Corrections d'entrée de temps**.  
 
-5. Dans la section **Nouvelles valeurs pour les entrées des temps**, mettez à jour les champs avec les informations correctes si nécessaire. Par exemple, vous pouvez modifier le projet affecté ou la ressource réservable.
+5. Dans la section **Nouvelles valeurs pour les entrées des temps** , mettez à jour les champs avec les informations correctes si nécessaire. Par exemple, vous pouvez modifier le projet affecté ou la ressource réservable.
 
-6. Sélectionnez **Aperçu**. Sélectionnez **OK** dans la boîte de dialogue. Sur l'onglet **Lignes de journal**, vous pouvez afficher la liste des valeurs réelles d'origine liées aux entrées de temps sélectionnées qui ont été annulées et les lignes correspondantes corrigées qui ont été créées. Si des corrections supplémentaires doivent être apportées, répétez les étapes 5 et 6. 
+6. Sélectionnez **Aperçu**. Sélectionnez **OK** dans la boîte de dialogue. Sur l'onglet **Lignes de journal** , vous pouvez afficher la liste des valeurs réelles d'origine liées aux entrées de temps sélectionnées qui ont été annulées et les lignes correspondantes corrigées qui ont été créées. Si des corrections supplémentaires doivent être apportées, répétez les étapes 5 et 6. 
 
 > [!NOTE]
 > Tous les chiffres réels corrigés auront les mêmes valeurs que celles sélectionnées dans la section **Nouvelles valeurs pour les entrées des temps**.
 
 7. Si les corrections sont correctes, sélectionnez **Confirmer**. Sélectionnez **OK** dans la boîte de dialogue.
 
-8. Revenez dans la zone **Ventes** et sélectionnez **Projets**, puis ouvrez le projet pour lequel vous venez de mettre à jour les entrées d'heure. 
+8. Revenez dans la zone **Ventes** et sélectionnez **Projets** , puis ouvrez le projet pour lequel vous venez de mettre à jour les entrées d'heure. 
 
-9. Sur la page **Projets**, dans l'onglet **Chiffres réels**, affichez les modifications que vous avez apportées. 
+9. Sur la page **Projets** , dans l'onglet **Chiffres réels** , affichez les modifications que vous avez apportées. 
 
 > [!NOTE]
 > Si l'onglet **Chiffres réels** n'est pas visible, sélectionnez **Association** > **Chiffres réels**.  
 
-10. Dans la liste **Vue associée Chiffre réel**, vous pouvez voir que les entrées d'heure d'origine qui ont été annulées sont toujours répertoriées, tout comme les entrées d'heure corrigées correspondantes. 
+10. Dans la liste **Vue associée Chiffre réel** , vous pouvez voir que les entrées d'heure d'origine qui ont été annulées sont toujours répertoriées, tout comme les entrées d'heure corrigées correspondantes. 
 
 Par exemple, dans le graphique suivant, deux éléments de ligne dont la quantité est 8,00 ont des débits répertoriés dans la colonne Montant. En outre, deux éléments de ligne dont la quantité est -8,00 indiquent des montants crédités dans la colonne Montant. Ces corrections ramènent la quantité à zéro.
 
@@ -70,11 +69,11 @@ Par exemple, dans le graphique suivant, deux éléments de ligne dont la quantit
 
 Effectuez les étapes suivantes pour corriger une ou plusieurs entrées de dépense. 
 
-1. Dans la zone **Ventes** du volet de navigation de gauche, sous **Transactions**, sélectionnez **Dépenses approuvées**.
+1. Dans la zone **Ventes** du volet de navigation de gauche, sous **Transactions** , sélectionnez **Dépenses approuvées**.
 
-2. Dans la liste **Dépenses approuvées**, sélectionnez le projet que vous souhaitez corriger, puis sélectionnez **Corriger les entrées**. Un nouveau journal de correction est automatiquement créé, avec le type **Correction de dépenses** attribué. 
+2. Dans la liste **Dépenses approuvées** , sélectionnez le projet que vous souhaitez corriger, puis sélectionnez **Corriger les entrées**. Un nouveau journal de correction est automatiquement créé, avec le type **Correction de dépenses** attribué. 
 
-3. Sur la page **Nouveau journal**, entrez une **Description** pour la correction, et sur l'onglet **Correction des dépenses** dans la section **Nouvelles valeurs pour les dépenses**, sélectionnez les champs de données à corriger pour les lignes de dépenses sélectionnées. Par exemple, vous pouvez affecter la dépense à un autre **Projet** ou corriger la **Catégorie de dépense**, la **Date de dépense**, ou la **Ressource réservable**.
+3. Sur la page **Nouveau journal** , entrez une **Description** pour la correction, et sur l'onglet **Correction des dépenses** dans la section **Nouvelles valeurs pour les dépenses** , sélectionnez les champs de données à corriger pour les lignes de dépenses sélectionnées. Par exemple, vous pouvez affecter la dépense à un autre **Projet** ou corriger la **Catégorie de dépense** , la **Date de dépense** , ou la **Ressource réservable**.
 
 4. Sélectionnez **Aperçu**. Sélectionnez **OK** dans la boîte de dialogue. 
 
@@ -87,6 +86,6 @@ Effectuez les étapes suivantes pour corriger une ou plusieurs entrées de dépe
 
 7. Après avoir confirmé le journal de correction, revenez au projet ou aux projets que vous avez mis à jour pour afficher vos modifications.  
 
-8. Dans la page du projet, sur l'onglet **Chiffres réels**, passez en revue **Vue associée Chiffre réel**. Les entrées originales et les entrées corrigées sont répertoriées. Le graphique suivant montre les montants d'entrée des dépenses d'origine et ceux des dépenses corrigées correspondants. 
+8. Dans la page du projet, sur l'onglet **Chiffres réels** , passez en revue **Vue associée Chiffre réel**. Les entrées originales et les entrées corrigées sont répertoriées. Le graphique suivant montre les montants d'entrée des dépenses d'origine et ceux des dépenses corrigées correspondants. 
 
 

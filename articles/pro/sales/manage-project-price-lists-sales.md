@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966772"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075663"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Gérer les tarifs des projets sur les devis de projet (Ventes)
 
@@ -48,8 +48,8 @@ Les tarifs de projet peuvent être définis par défaut sur un devis de projet. 
 ### <a name="set-up-organizational-default-for-project-price-lists"></a>Configurer une valeur d’organisation par défaut pour un tarif de projet
 
 1. Accédez à **Paramètres** > **Général** > **Paramètres**.
-2. Sur la page de liste **Paramètres actifs**, recherchez l’enregistrement et double-cliquez pour l’ouvrir. 
-3. Sur la page **Paramètres**, sélectionnez l’onglet **Tarifs**. Vous pouvez voir que la liste des tarifs par défaut est affichée. Il s’agit de tarifs standard de coûts et de prix de vente de liste. Le fait d’associer ici un tarif de vente pour chaque devise dans laquelle vous vendez garantit que ce tarif de vente est défini par défaut sur tout devis que vous créez pour les clients qui effectuent des transactions dans cette devise.
+2. Sur la page de liste **Paramètres actifs** , recherchez l’enregistrement et double-cliquez pour l’ouvrir. 
+3. Sur la page **Paramètres** , sélectionnez l’onglet **Tarifs**. Vous pouvez voir que la liste des tarifs par défaut est affichée. Il s’agit de tarifs standard de coûts et de prix de vente de liste. Le fait d’associer ici un tarif de vente pour chaque devise dans laquelle vous vendez garantit que ce tarif de vente est défini par défaut sur tout devis que vous créez pour les clients qui effectuent des transactions dans cette devise.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Configurer des tarifs de projet spécifiques au client
 
@@ -57,13 +57,13 @@ Des tarifs de projet spécifiques au client peuvent également être configurés
 
 Pour configurer un tarif de projet spécifique au client, procédez comme suit.
 
-1. Dans la zone **Ventes**, sélectionnez **Clients**.
+1. Dans la zone **Ventes** , sélectionnez **Clients**.
 2. Dans la liste de vos comptes actifs, sélectionnez et ouvrez la fiche client pour laquelle vous avez un tarif spécial.
-3. Sur l’onglet **Tarifs des projets**, vous pouvez créer une association de tarifs pour avoir le tarif du projet qui est spécifique à ce client.
+3. Sur l’onglet **Tarifs des projets** , vous pouvez créer une association de tarifs pour avoir le tarif du projet qui est spécifique à ce client.
 
 ## <a name="create-custom-pricing-on-a-project-quote"></a>Créer une tarification personnalisée sur un devis de projet
 
 Une fois que vous disposez de tarifs de projet par défaut pour l’organisation et le client, vos devis de projet seront automatiquement créés avec ces associations de tarifs de projet. Cependant, dans certains cas, vous devrez peut-être créer une tarification personnalisée pour un devis de projet spécifique. 
 
-1. Sur le **Devis de projet**, sur l’onglet **Tarif du projet**, vérifiez dans la sous-grille qu’aucun enregistrement de tarif spécifique n’est sélectionné.
+1. Sur le **Devis de projet** , sur l’onglet **Tarif du projet** , vérifiez dans la sous-grille qu’aucun enregistrement de tarif spécifique n’est sélectionné.
 2. Sélectionnez **Créer des tarifs personnalisés**. Cela fera des copies de tous les tarifs standard actuellement associés au devis et associera ces copies au devis. Les associations existantes avec les tarifs standard seront supprimées. Le vendeur peut alors commencer à modifier les prix de ces copies. Ces prix modifiés seront applicables à ce devis de projet uniquement.
