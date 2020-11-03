@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 58868694987688e279e717d1f7acaf3fd9514770
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948854"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075599"
 ---
 # <a name="collaboration-with-office-groups"></a>Collaboration avec les groupes Office
 

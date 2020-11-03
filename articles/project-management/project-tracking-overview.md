@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907360"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075591"
 ---
 # <a name="project-tracking-overview"></a>Vue d’ensemble du suivi des projets
 
@@ -25,10 +25,10 @@ La nécessité de suivre la progression par rapport à une planification varie p
 
 La vue **Suivi de l’effort** suit la progression des tâches dans le calendrier en comparant les heures d’effort réelles consacrées à une tâche aux heures d’effort planifiées de la tâche. Dynamics 365 Project Operations utilise les formules suivantes pour calculer les mesures de suivi :
 
-- **Pourcentage de progression** : Cumul des efforts réels consacrés ÷ Estimation à l’achèvement 
-- **Estimation avant achèvement** : Efforts planifiés – Cumul des efforts réels consacrés 
-- **Estimation à l’achèvement** : Efforts restants + Cumul des efforts réels consacrés 
-- **Écart d’efforts escomptés** : Efforts planifiés – EAA
+- **Pourcentage de progression**  : Cumul des efforts réels consacrés ÷ Estimation à l’achèvement 
+- **Estimation avant achèvement**  : Efforts planifiés – Cumul des efforts réels consacrés 
+- **Estimation à l’achèvement**  : Efforts restants + Cumul des efforts réels consacrés 
+- **Écart d’efforts escomptés**  : Efforts planifiés – EAA
 
 Project Operations affiche une projection de l’écart d’efforts de la tâche. Si l’EAA excède les efforts planifiés, la tâche est prévue de prendre plus de temps qu’initialement planifié, et est en retard. Si l’EAA est inférieur aux efforts planifiés, la tâche est prévue de prendre moins de temps qu’initialement planifié, et est en avance.
 
@@ -60,10 +60,10 @@ La vue **Suivi du coût** compare le coût réel consacré à une tâche au coû
 > [!NOTE]
 > Cette vue affiche uniquement les coûts de main-d’œuvre et n’inclut pas les estimations des coûts des dépenses. Project Operations utilise les formules suivantes pour calculer les mesures de suivi :
 
-- **Pourcentage des coûts consommés** : Cumul des coûts réels consacrés ÷ Estimation des coûts à l’achèvement
-- **Coût pour terminer** : Coûts planifiés – Cumul des coûts réels consacrés
-- **EAA** : Coût restant + Cumul des coûts réels consacrés
-- **Écart de coûts projetés** : Coûts planifiés – EAA
+- **Pourcentage des coûts consommés**  : Cumul des coûts réels consacrés ÷ Estimation des coûts à l’achèvement
+- **Coût pour terminer**  : Coûts planifiés – Cumul des coûts réels consacrés
+- **EAA**  : Coût restant + Cumul des coûts réels consacrés
+- **Écart de coûts projetés**  : Coûts planifiés – EAA
 
 Une projection de l’écart de coûts est affiché sur la tâche. Si l’EAA excède les coûts planifiés, la tâche est prévue d’être plus coûteux qu’initialement planifié. Par conséquent, sa tendance excède le budget. Si l’EAA est inférieur aux coûts planifiés, la tâche est prévue d’être moins coûteuse qu’initialement planifié. Par conséquent, sa tendance est inférieure au budget.
 
