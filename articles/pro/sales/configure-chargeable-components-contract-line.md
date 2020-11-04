@@ -34,7 +34,7 @@ Un sous-ensemble des composants inclus peut être marqué comme payant à l'aide
 
 Les composants payants peuvent être définis sur les tâches, les rôles et les catégories de transaction.
 
-La tarification est définie sur les tâches pour une ligne de contrat de projet et s'applique à toutes les classes de transaction incluses sur la ligne. Si le champ **Inclure les tâches** sur une ligne de contrat est vide ou est défini sur **Projet entier** , l'onglet **Tâches payantes** n'est pas disponible.
+La tarification est définie sur les tâches pour une ligne de contrat de projet et s'applique à toutes les classes de transaction incluses sur la ligne. Si le champ **Inclure les tâches** sur une ligne de contrat est vide ou est défini sur * *Projet entier* *, l'onglet **Tâches payantes** n'est pas disponible.
 
 La tarification est définie sur les rôles pour une ligne de contrat de projet s'applique uniquement à la classe de transaction **Temps**. Si le champ **Inclure le temps** sur une ligne de contrat est défini sur **Non** , l'onglet **Rôles facturables** ne sera pas disponible.
 
