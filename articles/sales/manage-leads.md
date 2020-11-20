@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075598"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181764"
 ---
 # <a name="manage-leads"></a>Gérer les prospects
 
@@ -23,7 +23,7 @@ Les prospects selon le projet peuvent être gérés et qualifiés dans Project O
 
 ## <a name="project-sales-leads"></a>Prospects selon le projet
 
-Dans la section **Ventes** , dans le volet de navigation de gauche, ouvrez la page de liste **Prospects** pour afficher une liste de tous les enregistrements de prospects dans le système. La liste des prospects affichée est basée sur le travail et d’autres types de prospects qui peuvent être créés si vous disposez également de Dynamics 365 Sales ou des applications Dynamics 365 Field Service.
+Dans la section **Ventes**, dans le volet de navigation de gauche, ouvrez la page de liste **Prospects** pour afficher une liste de tous les enregistrements de prospects dans le système. La liste des prospects affichée est basée sur le travail et d’autres types de prospects qui peuvent être créés si vous disposez également de Dynamics 365 Sales ou des applications Dynamics 365 Field Service.
 
 Vous pouvez créer un vue filtrée pour afficher uniquement les prospects selon un projet en créant un filtre sur la valeur **Type**. Par exemple, vous pouvez choisir d’afficher uniquement les prospects selon le travail.
 
@@ -38,7 +38,7 @@ Pour qu’un prospect qualifié crée automatiquement une opportunité, définis
 
 Le tableau suivant comprend des informations de champ importantes pour un prospect et les implications en aval de ces champs.
  
-| **Champ** | **Emplacement** | **Pertinence, objectif et conseils** | **Impact en aval** |
+| **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |
 | Rubrique | Onglet Général | Ce champ de texte doit contenir une brève description de la transaction. | Le sujet du prospect sera par défaut le sujet de l’opportunité et le nom du devis et du contrat de projet. |
 | Type | Onglet Général | Ce champ de groupe d’options comporte les options suivantes :</br>- Basé sur le travail (disponible uniquement lorsque Project Operations est installé)</br>- Basé sur l’article (disponible uniquement lorsque Project Operations et Sales sont installés)</br>- Service basé sur la maintenance (disponible lorsque Field Service est installé) | Lorsque la valeur de ce champ est définie sur **Basé sur le travail** sur le prospect, celui-ci est qualifié pour créer une opportunité basée sur un projet. Une opportunité basée sur un projet est requise pour activer toutes les extensions et fonctionnalités spécifiques au projet dans le processus de vente en aval pour cette transaction. |
@@ -53,7 +53,7 @@ Les prospects qui ont la valeur **Type** définie sur **Basé sur le travail** s
 
 - Un compte qui utilise le champ **Société** du prospect.
 - Un enregistrement de contact associé au compte en fonction des valeurs des champs **Prénom** et **Nom** sur le prospect.
-- Une opportunité basée sur un projet qui a le champ **Type** défini sur &quot;**Basé sur le travail**.
+- Une opportunité basée sur un projet qui a le champ **Type** défini sur **Basé sur le travail**.
 
 Pour plus d’informations sur la qualification des prospects, voir [Qualifier ou convertir des prospects](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

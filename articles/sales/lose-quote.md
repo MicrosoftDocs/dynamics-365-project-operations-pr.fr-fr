@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075617"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181809"
 ---
 # <a name="copy-project-based-quotes"></a>Copier les devis selon les projets
 
@@ -21,11 +21,11 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 Vous pouvez facilement créer un devis de projet en copiant un existant. 
 
-- Pour copier un devis de projet, sur la page de liste **Devis de projets** ou la page des détails **Devis de projet** , sélectionnez le devis de projet à copier, puis sélectionnez **Copier**.
+- Pour copier un devis de projet, sur la page de liste **Devis de projets** ou la page des détails **Devis de projet**, sélectionnez le devis de projet à copier, puis sélectionnez **Copier**.
 
 Cela ouvrira une page de dialogue où vous pourrez entrer les paramètres de la copie. Le tableau suivant répertorie les champs inclus dans la page de dialogue : Selon les valeurs que vous sélectionnez, le processus de copie peut changer.
 
-| **Champ** | **Pertinence, objectif et conseils** | **Impact en aval** |
+| **Champ** | **Description** | **Impact en aval** |
 | --- | --- | --- |
 | Rubrique | Saisissez la rubrique, ou le nom, du devis cible. Lorsque la boîte de dialogue s’ouvre, le système le définira sur la rubrique du devis source avec **-copie** comme suffixe. | |
 | Prospect | Référence à la société ou à l’enregistrement de compte du client. Lorsque la boîte de dialogue s’ouvre, le système le définira sur le compte du devis source. | Ce champ est le client principal du devis. |

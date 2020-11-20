@@ -1,21 +1,21 @@
 ---
-title: Lignes du devis selon les projets (Pro)
+title: Vue d’ensemble des lignes du devis basées sur un projet – Simplifié
 description: Cette rubrique fournit des informations sur l’utilisation des lignes de devis basées sur un projet pour le travail du projet. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075670"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181089"
 ---
-# <a name="project-based-quote-lines-pro"></a>Lignes du devis selon les projets (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Vue d’ensemble des lignes du devis basées sur un projet – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -31,9 +31,9 @@ Les lignes de devis basées sur un projet sont conçues pour aider à estimer le
 
 Le tableau suivant fournit des informations sur les champs de l’onglet **Général** de la ligne de devis basée sur le projet. Ces champs aident à jeter les bases d’une estimation détaillée et à la base du travail du projet.
 
-| **Champ** | **Pertinence, objectif et conseils** | **Impact en aval** |
+| **Champ** | **Description** | **Impact en aval** |
 | --- | --- | --- |
-| Nom | Nom de la ligne de devis qui devrait vous aider à identifier le composant discret du devis qui est estimé. | Copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu. |
+| Nom  | Nom de la ligne de devis qui devrait vous aider à identifier le composant discret du devis qui est estimé. | Copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu. |
 | Mode de facturation | Sur un devis créé à partir d’une opportunité, cette valeur est copiée à partir du champ correspondant sur la ligne d’opportunité. Ce champ comprend les deux principaux modèles de contrats pris en charge par Dynamics 365 Project Operations :</br>- Prix fixe</br>- Temps et matériel.| Ce champ est copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu. |
 | Project | Utilisez ce champ facultatif pour identifier le projet qui sera utilisé pour livrer le travail sur cet engagement. Lorsqu’un projet est mappé à une ligne de devis, cela aide à configurer des tâches facturables et également à intégrer une estimation basée sur le projet à la ligne de devis en tant que détails de la ligne de devis. Lorsqu’un projet n’est pas mappé à une ligne de devis basée sur un projet, l’estimation doit être créée manuellement en créant chaque détail de ligne de devis. | Ce champ est copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu.|
 | Tâches incluses | Indique si cette ligne de devis est utilisée pour tout ou partie des tâches du projet pour le projet sélectionné. Ce champ contient les valeurs possibles suivantes :</br>- Toutes les tâches du projet</br>- Tâches du projet sélectionnées uniquement</br>Une valeur vide dans ce champ équivaut à l’option **Toutes les tâches du projet**. | Lorsque **Tâches de projet sélectionnées uniquement** est sélectionné sur la page du projet, l’onglet **Configuration de la facturation des tâches** vous permet de sélectionner des tâches spécifiques pour les associer à cette ligne de devis. Ce champ est copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu. |
@@ -49,15 +49,15 @@ Le tableau suivant fournit des informations sur les champs de l’onglet **Gén�
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Règles de validation pour les champs de l’onglet Général des lignes de devis basées sur le projet
 
-**Règle 1**  : Si le champ **Tâches incluses** est vide ou s’il est défini sur **Toutes les tâches du projet** , un projet est inclus dans la ligne de devis.
+**Règle 1** : Si le champ **Tâches incluses** est vide ou s’il est défini sur **Toutes les tâches du projet**, un projet est inclus dans la ligne de devis.
 
-**Règle 2**  : Si le champ **Tâches incluses** est vide ou s’il est défini sur **Toutes les tâches du projet** , un projet et une certaine classe de transaction ne peuvent être inclus que sur une seule ligne de devis basée sur un projet d’un devis.
+**Règle 2** : Si le champ **Tâches incluses** est vide ou s’il est défini sur **Toutes les tâches du projet**, un projet et une certaine classe de transaction ne peuvent être inclus que sur une seule ligne de devis basée sur un projet d’un devis.
 
-**Règle 3**  : Si le champ **Tâches incluses** est défini sur **Tâches du projet sélectionnées uniquement** , un projet et une certaine classe de transaction ne peuvent être inclus que sur plusieurs lignes de devis basées sur un projet d’un devis.
+**Règle 3** : Si le champ **Tâches incluses** est défini sur **Tâches du projet sélectionnées uniquement**, un projet et une certaine classe de transaction ne peuvent être inclus que sur plusieurs lignes de devis basées sur un projet d’un devis.
 
-**Règle 4**  : Si une opportunité comporte plusieurs devis, il peut y avoir des lignes de devis de différents devis qui font toutes référence au même projet et incluent la même classe de transaction.
+**Règle 4** : Si une opportunité comporte plusieurs devis, il peut y avoir des lignes de devis de différents devis qui font toutes référence au même projet et incluent la même classe de transaction.
 
-**Règle 5**  : Si les devis n’appartiennent pas à la même opportunité, ils ne peuvent pas inclure le même projet et la même classe de transaction.
+**Règle 5** : Si les devis n’appartiennent pas à la même opportunité, ils ne peuvent pas inclure le même projet et la même classe de transaction.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

@@ -1,21 +1,21 @@
 ---
-title: Concepts clés de devis de projet
+title: Devis – Concepts clé – Simplifié
 description: Cette rubrique offre des informations sur l’utilisation des devis de projet dans Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075664"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178003"
 ---
-# <a name="project-quote-key-concepts"></a>Concepts clés de devis de projet
+# <a name="quotes---key-concepts---lite"></a>Devis – Concepts clé – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -78,7 +78,7 @@ Les transactions multi-clients se produisent lorsqu’il y a plus d’un client 
 
 ## <a name="invoice-schedules"></a>Planifications de facture
 
-Les planifications de facture sont spécifiques à chaque ligne de devis et sont également facultatifs. Les planifications de facture sont créées en fonction de certaines dates de début et de fin et de la fréquence de facturation. Les planifications de facture sont utilisées à l’étape du contrat lorsque le processus de création automatique de facture est configuré. À la phase de devis, les planifications sont facultatives. Lorsque les planifications de facture sont créées à la phase **Devis** , elles sont copiées dans le contrat de projet créé lorsqu’un devis de projet est remporté.
+Les planifications de facture sont spécifiques à chaque ligne de devis et sont également facultatifs. Les planifications de facture sont créées en fonction de certaines dates de début et de fin et de la fréquence de facturation. Les planifications de facture sont utilisées à l’étape du contrat lorsque le processus de création automatique de facture est configuré. À la phase de devis, les planifications sont facultatives. Lorsque les planifications de facture sont créées à la phase **Devis**, elles sont copiées dans le contrat de projet créé lorsqu’un devis de projet est remporté.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Modifications par rapport au devis Dynamics 365 Sales :
 

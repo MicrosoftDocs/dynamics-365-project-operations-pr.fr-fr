@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075615"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181224"
 ---
-# <a name="opportunity-headersummary"></a>En-tête/résumé de l’opportunité
+# <a name="opportunity-settings"></a>Paramètre des opportunités
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
@@ -26,7 +26,7 @@ Les opportunités basées sur des projets dans Dynamics 365 Project Operations 
 
 Le tableau suivant inclut les champs d’une opportunité basée sur un projet qui sont propres à Project Operations ou qui présentent des changements de comportement importants par rapport aux opportunités dans Sales.
 
-| **Champ** | **Emplacement** | **Pertinence, objectif et conseils** | **Impact en aval** |
+| **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |
 | Type | Onglet Général (masqué) | Ce champ de groupe d’options comporte les options suivantes :</br>- Basé sur le travail (disponible uniquement avec Project Operations)</br>- Basé sur l’article (disponible uniquement lorsque Project Operations et Sales sont installés)</br>- Service basé sur la maintenance (disponible lorsque Field Service est installé) | Lorsque vous utilisez Project Operations, la valeur de ce champ est automatiquement définie sur **Basé sur le travail** qui classifie l’opportunité comme basée sur un projet. Une opportunité doit être basée sur un projet pour activer toutes les extensions et fonctionnalités spécifiques au projet dans le processus de vente en aval pour cette transaction. |
 | Société propriétaire | Onglet Général | Il s’agit de la société ou de l’entité juridique qui livrera le projet au client. | Ces informations de champ seront copiées dans le champ correspondant du devis de projet créé à partir de cette opportunité. |

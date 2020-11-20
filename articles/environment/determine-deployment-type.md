@@ -3,17 +3,17 @@ title: Déterminer votre type de déploiement
 description: Cette rubrique offre des informations vous permettant de déterminer le type de déploiement adéquat de Project Operations pour votre entreprise.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075744"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401215"
 ---
 # <a name="determine-your-deployment-type"></a>Déterminer votre type de déploiement
 
@@ -21,15 +21,15 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 > [!IMPORTANT]
 > Après avoir acheté la licence, commencez ici pour déterminer le meilleur modèle de déploiement de Dynamics 365 Project Operations à l’aide du [Flux d’installation guidé](https://aka.ms/provisionprojectoperations).
-> Une fois que vous avez terminé le flux d’installation guidée, vous serez dirigé vers le portail de gestion approprié pour terminer votre installation. Consultez les détails de déploiement pour terminer l'installation.
+> Une fois que vous avez terminé le flux d’installation guidée, vous serez dirigé vers le portail de gestion approprié pour terminer votre installation. Consultez les détails de déploiement pour terminer l’installation.
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clients Dynamics existants utilisant Dynamics 365 Project Service Automation
-Project Operations inclut les fonctionnalités fournies avec Project Service Automation. Un chemin d’accès à la mise à niveau sera publié pour ces clients à l’avenir.
+Project Operations inclut les fonctionnalités fournies avec Project Service Automation. Une mise à niveau sera publiée pour ces clients dans la vague de lancement de 2021.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clients Dynamics 365 Finance existants utilisant Gestion de projets et comptabilité 
 
-Les clients Finance existants qui utilisent la fonctionnalité Gestion de projet et comptabilité peuvent continuer à l'utiliser tel quel. Voir [Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication](#pma).
+Les clients existants de Finance qui utilisent la fonctionnalité Gestion du projet et comptabilité peuvent continuer à l’utiliser tel qu’il est. Voir [Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication](#pma).
 
 
 ## <a name="deployment-types"></a>Types de déploiement
@@ -47,12 +47,13 @@ Project Operations prend en charge les scénarios stockés/d’ordre de fabricat
 
 Le déploiement simplifié comprend les fonctionnalités suivantes :
 
+- Processus de vente pour les projets qui étendent les expériences d’application Dynamics 365 Sales
 - Planification de projet à l’aide de Microsoft Project pour le web
 - Tarification multidimensionnelle
 - Gestion des ressources unifiée
 - Suivi du temps
 - Dépenses de base
-- Proposition de facture
+- Facturation pro forma et client 
 
 #### <a name="deployment-steps"></a>Étapes de déploiement
 Déterminez le meilleur modèle de déploiement de Project Operations à l’aide du [Questionnaire de déploiement](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ Pour ce déploiement, consultez [S’inscrire à l’abonnement à la version pr
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations pour les scénarios basés sur les ressources/produits non stockés
 Project Operations pour les scénarios de ressources/non stockés incluent les fonctionnalités suivantes :
-  
+ 
+- Processus de vente pour les projets qui étendent les applications Dynamics 365 Sales
 - Planification de projet à l’aide de Microsoft Project pour le web
 - Tarification multidimensionnelle
 - Gestion des ressources unifiée
@@ -70,8 +72,8 @@ Project Operations pour les scénarios de ressources/non stockés incluent les f
 - Dépenses de base
 - Dépense complète
 - OCR du reçu
-- Facturation complète
-- Comptabilisation de clôture
+- Facturation pro forma et client 
+- Constatation du produit pour les projets
 
 #### <a name="deployment-steps"></a>Étapes de déploiement
 Déterminez le meilleur modèle de déploiement de Project Operations à l’aide du [Questionnaire de déploiement](https://aka.ms/provisionprojectoperations).

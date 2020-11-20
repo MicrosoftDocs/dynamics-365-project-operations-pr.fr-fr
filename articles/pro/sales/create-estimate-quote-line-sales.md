@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075644"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180369"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimation d’une ligne de devis selon les projets
 
@@ -30,9 +30,9 @@ Pour estimer une ligne de devis selon les projets, sur la ligne de devis selon l
 
 Pour créer une estimation sur une ligne de devis selon les projets, sélectionnez l’onglet **Détail de la ligne de devis**. L’élément de ligne que vous créez dans cet onglet résume la valeur citée pour cette ligne de devis. 
 
-Pour créer les détails de la ligne de devis, sélectionnez **+ Nouveau détail de la ligne de devis** sur la sous-grille **Détails de la ligne de devis**. Un curseur de création rapide s’ouvrira. Les champs suivants sur le formulaire **Ligne de devis**  :
+Pour créer les détails de la ligne de devis, sélectionnez **+ Nouveau détail de la ligne de devis** dans la sous-grille **Détails de la ligne de devis**. Un curseur de création rapide s’ouvrira. Les champs suivants sur le formulaire **Ligne de devis** :
 
-| **Champ** | **Emplacement** | **Pertinence, objectif et conseils** | **Impact en aval** |
+| **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |
 | Description | Création rapide | Description d’estimation spécifique. | Ce champ prend par défaut le détail de la ligne de devis associée pour le coût qui est automatiquement créé. |
 | Classe de transaction | Création rapide | Cette liste déroulante fournit les classes de transaction incluses dans l’onglet **Général** de la ligne de devis selon les projets.  | Ce champ prend par défaut le détail de la ligne de devis associée pour le coût qui est automatiquement créé. |
@@ -50,11 +50,11 @@ Pour créer les détails de la ligne de devis, sélectionnez **+ Nouveau détai
 
 ## <a name="update-prices-on-quote-line-details"></a>Mettre à jour les prix sur les détails de la ligne de devis
 
-Si vous avez modifié les prix sur la liste de prix du projet jointe au devis ou sur la liste de prix de revient de l’unité contractuelle, vous pouvez sélectionner **Recalculer** sur la page **Citation** , pour actualiser les prix sur les détails de la ligne de devis individuelle afin de refléter ce changement. Lorsque vous sélectionnez **Recalculer** , un avertissement s’affiche et vous informe que les prix indiqués sur les détails de la ligne de devis pour toutes les lignes de devis de ce devis seront réinitialisés. Sélectionnez **Oui** , pour actualiser les prix des ventes et des détails des lignes de devis.
+Si vous avez modifié les prix sur la liste de prix du projet jointe au devis ou sur la liste de prix de revient de l’unité contractuelle, vous pouvez sélectionner **Recalculer** sur la page **Citation**, pour actualiser les prix sur les détails de la ligne de devis individuelle afin de refléter ce changement. Lorsque vous sélectionnez **Recalculer**, un avertissement s’affiche et vous informe que les prix indiqués sur les détails de la ligne de devis pour toutes les lignes de devis de ce devis seront réinitialisés. Sélectionnez **Oui**, pour actualiser les prix des ventes et des détails des lignes de devis.
 
 ## <a name="access-quote-line-details-for-cost"></a>Accéder aux détails de la ligne de devis pour connaître le coût
 
-Sur l’onglet **Détails de la ligne de devis** , sélectionnez une ligne dans la grille pour activer certaines actions dans la barre d’outils de la sous-grille. La première action de la barre d’outils de la sous-grille lorsqu’un détail de ligne de devis est sélectionné est **Ouvrir les détails du coût**. Sélectionnez **Ouvrir les détails du coût** pour afficher les tarifs et le montant associés pour cette ligne de devis.
+Sous l’onglet **Détails de la ligne de devis**, sélectionnez une ligne dans la grille pour activer des actions dans la barre d’outils de la sous-grille. La première action de la barre d’outils de la sous-grille lorsqu’un détail de ligne de devis est sélectionné est **Ouvrir les détails du coût**. Sélectionnez **Ouvrir les détails du coût** pour afficher les tarifs et le montant associés pour cette ligne de devis.
 
 > [!NOTE]
 > La modification de l’unité d’allocation des ressources, de la quantité, des dates, du rôle ou des valeurs de catégorie dans le détail de la ligne de devis pour le coût modifiera les valeurs correspondantes dans les détails de la ligne de devis pour les ventes.

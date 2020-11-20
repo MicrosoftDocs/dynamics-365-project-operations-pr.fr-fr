@@ -1,21 +1,21 @@
 ---
-title: Gérer plusieurs clients sur les devis de projet
+title: Gérer plusieurs clients sur un devis de projet
 description: Cette rubrique fournit des informations sur le travail sur les devis qui comprend plusieurs clients qui financeront le projet.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075594"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181989"
 ---
-# <a name="manage-multiple-customers-on-project-quotes"></a>Gérer plusieurs clients sur les devis de projet
+# <a name="manage-multiple-customers-on-a-project-quote"></a>Gérer plusieurs clients sur un devis de projet
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -29,13 +29,13 @@ Les clients de devis et les clients de ligne de devis peuvent être ajoutés, mi
 
 Le client répertorié sur l’onglet **Résumé** du devis de projet en tant que client potentiel est le client principal du devis. Si vous essayez de supprimer le client principal de la liste des clients sur le devis, une erreur s’affiche indiquant qu’un enregistrement de client principal sur un devis ne peut pas être supprimé.
 
-Le client principal ne doit pas être mis à jour à partir de la liste des clients sur le devis. Cependant, vous pouvez influencer le client principal en modifiant le client potentiel sur l’onglet **Résumé** du devis. Lorsque ce champ est mis à jour sur le **Résumé du devis** , le client potentiel nouvellement sélectionné est ajouté en tant que nouveau client de devis avec l’indicateur **Primaire** défini. L’ancien client potentiel sera toujours un client sur le devis.
+Le client principal ne doit pas être mis à jour à partir de la liste des clients sur le devis. Cependant, vous pouvez influencer le client principal en modifiant le client potentiel sur l’onglet **Résumé** du devis. Lorsque ce champ est mis à jour sur le **Résumé du devis**, le client potentiel nouvellement sélectionné est ajouté en tant que nouveau client de devis avec l’indicateur **Primaire** défini. L’ancien client potentiel sera toujours un client sur le devis.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Créer, mettre à jour ou supprimer un enregistrement client de devis
 
 Un client de devis peut être créé, mis à jour ou supprimé de l’onglet **Clients du devis** sur la page **Devis**. Les champs répertoriés dans le tableau suivant se trouvent sur la fiche client de devis d’un devis de projet.
 
-| **Champ** | **Emplacement** | **Pertinence, objectif et conseils** | **Impact en aval** |
+| **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |
 | Compte | Grille modifiable sur l’onglet **Clients du devis** et les formulaires **Principal** et **Création rapide** pour un client de devis. | Répertorie tous les comptes actifs. Ce champ est verrouillé après la création de l’enregistrement. Si vous souhaitez le mettre à jour, supprimez l’enregistrement et recréez-le. Si vous avez enregistré des chiffres réels ou si l’enregistrement client du devis est un client principal, vous serez autorisé à supprimer l’enregistrement. | Les clients de devis sont copiés en tant que clients de ligne de devis lorsqu’une ligne de devis est créée. Les clients de devis sont également copiés vers les clients du contrat de projet lorsqu’un devis est remporté. |
 | Pourcentage de facturation fractionnée | Grille modifiable sur l’onglet **Clients du devis** et les formulaires **Principal** et **Création rapide** pour un client de devis. | Représente le pourcentage de chaque transaction de vente non facturée qui sera attribuée à ce client de devis. | Copié sur les nouvelles lignes de devis créées et sur les clients contractuels du projet. |
@@ -50,4 +50,4 @@ Un client de devis peut être créé, mis à jour ou supprimé de l’onglet **C
 
 Vous pouvez modifier les pourcentages de facturation fractionnée à l’aide de l’expérience de modification de grille en ligne. Lorsque les pourcentages de facturation fractionnée ne totalisent pas 100 %, une erreur se produit. Après avoir mis à jour les pourcentages de facturation fractionnée, actualisez la page pour supprimer l’erreur.
 
-Vous pouvez également essayer de sélectionner **Répartition homogène** sur la sous-grille des clients de devis. Cette action attribue des fractionnements de facturation à tous les clients de devis. S’il y a un facteur d’arrondi, il sera ajouté au client d’arrondi. L’un des clients du devis est toujours identifié comme le client arrondi. cela signifie que l’enregistrement client du devis a l’indicateur **Arrondi** défini sur **Oui**. Il s’agit généralement du client principal du devis, mais cela peut être modifié.
+Vous pouvez également essayer de sélectionner **Répartition homogène** dans la sous-grille des clients de devis. Cette action attribue des fractionnements de facturation à tous les clients de devis. S’il y a un facteur d’arrondi, il sera ajouté au client d’arrondi. L’un des clients du devis est toujours identifié comme le client arrondi. cela signifie que l’enregistrement client du devis a l’indicateur **Arrondi** défini sur **Oui**. Il s’agit généralement du client principal du devis, mais cela peut être modifié.

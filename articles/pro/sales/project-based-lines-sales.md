@@ -1,21 +1,21 @@
 ---
-title: Lignes des opportunités selon les projets (Pro)
+title: Lignes des opportunités basées sur un projet – Simplifié
 description: Cette rubrique offre des informations sur les lignes d’opportunités selon les projets. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075665"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180999"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Lignes des opportunités selon les projets (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Lignes des opportunités basées sur un projet – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -25,7 +25,7 @@ Les lignes d’opportunités selon les projets sont les éléments de ligne qui 
 
 Vous trouverez ci-dessous les champs d’une ligne d’opportunité selon les projets :
 
-| **Champ** | **Emplacement** | **Pertinence, objectif et conseils** | **Impact en aval** |
+| **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |
 | Type de produit | Onglet Général (masqué) | Vous pouvez sélectionner une des options suivantes :</br>- Service basé sur des projets (disponible uniquement si Dynamics 365 Project Operations est installé)</br>- Produit (disponible uniquement lorsque Project Operations et Dynamics 365 Sales sont installés) | La valeur de ce champ est définie sur **Service basé sur des projets** lorsque vous créez la ligne d’opportunité selon un projet à partir de la grille de lignes basée sur le projet sur l’opportunité. <br> Si vous modifiez ou remplacez cette valeur, la fonctionnalité de projet ne sera pas activée sur vos éléments de ligne basés sur le projet. |
 | Opportunité | Onglet Général | Ce champ est en lecture seule et fait référence à l’enregistrement d’opportunité parent auquel cet élément de ligne appartient. | Il n’y a pas d’impact en aval à partir de ce champ. |

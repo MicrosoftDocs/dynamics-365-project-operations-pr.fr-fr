@@ -1,21 +1,21 @@
 ---
-title: Informations récapitulatives sur un devis de projet (Sales)
+title: Informations récapitulatives sur un devis de projet – Simplifié
 description: Cette rubrique fournit des renseignements sur les informations et les paramètres qui s’appliquent aux devis de projet et qui ont un impact. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075671"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180947"
 ---
-# <a name="summary-information-on-a-project-quote-sales"></a>Informations récapitulatives sur un devis de projet (Sales)
+# <a name="summary-information-on-a-project-quote---lite"></a>Informations récapitulatives sur un devis de projet – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -23,7 +23,7 @@ Cet article explique les informations qui s’appliquent à un devis de projet. 
 
 Le tableau suivant répertorie les champs d’informations récapitulatives sur un devis de projet qui sont uniques à Dynamics 365 Project Operations ou qui présentent des changements de comportement importants à partir des devis Dynamics 365 Sales.
 
-| **Champ** | **Emplacement** | **Pertinence, objectif et conseils** | **Impact en aval** |
+| **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |
 | Type | Onglet Résumé (masqué) | Ce champ de groupe d’options comporte les options suivantes :</br>- Basé sur le travail (disponible uniquement lorsque Project Operations est installé)</br>- Basé sur l’article (disponible uniquement lorsque Project Operations et Sales sont installés)</br>- Service basé sur la maintenance (disponible lorsque Dynamics 365 Field Service est installé) | Lorsque vous utilisez l’application Project Operations, la valeur de ce champ est automatiquement définie sur **Basé sur le travail**. Cela classe le devis comme un devis basé sur un projet. Un devis doit être basé sur un projet pour activer toutes les extensions et fonctionnalités spécifiques au projet. |
 | Prospect | Onglet Résumé | Référence à la société ou à l’enregistrement de compte du client. Lorsqu’un devis est créé à partir d’une opportunité, ce champ est copié à partir du champ correspondant sur l’opportunité. | La devise du devis de projet est définie par défaut en fonction de la devise du client. Elle ne peut toutefois pas être modifiée avant le devis enregistré. |
@@ -36,7 +36,7 @@ Le tableau suivant répertorie les champs d’informations récapitulatives sur 
 
 Vous trouverez ci-dessous les onglets et les indicateurs de performance clés disponibles sur un devis de projet qui sont propres à Project Operations ou qui présentent des changements de comportement importants à partir des devis de vente :
 
-| **Champ** | **Emplacement** | **Pertinence, objectif et conseils** |
+| **Champ** | **Emplacement** | **Description** |
 | --- | --- | --- |
 | Analyse de la rentabilité | Onglet sur le devis | L’onglet montre les métriques suivantes :</br>- Coût facturable total</br></br>- Coût non facturable total</br>- Revenu total</br>- Revenu total (de base)</br>- Marge brute</br>- Marge brute ajustée|
 | Comparaison aux exigences client | Onglet sur le devis | Cet onglet montre les métriques suivantes :</br>- Estimation de l’achèvement</br>- Fin demandée</br>- Budget client</br>- Valeur du devis |

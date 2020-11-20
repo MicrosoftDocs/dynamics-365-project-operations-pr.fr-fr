@@ -1,21 +1,21 @@
 ---
-title: En-tête de l’opportunité
-description: Cette rubrique fournit des informations sur les informations générales sur les accords basés sur des projets et les lignes d’opportunités basées sur des projets.
+title: Paramètre des opportunités – Simplifié
+description: Cette rubrique fournit des informations sur les transactions basées sur un projet et les lignes d’opportunités basées sur un projet.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075668"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181032"
 ---
-# <a name="opportunity-header"></a>En-tête de l’opportunité
+# <a name="opportunity-header---lite"></a>En-tête de l’opportunité – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -25,7 +25,7 @@ Les opportunités basées sur des projets dans Dynamics 365 Project Operations 
 
 Le tableau suivant inclut les champs d’une opportunité basée sur un projet qui sont propres à Project Operations ou qui présentent des changements de comportement importants par rapport aux opportunités dans Sales.
 
-| **Champ** | **Emplacement** | **Pertinence, objectif et conseils** | **Impact en aval** |
+| **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |
 | Type | Onglet Général (masqué) | Ce champ de groupe d’options comporte les options suivantes :</br>- Basé sur le travail (disponible uniquement avec Project Operations)</br>- Basé sur l’article (disponible uniquement lorsque Project Operations et Sales sont installés)</br>- Service basé sur la maintenance (disponible lorsque Field Service est installé) | Lorsque vous utilisez Project Operations, la valeur de ce champ est automatiquement définie sur **Basé sur le travail** qui classifie l’opportunité comme basée sur un projet. Une opportunité doit être basée sur un projet pour activer toutes les extensions et fonctionnalités spécifiques au projet dans le processus de vente en aval pour cette transaction. |
 | Contact | Onglet Général | Référence au contact principal du client pour cette offre. | |

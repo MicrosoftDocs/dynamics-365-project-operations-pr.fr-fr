@@ -1,21 +1,21 @@
 ---
-title: Informations récapitulatives sur un devis de projet
+title: Paramètres de devis de projet
 description: Cette rubrique fournit des renseignements sur les informations et les paramètres qui s’appliquent aux devis de projet et qui ont un impact.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075586"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180234"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Informations récapitulatives sur un devis de projet
+# <a name="project-quote-settings"></a>Paramètres de devis de projet
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
@@ -24,7 +24,7 @@ Cet article explique les informations qui s’appliquent à un devis de projet. 
 
 Le tableau suivant répertorie les champs d’informations récapitulatives sur un devis de projet qui sont uniques à Dynamics 365 Project Operations ou qui présentent des changements de comportement importants à partir des devis Dynamics 365 Sales.
 
-| **Champ** | **Emplacement** | **Pertinence, objectif et conseils** | **Impact en aval** |
+| **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |
 | Type | Onglet Résumé (masqué) | Ce champ de groupe d’options comporte les options suivantes :</br>- Basé sur le travail (disponible uniquement lorsque Project Operations est installé)</br>- Basé sur l’article (disponible uniquement lorsque Project Operations et Sales sont installés)</br>- Service basé sur la maintenance (disponible lorsque Dynamics 365 Field Service est installé) | Lorsque vous utilisez l’application Project Operations, la valeur de ce champ est automatiquement définie sur **Basé sur le travail**. Cela classe le devis comme un devis basé sur un projet. Un devis doit être basé sur un projet pour activer toutes les extensions et fonctionnalités spécifiques au projet. |
 | Société propriétaire | Synthèse | L’entité juridique qui comptabilisera les coûts et les revenus générés par ce projet ou les projets associés à ce devis. Lorsqu’un devis est créé à partir d’une Opportunité, ce champ est copié à partir du champ correspondant sur l’Opportunité. | La société propriétaire équivaut au concept d’entité juridique dans le module **Gestion de projet et comptabilité** de Project Operations. Tous les coûts et revenus accumulés par ce projet seront comptabilisés dans la comptabilité de la société propriétaire. |
@@ -38,7 +38,7 @@ Le tableau suivant répertorie les champs d’informations récapitulatives sur 
 
 Vous trouverez ci-dessous les onglets et les indicateurs de performance clés disponibles sur un devis de projet qui sont propres à Project Operations ou qui présentent des changements de comportement importants à partir des devis de vente :
 
-| **Champ** | **Emplacement** | **Pertinence, objectif et conseils** |
+| **Champ** | **Emplacement** | **Description** |
 | --- | --- | --- |
 | Analyse de la rentabilité | Onglet sur le devis | L’onglet montre les métriques suivantes :</br>- Coût facturable total</br></br>- Coût non facturable total</br>- Revenu total</br>- Revenu total (de base)</br>- Marge brute</br>- Marge brute ajustée|
 | Comparaison aux exigences client | Onglet sur le devis | Cet onglet montre les métriques suivantes :</br>- Estimation de l’achèvement</br>- Fin demandée</br>- Budget client</br>- Valeur du devis |
