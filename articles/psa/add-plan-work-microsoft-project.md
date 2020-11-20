@@ -3,7 +3,7 @@ title: Utiliser le module complémentaire Project Service pour planifier votre t
 description: Cette rubrique fournit des informations à suivre pour ajouter, configurer et utiliser le module complémentaire Microsoft Project pour Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075870"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129675"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utiliser le module complémentaire Project Service Automation pour planifier votre travail dans Microsoft Project
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] vous facilite la planification de vos projets, y compris les estimations. Vous pouvez définir le travail afin que les coûts, l'effort, et la valeur de ventes soient clairs lorsque la proposition finale est envoyée.  
+[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] vous facilite la planification de vos projets, y compris les estimations. Vous pouvez définir le travail afin que les coûts, l’effort, et la valeur de ventes soient clairs lorsque la proposition finale est envoyée.  
 
- Vous pouvez installer [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] et effectuer vos tâches de planification dans l'environnement familier de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Utilisez les robustes fonctionnalités de planification et de gestion de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et mettez à jour votre plan de projet dans Project Service Automation.  
+ Vous pouvez installer [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] et effectuer vos tâches de planification dans l’environnement familier de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Utilisez les robustes fonctionnalités de planification et de gestion de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et mettez à jour votre plan de projet dans Project Service Automation.  
 
 > [!IMPORTANT]
 > - Pour utiliser la fonctionnalité de gestion de documents SharePoint pour stocker vos fichiers [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] pour des projets [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], votre administrateur [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] doit activer la fonctionnalité de gestion de documents. 
@@ -48,7 +48,7 @@ ms.locfileid: "4075870"
 
 ## <a name="configure-the-add-in"></a>Configurer le module complémentaire  
 
-1. Ouvrez [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et cliquez sur l'onglet **Project Service**.  
+1. Ouvrez [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et cliquez sur l’onglet **Project Service**.  
 
 2. Cliquez sur **Connexion**.  
 
@@ -56,10 +56,10 @@ ms.locfileid: "4075870"
 
    Vous pouvez à présent commencer à utiliser le module complémentaire.  
 
-## <a name="read-from-a-template"></a>Lire à partir d'un modèle  
+## <a name="read-from-a-template"></a>Lire à partir d’un modèle  
  Lisez depuis un modèle que vous avez créé dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] et copié dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] pour commencer la planification de votre projet. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Créer un modèle de projet (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  Sous l'onglet **Project Service** , cliquez sur **Lire** > **Modèle de projet Project Service Automation**.  
+1.  Sous l’onglet **Project Service**, cliquez sur **Lire** > **Modèle de projet Project Service Automation**.  
 
 2.  Choisissez un modèle de projet dans la liste puis cliquez sur **Ouvrir**.  
 
@@ -76,34 +76,34 @@ ms.locfileid: "4075870"
 
 ## <a name="staff-your-project-with-resources"></a>Doter votre projet en ressources  
 
-1.  Sous l'onglet Project Service, sélectionnez une ligne et cliquez sur **Rechercher des ressources**.  
+1.  Sous l’onglet Project Service, sélectionnez une ligne et cliquez sur **Rechercher des ressources**.  
 
-2.  Sur l'écran **Réserver la ressource** , sélectionnez la ressource que vous souhaitez utiliser pour le projet.  
+2.  Sur l’écran **Réserver la ressource**, sélectionnez la ressource que vous souhaitez utiliser pour le projet.  
 
-3.  Cliquez sur **Réserver** , puis sur **OK**.  
+3.  Cliquez sur **Réserver**, puis sur **OK**.  
 
 ## <a name="publish-your-project"></a>Publier votre projet  
-Lorsque votre planification de projet terminée, l'étape suivante consiste à importer et à publier le projet dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+Lorsque votre planification de projet terminée, l’étape suivante consiste à importer et à publier le projet dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Le processus de génération de tarification et d'équipe est appliqué. Ouvrez le projet dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pour vérifier que l'équipe, les estimations de projet, et la structure de répartition du travail ont été générées. Le tableau suivant indique où trouver les résultats :
+Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Le processus de génération de tarification et d’équipe est appliqué. Ouvrez le projet dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pour vérifier que l’équipe, les estimations de projet, et la structure de répartition du travail ont été générées. Le tableau suivant indique où trouver les résultats :
 
 
 |                                                                                          |                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-|  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Diagramme de Gantt**   | Importations dans l'écran **Structure de répartition du travail** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. |
-| [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Feuille de ressource** |   Importations dans l'écran **Project Team Members** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] - **Utilisation**    |    Importations dans l'écran **Estimations de projets** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .     |
+|  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Diagramme de Gantt**   | Importations dans l’écran **Structure de répartition du travail** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. |
+| [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Feuille de ressource** |   Importations dans l’écran **Project Team Members** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].   |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] - **Utilisation**    |    Importations dans l’écran **Estimations de projets** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .     |
 
 **Pour importer et publier votre projet**  
-1. Sous l'onglet **Project Service** , cliquez sur **Publier** > **Nouveau projet Project Service Automation**.  
+1. Sous l’onglet **Project Service**, cliquez sur **Publier** > **Nouveau projet Project Service Automation**.  
 
-2. Dans la boîte de dialogue **Publier dans un nouveau projet Project Service** , entrez le **Nom du projet** et sélectionnez **Client**.  
+2. Dans la boîte de dialogue **Publier dans un nouveau projet Project Service**, entrez le **Nom du projet** et sélectionnez **Client**.  
 
 3. Cochez éventuellement **Lier le plan de projet à Project Service Automation** pour lier le fichier du projet de plan à Project Service Automation.  
 
 4. Cliquez sur **Publier**.  
 
-   L'association du fichier de projet à [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] fait du fichier de projet le maître et définit la structure de répartition du travail sur [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] en lecture seule.  Afin d'apporter des modifications au plan de projet, vous devez les faire dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et les publier sous forme de mises à jour dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+   L’association du fichier de projet à [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] fait du fichier de projet le maître et définit la structure de répartition du travail sur [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] en lecture seule.  Afin d’apporter des modifications au plan de projet, vous devez les faire dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et les publier sous forme de mises à jour dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 ## <a name="edit-a-project-thats-been-imported"></a>Modifier un projet qui a été importé  
  Pour apporter des modifications à un projet qui a été importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], vous avez deux options :  
@@ -129,7 +129,7 @@ Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 3. Cliquez sur **Supprimer le lien de MS Project** sur le ruban.  
 
 ## <a name="upload-a-project-file-to-sharepoint-or-office-groups"></a>Télécharger un fichier Project dans des groupes SharePoint ou Office  
- Vous pouvez télécharger votre fichier Project dans SharePoint et le trouver sous Documents associés dans votre projet [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Votre administrateur doit configurer la fonctionnalité de gestion de documents SharePoint et l'activer pour l'entité Project. 
+ Vous pouvez télécharger votre fichier Project dans SharePoint et le trouver sous Documents associés dans votre projet [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Votre administrateur doit configurer la fonctionnalité de gestion de documents SharePoint et l’activer pour l’entité Project. 
 
  Vous pouvez également télécharger votre fichier Project dans [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] si vous avez paramétré des groupes Office.
 
@@ -139,11 +139,11 @@ Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 2. Sélectionnez **Vers les documets du projet Project Service Automation**.  
 
-3. Dans la boîte de dialogue **Activer l'ouverture dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , sélectionnez **Oui** ou **Non**.  
+3. Dans la boîte de dialogue **Activer l’ouverture dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, sélectionnez **Oui** ou **Non**.  
 
-   - Si vous cliquez sur **Oui** , vous pourrez cliquer sur le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dans Project Service Automation, lancer [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et charger le fichier Project depuis la bibliothèque de documents SharePoint.  
+   - Si vous cliquez sur **Oui**, vous pourrez cliquer sur le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dans Project Service Automation, lancer [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et charger le fichier Project depuis la bibliothèque de documents SharePoint.  
 
-   - Si vous cliquez sur **Non** , le lien vers le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne fonctionnera pas.  
+   - Si vous cliquez sur **Non**, le lien vers le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne fonctionnera pas.  
 
 4. Le fichier [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] se trouve dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sous **Documents** pour le projet spécifique [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -153,26 +153,26 @@ Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 2. Sélectionnez **Vers les documets du projet Project Service Automation**.  
 
-3. Dans la boîte de dialogue **Activer l'ouverture dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , sélectionnez **Oui** ou **Non**.  
+3. Dans la boîte de dialogue **Activer l’ouverture dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, sélectionnez **Oui** ou **Non**.  
 
-   - Si vous cliquez sur **Oui** , vous pourrez cliquer sur le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dans Project Service Automation, lancer [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et charger le fichier Project depuis la bibliothèque de documents SharePoint.  
+   - Si vous cliquez sur **Oui**, vous pourrez cliquer sur le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dans Project Service Automation, lancer [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et charger le fichier Project depuis la bibliothèque de documents SharePoint.  
 
-   - Si vous cliquez sur **Non** , le lien vers le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne fonctionnera pas.  
+   - Si vous cliquez sur **Non**, le lien vers le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne fonctionnera pas.  
 
 4. Le fichier [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] se trouve dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sous **Documents** pour le projet spécifique [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 ## <a name="publish--your-project-as-a-template"></a>Publier votre projet comme modèle  
- Vous pouvez enregistrer votre projet et le réutiliser en l'enregistrant comme modèle de projet dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Les modèles de projet sont des plans de projet réutilisables dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Créer un modèle de projet (Project Service Automation)](../psa/create-project-template.md)  
+ Vous pouvez enregistrer votre projet et le réutiliser en l’enregistrant comme modèle de projet dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Les modèles de projet sont des plans de projet réutilisables dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Créer un modèle de projet (Project Service Automation)](../psa/create-project-template.md)  
 
-1. Sous l'onglet **Project Service** , cliquez sur **Publier** > **Nouveau modèle de projet Project Service Automation**.  
+1. Sous l’onglet **Project Service**, cliquez sur **Publier** > **Nouveau modèle de projet Project Service Automation**.  
 
-2. Dans la boîte de dialogue **Publier dans un nouveau modèle de projet Project Service** , entrez le **Nom de modèle du projet**.  
+2. Dans la boîte de dialogue **Publier dans un nouveau modèle de projet Project Service**, entrez le **Nom de modèle du projet**.  
 
 3. Cochez éventuellement **Lier le plan de projet à Project Service Automation** pour lier le fichier Project à [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 4. Cliquez sur **Publier**.  
 
-L'association du fichier de projet à [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] fait du fichier Project le maître et définit la structure de répartition du travail dans le modèle [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sur lecture seule.  Afin d'apporter des modifications au plan de projet, vous devez les faire dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et les publier sous forme de mises à jour dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+L’association du fichier de projet à [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] fait du fichier Project le maître et définit la structure de répartition du travail dans le modèle [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sur lecture seule.  Afin d’apporter des modifications au plan de projet, vous devez les faire dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et les publier sous forme de mises à jour dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/project-manager-guide.md)

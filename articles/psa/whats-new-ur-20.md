@@ -3,7 +3,7 @@ title: Nouveautés ou modifications de la mise à jour (version 20) de Project S
 description: Cette rubrique répertorie les fonctionnalités et les correctifs disponibles dans la mise à jour (version 20) de Project Service Automation, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,16 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075689"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126750"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Mise à jour (version 20) de Project Service Automation, V3
 
-Nous sommes heureux d'annoncer la dernière mise à jour de l'application Project Service Automation pour Dynamics 365. Cette version comprend des améliorations importantes de la qualité, des performances et de l'utilisation. Cette version est compatible avec Dynamics 365 9.x. Pour effectuer une mise à jour vers cette version, visitez la page des solutions du centre d'administration de Dynamics 365 online pour installer la mise à jour. Pour plus d'informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Nous sommes heureux d’annoncer la dernière mise à jour de l’application Project Service Automation pour Dynamics 365. Cette version comprend des améliorations importantes de la qualité, des performances et de l’utilisation. Cette version est compatible avec Dynamics 365 9.x. Pour effectuer une mise à jour vers cette version, visitez la page des solutions du centre d’administration de Dynamics 365 online pour installer la mise à jour. Pour plus d’informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour (version 20) de Project Service Automation V3. Cette version a le numéro de build V 3.10.31.37 et est généralement disponible via une mise à jour automatique en juin 2020.
 
@@ -38,25 +38,25 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
 
 Les problèmes suivants ont été résolus :
 
-- L'importation des membres de l'équipe du projet avec une méthode d'allocation nécessitant des heures entraîne un message d'erreur peu explicite lorsque les heures spécifiées sont nulles.
+- L’importation des membres de l’équipe du projet avec une méthode d’allocation nécessitant des heures entraîne un message d’erreur peu explicite lorsque les heures spécifiées sont nulles.
 - Les utilisateurs reçoivent une erreur incorrecte lorsque le nombre maximal de caractères a été entré dans le champ **Description** pour une tâche de projet.
-- La page de **téléchargement du complément Microsoft Dynamics 365 Project Service Automation** redirige vers la page de téléchargement en anglais lorsque les paramètres de langue de l'utilisateur sont définis sur Japonais.
-- Lorsqu'une erreur de serveur se produit, l'étiquette de synchronisation dans l'onglet **Planifier** du formulaire **Projets** est parfois conservée.
-- Les mises à jour de tâche redondantes sont envoyées au serveur lorsqu'une tâche est modifiée.
+- La page de **téléchargement du complément Microsoft Dynamics 365 Project Service Automation** redirige vers la page de téléchargement en anglais lorsque les paramètres de langue de l’utilisateur sont définis sur Japonais.
+- Lorsqu’une erreur de serveur se produit, l’étiquette de synchronisation dans l’onglet **Planifier** du formulaire **Projets** est parfois conservée.
+- Les mises à jour de tâche redondantes sont envoyées au serveur lorsqu’une tâche est modifiée.
 
 **Ventes**
 
 Les problèmes suivants ont été résolus :
 
-- Sur le formulaire **Contrat** , un double-clic sur **Créer une facture** crée deux factures pour un seul enregistrement de chiffres réels.
-- Dans Internet Explorer 11, les utilisateurs ne peuvent pas créer d'entrées de dépenses.
+- Sur le formulaire **Contrat**, un double-clic sur **Créer une facture** crée deux factures pour un seul enregistrement de chiffres réels.
+- Dans Internet Explorer 11, les utilisateurs ne peuvent pas créer d’entrées de dépenses.
 - La contrepassation du coût et la contrepassation des chiffres réels des ventes non facturées ne sont pas liées.
-- Le bouton **Actualiser les chiffres réels** du formulaire **Projet** n'actualise pas les **Heures réelles de la tâche**.
-- Le plug-in **PreValidateProjectTeamMemberCreate** peut créer des ressources réservables génériques en double lorsque l'attribut **msdyn_isgenericresourceprojectscoped** est défini sur **False**.
+- Le bouton **Actualiser les chiffres réels** du formulaire **Projet** n’actualise pas les **Heures réelles de la tâche**.
+- Le plug-in **PreValidateProjectTeamMemberCreate** peut créer des ressources réservables génériques en double lorsque l’attribut **msdyn_isgenericresourceprojectscoped** est défini sur **False**.
 - **Recalculer** efface les coûts facturables des détails de la ligne de devis basés sur le produit et des détails de la ligne de contrat.
-- Dans des scénarios spécifiques, le plug-in **PostEstimateLineUpdate** affiche une erreur d'exception de référence nulle.
-- La durée de la phase de temps sur le **Graphique d'analyse de la rentabilité** ne correspond pas à la durée des coûts dans les détails de la ligne de devis à prix fixe du devis.
-- Les valeurs d'unité et de groupe d'unités ne sont pas correctement définies par défaut pour les catégories de dépense sur les formulaires **Détails de la ligne de contrat** et **Détails de la ligne de devis**.
-- Les listes **Prix de revient de l'unité d'organisation** autorisent les chevauchements dans la plage de dates définie.
-- Les utilisateurs ne sont pas autorisés à modifier **OrgUnit** lorsque le type de commande n'est pas basé sur le travail, car cela va générer une erreur d'exception de référence nulle.
-- Lorsque vous tentez de passer du formulaire **Détails de la ligne de devis** à l'onglet **Devis** , le formulaire s'actualise et affiche l'onglet **Résumé**.
+- Dans des scénarios spécifiques, le plug-in **PostEstimateLineUpdate** affiche une erreur d’exception de référence nulle.
+- La durée de la phase de temps sur le **Graphique d’analyse de la rentabilité** ne correspond pas à la durée des coûts dans les détails de la ligne de devis à prix fixe du devis.
+- Les valeurs d’unité et de groupe d’unités ne sont pas correctement définies par défaut pour les catégories de dépense sur les formulaires **Détails de la ligne de contrat** et **Détails de la ligne de devis**.
+- Les listes **Prix de revient de l’unité d’organisation** autorisent les chevauchements dans la plage de dates définie.
+- Les utilisateurs ne sont pas autorisés à modifier **OrgUnit** lorsque le type de commande n’est pas basé sur le travail, car cela va générer une erreur d’exception de référence nulle.
+- Lorsque vous tentez de passer du formulaire **Détails de la ligne de devis** à l’onglet **Devis**, le formulaire s’actualise et affiche l’onglet **Résumé**.

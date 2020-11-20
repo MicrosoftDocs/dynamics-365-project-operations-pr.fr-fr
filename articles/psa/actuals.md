@@ -3,7 +3,7 @@ title: Vue d’ensemble des chiffres réels
 description: Cette rubrique fournit des informations sur les chiffres réels du projet.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,54 +18,54 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075938"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129765"
 ---
 # <a name="actuals-overview"></a>Vue d’ensemble des chiffres réels
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Les chiffres réels sont la quantité de travail effectuée sur un projet. Les chiffres réels du projet peuvent être retracés jusqu'à leurs documents origine. Ces documents origine incluent les écritures de temps, de dépenses et de journal, ainsi que les factures.
+Les chiffres réels sont la quantité de travail effectuée sur un projet. Les chiffres réels du projet peuvent être retracés jusqu’à leurs documents origine. Ces documents origine incluent les écritures de temps, de dépenses et de journal, ainsi que les factures.
 
-![Comment les chiffres réels du projet de planification sont retracés jusqu'aux documents origine](media/basic-guide-18.png)
+![Comment les chiffres réels du projet de planification sont retracés jusqu’aux documents origine](media/basic-guide-18.png)
 
-## <a name="submitting-a-time-entry"></a>Envoi d'une entrée de temps
+## <a name="submitting-a-time-entry"></a>Envoi d’une entrée de temps
 
-Dans PSA, quand une entrée de temps est envoyée pour un projet qui est mappé à une ligne de contrat de durée et de matériaux, deux lignes du journal sont créées. Une ligne est pour le coût, tandis que l'autre est pour les ventes non facturées. Quand une entrée de temps est envoyée pour un projet qui est mappé à une ligne de contrat à prix fixe, une ligne de journal seulement est créée pour le coût. 
+Dans PSA, quand une entrée de temps est envoyée pour un projet qui est mappé à une ligne de contrat de durée et de matériaux, deux lignes du journal sont créées. Une ligne est pour le coût, tandis que l’autre est pour les ventes non facturées. Quand une entrée de temps est envoyée pour un projet qui est mappé à une ligne de contrat à prix fixe, une ligne de journal seulement est créée pour le coût. 
 
-La logique d'entrée des prix par défaut se trouve sur la ligne de journal. Toutes les valeurs de champ d'une entrée de temps sont copiées sur la ligne de journal. Ces champs comprennent la date de la transaction, la ligne de contrat auquel le projet est mappé, ainsi que le résultat en devise dans les tarifs adéquats. 
+La logique d’entrée des prix par défaut se trouve sur la ligne de journal. Toutes les valeurs de champ d’une entrée de temps sont copiées sur la ligne de journal. Ces champs comprennent la date de la transaction, la ligne de contrat auquel le projet est mappé, ainsi que le résultat en devise dans les tarifs adéquats. 
 
-Les champs qui touchent les prix par défaut, par exemple **Rôle** et **Unité d'organisation** , entraînent un tarif approprié à entrer par défaut sur la ligne de journal. Si vous ajoutez un champ personnalisé à l'entrée de temps, et que vous souhaitez que la valeur de champ soit propagée aux chiffres réels, créez un champ dans l'entité Chiffres réels, puis utilisez les mappages de champs pour copier le champ de l'entrée de temps dans les chiffres réels.
+Les champs qui touchent les prix par défaut, par exemple **Rôle** et **Unité d’organisation**, entraînent un tarif approprié à entrer par défaut sur la ligne de journal. Si vous ajoutez un champ personnalisé à l’entrée de temps, et que vous souhaitez que la valeur de champ soit propagée aux chiffres réels, créez un champ dans l’entité Chiffres réels, puis utilisez les mappages de champs pour copier le champ de l’entrée de temps dans les chiffres réels.
 
-## <a name="submitting-an-expense-entry"></a>Envoi d'une entrée de dépenses
+## <a name="submitting-an-expense-entry"></a>Envoi d’une entrée de dépenses
 
-Dans PSA, quand une entrée de dépenses est envoyée pour un projet qui est mappé à une ligne de contrat de durée et de matériaux, deux lignes du journal sont créées. Une ligne est pour le coût, tandis que l'autre est pour les ventes non facturées. Quand une entrée de dépenses est envoyée pour un projet qui est mappé à une ligne de contrat à prix fixe, une ligne de journal seulement est créée pour le coût.
+Dans PSA, quand une entrée de dépenses est envoyée pour un projet qui est mappé à une ligne de contrat de durée et de matériaux, deux lignes du journal sont créées. Une ligne est pour le coût, tandis que l’autre est pour les ventes non facturées. Quand une entrée de dépenses est envoyée pour un projet qui est mappé à une ligne de contrat à prix fixe, une ligne de journal seulement est créée pour le coût.
 
-La logique d'entrée des prix par défaut pour les dépenses est basée sur la catégorie de dépenses sélectionnée sur la page **Entrée de dépense**. La date de la transaction, la ligne de contrat auquel le projet est mappé, ainsi que la devise sont tous utilisés pour déterminer les tarifs adéquats. Toutefois, pour le prix lui-même, le montant que l'utilisateur a entré est défini directement sur les lignes de journal relatives de dépenses pour le coût et les ventes par défaut.
+La logique d’entrée des prix par défaut pour les dépenses est basée sur la catégorie de dépenses sélectionnée sur la page **Entrée de dépense**. La date de la transaction, la ligne de contrat auquel le projet est mappé, ainsi que la devise sont tous utilisés pour déterminer les tarifs adéquats. Toutefois, pour le prix lui-même, le montant que l’utilisateur a entré est défini directement sur les lignes de journal relatives de dépenses pour le coût et les ventes par défaut.
 
-Dans la version actuelle de PSA, l'entrée basée sur la catégorie des prix unitaires par défaut dans les entrées de dépense n'est pas disponible.
+Dans la version actuelle de PSA, l’entrée basée sur la catégorie des prix unitaires par défaut dans les entrées de dépense n’est pas disponible.
 
-## <a name="using-entry-journals-to-record-costs"></a>Utilisation des journaux d'entrées pour enregistrer les coûts
+## <a name="using-entry-journals-to-record-costs"></a>Utilisation des journaux d’entrées pour enregistrer les coûts
 
-Dans PSA, les journaux d'entrées vous permettent d'enregistrer les coûts ou les revenus dans les classes de transaction des matériaux, frais, durée, dépenses ou taxes. Un journal comporte un en-tête, des lignes, puis une action **Confirmer**. Voici quelques scénarios où vous pourriez utiliser un journal :
+Dans PSA, les journaux d’entrées vous permettent d’enregistrer les coûts ou les revenus dans les classes de transaction des matériaux, frais, durée, dépenses ou taxes. Un journal comporte un en-tête, des lignes, puis une action **Confirmer**. Voici quelques scénarios où vous pourriez utiliser un journal :
 
 - Vous devez enregistrer les coûts et les ventes réels des matériaux sur un projet.
-- Vous devez déplacer des chiffres réels de la transaction d'un autre système à PSA.
-- Vous devez enregistrer les coûts qui se sont produits dans un autre système, tel que les coûts d'approvisionnement ou de sous-traitance.
+- Vous devez déplacer des chiffres réels de la transaction d’un autre système à PSA.
+- Vous devez enregistrer les coûts qui se sont produits dans un autre système, tel que les coûts d’approvisionnement ou de sous-traitance.
 
 > [!IMPORTANT]
-> L'utilisation des journaux d'entrées pour créer des chiffres réels ne doit être effectuée que par un utilisateur qui est pleinement conscient de l'impact comptable des chiffres réels sur le projet. En effet, l'application ne valide pas le type de ligne de journal ou la tarification associée qui est entrée sur la ligne de journal. En raison de l'impact de ce type de journal, choisissez attentivement les personnes autorisées à créer des journaux d'entrées.     
+> L’utilisation des journaux d’entrées pour créer des chiffres réels ne doit être effectuée que par un utilisateur qui est pleinement conscient de l’impact comptable des chiffres réels sur le projet. En effet, l’application ne valide pas le type de ligne de journal ou la tarification associée qui est entrée sur la ligne de journal. En raison de l’impact de ce type de journal, choisissez attentivement les personnes autorisées à créer des journaux d’entrées.     
 
 
 ## <a name="recording-actuals-based-on-project-events"></a>Enregistrement des chiffres réels en fonction des événements du projet
 
 PSA enregistre les transactions financières qui se produisent pendant un projet. Ces transactions sont enregistrées comme **chiffres réels**. Les tableaux suivants illustrent les différents types de chiffres réels qui sont créés, selon qu’il s’agit d’un projet basé sur la durée et les matériaux ou d’un projet à prix fixe, se trouvant dans la phase préalable à la vente, ou d’un projet interne.
 
-**La ressource appartient à la même unité d'organisation que l'unité contractuelle du projet**
+**La ressource appartient à la même unité d’organisation que l’unité contractuelle du projet**
 
 <table>
 <thead>
@@ -189,7 +189,7 @@ PSA enregistre les transactions financières qui se produisent pendant un projet
 </tbody>
 </table>
 
-**La ressource appartient à une unité d'organisation différente de l'unité contractuelle du projet**
+**La ressource appartient à une unité d’organisation différente de l’unité contractuelle du projet**
 
 <table>
 <thead>

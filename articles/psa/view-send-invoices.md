@@ -1,9 +1,9 @@
 ---
 title: Afficher et envoyer des factures
-description: Procédure d'affichage et d'envoi de factures dans Project Service
+description: Procédure d’affichage et d’envoi de factures dans Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8eaef971d1fd419b7a21f0934d6a7f5f92aa35e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 27994c4a14b25d769a0919514906a7be1804dae2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075812"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125760"
 ---
 # <a name="view-and-send-invoices-project-service"></a>Afficher et envoyer des factures (Project Service)
 
@@ -48,9 +48,9 @@ Lorsque vous créez un projet, vous définissez la fréquence pour générer des
   
 2.  Cliquez sur le projet pour lequel vous souhaitez établir une facture.  
   
-3.  Cliquez sur **Sales** , puis cliquez sur **Facture**.  
+3.  Cliquez sur **Sales**, puis cliquez sur **Facture**.  
   
-4.  Sélectionnez les paramètres des transactions que vous souhaitez facturer, notamment la date d'échéance, le type d'élément à facturer, l'unité, et le jalon. Lorsque vous avez terminé la sélection des paramètres, cliquez sur **Suivant**.  
+4.  Sélectionnez les paramètres des transactions que vous souhaitez facturer, notamment la date d’échéance, le type d’élément à facturer, l’unité, et le jalon. Lorsque vous avez terminé la sélection des paramètres, cliquez sur **Suivant**.  
   
 5.  Cliquez sur **Terminer**.  
   

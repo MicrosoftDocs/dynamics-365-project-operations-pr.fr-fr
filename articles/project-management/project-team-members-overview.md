@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075631"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127425"
 ---
 # <a name="project-team-members"></a>les membres de l’équipe du projet ;
 
@@ -47,16 +47,16 @@ Le tableau suivant répertorie les attributs clés d’un membre de l’équipe 
 
 À partir de la grille des membres de l’équipe, les actions suivantes peuvent être entreprises :
 
-- **Réserver**  : Pour les organisations qui utilisent la méthodologie de réservation hybride, l’action de réservation permettra aux utilisateurs de réserver une ressource nommée en fonction des exigences requises générées par le membre de l’équipe générique
-- **Générer un besoin**  : Cette action génère le besoin.
-- **Spécifier le modèle**  : Permet aux chefs de projet d’ajuster les contours des besoins en ressources à un niveau granulaire. Les chefs de projet peuvent s’adapter aux besoins spécifiques du projet dans les cas où la distribution par défaut ne convient pas.
-- **Envoyer la demande**  : Pour les organisations utilisant la méthodologie des réservations centrale.
-- **Modifier**  : Les attributs des membres de l’équipe peuvent être modifiés, notamment l’unité d’organisation, le rôle et le nom du poste.
-- **Gérer les réservations**  : Lorsque les réservations de ressources doivent être mises à jour, la gestion des réservations permet au chef de projet d’ajuster :
+- **Réserver** : Pour les organisations qui utilisent la méthodologie de réservation hybride, l’action de réservation permettra aux utilisateurs de réserver une ressource nommée en fonction des exigences requises générées par le membre de l’équipe générique
+- **Générer un besoin** : Cette action génère le besoin.
+- **Spécifier le modèle** : Permet aux chefs de projet d’ajuster les contours des besoins en ressources à un niveau granulaire. Les chefs de projet peuvent s’adapter aux besoins spécifiques du projet dans les cas où la distribution par défaut ne convient pas.
+- **Envoyer la demande** : Pour les organisations utilisant la méthodologie des réservations centrale.
+- **Modifier** : Les attributs des membres de l’équipe peuvent être modifiés, notamment l’unité d’organisation, le rôle et le nom du poste.
+- **Gérer les réservations** : Lorsque les réservations de ressources doivent être mises à jour, la gestion des réservations permet au chef de projet d’ajuster :
 
     - Démarrer
     - Fin
     - Répartition totale de l’effort
 
-- **Nouveau**  : Outre l’ajout de ressources directement à partir de la planification, les chefs de projet peuvent ajouter de nouveaux membres nommés ou génériques de l’équipe à partir de la grille des membres de l’équipe.
-- **Supprimer**  : En sélectionnant un ou plusieurs membres de l’équipe, le chef de projet peut supprimer des ressources qui ne participeront plus au projet. La suppression d’un membre de l’équipe supprimera également toutes les affectations de ressources associées et annulera toutes les réservations existantes.
+- **Nouveau** : Outre l’ajout de ressources directement à partir de la planification, les chefs de projet peuvent ajouter de nouveaux membres nommés ou génériques de l’équipe à partir de la grille des membres de l’équipe.
+- **Supprimer** : En sélectionnant un ou plusieurs membres de l’équipe, le chef de projet peut supprimer des ressources qui ne participeront plus au projet. La suppression d’un membre de l’équipe supprimera également toutes les affectations de ressources associées et annulera toutes les réservations existantes.

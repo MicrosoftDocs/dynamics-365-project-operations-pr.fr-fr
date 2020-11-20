@@ -5,15 +5,15 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075608"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126120"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Récupération de la TVA dans Gestion des dépenses
 
@@ -21,7 +21,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 Pour recevoir des remboursements sur les transactions de taxe sur la valeur ajoutée (TVA) éligibles, une entreprise ou une organisation doit identifier, collecter, vérifier et soumettre des informations exactes. Ce processus comprend plusieurs tâches et, selon la taille de votre entreprise, peut inclure plusieurs employés ou rôles.
 
-Pour récupérer la TVA dans le module **Gestion des dépenses** , les conditions préalables suivantes doivent être remplies :
+Pour récupérer la TVA dans le module **Gestion des dépenses**, les conditions préalables suivantes doivent être remplies :
 
 - Les codes de taxe doivent être créés pour les pays/régions affectés aux catégories de dépenses.
 - Un groupe de taxe doit être créé pour chaque code de taxe.
@@ -41,7 +41,7 @@ Les sections suivantes fournissent des exemples qui montrent comment les employ�
 
 Geneviève, une représentante commerciale de Contoso basée aux États-Unis, est récemment revenue d’un voyage d’affaires au Royaume-Uni. Pendant le voyage, Geneviève a engagé des dépenses personnelles de carte de crédit pour les repas. Geneviève doit maintenant créer une note de frais pour rapprocher les dépenses.
 
-Lorsque Geneviève entre des informations sur la note de frais, elle sélectionne **Royaume-Uni** dans le champ **Pays/région** sur la page **Modifier la note de frais**. La liste des groupes de taxe est ensuite filtrée afin qu’elle n’affiche que les groupes qui s’appliquent au Royaume-Uni. Geneviève sélectionne le groupe de taxe **Royaume-Uni 001** , puis sélectionne le groupe de taxe d’article **Repas**. Ensuite, Geneviève ajoute une nouvelle transaction d’hébergement. Comme il n’y a qu’un seul groupe de taxe et un seul groupe de taxe d’article pour l’hébergement au Royaume-Uni, ces informations sont automatiquement renseignées sur la note de frais de Geneviève.
+Lorsque Geneviève entre des informations sur la note de frais, elle sélectionne **Royaume-Uni** dans le champ **Pays/région** sur la page **Modifier la note de frais**. La liste des groupes de taxe est ensuite filtrée afin qu’elle n’affiche que les groupes qui s’appliquent au Royaume-Uni. Geneviève sélectionne le groupe de taxe **Royaume-Uni 001**, puis sélectionne le groupe de taxe d’article **Repas**. Ensuite, Geneviève ajoute une nouvelle transaction d’hébergement. Comme il n’y a qu’un seul groupe de taxe et un seul groupe de taxe d’article pour l’hébergement au Royaume-Uni, ces informations sont automatiquement renseignées sur la note de frais de Geneviève.
 
 Selon la stratégie Contoso, toutes les dépenses doivent avoir un reçu correspondant. Par conséquent, lorsque Geneviève enregistre la note de frais, elle reçoit un message indiquant qu’elle doit joindre un reçu pour chaque transaction qu’elle a inscrite sur sa note de frais. Geneviève vérifie qu’elle a joint une image numérique de chaque reçu de transaction à son rapport de dépenses, puis soumet son rapport pour approbation. Elle envoie ensuite les reçus papier à l’équipe de traitement du back-office. Cette équipe enverra les données de récupération de TVA au fournisseur tiers qui dépose les déclarations internationales de récupération de TVA pour Contoso.
 

@@ -1,9 +1,9 @@
 ---
 title: Créer un compte client
-description: Procédure de création d'un compte client dans Project Service
+description: Procédure de création d’un compte client dans Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0dc328d1e0a2deba256dacb1697aee65e89055e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f80d7612563b49765c5d0dc36e0033c9f7c42f9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075746"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129090"
 ---
 # <a name="create-a-customer-account-project-service"></a>Créer un compte client (Project Service)
 
@@ -35,13 +35,13 @@ Créez un compte pour chaque client avez lequel vous travaillez, que vous fassie
   
 2.  Cliquez sur **Nouveau**.  
   
-3.  Dans la zone **Résumé** , donnez un nom à votre nouveau compte dans **Nom** , puis complétez les autres champs comme nécessaire.  
+3.  Dans la zone **Résumé**, donnez un nom à votre nouveau compte dans **Nom**, puis complétez les autres champs comme nécessaire.  
   
 4.  Cliquez sur **Enregistrer** pour créer l’enregistrement et pouvoir continuer de le modifier.  
   
-5.  Dans la zone **Tarifs du projet** , cliquez sur + pour ajouter des tarifs. Vous pouvez ajouter plusieurs tarifs pour ce compte.  
+5.  Dans la zone **Tarifs du projet**, cliquez sur + pour ajouter des tarifs. Vous pouvez ajouter plusieurs tarifs pour ce compte.  
   
-6.  Lorsque vous avez fini, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l'écran.  
+6.  Lorsque vous avez fini, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l’écran.  
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/account-manager-guide.md)

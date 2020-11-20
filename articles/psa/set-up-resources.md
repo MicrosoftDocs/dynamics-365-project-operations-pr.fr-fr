@@ -3,7 +3,7 @@ title: Configurer les ressources
 description: Procédure de configuration de ressources dans Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9e0c8d2b425c210c3737d35dca8b8867bd57461f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0ee39e48ae587898641484149b4d886b568ba80b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075954"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128910"
 ---
 # <a name="set-up-resources-project-service"></a>Configurer des ressources (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Avant de demander ou d'attribuer des ressources dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], vous devez définir les rôles et les ensembles de qualifications dont les projets de vos clients ont besoin. Cela suppose une certaine configuration de votre part :  
+Avant de demander ou d’attribuer des ressources dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], vous devez définir les rôles et les ensembles de qualifications dont les projets de vos clients ont besoin. Cela suppose une certaine configuration de votre part :  
   
 -   [Ajouter des qualifications de ressource](../psa/add-resource-skills.md)  
   
@@ -45,7 +45,7 @@ Avant de demander ou d'attribuer des ressources dans [!INCLUDE[pn_project_servic
   
 -   [Associer les qualifications aux ressources](../psa/associate-skills-with-resources.md)  
   
--   [Créer un modèle d'heures de travail](../psa/create-work-hours-template.md)  
+-   [Créer un modèle d’heures de travail](../psa/create-work-hours-template.md)  
   
 -   [Appliquer un calendrier à une ressource](../psa/apply-calendar-resource.md)  
   

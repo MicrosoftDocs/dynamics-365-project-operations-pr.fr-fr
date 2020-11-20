@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075639"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124635"
 ---
 # <a name="extending-time-entries"></a>Développement des entrées de temps
 
@@ -33,14 +33,14 @@ L’extension des entrées de temps est possible dans deux domaines :
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Ajouter des entrées de temps personnalisées pour votre propre usage
 
-Les entrées de temps sont une entité principale utilisée dans plusieurs scénarios. En avril Wave 1 2020, la solution principale TESA a été introduite. TESA fournit une entité **Paramètres** et un nouveau rôle de sécurité **Utilisateur de saisie de temps**. Les nouveaux domaines, **msdyn_start** et **msdyn_end** , qui ont une relation directe avec **msdyn_duration** , ont également été inclus. Les nouveaux entité, rôle de sécurité et champs permettent une approche plus unifiée du temps pour plusieurs produits.
+Les entrées de temps sont une entité principale utilisée dans plusieurs scénarios. En avril Wave 1 2020, la solution principale TESA a été introduite. TESA fournit une entité **Paramètres** et un nouveau rôle de sécurité **Utilisateur de saisie de temps**. Les nouveaux domaines, **msdyn_start** et **msdyn_end**, qui ont une relation directe avec **msdyn_duration**, ont également été inclus. Les nouveaux entité, rôle de sécurité et champs permettent une approche plus unifiée du temps pour plusieurs produits.
 
 
 ### <a name="time-source-entity"></a>Entité source de temps
 | Champ | Description | 
 |-------|------------|
-| Nom   | Nom de l'entrée de source de temps utilisée comme valeur de sélection lors de la création des entrées de temps. |
-| Source de temps par défaut [Source de temps : isdefault] | Par défaut, une seule source de temps peut être marquée par défaut. Cela permet aux entrées de se définir par défaut sur une source de temps si aucune n'est spécifiée. |
+| Nom   | Nom de l’entrée de source de temps utilisée comme valeur de sélection lors de la création des entrées de temps. |
+| Source de temps par défaut [Source de temps : isdefault] | Par défaut, une seule source de temps peut être marquée par défaut. Cela permet aux entrées de se définir par défaut sur une source de temps si aucune n’est spécifiée. |
 |Type de source de temps [Source de temps : sourcetype] | Le type de source est une option (Type de source d’entrée de temps) qui permet l’association de la source de temps à une application. Microsoft réserve des valeurs supérieures à 190 000 000.|
 
 
@@ -62,7 +62,7 @@ La logique mettra automatiquement à jour l’enregistrement de saisie de temps 
 
 #### <a name="time-entry-types"></a>Types d’entrées de temps
 
-Les enregistrements de saisie de temps ont un type associé qui définit le comportement dans le flux d'envoi pour l'application associée.
+Les enregistrements de saisie de temps ont un type associé qui définit le comportement dans le flux d’envoi pour l’application associée.
 
 |Étiquette | valeur|
 |-----|-----|
@@ -85,10 +85,10 @@ Il existe trois grandes étapes pour ajouter un champ personnalisé à la grille
 2. Configurer la grille pour afficher le champ personnalisé.
 3. Ajouter le champ personnalisé au flux de tâches de modification de ligne ou au flux de tâches de modification de cellule.
 
-Assurez-vous que le nouveau champ a les validations requises dans le flux de modification de ligne ou de cellule. Dans le cadre de cette étape, verrouillez le champ, selon le statut de l'entrée de temps.
+Assurez-vous que le nouveau champ a les validations requises dans le flux de modification de ligne ou de cellule. Dans le cadre de cette étape, verrouillez le champ, selon le statut de l’entrée de temps.
 
 ### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Ajouter le champ personnalisé à la boîte de dialogue de création rapide
-Ajoutez le champ personnalisé à la boîte de dialogue **Création rapide d'une entrée de temps**. Ensuite, lorsque les entrées de temps sont ajoutées, une valeur peut être saisie en sélectionnant **Nouveau**.
+Ajoutez le champ personnalisé à la boîte de dialogue **Création rapide d’une entrée de temps**. Ensuite, lorsque les entrées de temps sont ajoutées, une valeur peut être saisie en sélectionnant **Nouveau**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Configurer la grille pour afficher le champ personnalisé
 Vous pouvez ajouter un champ personnalisé à la grille d’entrée de temps hebdomadaire de deux façons :
@@ -103,28 +103,28 @@ Personnaliser la vue **Mes entrées de temps hebdomadaires** et ajoutez-y le cha
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Créer une entrée de temps personnalisée par défaut
 
-Cette vue doit contenir les champs **Description** et **Commentaires externes** , en plus des colonnes que la grille doit contenir. 
+Cette vue doit contenir les champs **Description** et **Commentaires externes**, en plus des colonnes que la grille doit contenir. 
 
 1. Choisissez la position, la taille et l’ordre de tri par défaut de la grille en modifiant ces propriétés dans la vue. 
 2. Configurez le contrôle personnalisé pour cette vue de manière à ce qu’il devienne un contrôle **Grille d’entrée de temps**. 
 3. Ajoutez ce contrôle à la vue, puis sélectionnez-le pour le Web, le téléphone et la tablette. 
 4. Configurez les paramètres de la grille d’entrée de temps hebdomadaire. 
-5. Définissez le champ **Date de début** sur **msdyn_date** , définissez le champ **Durée** sur **msdyn_duration** et définissez le champ **Statut** sur **msdyn_entrystatus**. 
+5. Définissez le champ **Date de début** sur **msdyn_date**, définissez le champ **Durée** sur **msdyn_duration** et définissez le champ **Statut** sur **msdyn_entrystatus**. 
 6. Pour la vue par défaut, le champ **Liste des statuts en lecture seule** est défini sur **192350002,192350003,192350004**. Le champ **Flux de tâches de modification de ligne** est défini sur **msdyn_timeentryrowedit**. Le champ **Flux de tâches de modification de cellule** est défini sur **msdyn_timeentryedit**. 
 7. Vous pouvez personnaliser ces champs pour ajouter ou supprimer un statut en lecture seule, ou pour utiliser une autre expérience basée sur les tâches pour la modification de ligne ou de cellule. Ces champs sont désormais associés à une valeur statique.
 
 
 > [!NOTE] 
-> Les deux options suppriment certaines options de filtrage prédéfinies sur les entités **Projet** et **Tâche du projet** , afin que toutes les vues de recherche des entités soient visibles. Par défaut, seules les vues de recherche pertinentes sont visibles.
+> Les deux options suppriment certaines options de filtrage prédéfinies sur les entités **Projet** et **Tâche du projet**, afin que toutes les vues de recherche des entités soient visibles. Par défaut, seules les vues de recherche pertinentes sont visibles.
 
-Déterminez le flux de tâches approprié pour le champ personnalisé. Si vous avez ajouté le champ à la grille, il doit apparaître dans le flux de tâches de modification de ligne qui est utilisé pour les champs s’appliquant à la ligne entière d’entrées du temps. Si le champ personnalisé a une valeur unique chaque jour, comme un champ personnalisé pour **Heure de fin** , il doit apparaître dans le flux de tâches de modification de cellule.
+Déterminez le flux de tâches approprié pour le champ personnalisé. Si vous avez ajouté le champ à la grille, il doit apparaître dans le flux de tâches de modification de ligne qui est utilisé pour les champs s’appliquant à la ligne entière d’entrées du temps. Si le champ personnalisé a une valeur unique chaque jour, comme un champ personnalisé pour **Heure de fin**, il doit apparaître dans le flux de tâches de modification de cellule.
 
-Pour ajouter le champ personnalisé à un flux de tâches, faites glisser un élément **Champ** vers la position appropriée sur la page, puis définissez les propriétés de champs. Définissez la propriété **Source** sur **Entrée de temps** , et définissez la propriété **Champ de données** sur le champ personnalisé. La propriété **Champ** spécifie le nom complet sur la page TBX. Sélectionnez **Appliquer** pour enregistrer vos modifications dans le champ, puis sélectionnez **Mettre à jour** pour enregistrer vos modifications sur la page.
+Pour ajouter le champ personnalisé à un flux de tâches, faites glisser un élément **Champ** vers la position appropriée sur la page, puis définissez les propriétés de champs. Définissez la propriété **Source** sur **Entrée de temps**, et définissez la propriété **Champ de données** sur le champ personnalisé. La propriété **Champ** spécifie le nom complet sur la page TBX. Sélectionnez **Appliquer** pour enregistrer vos modifications dans le champ, puis sélectionnez **Mettre à jour** pour enregistrer vos modifications sur la page.
 
-Pour utiliser une nouvelle page TBX personnalisée, créez un nouveau processus. Définissez la catégorie sur **Flux des processus d’entreprise** , définissez l’entité sur **Entrée de temps** et définissez le type de processus d’entreprise sur **Exécuter le processus en tant que flux de tâches**. Sous **Propriétés** , la propriété **Nom de la page** doit être définie sur le nom complet de la page. Ajoutez tous les champs pertinents à la page TBX. Enregistrez et activez le processus. Mettez à jour la propriété de contrôle personnalisée pour le flux de tâches approprié sur la valeur **Nom** du processus.
+Pour utiliser une nouvelle page TBX personnalisée, créez un nouveau processus. Définissez la catégorie sur **Flux des processus d’entreprise**, définissez l’entité sur **Entrée de temps** et définissez le type de processus d’entreprise sur **Exécuter le processus en tant que flux de tâches**. Sous **Propriétés**, la propriété **Nom de la page** doit être définie sur le nom complet de la page. Ajoutez tous les champs pertinents à la page TBX. Enregistrez et activez le processus. Mettez à jour la propriété de contrôle personnalisée pour le flux de tâches approprié sur la valeur **Nom** du processus.
 
 ### <a name="add-new-option-set-values"></a>Ajouter de nouvelles valeurs de groupe d’options
-Pour ajouter des valeurs de groupe d’options à un champ prédéfini, ouvrez la page de modification du champ, et sous **Type** , sélectionnez **Modifier** en regard du groupe d’options. Ajoutez une nouvelle option qui a une étiquette et une couleur personnalisées. Pour ajouter un nouveau statut d’entrée de temps, le champ prédéfini est nommé **Statut de l’entrée** , et non **Statut**.
+Pour ajouter des valeurs de groupe d’options à un champ prédéfini, ouvrez la page de modification du champ, et sous **Type**, sélectionnez **Modifier** en regard du groupe d’options. Ajoutez une nouvelle option qui a une étiquette et une couleur personnalisées. Pour ajouter un nouveau statut d’entrée de temps, le champ prédéfini est nommé **Statut de l’entrée**, et non **Statut**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Désigner un nouveau statut d’entrée de temps en lecture seule
 Pour désigner un nouveau statut d’entrée de temps en lecture seule, ajoutez la nouvelle valeur d’entrée de temps à la propriété **Liste des statuts en lecture seule**. La partie modifiable de la grille d’entrée de temps est verrouillée pour les lignes présentant le nouveau statut.
@@ -143,4 +143,4 @@ Utilisez les règles métier pour verrouiller et déverrouiller des champs, entr
 Utilisez les validations de plug-in pour les validations nécessitant plus de contexte que celui disponible dans un enregistrement d’entrée de temps unique, ou pour les validations que vous souhaitez exécuter sur les mises à jour en ligne de la grille. Pour exécuter la validation, créez un plug-in personnalisé sur l’entité **Entrée de temps**.
 
 ### <a name="copying-time-entries"></a>Copie des entrées des temps
-Utilisez la vue **Copier les colonnes de saisie de l'heure** pour définir la liste des champs à copier lors de la saisie de l'heure. **Date** et **Durée** sont des champs obligatoires et ne doivent pas être supprimés de la vue.
+Utilisez la vue **Copier les colonnes de saisie de l’heure** pour définir la liste des champs à copier lors de la saisie de l’heure. **Date** et **Durée** sont des champs obligatoires et ne doivent pas être supprimés de la vue.

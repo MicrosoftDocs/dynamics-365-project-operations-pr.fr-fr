@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075657"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128865"
 ---
 # <a name="skills-and-certifications"></a>Compétences et certifications
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
@@ -24,7 +24,7 @@ L’ajout de caractéristiques aux besoins en ressources vous permet de document
 
 ## <a name="add-characteristics"></a>Ajouter des caractéristiques
 
-1. Depuis le menu principal, ouvrez **Ressources** et dans la section **Ressources** , sélectionnez **Compétences**.
+1. Depuis le menu principal, ouvrez **Ressources** et dans la section **Ressources**, sélectionnez **Compétences**.
 2. Pour ajouter des caractéristiques, sélectionnez **Nouveau**.
 3. Renseignez les champs requis et cliquez sur **Type de caractéristique**.
 
@@ -32,14 +32,14 @@ L’ajout de caractéristiques aux besoins en ressources vous permet de document
 
 1. Dans le menu principal, sélectionnez **Ressources** > **Ressources pouvant être réservées**. La page **Ressources réservables actives** s’ouvre et vous pouvez afficher une liste de toutes les ressources disponibles dans le système.
 2. Dans la liste, sélectionnez le nom d’une ressource pouvant être réservée.
-3. Dans la section **Project Service** , sélectionnez **+Ajouter un enregistrement de caractéristiques de ressources pouvant être réservées**.
+3. Dans la section **Project Service**, sélectionnez **+Ajouter un enregistrement de caractéristiques de ressources pouvant être réservées**.
 4. Dans la fenêtre contextuelle qui s’ouvre, recherchez et sélectionnez les caractéristiques requises et ajoutez une **Valeur d’évaluation** pour la ressource.
 5. Cliquez sur **Enregistrer et fermer**.
 
 ## <a name="assign-characteristics-to-resource-requirements"></a>Attribuer des caractéristiques aux besoins en ressources
 
 1. Dans la grille des membres de l’équipe, recherchez et double-cliquez sur le membre générique de l’équipe dont les caractéristiques doivent être mises à jour.
-2. Dans les **Détails des membres de l’équipe de projet** , sélectionnez l’onglet **Besoin en ressources**.
-3. Dans la sous-grille **Compétences** , sélectionnez **+ Ajouter une nouvelle caractéristique de besoin.**
+2. Dans les **Détails des membres de l’équipe de projet**, sélectionnez l’onglet **Besoin en ressources**.
+3. Dans la sous-grille **Compétences**, sélectionnez **+ Ajouter une nouvelle caractéristique de besoin.**
 4. Dans le volet de création rapide, recherchez et sélectionnez les caractéristiques requises et ajoutez une **Valeur de notation**.
 5. Cliquez sur **Enregistrer et fermer**.

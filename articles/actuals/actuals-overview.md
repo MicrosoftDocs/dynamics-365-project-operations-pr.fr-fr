@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075730"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126301"
 ---
 # <a name="actuals"></a>Chiffres réels 
 
@@ -45,7 +45,7 @@ Quand une entrée de temps envoyée est liée à un projet mappé à une ligne d
 
 La logique de création des prix par défaut se trouve sur la ligne de journal. Les valeurs de champ de l’entrée de temps sont copiées sur la ligne de journal. Ces valeurs comprennent la date de la transaction, la ligne de contrat auquel le projet est mappé, ainsi que le résultat en devise dans les tarifs adéquats.
 
-Les champs qui affectent la tarification par défaut, par exemple **Rôle** et **Unité d’organisation** , sont utilisés pour déterminer le tarif approprié à entrer par défaut sur la ligne de journal. Vous pouvez ajouter un champ personnalisé sur l’entrée de temps. Si vous souhaitez que la valeur de champ soit propagée aux chiffres réels, créez un champ dans l’entité Chiffres réels, puis utilisez les mappages de champs pour copier le champ de l’entrée de temps dans les chiffres réels.
+Les champs qui affectent la tarification par défaut, par exemple **Rôle** et **Unité d’organisation**, sont utilisés pour déterminer le tarif approprié à entrer par défaut sur la ligne de journal. Vous pouvez ajouter un champ personnalisé sur l’entrée de temps. Si vous souhaitez que la valeur de champ soit propagée aux chiffres réels, créez un champ dans l’entité Chiffres réels, puis utilisez les mappages de champs pour copier le champ de l’entrée de temps dans les chiffres réels.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Lignes de journal et envoi des dépenses de base
 

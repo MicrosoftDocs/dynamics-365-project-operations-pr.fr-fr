@@ -3,7 +3,7 @@ title: Satisfaction des besoins en ressources
 description: Cette rubrique fournit des informations sur la façon de satisfaire des besoins en ressources.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 626828b96e110de4dcb6cad4a191994972ec26c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7156e1beb0df033331d91abf9ca7f6ddc18df796
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075963"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124410"
 ---
 # <a name="fulfilling-resource-requests"></a>Répondre aux demandes de ressources
 
@@ -35,12 +35,12 @@ Les demandes de ressources sont affichées sous forme de liste dans la vue **Dem
 
 > ![Liste des demandes de ressources](media/Resource-Management-image59.png)
 
-Pour satisfaire une demande, sélectionnez-la dans la liste, puis sélectionnez **Rechercher des ressources**. Sinon, double-cliquez sur une ligne pour ouvrir la demande. Vous pouvez ensuite sélectionner l'onglet **Besoin en ressources** pour afficher les besoins de cette demande. Pour commencer à satisfaire la demande, sélectionnez **Rechercher des ressources**.
+Pour satisfaire une demande, sélectionnez-la dans la liste, puis sélectionnez **Rechercher des ressources**. Sinon, double-cliquez sur une ligne pour ouvrir la demande. Vous pouvez ensuite sélectionner l’onglet **Besoin en ressources** pour afficher les besoins de cette demande. Pour commencer à satisfaire la demande, sélectionnez **Rechercher des ressources**.
 
 > ![Détails de la demande de ressources](media/Resource-Management-image60.png)
 
-L'Assistant Planifier s'affiche et est filtré selon les besoins. Sélectionnez la ressource, puis **Réserver**.
+L’Assistant Planifier s’affiche et est filtré selon les besoins. Sélectionnez la ressource, puis **Réserver**.
 
 > ![Ressource sélectionnée](media/Resource-Management-image61.png)
 
-Le membre de l'équipe générique est remplacé par la ressource nommée réservée de manière ferme sur l'équipe du projet et les affectations de tâches dans la planification du projet.
+Le membre de l’équipe générique est remplacé par la ressource nommée réservée de manière ferme sur l’équipe du projet et les affectations de tâches dans la planification du projet.

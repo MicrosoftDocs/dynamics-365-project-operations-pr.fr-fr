@@ -3,7 +3,7 @@ title: Guide du responsable de projet
 description: Guide du gestionnaire de compte pour Project Service qui vous explique les processus de vente et de contrat pour les comptes basés sur un projet
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c6a24247eac912fd076eee8a47787e2f0709dfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 43f83ba5aa99d4a2c8d7939cb05a3f75db617d61
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075910"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129810"
 ---
 # <a name="account-manager-guide-project-service"></a>Guide du gestionnaire de compte (Project Service)
 
@@ -41,8 +41,8 @@ Les fonctionnalités de [!INCLUDE[pn_project_service_auto](../includes/pn-projec
   
   
 ### <a name="see-also"></a>Voir aussi  
- [Vue d'ensemble de Project Service](../psa/overview.md)   
- [Guide de l'administrateur](../psa/admin-guide.md)   
+ [Vue d’ensemble de Project Service](../psa/overview.md)   
+ [Guide de l’administrateur](../psa/admin-guide.md)   
  [Guide du responsable de projet](../psa/project-manager-guide.md)   
  [Guide du gestionnaire de ressources](../psa/resource-manager-guide.md)   
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)

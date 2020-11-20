@@ -1,9 +1,9 @@
 ---
 title: Ajouter des rôles de ressources
-description: Procédure d'attribution d'un rôle aux ressources Project Service
+description: Procédure d’attribution d’un rôle aux ressources Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,28 +18,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47bb6bc5e52553db77d6fe0eda2181069ddcbc2b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075936"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129585"
 ---
 # <a name="add-resource-roles-project-service"></a>Ajouter des rôles de ressources (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Définissez les taux d'utilisation cibles pour chaque rôle. Ces paramètres déterminent la disponibilité des ressources et leur utilisation lorsque vous attribuez les projets et analysez les chiffres réels.  
+Définissez les taux d’utilisation cibles pour chaque rôle. Ces paramètres déterminent la disponibilité des ressources et leur utilisation lorsque vous attribuez les projets et analysez les chiffres réels.  
   
-1.  Accédez au rôle de ressource pour lequel vous souhaitez configurer l'utilisation ( **Project Service > Rôle de ressource** ).  
+1.  Accédez au rôle de ressource pour lequel vous souhaitez configurer l’utilisation (**Project Service > Rôle de ressource**).  
   
-2.  Cliquez sur la flèche du bas en regard du rôle de ressource en haut de l'écran.  
+2.  Cliquez sur la flèche du bas en regard du rôle de ressource en haut de l’écran.  
   
 3.  Cliquez sur **Utilisation du rôle**.  
   
 4.  Cliquez sur **Ajouter une nouvelle utilisation du rôle**.  
   
-5.  Dans la zone **Général** , complétez les champs comme requis.  
+5.  Dans la zone **Général**, complétez les champs comme requis.  
   
 6.  Cliquez sur **Enregistrer** ou sur **Enregistrer et fermer**.  
   

@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075614"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128505"
 ---
 # <a name="per-diems"></a>Indemnités quotidiennes
 
@@ -26,8 +26,8 @@ Une indemnité journalière est une allocation versée à un travailleur qui se 
 
 1. Pour ajouter des emplacements d’indemnités journalières, accédez à **Configurer** > **Calculs et codes** > **Emplacements des indemnités journalières**.
 2. Pour chacun des emplacements ajoutés ci-dessus, sélectionnez un taux journalier et une devise valables entre une date de début et une date de fin spécifiques pour l’hôtel, les repas et d’autres dépenses. Les taux journaliers et les devises sont configurés sous **Configurer** > **Calculs et codes** > **Indemnités journalières**.
-3. Sur la page **Emplacements des indemnités journalières** , configurez les niveaux de taux journalier. Les niveaux de taux journaliers vous permettent de définir le pourcentage de répartition d’une indemnité journalière pour les frais d’hôtel, de repas et autres. 
+3. Sur la page **Emplacements des indemnités journalières**, configurez les niveaux de taux journalier. Les niveaux de taux journaliers vous permettent de définir le pourcentage de répartition d’une indemnité journalière pour les frais d’hôtel, de repas et autres. 
 4. Pour spécifier le pourcentage de réduction de repas pour le petit-déjeuner, le déjeuner ou le dîner, mettez à jour les champs de la page **Paramètres de gestion des dépenses** sur l’onglet **Indemnités journalières**. 
     
 ## <a name="submit-expenses-using-per-diem"></a>Soumettre les dépenses en utilisant les indemnités journalières
-Pour soumettre des dépenses utilisant des indemnités journalières, utilisez la catégorie de dépenses **Indemnités journalières** lorsque vous créez une note de frais. Entrer **Indemnités journalières à partir de la date** , **Indemnités journalières à ce jour** et **Emplacement des indemnités journalières**. Le montant sera calculé en fonction des taux journaliers pour l’emplacement sélectionné et la réduction de repas sera calculée en fonction des niveaux de taux journaliers.
+Pour soumettre des dépenses utilisant des indemnités journalières, utilisez la catégorie de dépenses **Indemnités journalières** lorsque vous créez une note de frais. Entrer **Indemnités journalières à partir de la date**, **Indemnités journalières à ce jour** et **Emplacement des indemnités journalières**. Le montant sera calculé en fonction des taux journaliers pour l’emplacement sélectionné et la réduction de repas sera calculée en fonction des niveaux de taux journaliers.

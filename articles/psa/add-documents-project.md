@@ -3,7 +3,7 @@ title: Ajouter des documents à un projet
 description: Étapes pour ajouter un document à un projet dans Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8702222207301c530476bf2aafc6ce78d3475550
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 07453337fa0493d6be5dc10fe92984685a0a38da
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075733"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129720"
 ---
 # <a name="add-documents-to-a-project-project-service"></a>Ajouter des documents à un projet (Project Service)
 
@@ -35,9 +35,9 @@ Maintenez les documents associés au projet organisés en les ajoutant à votre 
   
 2. Cliquez sur le projet sur lequel vous souhaitez travailler.  
   
-3. Dans la barre dans toute la partie supérieure de l'écran, sélectionnez la flèche vers le bas en regard du nom de projet, puis cliquez sur **Documents**.  
+3. Dans la barre dans toute la partie supérieure de l’écran, sélectionnez la flèche vers le bas en regard du nom de projet, puis cliquez sur **Documents**.  
   
-4. Entrez un nom de document dans **Nom** , puis copiez l'URL de l'emplacement du document [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sur **Emplacement de document**.  
+4. Entrez un nom de document dans **Nom**, puis copiez l’URL de l’emplacement du document [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sur **Emplacement de document**.  
   
 5. Cliquez sur **Enregistrer**.  
   

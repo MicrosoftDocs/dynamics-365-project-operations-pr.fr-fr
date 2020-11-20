@@ -1,9 +1,9 @@
 ---
 title: Afficher votre planning
-description: Procédure d'affichage de votre planning dans Project Service
+description: Procédure d’affichage de votre planning dans Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c3f85a8502439322af68a90d8a46bfd0fbe4b65
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35054a46251cbc4a91c7c37405e22287de4a9389
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075811"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125805"
 ---
 # <a name="view-your-schedule-project-service"></a>Afficher votre planning (Project Service)
 
@@ -31,11 +31,11 @@ ms.locfileid: "4075811"
 
 Lorsque vous souhaitez afficher les projets de la semaine, consultez votre planning.  
   
- Si vous utilisez l'application web :  
+ Si vous utilisez l’application web :  
   
-1.  Accédez à **Project Service > Réservations et tâches**. Une vue calendrier de votre planning s'affiche.  
+1.  Accédez à **Project Service > Réservations et tâches**. Une vue calendrier de votre planning s’affiche.  
   
-2.  Cliquez sur **Précédent** ou **Suivant** pour afficher votre planning pour la semaine précédente ou suivante. Cliquez sur **Aujourd'hui** pour revenir à la semaine en cours. Vous pouvez cliquer sur une tâche pour la mettre à jour, si nécessaire.  
+2.  Cliquez sur **Précédent** ou **Suivant** pour afficher votre planning pour la semaine précédente ou suivante. Cliquez sur **Aujourd’hui** pour revenir à la semaine en cours. Vous pouvez cliquer sur une tâche pour la mettre à jour, si nécessaire.  
   
 3.  Si vous préférez afficher une liste des tâches en cours, cliquez sur **Grille**. Vous pouvez modifier les tâches incluses, si nécessaire.  
   
