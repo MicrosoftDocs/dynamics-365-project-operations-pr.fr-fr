@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075653"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131745"
 ---
 # <a name="create-resource-assignments"></a>Créer des attributions de ressources
 
@@ -29,15 +29,15 @@ Lorsque vous créez un membre d’équipe générique via l’affectation de tâ
 
 1. Dans la grille Planification d’une tâche, sélectionnez l’icône Ressource dans la cellule **Ressource**.
 2. Tapez un nom qui servira de nom pour la ressource d’espace réservé. Par exemple, Responsable du programme.
-3. Sélectionnez **Créer** et dans le champ **Création rapide de membre d’équipe du projet** , définissez le rôle de la ressource générique.
+3. Sélectionnez **Créer** et dans le champ **Création rapide de membre d’équipe du projet**, définissez le rôle de la ressource générique.
 4. Attribuez des tâches au besoin à cette ressource d’espace réservé en sélectionnant la ressource dans le **Sélecteur de ressource** de la tâche. Les ressoures sont répertoriées sous **Membres de l’équipe**.
-5. Lorsque vous avez terminé d’attribuer la ressource générique, sélectionnez la ressource générique sur l’onglet **Équipe** , sélectionnez la ressource générique, puis **Générer un besoin** pour créer un besoin en ressources pour la ressource générique.
+5. Lorsque vous avez terminé d’attribuer la ressource générique, sélectionnez la ressource générique sur l’onglet **Équipe**, sélectionnez la ressource générique, puis **Générer un besoin** pour créer un besoin en ressources pour la ressource générique.
 6. Sélectionnez **Réserver** pour la ressource générique, puis utilisez le Tableau de planification pour rechercher et réserver une ressource réelle. Vous pouvez également envoyer le besoin pour exécution par un gestionnaire des ressources.
 7. Lorsque la ressource générique est entièrement remplie (la satisfaction partielle des besoins en ressources ne résultera pas en une affectation de ressource) avec une ressource nommée, la ressource générique est supprimée de l’équipe. Les affectations de tâches pour la ressource générique sont affectées à la ressource nommée qui répond aux besoins en ressources de la ressource générique.
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Attribuer une ressource nommée dans la liste de toutes les ressources pouvant être réservées
 
-Vous pouvez utiliser la zone de recherche dans le **Sélecteur de ressource** afin de rechercher toutes les ressources pouvant être réservées actives et les attribuer à une tâche de nœud terminal. Les ressources attribuées ainsi sont ajoutées à l’équipe sans aucune réservation. C’est similaire à ajouter un membre de l’équipe et à sélectionner **Aucune** comme mode de répartition. La ressource est affichée dans les onglets **Équipe** , **Affectation de ressource** et **Rapprochement** en tant que ressources avec uniquement des attributions et un déficit de réservation. Réservez-les si vous souhaitez utiliser leur disponibilité.
+Vous pouvez utiliser la zone de recherche dans le **Sélecteur de ressource** afin de rechercher toutes les ressources pouvant être réservées actives et les attribuer à une tâche de nœud terminal. Les ressources attribuées ainsi sont ajoutées à l’équipe sans aucune réservation. C’est similaire à ajouter un membre de l’équipe et à sélectionner **Aucune** comme mode de répartition. La ressource est affichée dans les onglets **Équipe**, **Affectation de ressource** et **Rapprochement** en tant que ressources avec uniquement des attributions et un déficit de réservation. Réservez-les si vous souhaitez utiliser leur disponibilité.
 
 1. À partir de la grille des tâches, du tableau ou de la chronologie, accédez à la cellule **Affecté à**.
 2. Dans la zone de recherche, commencez à saisir un nom. Les résultats de la recherche sur le nom s’affichent dans le **Sélecteur de ressource** sous **Autres ressources**.

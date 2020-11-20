@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075606"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131520"
 ---
 # <a name="maintain-team-members"></a>Préserver les membres de l’équipe
 
@@ -21,14 +21,14 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 Vous pouvez ajouter une ressource nommée à votre équipe de projet en les réservant directement dans l’équipe.
 
-1. Dans Dynamics 365 Project Operations, accédez à **Projets** , puis sélectionnez pour ouvrir le projet que réservez.
-2. Dans la page **Projet** , dans l’onglet **Équipe** , sélectionnez **Nouveau**. 
-3. Dans la boîte de dialogue **Création rapide : Membre de l’équipe de projet** , sélectionnez la ressource réservable. Le champ **Rôle** se remplit avec le rôle par défaut de la ressource si elle en a un d’attribué. Vous pouvez changer de rôle. 
+1. Dans Dynamics 365 Project Operations, accédez à **Projets**, puis sélectionnez pour ouvrir le projet que réservez.
+2. Dans la page **Projet**, dans l’onglet **Équipe**, sélectionnez **Nouveau**. 
+3. Dans la boîte de dialogue **Création rapide : Membre de l’équipe de projet**, sélectionnez la ressource réservable. Le champ **Rôle** se remplit avec le rôle par défaut de la ressource si elle en a un d’attribué. Vous pouvez changer de rôle. 
 4. Sélectionnez les dates de début et de fin auxquelles la ressource sera nécessaire et sélectionnez la méthode d’allocation de la capacité de la ressource. 
 5. Sélectionnez **Oui** dans le champ **Approbateur du projet** si vous voulez que le membre de l’équipe soit un approbateur de projet. Le membre de l’équipe peut approuver les entrées de temps et de dépenses envoyées pour ce projet. 
 6. Sélectionnez **Enregistrer**.
 
-Vous pouvez désormais attribuer la ressource réservée aux tâches sur le projet. Dans la page **Projet** , sur l’onglet **Planification** , attribuez des tâches à la nouvelle ressource. Le sélecteur de ressources lancé à partir du champ **Ressources** dans la grille de tâches affichera les membres de l’équipe que vous pouvez sélectionner.
+Vous pouvez désormais attribuer la ressource réservée aux tâches sur le projet. Dans la page **Projet**, sur l’onglet **Planification**, attribuez des tâches à la nouvelle ressource. Le sélecteur de ressources lancé à partir du champ **Ressources** dans la grille de tâches affichera les membres de l’équipe que vous pouvez sélectionner.
 
 
 Dans Project Operations, les réservations de ressources et les affectations de tâches ne sont pas étroitement liées. Si vous utilisez le sélecteur de ressources dans la planification, vous pouvez attribuer des tâches aux membres de l’équipe pour plus d’heures que leurs réservation n’en couvre.

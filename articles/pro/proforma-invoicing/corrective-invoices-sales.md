@@ -1,21 +1,21 @@
 ---
-title: Crédits et factures corrigées
+title: Factures corrigées – Simplifié
 description: Cette rubrique fournit des informations sur les factures corrigées dans Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075851"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176428"
 ---
-# <a name="credits-and-corrected-invoices"></a>Crédits et factures corrigées
+# <a name="corrected-invoices---lite"></a>Factures corrigées – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -24,22 +24,22 @@ Une facture de projet confirmée peut être corrigée pour traiter les modificat
 Pour apporter des modifications à une facture confirmée, ouvrez la facture confirmée et sélectionnez **Corriger cette facture**. 
 
 > [!NOTE]
-> Cette sélection n'est disponible que si une facture de projet est confirmée.
+> Cette sélection n’est disponible que si une facture de projet est confirmée.
 
 Un nouveau projet de facture est créé à partir de la facture confirmée. Tous les détails de la ligne de facture de la facture précédemment confirmée sont copiés dans le nouveau brouillon. Voici quelques-uns des points clés à comprendre concernant les détails de la ligne sur la nouvelle facture corrigée :
 
-- Toutes les quantités sont mises à jour à zéro. L'application suppose que tous les articles facturés sont entièrement crédités. Si nécessaire, vous pouvez mettre à jour manuellement ces quantités pour refléter la quantité facturée et non la quantité créditée. En fonction de la quantité que vous saisissez, l'application calcule la quantité créditée. Ce montant est reflété dans les chiffres réels créés lorsque la facture corrigée est confirmée. Si vous apportez des modifications au montant de la taxe, vous devez entrer le montant de taxe correct et non le montant de taxe crédité.
-- Les lignes de contrat basées sur les produits précédemment confirmées ne sont pas copiées. Le traitement des corrections sur une facture de projet basée sur le produit n'est pas pris en charge.
-- Les corrections d'étape sont toujours traitées comme des crédits complets.
-- Les montants de provision ou d'avance peuvent être corrigés si le client a été facturé pour un montant incorrect.
+- Toutes les quantités sont mises à jour à zéro. L’application suppose que tous les articles facturés sont entièrement crédités. Si nécessaire, vous pouvez mettre à jour manuellement ces quantités pour refléter la quantité facturée et non la quantité créditée. En fonction de la quantité que vous saisissez, l’application calcule la quantité créditée. Ce montant est reflété dans les chiffres réels créés lorsque la facture corrigée est confirmée. Si vous apportez des modifications au montant de la taxe, vous devez entrer le montant de taxe correct et non le montant de taxe crédité.
+- Les lignes de contrat basées sur les produits précédemment confirmées ne sont pas copiées. Le traitement des corrections sur une facture de projet basée sur le produit n’est pas pris en charge.
+- Les corrections d’étape sont toujours traitées comme des crédits complets.
+- Les montants de provision ou d’avance peuvent être corrigés si le client a été facturé pour un montant incorrect.
 - Les rapprochements des provisions et avances peuvent être corrigés si un montant incorrect a été utilisé pour effectuer le rapprochement avec les frais sur une facture précédemment confirmée.
 
 > [!IMPORTANT]
-> Les détails de la ligne de facture qui sont des corrections à d'autres frais déjà facturés ont le champ **Correction** défini sur **Oui**. Les factures dont les détails de ligne de facture ont été corrigés ont un champ appelé **Contient des corrections** qui est également défini sur **Oui**.
+> Les détails de la ligne de facture qui sont des corrections à d’autres frais déjà facturés ont le champ **Correction** défini sur **Oui**. Les factures dont les détails de ligne de facture ont été corrigés ont un champ appelé **Contient des corrections** qui est également défini sur **Oui**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Rapports réels créés lors de la confirmation d'une facture corrective :
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Rapports réels créés lors de la confirmation d’une facture corrective :
 
-Ci-dessous les chiffres réels créés par l'application lors de la confirmation d'un correctif en fonction des opérations effectuées sur le projet de facture corrective avant confirmation.
+Ci-dessous les chiffres réels créés par l’application lors de la confirmation d’un correctif en fonction des opérations effectuées sur le projet de facture corrective avant confirmation.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -58,45 +58,45 @@ Ci-dessous les chiffres réels créés par l'application lors de la confirmation
         <tr>
             <td width="216" rowspan="4" valign="top">
                 <p>
-Confirmer la correction d'une avance ou d'une provision facturée.<strong></strong>
+Confirmer la correction d’une avance ou d’une provision facturée.<strong></strong>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-Une contrepassation des ventes non facturées de la provision ou de l'avance qui a été créée pour le rapprochement. Ce montant est positif car il vise à annuler le négatif qui a été créé lors de la facturation de la provision ou de l'avance.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Une contrepassation de ventes facturée réelle est créée pour le montant de la provision ou de l'avance pour contrepasser les ventes facturées d'origine.
+Une contrepassation des ventes non facturées de la provision ou de l’avance qui a été créée pour le rapprochement. Ce montant est positif car il vise à annuler le négatif qui a été créé lors de la facturation de la provision ou de l’avance.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nouveau chiffre d'affaires facturé réel est créé pour le montant corrigé sur la provision ou la ligne de facture corrigée basée sur l'avance.
+Une contrepassation de ventes facturée réelle est créée pour le montant de la provision ou de l’avance pour contrepasser les ventes facturées d’origine.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un chiffre d'affaires non facturé réel d'un montant négatif de la provision ou une ligne de facture corrigée basée sur l'avance, qui sera utilisé pour le rapprochement.
+Un nouveau chiffre d’affaires facturé réel est créé pour le montant corrigé sur la provision ou la ligne de facture corrigée basée sur l’avance.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un chiffre d’affaires non facturé réel d’un montant négatif de la provision ou une ligne de facture corrigée basée sur l’avance, qui sera utilisé pour le rapprochement.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="4" valign="top">
                 <p>
-Une confirmation de la correction d'une provision ou d'une avance préalablement rapproché.
+Une confirmation de la correction d’une provision ou d’une avance préalablement rapproché.
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-Une contrepassation des ventes non facturées de la provision ou de l'avance qui a été créée pour le rapprochement. Ce montant est positif et vise à annuler le négatif qui a été créé lors du rapprochement précédent.
+Une contrepassation des ventes non facturées de la provision ou de l’avance qui a été créée pour le rapprochement. Ce montant est positif et vise à annuler le négatif qui a été créé lors du rapprochement précédent.
                 </p>
             </td>
         </tr>
@@ -110,33 +110,33 @@ Une contrepassation de ventes facturée réelle pour le montant de la facture pr
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nouveau chiffre d'affaires facturé réel pour le montant de provision qui est appliqué sur la facture corrigée.
+Un nouveau chiffre d’affaires facturé réel pour le montant de provision qui est appliqué sur la facture corrigée.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un chiffre d'affaires réel non facturé avec un montant négatif de la provision ou de l'avance restante corrigée, qui sera utilisé pour le rapprochement sur les factures ultérieures.
+Un chiffre d’affaires réel non facturé avec un montant négatif de la provision ou de l’avance restante corrigée, qui sera utilisé pour le rapprochement sur les factures ultérieures.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Facturation de l'intégralité du crédit d'une transaction horaire déjà facturée.
+Facturation de l’intégralité du crédit d’une transaction horaire déjà facturée.
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-Une annulation des ventes facturées pour les heures et le montant figurant sur la ligne de facture d'origine pour le temps.
+Une annulation des ventes facturées pour les heures et le montant figurant sur la ligne de facture d’origine pour le temps.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nouveau chiffre d'affaires non facturé réel pour les heures et le montant figurant sur la ligne de facture d'origine pour le temps.
+Un nouveau chiffre d’affaires non facturé réel pour les heures et le montant figurant sur la ligne de facture d’origine pour le temps.
                 </p>
             </td>
         </tr>
@@ -148,7 +148,7 @@ Facturation du crédit partiel sur une opération de temps.
             </td>
             <td width="408" valign="top">
                 <p>
-Une annulation des ventes facturées pour les heures et le montant facturé figurant sur la ligne de facture d'origine pour le temps.
+Une annulation des ventes facturées pour les heures et le montant facturé figurant sur la ligne de facture d’origine pour le temps.
                 </p>
             </td>
         </tr>
@@ -162,38 +162,38 @@ Un nouveau réel de ventes non facturé qui est facturable pour les heures et le
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nouveau chiffre d'affaires réel non facturé qui est facturé pour les heures restantes et le montant après déduction des chiffres corrigés sur le détail de la ligne de facture.
+Un nouveau chiffre d’affaires réel non facturé qui est facturé pour les heures restantes et le montant après déduction des chiffres corrigés sur le détail de la ligne de facture.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Facturation de l'intégralité du crédit d'une transaction de dépense déjà facturée.
+Facturation de l’intégralité du crédit d’une transaction de dépense déjà facturée.
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-Une annulation des ventes facturées pour les quantités et le montant figurant sur la ligne de facture d'origine pour la dépense.
+Une annulation des ventes facturées pour les quantités et le montant figurant sur la ligne de facture d’origine pour la dépense.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nouveau chiffre d'affaires non facturé réel pour les quantités et le montant figurant sur la ligne de facture d'origine pour la dépense.
+Un nouveau chiffre d’affaires non facturé réel pour les quantités et le montant figurant sur la ligne de facture d’origine pour la dépense.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="3" valign="top">
                 <p>
-Facturation du crédit partiel d'une transaction de dépense déjà facturée.
+Facturation du crédit partiel d’une transaction de dépense déjà facturée.
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-Une annulation des ventes facturées pour les quantités et le montant facturé figurant sur la ligne de facture d'origine pour une dépense.
+Une annulation des ventes facturées pour les quantités et le montant facturé figurant sur la ligne de facture d’origine pour une dépense.
                 </p>
             </td>
         </tr>
@@ -207,38 +207,38 @@ Un nouveau réel de ventes non facturé qui est facturable pour la quantité et 
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nouveau chiffre d'affaires réel non facturé qui est facturé pour la quantité restante et le montant après déduction des chiffres corrigés sur le détail de la ligne de facture.
+Un nouveau chiffre d’affaires réel non facturé qui est facturé pour la quantité restante et le montant après déduction des chiffres corrigés sur le détail de la ligne de facture.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Facturation de l'intégralité du crédit d'une transaction avec frais déjà facturée.
+Facturation de l’intégralité du crédit d’une transaction avec frais déjà facturée.
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-Une annulation des ventes facturées pour les quantités et le montant figurant sur la ligne de facture d'origine pour les frais.
+Une annulation des ventes facturées pour les quantités et le montant figurant sur la ligne de facture d’origine pour les frais.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nouveau chiffre d'affaires non facturé réel pour les quantités et le montant figurant sur la ligne de facture d'origine pour les frais.
+Un nouveau chiffre d’affaires non facturé réel pour les quantités et le montant figurant sur la ligne de facture d’origine pour les frais.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Facturation du crédit partiel d'une transaction avec frais déjà facturée.
+Facturation du crédit partiel d’une transaction avec frais déjà facturée.
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-Une annulation des ventes facturées pour les quantités et le montant facturé figurant sur la ligne de facture d'origine pour les frais.
+Une annulation des ventes facturées pour les quantités et le montant facturé figurant sur la ligne de facture d’origine pour les frais.
                 </p>
             </td>
         </tr>
@@ -252,12 +252,12 @@ Un nouveau réel de ventes non facturé qui est facturable pour la quantité et 
         <tr>
             <td width="216" valign="top">
                 <p>
-Facturation de l'intégralité du crédit d'un jalon facturé.
+Facturation de l’intégralité du crédit d’un jalon facturé.
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-Une annulation des ventes facturées pour le montant figurant sur la ligne de facture d'origine pour le jalon.
+Une annulation des ventes facturées pour le montant figurant sur la ligne de facture d’origine pour le jalon.
                 </p>
                 <p>
 La facture de jalon ou le statut de facturation sur la ligne de contrat de projet est mis à jour sur **Prêt à facturer**.
@@ -267,7 +267,7 @@ La facture de jalon ou le statut de facturation sur la ligne de contrat de proje
         <tr>
             <td width="216" valign="top">
                 <p>
-Facturation du crédit partiel d'un jalon facturé.
+Facturation du crédit partiel d’un jalon facturé.
                 </p>
             </td>
             <td width="408" valign="top">
@@ -278,7 +278,7 @@ Non pris en charge </p>
         <tr>
             <td width="216" valign="top">
                 <p>
-Crédits et corrections d'une ligne de contrat basée sur des produits préalablement facturée.
+Crédits et corrections d’une ligne de contrat basée sur des produits préalablement facturée.
                 </p>
             </td>
             <td width="408" valign="top">

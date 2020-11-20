@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 58868694987688e279e717d1f7acaf3fd9514770
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e0a31e71dd1e184e2e9539ecfd5f82f718a5f159
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075599"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131835"
 ---
 # <a name="collaboration-with-office-groups"></a>Collaboration avec les groupes Office
 

@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 84033182ce047d230724409eef9bc6afcaefd2b4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075636"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131925"
 ---
 # <a name="configure-project-categories"></a>Configurer les catégories de projets
 
@@ -45,7 +45,7 @@ Les catégories de projet représentent le niveau le plus granulaire de configur
 
 1. Accédez à **Gestion de projets et comptabilité** \> **Configurer** \> **Catégories** \> **Catégories de projets**.
 2. Cliquez sur **Nouveau**.
-3. Sélectionnez l’ **Identificateur de catégorie** de la catégorie partagée créée dans la section précédente. Project Operations permet d’utiliser uniquement les catégories partagées associées aux catégories de transaction.
+3. Sélectionnez l’**Identificateur de catégorie** de la catégorie partagée créée dans la section précédente. Project Operations permet d’utiliser uniquement les catégories partagées associées aux catégories de transaction.
 4. Sélectionnez un groupe de catégories.
 
 ## <a name="category-groups"></a>Groupes de catégories

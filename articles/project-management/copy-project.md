@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075681"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131790"
 ---
 # <a name="copy-a-project"></a>Copier un projet
 
@@ -60,4 +60,4 @@ Lorsqu’une équipe de projet est copiée à partir du projet source, les resso
 
 Lorsque le projet est copié, les lignes d’estimation des ressources et des dépenses sont copiées à partir du projet source. 
 
-Pour plus d'informations sur l'accès par programme à Copier le projet, voir [Développer des modèles de projet avec Copier le projet](dev-copy-project.md).
+Pour plus d’informations sur l’accès par programme à Copier le projet, voir [Développer des modèles de projet avec Copier le projet](dev-copy-project.md).

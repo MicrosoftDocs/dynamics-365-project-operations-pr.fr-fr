@@ -3,7 +3,7 @@ title: Guide du responsable de projet
 description: Guide de gestion de projets avec Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,26 +18,26 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89e33ae67f5d4134bf8c6f6c517fd4460c6879dd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bed91df141d19bf93703f6cad51432d6a1ffefa
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075710"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132032"
 ---
 # <a name="project-manager-guide-project-service"></a>Guide du gestionnaire de projets (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Les fonctionnalités de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] dans [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] vous permettent de créer des devis et des contrats de projet, et de créer et gérer des projets pour vos clients après avoir conclu le contrat. Elles fournissent également des analyses pour vous garantir que les projets sont faisables et rentables. Vous pouvez définir des projets en fonction de la durée et des matériaux ou d'un forfait.  
+Les fonctionnalités de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] dans [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] vous permettent de créer des devis et des contrats de projet, et de créer et gérer des projets pour vos clients après avoir conclu le contrat. Elles fournissent également des analyses pour vous garantir que les projets sont faisables et rentables. Vous pouvez définir des projets en fonction de la durée et des matériaux ou d’un forfait.  
   
- Les outils de gestion de projet vous permettent d'effectuer ce qui suit :  
+ Les outils de gestion de projet vous permettent d’effectuer ce qui suit :  
   
 -   Estimer le travail efficacement  
   
 -   Prévoir les besoins en ressources lorsque les projets sont dans le pipeline  
   
--   Permettre aux membres de l'équipe de collaborer sur des projets et maintenir le statut du projet à jour et exact à tout moment  
+-   Permettre aux membres de l’équipe de collaborer sur des projets et maintenir le statut du projet à jour et exact à tout moment  
   
 -   Identifier et résoudre proactivement les menaces potentielles à la réussite de chaque engagement.  
   
@@ -78,17 +78,17 @@ Ce guide fournit les informations nécessaires pour créer et gérer des projets
 -   [Afficher les tableaux de bord et les rapports](../psa/view-dashboards-reports.md)  
   
 ## <a name="prerequisites"></a>Configuration requise  
- Si vous ne l'avez pas déjà fait, vous devez exécuter les éléments suivants avant de commencer à créer des projets :  
+ Si vous ne l’avez pas déjà fait, vous devez exécuter les éléments suivants avant de commencer à créer des projets :  
   
--   [Créer un modèle d'heures de travail](../psa/create-work-hours-template.md). Configurez un calendrier de projet qui définit le nombre d'heures de travail par jour dans le programme et les heures de fermeture.  
+-   [Créer un modèle d’heures de travail](../psa/create-work-hours-template.md). Configurez un calendrier de projet qui définit le nombre d’heures de travail par jour dans le programme et les heures de fermeture.  
   
--   [Créer un tarif](../psa/create-price-list.md). Définissez le coût et les prix de vente pour les rôles de ressources dans votre organisation, ainsi que d'autres catégories comme les dépenses et les produits.  
+-   [Créer un tarif](../psa/create-price-list.md). Définissez le coût et les prix de vente pour les rôles de ressources dans votre organisation, ainsi que d’autres catégories comme les dépenses et les produits.  
   
 -   [Ajouter des rôles de ressources](../psa/add-resource-roles.md). Définissez les rôles pour déterminer les besoins en ressources et les coûts du projet.  
   
 ### <a name="see-also"></a>Voir aussi  
- [Vue d'ensemble de Project Service](../psa/overview.md)   
- [Guide de l'administrateur](../psa/admin-guide.md)   
+ [Vue d’ensemble de Project Service](../psa/overview.md)   
+ [Guide de l’administrateur](../psa/admin-guide.md)   
  [Guide du responsable de projet](../psa/account-manager-guide.md)   
  [Guide du gestionnaire de ressources](../psa/resource-manager-guide.md)   
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)

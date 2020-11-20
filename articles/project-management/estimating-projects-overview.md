@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075629"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131565"
 ---
 # <a name="estimate-projects-overview"></a>Vue d’ensemble des projets d’estimation
 
@@ -74,8 +74,8 @@ Si vous avez ajouté un champ personnalisé sur les détails de la ligne de devi
 2. Sélectionnez **Rechercher** et recherchez le plug-in à mettre à jour.
 3. Sélectionnez le plug-in, puis, dans la page principale, sélectionnez **Sélectionner**.
 4. Sélectionnez l’étape du plug-in à mettre à jour, cliquez avec le bouton droit, puis sélectionnez **Mettre à jour**.
-5. Dans la boîte de dialogue **Mettre à jour l’étape existante** , dans le champ **Attributs de filtrage** , sélectionnez le bouton de sélection ( **...** ) :
-6. Dans la boîte de dialogue **Sélectionner les attributs** , activez les cases à cocher des attributs personnalisés.
+5. Dans la boîte de dialogue **Mettre à jour l’étape existante**, dans le champ **Attributs de filtrage**, sélectionnez le bouton de sélection (**...**) :
+6. Dans la boîte de dialogue **Sélectionner les attributs**, activez les cases à cocher des attributs personnalisés.
 7. Sélectionnez **OK** pour fermer la boîte de dialogue, puis sélectionnez **Mettre à jour l’étape**.
 8. Répétez les étapes 1 à 7 pour le deuxième plug-in.
 9. Fermez le **PluginRegistrationTool**.

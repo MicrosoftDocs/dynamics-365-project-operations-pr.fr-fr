@@ -1,9 +1,9 @@
 ---
 title: Créer une opportunité de projet
-description: Procédure de création d'une opportunité de projet dans Project Service
+description: Procédure de création d’une opportunité de projet dans Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,38 +18,38 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075932"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133230"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Créer une opportunité de projet (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Les opportunités sont des prospects intéressés de clients souhaitant s'offrir vos services. Les fonctionnalités du [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] dans [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] vous expliquent comment ouvrir une opportunité pour un de vos comptes, préparer un devis de projet et créer un contrat de projet avec votre client. Commencez par ajouter une opportunité. Vous pouvez également ajouter des estimations pour des services et des produits à l'opportunité. Lorsque vous ajoutez une opportunité, vous êtes au cours de la phase **Inclure** de votre projet.  
+Les opportunités sont des prospects intéressés de clients souhaitant s’offrir vos services. Les fonctionnalités du [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] dans [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] vous expliquent comment ouvrir une opportunité pour un de vos comptes, préparer un devis de projet et créer un contrat de projet avec votre client. Commencez par ajouter une opportunité. Vous pouvez également ajouter des estimations pour des services et des produits à l’opportunité. Lorsque vous ajoutez une opportunité, vous êtes au cours de la phase **Inclure** de votre projet.  
   
 1.  Accédez à **Project Service > Opportunités**.  
   
 2.  Cliquez sur **Nouveau**.  
   
-3.  Dans la zone **Résumé** , entrez l'opportunité de votre société et d'autres données.  
+3.  Dans la zone **Résumé**, entrez l’opportunité de votre société et d’autres données.  
   
-4.  Ajoutez d'éventuelles notes et activités (par exemple, des appels téléphoniques ou des messages électroniques) associées à ce prospect. Pour en savoir plus sur l'ajout de notes et d'activités, voir [Conserver un suivi des notes, tâches, appels, ou messages électronique avec les activités](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Ajoutez d’éventuelles notes et activités (par exemple, des appels téléphoniques ou des messages électroniques) associées à ce prospect. Pour en savoir plus sur l’ajout de notes et d’activités, voir [Conserver un suivi des notes, tâches, appels, ou messages électronique avec les activités](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
-5.  Pour ajouter des parties prenantes, dans la zone **Parties prenantes** , cliquez sur **+**.  
+5.  Pour ajouter des parties prenantes, dans la zone **Parties prenantes**, cliquez sur **+**.  
   
-6.  Pour ajouter des membres de l'équipe des ventes, dans la zone **Équipe des ventes** , cliquez sur **+**.  
+6.  Pour ajouter des membres de l’équipe des ventes, dans la zone **Équipe des ventes**, cliquez sur **+**.  
   
-7.  Pour ajouter des concurrents, dans la zone **Concurrents** , cliquez sur **+**.  
+7.  Pour ajouter des concurrents, dans la zone **Concurrents**, cliquez sur **+**.  
   
-8.  Pour ajouter un produit à l'opportunité, cliquez sur **Nouveau** sous **Lignes basées sur le produit** dans la zone **Lignes d'opportunité**. Sélectionnez un article dans la zone **Nom du produit** , puis spécifiez la quantité, le prix de vente et le budget du client.  
+8.  Pour ajouter un produit à l’opportunité, cliquez sur **Nouveau** sous **Lignes basées sur le produit** dans la zone **Lignes d’opportunité**. Sélectionnez un article dans la zone **Nom du produit**, puis spécifiez la quantité, le prix de vente et le budget du client.  
   
-9. Pour ajouter une estimation de projet à l'opportunité, cliquez sur **+** sous **Lignes basées sur le projet** dans la zone **Lignes d'opportunité**. Entrez le nom, le montant du budget et le projet, si disponible. Si vous devez créer un projet avec une structure de répartition du travail pour proposer une estimation, voir [Créer un projet](../psa/create-project.md).  
+9. Pour ajouter une estimation de projet à l’opportunité, cliquez sur **+** sous **Lignes basées sur le projet** dans la zone **Lignes d’opportunité**. Entrez le nom, le montant du budget et le projet, si disponible. Si vous devez créer un projet avec une structure de répartition du travail pour proposer une estimation, voir [Créer un projet](../psa/create-project.md).  
   
-10. Lorsque vous avez fini d'apporter des modifications, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l'écran.  
+10. Lorsque vous avez fini d’apporter des modifications, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l’écran.  
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/account-manager-guide.md)

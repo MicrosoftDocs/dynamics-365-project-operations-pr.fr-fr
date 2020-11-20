@@ -1,9 +1,9 @@
 ---
-title: Guide de base pour l'établissement de devis, la tarification et la facturation
+title: Guide de base pour l’établissement de devis, la tarification et la facturation
 description: Cette rubrique fournit des liens vers des informations sur les devis, la facturation et la tarification de base dans Project Service Automation.
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 986b073e7ee13b88f8516f92220b1e313a083bc0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eb90c1ac2880dc07414276618a8259d17932b4a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075843"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132555"
 ---
-# <a name="basic-guide-to-quoting-pricing-and-billing"></a>Guide de base pour l'établissement de devis, la tarification et la facturation
+# <a name="basic-guide-to-quoting-pricing-and-billing"></a>Guide de base pour l’établissement de devis, la tarification et la facturation
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-La possibilité de rechercher les bonnes ressources au bon moment, de réserver ces ressources sur des projets, et de conserver les ressources utilisés permet aux organisations d'atteindre des cibles de revenu et des objectifs de satisfaction client. 
+La possibilité de rechercher les bonnes ressources au bon moment, de réserver ces ressources sur des projets, et de conserver les ressources utilisés permet aux organisations d’atteindre des cibles de revenu et des objectifs de satisfaction client. 
 
 Le lien PDF précédemment dans cette rubrique a été supprimé et le contenu a été déplacé vers les rubriques suivantes :
 
@@ -43,8 +43,8 @@ Le lien PDF précédemment dans cette rubrique a été supprimé et le contenu a
 - [Estimations](../estimates.md)
 - [Chiffres réels](../actuals.md)
 - [Analyse des devis de projet](../basic-analyzing-quotes.md)
-- [Unités d'organisation](../advanced-organizational.md)
-- [Groupes d'unités et unités](../advanced-units.md)
+- [Unités d’organisation](../advanced-organizational.md)
+- [Groupes d’unités et unités](../advanced-units.md)
 - [Scénarios à plusieurs devises](../advanced-currency.md)
 - [Enregistrement des chiffres réels](../advanced-actuals.md)
 

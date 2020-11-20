@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075654"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131970"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurer la comptabilité des projets facturables
 
@@ -21,8 +21,8 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 Dynamics 365 Project Operations prend en charge diverses options de comptabilité pour les projets facturables qui incluent des transactions de temps et de matériaux et à prix fixe.
 
-- **Transactions de temps et de matériaux et à prix fixe**  : Ces transactions sont facturées au fur et à mesure de l’avancement des travaux en fonction de la consommation d’heures, de dépenses, d’articles ou d’honoraires sur le projet. Ces coûts de transaction peuvent être rapprochés des revenus de chaque transaction et le projet est facturé au fur et à mesure de l’avancement des travaux. Les revenus du projet peuvent également être comptabilisés au moment de la transaction. Lors de la facturation, les revenus sont constatés et le cas échéant, les revenus à recevoir sont contrepassés.
-- **Transactions à prix fixe**  : Ces transactions sont facturées selon un calendrier de facturation basé sur le contrat de projet. Les revenus des transactions à prix fixe peuvent être constatés lors de la facturation ou calculés et validés périodiquement, selon les méthodes de **Contrat terminé** ou de **Pourcentage terminé**.
+- **Transactions de temps et de matériaux et à prix fixe** : Ces transactions sont facturées au fur et à mesure de l’avancement des travaux en fonction de la consommation d’heures, de dépenses, d’articles ou d’honoraires sur le projet. Ces coûts de transaction peuvent être rapprochés des revenus de chaque transaction et le projet est facturé au fur et à mesure de l’avancement des travaux. Les revenus du projet peuvent également être comptabilisés au moment de la transaction. Lors de la facturation, les revenus sont constatés et le cas échéant, les revenus à recevoir sont contrepassés.
+- **Transactions à prix fixe** : Ces transactions sont facturées selon un calendrier de facturation basé sur le contrat de projet. Les revenus des transactions à prix fixe peuvent être constatés lors de la facturation ou calculés et validés périodiquement, selon les méthodes de **Contrat terminé** ou de **Pourcentage terminé**.
 
 Un projet est considéré comme facturable lorsqu’il est associé à une ou plusieurs lignes de contrat. Une ligne de contrat de projet définit pour elle-même la méthode de facturation et les types de transaction autorisés.
 
@@ -42,50 +42,50 @@ Effectuez les étapes suivantes pour créer un profil de coût et de revenu du p
 
 1. Aller à **Gestion de projets et comptabilité** > **Configurer** > **Validation** > **Profils de coûts et de revenus du projet**. 
 2. Sélectionnez **Nouveau** pour créer un profil de coût et de revenu du projet.
-3. Dans le champ **Nom** , entrez le nom et une courte description du profil.
-4. Dans le champ **Méthode de facturation** , sélectionnez **Temps et matériel** ou **Prix fixe**.
+3. Dans le champ **Nom**, entrez le nom et une courte description du profil.
+4. Dans le champ **Méthode de facturation**, sélectionnez **Temps et matériel** ou **Prix fixe**.
 5. Développez le raccourci **Comptabilité**. Les champs de cet onglet définissent les principes comptables utilisés lorsque les transactions de projet sont journalisées à l’aide du journal d’intégration de Project Operations, puis facturées via la proposition de facture de projet.
-6. Sélectionnez les informations adéquates dans les champs suivants sur le raccourci **Comptabilité**  :
+6. Sélectionnez les informations adéquates dans les champs suivants sur le raccourci **Comptabilité** :
 
-    - **Valider les coûts – heure**  :
+    - **Valider les coûts – heure** :
 
-       - *Aucune comptabilité*  : Le coût des transactions de temps ne sera pas validé dans la Comptabilité lorsque le journal d’intégration de Project Operations est validé. Cependant, le comptable peut enregistrer les coûts à l’aide de la fonction Valider les coûts ultérieurement.
-       - **Solde**  : Le coût des transactions de temps sera débité sur le type de compte Comptabilité, *TEC - Valeur de coût* et crédité au *Compte de répartition de la paie* dans la configuration de la Validation dans la comptabilité. Le comptable utilisera la fonction de comptabilisation des coûts pour déplacer ce coût d’un compte de solde vers un compte de résultat sur une base périodique.
-       - **Compte de résultat**  : Lors de la validation du journal d’intégration de Project Operations, le coût de la transaction de temps sera débité du compte Comptabilité de type *Coût* , et crédité au *Compte de répartition de la paie* défini sur l’onglet **Coût** sur la page **Configuration de la validation comptable** ( **Gestion de projets et comptabilité** \> **Configurer** \> **Validation** \> **Configuration de la validation comptable** ). Il s’agit de la configuration la plus courante pour les transactions de temps et de matériel.
-        - *Jamais de comptabilité*  : Le coût des transactions de temps ne sera jamais enregistré dans la comptabilité.
+       - *Aucune comptabilité* : Le coût des transactions de temps ne sera pas validé dans la Comptabilité lorsque le journal d’intégration de Project Operations est validé. Cependant, le comptable peut enregistrer les coûts à l’aide de la fonction Valider les coûts ultérieurement.
+       - **Solde** : Le coût des transactions de temps sera débité sur le type de compte Comptabilité, *TEC - Valeur de coût* et crédité au *Compte de répartition de la paie* dans la configuration de la Validation dans la comptabilité. Le comptable utilisera la fonction de comptabilisation des coûts pour déplacer ce coût d’un compte de solde vers un compte de résultat sur une base périodique.
+       - **Compte de résultat** : Lors de la validation du journal d’intégration de Project Operations, le coût de la transaction de temps sera débité du compte Comptabilité de type *Coût*, et crédité au *Compte de répartition de la paie* défini sur l’onglet **Coût** sur la page **Configuration de la validation comptable** (**Gestion de projets et comptabilité** \> **Configurer** \> **Validation** \> **Configuration de la validation comptable**). Il s’agit de la configuration la plus courante pour les transactions de temps et de matériel.
+        - *Jamais de comptabilité* : Le coût des transactions de temps ne sera jamais enregistré dans la comptabilité.
 
-    - **Valider les coûts – dépenses**  :
+    - **Valider les coûts – dépenses** :
 
-         - **Solde**  : Lors de la validation du journal d’intégration de Project Operations, le coût de transaction de dépenses sera débité du compte de comptabilité de type *TEC – Valeur de coût* tel que défini sur l’onglet **Coût** sur la page **Configuration de la validation comptable** et crédité sur le compte de contrepartie sur la ligne de journal. Les comptes de contrepartie par défaut pour les dépenses sont définis dans **Gestion de projets et comptabilité** > **Configurer** \> **Validation** \> **Compte de contrepartie par défaut pour les dépenses**. Le comptable utilisera la fonction de **comptabilisation des coûts** pour déplacer ce coût d’un compte de solde vers un compte de résultat sur une base périodique.
-        - **Compte de résultat**  : Lors de la validation du journal d’intégration de Project Operations, le coût de transaction de dépenses sera débité du compte de comptabilité de type *TEC – Valeur de coût* tel que défini sur l’onglet **Coût** sur la page **Configuration de la validation comptable** et crédité sur le compte de contrepartie sur la ligne de journal. Les comptes de contrepartie par défaut pour les dépenses sont définis dans **Gestion de projets et comptabilité** \> **Configurer** \> **Validation** \> **Compte de contrepartie par défaut pour les dépenses**.
+         - **Solde** : Lors de la validation du journal d’intégration de Project Operations, le coût de transaction de dépenses sera débité du compte de comptabilité de type *TEC – Valeur de coût* tel que défini sur l’onglet **Coût** sur la page **Configuration de la validation comptable** et crédité sur le compte de contrepartie sur la ligne de journal. Les comptes de contrepartie par défaut pour les dépenses sont définis dans **Gestion de projets et comptabilité** > **Configurer** \> **Validation** \> **Compte de contrepartie par défaut pour les dépenses**. Le comptable utilisera la fonction de **comptabilisation des coûts** pour déplacer ce coût d’un compte de solde vers un compte de résultat sur une base périodique.
+        - **Compte de résultat** : Lors de la validation du journal d’intégration de Project Operations, le coût de transaction de dépenses sera débité du compte de comptabilité de type *TEC – Valeur de coût* tel que défini sur l’onglet **Coût** sur la page **Configuration de la validation comptable** et crédité sur le compte de contrepartie sur la ligne de journal. Les comptes de contrepartie par défaut pour les dépenses sont définis dans **Gestion de projets et comptabilité** \> **Configurer** \> **Validation** \> **Compte de contrepartie par défaut pour les dépenses**.
        
-    - **À la facturation du compte**  :
+    - **À la facturation du compte** :
 
-        - **Solde**  : Lors de la validation de la proposition de facture de projet, une transaction sur le compte (étape de facturation) sera créditée sur le compte de comptabilité de type *TEC facturés – sur compte* tel que défini sur l’onglet **Revenu** sur la page **Configuration de la validation comptable** , et débité sur le compte du solde client.
-         - **Compte de résultat**  : Lors de la validation de la proposition de facture de projet, une transaction sur le compte (étape de facturation) sera créditée sur le compte de comptabilité de type *Revenu facturé – sur compte* tel que défini sur l’onglet **Revenu** sur la page **Configuration de la validation comptable** , et débité sur le compte du solde client. Les comptes de solde client sont définis dans **Comptabilité client** \> **Configuration** \> **Profils de validation client**.
+        - **Solde** : Lors de la validation de la proposition de facture de projet, une transaction sur le compte (étape de facturation) sera créditée sur le compte de comptabilité de type *TEC facturés – sur compte* tel que défini sur l’onglet **Revenu** sur la page **Configuration de la validation comptable**, et débité sur le compte du solde client.
+         - **Compte de résultat** : Lors de la validation de la proposition de facture de projet, une transaction sur le compte (étape de facturation) sera créditée sur le compte de comptabilité de type *Revenu facturé – sur compte* tel que défini sur l’onglet **Revenu** sur la page **Configuration de la validation comptable**, et débité sur le compte du solde client. Les comptes de solde client sont définis dans **Comptabilité client** \> **Configuration** \> **Profils de validation client**.
 
-   Lorsque vous définissez les profils de validation pour les méthodes de facturation du temps et de matériel, vous avez la possibilité de générer des revenus par type de transaction (heure, dépense et frais). Si l’option **Revenus à recevoir** est définie sur **Oui** , les transactions de vente non facturées dans le journal d’intégration de Project Operations seront enregistrées dans la comptabilité. La valeur des ventes est débitée du compte **TEC – compte de valeur des ventes** et crédité au compte **Revenus à recevoir – valeur des ventes** créé sur la page **Configuration de la validation comptable** , sur l’onglet **Revenu**. 
+   Lorsque vous définissez les profils de validation pour les méthodes de facturation du temps et de matériel, vous avez la possibilité de générer des revenus par type de transaction (heure, dépense et frais). Si l’option **Revenus à recevoir** est définie sur **Oui**, les transactions de vente non facturées dans le journal d’intégration de Project Operations seront enregistrées dans la comptabilité. La valeur des ventes est débitée du compte **TEC – compte de valeur des ventes** et crédité au compte **Revenus à recevoir – valeur des ventes** créé sur la page **Configuration de la validation comptable**, sur l’onglet **Revenu**. 
   
   > [!NOTE]
   > L’option, **Revenus à recevoir** est disponible uniquement lorsque le type de transaction correspondant **Coût** est comptabilisé dans le compte de résultat.
     
 7. Développez le raccourci **Estimation**. Les champs de cet onglet définissent les paramètres de calcul des estimations de revenus à prix fixe. Les champs de cet onglet s’appliquent uniquement aux profils de coût et de revenus du projet avec une méthode de facturation de **Prix fixe**.
-8. Sélectionnez les informations adéquates dans les champs suivants sur le raccourci **Estimation**  :
+8. Sélectionnez les informations adéquates dans les champs suivants sur le raccourci **Estimation** :
 
-    - **Principe utilisé pour les calculs d’achèvement de projet**  :
+    - **Principe utilisé pour les calculs d’achèvement de projet** :
 
-        - **Contrat terminé**  : Le rapprochement des coûts et la constatation des revenus ne se produisent qu’à la fin du projet. Les coûts sont reflétés comme TEC dans le solde jusqu’à ce que le projet soit terminé.
-        - **Pourcentage terminé**  : Les revenus à recevoir sont calculés et enregistrés dans la comptabilité à chaque période en fonction du pourcentage d’achèvement du projet. Il existe plusieurs méthodes disponibles pour calculer le pourcentage d’achèvement. Ces méthodes peuvent être automatiques en fonction de la configuration ou manuelles.
-        - **Pas de TEC**  : Cette configuration est utilisée pour les projets à prix fixe avec une courte période et où la facture et les coûts se produisent dans la même période. Dans ce cas, la valeur de champ **Facturation sur le compte** sur le raccourci **Comptabilité** est automatiquement défini sur **Compte de résultat** pour s’assurer que les revenus sont constatés lors de la facturation. Le processus d’estimation des revenus ne sera pas utilisé pour ce profil de coûts et de revenus du projet.
+        - **Contrat terminé** : Le rapprochement des coûts et la constatation des revenus ne se produisent qu’à la fin du projet. Les coûts sont reflétés comme TEC dans le solde jusqu’à ce que le projet soit terminé.
+        - **Pourcentage terminé** : Les revenus à recevoir sont calculés et enregistrés dans la comptabilité à chaque période en fonction du pourcentage d’achèvement du projet. Il existe plusieurs méthodes disponibles pour calculer le pourcentage d’achèvement. Ces méthodes peuvent être automatiques en fonction de la configuration ou manuelles.
+        - **Pas de TEC** : Cette configuration est utilisée pour les projets à prix fixe avec une courte période et où la facture et les coûts se produisent dans la même période. Dans ce cas, la valeur de champ **Facturation sur le compte** sur le raccourci **Comptabilité** est automatiquement défini sur **Compte de résultat** pour s’assurer que les revenus sont constatés lors de la facturation. Le processus d’estimation des revenus ne sera pas utilisé pour ce profil de coûts et de revenus du projet.
 
-    - **Principe du rapprochement**  : Ce champ détermine comment la valeur des ventes calculée (revenus à recevoir) sera validé dans la comptabilité.
+    - **Principe du rapprochement** : Ce champ détermine comment la valeur des ventes calculée (revenus à recevoir) sera validé dans la comptabilité.
 
-        - En utilisant le principe **Valeur des ventes** , le système calculera la valeur des ventes en rapprochant les coûts et les revenus, puis en l’enregistrant comme un montant unique.
-        - En utilisant le principe de **Production et profit** , le système divisera la valeur des ventes en coûts réalisés et en bénéfices calculés. Ceux-ci sont validés séparément.
+        - En utilisant le principe **Valeur des ventes**, le système calculera la valeur des ventes en rapprochant les coûts et les revenus, puis en l’enregistrant comme un montant unique.
+        - En utilisant le principe de **Production et profit**, le système divisera la valeur des ventes en coûts réalisés et en bénéfices calculés. Ceux-ci sont validés séparément.
 
-    - **Modèles de coût**  : Autorisez le regroupement des transactions de projet en fonction du type de transaction et de la catégorie de projet et définissez les règles de calcul du pourcentage d’achèvement pour ces groupes.
-    - **Codes de période**  : Définissez la fréquence à laquelle les estimations de revenus sont calculées pour un profil de coûts et de revenus de projet donné.
-    - **Catégories pour estimation**  : Utilisées pour la comptabilisation de la valeur des ventes (revenus à recevoir) dans les transactions du projet. Commencez par configurer la catégorie de projet dédiée pour un type de transaction **Frais** , puis définissez l’indicateur, **Estimation** pour cette catégorie de projet. Ensuite, en fonction du principe de rapprochement sélectionné, choisissez cette catégorie de projet dans la valeur **Ventes** ou le champ **Marge** dans le profil Coût et revenu du projet.
+    - **Modèles de coût** : Autorisez le regroupement des transactions de projet en fonction du type de transaction et de la catégorie de projet et définissez les règles de calcul du pourcentage d’achèvement pour ces groupes.
+    - **Codes de période** : Définissez la fréquence à laquelle les estimations de revenus sont calculées pour un profil de coûts et de revenus de projet donné.
+    - **Catégories pour estimation** : Utilisées pour la comptabilisation de la valeur des ventes (revenus à recevoir) dans les transactions du projet. Commencez par configurer la catégorie de projet dédiée pour un type de transaction **Frais**, puis définissez l’indicateur, **Estimation** pour cette catégorie de projet. Ensuite, en fonction du principe de rapprochement sélectionné, choisissez cette catégorie de projet dans la valeur **Ventes** ou le champ **Marge** dans le profil Coût et revenu du projet.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Exemples de configurations pour les profils de coûts et de revenus du projet
 

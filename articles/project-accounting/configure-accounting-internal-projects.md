@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 504e7481cb2aee6310cb4ace2d0791d1c7fe360d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea04178d4327ccd701ab431f172463a13a55154e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075674"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132375"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Configurer la comptabilité des projets internes
 
