@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075678"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119820"
 ---
 # <a name="manage-time-zones"></a>Gérer les fuseaux horaires
 
@@ -30,7 +30,7 @@ Lorsqu’une tâche est créée, l’heure de début, l’heure de fin et les he
 
 ## <a name="manage-resources-with-time-zones"></a>Gérer les ressources avec les fuseaux horaires
 
-Pour des résultats précis et prévisibles lors de l’utilisation de **Prolonger la réservation** , deux conditions préalables essentielles doivent être remplies :  
+Pour des résultats précis et prévisibles lors de l’utilisation de **Prolonger la réservation**, deux conditions préalables essentielles doivent être remplies :  
 
 - L’utilisateur doit configurer le fuseau horaire de son appareil pour qu’il corresponde au fuseau horaire défini dans les **Paramètres de personnalisation** du système.
  
@@ -57,7 +57,7 @@ Le tableau suivant présente :
 |Ressource C  |  ![Calendrier de la ressource C](media/reconcile-assignments-08.png) |
 |Ressource D  | ![Calendrier de la ressource D](media/reconcile-assignments-09.png)  |
  
-Lorsque vous accédez à la vue **Rapprochement** , les affectations de ressources et les pénuries de réservation associées sont affichées.
+Lorsque vous accédez à la vue **Rapprochement**, les affectations de ressources et les pénuries de réservation associées sont affichées.
 
 ![Vue Rapprochement avant l’extension](media/reconcile-assignments-10.png)
 

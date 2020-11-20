@@ -3,7 +3,7 @@ title: Progression d’un projet et consommation des coûts
 description: Cette rubrique propose des informations sur le suivi de la progression d’un projet et de la consommation des coûts.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,42 +18,42 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b60f72b371a76a59216b0b528d8e63513b06e0d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0793ee0c75bcbdde0fd92a16634457f73f872b5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075901"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120630"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Progression d’un projet et consommation des coûts
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-La nécessité de suivre la progression par rapport à une planification varie par secteur d'activité. Certains secteurs d'activité suivent à un niveau granulaire, pendant que d'autres secteurs d'activité suivent à un niveau supérieur. Cette rubrique montre comment planifier afin de répondre aux besoins de votre organisation.
+La nécessité de suivre la progression par rapport à une planification varie par secteur d’activité. Certains secteurs d’activité suivent à un niveau granulaire, pendant que d’autres secteurs d’activité suivent à un niveau supérieur. Cette rubrique montre comment planifier afin de répondre aux besoins de votre organisation.
 
 ## <a name="effort-tracking-view"></a>Vue de suivi des efforts
 
-La vue **Suivi des efforts** suit la progression des tâches dans la planification. Elle compare les heures d'effort réelles consacrées à une tâche aux heures d'effort prévues de la tâche. Project Service Automation utilise les formules suivantes pour calculer les mesures de suivi :
+La vue **Suivi des efforts** suit la progression des tâches dans la planification. Elle compare les heures d’effort réelles consacrées à une tâche aux heures d’effort prévues de la tâche. Project Service Automation utilise les formules suivantes pour calculer les mesures de suivi :
 
 Initialement lors de la création de la tâche : le coût prévu sera défini sur l’estimation des coûts à l’achèvement. Une fois que les chiffres réels sont enregistrés sur la tâche, ce qui suit sera le calcul sur la vue Suivi de l’effort.
 
 - Pourcentage de progression = Cumul des efforts réels consacrés ÷ Estimation à l’achèvement 
 - Estimation avant achèvement = Estimation à l’achèvement - Cumul des efforts réels consacrés 
 - Estimation à l’achèvement = Efforts restants + Cumul des efforts réels consacrés 
-- Écart d'efforts escomptés = Efforts planifiés – EAA
+- Écart d’efforts escomptés = Efforts planifiés – EAA
 
-Project Service Automation affiche une projection de l’écart d’efforts de la tâche. Si l'EAA excède les efforts planifiés, la tâche est prévue de prendre plus de temps qu'initialement planifié. Par conséquent, il est en retard. Si l'EAA est inférieure aux efforts planifiés, la tâche est prévue de prendre moins de temps qu'initialement planifié. Par conséquent, il est en avance.
+Project Service Automation affiche une projection de l’écart d’efforts de la tâche. Si l’EAA excède les efforts planifiés, la tâche est prévue de prendre plus de temps qu’initialement planifié. Par conséquent, il est en retard. Si l’EAA est inférieure aux efforts planifiés, la tâche est prévue de prendre moins de temps qu’initialement planifié. Par conséquent, il est en avance.
 
 ## <a name="reprojecting-effort"></a>Nouvelle projection des efforts
 
-Il arrive souvent qu'un chef de projet modifie les estimations initiales d'une tâche. Les nouvelles projections de projet sont une perception des estimations du chef de projet, vu l'état actuel de projet. Toutefois, il n'est pas recommandé que les chefs de projet modifient les numéros de référence, car la ligne de référence du projet représente la source fiable établie pour les estimations de planning et de coût du projet convenue par toutes les parties prenantes au projet.
+Il arrive souvent qu’un chef de projet modifie les estimations initiales d’une tâche. Les nouvelles projections de projet sont une perception des estimations du chef de projet, vu l’état actuel de projet. Toutefois, il n’est pas recommandé que les chefs de projet modifient les numéros de référence, car la ligne de référence du projet représente la source fiable établie pour les estimations de planning et de coût du projet convenue par toutes les parties prenantes au projet.
 
 Il existe deux méthodes de nouvelle projection des efforts sur les tâches que peut utiliser un chef de projet :
 
 - Remplacez l’Estimation avant achèvement par défaut par une nouvelle évaluation des efforts restants réels pour la tâche. 
 - Remplacez le pourcentage de progression par défaut par une nouvelle évaluation de la progression réelle pour la tâche.
 
-Chacune de ces méthode entraîne un nouveau calcul de l'Estimation avant achèvement, de l'EAA (Estimé à Achèvement) et du pourcentage de progression de la tâche et de l'écart d'efforts escomptés pour une tâche. L'Estimation avant achèvement, l'EAA (Estimé à Achèvement) et le pourcentage de progression sur les tâches récapitulatives sont également recalculés, et produisent une nouvelle projection de l'écart d'efforts.
+Chacune de ces méthode entraîne un nouveau calcul de l’Estimation avant achèvement, de l’EAA (Estimé à Achèvement) et du pourcentage de progression de la tâche et de l’écart d’efforts escomptés pour une tâche. L’Estimation avant achèvement, l’EAA (Estimé à Achèvement) et le pourcentage de progression sur les tâches récapitulatives sont également recalculés, et produisent une nouvelle projection de l’écart d’efforts.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Nouvelle projection des efforts sur les tâches récapitulatives
 
@@ -70,7 +70,7 @@ Les efforts sur les tâches récapitulatives ou les tâches de conteneur peuvent
 La vue **Suivi du coût** compare le coût réel consacré à une tâche au coût planifié. 
 
 > [!NOTE]
-> Cette vue affiche uniquement les coûts de main-d'œuvre et n'inclut pas les estimations des coûts des dépenses. 
+> Cette vue affiche uniquement les coûts de main-d’œuvre et n’inclut pas les estimations des coûts des dépenses. 
 
 Project Service Automation utilise les formules suivantes pour calculer les mesures de suivi :
 
@@ -81,7 +81,7 @@ Lorsqu’une tâche est créée, le coût planifié est égal à l’estimation 
  - Estimation des coûts à l’achèvement = Coût avant achèvement + Cumul des coûts réels consacrés
  - Écart de coûts projetés = Coûts planifiés - Estimation des coûts à l’achèvement
 
-Une projection de l'écart de coûts est affiché sur la tâche. Si l’estimation des coûts à l’achèvement excède les coûts planifiés, la tâche devrait être plus coûteuse qu’initialement planifié. Par conséquent, sa tendance excède le budget. Si l’estimation des coûts à l’achèvement est inférieure aux coûts planifiés, la tâche devrait être moins coûteuse qu’initialement planifié et tend à être inférieure au budget.
+Une projection de l’écart de coûts est affiché sur la tâche. Si l’estimation des coûts à l’achèvement excède les coûts planifiés, la tâche devrait être plus coûteuse qu’initialement planifié. Par conséquent, sa tendance excède le budget. Si l’estimation des coûts à l’achèvement est inférieure aux coûts planifiés, la tâche devrait être moins coûteuse qu’initialement planifié et tend à être inférieure au budget.
 
 ## <a name="project-managers-reprojection-of-cost"></a>Nouvelle projection des coûts du chef de projet
 

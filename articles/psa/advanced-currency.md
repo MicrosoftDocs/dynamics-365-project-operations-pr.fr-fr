@@ -3,7 +3,7 @@ title: Scénarios à plusieurs devises (version 3.x)
 description: Cette rubrique fournit des informations sur les scénarios à plusieurs devises.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075850"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123375"
 ---
 # <a name="multiple-currency-scenarios"></a>Scénarios à plusieurs devises
 
@@ -32,15 +32,15 @@ ms.locfileid: "4075850"
 Microsoft Dynamics 365 a deux concepts de devises :
 
 - **Devise de transaction** - Devise dans laquelle une transaction est effectuée. 
-- **Devise de base** - Devise de l'instance de Dynamics 365. Cette devise est configurée lorsqu'une instance de Dynamics 365 est mise en service. Elle ne peut pas être modifiée.
+- **Devise de base** - Devise de l’instance de Dynamics 365. Cette devise est configurée lorsqu’une instance de Dynamics 365 est mise en service. Elle ne peut pas être modifiée.
 
-Par exemple, Contoso US a vendu 100 teeshirts à un client au R.-U. pour 15 livres sterling (GBP) pièce. Le tableau suivant montre comment cette transaction est enregistrée dans l'entité Produit de la commande.
+Par exemple, Contoso US a vendu 100 teeshirts à un client au R.-U. pour 15 livres sterling (GBP) pièce. Le tableau suivant montre comment cette transaction est enregistrée dans l’entité Produit de la commande.
 
 | Produit | Quantité | Prix unitaire | Devise | Amount | Taux de change | Prix unitaire (devise de base)| Montant (devise de base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
 | Teeshirt | 100      | 15             | GBP      | 1 500   | 0,94          | 17.25 $               | 1 725 $       |
 
-La colonne **Devise** affiche la devise de la transaction, qui est la devise dans laquelle la vente a été effectuée. La colonne **Taux de change** est le taux de change entre la devise de la transaction et la devise de base. La devise de base est en dollars US (USD). Cette devise de base a été configurée lorsqu'une instance de Dynamics 365 a été mise en service.
+La colonne **Devise** affiche la devise de la transaction, qui est la devise dans laquelle la vente a été effectuée. La colonne **Taux de change** est le taux de change entre la devise de la transaction et la devise de base. La devise de base est en dollars US (USD). Cette devise de base a été configurée lorsqu’une instance de Dynamics 365 a été mise en service.
 Comme le montre le tableau, chaque transaction est enregistrée dans la devise de la transaction et la devise de base. Dynamics 365 utilise le taux de change de la devise pour calculer les montants en devise de base.
 
 ## <a name="project-service-automation-extensions"></a>Extensions de Project Service Automation
@@ -51,45 +51,45 @@ Les entités suivantes sont considérées comme des transactions :
 
 - Détail de la ligne de devis
 - Détail de la ligne de contrat du projet
-- Ligne d'estimation
+- Ligne d’estimation
 - Ligne de journal
 - Détail de la ligne de facture
 - Chiffre réel
 
-Dans chacune de ces entités, un enregistrement représente le montant du coût ou le montant des ventes. Comme pour tes entités de Dynamics 365 avec un champ **Montant** , chaque enregistrement contient des montants dans la devise de la transaction et dans la devise de base. 
+Dans chacune de ces entités, un enregistrement représente le montant du coût ou le montant des ventes. Comme pour tes entités de Dynamics 365 avec un champ **Montant**, chaque enregistrement contient des montants dans la devise de la transaction et dans la devise de base. 
 
 PSA étend le concept de devise de transaction au coût et aux ventes des manières suivantes :
 
-- La devise de transaction du coût de transactions des transactions de temps est toujours issue de la devise de l'unité d'organisation qui possède ou gère le projet. Cette unité d'organisation est appelée l'unité contractuelle.
+- La devise de transaction du coût de transactions des transactions de temps est toujours issue de la devise de l’unité d’organisation qui possède ou gère le projet. Cette unité d’organisation est appelée l’unité contractuelle.
 - La devise de transaction commerciale pour les transactions de temps et de dépenses est toujours issue de la devise du contrat du projet.
-- La devise de coût de transaction pour les dépenses provient de la devise à partir de laquelle l'entrée des dépenses a été créée.
+- La devise de coût de transaction pour les dépenses provient de la devise à partir de laquelle l’entrée des dépenses a été créée.
 
 ## <a name="multiple-currency-scenario"></a>Scénario à plusieurs devises
 
-Cette section propose l'exemple d'un projet que Contoso UK fournit pour un client intitulé Fabrikam, au Japon. Voici comment le scénario a été configuré :
+Cette section propose l’exemple d’un projet que Contoso UK fournit pour un client intitulé Fabrikam, au Japon. Voici comment le scénario a été configuré :
 
-1. La GBP et le yen japonais (JPY) sont configurés sous **Paramètres** \> **Gestion d'entreprise** \> **Devises**. 
+1. La GBP et le yen japonais (JPY) sont configurés sous **Paramètres** \> **Gestion d’entreprise** \> **Devises**. 
 2. Un compte client nommé **Fabrikam - Japon** est configuré, et le JPY est sélectionné comme devise sur le compte.
-3. Une unité d'organisation nommée **Contoso UK** est configurée, et la GBP est sélectionnée comme devise.
+3. Une unité d’organisation nommée **Contoso UK** est configurée, et la GBP est sélectionnée comme devise.
 4. Un contrat de projet est créé, où **Contoso UK** est spécifiée comme unité contractuelle et **Fabrikam – Japon** est spécifiée comme client.
 5. Des lignes de contrat de projet sont créées, selon les agencements de facturation des différentes classes de transactions dans le projet, comme la facturation pour le temps et la facturation pour les dépenses.
 6. Un projet est créé où **Contoso UK** est désignée comme unité contractuelle. Ce projet est créé et mappé aux lignes de contrat du projet.
 
 
-Pendant l'estimation qui utilise les détails de la ligne du devis, les détails de la ligne du devis du projet, ou sur la ligne d'estimation de la planification, deux enregistrements sont toujours créés dans l'entité. Un enregistrement est pour le coût, tandis que l'autre est pour les ventes.
+Pendant l’estimation qui utilise les détails de la ligne du devis, les détails de la ligne du devis du projet, ou sur la ligne d’estimation de la planification, deux enregistrements sont toujours créés dans l’entité. Un enregistrement est pour le coût, tandis que l’autre est pour les ventes.
 
-- Par défaut, la devise de transaction sur l'enregistrement du coût est définie sur la devise de l'unité contractuelle du projet. Dans cet exemple, la devise est la GBP.
-- Par défaut, la devise de transaction sur l'enregistrement des ventes est définie sur la devise du contrat du projet. Dans cet exemple, la devise est le JPY.
+- Par défaut, la devise de transaction sur l’enregistrement du coût est définie sur la devise de l’unité contractuelle du projet. Dans cet exemple, la devise est la GBP.
+- Par défaut, la devise de transaction sur l’enregistrement des ventes est définie sur la devise du contrat du projet. Dans cet exemple, la devise est le JPY.
 
-Lorsque des chiffres réels sont créés à l'aide d'une entrée de temps ou de la ligne du journal, le comportement suivant survient :
+Lorsque des chiffres réels sont créés à l’aide d’une entrée de temps ou de la ligne du journal, le comportement suivant survient :
 
-- Par défaut, la devise de transaction sur l'enregistrement du coût est définie sur la devise de l'unité contractuelle du projet.
-- Par défaut, la devise de transaction sur l'enregistrement des ventes est définie sur la devise du contrat du projet.
+- Par défaut, la devise de transaction sur l’enregistrement du coût est définie sur la devise de l’unité contractuelle du projet.
+- Par défaut, la devise de transaction sur l’enregistrement des ventes est définie sur la devise du contrat du projet.
 
-Lorsque des chiffres réels sont créés pour les dépenses par l'entrée de dépenses ou la ligne du journal, le comportement suivant survient :
+Lorsque des chiffres réels sont créés pour les dépenses par l’entrée de dépenses ou la ligne du journal, le comportement suivant survient :
 
-- Vous pouvez enregistrer le montant des dépenses dans n'importe quelle devise. Sélectionnez la devise à l'aide du sélecteur de devise sur la page **Entrée de dépense** ou la page **Ligne du journal**. Par défaut, la devise de transaction pour l'enregistrement des coûts est définie sur la devise de l'entrée des dépenses. 
-- Par défaut, la devise de transaction pour l'enregistrement des ventes est la devise du contrat du projet. Pour définir cette devise, le système convertit d'abord le montant de la transaction dans la devise que l'utilisateur a entrée comme devise de base. Il convertit ensuite le montant dans la devise du contrat du projet. 
+- Vous pouvez enregistrer le montant des dépenses dans n’importe quelle devise. Sélectionnez la devise à l’aide du sélecteur de devise sur la page **Entrée de dépense** ou la page **Ligne du journal**. Par défaut, la devise de transaction pour l’enregistrement des coûts est définie sur la devise de l’entrée des dépenses. 
+- Par défaut, la devise de transaction pour l’enregistrement des ventes est la devise du contrat du projet. Pour définir cette devise, le système convertit d’abord le montant de la transaction dans la devise que l’utilisateur a entrée comme devise de base. Il convertit ensuite le montant dans la devise du contrat du projet. 
 
 ### <a name="computing-roll-ups-when-project-actuals-are-recorded-in-multiple-transaction-currencies"></a>Reports de calcul lorsque les chiffres réels du projet sont enregistrés dans plusieurs devises de transaction
 

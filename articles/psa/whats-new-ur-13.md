@@ -3,7 +3,7 @@ title: Nouveautés ou modifications de la mise à jour (version 13) de Project S
 description: Cette rubrique donne des informations sur les nouveautés de la mise à jour (version 13) de Project Service Automation, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,15 +17,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 435b70255dd0053a496362c9ced9e742cfcca843
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcb05b640966e760a7a74a306a3f0a39594baed8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075700"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121620"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Mise à jour (version 13) de Project Service Automation, V3
-Nous sommes heureux d'annoncer la dernière mise à jour de l'application Dynamics 365 Project Service Automation (PSA). Cette version comprend des améliorations importantes de la qualité, des performances et de l'utilisation. Cette version est compatible avec Dynamics 365 9.x. Pour effectuer une mise à jour vers cette version, visitez le centre d'administration de Dynamics 365 Online et accédez à la page des solutions pour installer la mise à jour. Pour plus d'informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Nous sommes heureux d’annoncer la dernière mise à jour de l’application Dynamics 365 Project Service Automation (PSA). Cette version comprend des améliorations importantes de la qualité, des performances et de l’utilisation. Cette version est compatible avec Dynamics 365 9.x. Pour effectuer une mise à jour vers cette version, visitez le centre d’administration de Dynamics 365 Online et accédez à la page des solutions pour installer la mise à jour. Pour plus d’informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour (version 13) de Project Service Automation V3. Cette version a le numéro de build V3.10.3.18 et est disponible selon le calendrier suivant :
 
@@ -44,15 +44,15 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
 - Gestion des ressources
 
      - Correction : les nombres dans la vue Rapprochement ont été mis à jour pour être justifiés à droite.
-     - Correction : les ressources nommées ne peuvent pas être affectées à des tâches via l'onglet **Planning**.
+     - Correction : les ressources nommées ne peuvent pas être affectées à des tâches via l’onglet **Planning**.
 
 - Gestion du projet
 
-     - Correction : exception de référence nulle lors de l'affectation d'un membre de l'équipe lorsque les informations de configuration de **TransactionType** sont manquantes pour **Unit** et **DefaultGroup**.
+     - Correction : exception de référence nulle lors de l’affectation d’un membre de l’équipe lorsque les informations de configuration de **TransactionType** sont manquantes pour **Unit** et **DefaultGroup**.
 
 - Ventes
 
      - Correction : les enregistrements de type de transaction en double renvoient une erreur lors de la création des enregistrements de prix de rôle.
-     - Correction : les boutons supplémentaires pour **Nouvelle opportunité** , **Devis** , **Ligne de commande** et **Ajouter un produit** sont visibles dans les commandes pour les opportunités, les devis, les produits de commande et la sous-grille Lignes basées sur le projet.
+     - Résolu : des boutons supplémentaires pour **Nouvelle opportunité**, **Devis**, **Ligne de commande** et **Ajouter un produit** sont visibles dans les commandes pour les opportunités, les devis, les produits de la commande et la sous-grille Lignes basée sur un projet.
 
 

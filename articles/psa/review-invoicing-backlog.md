@@ -1,9 +1,9 @@
 ---
-title: Réviser l'arriéré de facturation sur les projets et les contrats de projet
+title: Réviser l’arriéré de facturation sur les projets et les contrats de projet
 description: Cette rubrique explique comment vérifier les arriérés de temps, de dépenses, et de produits, et comment les marquer comme prêts pour la facturation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,35 +16,35 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb6d942d61bf8b5d20afb75c88716132a596bcbd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcdcc0cae06ce61bd582d56a8398e718051ff564
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075949"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123960"
 ---
-# <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Réviser l'arriéré de facturation sur les projets et les contrats de projet
+# <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Réviser l’arriéré de facturation sur les projets et les contrats de projet
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Lorsqu'une transaction est prête pour qu'une facture soit créée et traitée, la transaction doit être marquée comme **Prêt pour la facturation**. Cette rubrique décrit les types de transactions qui peuvent être créés.
+Lorsqu’une transaction est prête pour qu’une facture soit créée et traitée, la transaction doit être marquée comme **Prêt pour la facturation**. Cette rubrique décrit les types de transactions qui peuvent être créés.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Réviser les arriérés de facturation du temps et des matériaux
 
-Lorsqu'une entrée de temps ou de dépenses est envoyée et approuvée pour un projet, PSA crée un chiffre réel de projet. Si la combinaison du projet et de la classe de transaction sont mappés à une ligne de contrat pour le projet temps et matériaux, deux chiffres réels sont créés lorsque l'entrée est approuvée :
+Lorsqu’une entrée de temps ou de dépenses est envoyée et approuvée pour un projet, PSA crée un chiffre réel de projet. Si la combinaison du projet et de la classe de transaction sont mappés à une ligne de contrat pour le projet temps et matériaux, deux chiffres réels sont créés lorsque l’entrée est approuvée :
 
 - Coût réel 
 - Chiffre réel de ventes non facturées
 
-Les chiffres réels de ventes non facturées représentent l'arriéré de facturation, et leur statut de facturation doit être défini sur **Prêt pour la facturation**. Lorsqu'une facture de projet est créée, les chiffres réels de ventes non facturées marqués comme **Prêt pour la facturation** sont copiés comme des détails de ligne de facture.
+Les chiffres réels de ventes non facturées représentent l’arriéré de facturation, et leur statut de facturation doit être défini sur **Prêt pour la facturation**. Lorsqu’une facture de projet est créée, les chiffres réels de ventes non facturées marqués comme **Prêt pour la facturation** sont copiés comme des détails de ligne de facture.
 
 Pour vérifier les arriérés de facturation pour le temps et les matériaux, accédez à **Ventes** \> **Facturation** \> **Arriéré de facturation de temps et de matériaux**. Sélectionnez tous les chiffres réels de ventes non facturés prêts à être facturés, puis sélectionnez **Prêt pour la facturation**. Le statut de facturation de ces chiffres réels passe à **Prêt pour la facturation**.
 
 ![Arriérés de facturation pour le temps et le matériel](media/TMBacklog.png)
 
-## <a name="review-the-product-billing-backlog"></a>Vérifier l'arriéré de facturation pour les produits
+## <a name="review-the-product-billing-backlog"></a>Vérifier l’arriéré de facturation pour les produits
 
-Dans PSA, lorsqu'un contrat de projet contient des lignes de contrat basées sur les produits, ces lignes sont considérées pour la facturation chaque fois qu'une facture est créée pour le contrat du projet. Tout produit qui possède des lignes de contrat marquées comme **Prêt pour la facturation** est copié sur une facture de projet sous forme de lignes de facture de projet.
+Dans PSA, lorsqu’un contrat de projet contient des lignes de contrat basées sur les produits, ces lignes sont considérées pour la facturation chaque fois qu’une facture est créée pour le contrat du projet. Tout produit qui possède des lignes de contrat marquées comme **Prêt pour la facturation** est copié sur une facture de projet sous forme de lignes de facture de projet.
 
 Pour vérifier les arriérés de facturation pour les produits, accédez à **Ventes** \> **Facturation** \> **Arriéré de facturation de produit**. Sélectionnez toutes les lignes de contrat basées sur des produits prêtes à être facturées, puis sélectionnez **Prêt pour la facturation**. Le statut de facturation de ces lignes passe à **Prêt pour la facturation**.
 
@@ -52,7 +52,7 @@ Pour vérifier les arriérés de facturation pour les produits, accédez à **Ve
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Vérifiez les jalons de facturation sur les contrats à prix fixe
 
-Chaque ligne de contrat de projet avec une méthode de facturation à prix fixe doit définir des jalons de contrat. Ces jalons de contrat peuvent être facturés uniquement s'ils sont marqués comme **Prêt pour la facturation**. 
+Chaque ligne de contrat de projet avec une méthode de facturation à prix fixe doit définir des jalons de contrat. Ces jalons de contrat peuvent être facturés uniquement s’ils sont marqués comme **Prêt pour la facturation**. 
 
 Pour vérifier les jalons de facturation, accédez à **Ventes** \> **Facturation** \> **Jalons de forfait**. Sélectionnez les jalons prêts à être facturés, puis sélectionnez **Prêt pour la facturation**. Le statut de facturation de ces jalons passe à **Prêt pour la facturation**.
 

@@ -5,15 +5,15 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: a1fa7383e7715fe57380de0a006ccc4e020bb5a5
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8c0ee3b9b989c644ab429310d1e7b4ef4b600dc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075621"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120945"
 ---
 # <a name="distributions-on-an-expense-report"></a>Distributions sur une note de frais
 

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075616"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118560"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Gérer plusieurs clients sur les lignes de devis selon les projets
 
@@ -33,11 +33,11 @@ Le tableau suivant affiche les champs sur l’enregistrement de client de la lig
 
 | Champ | Emplacement | Description et conseils | Impact en aval |
 | --- | --- | --- | --- |
-| **Compte** | Grille modifiable sur l’onglet **Clients de ligne du devis** , le formulaire principal et le formulaire de création rapide pour un client de ligne de devis. | Répertorie tous les comptes actifs. Ce champ est verrouillé après la création de l’enregistrement. Si vous devez mettre à jour le champ, supprimez et recréez l’enregistrement. Si vous avez enregistré des chiffres réels, vous ne pouvez pas supprimer l’enregistrement. | Lorsque vous sélectionnez un compte dans la liste principale des comptes à ajouter, le client de la ligne de devis est également ajouté en tant que client de devis. Les clients de la ligne de devis sont également copiés vers les clients de la ligne du contrat de projet lorsqu’un devis est conclu. |
-| **Pourcentage de facturation fractionnée** | Grille modifiable sur l’onglet **Clients de ligne du devis** , le formulaire principal et le formulaire de création rapide pour un client de ligne de devis. | Représente le pourcentage de chaque transaction de vente non facturée qui sera attribuée à ce client de ligne de devis. | Copié vers les clients de la ligne du contrat du projet. |
-| **Limite à ne pas dépasser** | Grille modifiable sur l’onglet **Clients de ligne du devis** , le formulaire principal et le formulaire de création rapide pour un client de ligne de devis. | Indique s’il existe une limite ou un plafond négocié au montant global qui sera facturé à ce client pour cette ligne de devis. | Copié vers les clients de la ligne du contrat de projet lorsqu’un devis est remporté. |
-| **Société propriétaire** | Grille modifiable sur l’onglet **Clients de ligne du devis** , le formulaire principal et le formulaire de création rapide pour un client de ligne de devis, | L’entité juridique dans laquelle ce client est installé dans le module **Gestion de projet et comptabilité**. Ce champ est en lecture seule et est défini sur la société propriétaire du devis lui-même. La liste des clients à ajouter dans le champ **Compte** est déjà filtré dans la liste de la société propriétaire dans le module **Gestion de projet et comptabilité** de Project Operations. | La société propriétaire équivaut au concept d’entité juridique. Tous les coûts et revenus générés par ce projet sont comptabilisés dans la comptabilité de la société propriétaire. |
-| **Est arrondi** | Grille modifiable sur l’onglet **Clients de ligne du devis** , le formulaire principal et le formulaire de création rapide pour un client de ligne de devis. | Indique si ce client est un client arrondi par défaut pour cette ligne de devis basée sur un projet. | Copié vers les clients du contrat de projet lorsqu’un devis est remporté. |
+| **Compte** | Grille modifiable sur l’onglet **Clients de ligne du devis**, le formulaire principal et le formulaire de création rapide pour un client de ligne de devis. | Répertorie tous les comptes actifs. Ce champ est verrouillé après la création de l’enregistrement. Si vous devez mettre à jour le champ, supprimez et recréez l’enregistrement. Si vous avez enregistré des chiffres réels, vous ne pouvez pas supprimer l’enregistrement. | Lorsque vous sélectionnez un compte dans la liste principale des comptes à ajouter, le client de la ligne de devis est également ajouté en tant que client de devis. Les clients de la ligne de devis sont également copiés vers les clients de la ligne du contrat de projet lorsqu’un devis est conclu. |
+| **Pourcentage de facturation fractionnée** | Grille modifiable sur l’onglet **Clients de ligne du devis**, le formulaire principal et le formulaire de création rapide pour un client de ligne de devis. | Représente le pourcentage de chaque transaction de vente non facturée qui sera attribuée à ce client de ligne de devis. | Copié vers les clients de la ligne du contrat du projet. |
+| **Limite à ne pas dépasser** | Grille modifiable sur l’onglet **Clients de ligne du devis**, le formulaire principal et le formulaire de création rapide pour un client de ligne de devis. | Indique s’il existe une limite ou un plafond négocié au montant global qui sera facturé à ce client pour cette ligne de devis. | Copié vers les clients de la ligne du contrat de projet lorsqu’un devis est remporté. |
+| **Société propriétaire** | Grille modifiable sur l’onglet **Clients de ligne du devis**, le formulaire principal et le formulaire de création rapide pour un client de ligne de devis, | L’entité juridique dans laquelle ce client est installé dans le module **Gestion de projet et comptabilité**. Ce champ est en lecture seule et est défini sur la société propriétaire du devis lui-même. La liste des clients à ajouter dans le champ **Compte** est déjà filtré dans la liste de la société propriétaire dans le module **Gestion de projet et comptabilité** de Project Operations. | La société propriétaire équivaut au concept d’entité juridique. Tous les coûts et revenus générés par ce projet sont comptabilisés dans la comptabilité de la société propriétaire. |
+| **Est arrondi** | Grille modifiable sur l’onglet **Clients de ligne du devis**, le formulaire principal et le formulaire de création rapide pour un client de ligne de devis. | Indique si ce client est un client arrondi par défaut pour cette ligne de devis basée sur un projet. | Copié vers les clients du contrat de projet lorsqu’un devis est remporté. |
 
 ## <a name="edit-billing-split-percentages"></a>Modifier des pourcentages de facturation fractionnée
 

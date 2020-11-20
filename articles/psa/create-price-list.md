@@ -1,9 +1,9 @@
 ---
 title: Créer un tarif
-description: Procédure de création d'un tarif dans Project Service
+description: Procédure de création d’un tarif dans Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075776"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122025"
 ---
 # <a name="create-a-price-list-project-service"></a>Créer un tarif (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Les tarifs fournissent un modèle que les directeurs de compte peuvent utiliser pour créer des devis et des projets, et pour fixer les coûts d'un projet. Ils fournissent une liste d'éléments de rôles et dépenses, et le prix que vous allez facturer pour chacun. Vous pouvez créer plusieurs tarifs afin de maintenir des structures de prix séparées pour chaque région où vous vendez vos produits dans ou sur différents canaux de vente. Il est préférable de créer au moins un tarif pour chaque devise dans laquelle vous envisagez de facturer vos clients.  
+Les tarifs fournissent un modèle que les directeurs de compte peuvent utiliser pour créer des devis et des projets, et pour fixer les coûts d’un projet. Ils fournissent une liste d’éléments de rôles et dépenses, et le prix que vous allez facturer pour chacun. Vous pouvez créer plusieurs tarifs afin de maintenir des structures de prix séparées pour chaque région où vous vendez vos produits dans ou sur différents canaux de vente. Il est préférable de créer au moins un tarif pour chaque devise dans laquelle vous envisagez de facturer vos clients.  
   
-Pour créer des estimations financières pour le travail à fournir, assurez-vous que chaque projet a un coût de support et une liste de prix de vente. Configurez des coûts et tarifs de vente par défaut qui s'appliquent à tous les projets créés dans votre organisation.  
+Pour créer des estimations financières pour le travail à fournir, assurez-vous que chaque projet a un coût de support et une liste de prix de vente. Configurez des coûts et tarifs de vente par défaut qui s’appliquent à tous les projets créés dans votre organisation.  
   
 Les tarifs reposent sur les catégories de rôles et de dépenses donc, avant de créer des tarifs, vérifiez que vous avez déjà configuré les catégories de rôles et de dépenses à utiliser lors de la création des tarifs.  
   
@@ -39,33 +39,33 @@ Les tarifs reposent sur les catégories de rôles et de dépenses donc, avant de
   
 2.  Cliquez sur **Nouveau**.  
   
-3.  Dans **Contexte** , indiquez si ces tarifs sont pour **Coût** , **Achat** ou **Ventes**.  
+3.  Dans **Contexte**, indiquez si ces tarifs sont pour **Coût**, **Achat** ou **Ventes**.  
   
-4.  Dans **Nom** , entrez un nom pour les tarifs.  
+4.  Dans **Nom**, entrez un nom pour les tarifs.  
   
-5.  Dans **Devise** , sélectionnez la devise que vous comptez utiliser pour la facturation ou le prix.  
+5.  Dans **Devise**, sélectionnez la devise que vous comptez utiliser pour la facturation ou le prix.  
   
-6.  Dans **Unité de temps** , spécifiez la période à laquelle le prix s'applique, comme le jour ou l'heure.  
+6.  Dans **Unité de temps**, spécifiez la période à laquelle le prix s’applique, comme le jour ou l’heure.  
   
-7.  Complétez les champs **Date de début** , **Date de fin** et **Description** comme nécessaire.  
+7.  Complétez les champs **Date de début**, **Date de fin** et **Description** comme nécessaire.  
   
 8.  Cliquez sur **Enregistrer** pour créer l’enregistrement et pouvoir continuer de le modifier.  
   
 9. Pour ajouter un prix de rôle aux tarifs, cliquez sur **+** sous **Tarifs de rôle**.  
   
-10. Dans le volet **Prix du rôle** , remplissez les détails, puis cliquez sur **Enregistrer**. Continuez d'ajouter des prix de rôle selon vos besoins. Lorsque vous avez fini, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l'écran.  
+10. Dans le volet **Prix du rôle**, remplissez les détails, puis cliquez sur **Enregistrer**. Continuez d’ajouter des prix de rôle selon vos besoins. Lorsque vous avez fini, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l’écran.  
   
 11. Pour ajouter un prix de catégorie de dépense aux tarifs, cliquez sur **+** sous **Prix de catégorie**.  
   
-12. Dans le volet **Prix de la catégorie de transaction** , remplissez les détails, puis cliquez sur **Enregistrer**. Continuez d'ajouter des prix de catégorie selon vos besoins. Lorsque vous avez fini, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l'écran.  
+12. Dans le volet **Prix de la catégorie de transaction**, remplissez les détails, puis cliquez sur **Enregistrer**. Continuez d’ajouter des prix de catégorie selon vos besoins. Lorsque vous avez fini, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l’écran.  
   
 13. Pour ajouter des éléments tarifaires aux tarifs, cliquez sur **+** sous **Éléments tarifaires**.  
   
-14. Dans le volet **Élément tarifaire** , remplissez les détails, puis cliquez sur **Enregistrer**. Continuez d'ajouter des éléments tarifaires selon vos besoins. Lorsque vous avez fini, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l'écran.  
+14. Dans le volet **Élément tarifaire**, remplissez les détails, puis cliquez sur **Enregistrer**. Continuez d’ajouter des éléments tarifaires selon vos besoins. Lorsque vous avez fini, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l’écran.  
   
 15. Pour ajouter des relations de secteurs de vente au tarif, cliquez sur **+** sous **Relations de secteurs de vente**.  
   
-16. Dans le volet **Nouvelle connexion** , remplissez les détails, puis cliquez sur **Enregistrer**. Continuez d'ajouter des relations de secteurs de vente selon vos besoins. Lorsque vous avez fini, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l'écran.  
+16. Dans le volet **Nouvelle connexion**, remplissez les détails, puis cliquez sur **Enregistrer**. Continuez d’ajouter des relations de secteurs de vente selon vos besoins. Lorsque vous avez fini, cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l’écran.  
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer Project Service Automation](../psa/configure.md)

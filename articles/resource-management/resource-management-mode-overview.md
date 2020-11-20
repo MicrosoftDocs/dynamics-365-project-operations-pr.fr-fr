@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4a8e605109e48b50da68abeee989f8ac8d3d659c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075628"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118515"
 ---
 # <a name="resource-management-modes-overview"></a>Vue d’ensemble des modes de gestion des ressources
 

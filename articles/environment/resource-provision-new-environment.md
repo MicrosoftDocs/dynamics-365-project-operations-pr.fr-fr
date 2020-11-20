@@ -3,17 +3,17 @@ title: Mettre en service un nouvel environnement
 description: Cette rubrique fournit des informations sur la mise en service d’un nouvel environnement Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075627"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121170"
 ---
 # <a name="provision-a-new-environment"></a>Mettre en service un nouvel environnement
 
@@ -26,7 +26,7 @@ Cette rubrique fournit des informations sur la façon de mettre en service un no
 Utilisez les étapes suivantes pour activer le flux de mise en service automatisé de Project Operations pour votre projet LCS.
 
 1. Accédez à [LCS](https://lcs.dynamics.com/v2) et sélectionnez la vignette **Gestion des fonctionnalités d’évaluation**.
-2. Dans la liste **Fonctionnalité d'évaluation** , sélectionnez **Fonctionnalité Project Operations** , puis sélectionnez **Fonctionnalité d'évaluation activée** pour activer Project Operations.
+2. Dans la liste **Fonctionnalité d’évaluation**, sélectionnez **Fonctionnalité Project Operations**, puis sélectionnez **Fonctionnalité d’évaluation activée** pour activer Project Operations.
 
 > [!NOTE]
 > Cette étape n’est effectuée qu’une seule fois par projet LCS.
@@ -39,15 +39,15 @@ Utilisez les étapes suivantes pour activer le flux de mise en service automatis
 > [!IMPORTANT]
 > Assurez-vous que la version de l’application sélectionnée est 10.0.13 ou supérieure.
 
-3. Pour mettre en service Project Operations, sous **Paramètres avancés** , sélectionnez **Common Data Service**. 
-4. Activez le **paramètre Common Data Service** en sélectionnant **Oui** , puis entrez les informations dans les champs obligatoires :
+3. Pour mettre en service Project Operations, sous **Paramètres avancés**, sélectionnez **Common Data Service**. 
+4. Activez le **paramètre Common Data Service** en sélectionnant **Oui**, puis entrez les informations dans les champs obligatoires :
 
   - Nom
   - Région
   - Langage
   - Devise
  
-5. Dans le champ **Modèle Common Data Service** , sélectionnez **Project Operations** 
+5. Dans le champ **Modèle Common Data Service**, sélectionnez **Project Operations** 
 
 6. Sélectionnez le type d’environnement pour votre déploiement. Un essai basé sur un abonnement vous permettra de déployer un environnement CDS pendant 30 jours. 
 
@@ -72,15 +72,15 @@ Appliquez des données de démonstration de Finance Project Operations à l’en
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Appliquer des mises à jour à l’environnement Finance
 
-Project Operations nécessite un environnement Finance avec la version de l’application  **10.0.13 (10.0.569.20009)** ou ultérieures.
+Project Operations nécessite un environnement Finance avec la version de l’application **10.0.13 (10.0.569.20009)** ou ultérieures.
 
 Vous devrez peut-être appliquer des mises à jour de qualité à votre environnement Finance pour recevoir cette version.
 
-1. Dans LCS, sur la page **Détails de l’environnement** , dans la section **Mises à jour disponibles** , sélectionnez **Afficher la mise à jour**.
+1. Dans LCS, sur la page **Détails de l’environnement**, dans la section **Mises à jour disponibles**, sélectionnez **Afficher la mise à jour**.
 
 ![Afficher les mises à jour](./media/5ViewUpdates.png)
 
-2. Sur la page **Mises à jour binaires** , cliquez sur **Enregistrer le package.**
+2. Sur la page **Mises à jour binaires**, cliquez sur **Enregistrer le package.**
 
 ![Enregistrer le package](./media/6SavePackage.png)
 
@@ -111,7 +111,7 @@ La maintenance de l’environnement prendra un certain temps. Une fois terminé,
 ## <a name="establish-a-dual-write-connection"></a>Établir une connexion en double écriture 
 
 1. Dans votre projet LCS, accédez à la page **Détails de l’environnement**.
-2. Sous **Informations sur l’environnement Common Data Service** , sélectionnez **Lien vers CDS for Apps**.
+2. Sous **Informations sur l’environnement Common Data Service**, sélectionnez **Lien vers CDS for Apps**.
 3. Une fois le lien créé, sélectionnez à nouveau **Lien vers CDS for Apps**. Vous serez redirigé vers Double écriture dans Finance.
 
 ![Lien vers CDS](./media/12LinktoCDS.png)
@@ -120,7 +120,7 @@ La maintenance de l’environnement prendra un certain temps. Une fois terminé,
 
 ![Appliquer des solutions](./media/13ApplySolutions.png)
 
-5. Sélectionnez les deux solutions, **Mappage d’entités de double écriture Dynamics 365 Finance and Operations** et **Mappage d’entités de double écriture Dynamics 365 Project Operations** , puis sélectionnez **Appliquer**.
+5. Sélectionnez les deux solutions, **Mappage d’entités de double écriture Dynamics 365 Finance and Operations** et **Mappage d’entités de double écriture Dynamics 365 Project Operations**, puis sélectionnez **Appliquer**.
 
 ![Confirmer des solutions](./media/14ConfirmSolutions.png)
 
@@ -142,7 +142,7 @@ Une fois les entités appliquées, tous les mappages disponibles sont répertori
 
 ![Paramètres du cadre](./media/17FrameworkParameters.png)
 
-3. Sur la page **Paramètres d’entité** , sélectionnez **Actualiser la liste des entités**.
+3. Sur la page **Paramètres d’entité**, sélectionnez **Actualiser la liste des entités**.
 
 ![Actualiser la liste des entités](./media/18RefreshEntityList.png)
 
@@ -153,7 +153,7 @@ L’actualisation prendra environ 20 minutes. Vous recevrez une alerte lorsqu�
 ## <a name="run-project-operations-dual-write-maps"></a>Exécuter les mappages d’écriture double Project Operations
 
 1. Dans votre projet LCS, accédez à la page **Détails de l’environnement**.
-2. Sous **Informations sur l’environnement Common Data Service** , sélectionnez **Lien vers CDS for Apps.** Après avoir sélectionné le lien, vous serez redirigé vers la liste des entités dans les mappages.
+2. Sous **Informations sur l’environnement Common Data Service**, sélectionnez **Lien vers CDS for Apps.** Après avoir sélectionné le lien, vous serez redirigé vers la liste des entités dans les mappages.
 3. Démarrez les mappages comme décrit dans le tableau suivant. Assurez-vous de suivre la séquence indiquée.
 
 | **Mappage d’entité** | **Actualiser l’entité** | **Synchronisation initiale** | **Sélection principale pour la synchronisation initiale** | **Exécuter la configuration requise** | **Synchronisation initiale de la configuration requise** |
@@ -165,7 +165,7 @@ L’actualisation prendra environ 20 minutes. Vous recevrez une alerte lorsqu�
 | **Entité d’intégration pour les relations de transaction du projet (msdyn\_transactionconnections)** | Non | Non | S. O. | Non | S. O. |
 | **Jalons de la ligne de contrat d’intégration de Project Operations (msdyn\_contractlinesscheduleofvalues)** | Non | Non | S. O. | Non | S. O. |
 | **Entité d’intégration de Project Operations pour les estimations de dépenses (msdyn\_estimateslines)** | No | No | S. O. | No | S. O. |
-| **Entité d'exportation des catégories de dépenses de projet d'intégration de Project Operations (msdyn\_expensecategories)** | No | No | S. O. | No | S. O. |
+| **Entité d’exportation des catégories de dépenses de projet d’intégration de Project Operations (msdyn\_expensecategories)** | No | No | S. O. | No | S. O. |
 | **Entité d’exportation des dépenses de projet d’intégration de Project Operations (msdyn\_expenses)** | Oui | Non | S. O. | Non | S. O. |
 | **Entité d’intégration de Project Operations pour les estimations d’heures (msdyn\_resourceassignments)** | Oui | Non | S. O. | Non | S. O. |
 
@@ -175,14 +175,20 @@ L’actualisation prendra environ 20 minutes. Vous recevrez une alerte lorsqu�
 
 ![Actualiser le mappage](./media/20RefreshMapping.png)
 
-5. Une fois l'actualisation terminée, exécutez le mappage. Avant d’activer le mappage suivant, vérifiez que le mappage du tableau est dans un état de **En cours d’exécution**. L’exécution des mappages avec un plus grand nombre de prérequis peut prendre un certain temps.
+5. Une fois l’actualisation terminée, exécutez le mappage. Avant d’activer le mappage suivant, vérifiez que le mappage du tableau est dans un état de **En cours d’exécution**. L’exécution des mappages avec un plus grand nombre de prérequis peut prendre un certain temps.
 
-Pour exécuter un mappage avec des prérequis, activez le bouton de basculement **Afficher les mappages d’entités associés**. Si le tableau indique que **Synchronisation initiale préalable** est **Non** , vérifiez que l’indicateur **Synchronisation initiale** est **Désactivé** dans tous les mappages de prérequises avant de l’exécuter.
+Pour exécuter un mappage avec des prérequis, activez le bouton de basculement **Afficher les mappages d’entités associés**. Si le tableau indique que **Synchronisation initiale préalable** est **Non**, vérifiez que l’indicateur **Synchronisation initiale** est **Désactivé** dans tous les mappages de prérequises avant de l’exécuter.
 
 ![Exécuter le mappage](./media/21RunMap.png)
 
 6. Validez que tous les mappages liés au projet sont en cours d’exécution.
 
-![Toutes les mappages en cours d’exécution](./media/22AllMapsRunning.png)
+![Tous les mappages en cours d’exécution](./media/22AllMapsRunning.png)
 
-Votre environnement Project Operations est désormais mis en service et configuré.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Appliquer les données de configuration dans CDS pour Project Operations (facultatif)
+
+Si vous avez appliqué des données de démonstration à l’environnement Finance, consultez [Configurer et appliquer les données de configuration dans Common Data Service pour Project Operations](resource-apply-pro-setup-config-data.md) pour appliquer les données de démonstration à l’environnement CDS.
+
+
+Votre environnement Project Operations est désormais mis en service et configuré. 
