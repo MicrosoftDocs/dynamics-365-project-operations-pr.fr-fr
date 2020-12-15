@@ -1,4 +1,4 @@
-- name: "Dynamics\_365\_Project\_Operations"
+- name: Dynamics 365 Project Operations
   href: index.md
 - name: Prise en main
   items:
@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nouveautés
       items:
+        - name: "Décembre\_2020\_– Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: "Novembre\_2020\_– Project\_Operations pour les scénarios selon les ressources/produits non stockés"
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Processus de vente du projet
@@ -87,7 +89,7 @@
                 - name: Gérer plusieurs clients sur les lignes de devis basées sur un projet
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Configurer les composants facturables d’une ligne de devis de projet
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Créer des estimations sur une ligne du devis
                   href: sales/create-estimate-quote-line.md
                 - name: Importer des estimations d’un projet vers une ligne de devis basée sur un projet
@@ -109,7 +111,7 @@
             - name: Gérer les tarifs des projets sur les contrats de projets
               href: sales/contracts-manage-project-price-lists.md
             - name: Gérer plusieurs clients sur des contrats de projets
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Lignes du contrat basées sur les projets
               items:
                 - name: Vue d’ensemble des lignes de contrat basées sur les projets
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Copier un contrat de projet
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Avances et provisions
+              items:
+                - name: "Contrats basés sur les avances et les provisions\_–\_Simplifié"
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: "Configurer une planification de provisions\_–\_Simplifié"
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: "Créer une avance ad hoc sur un contrat\_–\_Simplifié"
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Tarification et évaluation des coûts
       items:
         - name: Configuration de tarifs
@@ -158,18 +168,28 @@
           items:
             - name: Vue d’ensemble des dimensions de tarification
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Créer une solution pour les dimensions de tarification personnalisées
+              href: sales/create-solution-custompd.md
             - name: Utiliser les champs existants comme dimensions de tarification
               items:
                 - name: Champs de Project Operations comme dimensions de tarification
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Utiliser une ressource réservable comme dimension de tarification
+                  href: sales/use-br-as-pd.md
+                - name: Utiliser une catégorie de transaction comme dimension de tarification
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Ressource pouvant être réservée jouant plusieurs rôles sur un projet
+                  href: sales/br-playing-multiple-roles.md
             - name: Personnaliser les champs comme dimensions de tarification
               items:
                 - name: Créer des champs et des entités personnalisés comme dimensions de tarification
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Configurer des champs personnalisés comme dimensions de tarification
+                - name: 'Configurer des champs personnalisés comme dimensions de tarification '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Mettre à jour les attributs de plug-in pour inclure de nouvelles dimensions de tarification
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Désactiver une dimension de tarification
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Gestion des projets
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administration des ressources
           items:
+            - name: Créer des ressources
+              href: resource-management/create-resources.md
             - name: Définir les compétences et les aptitudes
               href: resource-management/define-skills-proficiencies.md
+            - name: Définir les rôles
+              href: resource-management/define-roles.md
             - name: Définir les calendriers de ressources
               href: resource-management/define-resource-calendars.md
-        - name: Modes d’attribution des réservations
+        - name: Modes de répartition des réservations
           href: resource-management/booking-allocation-methods.md
+        - name: Statuts de réservation
+          href: resource-management/booking-status.md
         - name: Modèles de compétences et d’aptitudes
           href: resource-management/skills-proficiency-models.md
         - name: Rapprochement des ressources
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Gérer une facture pro forma pour un projet
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Facturer une provision ou une avance
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Confirmer une facture pro forma pour un projet
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Configurer l’automatisation des factures d’un projet
@@ -370,11 +398,37 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Journal d’intégration dans Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Facturation intersociétés
+          items:
+            - name: Vue d’ensemble de la facturation intersociétés
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurer la facturation intersociétés
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Créer des factures clients et fournisseurs intersociétés
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Créer des transactions intersociétés
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Constatation du produit
+      items:
+        - name: Vue d’ensemble de la constatation du produit
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Configurer la constatation du produit
+          items:
+            - name: Configurer les types de période
+              href: project-accounting/period-types.md
+            - name: Configurer des modèles de coût
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Gérer les estimations de revenus
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Projets d’estimation de revenus à prix fixe
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Coût pour compléter les méthodes
+          href: revenue-recognition/cost-complete-methods.md
 - name: "Déploiement simplifié\_–\_Traiter la facturation pro forma"
   items:
     - name: Prise en main
       items:
-        - name: Vue d’ensemble du Déploiement simplifié
+        - name: Vue d’ensemble du déploiement simplifié
           href: pro/project-operations-overview-lite.md
         - name: "S’inscrire à l’abonnement à la version préliminaire\_–\_Simplifié"
           href: environment/lite-preview-subscription-sign-up.md
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Nouveautés
       items:
+        - name: "Nouveautés de décembre\_2020\_–\_Déploiement simplifié\_–\_Traiter la facturation pro forma"
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: "Nouveautés de novembre\_2020\_–\_Déploiement simplifié\_–\_Traiter la facturation pro forma"
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Processus de vente du projet
@@ -538,18 +594,28 @@
           items:
             - name: Vue d’ensemble des dimensions de tarification
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Créer une solution pour les dimensions de tarification personnalisées
+              href: sales/create-solution-custompd.md
             - name: Utiliser les champs existants comme dimensions de tarification
               items:
-                - name: Utiliser un champ existant comme dimension de tarification
+                - name: Champs de Project Operations comme dimensions de tarification
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Utiliser une ressource réservable comme dimension de tarification
+                  href: sales/use-br-as-pd.md
+                - name: Utiliser une catégorie de transaction comme dimension de tarification
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Ressource pouvant être réservée jouant plusieurs rôles sur un projet
+                  href: sales/br-playing-multiple-roles.md
             - name: Personnaliser les champs comme dimensions de tarification
               items:
                 - name: Créer des champs et des entités personnalisés comme dimensions de tarification
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Configurer des champs personnalisés comme dimensions de tarification
+                - name: 'Configurer des champs personnalisés comme dimensions de tarification '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Mettre à jour les attributs de plug-in pour inclure de nouvelles dimensions de tarification
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Désactiver une dimension de tarification
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Gestion des projets
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administration des ressources
           items:
+            - name: Créer des ressources
+              href: resource-management/create-resources.md
             - name: Définir les compétences et les aptitudes
               href: resource-management/define-skills-proficiencies.md
+            - name: Définir les rôles
+              href: resource-management/define-roles.md
             - name: Définir les calendriers de ressources
               href: resource-management/define-resource-calendars.md
         - name: Réserver des modes de répartition
           href: resource-management/booking-allocation-methods.md
+        - name: Statuts de réservation
+          href: resource-management/booking-status.md
         - name: Modèles de compétences et d’aptitudes
           href: resource-management/skills-proficiency-models.md
         - name: Rapprochement des ressources
@@ -834,6 +906,8 @@
       items:
         - name: "Calendrier de publication des mises à jour pour Project\_Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_26,\_V3"
+          href: psa/whats-new-ur-26.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_25,\_V3"
           href: psa/whats-new-ur-25.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_24,\_V3"
