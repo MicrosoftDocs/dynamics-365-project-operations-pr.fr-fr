@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
-ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4174262"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642045"
 ---
 # <a name="navigate-project-operations"></a>Parcourir Project Operations
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Dynamics 365 Project Operations pour les scénarios basés sur les ressources/produits non stockés se compose de deux composants : 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations pour les scénarios basés sur les ressources/produits non stockés comprend deux composants : 
 
  - **Project Operations sur un environnement Common Data Service (CDS)**  : ce composant couvre les fonctionnalités et les processus de l’opportunité à la facturation pro forma. 
  - **Gestion de projet et comptabilité sur un environnement Dynamics 365 Finance** : ce composant couvre les fonctionnalités de gestion des dépenses, de comptabilité de projet et de constatation du produit. 

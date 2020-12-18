@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121170"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642965"
 ---
 # <a name="provision-a-new-environment"></a>Mettre en service un nouvel environnement
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Cette rubrique fournit des informations sur la façon de mettre en service un nouvel environnement Dynamics 365 Project Operations pour les scénarios basés sur les ressources/non stockés.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Cette rubrique fournit des informations sur la manière d'approvisionner un nouvel environnement Dynamics 365 Project Operations pour les scénarios basés sur les ressources/produits non stockés.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Activer la mise en service automatisée de Project Operations dans un projet LCS
 
@@ -120,7 +122,7 @@ La maintenance de l’environnement prendra un certain temps. Une fois terminé,
 
 ![Appliquer des solutions](./media/13ApplySolutions.png)
 
-5. Sélectionnez les deux solutions, **Mappage d’entités de double écriture Dynamics 365 Finance and Operations** et **Mappage d’entités de double écriture Dynamics 365 Project Operations**, puis sélectionnez **Appliquer**.
+5. Sélectionnez les deux solutions, **Dynamics 365 Finance and Operations Carte d'entité à double écriture** et **Dynamics 365 Project Operations Cartes d'entités à double écriture**, puis sélectionnez **Appliquer**.
 
 ![Confirmer des solutions](./media/14ConfirmSolutions.png)
 
@@ -158,9 +160,10 @@ L’actualisation prendra environ 20 minutes. Vous recevrez une alerte lorsqu�
 
 | **Mappage d’entité** | **Actualiser l’entité** | **Synchronisation initiale** | **Sélection principale pour la synchronisation initiale** | **Exécuter la configuration requise** | **Synchronisation initiale de la configuration requise** |
 | --- | --- | --- | --- | --- | --- |
-| **Rôles des ressources de projet pour toutes les entreprises (bookableresourcecategories)** | Non | Oui | Common Data Service | Non | S. O. |
-| **Entités juridiques (cdm\_entreprises)** | Non | Oui | Applications Finance and Operations | Non | S. O. |
-| **Intégration des chiffres réels Project Operations (msdyn\_chiffres réels)** | Non | Non | S. O. | Oui | Non |
+| **Rôles des ressources de projet pour toutes les entreprises (bookableresourcecategories)** | No | Oui | Common Data Service | No | S. O. |
+| **Entités juridiques (cdm\_entreprises)** | No | Oui | Applications Finance and Operations | No | S. O. |
+| **Registre (msdyn_ledgers)** | No | Oui | Applications Finance and Operations | Oui | Oui, applications Finance and Operations |
+| **Intégration des chiffres réels Project Operations (msdyn\_chiffres réels)** | No | Non | S. O. | Oui | Non |
 | **Lignes du contrat de projet (salesorderdetails)** | Non | Non | S. O. | Non | Non |
 | **Entité d’intégration pour les relations de transaction du projet (msdyn\_transactionconnections)** | Non | Non | S. O. | Non | S. O. |
 | **Jalons de la ligne de contrat d’intégration de Project Operations (msdyn\_contractlinesscheduleofvalues)** | Non | Non | S. O. | Non | S. O. |

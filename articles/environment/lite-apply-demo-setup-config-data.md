@@ -8,20 +8,22 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401260"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642090"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Appliquer la configuration de la démonstration et les données de configuration pour Project Operations – Simplifié 
 
 _**Déploiement simplifié – traiter la facturation pro forma_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant de commencer la configuration, vous devez disposer d’un environnement Common Data Service (CDS) mis en service pour Dynamics 365 Project Operations.
+Avant de commencer la configuration, vous devez disposer d'un environnement Common Data Service (CDS) mis en service pour Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Instructions

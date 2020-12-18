@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130845"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672228"
 ---
 # <a name="override-project-sales-price-lists"></a>Remplacer les tarifs de vente des projets
 
@@ -21,13 +22,13 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 ## <a name="customer-specific-project-price-lists"></a>Tarifs de projet spécifique pour un client
 
-Dans Dynamics 365 Project Operations, les accords de prix spécifiques à un client peuvent être configurés sous la forme de tarifs de projet sur un enregistrement de compte.
+Dans Dynamics 365 Project Operations, les accords de prix spécifiques à un client peuvent être configurés sous la forme de tarifs de projet sur un enregistrement de compte.
 
 Pour configurer un tarif de projet spécifique pour un client, dans la zone **Ventes**, accédez à l’enregistrement de compte.
 
 1. Ouvrer la page de liste **Comptes**.
 2. Recherchez et double-cliquez sur un enregistrement de client pour ouvrir la page de détails **Compte**.
-3. Sous l’onglet **Tarifs de projet**, sélectionnez **+ Nouveau tarif de projet^^.
+3. Sur l’onglet **Tarifs de projet**, sélectionnez **+ Nouveau tarif de projet**.
 4. Dans la page **Nouveau tarif de projet**, sélectionnez un tarif dans la liste déroulante. Seuls les tarifs dont le contexte est défini sur **Ventes** et dont la devise correspond à la devise du compte sont inclus.
 5. Nommez l’association et sélectionnez **Enregistrer**. Un tarif de projet spécifique pour un client est créé. Ce tarif sera utilisé pour créer les prix de projet par défaut sur les devis de projet ou les contrats créés pour ce client, si la date de création du devis ou du contrat de projet est conforme à la date d’entrée en vigueur du tarif.
 

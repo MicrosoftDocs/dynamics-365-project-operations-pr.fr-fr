@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b881e03a2bb085c6d7cfccb7eec70442e696e62c
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177148"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513876"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Configurer les composants facturables d’une ligne de contrat basée sur un projet – Simplifié
 

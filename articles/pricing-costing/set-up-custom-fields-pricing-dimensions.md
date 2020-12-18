@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119415"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650204"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurer des champs personnalisés comme dimensions de tarification
 
@@ -41,9 +41,15 @@ Cette rubrique donne des informations sur la configuration de dimensions de tari
 Pour qu’un champ devienne une dimension de tarification, il doit être :
 
 - Créé en tant que champ dans les entités **Prix du rôle** et **Majoration du prix du rôle**. Pour plus d’informations sur cette procédure, consultez [Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles](add-custom-fields-price-setup-transactional-entities.md).
+
 - Créé en tant que ligne dans la table **Dimension de tarification**. Par exemple, ajoutez des lignes de dimension de tarification, comme illustré dans le graphique suivant. 
 
+![Lignes de dimension de tarification basées sur le montant](media/Amt-based-PD.png)
+
 Les heures de travail de la ressource (**msdyn_resourceworkhours**) ont été ajoutée comme dimension basée sur la majoration et ajoutée à la grille de l’onglet **Dimension de tarification basée sur la majoration**.
+
+![Lignes de dimension de tarification basées sur la majoration](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Toute modification des données de dimension de tarification contenues dans ce tableau, existantes ou nouvelles, est propagée à la logique métier de tarification uniquement après actualisation du cache. L’actualisation du cache peut prendre jusqu’à 10 minutes. En attendant, vous pouvez voir les modifications de la logique de prix par défaut qui doivent résulter des modifications des données de dimension de tarification.

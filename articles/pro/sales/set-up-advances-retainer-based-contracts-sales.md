@@ -1,5 +1,5 @@
 ---
-title: Contrats basés sur les avances et les provisions – Simplifié
+title: Paiements anticipés et contrats basés sur les provisions
 description: Cette rubrique fournit des informations sur les modèles de contrats basés sur les provisions et les paiements anticipés dans Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180864"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596099"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Contrats basés sur les avances et les provisions – Simplifié
+# <a name="advances-and-retainer-based-contracts"></a>Paiements anticipés et contrats basés sur un acompte
 
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Dynamics 365 Project Operations prend en charge les contrats basés sur les provisions. Un contrat basé sur les provisions est un ensemble négocié de paiements équitablement répartis pour lesquels le client sera facturé pendant toute la durée d’un projet. Ce type de contrat est généralement utilisé pour les modèles de facturation basés sur le temps et le matériel ou basés sur la consommation, dans lesquels il est nécessaire de donner au client une planification de facture et un échéancier de paiement prévisibles. Les chiffres réels de revenus réels accumulés à chaque période sont rapprochés du paiement reçu du client au début de la période. Conformément au concept du modèle de facturation du temps et du matériel, les valeurs de revenus accumulées au cours de chaque période peuvent varier en fonction des coûts engagés. Si le revenu accumulé est supérieur au montant reçu au début de la période, la société de livraison du projet peut :
+Dynamics 365 Project Operations prend en charge les contrats basés sur un acompte. Un contrat basé sur les provisions est un ensemble négocié de paiements équitablement répartis pour lesquels le client sera facturé pendant toute la durée d’un projet. Ce type de contrat est généralement utilisé pour les modèles de facturation basés sur le temps et le matériel ou basés sur la consommation, dans lesquels il est nécessaire de donner au client une planification de facture et un échéancier de paiement prévisibles. Les chiffres réels de revenus réels accumulés à chaque période sont rapprochés du paiement reçu du client au début de la période. Conformément au concept du modèle de facturation du temps et du matériel, les valeurs de revenus accumulées au cours de chaque période peuvent varier en fonction des coûts engagés. Si le revenu accumulé est supérieur au montant reçu au début de la période, la société de livraison du projet peut :
 
 - Facturer le client uniquement pour l’excédent 
 - Reporter le rapprochement des revenus à la période de facturation suivante et générer une facture finale à la fin du projet pour l’ensemble du revenu non rapproché restant

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180774"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513921"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Créer une planification de factures sur une ligne de contrat basée sur un projet 
 
@@ -49,7 +49,7 @@ Effectuez les étapes suivantes pour générer une planification de facture bas�
 3. Ouvrez la ligne de contrat à **prix fixe** pour laquelle vous créez la planification de jalon. Sur l’onglet **Facturation des jalons**, sélectionnez la date de début de facturation et la fréquence de facturation. 
 4. Sur la sous-grille, sélectionnez **Générer des jalons périodiques**. La planification de facture est générée avec les champs **Nom du jalon**, **Date de jalon** et **Montant du jalon** définis comme suit :
 
-    - **Nom du jalon** : Cette date est dictée en fonction de la fréquence de facturation.
+    - **Nom du jalon** : ce nom est dicté par la fréquence de facturation.
     - **Date du jalon** : Cette date est dictée en fonction de la fréquence de facturation.
     - **Montant du jalon** : Ce montant est calculé en divisant le montant du contrat sur la ligne de contrat selon le projet par le nombre de jalons dicté par la fréquence et le début de la facturation et les dates de livraison demandées.
 

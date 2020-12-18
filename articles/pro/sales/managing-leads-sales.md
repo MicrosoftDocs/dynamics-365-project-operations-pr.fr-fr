@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180504"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513786"
 ---
 # <a name="manage-leads---lite"></a>Gérer les prospects– Simplifié
 
@@ -23,7 +23,7 @@ Les prospects selon le projet peuvent être gérés et qualifiés dans Project O
 
 ## <a name="list-of-project-sales-leads"></a>Liste des prospects selon le projet
 
-Dans la section **Ventes**, dans le volet de navigation de gauche, ouvrez la page de liste **Prospects** pour afficher une liste de tous les enregistrements de prospects dans le système. La liste des prospects affichée est basée sur le travail et d’autres types de prospects qui peuvent être créés si vous disposez également de Dynamics 365 Sales ou des applications Dynamics 365 Field Service.
+Dans la section **Ventes**, dans le volet de navigation de gauche, ouvrez la page de liste **Prospects** pour afficher une liste de tous les enregistrements de prospects dans le système. Les prospects de la liste sont basés sur le travail et d'autres types de prospects qui peuvent être créés si vous disposez également des applications Dynamics 365 Sales ou Dynamics 365 Field Service.
 
 Vous pouvez créer un vue filtrée pour afficher uniquement les prospects selon un projet en créant un filtre sur la valeur **Type**. Par exemple, vous pouvez choisir d’afficher uniquement les prospects selon le travail.
 

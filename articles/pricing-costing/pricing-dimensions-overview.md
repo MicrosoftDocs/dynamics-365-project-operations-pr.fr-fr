@@ -1,28 +1,20 @@
 ---
 title: Vue d’ensemble des dimensions de tarification
-description: Cette rubrique fournit des informations sur les dimensions de tarification dans Dynamics 365 Project Operations.
+description: Cette rubrique donne des informations sur les dimensions de tarification dans Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128460"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650185"
 ---
 # <a name="pricing-dimensions-overview"></a>Vue d’ensemble des dimensions de tarification
 
@@ -40,12 +32,24 @@ Pour cette raison, deux types de valeurs de dimension de tarification sont dispo
 
 ## <a name="pricing-dimensions"></a>Dimensions de tarification
 
-Dynamics 365 Project Operations est livré avec un ensemble par défaut de dimensions de tarification. Vous pouvez les consulter en accédant à **Project Operations** > **Paramètres**. Dans l’enregistrement du paramètre, dans l’onglet **Dimensions de tarification basées sur un montant**, vérifiez que le rôle, **msdyn_resourcecategory** et l’unité d’organisation d’allocation des ressources, **msdyn_organizationalunit**, contiennent les champs **Applicable aux ventes** et **Applicable aux coûts** définis sur **Oui**. Si ces champs sont activés, vous pouvez alors configurer le prix et le coût de chaque combinaison de rôle et d’unité d’organisation.
+Dynamics 365 Project Operations est fourni avec un ensemble par défaut de dimensions de tarification. Vous pouvez les consulter en accédant à **Project Operations** > **Paramètres**. Dans l’enregistrement du paramètre, dans l’onglet **Dimensions de tarification basées sur un montant**, vérifiez que le rôle, **msdyn_resourcecategory** et l’unité d’organisation d’allocation des ressources, **msdyn_organizationalunit**, contiennent les champs **Applicable aux ventes** et **Applicable aux coûts** définis sur **Oui**. Si ces champs sont activés, vous pouvez alors configurer le prix et le coût de chaque combinaison de rôle et d’unité d’organisation.
 
-Si vous devez évaluer un prix ou un coût pour vos ressources en utilisant des attributs supplémentaires, vous pouvez créer des champs, des entités, et des dimensions personnalisés.
+![Capture d'écran des paramètres de Project Service avec « Applicable aux ventes » en surbrillance](media/PS-OOB-parameters.png)
+
+Si vous devez évaluer un prix ou un coût pour vos ressources en utilisant des attributs supplémentaires, vous pouvez créer des champs, des entités, et des dimensions personnalisés. Pour plus d’informations, voir les rubriques suivantes. 
+  
+  > [!NOTE]
+  > Les procédures doivent être exécutées dans l'ordre dans lequel elles sont répertoriées.
+
+1. [Créer une solution personnalisée pour les dimensions Tarification](../sales/create-solution-custompd.md)
+2. [Créer des champs et des entités personnalisés](create-custom-fields-entities-pricing-dimensions.md)
+3. [Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Configurer des champs personnalisés comme dimensions de tarification ](set-up-custom-fields-pricing-dimensions.md)
+5. [Mettre à jour les attributs de plug-in pour inclure de nouvelles dimensions de tarification](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Tarification du temps des ressources humaines
-Comment une organisation évalue le temps des ressources humaines est souvent un facteur stratégique important qui affecte directement la rentabilité de l’organisation. Utilisez les équipes des finances et les responsables des recommandations lorsque votre organisation est prête à identifier comment elle souhaite configurer les taux de facture et de coût du temps des ressources humaines.
+Comment une organisation évalue le temps des ressources humaines est souvent un facteur stratégique important qui affecte directement la rentabilité de l'organisation. Utilisez les équipes des finances et les responsables des recommandations lorsque votre organisation est prête à identifier comment elle souhaite configurer les taux de facture et de coût du temps des ressources humaines.
 
 D’autres points pour la tarification comprennent si réutiliser des champs ou des entités qui ne sont pas des dimensions de tarification actuellement, mais appliquer comme dimension de tarification pour votre organisation. Les champs, tels que **Catégorie de transaction** (**msdyn_transactioncategory**) et **Ressource pouvant être réservée** (**bookableresource**) sont des exemples des dimensions possibles. 
 

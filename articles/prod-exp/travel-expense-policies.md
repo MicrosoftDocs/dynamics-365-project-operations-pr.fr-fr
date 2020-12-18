@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: ryansand
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f74f6906cc1137b9645a830360a546432dc5207f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6240a7be175800ce6f3b066de9e935ab370629ef
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075887"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650091"
 ---
 # <a name="set-up-expense-policies"></a>Configurer des politiques de dépenses
 
@@ -32,7 +32,7 @@ La mise en œuvre de politiques de dépenses peut vous aider à gérer efficacem
 
 Par exemple, vous pouvez définir une politique pour les dépenses d'hôtel à New York, qui stipule que les dépenses par nuit ne peuvent pas dépasser 250 USD.       
 Si un collaborateur soumet une note de frais ou une demande de voyage dans laquelle le tarif de la chambre dépasse ce montant, le système informera        
-l'employé que le montant de la dépense a été dépassé, conformément à la politique. Vous pouvez configurer le message que l'employé recevra lorsque vous        
+l’employé que le montant de la dépense a été dépassé, conformément à la politique. Vous pouvez configurer le message que l’employé recevra lorsque vous        
 définissez la politique.      
         
 Vous pouvez définir trois types de politiques :         
@@ -48,7 +48,7 @@ Vous pouvez définir trois types de politiques :
 Voici quelques suggestions qui peuvent vous aider lors de la création de nouvelles politiques de gestion des dépenses. 
 * Les politiques prennent effet à une date et ne prennent pas effet si la politique est créée avec une date postérieure à la date à laquelle la dépense a eu lieu. Par exemple, si vous créez une politique aujourd'hui pour appliquer une dépense de repas maximale de 50 USD, toutes les dépenses existantes saisies avant aujourd'hui ne seront pas comparées à cette politique.
 * Lors de la création d'une politique pour une catégorie de dépenses pouvant être détaillée, pensez à ajouter une condition pour le type de ligne de dépenses. Certaines politiques, telles que l'exigence d'un reçu, peuvent ne pas avoir de sens pour les lignes détaillées et ne doivent être appliquées qu'à la ligne d'en-tête ou à une ligne non détaillée. 
-* Les politiques de gestion des dépenses sont évaluées par défaut par rapport à l'entité source. Pour les scénarios intersociétés, vous pouvez définir la stratégie à évaluer par rapport à l'entité de destination (entité emprunteuse) à la place. Pour exécuter les politiques sur l'entité de destination, activez la fonctionnalité « Évaluer la politique de dépenses par rapport à l'entité juridique emprunteuse » dans l'espace de travail **Gestion des fonctionnalités**.
+* Les politiques de gestion des dépenses sont évaluées par défaut par rapport à l'entité source. Pour les scénarios intersociétés, vous pouvez définir la stratégie à évaluer par rapport à l’entité de destination (entité emprunteuse) à la place. Pour exécuter les politiques sur l'entité de destination, activez la fonctionnalité « Évaluer la politique de dépenses par rapport à l'entité juridique emprunteuse » dans l'espace de travail **Gestion des fonctionnalités**.
 
 ## <a name="when-to-evaluate-policies"></a>Quand évaluer les politiques
 

@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075874"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642630"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synchroniser les contrats de projet et les projets directement depuis Project Service Automation vers Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique décrit le modèle et les tâches sous-jacentes qui sont utilisés pour synchroniser les contrats de projet et les projets directement à partir de Dynamics 365 Project Service Automation vers Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ L’illustration suivante montre comment les données sont synchronisées entre 
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 
-Pour accéder aux modèles disponibles, dans le centre d’administration Microsoft Power Apps, sélectionnez **Projets** , puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
+Pour accéder aux modèles disponibles, dans le centre d’administration Microsoft Power Apps, sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
 
 Les modèles et les tâches sous-jacentes suivants sont utilisés pour synchroniser les projets de contrat et les projets de Project Service Automation vers Finance :
 
@@ -133,9 +135,9 @@ Si vous devez utiliser Power Query, suivez ces instructions :
 ## <a name="template-mapping-in-data-integration"></a>Mappage de modèles dans l’intégration de données
 
 > [!NOTE] 
-> Les champs **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** et **AddressZipCode** ne sont pas inclus dans le mappage par défaut des contrats de projet. Vous pouvez ajouter les mappages si vous souhaitez que ces données soient synchronisées pour les contrats de projet.
+> Les champs **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** et **AddressZipCode** ne sont pas inclus dans le mappage par défaut des contrats de projet. Vous pouvez ajouter les mappages si vous souhaitez que ces données soient synchronisées pour les contrats de projet.
 >
-> Les champs **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** et **ProjectType** ne sont pas inclus dans le mappage par défaut pour les projets. Vous pouvez ajouter les mappages si vous souhaitez que ces données soient synchronisées pour les projets.
+> Les champs **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** et **ProjectType** ne sont pas inclus dans le mappage par défaut pour les projets. Vous pouvez ajouter les mappages si vous souhaitez que ces données soient synchronisées pour les projets.
 
 Les illustrations suivantes montrent des exemples de mappage de tâches de modèle dans l’intégration de données. Le mappage affiche les informations de champ qui seront synchronisées de Project Service Automation vers Finance.
 

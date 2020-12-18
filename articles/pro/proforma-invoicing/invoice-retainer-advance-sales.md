@@ -1,5 +1,5 @@
 ---
-title: Facturer une provision ou une avance – Simplifié
+title: Facturer une provision ou une avance
 description: Cette rubrique fournit des informations sur la facturation d’une provision ou d’une avance dans Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180549"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596189"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Facturer une provision ou une avance – Simplifié
+# <a name="invoice-a-retainer-or-an-advance"></a>Facturer une provision ou une avance
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Dynamics 365 Project Operations prend en charge les contrats basés sur la rétention et les avances ponctuelles. Sur un contrat de projet, vous pouvez enregistrer un échéancier des provisions ou une avance ponctuelle. Cependant, l’enregistrement au niveau du contrat de projet ne rend pas immédiatement une provision ou une avance disponible pour utilisation. Pour utiliser une provision ou une avance sur une facture facturant réellement le client, la provision ou l’avance doit être facturée en premier.
+Dynamics 365 Project Operations prend en charge les contrats basés sur un acompte et paiements anticipés ponctuels. Sur un contrat de projet, vous pouvez enregistrer un échéancier des provisions ou une avance ponctuelle. Cependant, l’enregistrement au niveau du contrat de projet ne rend pas immédiatement une provision ou une avance disponible pour utilisation. Pour utiliser une provision ou une avance sur une facture facturant réellement le client, la provision ou l’avance doit être facturée en premier.
 
 Suivez les étapes suivantes pour facturer une provision ou une avance.
 

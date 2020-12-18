@@ -3,17 +3,17 @@ title: Entrée de dépense (simplifiée)
 description: Cette rubrique fournit des informations sur la façon d’utiliser la saisie de dépenses dans un déploiement simplifié.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121080"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590943"
 ---
 # <a name="expense-entry-lite"></a>Entrée de dépense (simplifiée)
 
@@ -21,7 +21,7 @@ _**S’applique à :** Déploiement simplifié – Traiter la facturation pro f
 
 La gestion de base ou simplifiée des dépenses est la capacité d’enregistrer des dépenses simples. Vous pouvez enregistrer les dépenses par rapport à un projet, puis l’approbateur de projet les examinera et les approuvera.
 
-Pour plus d’informations sur les fonctionnalités de dépense dans Project Operations Dynamics 365, voir [Vue d’ensemble des dépenses](expense-overview.md).
+Pour plus d'informations sur les fonctionnalités de dépenses dans Dynamics 365 Project Operations, voir [Vue d’ensemble des dépenses](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Capturer une dépense de base
 
@@ -36,6 +36,10 @@ Une fois que vous avez fini de saisir toutes vos dépenses et que vous êtes pr�
 
 1. Accédez à **Dépenses** et sélectionnez une dépense. Sinon, sélectionnez toutes les dépenses en utilisant la case à cocher sur l’en-tête.
 2. Sélectionnez **Soumettre**. Le système traite les entrées sélectionnées, puis crée des demandes d’approbation des dépenses.
+
+## <a name="add-an-attachment"></a>Ajouter une pièce jointe
+
+Vous devrez peut-être fournir à l'approbateur des documents supplémentaires concernant vos dépenses. Vous pouvez joindre un reçu dans la chronologie de la saisie des dépenses. Sélectionnez **Éditer** et dans la section **Chronologie**, sélectionnez l'icône en forme de trombone pour joindre votre reçu.
 
 ## <a name="recall-a-basic-expense"></a>Rappeler une dépense de base
 
