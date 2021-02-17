@@ -24,13 +24,11 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Appliquer les données de démonstration
           items:
-            - name: "Appliquer les données de démonstration à un environnement hébergé par le cloud\_Finance"
-              href: environment/resource-apply-finance-demo-data.md
             - name: Appliquer les données de configuration dans Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Déployer des environnements
           items:
-            - name: Configurer un nouvel environnement
+            - name: Approvisionner un nouvel environnement
               href: environment/resource-provision-new-environment.md
             - name: Modèle de sécurité
               href: environment/security-model.md
@@ -38,7 +36,11 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nouveautés
       items:
-        - name: "Décembre\_2020\_– Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+        - name: "Février\_2021 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: "Janvier\_2021 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+          href: whats-new/whats-new-jan-2021-resource-based.md
+        - name: "Décembre\_2020 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: "Novembre\_2020\_– Project\_Operations pour les scénarios selon les ressources/produits non stockés"
           href: whats-new/whats-new-nov-2020-resource-based.md
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Avances et provisions
               items:
-                - name: "Contrats basés sur les avances et les provisions\_–\_Simplifié"
+                - name: Paiements anticipés et contrats basés sur un acompte
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: "Configurer une planification de provisions\_–\_Simplifié"
+                - name: Configurer une planification de la provision
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: "Créer une avance ad hoc sur un contrat\_–\_Simplifié"
+                - name: Créer une avance ad hoc sur un contrat
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Tarification et évaluation des coûts
       items:
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Planification de la structure de répartition du travail
           items:
+            - name: Créer une structure de répartition du travail
+              href: project-management/create-wbs.md
             - name: Créer des affectations
               href: project-management/create-assignments.md
         - name: Projets d’estimation
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Préserver les membres de l’équipe
               href: project-management/maintain-team-members.md
+        - name: Résolution des problèmes lors de l’utilisation de la grille des tâches
+          href: project-management/projectplanningUIFAQ.md
         - name: Collaboration
           items:
             - name: Collaboration avec les groupes Office
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: Vérifier les ressources proposées
               href: resource-management/review-proposed-resources.md
+            - name: Modifier les réservations
+              href: resource-management/edit-existing-bookings.md
         - name: Réservation décentralisée des ressources (hybride)
           items:
             - name: Ajouter des membres de l’équipe depuis la grille des membres de l’équipe
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: Configurer les catégories de dépense
                   href: expense/set-up-expense-categories.md
+            - name: Utiliser les dépenses personnelles sur une note de frais
+              href: expense/personal-expenses-expense-report.md
             - name: Créer des notes de frais
               items:
                 - name: Distributions sur une note de frais
@@ -370,22 +380,28 @@
           items:
             - name: Créer et confirmer des journaux de correction
               href: actuals/create-confirm-correction-journals.md
-    - name: Facturation pro forma
+    - name: Facturation
       items:
-        - name: Gérer la réplication de facturation des projets
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: Gérer le statut et les validations Ne pas dépasser
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Créer une facture pro forma pour un projet manuellement
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Gérer une facture pro forma pour un projet
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Facturer une provision ou une avance
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Confirmer une facture pro forma pour un projet
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Configurer l’automatisation des factures d’un projet
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Vue d’ensemble du processus de facturation
+          href: invoicing/post-project-invoices.md
+        - name: Gérer des propositions de facture pour un projet
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Facturation pro forma
+          items:
+            - name: Gérer la réplication de facturation des projets
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Gérer le statut et les validations Ne pas dépasser
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Créer une facture pro forma pour un projet manuellement
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Gérer une facture pro forma pour un projet
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Facturer une provision ou une avance
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Confirmer une facture pro forma pour un projet
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Configurer l’automatisation des factures d’un projet
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Comptabilité de projet
       items:
         - name: Valeurs par défaut d’une dimension financière
@@ -404,10 +420,10 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: Configurer la facturation intersociétés
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Créer des factures clients et fournisseurs intersociétés
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Créer des transactions intersociétés
               href: project-accounting/create-intercompany-transactions.md
+            - name: Créer des factures clients et fournisseurs intersociétés
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Constatation du produit
       items:
         - name: Vue d’ensemble de la constatation du produit
@@ -418,12 +434,12 @@
               href: project-accounting/period-types.md
             - name: Configurer des modèles de coût
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Gérer les estimations de revenus
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Projets d’estimation de revenus à prix fixe
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Coût pour compléter les méthodes
           href: revenue-recognition/cost-complete-methods.md
+        - name: Gérer les estimations de revenus
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: "Déploiement simplifié\_–\_Traiter la facturation pro forma"
   items:
     - name: Prise en main
@@ -434,15 +450,19 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: "Déploiement de Project Operations\_–\_Simplifié"
           href: environment/lite-deployment.md
-        - name: "Appliquer la configuration de la démonstration et les données de configuration\_–\_Simplifié"
+        - name: Appliquer la configuration de la démonstration et les données de configuration – Simplifié
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Modèle de sécurité
           href: environment/security-model.md
     - name: Nouveautés
       items:
-        - name: "Nouveautés de décembre\_2020\_–\_Déploiement simplifié\_–\_Traiter la facturation pro forma"
+        - name: "Nouveautés de février\_2021 – Déploiement léger"
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: "Nouveautés de janvier\_2021 – Déploiement léger"
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: "Nouveautés de décembre\_2020 – Déploiement léger"
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: "Nouveautés de novembre\_2020\_–\_Déploiement simplifié\_–\_Traiter la facturation pro forma"
+        - name: "Nouveautés de novembre\_2020 – Déploiement léger"
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Processus de vente du projet
       items:
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Planification de la structure de répartition du travail
           items:
+            - name: Créer une structure de répartition du travail
+              href: project-management/create-wbs.md
             - name: Créer des affectations
               href: project-management/create-assignments.md
         - name: Projets d’estimation
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Préserver les membres de l’équipe
               href: project-management/maintain-team-members.md
+        - name: Résolution des problèmes lors de l’utilisation de la grille des tâches
+          href: project-management/projectplanningUIFAQ.md
         - name: Collaboration
           items:
             - name: Collaboration avec les groupes Office
               href: project-management/collaboration-groups.md
+        - name: Notes du développeur
+          items:
+            - name: Développer des modèles de projet avec Copier le projet
+              href: project-management/dev-copy-project.md
     - name: Gestion des ressources
       items:
         - name: Concepts clés
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: Vérifier les ressources proposées
               href: resource-management/review-proposed-resources.md
+            - name: Modifier les réservations
+              href: resource-management/edit-existing-bookings.md
         - name: Réservation décentralisée des ressources (hybride)
           items:
             - name: Ajouter des membres de l’équipe depuis la grille des membres de l’équipe
@@ -772,7 +802,11 @@
   items:
     - name: Nouveautés
       items:
-        - name: "Nouveautés de novembre\_2020\_–\_Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+        - name: "Nouveautés de janvier\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: "Nouveautés de décembre\_2020 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+        - name: "Nouveautés de novembre\_2020 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: "Vue d’ensemble du déploiement de Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
       href: prod-pma/project-operations-prod-order-deployment-overview.md
@@ -906,9 +940,17 @@
       items:
         - name: "Calendrier de publication des mises à jour pour Project\_Service\_3.x"
           href: psa/version-history-ps.md
-        - name: "Nouveautés ou modifications de la mise à jour de la version\_26,\_V3"
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_28.5 correctif logiciel, V3"
+          href: psa/whats-new-ur-28-5.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_28, V3"
+          href: psa/whats-new-ur-28.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_27.5 correctif logiciel, V3"
+          href: psa/whats-new-ur-27-5.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_27, V3"
+          href: psa/whats-new-ur-27.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_26, V3"
           href: psa/whats-new-ur-26.md
-        - name: "Nouveautés ou modifications de la mise à jour de la version\_25,\_V3"
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_25, V3"
           href: psa/whats-new-ur-25.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_24,\_V3"
           href: psa/whats-new-ur-24.md
@@ -936,7 +978,9 @@
           href: psa/whats-new-ur-13.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_12,\_V3"
           href: psa/whats-new-ur-12.md
-        - name: "Nouveautés ou modifications dans Project\_Service\_Automation V3.x,\_1ère\_vague du lancement\_2020"
+        - name: "Nouveautés ou modifications dans Project\_Service\_Automation V3.x, 1re\_vague du lancement\_2021"
+          href: psa/whats-new-2021-wave1.md
+        - name: "Nouveautés ou modifications dans Project\_Service\_Automation V3.x, 1re\_vague du lancement\_2020"
           href: psa/whats-new-v3-2020-wave1.md
         - name: "Nouveautés ou modifications dans Project\_Service\_Automation V3"
           href: psa/whats-new-changed-v3.md
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Paramètres du projet
               href: psa/project-settings.md
+            - name: "Planifiez votre travail dans Microsoft\_Project avec le module complémentaire Project Service"
+              href: psa/add-in-plan-work-projects.md
         - name: Dimensions de tarification et des coûts
           items:
             - name: Page d’accueil des dimensions de tarification et des coûts
