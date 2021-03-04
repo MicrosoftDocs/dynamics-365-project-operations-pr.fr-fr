@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34018fb918b3d97d4f44b2f9b6f4296f38afa0ac
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: dc6fb5c195d98bc3808383a8ec059d675d6cff3b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118605"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146975"
 ---
 # <a name="white-papers-for-project-service"></a>Livres blancs pour Project Service
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Ces livres blancs sont conçus pour fournir des informations détaillées pour [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Project Service Automation.
 

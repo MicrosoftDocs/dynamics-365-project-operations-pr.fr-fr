@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca49c29f079f04dad127cfe56f262577ea8cc4a1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124050"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147424"
 ---
 # <a name="resourcing-projects-home-page"></a>Page d’accueil des projets d’allocation des ressources
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,10 +37,10 @@ Les ressources sont l’actif le plus important d’une organisation basée sur 
 - Créer des enregistrements de membre de l’équipe générique ainsi que leurs rôles et unité d’organisation de ressource.
 - Générer des besoins en ressources pour les membres de l’équipe génériques à partir de leurs affectations de tâches.
 - Mettre en correspondance les compétences en identifiant celles définies sur la demande de ressource avec les compétences des ressources disponibles.
-- Substituer les ressources.
-- Aligner les affectations de la planification de projet et les réservations de ressources.
-- Rapprocher les différences entre les réservations et les attributions.
-- Modifier les réservations de ressource en réponse au statut d’absence du bureau.
+- Remplacer des ressources.
+- Aligner les affectations du calendrier de projet et les réservations de ressources.
+- Rapprocher les différences dans les réservations et les affectations.
+- Modifier les réservations de ressources en réponse au statut d’absence du bureau.
 - Collaborer entre les chefs de projet et les gestionnaires des ressources.
 - Afficher l’historique de l’utilisation des ressources par rapport à une cible, y compris une répartition de la façon dont le temps des ressources est utilisé.
 - Tenir à jour un référentiel de compétences et de qualifications.

@@ -1,12 +1,12 @@
 ---
-title: Utiliser le module complémentaire Project Service pour planifier votre travail dans Microsoft Project | MicrosoftDocs
-description: Cette rubrique fournit des informations à suivre pour ajouter, configurer et utiliser le module complémentaire Microsoft Project pour Microsoft Project Service.
+title: Planifiez votre travail dans Microsoft Project avec le module complémentaire Project Service
+description: Cette rubrique fournit des informations à suivre pour utiliser le module complémentaire Microsoft Project pour Microsoft Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-ms.date: 04/06/2019
+ms.date: 01/07/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -18,22 +18,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
+ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
 ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145985"
+ms.locfileid: "5145940"
 ---
-# <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utiliser le module complémentaire Project Service Automation pour planifier votre travail dans Microsoft Project
+# <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Planifiez votre travail dans Microsoft Project avec le module complémentaire Project Service
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] vous facilite la planification de vos projets, y compris les estimations. Vous pouvez définir le travail afin que les coûts, l’effort, et la valeur de ventes soient clairs lorsque la proposition finale est envoyée.  
 
- Vous pouvez installer [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] et effectuer vos tâches de planification dans l’environnement familier de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Utilisez les robustes fonctionnalités de planification et de gestion de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et mettez à jour votre plan de projet dans Project Service Automation.  
+Vous pouvez installer [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] et effectuer vos tâches de planification dans l’environnement familier de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Utilisez les robustes fonctionnalités de planification et de gestion de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et mettez à jour votre plan de projet dans Project Service Automation.  
 
 > [!IMPORTANT]
 > - Pour utiliser la fonctionnalité de gestion de documents SharePoint pour stocker vos fichiers [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] pour des projets [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], votre administrateur [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] doit activer la fonctionnalité de gestion de documents. 
@@ -52,9 +52,9 @@ ms.locfileid: "5145985"
 
 1. Ouvrez [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et cliquez sur l’onglet **Project Service**.  
 
-2. Cliquez sur **Connexion**.  
+2. Cliquez sur **Se connecter**.  
 
-3. Entrez vos informations de connexion puis cliquez sur **Se connecter**.  
+3. Entrez vos informations de connexion, puis cliquez sur **Se connecter**.  
 
    Vous pouvez à présent commencer à utiliser le module complémentaire.  
 
@@ -63,7 +63,7 @@ ms.locfileid: "5145985"
 
 1.  Sous l’onglet **Project Service**, cliquez sur **Lire** > **Modèle de projet Project Service Automation**.  
 
-2.  Choisissez un modèle de projet dans la liste puis cliquez sur **Ouvrir**.  
+2.  Choisissez un modèle de projet dans la liste, puis cliquez sur **Ouvrir**.  
 
     > [!NOTE]
     >  Par défaut, les tâches qui sont copiées depuis le modèle dans le projet sont définies comme manuellement planifiées.  
@@ -72,9 +72,9 @@ ms.locfileid: "5145985"
 
 1.  Ouvrez un projet et cliquez sur le ruban **Tâche**.  
 
-2.  Cliquez sur le menu **Diagramme de Gantt** puis choisissez **Feuille de ressource**.  
+2. Cliquez sur le menu **Diagramme de Gantt**, puis choisissez **Feuille de ressource**.  
 
-3.  Dans la feuille de la ressource, cliquez sur le menu déroulant **Rôle de ressource Project Service** et choisissez un rôle Project Service Automation.  
+3. Dans la feuille de la ressource, cliquez sur le menu déroulant **Rôle de ressource Project Service** et choisissez un rôle Project Service Automation.  
 
 ## <a name="staff-your-project-with-resources"></a>Doter votre projet en ressources  
 
@@ -82,26 +82,26 @@ ms.locfileid: "5145985"
 
 2.  Sur l’écran **Réserver la ressource**, sélectionnez la ressource que vous souhaitez utiliser pour le projet.  
 
-3.  Cliquez sur **Réserver**, puis sur **OK**.  
+3.  Sélectionnez **Réserver**, puis **OK**.  
 
 ## <a name="publish-your-project"></a>Publier votre projet  
 Lorsque votre planification de projet terminée, l’étape suivante consiste à importer et à publier le projet dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Le processus de génération de tarification et d’équipe est appliqué. Ouvrez le projet dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pour vérifier que l’équipe, les estimations de projet, et la structure de répartition du travail ont été générées. Le tableau suivant indique où trouver les résultats :
+Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Le processus de génération de tarification et d’équipe est appliqué. Ouvrez le projet dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pour vérifier que l’équipe, les estimations de projet, et la structure de répartition du travail ont été générées. Le tableau suivant indique où trouver les résultats.
 
 
-|                                                                                          |                                                                                                                                   |
+|              Microsoft Project                                                           |                      Project Service Automation                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Diagramme de Gantt**   | Importations dans l’écran **Structure de répartition du travail** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Feuille de ressource** |   Importations dans l’écran **Project Team Members** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] - **Utilisation**    |    Importe dans l’écran **Estimations de projets** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
 
 **Pour importer et publier votre projet**  
-1. Sous l’onglet **Project Service**, cliquez sur **Publier** > **Nouveau projet Project Service Automation**.  
+1. Sous l’onglet **Project Service**, accédez à **Publier** > **Nouveau projet Project Service Automation**.  
 
 2. Dans la boîte de dialogue **Publier dans un nouveau projet Project Service**, entrez le **Nom du projet** et sélectionnez **Client**.  
 
-3. Cochez éventuellement **Lier le plan de projet à Project Service Automation** pour lier le fichier du projet de plan à Project Service Automation.  
+3. Cliquez sur **Lier le plan de projet à Project Service Automation** pour lier le fichier du projet de plan à Project Service Automation.  
 
 4. Cliquez sur **Publier**.  
 
@@ -114,9 +114,9 @@ Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 - Supprimez le lien du fichier et modifiez-le directement dans Project Service. Par défaut, un projet qui a été téléchargé dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] est verrouillé et peut être modifié uniquement dans Project. Pour modifier le fichier dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], le fichier doit être dissocié.  
 
-### <a name="edit-in-pn_microsoft_project"></a>Procéder à la modification dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
+### <a name="edit-in-pn_microsoft_project"></a>Modifier dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
 
-1. Dans le menu principal, cliquez sur **Project Service** > **Projets**.  
+1. Dans le menu principal, accédez à **Project Service** > **Projets**.  
 
 2. Dans la liste des projet, ouvrez celui que vous avez créé dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
@@ -124,7 +124,7 @@ Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 ### <a name="unlink-a-file-and-edit-in-pn_microsoft_project-service"></a>Supprimer le lien au fichier et le modifier dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service  
 
-1. Dans le menu principal, cliquez sur **Project Service** > **Projets**.  
+1. Dans le menu principal, accédez à **Project Service** > **Projets**.  
 
 2. Dans la liste des projet, ouvrez celui que vous avez créé dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
@@ -137,40 +137,40 @@ Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 ### <a name="upload-a-file-for-sharepoint"></a>Charger un fichier pour SharePoint  
 
-1. Dans le menu principal, cliquez sur **Project Service** > **Télécharger**.  
+1. Dans le menu principal, accédez à **Project Service** > **Charger**.  
 
 2. Sélectionnez **Vers les documets du projet Project Service Automation**.  
 
-3. Dans la boîte de dialogue **Activer l’ouverture dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, sélectionnez **Oui** ou **Non**.  
+3. Dans la boîte de dialogue **Activer l'ouverture de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** sélectionnez **Oui** ou **Non**.  
 
-   - Si vous cliquez sur **Oui**, vous pourrez cliquer sur le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dans Project Service Automation, lancer [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et charger le fichier Project depuis la bibliothèque de documents SharePoint.  
+   - Si vous cliquez sur **Oui**, vous pourrez sélectionner **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dans Project Service Automation et lancer [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et charger le fichier Project depuis la bibliothèque de documents SharePoint.  
 
-   - Si vous cliquez sur **Non**, le lien vers le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne fonctionnera pas.  
+   - Si vous sélectionnez **Non**, le lien pour **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne fonctionnera pas.  
 
 4. Le fichier [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] se trouve dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sous **Documents** pour le projet spécifique [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 ### <a name="upload-a-file-for-office-groups"></a>Télécharger un fichier pour les groupes Office  
 
-1. Dans le menu principal, cliquez sur **Project Service** > **Télécharger**.  
+1. Dans le menu principal, accédez à **Project Service** > **Charger**.  
 
 2. Sélectionnez **Vers les documets du projet Project Service Automation**.  
 
-3. Dans la boîte de dialogue **Activer l’ouverture dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, sélectionnez **Oui** ou **Non**.  
+3. Dans la boîte de dialogue **Activer l'ouverture de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** sélectionnez **Oui** ou **Non**.  
 
-   - Si vous cliquez sur **Oui**, vous pourrez cliquer sur le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dans Project Service Automation, lancer [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et charger le fichier Project depuis la bibliothèque de documents SharePoint.  
+   - Si vous cliquez sur **Oui**, vous pourrez sélectionner **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dans Project Service Automation et lancer [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et charger le fichier Project depuis la bibliothèque de documents SharePoint.  
 
-   - Si vous cliquez sur **Non**, le lien vers le bouton **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne fonctionnera pas.  
+   - Si vous sélectionnez **Non**, le lien pour **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ne fonctionnera pas.  
 
 4. Le fichier [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] se trouve dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sous **Documents** pour le projet spécifique [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 ## <a name="publish--your-project-as-a-template"></a>Publier votre projet comme modèle  
- Vous pouvez enregistrer votre projet et le réutiliser en l’enregistrant comme modèle de projet dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Les modèles de projet sont des plans de projet réutilisables dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Créer un modèle de projet (Project Service Automation)](../psa/create-project-template.md)  
+ Vous pouvez enregistrer votre projet et le réutiliser en l’enregistrant comme modèle de projet dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Les modèles de projet sont des plans de projet réutilisables dans [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Pour plus d’informations, voir [Créer un modèle de projet (Project Service Automation)](../psa/create-project-template.md). 
 
-1. Sous l’onglet **Project Service**, cliquez sur **Publier** > **Nouveau modèle de projet Project Service Automation**.  
+1. Sous l’onglet **Project Service**, accédez à **Publier** > **Nouveau modèle de projet Project Service Automation**.  
 
 2. Dans la boîte de dialogue **Publier dans un nouveau modèle de projet Project Service**, entrez le **Nom de modèle du projet**.  
 
-3. Cochez éventuellement **Lier le plan de projet à Project Service Automation** pour lier le fichier Project à [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+3. Cochez éventuellement **Lier le plan de projet à Project Service Automation** pour lier le fichier du projet à [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 4. Cliquez sur **Publier**.  
 
@@ -182,52 +182,63 @@ Lors de la lecture d'un projet à partir de Project Service Automation, le calen
 
 
 ## <a name="data-synchronization"></a>Synchronisation des données
+Les tableaux de cette section fournissent des informations sur la synchronisation des données d'entité entre Project Service Automation et le complément de bureau Microsoft Project.
 
-Le tableau suivant décrit comment les données sont synchronisées entre Project Service Automation et le complément de bureau Microsoft Project.
-
-| **Entité** | **Champ** | **Microsoft Project à Project Service Automation** | **Project Service Automation à Microsoft Project** |
-| --- | --- | --- | --- |
-| Tâche du projet | Échéance | ● | - |
-| Tâche du projet | Effort estimé | ● | - |
-| Tâche du projet | ID du client MS Project | ● | - |
-| Tâche du projet | Tâche parente | ● | - |
-| Tâche du projet | Project | ● | - |
-| Tâche du projet | Tâche du projet | ● | - |
-| Tâche du projet | Nom de la tâche du projet | ● | - |
-| Tâche du projet | Unité d'allocation des ressources (obsolète dans la version 3.0) | ● | - |
-| Tâche du projet | Durée planifiée | ● | - |
-| Tâche du projet | Date de début | ● | - |
-| Tâche du projet | ID WBS | ● | - |
+### <a name="project-task-entity-table"></a>Table d'entité de tâche de projet
+Le tableau suivant décrit comment les données de l'entité Tâche de projet sont synchronisées entre Project Service Automation et le complément de bureau Microsoft Project.
 
 | **Entité** | **Champ** | **Microsoft Project à Project Service Automation** | **Project Service Automation à Microsoft Project** |
 | --- | --- | --- | --- |
-| Membre de l’équipe | ID du client MS Project | ● | - |
-| Membre de l’équipe | Nom du poste | ● | - |
-| Membre de l’équipe | projet | ● | ● |
-| Membre de l’équipe | Équipe du projet | ● | ● |
-| Membre de l’équipe | Unité d’allocation des ressources | - | ● |
-| Membre de l’équipe | Rôle | - | ● |
-| Membre de l’équipe | Heures de travail | Non synchronisé | Non synchronisé |
+| Tâche du projet | Date d’échéance | Synchronisé | Non synchronisé |
+| Tâche du projet | Effort estimé | Synchronisé | Non synchronisé |
+| Tâche du projet | ID du client MS Project | Synchronisé | Non synchronisé |
+| Tâche du projet | Tâche parente | Synchronisé | Non synchronisé |
+| Tâche du projet | Project | Synchronisé | Non synchronisé |
+| Tâche du projet | Tâche du projet | Synchronisé | Non synchronisé |
+| Tâche du projet | Nom de la tâche du projet | Synchronisé | Non synchronisé |
+| Tâche du projet | Unité d'allocation des ressources (obsolète dans la version 3.0) | Synchronisé | Non synchronisé |
+| Tâche du projet | Durée planifiée | Synchronisé | Non synchronisé |
+| Tâche du projet | Date de début | Synchronisé | Non synchronisé |
+| Tâche du projet | ID WBS | Synchronisé | Non synchronisé |
+
+### <a name="team-member-entity-table"></a>Table d'entité Membre de l'équipe
+Le tableau suivant décrit comment les données de l'entité Membre de l'équipe sont synchronisées entre Project Service Automation et le Micros
 
 | **Entité** | **Champ** | **Microsoft Project à Project Service Automation** | **Project Service Automation à Microsoft Project** |
 | --- | --- | --- | --- |
-| Attribution de ressource | Date de début | ● | - |
-| Attribution de ressource | heures | ● | - |
-| Attribution de ressource | ID du client MS Project | ● | - |
-| Attribution de ressource | Travail planifié | ● | - |
-| Attribution de ressource | Project | ● | - |
-| Attribution de ressource | Équipe du projet | ● | - |
-| Attribution de ressource | Attribution de ressource | ● | - |
-| Attribution de ressource | Tâche | ● | - |
-| Attribution de ressource | Date de fin | ● | - |
+| Membre d'équipe | ID du client MS Project | Synchronisé | Non synchronisé |
+| Membre d'équipe | Nom du poste | Synchronisé | Non synchronisé |
+| Membre d'équipe | projet | Synchronisé | Synchronisé |
+| Membre d'équipe | Équipe du projet | Synchronisé | Synchronisé |
+| Membre d'équipe | Unité d’allocation des ressources | Non synchronisé | Synchronisé |
+| Membre d'équipe | Rôle | Non synchronisé | Synchronisé |
+| Membre d'équipe | Heures de travail | Non synchronisé | Non synchronisé |
+
+### <a name="resource-assignment-entity-table"></a>Table d'entité Affectation de ressources
+Le tableau suivant décrit comment les données de l'entité Affectation des ressources sont synchronisées entre Project Service Automation et le Micros
 
 | **Entité** | **Champ** | **Microsoft Project à Project Service Automation** | **Project Service Automation à Microsoft Project** |
 | --- | --- | --- | --- |
-| Dépendances de la tâche du projet | Dépendance de la tâche du projet | ● | - |
-| Dépendances de la tâche du projet | Type de lien | ● | - |
-| Dépendances de la tâche du projet | Tâche précédente | ● | - |
-| Dépendances de la tâche du projet | Project | ● | - |
-| Dépendances de la tâche du projet | Tâche suivante | ● | - |
+| Attribution de ressource | Date de début | Synchronisé | Non synchronisé |
+| Attribution de ressource | heures | Synchronisé | Non synchronisé |
+| Attribution de ressource | ID du client MS Project | Synchronisé | Non synchronisé |
+| Attribution de ressource | Travail planifié | Synchronisé | Non synchronisé |
+| Attribution de ressource | Project | Synchronisé | Non synchronisé |
+| Attribution de ressource | Équipe du projet | Synchronisé | Non synchronisé |
+| Attribution de ressource | Attribution de ressource | Synchronisé | Non synchronisé |
+| Attribution de ressource | Tâche | Synchronisé | Non synchronisé |
+| Attribution de ressource | Date de fin | Synchronisé | Non synchronisé |
 
-### <a name="see-also"></a>Voir aussi  
+### <a name="project-task-dependencies-entity-table"></a>Table d'entité Dépendances de tâche de projet
+Le tableau suivant décrit comment les données de l'entité Dépendances de tâche de projet sont synchronisées entre Project Service Automation et le Micros
+
+| **Entité** | **Champ** | **Microsoft Project à Project Service Automation** | **Project Service Automation à Microsoft Project** |
+| --- | --- | --- | --- |
+| Dépendances de la tâche du projet | Dépendance de la tâche du projet | Synchronisé | Non synchronisé |
+| Dépendances de la tâche du projet | Type de lien | Synchronisé | Non synchronisé |
+| Dépendances de la tâche du projet | Tâche précédente | Synchronisé | Non synchronisé |
+| Dépendances de la tâche du projet | Project | Synchronisé | Non synchronisé |
+| Dépendances de la tâche du projet | Tâche suivante | Synchronisé | Non synchronisé |
+
+### <a name="additional-resources"></a>Ressources complémentaires
  [Guide du responsable de projet](../psa/project-manager-guide.md)

@@ -3,6 +3,7 @@ title: Pourquoi le tarif prend la valeur par défaut de zéro sur les chiffres r
 description: Les trois vérifications suivantes vous aideront à résoudre la définition de la valeur par défaut du prix sur 0 sur les chiffres réels de vente de la dépense.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122070"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146300"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Pourquoi le tarif prend la valeur par défaut de zéro sur les chiffres réels de vente de la dépense ?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ Cette FAQ s’applique aux chiffres réels des dépenses où la classe de transa
 
 Rechercher le projet dans le champ de projet du chiffre réel et accédez à la page de projet. Accédez ensuite à l’onglet Ventes. Dans la grille des lignes Contrat du projet, cliquez sur le lien dans le champ Contrat du projet. La page Contrat du projet s’ouvre. Dans la page Contrat du projet, accédez à l’onglet Tarifs du projet. Vérifiez qu’il existe au moins un tarif joint ici.
 
-Si aucun tarif n’est joint dans la grille Tarifs du projet du Contrat du projet procédez comme suit :
+Si aucun tarif n’est joint dans la grille Tarifs du projet du Contrat du projet :
 
 - Joignez un tarif à la grille Tarifs du projet. Les tarifs autorisés à être joints ici doivent avoir le champ de contexte défini sur Ventes et le champ Devise sur les tarifs doit correspondre au champ Devise dans le Contrat du projet. Une fois que vous avez fait les corrections nécessaires, recréez l’entrée de dépenses, approuvez- la, et vérifiez que les chiffres réels des ventes non facturées affichent un prix valide.
 - Si vous avec un ou plusieurs tarifs joints dans la grille Tarifs du projet du Contrat du projet, allez vérifier le point 2.
@@ -47,7 +50,7 @@ Pour que Project Service prenne en compte un tarif pour le prix par défaut, ce 
 - Commencez par vérifier si les dates de début et de fin sur l’onglet général des tarifs joints ne sont pas vides. Si les dates de début et de fin sur les tarifs identifiés ci-dessus sont vides, vous avez isolé le problème. 
 - Prenez note du champ de date de début sur votre chiffre réel de ventes de dépenses et vérifiez si l’un des tarifs identifiés s’applique à cette date. Par exemple, la date du chiffre réel des dépenses doit se situer entre la date de début et la date de fin sur les tarifs. 
     - Si aucun tarif ne couvre cette date dans le chiffre réel des ventes de dépenses, vous avez le isolé problème. Modifiez les dates de début et de fin des tarifs pour vous assurer que les tarifs couvrent la date du chiffre réel des dépenses. 
-    - Si plusieurs tarifs couvrent la date dans le chiffre réel des ventes de dépenses, vous avez le isolé problème. Vous pouvez résoudre ce problème en modifiant les dates de début et de fin des tarifs afin qu’il ne reste qu’un seul tarif qui s’appliquent à la date du chiffre réel des dépenses. 
+    - Si plusieurs tarifs couvrent la date dans le chiffre réel des ventes de dépenses, vous avez le isolé problème. Modifiez les dates de début et de fin des tarifs afin qu’il ne reste qu’un seul tarif qui s’appliquent à la date du chiffre réel des dépenses. 
     - S’il n’existe qu’un tarif qui s’appliquent à cette date du chiffre réel des dépenses, passez à la Vérification 3.
 Une fois que vous avez terminé les corrections nécessaires, recréez l’entrée de dépenses, approuvez- la, et vérifiez que les chiffres réels des ventes non facturées affichent un prix valide.
 
@@ -55,7 +58,7 @@ Une fois que vous avez terminé les corrections nécessaires, recréez l’entr�
 
 Si vous avez terminé la Vérification 1 et la Vérification 2, vous devez maintenant avoir un seul tarif de projet qui s’applique à la date du chiffre réel de la vente des dépenses. Ouvrez ce tarif du projet et accédez l’onglet Prix de la catégorie. Vérifiez qu’il existe une ligne dans la grille pour la catégorie de dépenses spécifique sur le chiffre réel des dépenses.
  
-- S’il n’y a aucune ligne, vous avez isolé le problème. Créez une ligne dans la grille Prix de la catégorie pour la catégorie sur votre chiffre réel des dépenses. Une fois cette opération terminée, recréez l’entrée de dépenses, approuvez- la, et vérifiez que les chiffres réels des ventes non facturées affichent un prix valide. 
+- S’il n’y a aucune ligne, vous avez isolé le problème. Créez une ligne dans la grille Prix de la catégorie pour la catégorie sur votre chiffre réel des dépenses. Ensuite, recréez l’entrée de dépenses, approuvez- la, et vérifiez que les chiffres réels des ventes non facturées affichent un prix valide. 
 - S’il existe une ligne correspondant à la catégorie de dépenses dans la grille des prix de la catégorie, vérifiez si elle a un prix valide.
 
 Pour comprendre ce qu’est un prix valide, utilisez ces méthodes suivantes :
