@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b075b926585e27b8811f999e41dcb271277d360e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35a76cad8c6ddaa84038746ace6a7e1e5623388f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075885"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960064"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Afficher une note de frais à partir de la comptabilité ou de Achats et approvisionnement
-
-[!include [banner](../includes/banner.md)]
 
 Lorsque vous exécutez une requête pour afficher les transactions dans la comptabilité ou dans Achats et approvisionnement, la requête peut renvoyer trop d'informations. Vous souhaiterez ainsi peut-être affiner votre recherche. Pour obtenir les informations dont vous avez besoin, vous pouvez explorer les informations détaillées d'une transaction pour voir la note de frais sur laquelle elle est apparue.
 

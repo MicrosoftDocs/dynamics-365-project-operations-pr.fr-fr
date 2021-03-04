@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2291515cc154fb5b34ca5802135791958bea1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db3529597c662a326730cf6a0b855ae865f0dce5
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075888"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960334"
 ---
 # <a name="configure-expense-management"></a>Configurer la gestion des dépenses
-
-[!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit les considérations et les décisions que vous devez prendre pendant le processus de planification avant de configurer la gestion des dépenses. Dans la gestion des dépenses, vous pouvez stocker des informations sur les modes de paiement, les demandes de déplacement, les notes de frais, les politiques, etc.
 
@@ -65,7 +63,7 @@ Vous devez définir les indemnités journalières des employés fournies par vot
 
 - Règles d'indemnités journalières basées sur l'emplacement :
 
-    - Les montants journaliers varient-ils selon l'emplacement ? Quels emplacements sont inclus ?
+    - Les montants journaliers varient-ils selon l'emplacement ? Quels emplacements sont concernés ?
     - Si les montants journaliers varient selon l'emplacement, pour chaque emplacement, quel pourcentage est prévu pour les types de dépenses suivants :
 
         - Repas
@@ -129,10 +127,10 @@ Si la catégorie de dépense est également utilisée dans Gestion de projet et 
 
     - Revenu facturé
     - Revenus accumulés-valeur des ventes
-    - TEC-valeur des ventes
-    - Revenus accumulés-production
-    - TEC-production
-    - Revenus accumulés-marge
+    - Travaux en cours – prix de vente
+    - Produit à recevoir – production
+    - Travaux en cours – production
+    - Produit à recevoir – profit
     - TEC-marge
     - Revenus accumulés-abonnement
     - TEC-abonnement

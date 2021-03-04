@@ -3,17 +3,17 @@ title: Appliquer la configuration de la démonstration et les données de config
 description: Cette rubrique fournit des informations sur l’application de la configuration de démonstration et des données de configuration dans Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 01/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642090"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089116"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Appliquer la configuration de la démonstration et les données de configuration pour Project Operations – Simplifié 
 
@@ -32,47 +32,45 @@ Avant de commencer la configuration, vous devez disposer d'un environnement Comm
 2. Accédez au dossier *ProjOpsDemoDataSetupAndMaster - Integrated CMT* et exécutez le fichier exécutable, *DataMigrationUtility*.
 3. Sur la page 1 de l’Assistant de migration de configuration (CMT) Common Data Service, sélectionnez **Importer des données**, puis **Continuer**.
 
-![Migration de la configuration](./media/1ConfigurationMigration.png)
+    ![Migration de la configuration](./media/1ConfigurationMigration.png)
 
 4. Sur la page 2 de l’Assistant CMT, sélectionnez **Microsoft 365** comme **Type de déploiement**.
 5. Cochez les cases **Afficher une liste des organisations disponibles** et **Afficher les paramètres avancés**.
 6. Sélectionnez la région de votre client, entrez vos informations d’identification, puis sélectionnez **Connexion**.
 
-![Connexion de configuration](./media/2ConfigurationSignin.png)
+   ![Connexion de configuration](./media/2ConfigurationSignin.png)
 
 7. Sur la page 3, dans la liste des Organisations sur le Client, sélectionnez l’organisation dans laquelle vous souhaitez importer les données de démonstration et sélectionnez **Connexion**.
 8. Sur la page 4, sélectionnez le fichier compressé, *MasterAndSetupData* à partir du dossier décompressé *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
 
-![Fichier compressé](./media/3ZipFile.png)
+   ![Fichier compressé](./media/3ZipFile.png)
 
-![Sélectionnez un fichier](./media/4SelectAFile.png)
+   ![Sélectionnez un fichier](./media/4SelectAFile.png)
 
 9. Une fois le fichier zip sélectionné, sélectionnez **Importer des données**.
 
-![Importer les données](./media/5ImportData.png)
+   ![Importer les données](./media/5ImportData.png)
 
 10. L’importation durera environ deux à dix minutes en fonction de la vitesse de votre réseau. Une fois terminé, quittez l’Assistant CMT. 
 11. Vérifiez votre organisation pour les données dans les 20 entités suivantes :
 
--   Devise
--   Compte
--   Unité d’organisation
--   Contact
--   Groupe fiscal
--   Groupe de clients
--   Unité
--   Groupe d’unités
--   Tarifs
--   Tarifs du paramètre du projet 
--   Fréquence de facture
--   Catégorie de ressources pouvant être réservées
--   Catégorie de transaction
--   Catégorie de dépense
--   Prix du rôle
--   Prix de la catégorie de transaction
--   Caractéristique
--   Ressource pouvant être réservée
--   Association de catégories de ressources pouvant être réservées
--   Caractéristique des ressources pouvant être réservées
+    -   Devise
+    -   Compte
+    -   Unité d’organisation
+    -   Contact
+    -   Unité
+    -   Groupe d'unités
+    -   Tarifs
+    -   Tarifs du paramètre du projet 
+    -   Fréquence de facture
+    -   Catégorie de ressources pouvant être réservées
+    -   Catégorie de transaction
+    -   Catégorie de dépense
+    -   Prix du rôle
+    -   Prix de la catégorie de transaction
+    -   Caractéristique
+    -   Ressource pouvant être réservée
+    -   Association de catégories de ressources pouvant être réservées
+    -   Caractéristique des ressources pouvant être réservées
 
-![Importation terminée](./media/6CompleteImport.png)
+    ![Importation terminée](./media/6CompleteImport.png)

@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8850a8d3f2efc699bc95d4cb4fc76428badb10f1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a43de30d916d2775f28f59f404c34b60a43fff9c
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075897"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960739"
 ---
 # <a name="expense-report-distributions"></a>Répartition de notes de frais
-
-[!include [banner](../includes/banner.md)]
 
 Lorsque vous saisissez des dépenses sur une note de frais, vous pouvez répartir les dépenses entre plusieurs projets, dimensions financières ou comptes de votre organisation.
 

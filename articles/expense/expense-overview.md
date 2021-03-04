@@ -5,22 +5,23 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122829"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764906"
 ---
 # <a name="expense-home-page"></a>Page d’accueil des dépenses
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
 
-Dynamics 365 Project Operations prend en charge la capacité de traiter les dépenses. Le traitement des dépenses se produit avec ou sans projets à l’aide d’un flux de travail personnalisable de stratégies, de catégories de transactions et d’approbations.
+Dynamics 365 Project Operations prend en charge la possibilité de traiter les dépenses. Le traitement des dépenses se déroule avec ou sans projets à l’aide d’un flux de travail personnalisable de stratégies, de catégories de transactions et d’approbations.
 
 Dans Project Operations, il existe deux modèles de déploiement pris en charge pour les dépenses : 
 
@@ -28,11 +29,11 @@ Dans Project Operations, il existe deux modèles de déploiement pris en charge 
 - **De base** : Le déploiement de base est disponible pour **Project Operations pour les scénarios basés sur les ressources/non stockés** et **Déploiement simplifié – Traiter la facturation pro forma**.
 
 ## <a name="full"></a>Complet 
-Le déploiement de dépenses complet fournit une application complète des stratégies qui inclut la possibilité de créer des stratégies, telles que :
+Le déploiement des dépenses complet fournit une application de stratégie complète qui inclut la possibilité de créer des stratégies, telles que :
 
-  - Limites de la catégorie de dépense
-  - Déplacement
-  - Indemnité quotidienne
+  - Limites de catégorie de dépenses
+  - Voyages et déplacements
+  - Indemnités journalières
   - Importations d’une carte de crédit
   - Reconnaissance optique des caractères du reçu
 

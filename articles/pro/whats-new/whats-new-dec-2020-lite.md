@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6a001cea56411865599a5c0a41fe47682dad35c2
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: bfa13ab74031eb52c128fed16a31e3a8167e8bde
+ms.sourcegitcommit: ec8ab099a03725de9f61edfdeb90fbefae54cd4e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700813"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4707670"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nouveautés de décembre 2020 – Déploiement simplifié de Project Operations – Traiter la facturation pro forma
 
@@ -24,7 +24,7 @@ Cette rubrique s'applique aux composants et versions suivants de Dynamics 365 Pr
 
   - Version 4.5.0.134 de Project Operations dans l’environnement Dataverse 
 
-Le tableau suivant répertorie les mises à jour de la version 4.4.0.70 de Project Operations dans l’environnement Dataverse.
+Le tableau suivant répertorie les mises à jour de la version 4.5.0.134 de Project Operations dans l’environnement Dataverse.
 
 | **Fonctionnalités** | **Numéro de référence** | **Mise à jour qualité** |
 | --- | --- | --- |

@@ -5,21 +5,22 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176383"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764500"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>Créer une facture pro forma manuelle – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Dans Dynamics 365 Project Operations, les factures pro forma peuvent être créées manuellement si nécessaire. Vous pouvez créer manuellement une facture pro forma à partir de la page de liste **Contrats de projet** ou depuis la page de détails **Contrat de projet**.
+Dans Dynamics 365 Project Operations, les factures pro forma peuvent être créées manuellement, si nécessaire. Vous pouvez créer manuellement une facture pro forma à partir de la page de liste **Contrats de projet** ou depuis la page de détails **Contrat de projet**.
 
 ##  <a name="project-contracts-list-page"></a>Page de liste Contrats du projet
 
@@ -31,6 +32,6 @@ Toutes les factures de projet créées sont disponibles sur la page **Facture** 
 
 ## <a name="project-contract-details-page"></a>Page Détails du contrat de projet
 
-Une facture pro forma peut également être créée à partir de la page de détails **Contrat de projet**, qui crée la facture pour ce contrat de projet spécifique. Le système vérifie que le contrat de projet a un arriéré **Prêt à facturer** qui est daté avant la date d’aujourd’hui. À partir de ces contrats, le système crée des projets de factures pro forma en fonction du nombre de clients sur chaque ligne de contrat.
+Une facture pro forma peut également être créée à partir de la page de détails **Contrat de projet**. Le système vérifie si le contrat de projet dispose d’un backlog **Prêt pour la facturation** daté d’avant la date du jour. À partir de ces contrats, le système crée des factures pro forma provisoires en fonction du nombre de clients sur chaque ligne de contrat.
 
-Lorsqu’une seule facture pro forma est créée, la page **Facture** s’ouvre. S’il y a plusieurs factures créées pour ce contrat de projet, la page de liste **Factures** s’ouvre pour afficher toutes les factures créées.
+Lorsqu’une seule facture pro forma est créée, la page **Facture** s’ouvre. Si plusieurs factures ont été créées pour le contrat de projet concerné, la page de liste **Factures** s’ouvre pour afficher toutes les factures créées.

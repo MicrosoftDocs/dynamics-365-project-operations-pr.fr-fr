@@ -1,6 +1,6 @@
 ---
 title: Gérer la délégation des dépenses
-description: Un utilisateur délégué aux dépenses peut créer et gérer des notes de frais au nom d'un autre employé de l'organisation.
+description: Un utilisateur délégué aux dépenses peut créer et gérer des notes de frais pour un autre employé de l'organisation.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075892"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960784"
 ---
 # <a name="manage-expense-delegation"></a>Gérer la délégation des dépenses
 
-[!include [banner](../includes/banner.md)]
+Un délégué aux dépenses peut créer et gérer des notes de frais pour un autre employé.
 
-Un utilisateur délégué aux dépenses peut créer et gérer des notes de frais au nom d'un autre employé de l'organisation.
+## <a name="configure-expense-delegation"></a>Configuration de la délégation des dépenses
 
-## <a name="configuring-expense-delegation"></a>Configuration de la délégation des dépenses
+1. Pour configurer un utilisateur en tant que délégué aux dépenses, accédez à **Gestion des dépenses > Configuration > Général > Délégués**.
+2. Dans la page **Délégués**, cliquez sur **Nouveau**.
+3. Sélectionnez l'employé qui aura un délégué défini. 
+4. Entrez l’alias de l’utilisateur délégué, ainsi que les dates de début et de fin de la période de délégation.
 
-Pour configurer un utilisateur en tant que délégué aux dépenses, accédez à **Gestion des dépenses > Configurer > Général > Délégués** pour ouvrir la page **Délégués**. Sélectionnez **Nouveau** , puis sélectionnez l'employé pour lequel un employé sera définie. Entrez l’alias de l’utilisateur délégué, ainsi que les dates de début et de fin de la période de délégation.
+## <a name="manage-expense-delegation-for-another-employee"></a>Gérer la délégation de dépenses pour un autre employé
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Gestion de la délégation des dépenses au nom d'un autre employé
+Lorsque la clé de gestion des fonctionnalités **Activer la page de liste des délégués aux frais** est activé, la page de liste **Dépenses qui me sont déléguées** sera disponible. Accédez à **Gestion des dépenses** > **Mes dépenses** > **Dépenses qui me sont déléguées**.
 
-Si la clé de gestion des fonctionnalités **Activer la page de liste des délégués aux dépenses** est activée, la page de liste **Dépenses qui me sont déléguées** sera disponible en accédant à **Gestion des dépenses > Mes dépenses > Dépenses qui me sont déléguées**.
+Un utilisateur délégué peut rapidement filtrer et rechercher sur les notes de frais existantes qui lui ont été déléguées. Il peut également créer une note de frais pour d'autres utilisateurs en sélectionnant **Nouvelle note de frais**.
 
-Un utilisateur délégué peut rapidement filtrer et rechercher les notes de frais existantes qui lui ont été déléguées. L'utilisateur délégué peut également créer rapidement une note de frais au nom d'autres utilisateurs en cliquant sur **Nouvelle note de frais**.
-
-Les utilisateurs délégués peuvent également créer et gérer des notes de frais au nom d'autres employés en accédant à **Gestion des dépenses > Mes dépenses > Notes de frais** et en cliquant sur le bouton **Ouvrir les dépenses des autres utilisateurs**.
+Les utilisateurs délégués peuvent également créer et gérer des notes de frais pour d'autres employés en accédant à **Gestion des dépenses** > **Mes dépenses** > **Rapports de dépenses** et en sélectionnant **Ouvrir les dépenses des autres utilisateurs**.

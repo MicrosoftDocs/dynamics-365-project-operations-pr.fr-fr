@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075894"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960514"
 ---
 # <a name="set-up-expense-management-workflows"></a>Configurer des workflows pour la gestion des dépenses
-
-[!include [banner](../includes/banner.md)]
 
 Vous pouvez configurer un processus de flux de travail utilisé pour examiner et approuver les documents de déplacement et de dépenses. Les documents pour lesquels les workflows peuvent être définis incluent les notes de frais, les demandes de déplacement et les demandes d'avance de fonds.
 
@@ -46,9 +44,9 @@ Le tableau ci-dessous répertorie les types de workflows que vous pouvez créer 
 |-------------------------------------------------|-----------------------------------------------------------------------|
 |         <strong>Rapport de dépenses</strong>         |            Créez des workflows d'approbation pour les notes de frais.             |
 |  <strong>Validation automatique des notes de frais</strong>   |        Créez des workflows de validation automatique pour les notes de frais.        |
-|       <strong>Article de ligne de dépense</strong>        |     Créez des workflows d'approbation pour les articles de ligne sur les notes de frais.      |
+|       <strong>Article de ligne de dépense</strong>        |     Créez des workflows d’approbation pour les articles de ligne sur les notes de frais.      |
 | <strong>Validation automatique des lignes de dépense</strong> | Créez des workflows de validation automatique pour les articles de ligne sur les notes de frais. |
-|       <strong>Demande de trajet</strong>       |          Créez des workflows d'approbation pour les demandes de voyage.           |
-|      <strong>Demande d'avance de disponibilités</strong>      |         Créez des workflows d'approbation pour les demandes d'avance de fonds.          |
-|        <strong>Recouvrement fiscal de la TVA</strong>        | Créez des workflows d'approbation pour la récupération de la taxe sur la valeur ajoutée (TVA).  |
+|       <strong>Demande de trajet</strong>       |          Créez des workflows d’approbation pour les demandes de voyage.           |
+|      <strong>Demande d’avance de disponibilités</strong>      |         Créez des workflows d’approbation pour les demandes d’avance de fonds.          |
+|        <strong>Recouvrement fiscal de la TVA</strong>        | Créez des workflows d’approbation pour la récupération de la taxe sur la valeur ajoutée (TVA).  |
 
