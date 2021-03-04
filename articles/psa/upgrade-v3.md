@@ -2,6 +2,7 @@
 title: Considérations relatives à la mise à niveau - Microsoft Dynamics 365 Project Service Automation version 2.x ou 1.x vers la version 3
 description: Cette rubrique donne des informations sur les considérations que vous devez prendre en compte lors de la mise à niveau de Project Service Automation version 2.x ou 1.x vers la version 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,20 +18,23 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121710"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144156"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considérations relatives à la mise à niveau - PSA version 2.x ou 1.x vers la version 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation et Field Service
-Dynamics 365 Project Service Automation et Dynamics 365 Field Service utilisent la solution Universal Resourcing Scheduling (URS) pour la planification des ressources. Si Project Service Automation et Field Service sont installés dans votre instance, vous devez planifier la mise à niveau des deux solutions vers la dernière version (version 3.x pour Project Service Automation, version 8.x pour Field Service). La mise à niveau de Project Service Automation ou de Field Service va installer la dernière version d’URS, ce qui signifie qu’un comportement incohérent est possible si les deux solutions Project Service Automation et Field Service dans la même instance ne sont pas mises à niveau vers la dernière version.
+Dynamics 365 Project Service Automation et Dynamics 365 Field Service utilisent la solution Universal Resourcing Scheduling (URS) pour la planification des ressources. Si vous disposez de Project Service Automation et Field Service dans votre instance, mettez-les à niveau vers la version la plus récente. Pour Project Service Automation c'est la version 3.x. Pour Field Service, il s'agit de la version 8.x. La mise à niveau de Project Service Automation ou Field Service installera la dernière version d'URS. Si les solutions Project Service Automation et Field Service de la même instance ne sont pas mises à niveau vers la dernière version, il peut y avoir un comportement incohérent.
 
-## <a name="resource-assignments"></a>Affectations de ressources
+## <a name="resource-assignments"></a>Attributions de ressources
 Dans Project Service Automation version 2 et version 1, les affectations de tâches étaient stockées en tant que tâches enfants (également appelées tâches de ligne) dans l’entité **Tâche**, et indirectement associées à l’entité **Affectation de ressource**. La tâche de ligne était visible dans la fenêtre contextuelle d’affectation de la structure de répartition du travail (WBS).
 
 ![Tâches de ligne de WBS dans Project Service Automation version 2 et version 1](media/upgrade-line-task-01.png)
@@ -42,7 +46,7 @@ Ces modifications ont une incidence sur la mise à niveau des projets existants 
 ### <a name="tasks-assigned-to-named-resources"></a>Tâches affectées aux ressources nommées
 À l’aide de l’entité Tâche sous-jacente, les tâches dans la version 2 et la version 1 autorisaient les membres de l’équipe à utiliser un rôle autre que leur rôle défini par défaut. Par exemple, Charline Gauthier, à qui est affectée par défaut le rôle de Gestionnaire de programmes, pouvait être affectée à une tâche avec le rôle de Développeur. Dans la version 3, le rôle d’un membre de l’équipe nommé est toujours la valeur par défaut. Ainsi, toute tâche affectée à Charline Gauthier utilise son rôle par défaut de Gestionnaire de programmes.
 
-Si vous avez affecté une ressource à une tâche en dehors de son rôle par défaut dans la version 2 et la version 1, lorsque vous effectuez une mise à niveau, le rôle par défaut est affecté à la ressource nommée pour toutes les affectations de tâches, quelle que soit l’affectation de rôle dans la version 2. Il en résultera des différences dans les estimations calculées de la version 2 ou version 1 vers la version 3, car les estimations sont calculées en fonction du rôle de la ressource au lieu de l’affectation de tâches de ligne. Par exemple, dans la version 2, deux tâches ont été affectées à Astrid Lang. Le rôle sur la tâche de ligne pour la tâche 1 est Développeur et pour la tâche 2, Gestionnaire de programmes. Astrid Lang a le rôle par défaut de Gestionnaire de programmes.
+Si vous avez affecté une ressource à une tâche en dehors de son rôle par défaut dans la version 2 et la version 1, lorsque vous effectuez une mise à niveau, le rôle par défaut est affecté à la ressource nommée pour toutes les affectations de tâches, quelle que soit l’affectation de rôle dans la version 2. Cette affectation entraînera des différences dans les estimations calculées de la version 2 ou version 1 vers la version 3, car les estimations sont calculées en fonction du rôle de la ressource au lieu de l’affectation de tâches de ligne. Par exemple, dans la version 2, deux tâches ont été affectées à Astrid Lang. Le rôle sur la tâche de ligne pour la tâche 1 est Développeur et pour la tâche 2, Gestionnaire de programmes. Astrid Lang a le rôle par défaut de Gestionnaire de programmes.
 
 ![Rôles multiples affectés à une ressource](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Lorsque vous effectuez une mise à niveau vers la version 3, les tâches de lig
 
 ![Affectations de ressources](media/resource-assignment-v2-05.png)
 
-Comme les estimations sont basées sur le rôle par défaut de la ressource, les estimations de vente et de coût peuvent changer. Notez que dans le graphique suivant, le rôle **Développeur** ne s’affiche plus, car il est maintenant extrait du rôle par défaut de la ressource réservable.
+Comme les estimations sont basées sur le rôle par défaut de la ressource, les estimations de vente et de coût peuvent changer. Dans le graphique suivant, le rôle **Développeur** ne s’affiche plus, car il est maintenant extrait du rôle par défaut de la ressource réservable.
 
 ![Estimations de coût pour les rôles par défaut](media/resource-assignment-cost-estimate-06.png)
 ![Estimations de vente pour les rôles par défaut](media/resource-assignment-sales-estimate-07.png)
 
-Une fois la mise à niveau terminée, vous pouvez modifier le rôle d’un membre de l’équipe en un rôle autre que celui affecté par défaut. Toutefois, si vous modifiez le rôle d’un membre de l’équipe, cette modification est appliquée à toutes les tâches qui lui sont affectées, car les membres de l’équipe ne sont plus autorisés à avoir plusieurs rôles dans la version 3.
+Une fois la mise à niveau terminée, vous pouvez modifier le rôle d’un membre de l’équipe en un rôle autre que celui affecté par défaut. Toutefois, si vous modifiez le rôle d’un membre de l’équipe, cette modification est appliquée à toutes les tâches qui lui sont affectées, car les membres de l’équipe ne peuvent plus avoir plusieurs rôles dans la version 3.
 
 ![Mise à jour du rôle d’une ressource](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ L’unité d’organisation est visible sur la vue des estimations.
  
 Lorsque la mise à niveau est terminée, l’unité d’organisation sur la tâche de ligne correspondant au membre de l’équipe générique est ajoutée au membre de l’équipe générique et la tâche de ligne est supprimée. C’est pourquoi il est recommandé, avant la mise à niveau, de générer ou de régénérer l’équipe sur chaque projet contenant des ressources génériques.
 
-Pour les tâches qui sont affectées à un rôle avec une unité d’organisation différente de celle du projet contractuel, et une équipe n’a pas été générée, la mise à niveau crée un membre de l’équipe générique pour le rôle, mais utilise l’unité contractuelle du projet pour l’unité d’organisation du membre de l’équipe. Si l’on reprend l’exemple avec le projet Project Z, cela signifie que l’unité d’organisation contractuelle Contoso US et les tâches de test du plan du projet dans la phase de mise en œuvre ont été affectées au rôle Consultant technique avec l’unité d’organisation affectée à Contoso Inde. La tâche de test de l’intégration qui est effectuée après la phase de mise en œuvre a été affectée au rôle Consultant technique. L’unité d’organisation est Contoso US et une équipe n’a pas été générée. La mise à niveau crée un membre de l’équipe générique, un consultant technique avec les heures affectées des trois tâches et une unité d’organisation Contoso US, qui est l’unité d’organisation contractuelle du projet.   
+Pour les tâches qui sont affectées à un rôle avec une unité d’organisation différente de celle du projet contractuel, et une équipe n’a pas été générée, la mise à niveau crée un membre de l’équipe générique pour le rôle, mais utilise l’unité contractuelle du projet pour l’unité d’organisation du membre de l’équipe. Si l’on reprend l’exemple avec le projet Project Z, l’unité d’organisation contractuelle Contoso US et les tâches de test du plan du projet dans la phase de mise en œuvre ont été affectées au rôle Consultant technique avec l’unité d’organisation affectée à Contoso Inde. La tâche de test de l’intégration qui est effectuée après la phase de mise en œuvre a été affectée au rôle Consultant technique. L’unité d’organisation est Contoso US et une équipe n’a pas été générée. La mise à niveau crée un membre de l’équipe générique, un consultant technique avec les heures affectées des trois tâches et une unité d’organisation Contoso US, qui est l’unité d’organisation contractuelle du projet.   
  
 La modification de la valeur par défaut des différentes unités d’organisation des membres de l’équipe non générés est la raison pour laquelle il est recommandé de générer ou de régénérer l’équipe sur chaque projet contenant des ressources génériques avant la mise à niveau afin que les affectations d’unité d’organisation ne soient pas perdues.
 

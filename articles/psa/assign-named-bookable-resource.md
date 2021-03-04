@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d8a49b6ae8423cb99c710e40704475b4a71d3724
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130170"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145355"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Réservation de ressources pouvant être réservées nommées à une équipe de projet et lui attribuer des tâches 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -41,7 +43,7 @@ Vous pouvez ajouter une ressource nommée à votre équipe de projet en les rés
 5. Si vous voulez que le membre de l’équipe soit un approbateur de projet, sélectionnez **Oui** dans le champ **Approbateur du projet**. Cela signifiera que le membre de l’équipe peut approuver les entrées de temps et de dépenses envoyées pour ce projet. 
 6. Cliquez sur **Enregistrer**.
 
-![Ajout d’un membre de l’équipe au formulaire de création rapide](media/RM-how-to-2.png)
+![Ajout d'un membre de l'équipe au formulaire de création rapide](media/RM-how-to-2.png)
 
 
 Vous pouvez désormais attribuer la ressource réservée aux tâches sur le projet. Dans la page **Projet**, cliquez sur l’onglet **Planification** pour attribuer des tâches à la nouvelle ressource. Le sélecteur de ressources lancé à partir du champ **Ressources** dans la grille de tâches affichera les membres de l’équipe que vous pouvez sélectionner.

@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9607614b0b5cbc5a2d65abe5b72f40c6099d83c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ecc836aed581d2c8c796e980bc41170a11aef817
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127762"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144005"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Afficher les membres de l’équipe du projet et gérer les réservations (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

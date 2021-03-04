@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075934"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144590"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Ajouter de nouveaux formulaires d'entité personnalisée (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Champ Type 
 
-Dynamics 365 Project Service Automation s'appuie sur le champ **Type** ( **msdyn\_ordertype** ) des entités Opportunité, Devis, Commande et Facture pour distinguer les versions **basées sur le travail** de ces entités des versions des **basées sur les articles** et **basées sur le service**. Les versions basées sur le travail de ces entités sont gérées par PSA. Un grande partie de la logique métier côté client et côté serveur de la solution dépend du champ **Type**. Par conséquent, il est important que le champ soit initialisé avec une valeur appropriée lorsque les entités sont créées. Une valeur incorrecte peut entraîner des comportement incorrects, et une partie de la logique métier peut ne pas fonctionner correctement.
+Dynamics 365 Project Service Automation s'appuie sur le champ **Type** (**msdyn\_ordertype**) des entités Opportunité, Devis, Commande et Facture pour distinguer les versions **basées sur le travail** de ces entités des versions des **basées sur les articles** et **basées sur le service**. Les versions basées sur le travail de ces entités sont gérées par PSA. Un grande partie de la logique métier côté client et côté serveur de la solution dépend du champ **Type**. Par conséquent, il est important que le champ soit initialisé avec une valeur appropriée lorsque les entités sont créées. Une valeur incorrecte peut entraîner des comportement incorrects, et une partie de la logique métier peut ne pas fonctionner correctement.
 
 ## <a name="automatic-form-switching"></a>Changement automatique de formulaire
 
@@ -37,17 +39,17 @@ La logique de basculement automatique entre les formulaires s'appuie sur le mapp
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Ajouter des formulaires personnalisés et activer la logique de basculement entre les formulaires
 
-Cet exemple explique comment ajouter un formulaire personnalisé, **Mes informations de projet** , de manière à l'adapter aux opportunités basées sur le travail. Le même processus est utilisé pour ajouter des formulaires personnalisés afin qu'ils s'exécutent avec des devis, des commandes et des factures.
+Cet exemple explique comment ajouter un formulaire personnalisé, **Mes informations de projet**, de manière à l'adapter aux opportunités basées sur le travail. Le même processus est utilisé pour ajouter des formulaires personnalisés afin qu'ils s'exécutent avec des devis, des commandes et des factures.
 
 Suivez les étapes ci-dessous pour créer une version personnalisée du formulaire **Informations sur le projet**.
 
-1. Dans l'entité Opportunité, ouvrez le formulaire **Informations sur le projet** , puis enregistrez une copie nommée **Mes informations de projet**.
+1. Dans l'entité Opportunité, ouvrez le formulaire **Informations sur le projet**, puis enregistrez une copie nommée **Mes informations de projet**.
 2. Ouvrez le nouveau formulaire, puis, dans les propriétés, vérifiez que les scripts d'initialisation de formulaire du formulaire **Informations sur le projet** sont présents. 
 
     > [!IMPORTANT]
     > Ne supprimez pas les scripts. Sinon, certaines données peuvent être initialisées incorrectement.
 
-3. Vérifiez que le champ **Type** ( **msdyn\_ordertype** ) existe dans le formulaire. 
+3. Vérifiez que le champ **Type** (**msdyn\_ordertype**) existe dans le formulaire. 
 
     > [!IMPORTANT]
     > Ne supprimez pas ce champ. Sinon, les scripts d'initialisation échoueront.
