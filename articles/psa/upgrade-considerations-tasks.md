@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121800"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149540"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Considérations relatives à la mise à niveau de la structure de répartition du travail
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Cette rubrique donne des informations sur la mise à niveau de la structure de répartition du travail de Project Service Automation version 2.x vers la version 3.x. Cette rubrique définit l’état d’intégrité d’un projet dans Project Service Automation (PSA) qui est nécessaire pour une mise à niveau réussie. Elle fournit également des informations sur les situations de blocage courantes qui provoquent l’échec de la mise à niveau. Pour plus d’informations sur la définition de tâches de projet et leurs fonctions dans une planification de projet, consultez [Planifications de projets](project-creating.md).
 
 ## <a name="key-entities"></a>Entités clés

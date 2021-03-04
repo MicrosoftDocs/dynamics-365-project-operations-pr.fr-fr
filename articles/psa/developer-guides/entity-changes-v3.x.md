@@ -16,14 +16,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d93e5eaae7cff302be1cb2e96e3f45c24739b0c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 48062eda1f524dd3ca0d5feccf11fd5577521275
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075935"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148730"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Modifications d'entité, de contrôle et d'interface utilisateur (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
+
 Avec la version Microsoft Dynamics Project Service Automation (PSA) 3.x, de nombreuses modifications ont été apportées aux entités, aux contrôles, aux vues et à l'interface utilisateur. Cette rubrique fournit des informations sur ces modifications importantes.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Relations parent-enfant pour les entités document vente, ligne de document vente, détails de la ligne de document de vente

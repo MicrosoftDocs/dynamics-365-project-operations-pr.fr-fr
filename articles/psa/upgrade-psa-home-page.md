@@ -2,6 +2,7 @@
 title: Mettre à niveau la page d’accueil
 description: Cette rubrique décrit où trouver des informations importantes concernant les fonctionnalités nouvelles et modifiées dans Dynamics 365 Project Service Automation, ainsi que le processus de mise à niveau vers la nouvelle version.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121755"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150080"
 ---
 # <a name="upgrade-home-page"></a>Mettre à niveau la page d’accueil
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ ms.locfileid: "4121755"
 
 ### <a name="existing-instances"></a>Instances existantes
 
-Précédemment, les clients qui disposaient d’une instance de PSA version 2.x et qui devaient effectuer une mise à niveau vers la version 3.x, qui est la version basée sur l’interface Unified Client (UCI) de PSA, devaient contacter le support et fournir les détails de leur instance, afin que le support puisse activer l’instance pour la mise à niveau vers la version 3.x. À compter du 1er mars 2020, les clients qui ont une instance de PSA version 2.x et qui doivent effectuer une mise à niveau vers la version 3.x, pourront mettre à niveau leurs instances directement depuis le portail d’administration sans avoir à contacter le support Microsoft.  
+Auparavant, les clients qui disposent d'une instance de PSA version 2.x et devaient effectuer une mise à niveau vers la version 3.x, qui est la version basée sur l'interface Unified Client (UCI) de PSA, devaient contacter Support Microsoft et fournir les détails de leur instance, afin que le support puisse activer l'instance pour la mise à niveau vers la version 3.x. À compter du 1er mars 2020, les clients qui disposent d'une instance de PSA version 2.x et doivent passer à la version 3.x, pourront mettre à niveau leurs instances directement à partir du portail d'administration sans avoir à contacter le support Microsoft.  
 
 > [!NOTE]
 > PSA version 3.x comprend des modifications importantes. Elle est bâtie sur la structure Unified Interface pour offrir une expérience utilisateur améliorée. L’application modifiée offre une interface utilisateur cohérente et uniforme et elle applique les principes de conception réactive pour un affichage optimal sur n’importe quelle taille d’écran ou n’importe quel appareil. D’autres modifications ont été apportées dans l’application. Parmi les zones qui ont été modifiées, on peut citer la tarification, la réservation et l’affectation de ressources, le temps, les dépenses et les approbations.
@@ -58,7 +61,7 @@ Une fois que vous avez examiné les rubriques précédemment mentionnées et que
 
 À compter du 17 mai 2019, toutes les nouvelles instances ont UCI comme client par défaut. Afin de s’aligner sur cette modification, PSA version 3.x and Field Service version 8.x seront mises en service par défaut, car ces versions sont conçues pour fonctionner avec le client UCI.
 
-À partir du 1er mars 2020, les clients de Dynamics PSA ne pourront plus créer de nouveaux environnements avec des versions plus anciennes de PSA, par exemple PSA version 2.x ou inférieure. Tout nouvel environnement devra obtenir uniquement la version 3.x de PSA.
+À partir du 1er mars 2020, les clients de Dynamics PSA ne pourront plus créer un environnement avec des versions antérieures de PSA, par exemple PSA version 2.x ou inférieure. Tout nouvel environnement devra obtenir uniquement la version 3.x de PSA.
 
 > [!NOTE]
 > Pour optimiser l’expérience lorsque vous utilisez les anciennes versions des applications Field Service et PSA, accédez à la page **Paramètres système** et pour le champ, **Utiliser uniquement la nouvelle Unified Interface (recommandé)**, sélectionnez **Non**, car ces versions ne sont pas conçues pour être chargées correctement dans UCI. Après avoir désactivé UCI, vous pouvez ouvrir et exécuter ces versions de Field Service et de PSA en utilisant l’ancien client Web. 

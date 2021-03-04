@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075931"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148640"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Modifications de la gestion des ressources (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Les sections de cette rubrique fournissent des informations sur les modifications apportées au secteur de la gestion des ressources de Dynamics 365 Project Service Automation version 3.x.
 
 ## <a name="project-estimates"></a>Estimations de projets
 
-Au lieu d'être basées sur l'entité **msdyn\_projecttask** ( **Tâche du projet** ), les estimations de projet sont basées sur l'entité **msdyn\_resourceassignment** ( **Attribution de ressource** ). Les affectation de ressources sont devenues la « source fiable » pour la planification et la tarification d'une tâche.
+Au lieu d'être basées sur l'entité **msdyn\_projecttask** (**Tâche du projet**), les estimations de projet sont basées sur l'entité **msdyn\_resourceassignment** (**Attribution de ressource**). Les affectation de ressources sont devenues la « source fiable » pour la planification et la tarification d'une tâche.
 
 ## <a name="line-tasks"></a>Tâches de ligne
 
@@ -65,7 +67,7 @@ Dans PSA 3.x, une attribution non attribuée est une attribution attribuée à 
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Champs de planification de l'entité Tâche du projet
 
-Les champs de l'entité **msdyn\_projecttask** ont été rendus obsolètes ou migrés vers l'entité **msdyn\_resourceassignment** , ou ils sont maintenant référencés à partir de l'entité **msdyn\_projectteam** ( **Membre de l'équipe du projet** ).
+Les champs de l'entité **msdyn\_projecttask** ont été rendus obsolètes ou migrés vers l'entité **msdyn\_resourceassignment**, ou ils sont maintenant référencés à partir de l'entité **msdyn\_projectteam** (**Membre de l'équipe du projet**).
 
 | Champ obsolète sur msdyn\_projecttask (Tâche du projet) | Nouveau champ sur msdyn\_resourceassignment (Attribution des ressources) | Commentaire |
 |---|---|---|
@@ -77,15 +79,15 @@ Les champs de l'entité **msdyn\_projecttask** ont été rendus obsolètes ou mi
 
 ## <a name="schedule-contour"></a>Profil de la planification
 
-Le profil de la planification est stockée dans le champ **Travail planifié** ( **msdyn\_plannedwork** ) de chaque entité **Attribution de ressource** ( **msdyn\_resourceassignment** ).
+Le profil de la planification est stockée dans le champ **Travail planifié** (**msdyn\_plannedwork**) de chaque entité **Attribution de ressource** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Structure
 
 La nouvelle structure du profil de la planification est composée de secteurs de temps flexibles qui sont définis pour chaque jour de la planification. Chaque secteurs de temps contient les propriétés suivantes :
 
-- **Début**  : Le début des heures de travail du jour, selon le calendrier de projet.
-- **Fin**  : La fin des heures de travail du jour, selon le calendrier de projet.
-- **Heures**  : Le nombre d'heures qui sont attribuées ce jour-là.
+- **Début** : Le début des heures de travail du jour, selon le calendrier de projet.
+- **Fin** : La fin des heures de travail du jour, selon le calendrier de projet.
+- **Heures** : Le nombre d'heures qui sont attribuées ce jour-là.
 
 **Exemple**
 
@@ -139,7 +141,7 @@ Dans cet exemple, la tâche est attribué à deux ressources et est planifiée a
 
 ## <a name="pricing-dimensions"></a>Dimensions de tarification
 
-Dans PSA 3.x, les champs de dimension de tarification spécifiques aux ressources (comme **Rôle** et **Unité d'organisation** ) ont été supprimés de l'entité **msdyn\_projecttask**. Ces champs peuvent désormais être récupérés auprès du membre de l'équipe de projet correspondant ( **msdyn\_projectteam** ) de l'attribution de ressource ( **msdyn\_resourceassignment** ) lorsque des estimations de projet sont générées. Un nouveau champ, **msdyn\_organizationalunit** , a été ajouté à l'entité **msdyn\_projectteam**.
+Dans PSA 3.x, les champs de dimension de tarification spécifiques aux ressources (comme **Rôle** et **Unité d'organisation**) ont été supprimés de l'entité **msdyn\_projecttask**. Ces champs peuvent désormais être récupérés auprès du membre de l'équipe de projet correspondant (**msdyn\_projectteam**) de l'attribution de ressource (**msdyn\_resourceassignment**) lorsque des estimations de projet sont générées. Un nouveau champ, **msdyn\_organizationalunit**, a été ajouté à l'entité **msdyn\_projectteam**.
 
 | Champ obsolète sur msdyn\_projecttask (Tâche du projet) | Champ de msdyn\_projectteam (Membre de l'équipe de projet) qui est utilisé à la place |
 |---|---|
@@ -155,12 +157,12 @@ Les champs de profil de tarification et d'estimation ont été rendus obsolètes
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Les champs suivants ont été ajoutés à l'entité **msdyn\_resourceassignment**  :
+Les champs suivants ont été ajoutés à l'entité **msdyn\_resourceassignment** :
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Les champs suivants des coûts et ventes planifiés, réels et restants sont inchangés sur l'entité **msdyn\_projecttask**  :
+Les champs suivants des coûts et ventes planifiés, réels et restants sont inchangés sur l'entité **msdyn\_projecttask** :
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

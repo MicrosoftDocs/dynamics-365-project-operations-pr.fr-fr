@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b1ad011b2d78dd85023be7cf380ce19c3b2b8441
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125130"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149990"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Attribuer une ressource à une tâche
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Il existe trois méthodes pour attribuer une ressource à une tâche dans Microsoft Dynamics 365 Project Service Automation.
 
