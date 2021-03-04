@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075824"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150755"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utiliser une catégorie de transaction comme dimension de tarification
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Cette rubrique indique comment utiliser une catégorie de transaction comme dimension de tarification. Avant de commencer, si vos n'avez pas déjà créé une solution Dimension de tarification, vous devez en créer une. Si vous disposez déjà d'une solution Dimension de tarification, vous pouvez apporter vos modifications dans cette solution. Si vous n'avez pas créé de solution Dimension de tarification pour votre organisation, effectuez les procédures décrites dans la rubrique [Créer des champs et des entités personnalisés](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Ajouter une catégorie de transaction aux formulaires et vues
@@ -38,7 +41,7 @@ Le tableau suivant présente une liste complète des formulaires et vues prédé
 |  Détail de la ligne de devis|• Informations sur le projet<br>• Création rapide de projets|• Détail de la ligne de devis active<br>• Détails de la ligne de devis combinée<br>• Vue associée Détail de la ligne de devis|
 |  Détail de la ligne de contrat du projet|• Informations sur le projet<br>• Création rapide de projets|• Détails de la ligne de contrat combinée<br>• Détails de la ligne de contrat active<br>• Vue associée Détails de la ligne de contrat|
 |  Tâche du projet|• Informations<br>• Nouveau formulaire||
-|  Membre de l'équipe du projet|• Informations<br>• Nouveau formulaire|• Membres de l'équipe du projet actifs<br>• Membres de l'équipe du projet<br>• Vue associée Membres de l'équipe du projet|
+|  Membre de l'équipe du projet|• Informations<br>• Nouveau formulaire|• Membres de l'équipe du projet actifs<br>• Membres de l’équipe du projet<br>• Vue associée Membres de l’équipe du projet|
 |  Entrée de temps|• Informations<br>• Créer une entrée de temps|• Mes entrées de temps par date<br>• Mes entrées de temps pour cette semaine<br>• Entrées des temps pour approbation|
 |  Ligne de journal|• Informations<br>• Création rapide|• Lignes de journal actives<br>• Vue associée Ligne de journal|
 |  Détail de la ligne de facture|• Informations<br>• Création rapide|• Détails de la ligne de facture active<br>• Transactions facturables<br>• Transactions gratuites<br>• Vue associée Détails de la ligne de facture<br>• Transactions non facturables|
@@ -47,6 +50,6 @@ Le tableau suivant présente une liste complète des formulaires et vues prédé
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Configurer une catégorie de transaction comme dimension de tarification
 
 1. Dans l'interface Web, accédez à **Project Service** > **Paramètres** > **Paramètres**. 
-2. Dans la page **Paramètres** , sous l'onglet **Dimensions de tarification basées sur le montant** , notez que la grille de l'onglet affiche les enregistrements de l'entité **Dimensions de tarification**.
+2. Dans la page **Paramètres**, sous l'onglet **Dimensions de tarification basées sur le montant**, notez que la grille de l'onglet affiche les enregistrements de l'entité **Dimensions de tarification**.
 3. Ajoutez **Catégorie de transaction** à cette liste et définissez les champs **Applicable aux coûts** et **Applicable aux ventes** sur **Oui**.
-4. Dans le champ **Type de dimension** , sélectionnez **Basé sur le montant** , puis sélectionnez la priorité de la **Catégorie de transaction** pour les coûts et les ventes.
+4. Dans le champ **Type de dimension**, sélectionnez **Basé sur le montant**, puis sélectionnez la priorité de la **Catégorie de transaction** pour les coûts et les ventes.

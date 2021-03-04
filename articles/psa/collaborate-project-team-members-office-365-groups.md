@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b8f6fb0de5c6803f0ff242160164207af8ce738
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 68816b00b752249023f053836994a083bba5362d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126930"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150890"
 ---
 # <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a>Collaborer avec les membres de l’équipe du projet avec Office 365 Groups (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
