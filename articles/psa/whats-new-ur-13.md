@@ -17,42 +17,45 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcb05b640966e760a7a74a306a3f0a39594baed8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7287054c470a44ed1fdc243018ec935fe21a6c4f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121620"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147245"
 ---
-# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="a0120-103">Mise à jour (version 13) de Project Service Automation, V3</span><span class="sxs-lookup"><span data-stu-id="a0120-103">Project Service Automation Update Release 13, V3</span></span>
-<span data-ttu-id="a0120-104">Nous sommes heureux d’annoncer la dernière mise à jour de l’application Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="a0120-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="a0120-105">Cette version comprend des améliorations importantes de la qualité, des performances et de l’utilisation.</span><span class="sxs-lookup"><span data-stu-id="a0120-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="a0120-106">Cette version est compatible avec Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="a0120-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="a0120-107">Pour effectuer une mise à jour vers cette version, visitez le centre d’administration de Dynamics 365 Online et accédez à la page des solutions pour installer la mise à jour.</span><span class="sxs-lookup"><span data-stu-id="a0120-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="a0120-108">Pour plus d’informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="a0120-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="45a48-103">Mise à jour (version 13) de Project Service Automation, V3</span><span class="sxs-lookup"><span data-stu-id="45a48-103">Project Service Automation Update Release 13, V3</span></span>
 
-<span data-ttu-id="a0120-109">Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour (version 13) de Project Service Automation V3.</span><span class="sxs-lookup"><span data-stu-id="a0120-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="a0120-110">Cette version a le numéro de build V3.10.3.18 et est disponible selon le calendrier suivant :</span><span class="sxs-lookup"><span data-stu-id="a0120-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
+[!include [banner](../includes/psa-now-project-operations.md)]
 
-- <span data-ttu-id="a0120-111">**Disponibilité générale (mise à jour automatique) :** novembre 2019</span><span class="sxs-lookup"><span data-stu-id="a0120-111">**General availability (self-update):** November 2019</span></span>
-- <span data-ttu-id="a0120-112">**Mise à jour automatique :** décembre 2019</span><span class="sxs-lookup"><span data-stu-id="a0120-112">**Auto-update:** December 2019</span></span>
+<span data-ttu-id="45a48-104">Nous sommes heureux d’annoncer la dernière mise à jour de l’application Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="45a48-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="45a48-105">Cette version comprend des améliorations importantes de la qualité, des performances et de l’utilisation.</span><span class="sxs-lookup"><span data-stu-id="45a48-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="45a48-106">Cette version est compatible avec Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="45a48-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="45a48-107">Pour effectuer une mise à jour vers cette version, visitez le centre d’administration de Dynamics 365 Online et accédez à la page des solutions pour installer la mise à jour.</span><span class="sxs-lookup"><span data-stu-id="45a48-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="45a48-108">Pour plus d’informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="45a48-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+
+<span data-ttu-id="45a48-109">Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour (version 13) de Project Service Automation V3.</span><span class="sxs-lookup"><span data-stu-id="45a48-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="45a48-110">Cette version a le numéro de build V3.10.3.18 et est disponible selon le calendrier suivant :</span><span class="sxs-lookup"><span data-stu-id="45a48-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
+
+- <span data-ttu-id="45a48-111">**Disponibilité générale (mise à jour automatique) :** novembre 2019</span><span class="sxs-lookup"><span data-stu-id="45a48-111">**General availability (self-update):** November 2019</span></span>
+- <span data-ttu-id="45a48-112">**Mise à jour automatique :** décembre 2019</span><span class="sxs-lookup"><span data-stu-id="45a48-112">**Auto-update:** December 2019</span></span>
 
 
-## <a name="update-release-13"></a><span data-ttu-id="a0120-113">Mise à jour (version 13)</span><span class="sxs-lookup"><span data-stu-id="a0120-113">Update Release 13</span></span> 
+## <a name="update-release-13"></a><span data-ttu-id="45a48-113">Mise à jour (version 13)</span><span class="sxs-lookup"><span data-stu-id="45a48-113">Update Release 13</span></span> 
 
-### <a name="bug-fixes"></a><span data-ttu-id="a0120-114">Correctifs de bogues</span><span class="sxs-lookup"><span data-stu-id="a0120-114">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="45a48-114">Correctifs de bogues</span><span class="sxs-lookup"><span data-stu-id="45a48-114">Bug fixes</span></span>
 
-- <span data-ttu-id="a0120-115">Temps et dépenses</span><span class="sxs-lookup"><span data-stu-id="a0120-115">Time and Expense</span></span>
+- <span data-ttu-id="45a48-115">Temps et dépenses</span><span class="sxs-lookup"><span data-stu-id="45a48-115">Time and Expense</span></span>
 
-     - <span data-ttu-id="a0120-116">Correction : la fonctionnalité de recherche sur la page **Approbation des dépenses** ne fonctionne pas lorsque vous effectuez une recherche par objectif de dépense.</span><span class="sxs-lookup"><span data-stu-id="a0120-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
+     - <span data-ttu-id="45a48-116">Correction : la fonctionnalité de recherche sur la page **Approbation des dépenses** ne fonctionne pas lorsque vous effectuez une recherche par objectif de dépense.</span><span class="sxs-lookup"><span data-stu-id="45a48-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
 
-- <span data-ttu-id="a0120-117">Gestion des ressources</span><span class="sxs-lookup"><span data-stu-id="a0120-117">Resource Management</span></span>
+- <span data-ttu-id="45a48-117">Gestion des ressources</span><span class="sxs-lookup"><span data-stu-id="45a48-117">Resource Management</span></span>
 
-     - <span data-ttu-id="a0120-118">Correction : les nombres dans la vue Rapprochement ont été mis à jour pour être justifiés à droite.</span><span class="sxs-lookup"><span data-stu-id="a0120-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
-     - <span data-ttu-id="a0120-119">Correction : les ressources nommées ne peuvent pas être affectées à des tâches via l’onglet **Planning**.</span><span class="sxs-lookup"><span data-stu-id="a0120-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
+     - <span data-ttu-id="45a48-118">Correction : les nombres dans la vue Rapprochement ont été mis à jour pour être justifiés à droite.</span><span class="sxs-lookup"><span data-stu-id="45a48-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
+     - <span data-ttu-id="45a48-119">Correction : les ressources nommées ne peuvent pas être affectées à des tâches via l’onglet **Planning**.</span><span class="sxs-lookup"><span data-stu-id="45a48-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
 
-- <span data-ttu-id="a0120-120">Gestion du projet</span><span class="sxs-lookup"><span data-stu-id="a0120-120">Project Management</span></span>
+- <span data-ttu-id="45a48-120">Gestion du projet</span><span class="sxs-lookup"><span data-stu-id="45a48-120">Project Management</span></span>
 
-     - <span data-ttu-id="a0120-121">Correction : exception de référence nulle lors de l’affectation d’un membre de l’équipe lorsque les informations de configuration de **TransactionType** sont manquantes pour **Unit** et **DefaultGroup**.</span><span class="sxs-lookup"><span data-stu-id="a0120-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
+     - <span data-ttu-id="45a48-121">Correction : exception de référence nulle lors de l’affectation d’un membre de l’équipe lorsque les informations de configuration de **TransactionType** sont manquantes pour **Unit** et **DefaultGroup**.</span><span class="sxs-lookup"><span data-stu-id="45a48-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
 
-- <span data-ttu-id="a0120-122">Ventes</span><span class="sxs-lookup"><span data-stu-id="a0120-122">Sales</span></span>
+- <span data-ttu-id="45a48-122">Ventes</span><span class="sxs-lookup"><span data-stu-id="45a48-122">Sales</span></span>
 
-     - <span data-ttu-id="a0120-123">Correction : les enregistrements de type de transaction en double renvoient une erreur lors de la création des enregistrements de prix de rôle.</span><span class="sxs-lookup"><span data-stu-id="a0120-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
-     - <span data-ttu-id="a0120-124">Résolu : des boutons supplémentaires pour **Nouvelle opportunité**, **Devis**, **Ligne de commande** et **Ajouter un produit** sont visibles dans les commandes pour les opportunités, les devis, les produits de la commande et la sous-grille Lignes basée sur un projet.</span><span class="sxs-lookup"><span data-stu-id="a0120-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
+     - <span data-ttu-id="45a48-123">Correction : les enregistrements de type de transaction en double renvoient une erreur lors de la création des enregistrements de prix de rôle.</span><span class="sxs-lookup"><span data-stu-id="45a48-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
+     - <span data-ttu-id="45a48-124">Résolu : des boutons supplémentaires pour **Nouvelle opportunité**, **Devis**, **Ligne de commande** et **Ajouter un produit** sont visibles dans les commandes pour les opportunités, les devis, les produits de la commande et la sous-grille Lignes basée sur un projet.</span><span class="sxs-lookup"><span data-stu-id="45a48-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
 
 
