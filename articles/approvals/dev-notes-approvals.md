@@ -23,3 +23,6 @@ Dynamics 365 Project Operations comprend une logique de validation qui garantit
 
   - Toutes les lignes associées sont créées dans des tables connexes, telles que les journaux et les chiffres réels.
   - L’approbateur est marqué comme **Approbateur du projet** dans le projet avant de continuer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

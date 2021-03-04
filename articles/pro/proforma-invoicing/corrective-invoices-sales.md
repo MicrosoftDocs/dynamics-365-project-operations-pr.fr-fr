@@ -288,3 +288,6 @@ Non pris en charge </p>
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

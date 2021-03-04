@@ -35,3 +35,6 @@ Une fois la liste de prix de revient résolue, le système utilise les champs **
 Les lignes d’estimation pour les dépenses font référence aux détails de la ligne de contrat pour les dépenses et les lignes d’estimation des dépenses sur un projet.
 
 Une fois la liste de prix de revient résolue, le système utilise une combinaison des champs **Catégorie** et **Unités** sur la ligne d’estimation pour qu’une dépense corresponde aux lignes **Prix de la catégorie** sur le tarif résolu. Si le système trouve une ligne de prix de catégorie qui a un taux de coût pour la combinaison de champs **Catégorie** et **Unité**, le taux de coût est défini par défaut. Si le système ne correspond pas aux valeurs **Catégorie** et **Unité**, ou s’il est capable de trouver une ligne de prix de catégorie correspondante mais que la méthode de tarification n’est pas **Prix par unité**, le taux de coût est défini par défaut sur zéro (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

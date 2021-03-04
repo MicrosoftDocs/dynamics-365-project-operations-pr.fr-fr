@@ -63,3 +63,6 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
 **Ventes**
 
 - Résolu : lorsque les entrées de temps sont réapprouvées (**Approuver > Annuler >** approuver à nouveau), une valeur réelle non facturable en double est créée.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

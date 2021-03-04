@@ -143,3 +143,6 @@ Pour afficher la facture avant la validation, décochez **Validation**. **Pro fo
 En plus de la page **Proposition de facture**, les propositions de facture peuvent également être publiées en exécutant le travail périodique, **Valider les propositions de facture**. Pour trouver cette tâche, accédez à **Gestion de projet et comptabilité** > **Périodique** > **Factures de projet** > **Publier des propositions de facture**.
 
 Cette page affiche toutes les propositions de facture prêtes à être validées. Vous pouvez planifier la validation des propositions de facture en sélectionnant **Lot**. Définissez **Paramètre de traitement par lots** sur **Oui** et définissez la récurrence du traitement par lots en sélectionnant **Récurrence**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

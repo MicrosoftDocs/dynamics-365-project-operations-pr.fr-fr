@@ -48,3 +48,6 @@ Réserver une ressource directement sur un projet :
 Réserver une ressource à partir d’un besoins en ressource :
 - [Attribuer des ressources génériques pouvant être réservées à une tâche et générer des besoins en ressources](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Réserver des ressources nommées à partir des besoins en ressources](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

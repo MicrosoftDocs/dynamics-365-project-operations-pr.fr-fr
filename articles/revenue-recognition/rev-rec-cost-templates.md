@@ -79,3 +79,6 @@ Pour créer des modèles de coût, procédez comme suit :
 7. Sur l'onglet **Catégories**, sélectionnez les catégories de projet à inclure sur la ligne du modèle de coût.
 8. Sur l'onglet **Général**, sélectionnez si cette ligne sera incluse dans le calcul du pourcentage d'achèvement.
 9. Sélectionnez le coût pour compléter la méthode à utiliser lors du calcul du pourcentage d'achèvement.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

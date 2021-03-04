@@ -73,3 +73,6 @@ Vous pouvez effectuer une réévaluation en bloc du statut Ne pas dépasser. La 
 Pour réévaluer le statut Ne pas dépasser, sélectionnez un ou plusieurs chiffres réels dans la vue **Réplication de facturation pour le temps et le matériel** ou **Chiffres réels**, puis sélectionnez **Réévaluer le statut Ne pas dépasser**.
 
 Tous les chiffres réels sélectionnés pertinents avec une limite à ne pas dépasser seront évalués par rapport à la limite à ne pas dépasser définie. Les chiffres réels pertinents pour une réévaluation du statut Ne pas dépasser sont des chiffres réels de vente non facturés qui ne sont pas facturés, ne figurent pas sur une facture en mode brouillon et sont marqués comme facturables. Tout autre chiffre réel sélectionné est sélectionné.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

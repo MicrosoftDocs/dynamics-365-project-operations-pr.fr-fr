@@ -52,3 +52,6 @@ Votre entreprise envisage probablement d’organiser son activité de conseil se
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

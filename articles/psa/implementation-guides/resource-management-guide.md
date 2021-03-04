@@ -44,3 +44,6 @@ Le lien PDF précédemment dans cette rubrique a été supprimé et le contenu a
 
 > [!NOTE]
 > Cette rubrique sera supprimée dans une future mise à jour de documentation. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

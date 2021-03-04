@@ -149,3 +149,6 @@ Le tableau suivant indique l’enregistrement dans l’entité Connexion de la t
 | Correction de facture en mode Brouillon       | GUID de la transaction de ligne de facture | Remplacement          | msdyn_invoicelinetransaction | GUID des ventes facturées            | D’origine           | msdyn_actual       |
 | Confirmer la correction de la facture     | GUID de contrepassation des ventes facturées    | Contrepassation          | msdyn_actual                 | GUID des ventes facturées            | D’origine           | msdyn_actual       |
 | Nouveau GUID du chiffre réel des ventes non facturées | Remplacement                     | msdyn_actual       | GUID des ventes facturées            | D’origine                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

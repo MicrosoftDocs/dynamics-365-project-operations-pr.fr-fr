@@ -63,3 +63,6 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
   - Correction : un message d’erreur ne s’affiche plus dans **Recherche de projet** dans le formulaire **Ligne de devis** lorsqu’il y a plus de 1000 projets.
   - Correction : la grille **Estimations** pour les estimations de main-d’œuvre et les estimations de dépense affiche désormais le symbole de devise correct.
   - Correction : une fois qu’une organisation met à jour PSA de la version 14 vers la version 15, l’onglet **Planning** n’apparaît plus comme vide dans le formulaire **Projet**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

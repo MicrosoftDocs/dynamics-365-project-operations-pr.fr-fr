@@ -89,3 +89,6 @@ Les devis Project Operations sont basés sur les devis Dynamics 365 Sales. Cepe
 - Les devis Project Operations ont leurs propres éléments de formulaire et d’interface utilisateur, des règles métier, une logique métier dans les plug-ins et des scripts côté client qui les rendent uniques à partir des devis de vente.
 
 Pour ces raisons, il n’est pas recommandé d’utiliser de manière interchangeable un devis de vente et un devis Project Operations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

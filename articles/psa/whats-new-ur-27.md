@@ -81,3 +81,6 @@ Les problèmes suivants ont été résolus :
 - Quand Dynamics 365 Field Service et Project Service Automation sont installés, les options **Tarification de verrouillage** et **Utiliser la tarification actuelle** ne sont pas affichées en même temps sur la page **Facture d'achat**.
 - Pour le japonais, la traduction n'est pas cohérente avec les autres pages basées sur le calendrier.
 - **Activer** et **Désactiver** ont été supprimés des entités **Association des tarifs** dans Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

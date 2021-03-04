@@ -43,3 +43,6 @@ Les problèmes suivants ont été résolus :
 
 - Les dates de fin se remplissent automatiquement lorsqu'une entrée d'heure est créée si la durée est nulle.
 - Les utilisateurs peuvent modifier la tâche sur une entrée de temps qui a été approuvée ou soumise.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Sélectionnez **Connexion** > **Se connecter à l’environnement** pour accéde
 
 > [!NOTE]
 > Vous pouvez accéder à Project Operations dans les modules Common Data Service et **Gestion de projet et comptabilité** directement en utilisant leurs URL respectives. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ En outre, si vous avez des modules d’application personnalisés incluant tous 
 
 ### <a name="currently-extended-time-entry-changes"></a>Modifications d’entrée de temps actuellement étendues
 Pour minimiser l’impact de l’entrée de temps sur les utilisateurs actuels, ce changement de rôle est la seule exigence nécessaire pour continuer à utiliser l’entrée de temps. Si vous avez créé des vues personnalisées ou des expériences d’entrée de temps distinctes, vous devez définir les champs **Paramètres d’entrée de temps** sur la valeur PSA correcte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

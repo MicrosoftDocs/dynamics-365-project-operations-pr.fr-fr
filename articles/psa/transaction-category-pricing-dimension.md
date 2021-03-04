@@ -53,3 +53,6 @@ Le tableau suivant présente une liste complète des formulaires et vues prédé
 2. Dans la page **Paramètres**, sous l'onglet **Dimensions de tarification basées sur le montant**, notez que la grille de l'onglet affiche les enregistrements de l'entité **Dimensions de tarification**.
 3. Ajoutez **Catégorie de transaction** à cette liste et définissez les champs **Applicable aux coûts** et **Applicable aux ventes** sur **Oui**.
 4. Dans le champ **Type de dimension**, sélectionnez **Basé sur le montant**, puis sélectionnez la priorité de la **Catégorie de transaction** pour les coûts et les ventes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Si vous avez des affectations de tâches pour une ressource mais aucune réserva
 Les réservations créées via l'action **Prolonger la réservation** sont associées à l'exigence principale du projet. Lorsqu'une extension est lancée, l'exigence spécifique qui doit être étendue ne peut pas être déterminée, car la ressource peut être associée à plusieurs exigences pour le projet.
 
 Le chef de projet ou le gestionnaire de ressources peut ensuite utiliser le Tableau de planification pour gérer tous les cas où une ressource est réservée en trop au-delà de sa capacité.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

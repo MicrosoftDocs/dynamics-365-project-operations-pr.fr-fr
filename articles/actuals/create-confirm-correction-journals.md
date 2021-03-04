@@ -89,3 +89,6 @@ Effectuez les étapes suivantes pour corriger une ou plusieurs entrées de dépe
 8. Dans la page du projet, sur l’onglet **Chiffres réels**, passez en revue **Vue associée Chiffre réel**. Les entrées originales et les entrées corrigées sont répertoriées. Le graphique suivant montre les montants d’entrée des dépenses d’origine et ceux des dépenses corrigées correspondants. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

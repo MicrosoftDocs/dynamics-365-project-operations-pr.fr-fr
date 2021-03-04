@@ -38,3 +38,6 @@ Les ventes réelles non facturées dont le statut **Ne pas dépasser** est **Éc
 Dans le cas de lignes de contrat avec plusieurs clients ayant une méthode de facturation du temps et du matériel, lorsque le temps et les dépenses sont approuvés, une vente réelle non facturée est créée pour chaque client sur la ligne de contrat, selon le pourcentage de facturation défini pour chaque client sur la ligne de contrat. Dans la vue **Réplication de facturation pour le temps et le matériel**, vous verrez ces ventes réelles non facturées spécifiques au client. Chacun de ces enregistrements de vente réelle non facturée peut être marqué comme **Prêt pour la facturation** séparément dans cette vue.
 
 Une vente réelle non facturée sur une facture provisoire est affichée dans cette vue avec le **Statut de facturation** **Facture client créée**. Lorsque la facture provisoire est confirmée, le statut de facturation de cet enregistrement devient **Facture client publiée**. Lorsque ce statut est en vigueur, il n’est pas recommandé de mettre à jour cette valeur de statut à l’aide d’un code personnalisé. Project Operations ne fonctionnera pas correctement lorsque ces valeurs de statut sont mises à jour avec un code personnalisé.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

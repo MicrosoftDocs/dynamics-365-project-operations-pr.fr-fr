@@ -74,3 +74,6 @@ Avant de commencer la configuration, vous devez disposer d'un environnement Comm
     -   Caractéristique des ressources pouvant être réservées
 
     ![Importation terminée](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

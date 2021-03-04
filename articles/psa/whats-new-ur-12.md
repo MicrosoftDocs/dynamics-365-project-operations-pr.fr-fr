@@ -61,3 +61,6 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
     - Correction : ID d’objet en double trouvés sur le formulaire principal **Contrat**.
     - Correction : la logique a été mise à jour pour rendre l’onglet **Analyse du devis** visible afin d’afficher la configuration des métadonnées de l’onglet.
     - Correction : la date comptable de l’enregistrement réel provient désormais de la date de l’entrée de temps/dépenses au lieu de la date de l’approbation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Une fois que quelques entrées de temps ont été créées, les utilisateurs peu
 
 ## <a name="import"></a>Importation
 Le même processus de base est utilisé pour importer des réservations, des affectations et des échanges. Vous pouvez spécifier la plage de dates des réservations à importer, puis sélectionner explicitement les réservations devant être copiées comme entrées de temps Brouillon. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

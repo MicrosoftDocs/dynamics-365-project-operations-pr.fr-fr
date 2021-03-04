@@ -125,3 +125,6 @@ Les mises à jour suivantes des privilèges de sécurité pour les entités sont
  
  ![Synchronisation de la carte du registre](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

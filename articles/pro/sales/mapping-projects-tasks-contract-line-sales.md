@@ -82,3 +82,6 @@ Cette méthode est le meilleur moyen de dissocier des tâches des lignes de cont
 4. Dans la page de dialogue qui s’ouvre, sélectionnez une ligne de contrat dans la liste déroulante.
 5. Cochez la case pour indiquer si l’association doit également être supprimée des tâches enfants des tâches sélectionnées. Le fait de cocher la case dissociera également les tâches enfants des tâches sélectionnées de la ligne de contrat.
 6. Cliquez sur **OK**. Un message d’avertissement indique que la suppression de cette association pourrait entraîner la contrepassation de tous les chiffres réels enregistrés précédemment sur la tâche. Sélectionnez **OK** dans la boîte de dialogue d’avertissement pour supprimer l’association entre la tâche et la ligne de contrat basée sur un projet.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

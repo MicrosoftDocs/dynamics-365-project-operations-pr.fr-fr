@@ -49,3 +49,6 @@ Mes feuilles de temps (optimisée pour mobile) et Feuilles de temps pour ma rév
 - [Saisie des heures de projet]( project-time-entry-mobile-workspace.md)
 - [Projeter des feuilles de temps sur un appareil mobile](Mobile-timesheets.md)
 - [Implémenter des champs personnalisés pour l’application mobile Microsoft Dynamics 365 Project Timesheet sur iOS et Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

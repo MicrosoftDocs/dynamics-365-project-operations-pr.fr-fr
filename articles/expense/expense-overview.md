@@ -44,3 +44,6 @@ Pour plus d’informations, consultez [Saisie des dépenses (simplifiée)](basic
 
 ## <a name="determine-your-expense-deployment"></a>Déterminer votre déploiement de dépenses
 Pour déterminer si vous exécutez le déploiement de la gestion des dépenses de base, vérifiez que l’URL de l’adresse se termine par **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Les calculs de rentabilité convertissent les montants des détails de la ligne 
 
 > [!NOTE]
 > Des erreurs d’arrondi des devises et de marges modifiées peuvent se produire en raison de l’absence date effective de taux de change. Utilisez ces calculs sur les contrats de projet uniquement pour obtenir des approximations et non pour les rapports statutaires ou autres qui nécessitent une plus grande précision d’arrondi et une prise de compte de la date effective des taux de change.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

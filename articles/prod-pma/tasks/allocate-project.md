@@ -44,3 +44,6 @@ Une fois qu’un budget ou qu’une révision budgétaire a été alloué, vous 
 10. Lorsque l’allocation correspond à vos attentes, cliquez sur Soumettre sur la page Budget du projet pour envoyer le budget ou les révisions budgétaires au workflow d’approbation.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

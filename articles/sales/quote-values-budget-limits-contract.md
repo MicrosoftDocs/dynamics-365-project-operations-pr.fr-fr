@@ -43,3 +43,6 @@ Vous trouverez ci-dessous les onglets et les indicateurs de performance clés di
 | Analyse de la rentabilité | Onglet sur le devis | L’onglet montre les métriques suivantes :</br>- Coût facturable total</br></br>- Coût non facturable total</br>- Revenu total</br>- Revenu total (de base)</br>- Marge brute</br>- Marge brute ajustée|
 | Comparaison aux exigences client | Onglet sur le devis | Cet onglet montre les métriques suivantes :</br>- Estimation de l’achèvement</br>- Fin demandée</br>- Budget client</br>- Valeur du devis |
 | Analyse du devis | Onglet sur le devis | Cet onglet résume les principaux indicateurs de performance clés suivants pour un devis de projet</br>- Comparaison avec les attentes des clients en matière de budget et de planification</br>- Marge brute</br>- Marge brute ajustée |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

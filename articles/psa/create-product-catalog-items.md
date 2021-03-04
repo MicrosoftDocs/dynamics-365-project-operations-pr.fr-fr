@@ -37,3 +37,6 @@ Si vous souhaitez inclure des produits, tels que des licences de logiciels, sur 
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

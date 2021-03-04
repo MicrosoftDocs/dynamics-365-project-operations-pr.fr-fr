@@ -26,3 +26,6 @@ La configuration de la tarification des articles du catalogue de produits dans D
 Dans Project Operations, les produits ne peuvent pas être estimés ou utilisés sur des projets, de sorte que les prix du catalogue de produits n'ont pas besoin d'être définis sur les tarifs de projet pour les devis et les contrats.
 
 Utilisez le champ **Prix du produit** d'un devis, d'un contrat ou d'un compte pour configurer les prix du catalogue de produits. Ne configurez pas les prix du catalogue de produits dans les tarifs du projet. Les tarifs de projet sont exclusifs à Project Operations. La logique métier spécifique à l'application copie les tarifs d'un devis vers un contrat. Il en résulte un tarif spécifique au contrat. L’opération de copie peut retarder le processus d’obtention d’un devis si le tarif du projet sur le devis devient trop volumineux. Les tarifs des produits ne sont pas copiés pour créer des tarifs personnalisés sur les contrats. Comme aucune copie n'est impliquée, les performances du processus de devis ne sont pas affectées.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

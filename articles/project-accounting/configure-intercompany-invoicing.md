@@ -101,3 +101,6 @@ Dans l'exemple suivant, Contoso Robotics USA (USPM) est l'entité juridique empr
           - **Société d’allocation de ressources** = **Contoso Robotics UK**
           - **Taux de facturation** = **200 USD**
       9. Accédez à **Ventes** > **Contrats de projet** et joignez la liste de prix **Taux de facturation Adventure Works** à la liste de prix du projet Adventure Works du contrat de projet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

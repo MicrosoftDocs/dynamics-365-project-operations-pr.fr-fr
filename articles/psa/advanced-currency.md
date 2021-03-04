@@ -105,3 +105,6 @@ Dynamics 365 gère automatiquement les reports des montants dans différentes d
 | Dépenses           | Ventes non facturées   | 17 juin | Jérôme  | Location de voiture           | 1 chaque     | 150 EUR      | 150 EUR     | 0,94          | 159,57 USD     |
 
 Pour exprimer la valeur totale des ventes non facturées sur le projet, vous pouvez créer un champ de report pour le champ **Montant** sur tous les chiffres réels de ventes non facturés associés. Le champ de report est une construction de Dynamics 365 qui autorise les formules rapide sur des enregistrements associés.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

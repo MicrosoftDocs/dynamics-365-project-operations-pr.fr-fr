@@ -43,3 +43,6 @@ Pour faire une copie du tarif, procédez comme suit.
 1. Sous les onglets **Rôle**, **Catégorie**, et **Élément tarifaire** d’un tarif, vous pouvez sélectionner **Mettre à jour les prix** pour appliquer une majoration pour tous les prix de la sous-grille. 
 2. Sur la page de dialogue qui s’ouvre, entrez une majoration. Vous pouvez également saisir un pourcentage de majoration négatif pour réduire les prix d’un certain pourcentage. 
 3. Sélectionnez **OK** dans la page de dialogue, puis vérifiez que les prix de la sous-grille reflètent les modifications que vous avez effectuées.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

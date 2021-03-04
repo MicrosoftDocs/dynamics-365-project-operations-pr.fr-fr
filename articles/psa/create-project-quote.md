@@ -55,3 +55,6 @@ La création d’un devis est similaire à la création d’une opportunité. Lo
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

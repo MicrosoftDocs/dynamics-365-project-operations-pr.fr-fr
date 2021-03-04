@@ -74,3 +74,6 @@ Lorsque vous développez la ligne de cet enregistrement Membre de l’équipe, v
 Lorsque vous accédez à la grille **Estimations**, vous observerez que les deux affectations pour la même ressource ont des tarifs différents.
 L’affectation de la ressource sur la Tâche A est tarifée en utilisant la valeur d’attribut **Rôle** de **Consultant**. L’affectation de la même ressource sur la Tâche B est tarifée en utilisant la valeur d’attribut **Rôle** de **Technicien réseau**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

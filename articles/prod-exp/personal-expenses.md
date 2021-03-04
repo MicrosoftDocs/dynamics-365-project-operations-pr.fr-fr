@@ -33,3 +33,6 @@ Il existe deux méthodes pour gérer les dépenses personnelles d'un collaborate
 - **Payé par la société** – Votre organisation paie la totalité de la facture de la carte de crédit d'entreprise, puis débite les dépenses personnelles du compte du collaborateur.
 
 Vous pouvez sélectionner la méthode que votre organisation utilise sur la page **Paramètres de gestion des dépenses**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

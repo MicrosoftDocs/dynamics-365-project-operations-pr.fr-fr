@@ -46,3 +46,6 @@ Si une ligne de contrat est basée sur un catalogue de produits, vous pouvez rem
 Si vous définissez le champ **Tarification** sur **Remplacer la tarification**, le prix par défaut n’est pas défini. Entrez un prix pour le produit sur la ligne de contrat. Si vous définissez le champ sur **Utiliser la valeur par défaut**, le prix de vente par défaut est utilisé et le champ ne peut pas être modifié.
 
 Après avoir installé Project Operations, des prix de vente par défaut sont entrés dans les lignes basées sur un produit d’un contrat. Le champ **Tarification** est défini sur **Remplacer la tarification** afin que vous puissiez modifier le prix par défaut sur les lignes de contrat. Il s’agit d’un remplacement spécifique à Project Operations du comportement des lignes basées sur un produit dans Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

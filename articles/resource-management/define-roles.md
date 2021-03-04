@@ -20,3 +20,6 @@ ms.locfileid: "4514520"
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
 Vous pouvez utiliser la fonctionnalité fournie dans Dynamics 365 Field Service pour définir les rôles dans votre environnement Dynamics 365 Project Operations. Pour terminer cette configuration, voir [Configurer des catégories de ressources réservables](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

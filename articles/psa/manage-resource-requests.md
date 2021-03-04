@@ -51,3 +51,6 @@ Les responsables de compte et les responsables de projet demandent régulièreme
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du gestionnaire de ressources](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

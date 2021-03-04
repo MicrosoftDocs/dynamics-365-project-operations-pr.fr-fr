@@ -55,3 +55,6 @@ Par exemple, un développeur de Fabrikam Inde travaillant sur un projet américa
     | Developer | Fabrikam États-Unis | 150 USD |
 
 3. Attachez le tarif de vente, **Taux de facturation Fabrikam États-Unis** au tarif du projet du contrat de projet ou à un compte spécifique.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

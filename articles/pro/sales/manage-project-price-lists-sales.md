@@ -67,3 +67,6 @@ Une fois que vous disposez de tarifs de projet par défaut pour l’organisation
 
 1. Sur le **Devis de projet**, sur l’onglet **Tarif du projet**, vérifiez dans la sous-grille qu’aucun enregistrement de tarif spécifique n’est sélectionné.
 2. Sélectionnez **Créer des tarifs personnalisés**. Cela fera des copies de tous les tarifs standard actuellement associés au devis et associera ces copies au devis. Les associations existantes avec les tarifs standard seront supprimées. Le vendeur peut alors commencer à modifier les prix de ces copies. Ces prix modifiés seront applicables à ce devis de projet uniquement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

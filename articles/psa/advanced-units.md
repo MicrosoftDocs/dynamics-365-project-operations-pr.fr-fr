@@ -112,3 +112,6 @@ Non. L’estimation de la planification est actuellement limitée aux heures et 
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Les unités et les groupes d’unités peuvent-ils être édités, supprimés et ajoutés ?
 Oui. À l’exception du groupe d’unités **Heure** et de l’unité **Heure**, toutes les unités peuvent être supprimées ou modifiées, et de nouvelles unités peuvent être ajoutées. Dans PSA, le groupe d’unités **Heure** et l’unité **Heure** ne peuvent pas être supprimés. En revanche, ils peuvent être mis à jour avec un texte traduit pour le champ **Nom**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

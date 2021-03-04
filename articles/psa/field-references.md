@@ -150,3 +150,6 @@ Le tableau suivant fournit une liste complète des formulaires et vues prédéfi
 |  Chiffre réel|• Informations<br>• Chiffres réels actifs|• Vue associée Chiffre réel|
 
 Les champs personnalisés peuvent également être ajoutés aux règles métier selon ce que vous avez défini. Un exemple prêt à l’emploi concerne le **Caractère modifiable de l’entrée de temps basé sur le statut** de la règle métier. Cette règle définit les champs devant être verrouillés lorsque l’entrée de temps a un statut non modifiable, comme **Approuvé**. Ajoutez des champs à cette règle métier de sorte que les champs soient verrouillés en modification lorsque l’entrée de temps a un état autre que **Brouillon** ou **Renvoyé**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

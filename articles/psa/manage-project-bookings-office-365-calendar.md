@@ -91,3 +91,6 @@ Afficher les rendez-vous personnels, les réservations de tâche de projet et le
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

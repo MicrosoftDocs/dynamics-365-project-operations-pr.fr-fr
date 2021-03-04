@@ -170,3 +170,6 @@ Les illustrations suivantes montrent des exemples de mappage de tâches de modè
 [![Mappage des modèles de transactions d'estimation de dépenses](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Mappage des modèles d'estimation de dépenses](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Maintenant que vous avez conclu le devis pour votre projet, il est temps de cré
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

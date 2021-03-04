@@ -58,3 +58,6 @@ Avant de pouvoir utiliser les fonctionnalités d’automatisation du [!INCLUDE[p
  [Guide du responsable de projet](../psa/project-manager-guide.md)   
  [Guide du gestionnaire de ressources](../psa/resource-manager-guide.md)   
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

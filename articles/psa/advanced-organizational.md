@@ -167,3 +167,6 @@ Si votre entreprise fonctionne comme une unité unique qui contient la liste des
 Lorsqu’un projet est créé seul, l’unité contractuelle par défaut du projet dépend de l’utilisateur qui le crée. Cet utilisateur est également le responsable de projet par défaut. Si le projet est mappé à une entité de vente, par exemple un devis ou un contrat du projet, l’unité contractuelle du projet dépend plutôt de l’entité de vente. Dans ce cas, des estimations de projet peuvent être recalculées, car la liste de prix de revient est utilisée pour calculer les modifications d’estimation du coût si l’unité contractuelle est modifiée. La liste de prix de vente est utilisée pour calculer les estimations de ventes qui seront automatiquement modifiées pour qu’elles soient synchronisées sur les tarifs du projet sur le devis.
 
 Les champs **Unité contractuelle** et **Devise** du projet sont verrouillés pour modification, car ils doivent être synchronisés sur les valeurs de l’entité commerciale (devis ou contrat du projet) auxquelles le projet est mappé.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

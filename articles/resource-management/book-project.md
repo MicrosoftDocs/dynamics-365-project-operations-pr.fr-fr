@@ -66,3 +66,6 @@ En tant que chef de projet, vous devrez peut-être réserver une ressource pour 
 
 > [!NOTE]
 > Cette méthode ne crée aucune réservation pour la ressource. À la place, elle ajoute la ressource à l’équipe. Une fois le membre de l’équipe ajouté au projet, le chef de projet peut utiliser la gestion des réservations ou l’extension des réservations pour ajouter les réservations requises à la ressource.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

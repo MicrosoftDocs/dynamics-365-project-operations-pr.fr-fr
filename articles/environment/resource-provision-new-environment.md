@@ -209,3 +209,6 @@ Si vous avez appliqué des données de démonstration à l’environnement Finan
 
 
 Votre environnement Project Operations est désormais mis en service et configuré. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

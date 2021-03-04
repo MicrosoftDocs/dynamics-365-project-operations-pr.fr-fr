@@ -37,3 +37,6 @@ Utilisez ce type de déploiement si Project Operations doit être utilisé dans
 - Un système intégré qui gère les projets internes et facturables pour les planifications et les données financières, de la vente des projets à la facturation.
 - Un logiciel de planification des ressources d’entreprise (ERP) tierce/un système de comptabilité financière à intégrer à Project Operations.
 - Un système tiers dans le but d’utiliser les taxes de vente, les taux de change, les remboursements de dépenses et les dépenses non liées au projet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

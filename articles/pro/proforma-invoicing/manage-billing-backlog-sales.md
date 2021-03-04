@@ -60,3 +60,6 @@ Les chiffres réels de ventes non facturées avec un statut **Ne pas dépasser**
 Si les lignes de contrat multi-clients ont une méthode de facturation du temps et des matériels, une fois le temps et les dépenses approuvés, un chiffre réel de ventes non facturé est créé pour chaque client sur la ligne de contrat selon le pourcentage de fractionnement de facturation défini pour chacun des clients. Dans la vue **Réplication de facturation pour le temps et le matériel**, vous verrez ces chiffres réels de ventes non facturés spécifiques au client individuel. Chacun de ces enregistrements de vente réelle non facturée peut être marqué comme **Prêt pour la facturation** séparément dans cette vue.
 
 Un chiffre réel de ventes non facturé qui se trouve sur une facture en mode brouillon est affiché dans cette vue avec le statut de facturation **Facture client créée**. Lorsque la facture provisoire est confirmée, le statut de facturation de cet enregistrement devient **Facture client publiée**. Ne mettez pas à jour cette valeur de statut à l’aide d’un code personnalisé. Project Operations ne fonctionne pas correctement lorsque ces valeurs de statut sont mises à jour avec un code personnalisé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

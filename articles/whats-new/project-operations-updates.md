@@ -77,3 +77,6 @@ Les dates de publication prévues peuvent faire l’objet de modifications. Pour
 | --- | --- |
 | 10.0.17 | 19 mars 2021 |
 | 10.0.18 | 16 avril 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

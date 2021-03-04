@@ -67,3 +67,6 @@ Lorsque vous êtes prêt à passer une ressource de membre d’équipe réservé
 2. Cliquez avec le bouton droit sur la réservation et sous **Modifier le statut**, sélectionnez **Réservation ferme** \> **Ferme**. Le statut de la réservation est à présent **Ferme**.
 3. Après avoir fermé le Tableau de planification, revenez au projet et ouvrez l’onglet **Équipe**, vous verrez que les heures de la ressource ont été déplacées de la colonne **Heures réservées temporairement** à la colonne **Heures réservées fermement** dans la grille de l’onglet **Équipe**, dans la vue **Membres de l’équipe nommés**. Si la ressource a été attribuée aux tâches, elles n’affichent plus de déficit d’attribution sous l’onglet **Rapprochement**, car leurs réservations sont désormais fermes.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

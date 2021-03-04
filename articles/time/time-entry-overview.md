@@ -27,3 +27,6 @@ Les membres de l’équipe de projet créent et soumettent des entrées de temps
 
 Pour plus d’informations sur la création, l’envoi ou le rappel d’une entrée, ainsi que sur d’autres outils permettant de compléter votre note, consultez [Comportement de l’utilisateur de saisie de temps](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

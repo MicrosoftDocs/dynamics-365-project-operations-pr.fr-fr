@@ -45,3 +45,6 @@ Lorsque vous sélectionnez **OK** sur la page de dialogue, le système crée une
 > - Référence du projet sur le projet – lignes de devis basées sur les informations budgétaires client
 >
 >Étant donné que ces informations sont très spécifiques à chaque devis, ces champs et enregistrements ne sont pas copiés. Les lignes de devis pour les projets et les produits, les estimations sur les détails de la ligne de devis et les valeurs à ne pas dépasser au niveau du devis sont copiées. Les valeurs par défaut de prix et de taux de coût dépendent de l’option **Copier la tarification** sélectionnée sur la page de dialogue **Copier les paramètres**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

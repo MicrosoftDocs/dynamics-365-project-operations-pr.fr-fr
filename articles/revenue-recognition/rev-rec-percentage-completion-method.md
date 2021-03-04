@@ -35,3 +35,6 @@ Pour réviser des projets d'estimation des revenus à prix fixe, procédez comme
 
   Le coût du projet, le profil de revenu, le modèle de coût et le code de période peuvent être définis manuellement. S'ils ne sont pas définis manuellement, les valeurs sont définies par défaut lors du premier calcul d'estimation du projet à l'aide des règles configurées pour les profils de coût et de revenu du projet.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

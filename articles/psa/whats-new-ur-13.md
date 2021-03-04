@@ -59,3 +59,6 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
      - Résolu : des boutons supplémentaires pour **Nouvelle opportunité**, **Devis**, **Ligne de commande** et **Ajouter un produit** sont visibles dans les commandes pour les opportunités, les devis, les produits de la commande et la sous-grille Lignes basée sur un projet.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

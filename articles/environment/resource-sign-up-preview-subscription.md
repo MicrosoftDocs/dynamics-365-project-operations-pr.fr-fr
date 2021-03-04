@@ -98,3 +98,6 @@ Suivez les instructions de la rubrique [Mettre en service un nouvel environnemen
 
 Installez les données d’installation et de configuration CDS comme décrit dans la rubrique [Configurer et appliquer les données de configuration dans Common Data Service](resource-apply-pro-setup-config-data.md).
 Effectuez cette étape uniquement après le déploiement de l’environnement de démonstration Finance et une fois que les données de démonstration dans FO sont prêtes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

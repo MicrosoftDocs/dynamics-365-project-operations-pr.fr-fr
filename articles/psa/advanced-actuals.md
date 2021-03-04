@@ -34,3 +34,6 @@ ms.locfileid: "5145715"
 Toutes les transactions financières qui se produisent pendant un projet sont enregistrées. Ces transactions sont enregistrées comme **chiffres réels**. Le tableau suivant illustre les différents types de chiffres réels qui sont créés, selon qu’il s’agit d’un projet basé sur la durée et les matériaux, d’un projet à prix fixe ou d’un projet interne, ou s’il se trouve dans la phase préalable à la vente.
 
 > ![Tableau affichant l’enregistrement des chiffres réels](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Créez un compte pour chaque client avez lequel vous travaillez, que vous fassie
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

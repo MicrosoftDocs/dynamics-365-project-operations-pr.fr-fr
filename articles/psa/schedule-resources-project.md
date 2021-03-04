@@ -83,3 +83,6 @@ Si vous utilisez une nouvelle version, pour la disponibilité des ressources, co
   
 ### <a name="additional-resources"></a>Ressources complémentaires  
  [Guide du gestionnaire de ressources](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Chaque ressource réservable travaillant sur un projet doit disposer d’un cale
 2. Dans la vue en grille, sélectionnez jusqu’à 25 **Ressources réservables** à mettre à jour.
 3. Sélectionnez **Définir le calendrier** et une boîte de dialogue vous proposera une liste des modèles d’heures de travail disponibles.
 4. Sélectionnez le modèle à utiliser, puis sélectionnez **Appliquer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

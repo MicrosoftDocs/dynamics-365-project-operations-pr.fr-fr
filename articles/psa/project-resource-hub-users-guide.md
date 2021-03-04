@@ -105,3 +105,6 @@ Entrez vos dépenses au moins une fois par semaine - ou à la fréquence demand�
  [Vue d’ensemble de Project Service](../psa/overview.md)   
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

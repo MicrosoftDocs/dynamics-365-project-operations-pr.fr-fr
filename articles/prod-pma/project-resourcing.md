@@ -55,3 +55,6 @@ Les rubriques suivantes fournissent des informations sur les tâches à effectue
 - [Performance de planification des ressources du projet](project-scheduling-performance.md)
 - [Configurer des rôles sur des modèles de structure de répartition du travail](set-up-roles-wbs-template.md)
 - [Exécution des ressources pour les ressources planifiées](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

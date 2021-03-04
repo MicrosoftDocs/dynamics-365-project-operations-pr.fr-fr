@@ -74,3 +74,6 @@ Les problèmes suivants ont été résolus :
 - Lors de la sélection d'une ligne basée sur un projet dans un devis ou un contrat, le bouton **Suggestion** ne doit être visible que lors de la sélection d'une ligne basée sur un produit associée à un produit existant.
 - Split du privilège **Create_Product** à partir du privilège **Create_ProjectContract**.
 - La suppression d'une ligne de facture entraîne un échec de référence nul sur **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

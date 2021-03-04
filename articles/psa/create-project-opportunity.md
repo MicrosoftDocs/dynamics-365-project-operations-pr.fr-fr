@@ -55,3 +55,6 @@ Les opportunités sont des prospects intéressés de clients souhaitant s’offr
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

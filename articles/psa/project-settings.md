@@ -68,3 +68,6 @@ Chaque organisation doit configurer ces rôles sur la page **Catégories de ress
 ## <a name="price-lists"></a>Tarifs
 
 Les tarifs vous permettent de définir le coût et les prix de vente des rôles de ressources, des catégories de dépenses, des produits et d’autres éléments dans votre organisation. Avant de définir des estimations financières pour le travail à fournir pour un projet, vous devez créer un coût de support et des tarifs de vente. Dans la section des paramètres, vous devez configurer un coût et des tarifs de vente par défaut qui s’appliquent à tous les projets créés dans l’organisation. Dans la page **Paramètres du projet actifs**, vérifiez que vous configurez un coût et des tarifs de vente par défaut.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

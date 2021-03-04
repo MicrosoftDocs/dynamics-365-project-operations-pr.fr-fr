@@ -107,3 +107,6 @@ L’illustration suivante montre les modifications qui se produisent pour des en
 L’illustration suivante montre les modifications qui se produisent pour des entrées de dépenses approuvées lorsqu’elles sont rappelées.
 
 ![Transitions d’état d’entrée de dépenses](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

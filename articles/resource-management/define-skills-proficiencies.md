@@ -42,3 +42,6 @@ Les compétences des ressources sont estimées selon des modèles de compétence
 
 
 Ces valeurs d’évaluation sont affichées dans les filtres **Besoins en ressources**, **Tableau de planification** et **Assistant Planifier**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

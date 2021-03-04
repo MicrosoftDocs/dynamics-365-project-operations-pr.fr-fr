@@ -37,3 +37,5 @@ En tant que chef de projet, procédez comme suit pour modifier les besoins en re
 ## <a name="edit-resource-assignment-contours"></a>Modifier les contours d’affectation de ressources
 
 En plus de modifier les détails des besoins en ressources, un chef de projet peut mettre à jour les contours individuels des besoins en ressources à l’aide de la fonctionnalité **Spécifier le modèle**. Quand **Spécifier le modèle** est sélectionné, une page s’ouvre et vous pouvez afficher les contours à l’échelle du jour, de la semaine ou du mois. Chaque contour peut être ajusté pour l’heure de début, l’heure de fin et l’effort total dans une période donnée.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

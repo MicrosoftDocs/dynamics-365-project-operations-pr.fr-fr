@@ -78,3 +78,6 @@ L'enregistrement de la dimension de tarification pour **msydn_bookableresource**
 5. Ajoutez **msdyn_bookableresourceid** à **Nom de domaine**.
 
  ![Formulaire Nouveau nom de champ Dimension de tarification](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Les problèmes suivants ont été résolus :
 - Une exception de référence nulle est générée lorsque le plug-in **GetEstimatesForProject** est appelé.
 - **Marquer prêt à facturer** sur la grille des jalons ne met à jour que partiellement les attributs, sauf pour l'attribut **InvoiceStatus**, qui est mis à jour.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,5 @@ L’ajout de caractéristiques aux besoins en ressources vous permet de document
 3. Dans la sous-grille **Compétences**, sélectionnez **+ Ajouter une nouvelle caractéristique de besoin.**
 4. Dans le volet de création rapide, recherchez et sélectionnez les caractéristiques requises et ajoutez une **Valeur de notation**.
 5. Cliquez sur **Enregistrer et fermer**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

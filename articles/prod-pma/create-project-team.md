@@ -62,3 +62,6 @@ La procédure suivante explique comment créer une équipe de projet.
 ## <a name="monitor-project-teams"></a>Surveiller les équipes de projet
 1. Sur la page **Tous les projets** , sélectionnez l’ **ID de projet** pour le projet **Mise à niveau XYZ Phase 2**.
 2. Sur le raccourci **Équipe de projet et planification** , vérifiez que les ressources de projet répertoriées sont correctes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

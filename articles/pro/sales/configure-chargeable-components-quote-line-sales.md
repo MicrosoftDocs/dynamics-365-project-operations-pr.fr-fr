@@ -77,3 +77,6 @@ Une estimation ou un réel créé pour la dépense ne sera considéré comme fac
 | No | Oui | Projet entier | Impossible à définir | Non facturable | Impossible à définir | Facturation à l’heure actuelle : Non disponible </br>Type de facturation sur les dépenses réelles : non facturable |
 | Oui | No | Projet entier | Facturable | Impossible à définir | Impossible à définir | Facturation à l’heure actuelle : Facturable</br>Type de facturation sur les dépenses réelles : non disponible |
 | Oui | No | Projet entier | Non facturable | Impossible à définir | Impossible à définir | Facturation à l’heure actuelle : Non facturable </br>Type de facturation sur les dépenses réelles : non disponible |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

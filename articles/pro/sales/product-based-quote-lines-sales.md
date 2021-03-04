@@ -46,3 +46,6 @@ Lorsqu’une ligne de devis est basée sur un catalogue de produits, vous pouvez
 Si vous sélectionnez **Remplacer la tarification**, le prix par défaut n’est pas défini. Vous devez plutôt saisir un prix pour le produit dans la ligne de devis. Si vous sélectionnez **Utiliser la valeur par défaut**, le tarif de vente par défaut est utilisé et le champ est verrouillé pour modification.
 
 Des prix de vente par défaut sont saisis dans les lignes basées sur les produits d’un devis. Le champ **Tarification** est alors défini sur **Remplacer la tarification** pour pouvoir modifier le prix par défaut sur les lignes de devis. Il s’agit d’un remplacement spécifique à Project Operations du comportement des lignes basées sur les produits dans Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

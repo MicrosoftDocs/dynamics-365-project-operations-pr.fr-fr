@@ -89,3 +89,6 @@ Les paramètres contrôlent le comportement général dans la gestion des dépen
 | <strong>Message anti-corruption pour l’expéditeur</strong> |                                                                                             Entrez le texte qui sera affiché à l'employé lors de la création d'une nouvelle note de frais. Cliquez sur le bouton <strong>Traductions</strong> pour saisir un texte spécifique à la langue qui sera affiché en fonction de la langue de l'utilisateur.                                                                                             |
 | <strong>Message anti-corruption pour l’approbateur</strong>  |                                                                                             Entrez le texte qui sera affiché à lapprobateur lors de la création d'une nouvelle note de frais. Cliquez sur le bouton <strong>Traductions</strong> pour saisir un texte spécifique à la langue qui sera affiché en fonction de la langue de l'utilisateur.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

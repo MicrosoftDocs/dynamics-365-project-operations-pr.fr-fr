@@ -73,3 +73,6 @@ Pour plus d’informations sur les mises à jour de Project Service, consultez l
 >[!Note]
 > - Les dates dans toutes les régions à l’exception du Cloud de la communauté du secteur public indiquent la date de la prochaine mise à jour automatique. Les dates dans le Cloud de la communauté du secteur public indiquent la disponibilité de la version ; pour le moment, aucune mise à jour automatique n’est disponible pour ces régions.
 > - Pour toutes les autres régions, alors que la plupart des mises à jour devraient être terminées au moment prévu, les mises à jour nécessitant plus de temps peuvent être effectuées pendant la nuit, lors du week-end indiqué dans la colonne **Date programmée**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

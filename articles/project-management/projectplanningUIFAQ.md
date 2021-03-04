@@ -106,3 +106,6 @@ Lorsqu'une ou plusieurs mises à jour sont apportées à la structure de répart
   - Système de Project Operations
   - Système de projet
   - Système de double écriture Project Operations (ce rôle est requis si vous déployez le scénario basé sur les ressources/non stocké de Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

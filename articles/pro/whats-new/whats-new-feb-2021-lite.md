@@ -38,3 +38,6 @@ Cette rubrique s'applique aux composants et versions suivants de Dynamics 365 Pr
 | **Planification et suivi de projets** | 2164035 | Correction de problèmes avec la fonction **Copier le projet**. |
 | **Saisie de l’heure** | 2129161 | Des restrictions plus strictes sont appliquées pour garantir que les utilisateurs ne peuvent pas modifier et mettre à jour une entrée de temps qui a été soumise ou approuvée. |
 | **Saisie de l’heure** | 2103572 | L'approbation de temps pour les entrées de temps hors projet ne doit pas rechercher le rôle d'approbateur de projet. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

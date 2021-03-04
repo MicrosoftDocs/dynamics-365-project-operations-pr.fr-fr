@@ -96,3 +96,6 @@ Suivez les étapes ci-dessous pour créer une version personnalisée du formulai
     ```
 
 6. Enregistrez, puis publiez les personnalisations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

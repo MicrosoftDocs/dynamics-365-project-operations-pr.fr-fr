@@ -91,3 +91,6 @@ Effectuez les étapes suivantes pour réserver un nouveau besoin en ressources.
 
 4. Maintenant que la ressource est réservée, vous devez attribuer des tâches manuellement.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Une fois que vous effectuez une sélection, la ressource est ajoutée à l’éq
 Vous pouvez utiliser la capacité d’extension de réservation de l’onglet **Rapprochement** ou le **Tableau de planification** pour réserver la capacité de la ressource sur le projet.
 
 Lorsqu’un membre de l’équipe est réservé sur votre projet, vous pouvez **Gérer les réservations** ou utiliser le **Tableau de planification** directement pour gérer ses réservations.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

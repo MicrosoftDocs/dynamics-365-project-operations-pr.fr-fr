@@ -48,3 +48,6 @@ Les compétences des ressources sont estimées selon des modèles de compétence
 > ![Évaluations minimale et maximale définies](media/Resource-Management-image85.png)
 
 Ces valeurs d’évaluation sont affichées dans les filtres **Besoins en ressources**, **Tableau de planification** et **Assistant Planifier**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

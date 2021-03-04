@@ -62,3 +62,6 @@ Les problèmes suivants ont été résolus :
 - Les listes **Prix de revient de l’unité d’organisation** autorisent les chevauchements dans la plage de dates définie.
 - Les utilisateurs ne sont pas autorisés à modifier **OrgUnit** lorsque le type de commande n’est pas basé sur le travail, car cela va générer une erreur d’exception de référence nulle.
 - Lorsque vous tentez de passer du formulaire **Détails de la ligne de devis** à l’onglet **Devis**, le formulaire s’actualise et affiche l’onglet **Résumé**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

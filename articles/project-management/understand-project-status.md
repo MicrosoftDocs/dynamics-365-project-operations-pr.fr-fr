@@ -29,3 +29,6 @@ La section **Statut** sur la page **Entité de projet** fournit un résumé de l
 - Le champ **Commentaires** permet au chef de projet d’entrer des commentaires spécifiques relatifs au statut. 
 - Le champ **Statut mis à jour le** n’est pas modifiable. La valeur de ce champ est un horodatage qui indique la dernière mise à jour du statut.
 - Les champs **Performances de planification** et **Performances des coûts** sont définis à partir de la grille de suivi. Lorsque l’écart de planification et des coûts du nœud racine dans la vue **Suivi des efforts** est positif, vous pouvez mettre à jour ces champs sur **En avance**. Lorsque l’écart de planification et des coûts du nœud racine est négatif, ces champs sont définis sur **En retard**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

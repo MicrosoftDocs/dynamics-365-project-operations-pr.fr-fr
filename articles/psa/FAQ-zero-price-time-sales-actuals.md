@@ -57,3 +57,6 @@ S’il n’y a aucune ligne dans la grille des prix de rôle pour les dimensions
 
 Si vous ne voyez toujours pas de prix valide sur votre chiffre réel de vente des heures après avoir effectué les trois vérifications ci-dessus, entrez un ticket du support technique. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

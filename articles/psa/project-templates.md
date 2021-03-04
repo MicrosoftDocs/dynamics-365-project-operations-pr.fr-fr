@@ -69,3 +69,6 @@ Lorsque vous copiez dans les lignes d’estimation du projet, les tarifs sont mi
 ### <a name="copying-a-project-team"></a>Copie d’une équipe de projet
 
 Lorsque vous copiez une équipe de projet à partir du modèle d’un projet, les ressources génériques sont copiées, avec toutes les aptitudes et compétences définies dans le modèle. Les affectations de ressources génériques sont également gérées comme elles l’étaient dans le modèle du projet. Les ressources nommées ne sont pas prises en charge dans les modèles de projet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

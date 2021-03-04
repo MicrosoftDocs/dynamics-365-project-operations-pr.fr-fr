@@ -76,3 +76,6 @@ Vous pouvez utiliser l’une des méthodes suivantes pour créer une commande fo
 
 Pour plus d’informations, consultez [Recevoir les articles sur la commande fournisseur depuis l’exigence d’article](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

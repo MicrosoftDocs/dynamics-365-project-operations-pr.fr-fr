@@ -71,3 +71,6 @@ Pour résumer, les modes d’attribution suivants entraînent une surréservatio
 - Heures distribuées de manière homogène
 
 Lorsque vous utilisez l’un de ces trois modes d’attribution, vous ne serez pas informé que la ressource est surréservée. Pour corriger la surréservation, vous devrez utiliser le tableau de Planification.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

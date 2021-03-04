@@ -60,3 +60,6 @@ Le tableau suivant répertorie les attributs clés d’un membre de l’équipe 
 
 - **Nouveau** : Outre l’ajout de ressources directement à partir de la planification, les chefs de projet peuvent ajouter de nouveaux membres nommés ou génériques de l’équipe à partir de la grille des membres de l’équipe.
 - **Supprimer** : En sélectionnant un ou plusieurs membres de l’équipe, le chef de projet peut supprimer des ressources qui ne participeront plus au projet. La suppression d’un membre de l’équipe supprimera également toutes les affectations de ressources associées et annulera toutes les réservations existantes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

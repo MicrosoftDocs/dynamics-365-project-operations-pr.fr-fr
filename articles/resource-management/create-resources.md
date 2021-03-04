@@ -20,3 +20,6 @@ ms.locfileid: "4514518"
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
 Vous pouvez utiliser Dynamics 365 Field Service pour créer des ressources réservables à utiliser dans votre environnement Dynamics 365 Project Operations. Pour créer ces ressources, voir [Configurer des ressources réservables](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

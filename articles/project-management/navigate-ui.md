@@ -102,3 +102,6 @@ Ce qui suit est un bref aperçu des contrôles typiques trouvés sur les différ
 **Ajouter une colonne** : Permet à l’utilisateur de définir les colonnes visibles dans la grille. Seules les colonnes prêtes à l’emploi peuvent être ajoutées aux grilles dans le formulaire **Planification de projet**.
 
 ![Bouton Ajouter une colonne](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

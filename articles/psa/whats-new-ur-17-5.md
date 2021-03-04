@@ -44,3 +44,6 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
 - Résolu : Modèles d’heure de travail sur 24 heures modifiés, car un jour supplémentaire était ajouté aux tâches de manière inexacte.
 - Résolu : Modèles d’heures de travail +13 GMT modifiés, car des tâches étaient décalées un jour à l’avance de manière inexacte.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

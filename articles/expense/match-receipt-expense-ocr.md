@@ -94,3 +94,6 @@ Actuellement, elle est prise en charge aux États-Unis.
 Finance contactera Cognitive Services pour extraire des données du champ. Cognitive Services conservera une copie de votre reçu pendant 24 heures maximum pendant le traitement. Une fois le traitement terminé, Cognitive Services supprimera le reçu. Les reçus sont toujours stockés dans Finance.
 
 Pour plus d’informations, consultez [Activer la compréhension des reçus avec la nouvelle fonctionnalité de Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

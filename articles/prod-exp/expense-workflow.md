@@ -55,3 +55,6 @@ Le processus suivant est un exemple de workflow de gestion des dépenses pour un
 Une fois ces exigences vérifiées, le rapport de dépenses est affiché.
 
 Une fois la note de frais validée, le paiement est autorisé pour la note de frais et l'employé est remboursé.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

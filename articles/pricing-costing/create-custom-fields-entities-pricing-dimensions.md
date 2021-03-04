@@ -77,3 +77,6 @@ Vous pouvez créer des données pour les dimensions basées sur une entité manu
 5. Répétez les étapes 1 à 3 pour créer un autre titre standard pour « Ingénieur système principal ».
 
 > ![Exemple de données pour l'entité Titre standard](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

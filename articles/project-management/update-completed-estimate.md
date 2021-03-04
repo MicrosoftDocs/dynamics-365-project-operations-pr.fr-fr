@@ -36,3 +36,6 @@ Il existe deux méthodes de nouvelle projection des efforts sur les tâches que 
 - Remplacez le pourcentage de progression par défaut par une nouvelle évaluation de la progression réelle pour la tâche.
 
 Chacune de ces méthode entraîne un nouveau calcul de l’Estimation avant achèvement, de l’EAA (Estimé à Achèvement) et du pourcentage de progression de la tâche et de l’écart d’efforts escomptés pour une tâche. L’Estimation avant achèvement, l’EAA (Estimé à Achèvement) et le pourcentage de progression sur les tâches récapitulatives sont également recalculés, et produisent une nouvelle projection de l’écart d’efforts.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

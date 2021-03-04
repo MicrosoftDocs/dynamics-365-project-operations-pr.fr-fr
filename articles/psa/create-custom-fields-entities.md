@@ -73,3 +73,6 @@ Vous pouvez créer des données pour les dimensions basées sur une entité manu
 > ![Exemple de données pour l'entité Titre standard ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

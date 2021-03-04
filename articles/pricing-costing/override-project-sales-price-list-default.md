@@ -52,3 +52,6 @@ Vous pouvez utiliser chacun de ces tarifs et faire des mises à jour des prix de
 Dans un contrat de projet, la tarification du projet est toujours définie par défaut comme un tarif personnalisé avec le nom du contrat et la date et l’heure de création ajoutées au nom. Cela est vrai, que le contrat ait été créé lorsque le devis a été remporté ou que le contrat ait été créé à partir de zéro. Si nécessaire, vous pouvez supprimer cette association au tarif personnalisé et associer un tarif standard au contrat de projet à la place.
 
 Lorsque vous associez un tarif standard à des tarifs du projet sur un devis ou un contrat, toute modification apportée aux prix dans le tarif aura un impact sur tous les devis et contrats qui utilisent le tarif.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

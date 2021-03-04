@@ -116,3 +116,6 @@ Sélectionnez **Réserver** pour la ressource générique, puis utilisez le tabl
 Lorsque la ressource générique est exécutée avec une ressource nommée, la ressource générique est supprimée de l’équipe et les attributions de tâches pour la ressource générique sont attribuées à la ressource nommée qui a renseigné le besoin en ressources de la ressource générique.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

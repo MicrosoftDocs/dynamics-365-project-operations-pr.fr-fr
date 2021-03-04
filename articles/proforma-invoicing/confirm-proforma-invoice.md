@@ -198,3 +198,6 @@ Un chiffre réel de vente facturée pour le montant du jalon sur le jalon d’or
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

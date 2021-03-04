@@ -32,3 +32,6 @@ Si les dépenses sur une note de frais sont imputées à une société autre que
 Pour valider une note de frais, sur la page **Notes de frais approuvées**, sélectionnez la note de frais, puis, dans le volet Actions, sélectionnez **Valider**.
 
 Vous pouvez également valider toutes les notes de frais de la liste en même temps. Sélectionnez toutes les notes de frais, puis sélectionnez **Valider**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

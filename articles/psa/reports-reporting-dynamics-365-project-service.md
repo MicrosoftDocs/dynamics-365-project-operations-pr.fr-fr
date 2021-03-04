@@ -52,3 +52,6 @@ Pour plus d’informations sur la génération de rapports dans PSA, consultez l
 - [Utilisation des modèles de données Project Service](reports-working-project-service-data-model.md)
 - [Tableaux de bord](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

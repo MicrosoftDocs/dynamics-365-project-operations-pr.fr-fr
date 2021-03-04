@@ -37,3 +37,6 @@ Le tableau suivant répertorie les mises à jour de la version 4.4.0.70 de Proje
 | Temps et entrée rapide de dépenses | 2047499          | Le bouton **Nouveau** sur la page Saisie de l’heure ouvre la page **Nouvelle signature de courrier électronique**.                                                                                               |
 | Temps et entrée rapide de dépenses | 2059859          | Une fenêtre contextuelle inattendue s’ouvre lors de la création d’une entrée de dépense.                                                                                                                         |
 | Autres                        | 2044181          | [Désinstallation du bon de commande] - L’erreur « Enregistrement non disponible » se produit lorsque vous essayez de désinstaller **msdyn_ProjectServiceCore_Patch** et les solutions principales du service de projet msdyn.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

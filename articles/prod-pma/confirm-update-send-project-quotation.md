@@ -57,3 +57,6 @@ Pour modifier une offre de projet existante, le statut du devis doit être **Cr�
 
 > [!NOTE]
 > Vous ne pouvez pas modifier un devis de projet une fois que le statut est passé à **Envoyé**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

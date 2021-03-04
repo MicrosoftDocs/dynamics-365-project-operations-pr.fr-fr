@@ -128,3 +128,6 @@ Pour une ligne de devis à prix fixe, vous pouvez utiliser la grille **Planifica
 - Pour créer des jalons de facturation divisés à parts égales, sélectionnez une fréquence de facturation, entrez la date de début de facturation sur la ligne de devis, et sélectionnez **Date de fin demandée** pour le devis dans la section **Résumé** de l’en-tête de devis. Ensuite, sélectionnez **Générer des jalons périodiques** afin de créer des jalons fractionnés à parts égales en fonction de la fréquence de facture sélectionnée. 
 - Pour créer un jalon de facturation avec somme forfaitaire, créez un jalon, puis entrez la ligne de valeur du devis en tant que montant de jalon.
 - Pour créer des jalons de facturation basés sur des tâches spécifiques dans le plan du projet, créez un jalon, et mappez-le à l’élément de la planification du projet dans l’interface utilisateur des jalons de facturation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

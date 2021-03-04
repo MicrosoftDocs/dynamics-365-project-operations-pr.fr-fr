@@ -30,3 +30,6 @@ Le chef de projet peut consulter les transactions de vente non facturées à l'a
 Vous pouvez [créer manuellement une facture pro forma](../proforma-invoicing/create-manual-proforma-invoice.md) ou utilisez un [processus périodique](../proforma-invoicing/configure-automated-invoice-creation.md). Le chef de projet peut [ajuster un brouillon de facture pro forma](../proforma-invoicing/manage-proforma-invoice.md) au besoin, puis confirmez-le.
 
 La facture pro forma confirmée est envoyée au module **Gestion de projet et comptabilité** dans Finance. Le comptable du projet met en forme et met à jour la proposition de facture du projet, puis valide et imprime le document. Les factures de projet validées sont enregistrées dans la comptabilité, ainsi que dans les registres auxiliaires du client et du projet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ ms.locfileid: "4960019"
 Une *indemnité journalière* est une allocation versée à un travailleur qui se déplace pour son travail. Dans Gestion des dépenses, vous pouvez créer des règles d’indemnités journalières pour diverses situations de déplacement. Les tarifs journaliers peuvent être basés sur la période de l’année, le lieu de voyage ou les deux. Lorsque vous créez une règle d’indemnité journalière, vous pouvez spécifier qu’un pourcentage du montant journalier sera retenu si un travailleur reçoit des repas ou des services gratuits. Vous pouvez également définir un nombre d’heures minimal et maximal que le taux journalier peut appliquer aux déplacements d’un travailleur.
 
 Le calcul d'un montant d’indemnité journalière total est basé sur les dates de début et de fin que vous pouvez définir sur la page **Indemnités journalières**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

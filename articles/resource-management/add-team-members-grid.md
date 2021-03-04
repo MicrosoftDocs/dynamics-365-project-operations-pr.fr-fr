@@ -200,3 +200,6 @@ Lorsque vous affichez le temps à des niveaux plus élevés, les cellules de l�
 Si vous avez des affectations de tâches pour une ressource mais aucune réservation, sur le formulaire **Projets**, dans l’onglet **Rapprochement**, sélectionnez la pénurie de réservation, puis sélectionnez **Étendre la réservation**. La boîte de dialogue **Étendre la réservation** s’affiche et affiche la réservation qui est nécessaire pour compenser la pénurie de la ressource. La boîte de dialogue présente également les réservations existantes de la ressource dans tous les projets ou d’autres entités planifiables. Si vous sélectionnez **OK** pour créer la réservation pour la ressource, indépendamment de la disponibilité de cette ressource, vous pouvez entraîner de la surréservation.
 
 Le chef de projet ou le gestionnaire de ressources peut ensuite utiliser le Tableau de planification pour gérer tous les cas où une ressource est réservée en trop au-delà de sa capacité.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

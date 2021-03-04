@@ -93,3 +93,6 @@ Les contrats Project Operations sont basés sur les contrats Dynamics 365 Sales
 - Les contrats Project Operations ont leurs propres éléments de formulaire et d’interface utilisateur, des règles métier, une logique métier dans les plug-ins et des scripts côté client qui les rendent uniques à partir des contrats de vente.
 
 Pour ces raisons, vous ne devez pas utiliser un contrat de vente et un contrat de projet de manière interchangeable.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

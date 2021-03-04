@@ -36,3 +36,6 @@ Pour utiliser l'assistant, suivez ces étapes.
 1. Accédez à **Gestion de projet et comptabilité** > **Devis** > **Devis de projet**.
 2. Sélectionnez le devis que vous souhaitez transférer et, dans l'onglet **Suivi** , dans le groupe **Modifier** , sélectionnez **Transférer au projet**.
 3. Suivez l'assistant **Transférer le devis au projet** pour associer et transférer le devis à un projet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

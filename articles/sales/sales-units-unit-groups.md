@@ -46,3 +46,6 @@ Pour effectuer les étapes de cette rubrique, assurez-vous de disposer du rôle 
 3. Dans le champ **Quantité**, entrez la quantité que cette unité représentera. Par exemple, si une boîte contient deux pièces, entrez « 2 ». 
 4. Dans le champ **Unité de base**, sélectionnez une unité de base pour établir la plus petite unité de mesure pour l’unité. Par exemple, vous pouvez sélectionner « Pièce ».
 5. Sélectionnez **Enregistrer** :
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Voici quelques suggestions qui peuvent vous aider lors de la création de nouvel
 ## <a name="when-to-evaluate-policies"></a>Quand évaluer les politiques
 
 Dans les paramètres de gestion des dépenses, vous pouvez choisir d’évaluer les politiques de gestion des dépenses lorsqu’une ligne est enregistrée ou lorsqu’une note de frais est soumise. Si vous choisissez d’évaluer le moment où une ligne est enregistrée, les utilisateurs auront une meilleure visibilité sur ce qu’ils doivent faire pour compléter leur note de frais en une seule fois. Sinon, vous pouvez retarder l’évaluation de la politique et gagner du temps en validant à la fin, lors de la soumission au workflow.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

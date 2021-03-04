@@ -152,3 +152,6 @@ Vous utiliserez les types de tâches suivantes lors de la création de votre str
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

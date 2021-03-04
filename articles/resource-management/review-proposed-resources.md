@@ -62,3 +62,6 @@ Comme Dynamics 365 Project Operations utilise le moteur Universal Resource Sched
 
 Pour afficher plus de détails sur une ressource spécifique, cliquez dessus avec le bouton droit pour ouvrir la carte de ressource.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

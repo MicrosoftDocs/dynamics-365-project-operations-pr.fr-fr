@@ -35,3 +35,6 @@ Avant qu'un collaborateur puisse créer et soumettre des dépenses intersociét�
 
 Avant de pouvoir utiliser des groupes taxe associés à l’entité juridique (source) prêteuse au lieu de l’entité juridique (destination) emprunteuse dans votre note de frais, vous devez activer la fonctionnalité dans le Paramètres de taxe comptabilité. Lorsque le paramètre **Entité juridique pour la validation des taxes intersociétés** est défini sur **Source** et que le champ **Appliquer les règles de taxe** est défini sur **Non**, la combinaison fiscale de l’entité juridique prêteuse est utilisée. Lorsque le même paramètre est défini sur **Destination**, la combinaison fiscale pour la personne morale emprunteuse sera utilisée. Pour les personnes morales aux États-Unis, lorsque le paramètre est défini sur **Source**, le champ **Taxe déductible** doit également être configuré sur la page **Groupes de validations dans la comptabilité**. Le moteur de comptabilité utilisera les informations de ce champ pour la saisie comptable liée aux taxes.   
 Le comportement est cohérent pour les lignes de dépenses validées avec ou sans projet.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

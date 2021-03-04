@@ -59,3 +59,6 @@ Chaque projet dispose d’un certain nombre de membres de l’équipe de projet.
 3. Sélectionnez **Enregistrer**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

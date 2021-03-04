@@ -91,3 +91,6 @@ La tâche de traitement par lots pour la création de factures est une tâche p�
 
 > [!NOTE]
 > La facturation par lots dans Project Operations ne s’exécute que pour les lignes de contrat de projet qui sont configurées par des planifications de facture. Une ligne de contrat avec une méthode de facturation à prix fixe doit avoir des jalons configurés. Une ligne de contrat de projet avec une méthode de facturation en régie nécessite la configuration d’un calendrier de facturation basé sur la date.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

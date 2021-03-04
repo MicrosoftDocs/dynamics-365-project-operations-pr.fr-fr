@@ -80,3 +80,6 @@ Lorsqu'un fournisseur termine son travail sur un projet et vous envoie une factu
 2. Sur la page **Facture fournisseur avec clause Payer quand payé** , dans le champ de recherche, saisissez des valeurs pour trouver la facture fournisseur que vous souhaitez consulter, puis sélectionnez **Rechercher**.
 3. Sur le raccourci **Lignes de facture fournisseur** , sélectionnez les lignes que vous souhaitez modifier.
 4. Si les conditions **Payer quand payé** sont remplies pour la ligne de facture, sélectionnez **Débloquer le paiement fournisseur**. L'option **Payer quand payé** est désactivée et la valeur du champ **Prêt à payer** est remplacée par **Oui**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

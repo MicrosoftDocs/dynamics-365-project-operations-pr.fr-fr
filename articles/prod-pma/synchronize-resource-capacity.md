@@ -49,3 +49,6 @@ Nous vous recommandons d’utiliser un lot. Les options sont disponibles lors de
     | Date de fin    | Entrez la date de fin du processus de synchronisation pour les cumuls de capacité des ressources. |
 
 [![Processus de la synchronisation](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

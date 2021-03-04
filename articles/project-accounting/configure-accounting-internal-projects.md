@@ -32,3 +32,6 @@ Tout projet non associé à un contrat dans Dynamics 365 Project Operations est 
 Une fois les transactions enregistrées dans le projet, si le projet est associé à un contrat de projet, le système annule toutes les transactions accumulées et crée de nouvelles transactions facturables. Les transactions facturables suivent les règles comptables définies dans le profil de coût et de revenu du projet respectif.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
 - Résolu : Lorsque la classe de transaction est **Temps**, **UnitGroup** n’est pas modifiable pour toutes les entités, y compris **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** et **ContractLineDetails**. Cependant, **Unité** est non modifiable uniquement pour **JournalLine** et **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

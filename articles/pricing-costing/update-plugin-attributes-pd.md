@@ -52,3 +52,6 @@ Effectuez les étapes suivantes pour mettre à jour et réenregistrer les plug-i
 7. Cliquez sur **OK** pour fermer la page, puis sélectionnez **Mettre à jour l’étape**.
 8. Répétez les étapes 2 à 7 pour le deuxième plug-in, **PreOperationQuoteLineDetail**. Pour ce plug-in, vous devez mettre à jour l'étape **Update of msdyn_quotelinetransaction**.
 9. Fermez **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

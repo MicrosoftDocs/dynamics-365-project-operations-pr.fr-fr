@@ -71,3 +71,6 @@ Avant de commencer cette procédure, vérifiez que votre rôle de sécurité inc
 
 > [!IMPORTANT]
 >  Il est impossible de supprimer les devises en cours d’utilisation par d’autres enregistrements ; vous pouvez uniquement les désactiver. La désactivation des enregistrements de devise ne supprime pas les informations de devise stockées dans les enregistrements existants, tels que les opportunités ou les commandes. Toutefois, vous ne pourrez pas sélectionner la devise désactivée pour de nouvelles transactions.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

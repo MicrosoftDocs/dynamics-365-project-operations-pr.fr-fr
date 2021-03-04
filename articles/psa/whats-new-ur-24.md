@@ -81,3 +81,6 @@ Les problèmes suivants ont été résolus :
 - Le bouton **Actualiser les statistiques** ne calcule pas correctement les tâches récapitulatives.
 - Complément Microsoft Project : correction d’une erreur de référence nulle si un membre de l’équipe a une unité de ressources vide.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

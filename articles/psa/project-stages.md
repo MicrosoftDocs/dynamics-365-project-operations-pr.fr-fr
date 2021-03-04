@@ -65,3 +65,6 @@ Lorsque le travail du projet est terminé, le chef de projet peut mettre à jour
 ## <a name="close"></a>Fermer
 
 Lorsque toutes les transactions sont enregistrées pour le projet, le chef de projet peut mettre à jour la phase sur **Fermer**. À ce stade, aucune transaction ne peut être enregistrée, et le projet passe en lecture seule.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

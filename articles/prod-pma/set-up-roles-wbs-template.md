@@ -107,3 +107,6 @@ Des options supplémentaires ont été ajoutées dans la structure de répartiti
     > Vous ne recevez pas d’avertissement indiquant que la ressource spécifiée est désormais 2, car le nombre de ressources reste 1.
 
 14. Sur la page **Structure de répartition du travail** , validez l’affectation de ressource sur la structure de répartition du travail, puis sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

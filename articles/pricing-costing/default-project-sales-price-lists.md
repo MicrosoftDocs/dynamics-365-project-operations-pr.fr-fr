@@ -57,3 +57,6 @@ Les listes de prix de revient n’utilisent par défaut aucune entité dans Proj
 5. Ensuite, le système examine la date de validité des listes de prix qui correspondent à la date du devis entrant ou de la ligne réelle. 
 6. S’il existe plusieurs listes de prix valables pour la date de l’estimation entrante ou réelle, le tarif créée le plus récemment est sélectionnée.
 7. Si aucun tarif de revient associée aux paramètres du projet ne correspond à la devise et à la date de validité, le système définit par défaut le taux de coût sur zéro (0) sur le devis entrant ou la ligne réelle.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

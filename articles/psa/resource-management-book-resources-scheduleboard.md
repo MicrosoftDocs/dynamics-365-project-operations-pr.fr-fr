@@ -53,3 +53,6 @@ Avant de pouvoir réserver depuis le Tableau de planification, vous devez créer
 Le besoin est satisfait à l’aide de la ressource sélectionnée. Dans le volet **Besoins en réservations**, notez que le besoin a été actualisé, et que la ressource apparaît comme réservée sur le projet.
 
 ![Ressource réservée sur le projet](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

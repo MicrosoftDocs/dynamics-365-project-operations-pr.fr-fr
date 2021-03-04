@@ -45,3 +45,6 @@ Maintenez les documents associés au projet organisés en les ajoutant à votre 
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

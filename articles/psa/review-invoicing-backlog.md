@@ -59,3 +59,6 @@ Chaque ligne de contrat de projet avec une méthode de facturation à prix fixe 
 Pour vérifier les jalons de facturation, accédez à **Ventes** \> **Facturation** \> **Jalons de forfait**. Sélectionnez les jalons prêts à être facturés, puis sélectionnez **Prêt pour la facturation**. Le statut de facturation de ces jalons passe à **Prêt pour la facturation**.
 
 ![Jalons à prix fixe](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

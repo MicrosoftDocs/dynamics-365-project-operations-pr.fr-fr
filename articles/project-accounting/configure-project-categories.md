@@ -53,3 +53,6 @@ Les catégories de projet représentent le niveau le plus granulaire de configur
 Les groupes de catégories sont utilisés pour partager des propriétés, principalement des profils de publication, entre des catégories de projet associées. Il doit y avoir au moins un groupe de catégories pour chaque type de transaction et chaque catégorie de projet se voit attribuer un groupe.
 
 Les spécifications de validation dans Project Operations sont définies par les règles de profil de coût et de produit du projet, les catégories de projet et les groupes de catégories. Vous pouvez configurer des groupes de catégories en accédant à **Gestion de projets et comptabilité** \> **Configurer** \> **Catégories** \> **Groupes de catégories**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

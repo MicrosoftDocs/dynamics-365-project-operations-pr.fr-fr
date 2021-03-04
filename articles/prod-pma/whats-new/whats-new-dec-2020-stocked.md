@@ -142,3 +142,6 @@ Cette rubrique s'applique aux composants et versions suivants de Dynamics 365 Pr
 ## <a name="regulatory-updates"></a>Mises à jour réglementaires
 
 Pour plus d'informations sur les mises à jour réglementaires pour Dynamics 365 Finance, voir [Mises à jour réglementaires](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Une autre façon d'en savoir plus sur les mises à jour réglementaires consiste à vous connecter à Lifecycle Services (LCS) et à afficher les mises à jour réglementaires prévues à l'aide de l'outil de recherche de problèmes. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

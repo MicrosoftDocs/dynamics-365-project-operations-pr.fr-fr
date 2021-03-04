@@ -79,3 +79,6 @@ Si vous avez ajouté un champ personnalisé sur les détails de la ligne de devi
 7. Sélectionnez **OK** pour fermer la boîte de dialogue, puis sélectionnez **Mettre à jour l’étape**.
 8. Répétez les étapes 1 à 7 pour le deuxième plug-in.
 9. Fermez le **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Il s’agit d’un exemple où plusieurs ressources nommées sont nécessaires p
 La principale différence dans ce scénario est que la ressource générique reste dans l’équipe attribuée à la tâche, et les membres de l’équipe de ressources nommés réservés ne sont pas attribués dans le cadre du poste. Le chef de projet peut affecter le travail si besoin aux ressources nommées. La vue **Rapprochement** peut aider un chef de projet à répartir les réservations entre plusieurs ressources à des affectations de tâche. Cela n’est pas effectué automatiquement, car dans les scénarios plus compliqués que l’exemple simple ci-dessus, comme celui où un groupe de tâches composent le besoin, la façon dont le chef de projet souhaite les affecter, doit être prise en compte par le système. Comme le système ne peut pas comprendre l’intention, il y a des chances que les hypothèses soient différentes de celles prévues et un résultat incorrect ou imprévisible se produise. Le résultat prévisible est que la ressource générique reste affectée jusqu’à ce que le chef de projet crée délibérément des attributions à l’aide de la vue **Rapprochement**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

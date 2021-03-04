@@ -113,3 +113,6 @@ Lorsque l’entité juridique prêteuse, USSI, enregistre la facture client inte
 Pour plus d’informations, consultez [Configurer la facturation des projets intersociétés](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

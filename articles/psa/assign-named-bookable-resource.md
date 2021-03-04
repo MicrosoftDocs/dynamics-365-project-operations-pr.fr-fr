@@ -68,3 +68,6 @@ Vous pouvez utiliser la capacité d’extension de réservation de l’onglet **
 ![Extension des réservations d’un membre de l’équipe sous l’onglet de rapprochement des ressources](media/RM-how-to-7.png)
 
 Lorsqu’un membre de l’équipe est réservé sur votre projet, vous pouvez gérer les réservations ou utiliser le tableau de planification directement pour gérer ses réservations.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

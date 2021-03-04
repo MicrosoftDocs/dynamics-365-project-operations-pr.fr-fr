@@ -43,3 +43,6 @@ Vous trouverez ci-dessous les champs figurant sur la ligne **Contrat** de l’en
 Les pourcentages de fractionnement de facturation peuvent être modifiés dans la grille. Si le total des pourcentages de fractionnement de la facturation n’est pas égal à 100 %, une erreur se produit. Après avoir modifié les pourcentages de fractionnement de la facturation, actualisez la page pour supprimer l’erreur.
 
 Vous pouvez également sélectionner **Répartition homogène** dans la sous-grille du client de la ligne de contrat. Cette action répartit les fractionnements de la facturation de façon homogène entre tous les clients de la ligne de contrat. S’il existe une valeur d’arrondi, elle sera ajoutée au client d’arrondi. Un client de ligne de contrat est toujours identifié comme client d’**Arrondi** avec l’indicateur d’**Arrondi** défini sur **Oui**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Pour les tâches qui sont affectées à un rôle avec une unité d’organisatio
  
 La modification de la valeur par défaut des différentes unités d’organisation des membres de l’équipe non générés est la raison pour laquelle il est recommandé de générer ou de régénérer l’équipe sur chaque projet contenant des ressources génériques avant la mise à niveau afin que les affectations d’unité d’organisation ne soient pas perdues.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

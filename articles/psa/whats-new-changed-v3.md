@@ -257,3 +257,6 @@ Le graphique suivant s’affiche après la création des tarifs personnalisés.
 
 > [!NOTE]
 > Un court décalage peut se produire entre le moment où vous cliquez sur **Créer des tarifs personnalisés** et le moment où les tarifs personnalisés sont créés. Nous vous recommandons d’actualiser la grille au lieu de cliquer à plusieures reprises. Les tarifs personnalisés ont été créés si le nom du devis ou le nom du contrat de projet est ajouté au nom des tarifs associés.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

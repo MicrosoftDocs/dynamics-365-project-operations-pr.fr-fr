@@ -63,3 +63,6 @@ Vous pouvez utiliser la même méthode pour annuler une réservation ferme ou un
 Pour convertir une ressource réservée temporairement en réservation ferme, sur l’onglet **Équipe** du projet, sélectionnez la ressource, puis sélectionnez **Confirmer**.
 
 ![Commande Confirmer](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

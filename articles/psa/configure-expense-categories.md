@@ -55,3 +55,6 @@ Chaque catégorie de dépenses peut avoir son propre groupe d’unités et sa pr
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

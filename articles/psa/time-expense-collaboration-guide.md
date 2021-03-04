@@ -73,3 +73,6 @@ Cliquez sur un lien ci-dessous pour plus d’informations sur ce que vous pouvez
  [Guide du responsable de projet](../psa/account-manager-guide.md)   
  [Guide du responsable de projet](../psa/project-manager-guide.md)   
  [Guide du gestionnaire de ressources](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

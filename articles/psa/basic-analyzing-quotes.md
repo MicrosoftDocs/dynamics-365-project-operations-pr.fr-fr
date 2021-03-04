@@ -60,3 +60,6 @@ Vous pouvez analyser les devis et générer des graphiques pour les exigences cl
 L’analyse des exigences client sur la planification est effectuée en comparant la dernière date de fin de la ligne de détails du devis à la date de livraison demandée dans toutes les lignes de devis du devis.
 
 L’analyse des exigences client sur le budget est effectuée en comparant la somme du budget total du client au montant du devis dans toutes les lignes de devis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

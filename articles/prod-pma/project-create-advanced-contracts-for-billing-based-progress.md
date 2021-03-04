@@ -103,3 +103,6 @@ Les catégories de budget sont utilisées pour calculer automatiquement les mont
 8. Facultatif : affectez la règle de facturation à des projets supplémentaires. Sur le raccourci **Projet** , dans la section **Projets disponibles** , sélectionnez un projet, puis sélectionnez le bouton flèche droite pour ajouter le projet à la section **Projets sélectionnés**.
 9. Facultatif : calculez le pourcentage que le client retient des paiements sur une facture. Sur le raccourci **Conditions de rétention des paiements** , sélectionnez la source de financement, puis, dans le champ **Pourcentage de rétention** , entrez le pourcentage de rétention.
 10. Répétez ces étapes pour créer des règles de facturation supplémentaires pour le contrat de projet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

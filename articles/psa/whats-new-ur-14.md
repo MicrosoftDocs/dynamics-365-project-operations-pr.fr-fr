@@ -64,3 +64,6 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
      - Correction : le prix de vente total n’est calculé que lorsque l’utilisateur entre également un prix de revient pour les estimations de dépenses d’un projet.
      - Correction : la fermeture d’un devis comme **Conclu** échoue si le contrat de projet associé n’est pas à l’état **Brouillon**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

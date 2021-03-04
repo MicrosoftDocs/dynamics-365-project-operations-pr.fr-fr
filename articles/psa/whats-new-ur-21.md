@@ -77,3 +77,6 @@ Les problèmes suivants ont été résolus :
 - La logique **Résolution des tarifs de vente** gère de manière incorrecte les fuseaux horaires, ce qui entraîne la sélection incorrecte des tarifs.
 - Le **Coût réel total** d’un projet peut diminuer d’un montant fractionnaire après l’approbation d’une entrée de temps unique.
 - La logique **Résolution du prix** ne fournit pas de message d’erreur convivial si **Prix du rôle récupéré** n’a pas de valeurs dans les champs **Unité principale** et **Prix dans l’unité principale**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

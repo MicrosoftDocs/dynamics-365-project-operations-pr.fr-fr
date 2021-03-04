@@ -37,3 +37,6 @@ La provision dans Project Operations ne peut pas être utilisée tant qu’elle 
 | --- | --- | --- |
 | Montant disponible | Montant disponible pour être utilisé sur l’enregistrement de provision ou de paiement anticipé. | Tant que le paiement anticipé ou la provision n’est pas facturé, il ne peut pas être utilisé, ce qui signifie que le montant disponible sera nul. |
 | Montant utilisé | Montant disponible qui est déjà utilisé sur la provision ou le paiement anticipé. | Un paiement anticipé ou une provision peut être partiellement rapproché sur une facture avec les coûts réels, dont une partie sera marquée comme déjà utilisée ou consommée. Le reste du montant du paiement anticipé ou de la provision peut être rapproché sur une future facture avec les coûts réels. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

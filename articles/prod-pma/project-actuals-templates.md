@@ -140,3 +140,6 @@ Les illustrations suivantes montrent des exemples de mappage de tâches de modè
 [![Cartographie des modèles - Mise à jour des chiffres réels](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Cartographie des modèles - Mise à jour des transactions](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Vos ressources peuvent utiliser l’application Project Finder Mobile sur leur t
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer les ressources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

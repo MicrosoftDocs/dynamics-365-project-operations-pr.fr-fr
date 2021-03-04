@@ -297,3 +297,6 @@ Sélectionnez un utilisateur (par exemple, Spencer Low) et modifiez les heures d
 
 > [!div class="mx-imgBorder"]
 > ![Capture d’écran de ressources pouvant être réservées actives](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

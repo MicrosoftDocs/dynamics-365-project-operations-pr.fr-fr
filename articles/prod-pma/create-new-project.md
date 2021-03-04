@@ -104,3 +104,6 @@ Lors de la réservation de ressources, les chefs de projet peuvent filtrer les r
 
 3. Cliquez sur **Enregistrer** puis fermez la page.
 4. Sur l’onglet **Compétences** , ajoutez la compétence **ProjectMgmt** et le certificat **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

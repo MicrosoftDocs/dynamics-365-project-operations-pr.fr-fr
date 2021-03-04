@@ -45,3 +45,6 @@ En outre, un rôle par défaut doit être affecté à chaque ressource réservab
 Dans l’onglet **Project Service**, vous pouvez également définir une utilisation cible individuelle pour la ressource. Le calcul de l’utilisation utilise ensuite cette utilisation cible pour évaluer la cible de la ressource au lieu de la cible du rôle par défaut de la ressource.
 
 L’utilisation s’affiche uniquement pour une ressource si cette ressource est approuvée, temps facturable pendant la période affichée dans la grille.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

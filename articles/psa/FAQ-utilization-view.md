@@ -101,3 +101,6 @@ Si vous ne voyez pas d’utilisation facturable, voici ce que vous pouvez vérif
   - Le rôle sur la ligne de contrat du projet soutenant le projet a été défini sur non facturable.
   - Le projet ne dispose pas de ligne de contrat associée.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

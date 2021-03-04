@@ -40,3 +40,6 @@ Le tableau de bord **Gestionnaire des recommandations** offre aux gestionnaires 
 ## <a name="resource-manager"></a>Gestionnaire des ressources 
 
 Le tableau de bord **Gestionnaire des ressources** offre aux gestionnaires des ressources une expérience de tableau de bord graphique pour analyser les demandes de ressources, la demande en ressources et l’utilisation des ressources. Il permet également au gestionnaires des ressources de découper les informations surveillées par tranches selon diverses dimensions.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

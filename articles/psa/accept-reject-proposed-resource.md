@@ -45,3 +45,6 @@ Pour refuser la proposition, cliquez sur **Ressource**.
 ![Accepter une proposition de ressource](media/RM-how-to-20.png) 
 
 Comme pour remplir directement une demande de ressources générique avec une ressource nommée, la ressource générique sera remplacée et les tâches attribuées seront mises à jour avec le membre de l’équipe nommé.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Vous pouvez créer une subvention en saisissant tous les détails dans un nouvel
 2. Sélectionnez la subvention à modifier.
 3. Dans l’onglet **Subvention** du volet Actions, cliquez sur **Modifier** dans le groupe **Mettre à jour**.
 4. Vérifiez les détails de la subvention et apportez les modifications nécessaires.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

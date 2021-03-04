@@ -28,3 +28,6 @@ Les lignes basées sur les produits peuvent être des articles de catalogue ou d
 
 Lorsque la méthode de revenus du récapitulatif de l'opportunité est **Calculé par le système**, les valeurs du budget client sur les lignes d'opportunité sont résumées pour calculer le chiffre d'affaires estimé. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

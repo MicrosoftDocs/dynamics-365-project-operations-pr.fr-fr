@@ -35,3 +35,6 @@ Accédez aux chiffres réels du projet et vérifiez que les coûts et les ventes
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

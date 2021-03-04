@@ -32,3 +32,6 @@ Pour les notes de frais, vous pouvez explorer les informations détaillées d'un
 Pour explorer les détails de la note de frais d'origine sur laquelle une transaction est apparue, sélectionnez la transaction, puis sélectionnez **Document d'origine**.
 
 Lorsque vous affichez des transactions individuelles, vous pouvez également afficher toutes les données supplémentaires associées à une transaction. Par exemple, pour une dépense d'hôtel détaillée, vous pouvez afficher une liste détaillée des dépenses telles que l'accès Internet, les appels téléphoniques et le service d'étage.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Cette rubrique décrit comment créer un modèle de prévision pour les budgets 
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

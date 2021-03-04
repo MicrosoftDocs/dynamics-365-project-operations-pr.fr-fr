@@ -57,3 +57,6 @@ Le volet de filtre affiche les options liées au travail, notamment :
 -   Société d’allocation de ressources
 -   Types de ressources
 -   Ressources privilégiées
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

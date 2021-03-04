@@ -41,3 +41,6 @@ Vous pouvez créer des commandes client basées sur un projet de deux manières�
 - Accédez au projet lui-même. Dans le volet Actions, sélectionnez **Gérer > Tâches d’article > Commande client**. Les informations sur le projet seront par défaut la commande client du projet. Si le contrat de projet a plus d’une source de financement, vous devrez sélectionner la source de financement pour définir le client pour la commande client. S’il n’y a qu’une seule source de financement pour le projet, le client sera automatiquement défini.
 - Accédez à la page de la liste **Toute commande client** et créez une nouvelle commande client. Vous devrez sélectionner le projet pour la commande client. Une fois le projet sélectionné, le client sera défini à partir de la source de financement ou vous devrez sélectionner la source de financement si le contrat de projet comporte plusieurs sources de financement.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

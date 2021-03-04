@@ -65,3 +65,6 @@ Après avoir créé les conditions de rétention pour un fournisseur, vous pouve
 6. Si le projet a également des conditions de paiement au moment du paiement (PWP) définies pour le fournisseur, entrez le pourcentage de seuil pour le projet dans le champ **Pourcentage de seuil PWP**.
 
 Les conditions de rétention du fournisseur sont également affichées sur les bons de commande que vous créez pour le fournisseur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

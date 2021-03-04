@@ -41,3 +41,6 @@ Vous pouvez envoyer un besoin en ressources généré en tant que demande de res
 Le statut de la demande du membre de l’équipe générique passe à **Envoyé**.
 
 Une fois la demande traitée par le gestionnaire de ressources, la ressource générique est remplacée par une ressource nommée si le gestionnaire de ressources traite la demande avec la réservation d’une ressource nommée. Sinon, la ressource générique reste dans l’équipe et le statut de la demande passe à **Révision nécessaire**, si le gestionnaire de ressources a proposé une ressource nommée.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

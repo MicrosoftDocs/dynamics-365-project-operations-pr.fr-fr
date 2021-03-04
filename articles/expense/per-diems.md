@@ -31,3 +31,6 @@ Une indemnité journalière est une allocation versée à un travailleur qui se 
     
 ## <a name="submit-expenses-using-per-diem"></a>Soumettre les dépenses en utilisant les indemnités journalières
 Pour soumettre des dépenses utilisant des indemnités journalières, utilisez la catégorie de dépenses **Indemnités journalières** lorsque vous créez une note de frais. Entrer **Indemnités journalières à partir de la date**, **Indemnités journalières à ce jour** et **Emplacement des indemnités journalières**. Le montant sera calculé en fonction des taux journaliers pour l’emplacement sélectionné et la réduction de repas sera calculée en fonction des niveaux de taux journaliers.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

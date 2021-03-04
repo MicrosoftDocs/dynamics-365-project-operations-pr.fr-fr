@@ -64,3 +64,6 @@ Ajoutez les entités Project Service suivantes à votre solution de tarification
 5.  Lorsque vous êtes invité à inclure des entités dépendantes pour les entités sélectionnées, sélectionnez **Non, ne pas inclure les composants requis.**
 
     ![Inclure des entités dépendantes](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

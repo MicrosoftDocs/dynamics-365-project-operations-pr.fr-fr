@@ -38,3 +38,6 @@ Les attributs suivants sont définis pour chaque poste de dépense :
 - **Prix de revient unitaire** : Prix unitaire utilisé pour calculer le coût de la dépense.
 - **Prix de vente unitaire** : Prix unitaire utilisé pour calculer le prix de vente de la dépense.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

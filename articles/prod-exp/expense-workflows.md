@@ -50,3 +50,6 @@ Le tableau ci-dessous répertorie les types de workflows que vous pouvez créer 
 |      <strong>Demande d’avance de disponibilités</strong>      |         Créez des workflows d’approbation pour les demandes d’avance de fonds.          |
 |        <strong>Recouvrement fiscal de la TVA</strong>        | Créez des workflows d’approbation pour la récupération de la taxe sur la valeur ajoutée (TVA).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

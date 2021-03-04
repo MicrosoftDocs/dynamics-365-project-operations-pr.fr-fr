@@ -56,3 +56,6 @@ Cette tâche utilise le jeu de données USSI.
 21. Dans le champ **Accusé de réception de marchandises** , tapez une valeur.
 22. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

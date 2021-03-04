@@ -52,3 +52,6 @@ Les rubriques suivantes fournissent des informations qui aideront les chefs de p
 - [Modèles de projet](project-templates.md)
 - [Phases du projet](project-stages.md)
 - [Paramètres du projet](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Avant de pouvoir commencer le processus de configuration, les décisions suivant
 
     - Certaines des sous-catégories sont-elles exclues du recouvrement fiscal ?
     - Quel est le groupe de taxe d’article des sous-catégories ?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

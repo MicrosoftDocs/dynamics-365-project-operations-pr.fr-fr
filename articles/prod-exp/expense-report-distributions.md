@@ -37,3 +37,6 @@ Parce que Geneviève a travaillé sur deux projets distincts pendant qu'elle ét
 |Hôtel         |725 EUR              |557 EUR                        |168 EUR                          |
 |Repas         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

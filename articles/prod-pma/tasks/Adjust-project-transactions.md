@@ -44,3 +44,6 @@ Ce guide des tâches vous montre comment ajuster une transaction sur un projet. 
 13. Dans la liste, marquez la ligne sélectionnée. 
 14. Dans le champ Prix de revient, tapez un numéro. 
 15. Cliquez sur Valider. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

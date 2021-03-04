@@ -67,3 +67,6 @@ Lorsque l’utilisateur choisit de synthétiser par classe de transaction, caté
 | Tâche A | Billets d’avion | 10/1/2020 | 4 | 400 | 1600 |
 | Tâche B | Hôtel | 10/1/2020 | 4 | 200 | 800 |
 | Tâche C | Hôtel | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

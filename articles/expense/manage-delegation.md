@@ -39,3 +39,6 @@ Si la clé de gestion des fonctionnalités **Activer la page de liste des délé
 Un délégué peut rapidement filtrer et rechercher sur les notes de frais existantes qui lui ont été déléguées. Le délégué peut également créer rapidement une note de frais pour les autres utilisateurs en sélectionnant **Nouvelle note de frais**.
 
 Les délégués peuvent créer et gérer des notes de frais pour d’autres employés en accédant à **Gestion des dépenses** > **Mes dépenses** > **Notes de frais** et en sélectionnant **Ouvrir les dépenses des autres utilisateurs**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

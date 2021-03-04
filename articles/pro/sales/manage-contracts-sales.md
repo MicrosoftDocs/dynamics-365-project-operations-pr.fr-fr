@@ -33,3 +33,6 @@ Une liste de tous les contrats de projet peut être consultée sur la page de li
 2. Sélectionnez le **Commutateur de vue** (la flèche déroulante à côté du nom de la vue) pour sélectionner d’autres vues filtrées. Vous pouvez créer vos propres vues à l’aide de critères de filtre personnalisés.
 
 Les contrats peuvent être créés ou supprimés à partir de cette page de liste ou des pages de détails.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

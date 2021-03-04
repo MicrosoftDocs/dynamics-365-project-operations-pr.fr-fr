@@ -49,3 +49,6 @@ Pour créer une planification de projet, créez un modèle de calendrier de proj
 8. Dans la boîte de dialogue **Modèle de travail**, entrez le nom pour le modèle de travail, puis sélectionnez **Appliquer**. 
 
 Vous pouvez désormais associer le modèle de travail à un modèle de calendrier de projet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

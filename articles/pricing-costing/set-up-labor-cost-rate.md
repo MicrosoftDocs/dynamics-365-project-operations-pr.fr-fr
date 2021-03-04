@@ -84,3 +84,6 @@ Dans le tarif des prix de revient de Fabrikam Royaume-Uni - Robotique, les tarif
 | Developer | Fabrikam Royaume-Uni | 115 GBP |
 
 Le tarif des prix de revient peut fournir des taux de main-d’œuvre dans plusieurs devises. Lors de la génération d’une estimation des coûts sur le projet, Project Operations convertira ces taux de coûts dans la devise du projet et les affichera à l’utilisateur. Lorsqu’une entrée de temps est approuvée et que les chiffres réels du coût sont créés, les chiffres réels du coût sont évalués dans la devise de cette ligne de prix de rôle correspondante dans le tarif des prix de revient. Les chiffres réels du coût pour le temps sur un même projet peuvent être enregistrés dans plusieurs devises. Cependant, lors du report ou de la synthèse des chiffres réels des coûts de main-d’œuvre au niveau du projet, Project Operations convertira tous les montants des coûts de main-d’œuvre dans la devise du projet, que l’utilisateur peut afficher.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

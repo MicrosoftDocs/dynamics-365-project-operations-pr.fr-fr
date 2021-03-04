@@ -72,3 +72,6 @@ Lorsque Arnie est prêt à envoyer les données des notes de frais au fournisseu
 Arnie doit vérifier que les transactions des notes de frais sont éligibles à la récupération de la TVA et que les reçus numériques sont joints aux notes. Pour commencer à traiter les dépenses éligibles pour le recouvrement national, Arnie ouvre la page **Récupération de la taxe sur les dépenses** et sélectionne la note de frais à vérifier. Il vérifie que les reçus sont au nom de l’entreprise et non de l’employé. Pour la récupération de la TVA, les reçus doivent être au nom de la société. Arnie confirme ensuite que le groupe de taxe de vente et les codes de taxe de vente d'article corrects ont été appliqués.
 
 Lorsque Arnie reçoit les reçus papier, il change le statut de la note de frais en **Prêt pour la récupération**. Il peut ensuite déposer la déclaration auprès de l’administration fiscale appropriée. Dans ce cas, l'autorité fiscale compétente aux États-Unis est l'IRS (Internal Revenue Service).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

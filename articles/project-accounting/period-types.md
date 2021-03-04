@@ -34,3 +34,6 @@ Pour créer et utiliser des types de période, procédez comme suit :
 4. Sélectionnez l'enregistrement de type de période, puis sélectionnez **Générer des périodes** pour créer des périodes pour le type de période. En fonction de la fréquence de période que vous avez sélectionnée, vous avez la possibilité de spécifier une date de début ou le nombre de périodes à générer.
 5. Sélectionnez **Périodes** pour revoir les périodes générées.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

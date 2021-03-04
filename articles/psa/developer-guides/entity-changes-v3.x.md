@@ -84,3 +84,6 @@ Les ressources web suivantes ont été rendues obsolètes :
 > Pour obtenir la liste complète des ressources obsolètes, consultez [Ressources web obsolètes dans Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

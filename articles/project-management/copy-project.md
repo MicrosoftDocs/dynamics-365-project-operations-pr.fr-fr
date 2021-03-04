@@ -61,3 +61,6 @@ Lorsqu’une équipe de projet est copiée à partir du projet source, les resso
 Lorsque le projet est copié, les lignes d’estimation des ressources et des dépenses sont copiées à partir du projet source. 
 
 Pour plus d’informations sur l’accès par programme à Copier le projet, voir [Développer des modèles de projet avec Copier le projet](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

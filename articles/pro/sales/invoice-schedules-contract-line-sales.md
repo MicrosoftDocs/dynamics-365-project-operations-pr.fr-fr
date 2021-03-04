@@ -74,3 +74,6 @@ Les jalons à prix fixe peuvent être générés manuellement lorsqu’ils ne so
 | Taxes | Création rapide | Le montant de la taxe appliqué sur le jalon. | Ceci est inclus dans le jalon de la ligne de contrat de projet et la facture. |
 
 4. Sélectionnez **Enregistrer et fermer**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

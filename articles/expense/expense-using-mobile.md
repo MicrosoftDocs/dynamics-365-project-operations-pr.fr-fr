@@ -236,3 +236,6 @@ Téléchargez et installez l’application mobile Dynamics 365 Unified Ops :
 22. Sélectionnez **Soumettre**.
 23. Saisissez des commentaires pour l’approbateur.
 24. Cliquez sur **Terminé**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

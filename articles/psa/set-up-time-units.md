@@ -47,3 +47,6 @@ Configurez les unités de temps dans le catalogue de produits que vous utilisere
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

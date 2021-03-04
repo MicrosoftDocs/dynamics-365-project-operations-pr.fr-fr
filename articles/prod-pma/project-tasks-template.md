@@ -83,3 +83,6 @@ Si vous devez utiliser Power Query, suivez ces instructions :
 L’illustration suivante montre un exemple de mappage de tâches de modèle dans l’intégration de données. Le mappage affiche les informations de champ qui seront synchronisées de Project Service Automation vers Finance.
 
 [![Cartographie des modèles](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

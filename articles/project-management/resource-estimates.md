@@ -34,3 +34,6 @@ Les prix de vente sont appliqués une fois par transaction. La hiérarchie des t
 1. Organisation
 2. Client
 3. Devis/contrat
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

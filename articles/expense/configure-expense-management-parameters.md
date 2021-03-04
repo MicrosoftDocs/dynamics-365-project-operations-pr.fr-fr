@@ -83,3 +83,6 @@ Cette rubrique décrit les paramètres qui contrôlent le comportement général
 | Afficher l’attestation anti-corruption   | Sélectionnez cette option pour afficher le texte anti-corruption lors de la création d’une note de frais. Des catégories de dépenses spécifiques peuvent alors être activées, ce qui nécessitera que l’attestation anti-corruption soit sélectionnée sur la note de frais. Par exemple, une catégorie de cadeau liée à une dépense officielle du gouvernement peut exiger que l’employé confirme que la dépense respecte la politique de l’entreprise relative aux fonctionnaires. |
 | Message anti-corruption pour l’expéditeur | Saisissez le texte qui doit être présenté à un employé qui crée une note de frais. Pour saisir un texte spécifique à la langue qui sera affiché, en fonction de la langue de l’utilisateur, sélectionnez **Traductions**. |
 | Message anti-corruption pour l’approbateur  | Saisissez le texte qui doit être présenté à l’approbateur lorsqu’une note de frais est créée. Pour saisir un texte spécifique à la langue qui sera affiché, en fonction de la langue de l’utilisateur, sélectionnez **Traductions**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

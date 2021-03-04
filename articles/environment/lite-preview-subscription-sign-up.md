@@ -91,3 +91,6 @@ Répétez les mêmes étapes que pour le premier code d’offre. Assurez-vous d�
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installez une configuration CDS et des données de démonstration de configuration
 
 Installez la configuration CDS et configurez les données de démonstration en suivant les instructions de la rubrique [Appliquer la configuration de démonstration et les données de configuration](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

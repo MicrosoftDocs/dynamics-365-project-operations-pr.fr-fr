@@ -59,3 +59,6 @@ Sur un contrat de projet, l’ordre suivant de priorité est utilisé pour défi
 Lorsque des tarifs de projet sont entrés par défaut, le système valide le fait que la devise corresponde à la devise client, et que les tarifs par défaut entrés ont un contexte de **Ventes**.
 
 Vous pouvez associer plusieurs tarifs de projet aux entités Client, Opportunité, Devis et Contrat du projet. Cette fonctionnalité prend en charge les prix par défaut spécifiques à une date dans un contrat de projet à long terme, où vous pouvez nécessiter plusieurs tarifs pour tenir compte des mises à jour des prix qui se produisent en raison de l’inflation. Toutefois, si les tarifs que vous associez à l’entité Client, Opportunité, Devis ou Contrat du projet ont une validité de date se chevauchant, les prix par défaut peuvent être incorrects. Par conséquent, vous devez vous assurer que les tarifs de projet qui ont une validité de dates se chevauchant ne sont pas associés à ces entités.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

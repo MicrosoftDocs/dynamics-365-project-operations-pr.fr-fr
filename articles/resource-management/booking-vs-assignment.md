@@ -26,3 +26,6 @@ Contrairement aux réservations, les affectations désignent l’engagement de r
 En règle générale, la somme des réservations pour une ressource est égale à la somme des affectations de la ressource sur une ou plusieurs tâches. Toutefois, Project Operations n’applique pas cette mise en correspondance. La vue **Rapprochement** affiche au chef de projet des emplacements où les réservations et les affectations d’une ressource ne correspondent pas.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

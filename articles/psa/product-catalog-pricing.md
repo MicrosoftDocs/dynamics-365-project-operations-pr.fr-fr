@@ -64,3 +64,6 @@ Les entités Opportunité, Devis et Contrat de projet utilisent l’ordre suivan
 Par défaut, le champ **Produit** sur la ligne de devis liste tous les produits actifs dans les tarifs de produits du devis. Si un produit a été désactivé, ou s’il s’agit d’un brouillon de produit, il n’est pas répertorié, même s’il est dans les tarifs. 
 
 Les lignes du catalogue de produits sont ajoutées en tant que lignes de facture dans la première facture créée pour un contrat de projet. Dans un brouillon de facture, ces lignes de facture peuvent être supprimées. Dans ce cas, les lignes s’afficheront sur une facture suivante jusqu’à ce qu’elles soient facturées, ou jusqu’à ce que la facture soit envoyée au client. Dans PSA, vous ne pouvez pas facturer une quantité partielle d’une ligne de facture de produit. Lorsque les lignes de produits du contrat du projet sont facturées, les chiffres réels sont créés. Toutefois, ces chiffres réels ne sont pas liés à l’entité de projet associée. En d’autres termes, les lignes du contrat du projet basé sur un produit sont indépendantes de toute utilisation basée sur un projet. PSA n’effectue pas le suivi de consommation de matériaux sur les projets.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

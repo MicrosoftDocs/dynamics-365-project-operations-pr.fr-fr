@@ -62,3 +62,6 @@ Android est compatible avec Platform update 16, une fois cette dernière dispon
 13. Facultatif : Saisissez des lignes de feuille de temps supplémentaires.
 
 14. Après avoir terminé la saisie des lignes de la feuille de temps, sélectionnez l’action **Workflow** \> **Soumettre** pour envoyer votre feuille de temps au processus d’approbation de workflow.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

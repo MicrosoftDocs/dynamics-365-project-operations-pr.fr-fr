@@ -344,3 +344,6 @@ Si vous avez des affectations de tâches pour une ressource mais aucune réserva
 ![Boîte de dialogue Étendre la réservation](media/Resource-Management-image58.png)
 
 Le chef de projet ou le gestionnaire de ressources peut ensuite utiliser le Tableau de planification pour gérer tous les cas où une ressource est surréservée au-delà de sa capacité.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ Les champs suivants des coûts et ventes planifiés, réels et restants sont inc
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

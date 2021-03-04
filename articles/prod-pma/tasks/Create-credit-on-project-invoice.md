@@ -39,3 +39,6 @@ ms.locfileid: "4075717"
 10. Cliquez sur OK. 
 
 À l’issue de cette étape, l’avoir est disponible pour la proposition de facture.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

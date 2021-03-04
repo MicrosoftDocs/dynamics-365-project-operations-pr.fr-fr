@@ -132,3 +132,6 @@ Vous devez utiliser les validations de plug-in pour les validations nécessitant
 
 > [!IMPORTANT] 
 > Actuellement, un problème connu sur les pages de TBX empêche les utilisateurs de corriger les informations et de resélectionner Terminé en cas d’échec de la mise à jour d’une validation de plug-in. Une solution de contournement consiste à configurer les validations de règle métier pour éviter cette situation autant que possible.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Le tableau suivant répertorie les mises à jour de la version 4.5.0.134 de Proj
 | Temps et dépenses | 2034882 | Le bouton **Nouveau** s'affiche deux fois sur la barre de commande pour les entrées de temps lorsque Dynamics 365 Field Service est installé. |
 | Temps et dépenses | 2056028 | Mettrez à jour la page **Modifier l'heure** pour inclure la chronologie. |
 | Temps et dépenses | 1983747 | Le graphique d'entrées de temps affiche des données supplémentaires. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

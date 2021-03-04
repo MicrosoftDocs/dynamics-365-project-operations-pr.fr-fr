@@ -160,3 +160,6 @@ En créant des politiques de notes de frais, vous pouvez aider votre organisatio
 - Quand la politique expire-t-elle ?
 - Quelle est la règle de la politique ?
 - Quel est le résultat de la règle de la politique ?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

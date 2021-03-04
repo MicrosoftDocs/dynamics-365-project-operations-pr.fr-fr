@@ -46,3 +46,6 @@ Pour créer des facteurs de quantité à partir des propriétés du produit, pro
 7. Répétez les étapes 2 à 6 pour toutes les propriétés qui, ensemble, constitueront la quantité de la ligne de contrat basée sur les produits.
 
 Avec la configuration des facteurs de quantité, lorsque l’utilisateur crée une ligne de contrat pour ce produit, la quantité de la ligne de contrat est verrouillée. La quantité est ensuite calculée comme un produit des valeurs de propriété pour cette ligne de contrat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

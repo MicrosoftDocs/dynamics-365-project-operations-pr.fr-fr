@@ -43,3 +43,6 @@ Pour créer des devis et facturer vos clients dans le [!INCLUDE[pn_project_servi
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

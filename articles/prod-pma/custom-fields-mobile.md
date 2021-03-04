@@ -429,3 +429,6 @@ La saisie d’une catégorie de projet par défaut sur les entrées de feuille d
 1. L’application tente de mettre la catégorie par défaut à partir de la ressource de projet. Cette catégorie par défaut est définie dans les méthodes **getCurrentUserResource** et **getDelegatedResourcesForCurrentUser** dans la classe **TSTimesheetSettingsService**.
 2. Si la catégorie par défaut n’est pas fournie au niveau des ressources du projet, l’application essaie de l’extraire de l’activité du projet. Cette catégorie par défaut est définie dans la méthode **getActivitiesForProject** dans la classe **TSTimesheetProjectService**.
 3. Si la catégorie par défaut n’est pas fournie au niveau des activités du projet, la catégorie par défaut est extraite des paramètres du projet. Cette catégorie par défaut est définie dans la méthode **getProjectDetailsbyRule** dans la classe **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

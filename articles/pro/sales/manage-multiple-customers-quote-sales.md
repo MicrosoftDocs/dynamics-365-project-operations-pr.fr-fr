@@ -52,3 +52,6 @@ Un client de devis peut être créé, mis à jour ou supprimé de l’onglet **C
 Vous pouvez modifier les pourcentages de facturation fractionnée à l’aide de l’expérience de modification de grille en ligne. Lorsque les pourcentages de facturation fractionnée ne totalisent pas 100 %, une erreur se produit. Après avoir mis à jour les pourcentages de facturation fractionnée, actualisez la page pour supprimer l’erreur.
 
 Vous pouvez également essayer de sélectionner **Répartition homogène** dans la sous-grille des clients de devis. Cette action attribue des fractionnements de facturation à tous les clients de devis. S’il y a un facteur d’arrondi, il sera ajouté au client d’arrondi. L’un des clients du devis est toujours identifié comme le client arrondi. cela signifie que l’enregistrement client du devis a l’indicateur **Arrondi** défini sur **Oui**. Il s’agit généralement du client principal du devis, mais cela peut être modifié.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

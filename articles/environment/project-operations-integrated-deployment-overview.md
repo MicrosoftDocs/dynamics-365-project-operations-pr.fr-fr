@@ -43,3 +43,6 @@ Ce déploiement doit être choisi si Project Operations doit être utilisé dan
 - Nécessite un moteur de taxe de vente et de taux de change complet et professionnel pour générer des factures destinées aux clients pour les projets.
 - Un système de comptabilité de projet et de constatation du produit conforme aux Normes de comptabilité IFRS (International Financial Reporting Standards).
 - Applications Finance ou Supply Chain Management et intégration de transactions basées sur des projets.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

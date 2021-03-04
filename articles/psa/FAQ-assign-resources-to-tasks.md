@@ -82,3 +82,6 @@ Les ressources attribuées ainsi sont ajoutées à l’équipe sans aucune rése
 
 3. Sélectionnez la ressource que vous souhaitez attribuer à la tâche.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

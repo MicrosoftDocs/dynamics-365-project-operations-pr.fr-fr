@@ -273,3 +273,6 @@ Un chiffre d’affaires facturé réel pour la ligne de produits avec la quantit
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

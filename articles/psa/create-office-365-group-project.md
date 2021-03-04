@@ -43,3 +43,6 @@ Fournissez un espace où les membres de l’équipe d’un projet peuvent collab
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

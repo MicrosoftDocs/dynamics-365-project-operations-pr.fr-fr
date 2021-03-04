@@ -32,3 +32,6 @@ Les planification de provisions sont configurées dans la page **Contrat de proj
 | Nombre de provisions à créer | Lorsque vous saisissez le nombre de provisions à créer, le système utilise la date de début et la fréquence pour générer le nombre dans ce champ. | Lorsque ce champ est mis à jour manuellement, le système ignore la valeur du champ **Fin de la planification de provisions** et la remplace par le nombre spécifique de provisions ou d’avances. |
 | Fréquence de facture | Il s’agit de la fréquence à laquelle l’application créera des provisions et des avances. | Cette valeur a un impact direct sur le nombre de provisions et d’avances et les dates de création. |
 | Montant total | Le montant total est le montant qui est fractionné en paiements des provisions individuelles ou des avances qui seront créés. | Il n’y a pas d’impact en aval pour ce champ. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

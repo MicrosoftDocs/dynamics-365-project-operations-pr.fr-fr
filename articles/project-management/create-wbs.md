@@ -116,3 +116,6 @@ Le mode de tâche n’a aucun impact sur les mises à jour apportées aux dates 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Raccourcis clavier et accessibilité
 
 La grille **Planification** est entièrement accessible et peut être utilisée avec des lecteurs d’écran, tels que Narrateur, JAWS ou NVDA. Vous pouvez vous déplacer dans la zone de la grille à l’aide des flèches (comme dans Microsoft Excel), vous pouvez utiliser la touche Tabulation pour avancer dans les éléments d’interface utilisateur interactifs, et vous pouvez utiliser flèche vers le bas, la touche Entrée ou la barre d’espace pour sélectionner et ouvrir les menus déroulants.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

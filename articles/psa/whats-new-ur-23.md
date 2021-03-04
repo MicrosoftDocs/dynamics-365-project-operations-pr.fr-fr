@@ -67,3 +67,6 @@ Les problèmes suivants ont été résolus :
 Les problèmes suivants ont été résolus :
 
 - Le fait de double-cliquer sur **Récupérer toutes les catégories de transactions** crée plusieurs lignes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

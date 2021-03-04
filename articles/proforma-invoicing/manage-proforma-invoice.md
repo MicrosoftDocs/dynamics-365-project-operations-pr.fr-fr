@@ -135,3 +135,6 @@ Si des chiffres réels sont arrivés après la création de la facture, vous pou
 2. Ouvrez le brouillon de facture pro forma et, sur le ruban **Actions**, cliquez sur **Actualiser les transactions de ligne de facture**.
 
   Cette action crée des détails de ligne de facture pour tout chiffre réel daté dans le passé et marqué comme **Prêt pour la facturation** ; mais ils ne sont pas inclus dans la facture.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

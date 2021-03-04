@@ -48,3 +48,6 @@ Vous trouverez ci-dessous un résumé des champs qui peuvent être mis à jour s
 - **Statut général du projet** : Intégrité globale du projet fournie par le chef de projet.
 - **Commentaires** : Récit concernant l’intégrité actuelle du projet fourni par le chef de projet.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

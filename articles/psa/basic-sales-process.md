@@ -93,3 +93,6 @@ Dans PSA, vous ne pouvez pas suivre les modifications apportées à un devis. À
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Suivi des commentaires et des approbations de devis et de contrats de projet
 Vous pouvez gérer la révision et l’approbation des devis et des contrats de projet à l’aide du mur d’enregistrement et des publications. Votre organisation peut créer des workflows et des plug-ins personnalisés pour attribuer, rediriger, réaffecter et gérer les notifications de révision et d’approbation des éléments de travail.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

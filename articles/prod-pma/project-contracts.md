@@ -344,3 +344,6 @@ Au cours du premier mois, un total de 800 heures est enregistré par les consul
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

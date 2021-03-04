@@ -106,3 +106,6 @@ Lorsque vous développez la ligne pour cet enregistrement de membre de l'équipe
 ### <a name="estimates-grid"></a>Grille des estimations 
 
 Sur la grille **Estimations**, les deux affectations pour la même ressource sont tarifées différemment. L’affectation de la ressource sur la **Tâche A** est tarifée en utilisant la valeur d’attribut **Rôle** de **Chargé de conseil**. L’affectation de la même ressource sur la **Tâche B** est tarifée en utilisant la valeur d’attribut **Rôle** de **Technicien réseau**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

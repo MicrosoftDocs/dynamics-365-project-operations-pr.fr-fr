@@ -71,3 +71,6 @@ Les tarifs reposent sur les catégories de rôles et de dépenses donc, avant de
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

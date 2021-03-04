@@ -124,3 +124,6 @@ L’illustration suivante montre un exemple de mappage de tâches de modèle dan
 > Le mappage affiche les informations de champ qui seront synchronisées de Project Service Automation vers Finance.
 
 [![Mappage du modèle Project Service Automation vers Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

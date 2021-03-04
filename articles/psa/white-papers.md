@@ -45,3 +45,6 @@ Ces livres blancs sont conçus pour fournir des informations détaillées pour [
 
 ### <a name="see-also"></a>Voir aussi
  [Vue d’ensemble de Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

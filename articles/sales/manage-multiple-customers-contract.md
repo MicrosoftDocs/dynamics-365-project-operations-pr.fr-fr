@@ -47,3 +47,6 @@ Vous pouvez créer, mettre à jour ou supprimer un client de contrat depuis l'on
 Vous pouvez modifier les pourcentages de fractionnement de facturation dans la grille. Si le total des pourcentages de fractionnement de la facturation n'est pas égal à 100 %, une erreur se produit. Après avoir modifié les pourcentages de fractionnement d'une facturation, actualisez la page **Contrat de projet** pour supprimer l'erreur.
 
 Vous pouvez également sélectionner **Répartition homogène** dans la sous-grille des clients du contrat de projet. Les pourcentages de facturation sont répartis de manière homogène sur tous les clients du contrat du projet. S'il existe une valeur d'arrondi, elle sera ajoutée au client d'arrondi. L'un des clients du contrat a toujours l'indicateur **Arrondi** défini sur **Oui**. Ce client est le client arrondi. En règle générale, le client arrondi est également le client principal du contrat, mais ce n'est pas obligatoire.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

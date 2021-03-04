@@ -75,3 +75,6 @@ Une fois les tâches précédentes terminées, vous pouvez effectuer les tâches
 - Répondez aux demandes de ressources.
 - Demandez une ressource en personnel à une structure de répartition du travail.
 - Réservez des ressources pour un projet sans avoir de demande de ressource en personnel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

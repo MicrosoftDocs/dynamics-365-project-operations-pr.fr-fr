@@ -144,3 +144,6 @@ Si des chiffres réels sont arrivés après la création de la facture, vous pou
 Dans Project Operations, vous pouvez créer des lignes de facture pour des produits qui ne s’appliquent à aucun projet ou pour tous les projets avec des lignes de facture basées sur le projet. Ces lignes de facture sont créées en tant que lignes de contrat basées sur les produits et une fois marquées comme prêtes pour la facturation, elles sont ajoutées en tant que lignes de factures basées sur les produits.
 
 Une fois des lignes de facture basées sur les produits ajoutées, elles ne sont plus modifiables. Elles peuvent, toutefois, être supprimées de la facture pro forma en mode brouillon.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

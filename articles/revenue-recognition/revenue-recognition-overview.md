@@ -60,3 +60,6 @@ Dans Dynamics 365 Project Operations, les principes de constatation du produit v
 [Gérer les estimations de revenus](rev-rec-completed-contract-method.md)
 
 [Coût pour compléter les méthodes](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

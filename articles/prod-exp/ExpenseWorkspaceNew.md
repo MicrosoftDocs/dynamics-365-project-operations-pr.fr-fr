@@ -78,3 +78,6 @@ Les fonctionnalités suivantes sont présentes sur la page existante mais ne son
 - Workflow au niveau de la ligne
 - Prise en charge provisoire des approbateurs
 - Répartition avancée
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

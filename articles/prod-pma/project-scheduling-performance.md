@@ -69,3 +69,6 @@ Pour activer l’amélioration des performances de planification des ressources,
 
 > [!NOTE]
 > Cela distribuera des données générales à la table **ResRollup** dans toutes les entreprises de votre environnement, de sorte que le traitement par lots ne doive être exécuté que dans une seule entité juridique. Ce traitement par lots est nécessaire pour toutes les vues **Disponibilité des ressources**. Si ce traitement par lots n’est pas exécuté, les données **ResRollup** seront générées à la volée, ce qui peut prendre du temps.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

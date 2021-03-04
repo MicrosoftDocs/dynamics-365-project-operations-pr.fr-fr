@@ -127,3 +127,6 @@ Pour créer une nouvelle structure de répartition du travail à l’aide de Mic
 8.  Sélectionnez le **Calendrier** à utiliser pour l’allocation des ressources.
 
 11. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

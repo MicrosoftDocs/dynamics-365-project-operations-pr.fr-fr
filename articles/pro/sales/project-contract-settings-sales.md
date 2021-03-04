@@ -57,3 +57,6 @@ Les indicateurs suivants sont disponibles dans l’onglet **Performance du contr
 | Coût engagé | Lignes basées sur le produit | Somme de tous les chiffres réels de coût enregistrés pour la ligne de contrat basée sur un produit. |
 | Marge brute | Lignes selon le projet | Montant facturé - Coût engagé à ce jour / Montant facturé |
 | Marge prévue | Lignes basées sur le produit | (Valeur de la ligne de contrat - Coûts estimés de la ligne de contrat) / Valeur de la ligne de contrat |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

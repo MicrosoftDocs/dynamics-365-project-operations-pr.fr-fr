@@ -63,3 +63,6 @@ Lorsque vous créez et soumettez une note de frais pour l'avance de fonds que vo
 ### <a name="example"></a>Exemple
 Vous prévoyez de vous rendre de Seattle à New York pour une conférence. Vous créez une demande d'avance de fonds pour 3 000,00 USD en fonction du coût estimé du billet de conférence, des vols, de l'hôtel, des repas et du taxi. Vous ne serez payé que si votre responsable approuve cette demande. Une fois que votre responsable l’a approuvée, l’avance de fonds demandée est payée d’un montant de 3 000,00 USD sur votre compte bancaire. Vous assistez ensuite à la conférence. Après avoir terminé votre voyage, vous constatez que la dépense totale n’était que de 2 790,00 USD. Sélectionnez **En espèces** dans le champ **Mode de paiement** et soumettez vos dépenses pour 2 790,00 USD. Le montant de vos dépenses soumis est automatiquement ajusté par rapport à l’avance de fonds de 3 000,00 USD qui vous a été prêtée. Vous devez maintenant un solde de 210,00 USD (3 000,00 - 2 790,00), que vous pouvez restituer à l'entreprise en utilisant la catégorie de dépense **Retour en espèces**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

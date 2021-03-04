@@ -44,3 +44,6 @@ Les rubriques suivantes fournissent plus d’informations sur les fonctionnalit�
 - [Groupes d’unités et unités](advanced-units.md)
 - [Devise à plusieurs unités](advanced-currency.md)
 - [Enregistrement des chiffres réels](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

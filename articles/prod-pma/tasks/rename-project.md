@@ -35,3 +35,6 @@ Les étapes du projet peuvent servir de guide pour le cycle de vie du projet. Vo
 4. Dans la liste, sélectionnez l’étape définie par l’utilisateur ou prédéfinie que vous souhaitez modifier. 
 5. Dans le champ Étape de projet, saisissez le nouveau nom.
 6. Cliquez sur Enregistrer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Une fois que vous avez examiné les rubriques précédemment mentionnées et que
 
 > [!NOTE]
 > Pour optimiser l’expérience lorsque vous utilisez les anciennes versions des applications Field Service et PSA, accédez à la page **Paramètres système** et pour le champ, **Utiliser uniquement la nouvelle Unified Interface (recommandé)**, sélectionnez **Non**, car ces versions ne sont pas conçues pour être chargées correctement dans UCI. Après avoir désactivé UCI, vous pouvez ouvrir et exécuter ces versions de Field Service et de PSA en utilisant l’ancien client Web. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Un client de contrat peut être créé, mis à jour ou supprimé depuis l’ongl
 Les pourcentages de fractionnement de la facturation peuvent être modifiés en utilisant la modification de la grille en ligne. Si le total des pourcentages de fractionnement de la facturation n’est pas égal à 100 %, vous recevrez un message d’erreur. Après avoir modifié les pourcentages de fractionnement de la facturation, actualisez la page pour annuler l’erreur.
 
 Vous pouvez également sélectionner **Répartition homogène** dans la sous-grille **Clients du contrat** pour répartir les fractionnements de la facturation de façon homogène entre tous les clients du contrat. S’il existe une valeur d’arrondi, elle sera ajoutée au client d’arrondi. Un des clients de contrat est toujours identifié comme client d’**arrondi**, ce qui signifie que l’enregistrement de ce client du contrat est marqué de l’indicateur d’arrondi défini sur **Oui**. En règle générale, il s’agit du client principal du contrat, mais cela peut également être modifié.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

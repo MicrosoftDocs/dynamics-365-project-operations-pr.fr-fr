@@ -61,3 +61,6 @@ Vous pouvez créer plusieurs factures intersociétés en même temps pour toutes
 ## <a name="post-the-intercompany-vendor-invoice"></a>Valider la facture fournisseur intersociétés
 
 Un comptable de projet de l'entité juridique emprunteuse peut consulter les factures fournisseur intersociétés en attente lorsque la facture client intersociétés correspondante est validée. Dans Finance, dans l'entité juridique emprunteuse, accédez à **Comptabilité fournisseur** > **Factures** > **Facture fournisseur en attente**. Le numéro de facture en attente correspondra au numéro de facture client intersociétés. Vérifiez que la facture est correcte, puis validez la facture. La validation d'une facture fournisseur intersociétés crée des transactions comptables et auxiliaires qui reflètent les coûts de transaction dans l'entité juridique emprunteuse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

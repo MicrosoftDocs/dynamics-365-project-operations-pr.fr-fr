@@ -64,3 +64,6 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
 
     -   Résolu : Lorsque les utilisateurs passent de 2.X à 3.X, les projets avec une valeur NULL pour le nom du projet seront autorisés.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

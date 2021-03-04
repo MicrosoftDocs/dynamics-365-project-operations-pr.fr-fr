@@ -26,3 +26,6 @@ Pour plus d’informations sur les correctifs inclus dans cette mise à jour, co
 ## <a name="regulatory-updates"></a>Mises à jour réglementaires
 
 Pour plus d’informations sur les mises à jour réglementaires pour les applications Dynamics 365 Finance and Operations, consultez [Mises à jour réglementaires](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

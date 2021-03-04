@@ -51,3 +51,6 @@ Chaque entité juridique utilisant Project Operations sur Dynamics 365 Customer 
   - **Valeurs par défaut du type de facturation** : Project Operations utilise un ensemble fixe de valeurs par défaut du type de facturation qui doivent être mappées aux propriétés de ligne Finance. Créez un enregistrement pour chaque type de facturation : **Non spécifié**, **Facturable**, **Non facturable**, **Gratuit** et **Non disponible**.
   - **Valeurs par défaut de la catégorie de projet** : sélectionnez les catégories de projet par défaut à utiliser pour chaque type de transaction. Ces valeurs par défaut seront utilisées dans le **Journal d’intégration de Project Operations** et dans les estimations où aucune catégorie de transaction n’est spécifiée pour les chiffres réels du projet.
   - **Prévisions** : sélectionnez le modèle de prévision à utiliser pour les estimations de temps et de dépenses.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

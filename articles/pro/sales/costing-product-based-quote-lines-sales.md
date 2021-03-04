@@ -33,3 +33,6 @@ Par exemple :
 Fabrikam Robotics installe des bras robotiques dans les chaînes de montage d’A Datum Corporation. Fabrikam fournit des services d’installation mais les bras robotiques sont fournis par Trey Robotics. Si l’installation de bras robotiques chez A Datum Corporation ouvre un nouveau secteur vertical pour les bras robotiques de Trey, Trey pourrait accorder une remise spéciale pour cet accord à Fabrikam.
 
 Dans ce cas, Fabrikam créera une ligne de devis basée sur le produit pour Robotic Arms et saisira un coût unitaire spécial pour ce devis. Ce coût est différent du coût standard des bras robotiques Trey.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

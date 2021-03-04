@@ -113,3 +113,6 @@ Molly Clark, développeuse employée chez GBPM enregistre 10 heures de travail 
     - Crédit : Projet - Produit à recevoir 120 USD
 
     Le système est maintenant prêt à créer une facture client intersociétés.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Le diagramme suivant illustre la facturation intersociétés en ce qui concerne 
 - [Configurer la facturation intersociétés](configure-intercompany-invoicing.md)
 - [Enregistrer des transactions intersociétés](create-intercompany-transactions.md)
 - [Créer des factures clients et fournisseurs intersociétés](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

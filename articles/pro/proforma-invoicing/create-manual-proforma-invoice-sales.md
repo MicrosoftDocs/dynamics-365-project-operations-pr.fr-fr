@@ -35,3 +35,6 @@ Toutes les factures de projet créées sont disponibles sur la page **Facture** 
 Une facture pro forma peut également être créée à partir de la page de détails **Contrat de projet**. Le système vérifie si le contrat de projet dispose d’un backlog **Prêt pour la facturation** daté d’avant la date du jour. À partir de ces contrats, le système crée des factures pro forma provisoires en fonction du nombre de clients sur chaque ligne de contrat.
 
 Lorsqu’une seule facture pro forma est créée, la page **Facture** s’ouvre. Si plusieurs factures ont été créées pour le contrat de projet concerné, la page de liste **Factures** s’ouvre pour afficher toutes les factures créées.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

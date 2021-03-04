@@ -124,3 +124,6 @@ Par exemple, s’il existe les propriétés suivantes :
 - **SKU produit** 
 
 Les propriétés **Nombre d’utilisateurs** et **Nombre de mois** peuvent être marquées comme facteurs de quantité en modifiant les propriétés de la ligne de produit. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

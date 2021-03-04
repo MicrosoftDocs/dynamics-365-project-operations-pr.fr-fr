@@ -72,3 +72,6 @@ Le processus d’entreprise prospect-opportunité prend en charge les phases sui
 | Développer | Opportunité | Développez l’opportunité pour ajouter plus d’informations sur le travail impliqué, les principales parties prenantes et la concurrence. |
 | Proposer | Opportunité | Développez la proposition et obtenez l’approbation de l’équipe de vérification interne. |
 | Fermer | Opportunité | Concluez l’opportunité pour fermer la transaction. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

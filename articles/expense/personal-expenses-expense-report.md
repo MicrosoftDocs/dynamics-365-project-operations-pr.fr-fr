@@ -28,3 +28,6 @@ Il existe deux méthodes que vous pouvez utiliser pour gérer les dépenses pers
   - **Payé par l'entreprise** : Votre organisation paie la totalité de la facture de la carte de crédit d'entreprise, puis débite le compte du travailleur pour les dépenses personnelles.
 
 Vous pouvez sélectionner la méthode que votre organisation utilise sur la page **Paramètres de gestion des dépenses**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

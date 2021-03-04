@@ -40,3 +40,6 @@ Si le devis de projet fermé comme Perdu fait référence à un projet sur l'une
 
 > [!NOTE]
 > Dans Project Operations, la fermeture d’un devis comme conclu ou perdu n’aura aucune incidence sur ce statut de l’opportunité, qui restera ouverte jusqu’à ce qu’elle soit fermée manuellement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

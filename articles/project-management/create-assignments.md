@@ -42,3 +42,6 @@ Vous pouvez utiliser la zone de recherche dans le **Sélecteur de ressource** af
 1. À partir de la grille des tâches, du tableau ou de la chronologie, accédez à la cellule **Affecté à**.
 2. Dans la zone de recherche, commencez à saisir un nom. Les résultats de la recherche sur le nom s’affichent dans le **Sélecteur de ressource** sous **Autres ressources**.
 3. Sélectionnez la ressource que vous souhaitez affecter à la tâche ou sélectionnez le nom de la ressource sous **Autres ressources d’équipe**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

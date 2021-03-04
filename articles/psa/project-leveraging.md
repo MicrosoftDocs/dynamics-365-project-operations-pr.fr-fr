@@ -54,3 +54,6 @@ Vous pouvez définir des estimations des efforts et de la planification de trava
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importation d’estimations depuis un projet dans un devis
 
 Après avoir défini des estimations de projet, vous pouvez les importer dans la ligne de devis. Dans la page **Détails de la ligne de devis**, sélectionnez **Importer à partir des estimations** sur le ruban pour synthétiser les estimations du projet selon le type de transaction, le rôle ou le niveau de tâche.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

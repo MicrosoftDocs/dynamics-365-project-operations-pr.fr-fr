@@ -32,3 +32,6 @@ Dans Dynamics 365 Project Service Automation version 3.0, les vues Temps et dé
 Auparavant, les vues Calendrier et grille pour le temps et les dépenses étaient implementées en tant que contrôles DHTMLX. Les artefacts associés à cette implémentation des vues Calendrier et grille sont désormais obsolètes (déconseillés).
 
 Pour obtenir la liste complète des ressources déconseillées, consultez [Ressources Web déconseillées dans Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Une liste de tous les devis de projet peut être consultée sur la page de liste
 2. Utilisez le **Commutateur de vue** pour sélectionner d’autres vues filtrées de devis. À l’aide de critères de filtre personnalisés, vous pouvez configurer vos propres vues et options de navigation.
 
 Les devis peuvent être créés ou supprimés à partir de cette page de liste ou des pages de détails.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Votre organisation peut exiger la soumission d’une demande de déplacement ava
 Les demandes et les politiques de déplacement peuvent être utilisées pour aider à contrôler les budgets. Par exemple, si votre organisation travaille sur un projet à prix fixe qui nécessite des déplacements, les frais de déplacement des membres de l'équipe du projet doivent s'inscrire dans le budget du projet. En exigeant que les frais de déplacement soient approuvés avant qu’ils ne soient engagés, l’organisation peut aider à s’assurer que le projet respecte le budget.
 
 Vous pouvez définir des politiques pour les demandes de déplacement dans la page **Demande de déplacement**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

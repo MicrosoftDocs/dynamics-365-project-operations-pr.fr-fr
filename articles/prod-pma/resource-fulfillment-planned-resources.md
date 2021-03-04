@@ -40,3 +40,6 @@ Un chef de projet peut planifier les rôles de ressources requis pour un projet.
 7. Sélectionnez un employé, puis **Attribuer**.
 8. Vérifiez que la ligne pour **Développeur logiciel 1** a été supprimée pour le projet **Projet de mise à niveau XYZ Phase 2**.
 9. Sur l’onglet **Équipe de projet et planification** , pour le projet **Mise à niveau XYZ Phase 2** , vérifiez que l’employé que vous avez sélectionné à l’étape précédente a été ajouté en tant que **Développeur de logiciels**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

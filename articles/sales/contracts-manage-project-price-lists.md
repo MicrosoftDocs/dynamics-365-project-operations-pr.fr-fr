@@ -72,3 +72,6 @@ Vous pouvez également configurer des tarifs de projet spécifiques pour des cli
 ## <a name="custom-pricing-on-a-project-contract"></a>Tarification personnalisée sur un contrat de projet
 
 Une fois que vous disposez de tarifs de projet par défaut pour l’organisation et spécifiques au client, vos contrats de projet sont créés automatiquement avec ces associations de tarifs de projet. Cependant, les tarifs de projet sur un contrat de projet sont toujours copiés avec la date et le nom du contrat qui leur sont ajoutés. Les gestionnaires de compte et de projet peuvent alors commencer à modifier les prix de ces copies. Ces prix modifiés s’appliqueront à ce contrat de projet uniquement.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

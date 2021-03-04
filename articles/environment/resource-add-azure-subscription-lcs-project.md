@@ -70,3 +70,6 @@ L’autorisation est maintenant terminée.
 Vous avez connecté avec succès votre abonnement Azure. Vous pouvez maintenant déployer environnements hébergés dans le cloud Dynamics 365 Finance.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

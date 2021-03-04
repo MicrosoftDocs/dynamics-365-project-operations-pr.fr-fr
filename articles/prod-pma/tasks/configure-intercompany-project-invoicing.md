@@ -64,3 +64,6 @@ Cette rubrique présente comment configurer la facturation des projets entre deu
 32. Dans le champ **Tarification** , saisissez un nombre.
 33. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

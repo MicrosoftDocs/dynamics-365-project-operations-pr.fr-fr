@@ -41,3 +41,6 @@ Si vous décidez d’exiger plusieurs approbateurs de notes de frais, vous pouve
 
     1. Le responsable de l’employé approuve la note de frais.
     2. Le responsable du budget approuve la note de frais.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

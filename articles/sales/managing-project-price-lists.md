@@ -120,3 +120,6 @@ Comme les taux de factures, les taux de coûts pour les ressources humaines sont
     1. La liste de prix de revient qui est jointe à l’unité d’organisation.
     2. La liste de prix de revient qui est jointe aux paramètres de Project Operations. Étant donné que les listes de prix de revient dans plusieurs devises différentes peuvent être attachées aux paramètres, une correspondance de devise est effectuée entre la devise de l’unité d’organisation contractuelle du projet, du contrat ou du devis, et la devise de la liste de prix de revient.
     3. Pour les dépenses, les modes de tarification À prix coûtant et Majoration du coût ne s’appliquent pas aux listes de prix de revient. Même si ces modes de tarification sont utilisés sur la liste de prix de revient pour configurer les coûts des catégories de transactions, le système les ignore, et aucun prix de revient par défaut n’est entré.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Si la configuration du prix pour la catégorie de dépenses n’est pas valide, 
 Si vous ne voyez toujours pas de prix valide sur votre chiffre réel des ventes de dépenses après avoir effectué les trois vérifications ci-dessus, entrez un ticket du support technique.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

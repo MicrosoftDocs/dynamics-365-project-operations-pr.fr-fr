@@ -76,3 +76,6 @@ Cela ouvre la page **Nouveau nom du champ Dimension de tarification** pour **msd
 5. Ajoutez **msdyn_projectteam** au champ **Nom logique de l’entité** et **msdyn_bookableresourceid** au champ **Nom du champ**. Enregistrez l’enregistrement.
 
  ![Formulaire Nouveau nom de champ Dimension de tarification](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

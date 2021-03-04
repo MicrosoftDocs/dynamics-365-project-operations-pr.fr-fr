@@ -79,3 +79,6 @@ Ce processus peut prendre quelques minutes. Vous devriez recevoir un message de 
 18. Fermez la session de bureau à distance et utilisez la page **Détails de l’environnement** de LCS pour vous connecter à l’environnement pour confirmer qu’il fonctionne comme prévu.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Vous pouvez également dissocier des tâches de projet aux lignes de devis de l�
 
 >[!NOTE]
 > Cette procédure ne supprime pas la tâche du projet. Elle supprime uniquement l’association de tâche de la ligne de devis basée sur le projet.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

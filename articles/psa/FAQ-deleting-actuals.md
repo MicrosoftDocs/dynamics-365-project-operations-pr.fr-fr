@@ -33,3 +33,6 @@ ms.locfileid: "5148955"
 
 Project Service Automation (PSA) ne vous permet pas de supprimer des chiffres réels, car ils servent de source fiable pour les transactions qui ont des implications financières à des systèmes en aval, tels que la comptabilité. Si les chiffres réels pouvaient être supprimés, l’intégrité des transactions de génération de rapports financiers pourrait être remise en cause. Pour établir un journal d’audit, les clients doivent utiliser des journaux pour créer des transactions de compensation.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

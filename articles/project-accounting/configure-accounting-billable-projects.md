@@ -125,3 +125,6 @@ Prix fixe – pourcentage d’achèvement
 Les règles de profil de coût et de revenu du projet déterminent le profil de coût et de revenu du projet qui doit être utilisé lors du traitement des transactions de projet facturables. Définissez les règles en accédant à **Gestion de projets et comptabilité** \> **Configurer** \> **Validation** \> **Règles de profil de coût et de revenu du projet**.
 
 Les règles peuvent être définies par contrat de projet, groupe de projet ou par projet spécifique. Le système choisira toujours en premier la règle de granularité la plus élevée.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

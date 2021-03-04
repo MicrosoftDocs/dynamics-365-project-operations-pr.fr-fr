@@ -144,3 +144,6 @@ Utilisez les validations de plug-in pour les validations nécessitant plus de co
 
 ### <a name="copying-time-entries"></a>Copie des entrées des temps
 Utilisez la vue **Copier les colonnes de saisie de l’heure** pour définir la liste des champs à copier lors de la saisie de l’heure. **Date** et **Durée** sont des champs obligatoires et ne doivent pas être supprimés de la vue.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

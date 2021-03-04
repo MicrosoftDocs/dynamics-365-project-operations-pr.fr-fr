@@ -440,3 +440,6 @@ Une fois l’instruction calculée, vous pouvez afficher les informations suivan
 -   **Consommation**  : les informations sur la consommation d’heures, d’articles, de dépenses et de transactions de paie.
 -   **Facture**  : les informations sur les factures et la facturation en compte.
 -   **Taux horaire**  : les taux horaires des heures qui sont imputés aux comptes de revenus et de coûts.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Les problèmes suivants ont été résolus :
 - Amélioration de la gestion des erreurs pour résoudre les exceptions de référence null générées à partir de **Copier le projet : Gestion des estimations HelperResource**.
 - **Non prêt pour la facturation** sur une **Réplication de facturation pour le temps et le matériel** n’efface pas le statut de facturation.
 - Correction de l’étiquetage des boutons **Prix** dans les onglets **Prix du rôle** et **Articles de catalogue**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

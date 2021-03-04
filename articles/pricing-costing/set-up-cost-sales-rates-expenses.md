@@ -55,3 +55,6 @@ Lorsque ce mode de tarification est sélectionné sur la ligne de prix de catég
 
 ### <a name="markup-over-cost"></a>Majoration du coût
 Lorsque ce mode de tarification est sélectionné sur la ligne de prix de catégorie qui est liée à un tarif de vente, le prix est défini par défaut pour la combinaison de catégorie et d’unité uniquement pour un chiffre réel de dépenses. Par exemple, les chiffres réels de ventes non facturés pour la classe de transaction de dépenses. Ce prix unitaire est défini sur les chiffres réels de ventes non facturés à une valeur calculée à partir du prix unitaire sur les chiffres réels de coût pour cette dépense après l’application du pourcentage de majoration défini. La définition du prix par défaut basé sur le coût n’est pas effectuée sur les estimations de projet pour les dépenses ou sur les détails de la ligne de devis et de la ligne de contrat pour les dépenses.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

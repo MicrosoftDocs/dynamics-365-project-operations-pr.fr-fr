@@ -68,3 +68,6 @@ Une fois que la fonctionnalité d’extension de réservation a été utilisée 
 Notez qu’un examen plus approfondi des détails des réservations montre des différences dans l’heure de début des réservations. Les réservations commencent au plus tôt à l’heure de début du contour d’affectation et au plus tôt à l’heure de début disponible de la ressource.
 
 ![Nouvelles réservations des ressources dans le tableau de planification](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

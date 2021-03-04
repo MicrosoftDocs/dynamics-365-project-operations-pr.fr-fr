@@ -53,3 +53,6 @@ Pour configurer les compétences d’un employé, vous pouvez utiliser la liste 
 5. Dans le champ **Date du niveau** , sélectionnez **14/01/2014**.
 6. Dans le champ **Années d’expérience** , saisissez  **10**.
 7. Cliquez sur **Enregistrer** puis fermez la page.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

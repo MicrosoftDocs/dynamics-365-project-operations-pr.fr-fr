@@ -41,3 +41,6 @@ Les ressources sont l’actif le plus important d’une organisation basée sur 
 - [Besoins en réservations temporaires](resource-management-softbook-requirements.md)
 - [Modèles de qualifications et de compétences](resource-management-skills-proficiency.md)
 - [FAQ sur la gestion des ressources.](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

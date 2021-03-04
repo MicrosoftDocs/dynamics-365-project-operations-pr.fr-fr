@@ -68,3 +68,6 @@ La **vue Rapprochement** permet au responsable de projet d’afficher les réser
 > [!NOTE]
 > Si vous déplacez une tâche dont vous avez défini le cadre vous-même, ces cadres ne sont pas conservés. Les cadres sont régénérés selon le calendrier du projet pour tenir compte des modifications apportées aux heures ouvrées et aux jours non ouvrés. Ceci est intentionnel, car le système ne connaît pas l’intention du cadre d’origine et ne peut pas déterminer s’il est logique de conserver ce cadre dans une nouvelle période. Du fait que certaines réservations ou attributions sont déconnectées, les réservations conservent les cadres de réservation initiaux. Dans ce cas, vous devrez annuler et réserver à nouveau un nouveau cadre d’attribution.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

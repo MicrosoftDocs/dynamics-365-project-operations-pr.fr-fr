@@ -55,3 +55,6 @@ Seuls les attributs comptables suivants peuvent être mis à jour dans les ligne
 Les lignes de journal d’intégration peuvent être supprimées, mais toutes les lignes non publiées seront à nouveau insérées dans le journal une fois que vous aurez réexécuté le processus périodique **Importer depuis la table intermédiaire**.
 
 Lorsque vous publiez le journal d’intégration, des transactions auxiliaires et de comptabilité sont créées. Ces dernières sont utilisées dans la facturation client en aval, la constatation du produit et les rapports financiers.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

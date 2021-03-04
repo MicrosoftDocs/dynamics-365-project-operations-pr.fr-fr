@@ -98,3 +98,6 @@ Lorsque vous traitez les montants budgétaires restants, vous pouvez créer des 
 5. Pour chaque projet que vous souhaitez traiter, sélectionnez l'option au début de la ligne du projet. 
 6. Sélectionnez **Traiter** pour transférer les montants budgétaires restants pour les projets sélectionnés vers le exercice sélectionné.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

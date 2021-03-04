@@ -35,3 +35,6 @@ Si le contrat de projet qui est fermé parce que considéré perdu fait référe
 
 > [!NOTE]
 > Dans Dynamics 365 Project Operations, la clôture d’un contrat de projet comme perdu n’aura pas d’impact sur ce statut de l’opportunité associée. L’opportunité restera ouverte et doit être fermée manuellement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

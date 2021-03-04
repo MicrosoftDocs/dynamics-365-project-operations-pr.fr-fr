@@ -81,3 +81,6 @@ Si vous utilisez la prévision de projet, vous pouvez identifier les modèles co
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

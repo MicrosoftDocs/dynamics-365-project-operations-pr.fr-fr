@@ -90,3 +90,6 @@ L'estimation fait passer le statut à **Éliminé**.
 Utilisez cette page pour inverser toutes les éliminations avec une date d'estimation spécifiée et avec le statut d'estimation **Éliminé**. Le statut de la transaction change une fois que vous avez sélectionné les champs appropriés.
 
 Cela change définit également automatiquement le projet sur le statut **En cours** si l'étape du projet est définie comme terminée. Le statut de l'estimation de la période du projet repasse au statut **Validé**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

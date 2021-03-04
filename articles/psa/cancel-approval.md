@@ -62,3 +62,6 @@ Un projet est également affecté financièrement lorsqu’une approbation est a
 Ensuite, des entrées de contrepassation sont créées dans la table Chiffres réels. Pour créer des entrées de contrepassation, le système copie sur les valeurs de champ les chiffres réels initiaux. Les seules valeurs qui ne sont pas copiées sont les valeurs de quantité. Ces valeurs sont contrepassées à la place. Les chiffres réels contrepassés sont définis pour les chiffres réels **Coût** et **Ventes non facturées**. Le champ **Statut de l’ajustement** sur les chiffres réels contrepassés est défini sur **Non ajustable**, et le statut de facturation sur **Annulé**.
 
 Une fois ces modifications effectuées, le montant enregistré comme dépensé dans le projet et l’arriéré de revenu du projet ne compteront plus dans les montants que ces chiffres réels représentent.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

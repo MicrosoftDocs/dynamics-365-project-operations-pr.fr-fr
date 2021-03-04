@@ -43,3 +43,6 @@ Sélectionnez ce type de déploiement pour utiliser Dynamics 365 Project Opera
 - Un moteur de taxe de vente et de taux de change professionnel pour générer des factures destinées aux clients pour les projets.
 - Un système de comptabilité de projet et de constatation du produit conforme aux Normes de comptabilité IFRS (International Financial Reporting Standards).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Le calendrier ne prend pas en charge les actions sur les éléments de calendrie
 ## <a name="extensibility"></a>Extensibilité 
 
 Dans la page **Entrées de temps** contenant la grille d’entrée de temps, vous pouvez ajouter des champs personnalisés, configurer des champs de recherche et créer des vues personnalisées. Vous pouvez également définir une logique métier personnalisée qui est basée sur les valeurs sélectionnées ou entrées dans les champs personnalisés.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

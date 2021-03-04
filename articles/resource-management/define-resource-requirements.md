@@ -26,3 +26,5 @@ Les besoins en ressources sont définis par le chef de projet pour établir les 
 3.  Dans l’onglet **Membre de l’équipe**, sélectionnez le membre de l’équipe, puis **Générer un besoin**.
 
 Pour plus d’informations sur la modification des besoins en ressources, voir [Mettre à jour les détails des besoins en ressources](define-resource-requirements.md) pour modifier les besoins en ressources.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

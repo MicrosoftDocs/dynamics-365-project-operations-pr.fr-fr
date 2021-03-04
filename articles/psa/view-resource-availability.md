@@ -48,3 +48,6 @@ Vous pouvez afficher la disponibilité des ressources afin d’avoir une vue glo
 
 ### <a name="see-also"></a>Voir aussi  
  [Guide du gestionnaire de ressources](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

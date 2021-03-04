@@ -68,3 +68,6 @@ Ouvrez la ligne de devis à prix fixe où vous devez créer un jalon. Sous l’o
 | Statut de la facture | Création rapide | Lorsqu’un jalon est créé, ce statut est toujours défini sur **Non prêt pour la facturation**. | Ceci est propagé au jalon de la ligne de contrat de projet et à la facture. |
 | Montant de la ligne | Création rapide | Montant ou valeur du jalon qui sera facturé au client. | Ceci est propagé au jalon de la ligne de contrat de projet et à la facture. |
 | Taxes | Création rapide | Montant de taxe qui sera appliqué au jalon. | Ceci est propagé au jalon de la ligne de contrat de projet et à la facture. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

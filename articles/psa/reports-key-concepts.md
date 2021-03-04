@@ -48,3 +48,6 @@ Le tableau suivant définit les concepts clés utilisés dans l’application Dy
 | Profil                    | Tâche, besoin, ou heures d’attribution, car elles sont décomposés en répartition quotidienne. Par exemple, une tâche de cinq jours, 40 heures, peut être profilée en huit heures par jour pendant cinq jours. |
 | Vue Rapprochement        | Vue qui affiche les réservations et les affectations pour chaque membre de l’équipe du projet. Cette vue permet au chef de projet de rechercher une différence entre les réservations ou les attributions, et de prendre des mesures correctives si une différence se produit. |
 | Heures de travail                 | Entité qui est utilisée pour identifier la capacité de la ressource, et les heures chômées et non chômées. Cette entité est également appelée le calendrier de ressources. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Télécharger et installer l’application mobile Finance and Operations :
 11. Sélectionnez la propriété de ligne.
 12. Facultatif : saisissez des commentaires externes et internes.
 13. Cliquez sur **Terminé**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Comme Dynamics 365 Project Service Automation utilise le moteur Universal Resour
 Pour afficher plus de détails sur une ressource spécifique, cliquez dessus avec le bouton droit pour ouvrir la carte de ressource.
 
 ![Carte de ressource](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

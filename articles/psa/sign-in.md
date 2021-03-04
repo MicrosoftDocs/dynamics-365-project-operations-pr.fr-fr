@@ -56,3 +56,6 @@ Lorsque vous vous connectez aux applications Dynamics 365, vous devez obtenir le
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

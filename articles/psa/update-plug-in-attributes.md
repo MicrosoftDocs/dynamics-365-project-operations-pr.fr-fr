@@ -68,3 +68,6 @@ Les étapes suivantes vous guident tout au long du processus d’enregistrement 
 
 9. Fermez Plug-in Registration Tool.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

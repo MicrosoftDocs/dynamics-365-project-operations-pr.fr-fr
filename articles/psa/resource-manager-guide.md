@@ -73,3 +73,6 @@ Les fonctionnalités [!INCLUDE[pn_project_service_auto](../includes/pn-project-s
  [Guide du responsable de projet](../psa/account-manager-guide.md)   
  [Guide du responsable de projet](../psa/project-manager-guide.md)   
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

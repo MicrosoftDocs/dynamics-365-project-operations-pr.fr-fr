@@ -96,3 +96,6 @@ Cliquez sur **Soumettre** pour envoyer la feuille de temps au workflow d’appro
 ## <a name="review-timesheets"></a>Consulter les feuilles de temps
 
 Une liste des feuilles de temps à consulter est disponible dans le menu. Cette option n’est disponible que si vous avez été désigné comme approbateur de workflow. Les approbations d’en-tête et de ligne sont prises en charge. L’approbation au niveau de la ligne offre la possibilité de marquer une ou plusieurs lignes pour approbation. Après avoir examiné les informations de la feuille de temps, cliquez sur **Approuver** , **Déléguer** ou **Retour** pour continuer le workflow.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Les problèmes suivants ont été résolus :
 - Les clients peuvent constater une dégradation des performances lors de la création d’un projet, car **GetBookableResourceIdFromUser** récupère toutes les colonnes de ressources réservables au lieu de l’ID principal.
 - L’entité **TransactionType** ne dispose pas du plug-in de mise à jour avant validation qui empêche les utilisateurs d’entrer **Units** et **UnitGroups** qui ne sont pas valides pour les types de transaction.
 - L’étape **Supprimer** ne fonctionne pas pour l’importation d’entrées de temps.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

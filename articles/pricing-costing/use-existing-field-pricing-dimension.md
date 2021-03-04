@@ -31,3 +31,6 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 L’entité **Chiffres réels** comporte de nombreux champs qui peuvent être utilisés comme dimensions de tarification pour la tarification basée sur les ressources. Par exemple, un champ courant est **Ressource réservable**. Les petites entreprises qui ont moins de 20 à 30 ressources facturables peuvent estimer qu’il est plus simple d’avoir des taux de facturation et de coût spécifiques à chaque ressource. Toutefois, avec l’augmentation de la main d’œuvre facturable, la mise à jour des taux spécifiques aux ressources peut devenir beaucoup trop complexe. Le coût des ressources et les taux de facturation commencent à varier à mesure que les ressources sont promues, acquièrent plus d’expérience ou acquièrent un ensemble différent de compétences. 
 
 Un autre exemple est le champ Catégorie de transaction. Les clients et les responsables de l’implémentation utilisent la catégorie de transaction pour classer le travail et utilisent le champ pour évaluer le prix et le coût selon la catégorie de travail.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

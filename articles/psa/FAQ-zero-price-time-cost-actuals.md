@@ -66,3 +66,6 @@ Si vous ne voyez toujours pas de prix valide sur votre chiffre réel du coût de
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ La définition de la priorité de la dimension aide à produire un prix même lo
 
 - **Priorité des coûts** : la valeur de la priorité des coûts d’une dimension indique le poids de cette dimension lors de la mise en correspondance avec la configuration des prix de revient. La valeur de **Priorité des coûts** doit être unique dans les dimensions **applicables aux coûts**.
 - **Priorité des ventes** : la valeur de la priorité des ventes d’une dimension indique le poids de cette dimension lors de la mise en correspondance avec la configuration des prix de vente ou des taux de facturation. La valeur de **Priorité des ventes** doit être unique dans les dimensions **applicables aux ventes**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

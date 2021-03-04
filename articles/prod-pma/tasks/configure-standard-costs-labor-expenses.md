@@ -54,3 +54,6 @@ Cette rubrique explique comment configurer les coûts standard de la main-d’œ
 22. Dans le champ **Tarification** , saisissez un nombre. Le prix de vente réel, qui est appliqué lorsqu’un employé saisit des transactions dans le journal des dépenses, correspond au prix de vente avec le niveau de détail le plus élevé. Par exemple, si un prix de vente général et un prix de vente spécifique à l’employé sont définis, le prix de vente spécifique à l’employé est utilisé.  
 23. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

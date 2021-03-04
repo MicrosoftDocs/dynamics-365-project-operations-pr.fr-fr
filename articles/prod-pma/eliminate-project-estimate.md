@@ -51,3 +51,6 @@ Pour éliminer un projet d'estimation, il doit être complet. Les étapes suivan
 5. Une fois le processus d'élimination terminé, le projet d'estimation éliminé est affiché avec une valeur négative. 
 
 Si vous n'aviez pas l'intention d'éliminer une estimation, vous pouvez sélectionner l'estimation éliminée, puis **Élimination inverse**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

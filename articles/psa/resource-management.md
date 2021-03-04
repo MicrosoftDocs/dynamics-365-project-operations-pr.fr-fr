@@ -53,3 +53,6 @@ Vous pouvez doter votre projet en personnel avec une équipe de ressources gén�
 - [Réserver des ressources nommées à partir des besoins en ressources.](book-named-resource.md)
 - [Envoyer une demande de ressource](submit-resource-request.md)
 - [Accepter ou rejeter une ressource de projet proposée à partir d’une demande de ressource](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Ce message d'erreur indique que des enregistrements de prix ont été précédem
 
 Lorsque vous désactivez la valeur **Titre standard** comme dimension de tarification et que le moteur de tarification de Project Service recherche un prix, il utilise uniquement la valeur **Unité d'organisation** dans le contexte d'entrée. Si la valeur **Unité d’organisation** du contexte d’entrée est « Contoso US », le résultat n’est pas déterministe car les deux lignes correspondent. Pour éviter ce scénario, lorsque vous créez des enregistrements **Prix du rôle**, Project Service valide que la combinaison de dimensions est unique. Si la dimension est désactivée après la création des enregistrements **Prix du rôle**, cette contrainte peut être enfreinte. Par conséquent, avant de désactiver une dimension, il est nécessaire de supprimer toutes les lignes **Prix du rôle** et **Majoration du prix du rôle** pour lesquelles cette valeur de dimension est renseignée.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

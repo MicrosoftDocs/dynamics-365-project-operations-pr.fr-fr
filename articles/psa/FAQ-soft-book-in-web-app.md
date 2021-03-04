@@ -87,3 +87,6 @@ Lorsque vous êtes prêt à passer une ressource de membre d’équipe réservé
 2. Lorsque le tableau de planification s’ouvre, développez la ressource pour afficher ses réservations. Vous verrez la réservation marquée comme Temporaire.
 3. Cliquez avec le bouton droit sur la réservation, sous Modifier le statut, sélectionnez Réservation ferme, puis Ferme. Le statut de la réservation est à présent Ferme.
 4. Après avoir fermé le tableau de planification, vous verrez que les heures de la ressource sont passées de Temporaire à Ferme dans la grille du membre de l’équipe. Vous pouvez désormais attribuer la ressource aux tâches (si les heures de réservation ferme coïncident avec les heures de travail de la tâche à l’attribution). Notez que si vous avez suivi les étapes d’exécution de la ressource générique dans l’élément n° 3 ci-dessus, lorsque vous modifiez le statut de la ressources réservable réservée temporairement à fermement, le membre de l’équipe générique est supprimé de l’équipe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

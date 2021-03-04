@@ -34,3 +34,6 @@ Le tableau suivant inclut les champs d’une opportunité basée sur un projet q
 | Unité contractuelle | Onglet Général | Unité d’organisation responsable de la livraison du ou des projets associés à cette transaction. | L’unité contractuelle est la division de l’entreprise qui terminera les projets après la conclusion de la transaction. Chaque unité contractuelle dispose d’une devise, et cette devise est utilisée pour déclarer les coûts estimés et réels engagés pendant le projet. |
 
 Pour tous les autres champs et sections de l’onglet **Résumé** de l’opportunité, voir [Créer ou modifier des opportunités (Ventes et Centre des ventes)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

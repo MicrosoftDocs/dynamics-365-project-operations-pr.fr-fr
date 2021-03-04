@@ -65,3 +65,6 @@ Le processus de vente Opportunité dans Project Operations est une extension du 
 > Si votre transaction basée sur un projet a démarré avec une Opportunité, le processus de vente Opportunité est prioritaire.
 
 Vous pouvez modifier le flux des processus d’entreprise du produit ou créer vos propres flux des processus d’entreprise pour suivre votre processus de vente selon les besoins. Pour plus d’informations sur le flux des processus d’entreprise, voir [Vue d’ensemble des flux de processus d’entreprise](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

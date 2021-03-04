@@ -43,3 +43,6 @@ Définissez des catégories de transaction pour définir un sur-ensemble de cat�
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

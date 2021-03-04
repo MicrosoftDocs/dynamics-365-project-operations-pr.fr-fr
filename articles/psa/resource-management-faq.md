@@ -54,3 +54,6 @@ Une fois les ressources réservées, sélectionnez **Gérer les réservations** 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Quelle est la différence entre une attribution et une réservation ?
 
 Les attributions sont l’attribution de ressources aux tâches d’un projet dans la planification du projet. Les ressources peuvent être des ressources réelles ou des ressources génériques. Les réservations sont l’allocation ferme ou provisoire des ressources sur un projet. Les réservations fermes consomment la capacité d’une ressource. Idéalement, pour les ressources réelles, les réservations et les affectations doivent correspondre, car elles ne peuvent pas différer. Toutefois, PSA n’applique pas cette mise en correspondance. La vue Rapprochement affiche à un chef de projet des emplacements où les réservations et les affectations d’une ressource ne correspondent pas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

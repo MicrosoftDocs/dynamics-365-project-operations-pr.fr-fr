@@ -67,3 +67,6 @@ La devise du détail de la ligne de devis pour les coûts par défaut provient d
 Les calculs de rentabilité convertissent le montant des détails de la ligne de devis pour le coût et les ventes dans la devise de base de l’environnement pour indiquer la marge globale estimée sur le devis.
 
 Cela pourrait entraîner des erreurs d’arrondi des devises et une modification des marges en raison de l’absence de taux de change effectifs de date. Utilisez ces calculs sur les devis du projet uniquement comme approximations et non comme des chiffre réels statutaires ou les autres états qui nécessitent une plus grande précision d’arrondi et une connaissance de la date d’entrée en vigueur pour les taux de change.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Lorsque vous confirmez une facture corrective, le chiffre réel facturé d’ori
 
 - Un chiffre réel de vente facturée de six heures.
 - Un chiffre réel de ventes non facturées de deux heures restantes. Cette transaction peut être facturée ultérieurement ou marquée comme non facturable, selon les négociations avec le client.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

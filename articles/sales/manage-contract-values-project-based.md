@@ -57,3 +57,6 @@ Règle : un projet et une certaine classe de transaction ne peuvent être inclu
 | C1       | CL2           | P1      | No           | Oui             | No          | Valide           | Le temps et les frais du projet P1 sont inclus sur CL1. Les dépenses du projet P1 sont incluses sur CL2. </br>   Il n’y a pas de chevauchement dans ce qui est inclus sur chaque ligne de contrat et cela est donc valide.  |
 | C1       | CL1           | P1      | Oui          | Oui             | Oui         | Non valide       | Viole la règle. Le temps, les dépenses et les frais du projet P1 sont inclus sur les lignes de deux contrats.                                                                                               |
 | CL2      | CL2           | P1      | Oui          | Oui             | Oui         | Non valide       | Viole la règle. Le temps, les dépenses et les frais du projet P1 sont inclus sur les lignes de deux contrats.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Le tableau suivant affiche les champs sur l’enregistrement de client de la lig
 Vous pouvez modifier les pourcentages de facturation fractionnée en ligne. Lorsque les pourcentages de facturation fractionnée ne totalisent pas 100 %, une erreur se produit. Après avoir modifié les pourcentages de facturation fractionnée, actualisez la page de ligne de devis pour supprimer l’erreur.
 
 Utilisez l’action de répartition homogène sur la sous-grille des clients de la ligne de devis pour attribuer des facturations fractionnées à tous les clients de la ligne de devis. S’il y a un facteur d’arrondi, il sera ajouté au client d’arrondi. L’un des clients de la ligne de devis est toujours marqué comme client d’arrondi, ce qui signifie que l’enregistrement de client de la ligne de devis a l’indicateur d’arrondi défini sur **Oui**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

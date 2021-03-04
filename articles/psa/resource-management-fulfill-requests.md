@@ -46,3 +46,6 @@ L’Assistant Planifier s’affiche et est filtré selon les besoins. Sélection
 > ![Ressource sélectionnée](media/Resource-Management-image61.png)
 
 Le membre de l’équipe générique est remplacé par la ressource nommée réservée de manière ferme sur l’équipe du projet et les affectations de tâches dans la planification du projet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

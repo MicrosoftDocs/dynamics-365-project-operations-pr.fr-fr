@@ -43,3 +43,6 @@ Vous pouvez vérifier l’utilisation des ressources pour déterminer les niveau
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du gestionnaire de ressources](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

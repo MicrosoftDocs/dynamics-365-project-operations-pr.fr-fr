@@ -123,3 +123,6 @@ Lorsque vous utilisez l’entité **Chiffre réel**, il est important de bien co
 L’entité **Origine de la transaction** enregistre l’origine de l’enregistrement **Chiffre réel**, et l’entité **Connexion de la transaction** enregistre les enregistrements associés de l’enregistrement **Chiffre réel**. En outre, l’enregistrement **Chiffre réel** contient des références au projet, au contrat du projet (commande), aux ressources réservables, et au client.
 
 ![Diagramme affichant la connexion, l’origine et les relations réelles de la transaction](media/PS-Reporting-image6.png "Diagramme affichant la connexion, l’origine et les relations réelles de la transaction")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

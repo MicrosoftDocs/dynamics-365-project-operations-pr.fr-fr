@@ -24,3 +24,6 @@ Les opportunités de projet peuvent être fermées comme « conclues » ou »
 Vous ne serez pas autorisé à fermer l’opportunité si des devis actifs y sont associés. Vous pouvez fermer tous les devis actifs et en projet associés à une opportunité en même temps. Ensuite, vous serez autorisé à fermer l’opportunité.
 
 Pour plus d’informations générales sur la fermeture des opportunités, voir [Fermer des opportunités comme conclues ou perdues](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

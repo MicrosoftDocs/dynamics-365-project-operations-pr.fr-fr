@@ -30,3 +30,6 @@ Lorsqu'une ligne de contrat basée sur un produit est créée pour un produit de
 Avoir un coût unitaire sur une ligne de contrat basée sur un produit permet des coûts différents pour un produit pour chaque vente. Bien que cela ne soit pas toujours nécessaire, il existe certains scénarios dans lesquels le coût du produit peut être réduit pour le client par le fournisseur. Prenons l’exemple du scénario suivant :
 
 Fabrikam Robotics installe des bras robotiques dans les chaînes de montage d’Adatum Corporation. Fabrikam fournit des services d'installation mais les bras robotiques sont de Trey Research. Si l’installation de bras robotiques chez Adatum Corporation ouvre un nouveau secteur vertical pour les bras robotiques de Trey Research, Trey pourrait accorder une remise spéciale pour cet accord à Fabrikam. Dans ce cas, Fabrikam crée une ligne de contrat basée sur les produits pour Robotic Arms. Un coût unitaire est inscrit pour ce contrat. Le coût est différent du coût des bras robotiques de Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Pour créer votre propre flux des processus d’entreprise pour l’entité de p
 
    ![Capture d’écran de la modification des vues sur l’entité du projet](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

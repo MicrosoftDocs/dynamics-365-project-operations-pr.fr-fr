@@ -59,3 +59,6 @@ Les rôles jouent un rôle important dans la planification du projet, pour éval
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer les ressources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

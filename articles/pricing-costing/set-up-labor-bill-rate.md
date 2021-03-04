@@ -55,3 +55,6 @@ Par exemple, un développeur de la division Robotique de Fabrikam Inde travailla
     | Developer | Fabrikam États-Unis | Fabrikam États-Unis - Robotique | 150 USD |
 
 3. Attachez le tarif de vente, **Taux de facturation Fabrikam États-Unis** au tarif du projet du contrat de projet ou à un compte spécifique.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

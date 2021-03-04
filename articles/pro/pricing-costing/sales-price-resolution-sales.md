@@ -54,3 +54,6 @@ Une fois le tarif des ventes résolu, le système exécute les étapes suivantes
     | &nbsp; | Majoration du coût | Appliquer une majoration telle que définie par la ligne de prix de catégorie sur les chiffres réels du coût associé |
 
 4. Si le système ne parvient pas à faire correspondre les valeurs des champs **Catégorie** et **Unité**, le taux de vente par défaut est zéro (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

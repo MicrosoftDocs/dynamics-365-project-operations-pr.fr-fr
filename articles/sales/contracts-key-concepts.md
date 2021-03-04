@@ -88,3 +88,6 @@ Les calendriers de facturation sont spécifiques à chaque ligne de contrat et s
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Modifications par rapport aux commandes Dynamics 365 Sales
 
 Les contrats Project Operations sont basés sur les commandes dans Dynamics 365 Sales. Cependant, il existe d’importants écarts et différences dans les fonctionnalités. Les contrats Project Operations ont leurs propres éléments de formulaire et d’interface utilisateur, des règles métier, une logique métier dans les plug-ins et des scripts côté client qui les rendent uniques à partir des commandes. Pour ces raisons, n’utilisez pas une commande client ni un contrat Project Operations de manière interchangeable.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

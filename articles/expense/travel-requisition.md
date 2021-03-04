@@ -56,3 +56,6 @@ Sélectionnez la demande de déplacement que vous souhaitez approuver, puis sél
 
 > [!NOTE]
 > Lorsque vous mappez une note de frais à une demande de déplacement approuvée, le montant de la transaction ne peut pas être supérieur au montant autorisé. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

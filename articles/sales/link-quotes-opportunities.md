@@ -56,3 +56,6 @@ Un devis existant peut être lié à une opportunité. Effectuez les étapes sui
    Lorsque vous déplacez une opportunité vers cette phase, vous pouvez sélectionner ce devis dans une liste de devis associés à cette opportunité. La sélection de ce devis indique que vous poursuivez.
 
    Tous les autres devis associés à l’opportunité seront toujours disponibles et actifs jusqu’à ce que l’un d’eux soit remporté. Vous pouvez ramener le processus de vente à la phase précédente **Qualifier**, et choisir un autre devis pour avancer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Les projets sont créés et gérés dans CDS. Les attributs comptables des proje
 4. Définissez les valeurs par défaut d’une dimension financière. Notez que ces dimensions financières par défaut proviennent du compte client. Si le projet est associé à une ligne de contrat ayant plusieurs clients de contrat de projet, le client principal est utilisé pour définir les valeurs par défaut des dimensions financières.
 
 Les dimensions financières par défaut du projet sont utilisées pour définir les valeurs par défaut de la ligne de journal des transactions de temps, de dépenses et de frais dans le **Journal d’intégration de Project Operations** et les lignes de facture de projets connexes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

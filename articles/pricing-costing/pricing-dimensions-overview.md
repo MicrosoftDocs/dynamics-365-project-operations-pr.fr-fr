@@ -71,3 +71,6 @@ L’exemple suivant présente des taux de factures configurés en fonction du r�
 | ----------------|-------------|----------|----------:|----------|
 | Ma société_Band1 | Contoso US  |Hour | 145|USD     |
 | Ma société_Band2 | Contoso Inde |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Dans la vue de grille et la vue par phases de temps, vous pouvez sélectionner l
 ## <a name="expense-estimates"></a>Estimations de dépenses
 
 Le bouton **Ajouter une nouvelle estimation de dépense** dans la vue de grille vous permet d’enregistrer toutes les dépenses encourues par le projet, mais qui ne sont pas directement liées au travail. Vous pouvez enregistrer les estimations des dépenses pour une tâche spécifique ou le projet entier. Sélectionnez les catégories de dépenses et la date envisagée où supporter les dépenses. Si la liste des prix de revient et le tarif de ventes associés ont des prix par défaut (ou des pourcentages de majoration définis pour les catégories de dépenses), ceux-ci sont entrés automatiquement sur la ligne d’estimation lorsque l’association a lieu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

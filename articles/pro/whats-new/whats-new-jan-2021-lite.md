@@ -41,3 +41,6 @@ Cette rubrique s'applique aux composants et versions suivants de Dynamics 365 Pr
 | **Gestion des opportunités** | 2040713 | Correction de l'erreur de script qui se produit lors de la création d'une facture à partir d'un contrat et de l'installation de Field Service. |
 | **Planification et suivi de projets** | 2090202 | Les règles métier marquées qui ne sont plus utilisées comme **Obsolètes**. |
 | **Temps et dépenses** | 2091249 | Des contrôles renforcés afin que les utilisateurs ne puissent pas modifier la tâche sur une entrée de temps approuvée ou soumise. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

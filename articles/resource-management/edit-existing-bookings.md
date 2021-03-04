@@ -33,3 +33,6 @@ Dans la grille **Membre de l'équipe**, un chef de projet peut mettre en éviden
 ## <a name="schedule-board"></a>Tableau de planification
 
 Dans **Tableau de planification**, le gestionnaire de ressources a une vue du portefeuille de toutes les réservations au sein d'une organisation. À partir de cette vue, le gestionnaire de ressources peut prolonger, raccourcir ou déplacer des réservations existantes similaires aux fonctionnalités offertes dans **Gérer les réservations**. Le gestionnaire de ressources peut également remplacer les ressources existantes allouées à une réservation spécifique en cliquant avec le bouton droit sur la réservation et en sélectionnant **Ressource de remplacement**. Les gestionnaires de ressources peuvent également modifier les contours des réservations existantes en cliquant avec le bouton droit sur la réservation et en sélectionnant **Modifier**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

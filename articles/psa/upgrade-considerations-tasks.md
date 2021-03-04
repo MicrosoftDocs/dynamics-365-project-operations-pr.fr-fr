@@ -96,3 +96,6 @@ Pour garantir une mise à niveau réussie, les relations suivantes doivent être
 
 - Toutes les dépendances de tâche du projet doivent être associées au même projet.
 - Une tâche ne peut pas avoir la même dépendance référencée plusieurs fois.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Les opportunités de projet peuvent facilement être copiées pour créer de nou
     | Copier la tarification | Une valeur Oui/Non qui indique si la tarification de l’opportunité doit être copiée à partir de l’opportunité source. | Si **Oui** est sélectionné, les tarifs sont copiés de la source vers l’opportunité cible. Si **Non** est sélectionné, les tarifs sont définis par défaut sur la base des derniers tarifs configurés. |
 
 3. Cliquez sur **OK**. Le système crée une copie de l’opportunité de projet en fonction des paramètres sélectionnés et la nouvelle opportunité de projet est ouverte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

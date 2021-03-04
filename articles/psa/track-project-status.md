@@ -58,3 +58,6 @@ Utilisez le [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-pr
 
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

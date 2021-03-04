@@ -45,3 +45,6 @@ Pour créer des facteurs de quantité à partir des propriétés du produit, pro
 6. Enregistrer et fermer le formulaire. Répétez ces étapes pour toutes les propriétés à utiliser pour calculer la quantité pour la ligne de devis basée sur le produit.
 
 Lorsque vous créez une ligne de devis basée sur un produit pour un produit, la quantité de la ligne de devis est verrouillée. La quantité sera calculée comme un produit des valeurs de propriété que vous saisissez pour cette ligne de devis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

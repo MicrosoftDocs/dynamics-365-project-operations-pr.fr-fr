@@ -39,3 +39,6 @@ Effectuez les étapes suivantes pour facturer une avance au client.
     | **Statut de la facture** | Il s’agit d’un paramètre d’option qui indique si cette avance est ajoutée à une facture en mode brouillon pour ce client. Les valeurs possibles sont :</br>- **Non prêt(e) pour la facturation**</br>- **Prêt(e) pour la facturation** | Lorsqu’une avance ou un acompte est marqué comme **Prêt à facturer**, il est ajouté comme ligne Temps sur une facture en mode brouillon. Seule une avance entièrement facturée peut être utilisée pour effectuer un rapprochement avec les coûts du projet pour la période de facturation suivante. |
 
 4. Sélectionnez **Enregistrer et fermer** dans la boîte de dialogue Création rapide pour enregistrer l’avance ou l’acompte.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

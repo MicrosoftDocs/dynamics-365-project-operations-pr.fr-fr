@@ -72,3 +72,6 @@ Les problèmes suivants ont été résolus :
 - La clôture du devis comme conclue ne permet pas d’accéder au contrat créé si un BPF joint au devis est en phase finale.
 - La contrepassation des **Ventes non facturées** est liée au coût d’origine lorsqu’une entrée de temps est rappelée.
 - Après avoir sélectionné le bouton **Confirmer**, le statut de la facture ne passe pas à **Confirmé** sauf si la facture est actualisée.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

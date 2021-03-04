@@ -34,3 +34,6 @@ Tous les prix de coût, de vente et de transfert peuvent être définis pour les
 1. Sur la page **Prix de vente (heure)** , sélectionnez **Nouveau** et saisissez une date de validité.
 2. Dans la colonne **Rôle** , sélectionnez un rôle.
 3. Dans la colonne **Tarification** , entrez un prix pour le rôle de ressource sélectionné.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

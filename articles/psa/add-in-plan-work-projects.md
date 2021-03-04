@@ -242,3 +242,6 @@ Le tableau suivant décrit comment les données de l'entité Dépendances de tâ
 
 ### <a name="additional-resources"></a>Ressources complémentaires
  [Guide du responsable de projet](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

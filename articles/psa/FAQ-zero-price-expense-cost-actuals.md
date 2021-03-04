@@ -38,3 +38,6 @@ Cette FAQ s’applique aux chiffres réels des dépenses où la classe de transa
 Accédez à l’entrée de dépense associée et vérifiez qu’il existe un montant dans le champ d’entrée de dépenses. Si l’entrée de dépenses d’origine n’a pas le champ de montant rempli, cela signifie que vous avez isolé le problème.
  
 Pour résoudre ce problème, recréez l’entrée de dépenses par un montant valide et approuvez-le.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

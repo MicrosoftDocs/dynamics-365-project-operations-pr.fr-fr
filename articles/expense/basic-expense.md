@@ -55,3 +55,6 @@ Les dépenses qui n’ont pas encore été envoyées peuvent être supprimées. 
 ## <a name="see-also"></a>Voir aussi
 
 - [Vue d’ensemble des approbations](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

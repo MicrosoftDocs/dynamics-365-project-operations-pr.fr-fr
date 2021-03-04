@@ -149,3 +149,6 @@ Par défaut, si une tâche de nœud terminal ne dispose pas de prédécesseurs, 
 ### <a name="manual-scheduling"></a>Planification manuelle
 
 Si les règles de la planification automatique ne répondent pas aux exigences, vous pouvez définir le mode de tâche sur la tâche **Planification manuelle**. Ce paramètre arrête le moteur de planification de calculer les valeurs d’autres attributs de planification. Quel que soit le mode de tâche, si vous définissez les prédécesseurs sur des tâches, vous affectez toujours la date de début de la tâche dépendante.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

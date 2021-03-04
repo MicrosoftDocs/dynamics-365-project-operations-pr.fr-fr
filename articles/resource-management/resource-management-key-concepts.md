@@ -35,3 +35,6 @@ Les ressources sont l’actif le plus important d’une organisation basée sur 
 
 
 Vous pouvez doter votre projet en personnel avec une équipe de ressources génériques ou nommées dans Project Operations. Vous pouvez utiliser différentes méthodes pour ajouter et affecter des membres de l’équipe, et gérer leurs réservations et attributions. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

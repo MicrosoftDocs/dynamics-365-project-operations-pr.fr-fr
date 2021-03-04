@@ -61,3 +61,6 @@ Entrez vos heures au moins une fois par semaine - ou à la fréquence demandée 
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

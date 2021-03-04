@@ -55,3 +55,6 @@ Avant de demander ou d’attribuer des ressources dans [!INCLUDE[pn_project_serv
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
