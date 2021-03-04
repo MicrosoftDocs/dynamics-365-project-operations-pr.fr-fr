@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4d59cc8421d4d8a158340d76d144b610b5f65f63
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 35fa9440a6f58a08092bcc3cc57a9097dce01e33
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120495"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147860"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Page d’accueil Devis, tarification et facturation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

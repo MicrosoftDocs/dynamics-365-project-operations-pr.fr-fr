@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120180"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147515"
 ---
 # <a name="propose-project-resources"></a>Proposer des ressources de projet
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Les gestionnaires de ressources peuvent proposer une ressource au chef de projet en utilisant une demande de ressource.
 
@@ -52,10 +54,10 @@ Le chef du projet peut accepter ou rejeter la proposition.
 
 Lorsque les gestionnaires de ressources gèrent les demandes de ressources, ils utilisent les méthodes suivantes :
 
-- Proposer plusieurs ressources pour satisfaire la demande si aucune ressource n’est disponible pour satisfaire les heures obligatoires. Les heures proposées sont alors fractionnées entre plusieurs ressources qui peuvent satisfaire les heures obligatoires. Dans ce scénario, les heures ne peuvent pas se chevaucher.
-- Proposer moins de ressources que requis. Dans ce scénario, la capacité en ressources est inférieure aux heures requises que le demandeur a spécifiées. Par conséquent, lorsque le demandeur accepte les ressources proposées, un besoin en ressources non atteint est créé pour capturer la demande restante.
-- Réserver plusieurs ressources pour satisfaire la demande si aucune ressource n’est disponible pour terminer le travail.
-- Réserver moins de ressources que requis. Dans ce scénario, les heures réservées sont inférieures aux heures requises. Le système vous guide pour proposer des ressources à la place de réservations, de sorte que le demandeur puisse vérifier et suivre la demande restante.
+- Proposer plusieurs ressources pour satisfaire la demande si aucune ressource n’est disponible pour accomplir les heures requises. Les heures proposées sont alors fractionnées entre plusieurs ressources qui peuvent satisfaire les heures obligatoires. Dans ce scénario, les heures ne peuvent pas se chevaucher.
+- Proposer moins de ressources que requis. Dans ce scénario, la capacité en ressources est inférieure aux heures requises que le demandeur a spécifiées. Par conséquent, lorsque le demandeur accepte les ressources proposées, un besoin en ressources non satisfait est créé pour capturer la demande restante.
+- Réserver plusieurs ressources pour satisfaire la demande si aucune ressource n’est disponible pour effectuer les tâches.
+- Réserver moins de ressources que nécessaire. Dans ce scénario, les heures réservées sont inférieures aux heures requises. Le système vous guide pour proposer des ressources à la place de réservations, de sorte que le demandeur puisse vérifier et suivre la demande restante.
 
 ## <a name="billable-utilization"></a>Utilisation facturable
 
