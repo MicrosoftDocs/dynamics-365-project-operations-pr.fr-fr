@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nouveautés
       items:
+        - name: "Mars\_2021 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: "Février\_2021 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: "Janvier\_2021 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
@@ -318,52 +320,52 @@
       items:
         - name: Vue d’ensemble des dépenses
           href: expense/expense-overview.md
-        - name: Expérience de gestion des dépenses pour les projets
+        - name: Nouvelle expérience de dépense
           items:
-            - name: Configuration et installation
-              items:
-                - name: Configurer les stratégies
-                  href: expense/set-up-policies.md
-                - name: Configurer les workflows
-                  href: expense/set-up-workflows.md
-                - name: Gérer la délégation
-                  href: expense/manage-delegation.md
-                - name: Configurer les paramètres de gestion des dépenses
-                  href: expense/configure-expense-management-parameters.md
-                - name: Configurer l’intégration des cartes de crédit
-                  href: expense/set-up-credit-card-integration.md
-                - name: Configurer les catégories de dépense
-                  href: expense/set-up-expense-categories.md
-            - name: Utiliser les dépenses personnelles sur une note de frais
-              href: expense/personal-expenses-expense-report.md
-            - name: Créer des notes de frais
-              items:
-                - name: Distributions sur une note de frais
-                  href: expense/distributions-expense-report.md
-            - name: Approuver des notes de frais
-              items:
-                - name: Notes de frais et approbateurs multiples
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: Publier des notes de frais
-              href: expense/posting-expense-reports.md
-            - name: Demande de trajet
-              href: expense/travel-requisition.md
-            - name: Paiement en avance
-              href: expense/cash-advance.md
-            - name: Indemnités quotidiennes
-              href: expense/per-diems.md
-            - name: Gestion financière
-              items:
-                - name: Récupération de la TVA
-                  href: expense/vat-recovery.md
-            - name: Nouvelle expérience de dépense
-              items:
-                - name: Notes de frais réinventées
-                  href: expense/expense-reports-reimagined.md
-                - name: Faire correspondre les reçus et les dépenses via OCR
-                  href: expense/match-receipt-expense-ocr.md
-            - name: Gestion des dépenses mobiles
-              href: expense/expense-using-mobile.md
+            - name: Notes de frais réinventées
+              href: expense/expense-reports-reimagined.md
+            - name: Capturer un reçu à l’aide d’OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Configuration et installation
+          items:
+            - name: Configurer les stratégies
+              href: expense/set-up-policies.md
+            - name: Configurer les workflows
+              href: expense/set-up-workflows.md
+            - name: Gérer la délégation
+              href: expense/manage-delegation.md
+            - name: Configurer les paramètres de gestion des dépenses
+              href: expense/configure-expense-management-parameters.md
+            - name: Configurer l’intégration des cartes de crédit
+              href: expense/set-up-credit-card-integration.md
+            - name: Configurer les catégories de dépense
+              href: expense/set-up-expense-categories.md
+        - name: Dépenses personnelles
+          href: expense/personal-expenses-expense-report.md
+        - name: Dépenses intersociétés
+          href: prod-exp/intercompany-expense.md
+        - name: Créer des notes de frais
+          items:
+            - name: Distributions sur une note de frais
+              href: expense/distributions-expense-report.md
+        - name: Approuver des notes de frais
+          items:
+            - name: Notes de frais et approbateurs multiples
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Publier des notes de frais
+          href: expense/posting-expense-reports.md
+        - name: Demande de trajet
+          href: expense/travel-requisition.md
+        - name: Paiement en avance
+          href: expense/cash-advance.md
+        - name: Indemnités journalières
+          href: expense/per-diems.md
+        - name: Application mobile Dépenses
+          href: expense/expense-using-mobile.md
+        - name: Gestion financière
+          items:
+            - name: Récupération de la TVA
+              href: expense/vat-recovery.md
     - name: Approbations
       items:
         - name: Vue d’ensemble des approbations
@@ -456,6 +458,8 @@
           href: environment/security-model.md
     - name: Nouveautés
       items:
+        - name: "Nouveautés de mars\_2021 – Déploiement léger"
+          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: "Nouveautés de février\_2021 – Déploiement léger"
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: "Nouveautés de janvier\_2021 – Déploiement léger"
@@ -894,44 +898,52 @@
   items:
     - name: Présentation de la fonctionnalité de gestion des dépenses
       href: prod-exp/expense-management.md
-    - name: Notes de frais réinventées
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: Planifier la gestion des dépenses
-      href: prod-exp/plan-expense-management.md
-    - name: Paramètres de gestion des dépenses
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: Espace de travail mobile de gestion des dépenses
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: Configurer des workflows pour la gestion des dépenses
-      href: prod-exp/expense-workflows.md
-    - name: Flux de travail de gestion des dépenses
-      href: prod-exp/expense-workflow.md
-    - name: Gérer la délégation des dépenses
-      href: prod-exp/manage-expense-delegation.md
-    - name: Traitement des reçus de dépenses
-      href: prod-exp/expense-receipt-processing.md
-    - name: Importer et gérer les transactions par carte de crédit
-      href: prod-exp/import-credit-card.md
-    - name: Distributions sur une note de frais
-      href: prod-exp/expense-report-distributions.md
+    - name: Nouvelle expérience de dépense
+      items:
+        - name: Notes de frais réinventées
+          href: expense/expense-reports-reimagined.md
+        - name: Capturer un reçu à l’aide d’OCR
+          href: expense/match-receipt-expense-ocr.md
+    - name: Configuration et installation
+      items:
+        - name: Configurer les stratégies
+          href: expense/set-up-policies.md
+        - name: Configurer les workflows
+          href: expense/set-up-workflows.md
+        - name: Gérer la délégation
+          href: expense/manage-delegation.md
+        - name: Configurer les paramètres de gestion des dépenses
+          href: expense/configure-expense-management-parameters.md
+        - name: Configurer l’intégration des cartes de crédit
+          href: expense/set-up-credit-card-integration.md
+        - name: Configurer les catégories de dépense
+          href: expense/set-up-expense-categories.md
+    - name: Dépenses personnelles
+      href: expense/personal-expenses-expense-report.md
     - name: Dépenses intersociétés
       href: prod-exp/intercompany-expense.md
-    - name: Définir des politiques de dépenses
-      href: prod-exp/travel-expense-policies.md
-    - name: Afficher une note de frais
-      href: prod-exp/view-expense-report.md
-    - name: Publier une note de frais
-      href: prod-exp/post-expense.md
-    - name: Notes de frais et approbateurs multiples
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: Récupération de la TVA dans Gestion des dépenses
-      href: prod-exp/VAT-expense-report.md
-    - name: Règles d’indemnité quotidienne
-      href: prod-exp/per-diem.md
-    - name: Demandes de trajet
-      href: prod-exp/travel-req.md
-    - name: Dépenses personnelles sur une note de frais
-      href: prod-exp/personal-expenses.md
+    - name: Créer des notes de frais
+      items:
+        - name: Distributions sur une note de frais
+          href: expense/distributions-expense-report.md
+    - name: Approuver des notes de frais
+      items:
+        - name: Notes de frais et approbateurs multiples
+          href: expense/expense-reports-multiple-approvers.md
+    - name: Publier des notes de frais
+      href: expense/posting-expense-reports.md
+    - name: Demande de trajet
+      href: expense/travel-requisition.md
+    - name: Paiement en avance
+      href: expense/cash-advance.md
+    - name: Indemnités journalières
+      href: expense/per-diems.md
+    - name: Application mobile Dépenses
+      href: expense/expense-using-mobile.md
+    - name: Gestion financière
+      items:
+        - name: Récupération de la TVA
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -940,10 +952,16 @@
       items:
         - name: "Calendrier de publication des mises à jour pour Project\_Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_29,\_V3"
+          href: psa/whats-new-ur-29.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_28.6 correctif logiciel, V3"
+          href: psa/whats-new-ur-28-6.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_28.5 correctif logiciel, V3"
           href: psa/whats-new-ur-28-5.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_28, V3"
           href: psa/whats-new-ur-28.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_27.6 correctif logiciel, V3"
+          href: psa/whats-new-ur-27-6.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_27.5 correctif logiciel, V3"
           href: psa/whats-new-ur-27-5.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_27, V3"
