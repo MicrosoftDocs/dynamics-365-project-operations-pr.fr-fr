@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18f6e7a7a96f374acc85ee1027c5252cbf7ab5f0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0732ccca43e404412efae8a91873e43c28d041ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149450"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290311"
 ---
 # <a name="create-a-price-list-project-service"></a>Créer un tarif (Project Service)
 

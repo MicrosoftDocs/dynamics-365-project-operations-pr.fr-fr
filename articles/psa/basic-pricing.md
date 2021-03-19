@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2337a1cef55ecc3b7625a0c9a643b9ed8a1d70e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148910"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291166"
 ---
 # <a name="project-pricing"></a>Tarification de projet 
 

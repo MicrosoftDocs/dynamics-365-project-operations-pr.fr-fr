@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 404135d1f5ff73120d167d9d0e774b415164a2c1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8a0edd4ca5bb175d67e645b1a6903a1bbde4ecca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149495"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290626"
 ---
 # <a name="configure-transaction-categories-project-service"></a>Configurer les catégories de transaction (Project Service)
 

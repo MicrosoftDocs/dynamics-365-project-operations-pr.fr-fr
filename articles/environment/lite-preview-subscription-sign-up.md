@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175888"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290041"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>S’inscrire à l’abonnement à la version préliminaire – Simplifié 
 
-Cette rubrique explique des informations sur la façon de souscrire à l’offre de version préliminaire du partenaire et de déployer Dynamics 365 Project Operations Déploiement simplifié – Traiter la facturation pro forma.
+Cette rubrique explique comment souscrire à l’offre partenariat de version préliminaire et effectuer le déploiement simplifié de Dynamics 365 Project Operations - traiter la facturation pro forma.
 
 > [!NOTE]
 > Ce processus changera dans les prochaines versions de Project Operations.
@@ -32,17 +32,17 @@ Cette rubrique explique des informations sur la façon de souscrire à l’offre
 
 Lorsque vous recevez une approbation d’une [demande de version préliminaire](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), vous recevez deux offres de Microsoft par e-mail. Ces offres vous permettent de déployer la version préliminaire de Project Operations :
 
-- Dynamics 365 Project Operations (CRM) – Version d’essai
+- Dynamics 365 Project Operations (CRM) - Version d’essai
 - Office 365 Project Operations - Version d’essai
 
 > [!IMPORTANT]
 > Une seule personne, l’administrateur du client, dans une organisation doit effectuer cette tâche. Si vous n’êtes pas abonné à cette version, attendez que votre organisation soit inscrite et que vous ayez reçu vos informations d’identification utilisateur.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Version d’essai 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Version d’essai 
 
 Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur avec le compte de travail de l’utilisateur dans le client où vous souhaitez la version préliminaire de Project Operations.
 
-1. Utilisez le premier code promotionnel **Dynamics 365 Project Operations (CRM) - Version d’essai** en le collant dans l’URL du navigateur.
+1. Utilisez le premier code promotionnel, **Dynamics 365 Project Operations (CRM) - Version d’essai** en le collant dans l'URL du navigateur.
 
 ![Accepter l’offre](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Répétez les mêmes étapes que pour le premier code d’offre. Assurez-vous d�
 
 ![Attribuer des licences](./media/15AssignLicenses.png)
 
-3. Vérifiez que les licences **Dynamics 365 Project Operations (CRM) - Version préliminaire** et **Office 365 Project Operations - Version préliminaire** sont sélectionnées. 
+3. Vérifiez que les licences **Dynamics 365 Project Operations (CRM) version préliminaire** et **Office 365 Project Operations - Version préliminaire** sont sélectionnées. 
 4. Sélectionnez **Enregistrer les modifications**.
 
 ## <a name="create-a-new-cds-environment"></a>Créer un environnement CDS

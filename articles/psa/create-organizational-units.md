@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8d44254adc9fc1e35d39080e284ea6195bfa821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d88ba698e59633b9c550a2d5a82cd1df6a2b24fc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144725"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290401"
 ---
 # <a name="create-organizational-units-project-service"></a>Créer des unités d’organisation (Project Service)
 

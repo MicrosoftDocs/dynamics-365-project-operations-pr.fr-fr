@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123825"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290355"
 ---
 # <a name="approvals-overview"></a>Vue d’ensemble des approbations
 

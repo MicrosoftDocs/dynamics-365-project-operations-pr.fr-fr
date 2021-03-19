@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e417a24d5291fa88dee6583f11439eac0a44a574
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5dd853bfb41c6f2cd20965733a78eafdbbeb794b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145715"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291751"
 ---
 # <a name="recording-actuals"></a>Enregistrement des chiffres réels 
 

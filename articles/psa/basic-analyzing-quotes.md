@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d1b79a61147bfccf13b0a33179464af91b45121e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145220"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291256"
 ---
 # <a name="analysis-of-project-quotes"></a>Analyse des devis de projet
 

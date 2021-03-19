@@ -1,6 +1,6 @@
 ---
 title: Chiffres réels
-description: Cette rubrique fournit des informations sur la façon d’utiliser les chiffres réels dans Microsoft Dynamics 365 Project Operations.
+description: Cette rubrique des informations sur l’utilisation de chiffres réels dans Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126301"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291796"
 ---
 # <a name="actuals"></a>Chiffres réels 
 
@@ -70,7 +70,7 @@ L’entrée basée sur la catégorie des prix unitaires par défaut dans les ent
 Vous pouvez utiliser les journaux des entrées pour enregistrer les coûts ou les revenus dans les classes de transaction des matériaux, frais, durée, dépenses ou taxes. Les journaux peuvent être utilisés aux fins suivantes :
 
 - Enregistrer les coûts réels du matériel et les ventes sur un projet.
-- Déplacer des chiffres réels de la transaction d’un autre système à Microsoft Dynamics 365 Project Operations.
+- Déplacer les chiffres réels de transactions d’un autre système vers Microsoft Dynamics 365 Project Operations.
 - Enregistrer les coûts survenus dans un autre système. Ces coûts peuvent inclure des coûts d’approvisionnement ou de sous-traitance.
 
 > [!IMPORTANT]

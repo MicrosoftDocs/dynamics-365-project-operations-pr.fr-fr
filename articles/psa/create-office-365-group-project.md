@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8fc01ffc48d185055fd9a70da12dbb4333b90b96
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c6b4fbff2f67c7c57d5973489e343cb8bc5025e9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144770"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290446"
 ---
 # <a name="create-an-office-365-group-for-a-project-project-service"></a>Créer un Office 365 Group pour un projet (Project Service)
 

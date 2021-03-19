@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: a7239301dc8b775dc4a53a1cf6c0bcba3956125a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365235"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289861"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Appliquer les données de démonstration à un environnement hébergé par le cloud Finance
 

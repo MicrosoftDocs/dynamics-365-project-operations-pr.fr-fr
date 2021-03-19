@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642180"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290086"
 ---
 # <a name="deploy-project-operations---lite"></a>Déployer Project Operations – Simplifié
 

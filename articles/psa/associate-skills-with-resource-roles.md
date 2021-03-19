@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8386948d8ea2431385e6aed9165b4018c34bcaf0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b515c977d2b1798359f86211372dfc1faf18b353
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145310"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291346"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Associer des qualifications aux rôles de ressources (Project Service)
 
