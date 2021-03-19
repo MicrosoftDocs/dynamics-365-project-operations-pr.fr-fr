@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dc6fb5c195d98bc3808383a8ec059d675d6cff3b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b61e355f2caf2ce977e35e3ed3cdba0e855227cc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146975"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280125"
 ---
 # <a name="white-papers-for-project-service"></a>Livres blancs pour Project Service
 

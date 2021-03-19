@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des modes de gestion des ressources
-description: Cette rubrique fournit des informations sur la fonctionnalité Gestion des ressources dans Dynamics 365 Project Operations.
+description: Cette rubrique fournit des informations sur la fonctionnalité de gestion des ressources dans Dynamics 365 Project Operations.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118515"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279450"
 ---
 # <a name="resource-management-modes-overview"></a>Vue d’ensemble des modes de gestion des ressources
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
 
-Dynamics 365 Project Operations prend en charge deux modes afin que vous puissiez exécuter le flux de réservation global. Le mode de gestion est défini comme un paramètre de projet et peut être modifié si les besoins de votre entreprise changent.    
+Dynamics 365 Project Operations prend en charge deux modes pour vous permettre d’exécuter le flux de réservations global. Le mode de gestion est défini comme un paramètre de projet et peut être modifié si les besoins de votre entreprise changent.    
 
 ## <a name="central-mode"></a>Mode central
 Pour les organisations qui centralisent l’affectation des ressources aux projets, le mode central permet de s’assurer que les chefs de projet peuvent définir les besoins en ressources au niveau du projet. La satisfaction des besoins en ressources est déléguée à un gestionnaire de ressources. Les chefs de projet peuvent accepter ou refuser les ressources proposées par le gestionnaire de ressources.

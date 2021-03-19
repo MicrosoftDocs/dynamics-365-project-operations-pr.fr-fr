@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513831"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278055"
 ---
 # <a name="manage-leads"></a>Gérer les prospects
 
@@ -29,7 +29,7 @@ Vous pouvez créer un vue filtrée pour afficher uniquement les prospects selon 
 
 ## <a name="create-a-new-lead-for-a-project-based-deal"></a>Créer un prospect pour une transaction basée sur un projet
 
-Lorsqu’un prospect selon un projet est qualifié, une opportunité et un compte sont créés. Une opportunité selon un projet est le point de départ des activités de poursuite des ventes dans la phase Opportunité. Les opportunités selon les projets ont des capacités uniques qui sont nécessaires pour vendre le travail de projet. Ces capacités incluent :
+Lorsqu’un prospect selon un projet est qualifié, une opportunité et un compte sont créés. Une opportunité selon un projet est le point de départ des activités de poursuite des ventes dans la phase Opportunité. Les opportunités basées sur des projets possèdent des fonctionnalités uniques nécessaires pour vendre le travail de projet. Ces capacités incluent :
 
 - Modes de facturation pour le temps et les matières et à prix fixes
 - Tarifs en vigueur à plusieurs dates pour les ressources humaines, les dépenses et le matériel engagés sur les projets
@@ -77,7 +77,7 @@ Le processus d’entreprise prospect-opportunité prend en charge les phases sui
 | Nom de la phase | Entité mappée | Fonctionnalité |
 | --- | --- | --- |
 | Qualifier | Prospect | Qualifiez le prospect pour créer un compte, un contact et une opportunité. |
-| Développer | Opportunité | Développez l’opportunité pour ajouter plus d’informations sur le travail impliqué, les principales parties prenantes et la concurrence. |
+| Développer | Opportunité | Développer l’opportunité pour ajouter plus d’informations concernant le travail impliqué, les principales parties prenantes et la concurrence. |
 | Proposer | Opportunité | Développez la proposition et obtenez l’approbation de l’équipe de vérification interne. |
 | Fermer | Opportunité | Concluez l’opportunité pour fermer la transaction. |
 

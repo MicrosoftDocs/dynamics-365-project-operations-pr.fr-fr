@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4e14f55e05a20990394f7645d0f276ea99deb626
-ms.sourcegitcommit: 454b0ec941cca06852236771bc77dc1651f94e48
+ms.openlocfilehash: 07a68cdedd095b7aecdc02e58df251ed34a4e769
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514519"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279945"
 ---
 # <a name="booking-statuses"></a>Statuts de réservation
 

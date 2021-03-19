@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c50952854653799bf21b722585e200b380d5bbb9
-ms.sourcegitcommit: 454b0ec941cca06852236771bc77dc1651f94e48
+ms.openlocfilehash: 8c30d504615c9854f99aa1e8e86ec576cd584dc7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514520"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279720"
 ---
 # <a name="define-roles"></a>Définir les rôles
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: dda8bc58c00082a9ef3835ea293003c63013983f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643164"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277965"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Gérer plusieurs clients sur des contrats de projets
 

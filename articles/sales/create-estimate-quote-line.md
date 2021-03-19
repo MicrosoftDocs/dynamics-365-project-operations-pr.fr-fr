@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122925"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278460"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Créer des estimations sur une ligne du devis
 
@@ -30,7 +30,7 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 Sur un devis basé sur un projet, vous pouvez utiliser l’entité Détails de la ligne de devis pour estimer le travail requis pour fournir un projet. Vous pouvez ensuite partager cette estimation avec le client.
 
-les lignes de devis basées sur un projet n’ont aucun détail de ligne de devis. Par ailleurs, elles peuvent avoir plusieurs détails de la ligne de devis. Les détails de la ligne de devis sont utilisés pour estimer le temps, les dépenses ou les frais. Dynamics 365 Project Operations ne permet pas d’effectuer des estimations matérielles sur les détails de la ligne de devis Elles sont appelées Classes de transaction. Des montants d’estimation des taxes peuvent également être entrés dans une classe des transactions.
+les lignes de devis basées sur un projet n’ont aucun détail de ligne de devis. Par ailleurs, elles peuvent avoir plusieurs détails de la ligne de devis. Les détails de la ligne de devis sont utilisés pour estimer le temps, les dépenses ou les frais. Dynamics 365 Project Operations ne permet pas des estimations matérielles sur les détails de la ligne de devis. Elles sont appelées Classes de transaction. Des montants d’estimation des taxes peuvent également être entrés dans une classe des transactions.
 
 Outre les classes de transaction, les détails de la ligne de devis ont un type des transactions. Il existe deux types de transaction pour les détails de la ligne de devis : **Coût** et **Contrat du projet**.
 

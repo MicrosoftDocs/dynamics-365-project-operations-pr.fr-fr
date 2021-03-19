@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 030684576e1f53d27921907b07c9e5e0c5efe612
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133330"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278595"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Gérer les tarifs des projets sur les contrats de projet
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Les contrats de projet dans Dynamics 365 Project Operations sont conçus pour prendre en charge des tarifs de vente valides à plusieurs dates sur un contrat. Dans Project Operations, il existe une nouvelle entité associée appelée **Tarifs du projet**. Cette entité a une relation un-à-plusieurs avec un contrat de projet.
+Les contrats de projet dans Dynamics 365 Project Operations sont conçus pour prendre en charge plusieurs tarifs de vente à date effective sur un contrat. Dans Project Operations, il existe une nouvelle entité associée appelée **Tarifs du projet**. Cette entité a une relation un-à-plusieurs avec un contrat de projet.
 
 Les tarifs de projet sont utilisés pour évaluer les transactions de temps et de dépenses sur un projet. Lorsqu’un contrat comporte un ou plusieurs tarif(s) de projet, ces derniers sont utilisées pour tarifier les estimations de temps et de dépenses et les chiffres réels des projets associés au contrat via la ligne de contrat.
 

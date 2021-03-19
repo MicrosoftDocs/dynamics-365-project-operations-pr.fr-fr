@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147110"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280665"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Mise à jour (version 20) de Project Service Automation, V3
 
@@ -42,7 +42,7 @@ Les problèmes suivants ont été résolus :
 
 - L’importation des membres de l’équipe du projet avec une méthode d’allocation nécessitant des heures entraîne un message d’erreur peu explicite lorsque les heures spécifiées sont nulles.
 - Les utilisateurs reçoivent une erreur incorrecte lorsque le nombre maximal de caractères a été entré dans le champ **Description** pour une tâche de projet.
-- La page de **téléchargement du complément Microsoft Dynamics 365 Project Service Automation** redirige vers la page de téléchargement en anglais lorsque les paramètres de langue de l’utilisateur sont définis sur Japonais.
+- La **page de téléchargement du complément Microsoft Dynamics 365 Project Service Automation** redirige vers la page de téléchargement en anglais lorsque les paramètres de langue de l’utilisateur sont définis sur Japonais.
 - Lorsqu’une erreur de serveur se produit, l’étiquette de synchronisation dans l’onglet **Planifier** du formulaire **Projets** est parfois conservée.
 - Les mises à jour de tâche redondantes sont envoyées au serveur lorsqu’une tâche est modifiée.
 
