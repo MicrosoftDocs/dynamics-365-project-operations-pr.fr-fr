@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 958646c9e06a15e265bc0caa8b0f3eb9f79fc347
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147065"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281790"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Mettre à jour les attributs de plug-in pour inclure de nouvelles dimensions de tarification
 

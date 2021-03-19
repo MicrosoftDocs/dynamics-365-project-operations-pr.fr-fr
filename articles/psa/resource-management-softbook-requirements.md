@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 736d59976ad0f456a694cedbb28b516c90632fe6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147380"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282915"
 ---
 # <a name="soft-book-requirements"></a>Besoins en réservations temporaires
 

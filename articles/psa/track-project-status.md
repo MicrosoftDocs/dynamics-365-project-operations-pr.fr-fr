@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e9c8b594d468016264d0b4d9745597a35f55e50e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d57f33cdf240db4cae1f33fe962173790fe0fe7f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281925"
 ---
 # <a name="track-a-projects-status-project-service"></a>Suivre le statut d’un projet (Project Service)
 

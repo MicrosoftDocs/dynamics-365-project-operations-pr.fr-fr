@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7fb1e2fbe08c3b2885b690915904d172f14fdb54
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147424"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282870"
 ---
 # <a name="resourcing-projects-home-page"></a>Page d’accueil des projets d’allocation des ressources
 

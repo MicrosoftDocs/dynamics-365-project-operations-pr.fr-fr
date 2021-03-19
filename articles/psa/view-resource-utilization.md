@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ffd41aba98156d990956908d0a04b8d598c92ade
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8024d99441136e4ca28caf5bf4c81743e3a4dc71
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150710"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281295"
 ---
 # <a name="view-resource-utilization-project-service"></a>Afficher l’utilisation des ressources (Project Service)
 

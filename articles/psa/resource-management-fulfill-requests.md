@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 858662b62e511f80413e2354832bf2b0bcfc3fc5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5df7431aa0385381a13927db6ae757f87f1832f1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147605"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283095"
 ---
 # <a name="fulfilling-resource-requests"></a>Répondre aux demandes de ressources
 

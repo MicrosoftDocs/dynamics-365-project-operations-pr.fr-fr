@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2003f6f06912b0c47eb942aae17e509b00e19487
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147515"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283005"
 ---
 # <a name="propose-project-resources"></a>Proposer des ressources de projet
 
@@ -66,9 +66,9 @@ Les ressources peuvent avoir une utilisation facturable cible. Cette utilisation
 Les formules suivantes sont utilisées pour calculer l’utilisation :
 
 - Utilisation facturable = Heures réelles facturables ÷ Capacité ressource
-- Utilisation non facturable = Temps réel avec ID type facturation = Capacité non facturable, gratuite ou non disponible ÷ Capacité ressource
+- Utilisation non facturable = Temps réel avec ID du type de facturation = Non facturable, Gratuit ou Non disponible ÷ Capacité ressource
 - Interne = Temps réel sans contrat de vente ÷ Capacité ressource
-- Capacité ressource = Heures de travail d’une ressource – Absence du bureau – Jours non ouvrables
+- Capacité ressource = Heures de travail de la ressource – Absence du bureau – Jours non ouvrables
 
 Vous trouverez la vue **Utilisation des ressources** dans le volet **Ressources**.
 

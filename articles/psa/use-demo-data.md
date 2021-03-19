@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1f3ebf8d0cd6c8e25fcab6775cd92d544867af8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5445095f0583caf80882568adcdbaede98882f72
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151115"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281610"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>Expérimenter à l’aide des données de démonstration (Project Service)
 

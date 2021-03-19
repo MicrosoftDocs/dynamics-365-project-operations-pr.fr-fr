@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 82eeab4c9682e5b777da4e66f6c4f3f1afb3c19b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147470"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282960"
 ---
 # <a name="skills-and-proficiency-models"></a>Modèles de qualifications et de compétences
 

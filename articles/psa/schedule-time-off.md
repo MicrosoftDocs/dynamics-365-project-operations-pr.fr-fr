@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c3f5dfe846c4accb485de5213e1635e65e77fc5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2a78a80c3841bae1a7dc923ee1f60d7e571f2041
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144320"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282600"
 ---
 # <a name="schedule-time-off-project-service"></a>Planifier une absence (Project Service)
 

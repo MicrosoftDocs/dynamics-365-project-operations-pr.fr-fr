@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 189b99c6a4bf18b6063c7b6020dbf1ac372b41e9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143960"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280935"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Mise à jour (version 15) de Project Service Automation, V3
 
