@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8bde88f5f2d00c09129c6a9363c09f6f6ad1dd90
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151250"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284085"
 ---
 # <a name="product-based-quote-lines"></a>Lignes de devis basées sur un produit
 

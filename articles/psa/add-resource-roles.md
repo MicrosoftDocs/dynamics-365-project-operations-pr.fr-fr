@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 737c36cc7a31b5fa10524e13709ae99751aa1771
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d0e86cd56d75eeda1377dbc30a48e6888a50af0e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145895"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285435"
 ---
 # <a name="add-resource-roles-project-service"></a>Ajouter des rôles de ressources (Project Service)
 

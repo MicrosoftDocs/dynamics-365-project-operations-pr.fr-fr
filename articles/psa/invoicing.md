@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5d9fff2d3b26da73e5a236cd8607576439fc1a08
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151385"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284265"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturation dans Project Service Automation
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 73b23aad2976c8ccbb542fc2dda1d96dd9f5714b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148010"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283635"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Progression d’un projet et consommation des coûts
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5d957f793b7909893a7fa311e6572a8ace9fde0f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9ec7ac38475269f472f97f4537cfcdf1abcada37
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145805"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285345"
 ---
 # <a name="add-resources-project-service"></a>Ajouter des ressources (Project Service)
 

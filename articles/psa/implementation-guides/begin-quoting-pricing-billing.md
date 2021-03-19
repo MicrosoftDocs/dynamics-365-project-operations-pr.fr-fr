@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6873dfc1765beb61ebbdcb2a411a0c9979714cef
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e170adcc87ac69e31a00c85aefa718cc316dbd5a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149135"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284400"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Guide de base pour l’établissement de devis, la tarification et la facturation
 

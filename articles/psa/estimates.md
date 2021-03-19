@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1596964edb39f20d1dc26c7a61cb9fb294d1f0ba
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151430"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284490"
 ---
 # <a name="estimates"></a>Estimations
 

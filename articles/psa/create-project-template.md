@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efc404131208e1c971cb091cf174c1f4707552f0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e8a9b75aa0721c6e7c85c2bca8796bf9f2c6d3db
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149360"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285120"
 ---
 # <a name="create-a-project-template-project-service"></a>Créer un modèle de projet (Project Service)
 

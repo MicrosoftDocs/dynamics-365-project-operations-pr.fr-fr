@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8afa297190406c7fab8237e16c56cfe232a220af
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148325"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283950"
 ---
 # <a name="project-costs-and-revenue"></a>Revenu et coûts du projet
 
