@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180234"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277560"
 ---
 # <a name="project-quote-settings"></a>Paramètres de devis de projet
 
@@ -22,7 +22,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 Cet article explique les informations qui s’appliquent à un devis de projet. Cela inclut les paramètres qui affectent toutes les lignes de devis et les informations sur le devis qui sont résumées sur tous les éléments de ligne pour piloter les indicateurs de performance clés du devis de projet.
 
-Le tableau suivant répertorie les champs d’informations récapitulatives sur un devis de projet qui sont uniques à Dynamics 365 Project Operations ou qui présentent des changements de comportement importants à partir des devis Dynamics 365 Sales.
+Le tableau suivant répertorie les champs d’informations récapitulatives d’un devis de projet qui sont propres à Dynamics 365 Project Operations ou qui ont des changements importants dans le comportement des devis de Dynamics 365 Sales.
 
 | **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |

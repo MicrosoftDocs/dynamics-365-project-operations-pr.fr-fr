@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble du déploiement simplifié
-description: Cette rubrique fournit des informations sur le déploiement simplifié de Dynamics 365 Project Operations.
+description: Cette rubrique fournit des informations sur le déploiement simplifié de Dynamics 365 Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 11/02/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365467"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273960"
 ---
 # <a name="lite-deployment-overview"></a>Vue d’ensemble du déploiement simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Le type de déploiement simplifié de Dynamics 365 Project Operations a les fonctionnalités suivantes pour les entreprises basées sur des projets :
+Le type de déploiement simplifié de Dynamics 365 Project Operations a les fonctionnalités suivantes pour les entreprises basées sur des projets :
 
 - Planification de projet à l’aide de Microsoft Project pour le web
 - Tarification multidimensionnelle et évaluation des coûts des ressources de main-d’œuvre
@@ -27,7 +27,7 @@ Le type de déploiement simplifié de Dynamics 365 Project Operations a les fo
 - Gestion des ventes basée sur un projet à l’aide des fonctionnalités de Dynamics 365 Sales
 - Universal Resource Scheduling qui s’intègre à d’autres applications telles que Dynamics 365 Field Service et Dynamics 365 Customer Service
 - Suivi de la progression d’un projet et de son temps
-- Suivi des dépenses de base pour les dépenses basées sur un projet
+- Suivi des dépenses de base pour les dépenses basées sur des projets
 - La facturation pro forma qui peut être révisée et envoyée à un système financier pour traitement
 - Extensibilité grâce à Power Platform
 

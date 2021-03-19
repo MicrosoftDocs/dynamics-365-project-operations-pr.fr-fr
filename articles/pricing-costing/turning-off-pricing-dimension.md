@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650046"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274725"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Désactiver une dimension de tarification
 

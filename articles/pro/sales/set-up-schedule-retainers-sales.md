@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: d90781407f11c93b9fb9e0cd2446e102e216b8db
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596369"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272253"
 ---
 # <a name="set-up-a-retainer-schedule"></a>Configurer une planification de la provision
 

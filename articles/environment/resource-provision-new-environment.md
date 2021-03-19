@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727787"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276885"
 ---
 # <a name="provision-a-new-environment"></a>Mettre en service un nouvel environnement
 

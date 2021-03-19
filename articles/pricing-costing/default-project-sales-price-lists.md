@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130935"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275580"
 ---
 # <a name="default-price-lists"></a>Listes de prix par défaut
 
@@ -21,7 +21,7 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 ## <a name="sales-price-lists"></a>Tarifs de vente
 
-Chaque devis et contrat de projet dans Dynamics 365 Project Operations contient un tarif de vente par défaut. 
+Chaque devis et contrat de projet dans Dynamics 365 Project Operations contient une liste de prix de vente par défaut. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Liste de prix par défaut sur les devis de projet
 Le système effectue le processus suivant pour déterminer le tarif par défaut sur un devis de projet :

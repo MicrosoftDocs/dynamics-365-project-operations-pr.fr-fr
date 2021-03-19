@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37377367751592fc533447748b80b124cb6548ad
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1d47be6c11ced70b94b7497dfbc0c67d1a3f631b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151340"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274995"
 ---
 # <a name="manage-resources"></a>Gérer les ressources
 
@@ -331,7 +331,7 @@ L’onglet affiche également un total net général pour le projet, conjointeme
 Pour chaque ressource, l’onglet calcule la distinction entre les réservations du membre de l’équipe et un report des affectations des tâches du membre de l’équipe. Idéalement, cette différence doit être de 0 (zéro). En d’autres termes, il ne doit exister aucune différence entre les réservations et les attributions. Les différences sont en couleur et grisées pour attirer l’attention sur deux conditions :
 
 - **Pénurie de réservation** – Une pénurie de réservation se produit lorsque la ressource a plus d’attributions que de réservations. Cette capacité n’ayant pas été réservée, un chef de projet peut également corriger cette condition en étendant les réservations de la ressource pour compenser la pénurie.
-- **Réservations en trop** - Une réservation excessive se produit lorsque la ressource a été réservée pour le projet, mais n’a pas été affectée à des tâches. Cette condition peut être acceptable dans les cas où la ressource a été réservée dans le projet avant que l’affectation de tâches se soit produite. En revanche, dans d’autres cas, la ressource n’est pas planifiée pour être affectée à des tâches. Dans ce genre de situation, le chef de projet doit envisager d’annuler les réservations de la ressource, de sorte que la capacité puisse être utilisée pour un autre projet.
+- **Réservations en trop** - Une réservation excessive se produit lorsque la ressource a été réservée pour le projet, mais n’a pas été affectée à des tâches. Cet état peut être acceptable dans les cas où la ressource a été réservée dans le projet avant l’affectation de la tâche. Cependant, dans d’autres cas, la ressource n’est pas planifiée pour être affectée à des tâches. Dans ce genre de situation, le chef de projet doit envisager d’annuler les réservations de la ressource, de sorte que la capacité puisse être utilisée pour un autre projet.
 
 Dans certains cas, lorsque vous affichez le temps à un niveau supérieur que le niveau du jour (par exemple, le niveau de mois), vous pouvez voir une différence nette de zéro pour une ressource (en d’autres termes, réservations = attributions). Toutefois, si vous affichez le temps au niveau de la semaine, vous pouvez voir des attributions de zéro heure et des réservations de 40 heures au cours de la première semaine, mais des attributions de 40 heures et des réservations de zéro heure dans la deuxième semaine. Globalement, les réservations et attributions sont rapprochées, mais elles ne correspondent pas d’une semaine à l’autre.
 

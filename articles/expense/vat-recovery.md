@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1c7bd2cb3b200ef3be735484d4e831a7a5793d58
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126120"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275940"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Récupération de la TVA dans Gestion des dépenses
 
@@ -24,7 +24,7 @@ Pour recevoir des remboursements sur les transactions de taxe sur la valeur ajou
 Pour récupérer la TVA dans le module **Gestion des dépenses**, les conditions préalables suivantes doivent être remplies :
 
 - Les codes de taxe doivent être créés pour les pays/régions affectés aux catégories de dépenses.
-- Un groupe de taxe doit être créé pour chaque code de taxe.
+- Un groupe taxe doit être créé pour chaque code taxe.
 - Un code de groupe de taxe doit être créé pour chaque groupe de taxe.
 
 Une fois les conditions préalables remplies, les étapes suivantes doivent être effectuées pour demander le remboursement des transactions de TVA.

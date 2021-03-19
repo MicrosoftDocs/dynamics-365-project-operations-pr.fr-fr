@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180279"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274905"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurer les taux de coûts et de vente pour les dépenses
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Vous pouvez configurer le coût de revient et les prix de vente pour les catégories de transactions dans Dynamics 365 Project Operations. Étant donné que le coût de revient et les prix de vente sont conçus pour les dépenses, chaque catégorie de transaction qui les inclut doit également être configurée comme catégorie de dépenses. Cette configuration garantit la précision des fonctionnalités en aval. Le coût de revient et les prix de vente des catégories de transaction ne peuvent être répertoriés que dans une seule devise, qui doit être la devise de l’en-tête du tarif.
+Vous pouvez configurer les prix de revient et de vente pour les catégories de transaction dans Dynamics 365 Project Operations. Étant donné que le coût de revient et les prix de vente sont conçus pour les dépenses, chaque catégorie de transaction qui les inclut doit également être configurée comme catégorie de dépenses. Cette configuration garantit la précision des fonctionnalités en aval. Le coût de revient et les prix de vente des catégories de transaction ne peuvent être répertoriés que dans une seule devise, qui doit être la devise de l’en-tête du tarif.
 
 Pour configurer les taux de coûts et de vente pour les catégories de transaction, procédez comme suit. 
 

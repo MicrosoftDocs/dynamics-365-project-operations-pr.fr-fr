@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176743"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274500"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Résoudre des prix de vente pour les estimations et les chiffres réels – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Lorsque les prix de vente sur les estimations et les chiffres réels sont résolus dans Dynamics 365 Project Operations, le système utilise d’abord la date et la devise du devis ou du contrat de projet associé pour résoudre les tarifs de vente. Une fois le tarif de vente est résolu, le système résout le taux de vente ou le taux de facturation.
+Lorsque les prix de vente dans les estimations et les chiffres réels sont résolus dans Dynamics 365 Project Operations, le système utilise d’abord la date et la devise du devis ou contrat du projet associé pour résoudre les tarifs de vente. Une fois le tarif de vente est résolu, le système résout le taux de vente ou le taux de facturation.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Résoudre les taux de vente sur les lignes réelles et estimées pour le temps
 

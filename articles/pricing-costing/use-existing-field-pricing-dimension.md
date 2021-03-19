@@ -1,6 +1,6 @@
 ---
 title: Champs de Project Operations en tant que dimensions de tarification
-description: Cette rubrique fournit des informations sur l’utilisation des champs en tant que dimensions de tarification dans Dynamics 365 Project Operations.
+description: Cette rubrique donne des informations sur l’utilisation des champs comme dimensions de tarification dans Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 59367b35f15f806b109f606e912edc487d9e7685
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04b823e8237590a294ed0706e64d0ecb9d2cf56f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119235"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274635"
 ---
-# <a name="project-operations-fields-as-pricing-dimensions"></a>Champs de Project Operations en tant que dimensions de tarification
+# <a name="project-operations-fields-as-pricing-dimensions"></a>Champs de Project Operations comme dimensions de tarification
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 

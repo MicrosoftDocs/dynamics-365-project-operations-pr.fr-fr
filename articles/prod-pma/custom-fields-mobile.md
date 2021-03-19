@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075794"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270990"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implémenter des champs personnalisés pour l’application mobile Microsoft Dynamics 365 Project Timesheet sur iOS et Android
 
@@ -44,8 +44,8 @@ Cette rubrique est destinée aux développeurs qui intègrent leurs champs perso
 
 La classe **TSTimesheetCustomField** correspond à la classe de contrat de données X++ qui représente des informations sur un champ personnalisé pour la fonctionnalité de feuille de temps. Les listes des objets de champ personnalisé sont transmises à la fois au contrat de données TSTimesheetDetails et au contrat de données TSTimesheetEntry pour afficher les champs personnalisés dans l’application mobile.
 
-- **TSTimesheetDetails**  : contrat d’en-tête de la feuille de temps.
-- **TSTimesheetEntry**   contrat de transaction de la feuille de temps. Les groupes de ces objets, avec les mêmes informations de projet et la valeur **timesheetLineRecId** , constituent une ligne.
+- **TSTimesheetDetails** : contrat d’en-tête de la feuille de temps.
+- **TSTimesheetEntry**  contrat de transaction de la feuille de temps. Les groupes de ces objets, avec les mêmes informations de projet et la valeur **timesheetLineRecId**, constituent une ligne.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (types)
 
@@ -61,11 +61,11 @@ La propriété **FieldBaseType** sur l’objet **TsTimesheetCustom** détermine 
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Si la propriété **stringOptions** n’est pas fournie sur l’objet **TSTimesheetCustomField** , un champ de texte libre est fourni à l’utilisateur.
+- Si la propriété **stringOptions** n’est pas fournie sur l’objet **TSTimesheetCustomField**, un champ de texte libre est fourni à l’utilisateur.
 
     La propriété **stringLength** peut être utilisée pour définir la longueur de chaîne maximale que les utilisateurs peuvent saisir.
 
-- Si la propriété **stringOptions** est fournie sur l’objet **TSTimesheetCustomField** , ces éléments de liste sont les seules valeurs que les utilisateurs peuvent sélectionner à l’aide des boutons d’option.
+- Si la propriété **stringOptions** est fournie sur l’objet **TSTimesheetCustomField**, ces éléments de liste sont les seules valeurs que les utilisateurs peuvent sélectionner à l’aide des boutons d’option.
 
     Dans ce cas, le champ de chaîne peut agir comme une valeur d’énumération à des fins de saisie de l’utilisateur. Pour enregistrer la valeur dans la base de données en tant qu’énumération, mappez manuellement la valeur de chaîne vers la valeur d’énumération avant de procéder à l’enregistrement dans la base de données à l’aide d’une chaîne de commande (voir la section « Utiliser la chaîne de commande sur la classe TSTimesheetEntryService pour enregistrer une entrée de feuille de temps de l’application vers la base de données » ultérieurement dans cette rubrique pour un exemple).
 
@@ -73,8 +73,8 @@ La propriété **FieldBaseType** sur l’objet **TsTimesheetCustom** détermine 
 
 Vous pouvez utiliser cette propriété pour mettre en forme des valeurs réelles en tant que devise. Cette approche n’est applicable que lorsque la valeur **fieldBaseType** est définie sur **Réel**.
 
-- **TSCustomFieldExtendedType:None** : aucune mise en forme n’est appliquée.
-- **TSCustomFieldExtendedType::Currency**  : formater la valeur en tant que devise.
+- **TSCustomFieldExtendedType:None**: aucune mise en forme n’est appliquée.
+- **TSCustomFieldExtendedType::Currency** : formater la valeur en tant que devise.
 
     Lorsque le formatage de la devise est actif, le champ **stringValue** peut être utilisé pour passer le code devise qui doit être affiché dans l’application. La valeur est une valeur en lecture seule.
 
@@ -84,8 +84,8 @@ Vous pouvez utiliser cette propriété pour mettre en forme des valeurs réelles
 
 Vous pouvez utiliser cette propriété pour spécifier l’emplacement du champ personnalisé dans l’application.
 
-- **TSCustomFieldSection ::Header**  : le champ apparaît dans la section **Afficher plus de détails** dans l’application. Ces champs sont toujours en lecture seule.
-- **TSCustomFieldSection::Line**  : le champ apparaît après tous les champs de ligne prêts à l’emploi sur les entrées de feuille de temps. Ces champs peuvent être modifiables ou en lecture seule.
+- **TSCustomFieldSection ::Header** : le champ apparaît dans la section **Afficher plus de détails** dans l’application. Ces champs sont toujours en lecture seule.
+- **TSCustomFieldSection::Line** : le champ apparaît après tous les champs de ligne prêts à l’emploi sur les entrées de feuille de temps. Ces champs peuvent être modifiables ou en lecture seule.
 
 ### <a name="fieldname-fieldnameshort"></a>fieldName (FieldNameShort)
 
@@ -125,31 +125,31 @@ Cette propriété contrôle l’ordre dans lequel les champs personnalisés sont
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (booléen)
 
-Pour les domaines de type **Booléen** , cette propriété transmet la valeur booléenne du champ entre le serveur et l’application.
+Pour les domaines de type **Booléen**, cette propriété transmet la valeur booléenne du champ entre le serveur et l’application.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Pour les domaines de type **GUID** , cette propriété transmet la valeur GUID (identificateur global unique) du champ entre le serveur et l’application.
+Pour les domaines de type **GUID**, cette propriété transmet la valeur GUID (identificateur global unique) du champ entre le serveur et l’application.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Pour les domaines de type **Int64** , cette propriété transmet la valeur int64 du champ entre le serveur et l’application.
+Pour les domaines de type **Int64**, cette propriété transmet la valeur int64 du champ entre le serveur et l’application.
 
 ### <a name="intvalue-int"></a>intValue (entier)
 
-Pour les champs de type **Entier** , cette propriété transmet la valeur entier du champ entre le serveur et l’application.
+Pour les champs de type **Entier**, cette propriété transmet la valeur entier du champ entre le serveur et l’application.
 
 ### <a name="realvalue-real"></a>realValue (réel)
 
-Pour les champs de type **Réel** , cette propriété transmet la valeur réel du champ entre le serveur et l’application.
+Pour les champs de type **Réel**, cette propriété transmet la valeur réel du champ entre le serveur et l’application.
 
 ### <a name="stringvalue-str"></a>stringValue (chaîne)
 
-Pour les champs de type **Chaîne** , cette propriété transmet la valeur chaîne du champ entre le serveur et l’application. Il est également utilisé pour les champs de type **Réel** qui est formaté comme devise. Pour ces champs, la propriété est utilisée pour transmettre le code de devise à l’application.
+Pour les champs de type **Chaîne**, cette propriété transmet la valeur chaîne du champ entre le serveur et l’application. Il est également utilisé pour les champs de type **Réel** qui est formaté comme devise. Pour ces champs, la propriété est utilisée pour transmettre le code de devise à l’application.
 
 ### <a name="datevalue-date"></a>dateValue (date)
 
-Pour les champs de type **Date** , cette propriété transmet la valeur date du champ entre le serveur et l’application.
+Pour les champs de type **Date**, cette propriété transmet la valeur date du champ entre le serveur et l’application.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Afficher et enregistrer un champ personnalisé dans la section d’entrée de la feuille de temps
 
@@ -179,9 +179,9 @@ Ci-dessous, vous trouverez une capture d’écran de Visual Studio de l’arbore
 
 Ce code contrôle les paramètres d’affichage du champ dans l’application. Par exemple, il contrôle le type de champ, l’étiquette, si le champ est obligatoire et dans quelle section le champ apparaît.
 
-L’exemple suivant montre un champ de chaîne sur les entrées d’heure. Ce champ a deux options, **Première option** et **Deuxième option** , qui sont disponibles via les cases d’option. Le champ de l’application est associé au champ **TestLineString** qui est ajouté à la table TSTimesheetLine.
+L’exemple suivant montre un champ de chaîne sur les entrées d’heure. Ce champ a deux options, **Première option** et **Deuxième option**, qui sont disponibles via les cases d’option. Le champ de l’application est associé au champ **TestLineString** qui est ajouté à la table TSTimesheetLine.
 
-Notez l’utilisation de la méthode **TSTimesheetCustomField::newFromMetatdata()** pour simplifier l’initialisation des propriétés du champ personnalisé : **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** et **numberOfDecimals**. Vous pouvez également définir ces paramètres manuellement, selon vos préférences.
+Notez l’utilisation de la méthode **TSTimesheetCustomField::newFromMetatdata()** pour simplifier l’initialisation des propriétés du champ personnalisé : **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** et **numberOfDecimals**. Vous pouvez également définir ces paramètres manuellement, selon vos préférences.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Pour enregistrer un champ personnalisé dans la base de données dans le cadre d
 - La méthode **populateTimesheetWeekFromEntry** peut être également développée si le champ personnalisé qui est mappé à l’objet **TSTimesheetEntry** doit répondre à la table de base de données TSTimesheetLineweek.
 
 > [!NOTE]
-> L’exemple suivant enregistre la valeur **firstOption** ou **secondOption** que l’utilisateur sélectionne dans la base de données en tant que valeur de chaîne brute. Si le champ de la base de données est un champ de type **Enum** , ces valeurs peuvent être mappées manuellement à une valeur d’énumération, puis enregistrées dans un champ d’énumération de la table de base de données.
+> L’exemple suivant enregistre la valeur **firstOption** ou **secondOption** que l’utilisateur sélectionne dans la base de données en tant que valeur de chaîne brute. Si le champ de la base de données est un champ de type **Enum**, ces valeurs peuvent être mappées manuellement à une valeur d’énumération, puis enregistrées dans un champ d’énumération de la table de base de données.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ La logique existante pour la fonctionnalité de feuille de temps au niveau de la
 
 - Si **validateWrite** sur la table TSTimesheetLine renvoie **false** lors d’une opération de sauvegarde pour une ligne de feuille de temps, un message d’erreur s’affiche dans l’application mobile.
 - Si **validateSubmit** sur la table TSTimesheetTable renvoie **false** lors de l’envoi d’une feuille de temps dans l’application, un message d’erreur s’affiche.
-- La logique qui remplit les champs (par exemple, **Propriété de ligne** ) pendant la méthode **insérer** sur la table TSTimesheetLine fonctionnera toujours.
+- La logique qui remplit les champs (par exemple, **Propriété de ligne**) pendant la méthode **insérer** sur la table TSTimesheetLine fonctionnera toujours.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Masquage et marquage des champs prêts à l’emploi en lecture seule via la configuration
 

@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 7368dc5d4901e8083f15b0174b7cc58a6b6dbd91
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642270"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277470"
 ---
 # <a name="currency"></a>Devise
 

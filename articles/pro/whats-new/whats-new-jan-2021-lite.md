@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 28035a26529c9eb7e5a805c4e47c1958e30436bb
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: 460240c90f98f268dfda11858897b47c61e8af4e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958906"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272115"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Nouveautés de janvier 2021 – Déploiement léger de Project Operations
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089236"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275850"
 ---
 # <a name="manage-project-invoice-proposals"></a>Gérer des propositions de facture pour un projet
 

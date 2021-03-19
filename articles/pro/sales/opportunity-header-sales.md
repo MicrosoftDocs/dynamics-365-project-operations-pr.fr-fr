@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181032"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272700"
 ---
 # <a name="opportunity-header---lite"></a>En-tête de l’opportunité – Simplifié
 
@@ -21,7 +21,7 @@ _**S’applique à :** Déploiement simplifié – Traiter la facturation pro f
 
 L’en-tête Opportunité capture les informations globales sur une transaction basée sur un projet qui s’applique à toutes les lignes de l’opportunité basée sur un projet.
 
-Les opportunités basées sur des projets dans Dynamics 365 Project Operations sont des extensions d’opportunités dans Dynamics 365 Sales. Ces extensions fournissent des fonctionnalités supplémentaires spécifiques et requises pour les opportunités basées sur des projets. Ces extensions peuvent inclure de nouveaux champs et actions de ruban disponibles dans les opportunités basées sur des projets. Il se peut que certains champs, fonctionnalités et logiques par défaut disponibles dans Sales ne soient pas disponibles dans Project Operations.
+Les opportunités basées sur des projets dans Dynamics 365 Project Operations sont des extensions des opportunités dans Dynamics 365 Sales. Ces extensions fournissent des fonctionnalités supplémentaires spécifiques et requises pour les opportunités basées sur des projets. Ces extensions peuvent inclure de nouveaux champs et actions de ruban disponibles dans les opportunités basées sur des projets. Il se peut que certains champs, fonctionnalités et logiques par défaut disponibles dans Sales ne soient pas disponibles dans Project Operations.
 
 Le tableau suivant inclut les champs d’une opportunité basée sur un projet qui sont propres à Project Operations ou qui présentent des changements de comportement importants par rapport aux opportunités dans Sales.
 

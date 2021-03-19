@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b4a075ae5a7329f241cc31afceab0e085c771f72
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175573"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272880"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Gérer des unités complexes telles que par utilisateur, par mois pour les lignes de devis basées sur les produits – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Dynamics 365 Project Operations utilise des facteurs de quantité pour prendre en charge la vente des produits basés sur un abonnement. Pour les produits basés sur abonnement, la quantité sur le devis ou la ligne de contrat du projet est exprimée sous la forme du nombre de mois d’utilisateur.
+Dynamics 365 Project Operations utilise des facteurs de quantité pour prendre en charge la vente de produits basés sur un abonnement. Pour les produits basés sur abonnement, la quantité sur le devis ou la ligne de contrat du projet est exprimée sous la forme du nombre de mois d’utilisateur.
 
 En règle générale, le prix des logiciels sur abonnement est stocké dans le catalogue comme prix par utilisateur par mois. Durant le processus de vente, le prix sur la ligne de devis est généralement le prix par utilisateur, par mois, négocié et avec remise, par l’agent de vente informatique. Chaque transaction a un nombre différent d’utilisateurs et un nombre différent de mois d’abonnement. La quantité utilisée pour calculer la ligne de devis est un produit du nombre d’utilisateurs et du nombre de mois d’abonnement.
 

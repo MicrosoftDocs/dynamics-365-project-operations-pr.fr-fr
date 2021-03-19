@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 4c2cd4c5d4dfbb95398932d432864cf0d4d5d54d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642952"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276840"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Inscrivez-vous aux abonnements aux versions préliminaires de Project Operations pour les scénarios de ressources/non stockés
 

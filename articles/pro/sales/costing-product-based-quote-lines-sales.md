@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c08ac3b0f24dda19489bad6e667a50b67b8ce3ec
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118920"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273645"
 ---
 # <a name="costing-product-based-quote-lines"></a>Lignes du devis selon les produits pour l’évaluation des coûts
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
 
-Les lignes de devis basées sur les produits dans Dynamics 365 Project Operations ont également un champ **Prix de revient**. Ce champ est utilisé pour suivre le prix de revient du produit sur la ligne de devis et pour les calculs de rentabilité en aval.
+Les lignes de devis basées sur les produits dans Dynamics 365 Project Operations ont aussi un champ **Prix de revient**. Ce champ est utilisé pour suivre le prix de revient du produit sur la ligne de devis et pour les calculs de rentabilité en aval.
 
 Lorsqu’une ligne de devis basée sur un produit est créée pour un produit du catalogue, le coût de la ligne de devis basée sur le produit est par défaut celui du champ **Coût standard** dans le catalogue de produits. Le champ de coût standard dans le catalogue de produits est configuré dans la devise de base de l’organisation. Le coût unitaire par défaut de la ligne de devis basée sur le produit est converti dans la devise de vente du devis.
 

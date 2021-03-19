@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: cee61604d6b10b17a535b3362dda5d00fa27a0ef
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 713034da015edd30324617295cc19603466631b4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124590"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277200"
 ---
 # <a name="sample-data-home-page"></a>Page d’accueil des exemples de données
 

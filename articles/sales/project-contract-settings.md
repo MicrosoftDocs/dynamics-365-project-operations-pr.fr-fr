@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181134"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277605"
 ---
 # <a name="project-contract-settings"></a>Paramètres de contrat de projet
 
@@ -21,7 +21,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 Cette rubrique fournit des informations sur les champs qui s’appliquent à l’ensemble du contrat de projet, y compris les paramètres qui affectent toutes les lignes de contrat. Sont également incluses des informations sur le contrat qui sont récapitulées sur tous les éléments de ligne pour piloter les indicateurs du contrat de projet.
 
-Le tableau suivant répertorie les champs d’un contrat de projet qui sont uniques à Dynamics 365 Project Operations ou qui présentent des changements de comportement importants par rapport aux commandes client Dynamics 365 Sales.
+Le tableau suivant répertorie les champs d’un contrat de projet qui sont propres à Dynamics 365 Project Operations ou qui ont des changements importants dans le comportement des commandes client dans Dynamics 365 Sales.
 
 | Champ | Emplacement | Description | Impact en aval |
 | --- | --- | --- | --- |

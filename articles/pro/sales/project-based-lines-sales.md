@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180999"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272520"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Lignes des opportunités basées sur un projet – Simplifié
 
@@ -27,7 +27,7 @@ Vous trouverez ci-dessous les champs d’une ligne d’opportunité selon les pr
 
 | **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |
-| Type de produit | Onglet Général (masqué) | Vous pouvez sélectionner une des options suivantes :</br>- Service basé sur des projets (disponible uniquement si Dynamics 365 Project Operations est installé)</br>- Produit (disponible uniquement lorsque Project Operations et Dynamics 365 Sales sont installés) | La valeur de ce champ est définie sur **Service basé sur des projets** lorsque vous créez la ligne d’opportunité selon un projet à partir de la grille de lignes basée sur le projet sur l’opportunité. <br> Si vous modifiez ou remplacez cette valeur, la fonctionnalité de projet ne sera pas activée sur vos éléments de ligne basés sur le projet. |
+| Type de produit | Onglet Général (masqué) | Vous pouvez sélectionner une des options suivantes :</br>- Service basé sur un projet (disponible uniquement lorsque Dynamics 365 Project Operations est installé)</br>- Produit (disponible uniquement lorsque Project Operations et Dynamics 365 Sales sont installés) | La valeur de ce champ est définie sur **Service basé sur des projets** lorsque vous créez la ligne d’opportunité selon un projet à partir de la grille de lignes basée sur le projet sur l’opportunité. <br> Si vous modifiez ou remplacez cette valeur, la fonctionnalité de projet ne sera pas activée sur vos éléments de ligne basés sur le projet. |
 | Opportunité | Onglet Général | Ce champ est en lecture seule et fait référence à l’enregistrement d’opportunité parent auquel cet élément de ligne appartient. | Il n’y a pas d’impact en aval à partir de ce champ. |
 | Nom | Onglet Général | Ce champ de texte modifiable qui peut être utilisé pour donner une courte identité à l’élément de ligne. | Cette valeur est reportée sur la ligne de devis lorsque vous créez un devis à partir de cette opportunité. |
 | Budget client | Onglet Général | Ce champ de devise modifiable peut être utilisé pour suivre le montant que le client est prêt à dépenser pour cet élément de ligne. | Cette valeur est reportée sur le champ correspondant de la ligne de devis lorsque vous créez un devis à partir de cette opportunité. |

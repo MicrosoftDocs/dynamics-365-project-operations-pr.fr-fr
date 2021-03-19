@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650185"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275400"
 ---
 # <a name="pricing-dimensions-overview"></a>Vue d’ensemble des dimensions de tarification
 

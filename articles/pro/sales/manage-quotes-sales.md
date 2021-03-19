@@ -8,22 +8,22 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 87921221ea210e67a3ddc53bd124f292de80de99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177823"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272925"
 ---
 # <a name="manage-project-quotes"></a>Gérer des devis de projet
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Dans Dynamics 365 Project Operations, les devis de projet sont conçus pour aider à créer des propositions pour le travail de projet. La structure d’un devis de projet dans Project Operations est modelée pour les propositions de projet avec les composants suivants :
+Dans Dynamics 365 Project Operations, les devis de projet sont conçus pour aider à créer des propositions de travail de projet. La structure d’un devis de projet dans Project Operations est conçue pour les propositions de projet avec les composants suivants :
 
-  - Lignes de devis qui identifient les composants discrets du travail qui seront présentés comme des composants de haut niveau.
-  - Détails de la ligne de devis qui identifient et estiment le travail pour chaque composant de haut niveau ou ligne de devis. La planification ou les estimations de date et les aspects financiers du travail sont liés à cette ligne de devis.
-  - Des modèles contractuels et des composants facturables sont configurés pour chaque ligne de devis. Cette configuration permet d’estimer la répartition des revenus, des dépenses et de la rentabilité pour chaque ligne de devis et le devis global.
+  - Des lignes de devis qui identifient les composants discrets du travail, qui seront présentés comme des composants de haut niveau.
+  - Des détails de ligne de devis qui identifient et estiment le travail pour chaque composant de haut niveau ou ligne de devis. Un programme ou des estimations de date et les aspects financiers du travail sont liés à cette ligne de devis.
+  - Des modèles de sous-traitance et des composants facturables sont configurés pour chaque ligne de devis. Cette configuration permet d’estimer la répartition des revenus, des dépenses et de la rentabilité pour chaque ligne de devis et le devis global.
 
 ## <a name="view-all-project-based-quotes"></a>Afficher tous les devis basés sur un projet
 

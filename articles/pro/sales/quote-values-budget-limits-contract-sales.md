@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180947"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272430"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Informations récapitulatives sur un devis de projet – Simplifié
 
@@ -21,7 +21,7 @@ _**S’applique à :** Déploiement simplifié – Traiter la facturation pro f
 
 Cet article explique les informations qui s’appliquent à un devis de projet. Cela inclut les paramètres qui affectent toutes les lignes de devis et les informations sur le devis qui sont résumées sur tous les éléments de ligne pour piloter les indicateurs de performance clés du devis de projet.
 
-Le tableau suivant répertorie les champs d’informations récapitulatives sur un devis de projet qui sont uniques à Dynamics 365 Project Operations ou qui présentent des changements de comportement importants à partir des devis Dynamics 365 Sales.
+Le tableau suivant répertorie les champs d’informations récapitulatives d’un devis de projet qui sont propres à Dynamics 365 Project Operations ou qui ont des changements importants dans le comportement des devis de Dynamics 365 Sales.
 
 | **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 0fde833ad6b13fc12b733d1aa9f3bba0cfd95b2b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273069"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Gérer plusieurs clients sur les lignes de devis basées sur un projet – Simplifié
 

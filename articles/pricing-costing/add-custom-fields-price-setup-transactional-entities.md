@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: 66cd638a3726cb68c0e92d3b0b54de28ff94b2a5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590898"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275760"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Ajouter des champs personnalisés obligatoires au paramétrage de tarifs et aux entités transactionnelles
 

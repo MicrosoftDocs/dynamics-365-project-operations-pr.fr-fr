@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 30a74f683a032d5bd6caed347f4d0a948376d267
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177643"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272790"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Mapper les projets et les tâches à une ligne de contrat basée sur un projet – Simplifié
 

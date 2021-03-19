@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075875"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270720"
 ---
 # <a name="create-a-new-project"></a>Créer un projet
 
@@ -31,7 +31,7 @@ ms.locfileid: "4075875"
 
 Procédez comme suit pour créer un projet.
 
-1. Sur la page **Gestion de projet** , sélectionnez **Nouveau projet** , et saisissez les valeurs suivantes :
+1. Sur la page **Gestion de projet**, sélectionnez **Nouveau projet**, et saisissez les valeurs suivantes :
 
     - **Type de projet :** Temps et matériel
     - **Nom du projet :** Mise à niveau XYZ Phase 2
@@ -42,10 +42,10 @@ Procédez comme suit pour créer un projet.
 
 ## <a name="assign-a-resource-to-a-project"></a>Attribuer une ressource à un projet
 
-1. Sur la page **Employés** , dans la liste **Employés** , sélectionnez l’enregistrement pour l’employé pour lequel vous avez précédemment configuré des compétences, et ouvrez l’enregistrement de l’employé.
-2. Dans le volet Actions, sur l’onglet **Projet** , dans le groupe **Configuration** , sélectionnez **Attribuer les projets**.
-3. Sur la page **Affectations de projets de validation de ressources** , sur l’onglet **Projets** , dans le champ **Ajouter le projet aux projets sélectionnés** , filtrez sur le projet **Mise à niveau XYZ Phase 2**.
-4. Dans le volet **Projets restants** , sélectionnez un projet, puis sélectionnez le bouton fléché pour l’ajouter au volet **Projets sélectionnés**.
+1. Sur la page **Employés**, dans la liste **Employés**, sélectionnez l’enregistrement pour l’employé pour lequel vous avez précédemment configuré des compétences, et ouvrez l’enregistrement de l’employé.
+2. Dans le volet Actions, sur l’onglet **Projet**, dans le groupe **Configuration**, sélectionnez **Attribuer les projets**.
+3. Sur la page **Affectations de projets de validation de ressources**, sur l’onglet **Projets**, dans le champ **Ajouter le projet aux projets sélectionnés**, filtrez sur le projet **Mise à niveau XYZ Phase 2**.
+4. Dans le volet **Projets restants**, sélectionnez un projet, puis sélectionnez le bouton fléché pour l’ajouter au volet **Projets sélectionnés**.
 
 Vous pouvez également attribuer des catégories à une ressource selon vos besoins. Le type de catégorie est soit **Coût** soit **Revenu**. Le type de catégorie est déterminé par votre organisation. Si aucune catégorie n’est affectée à une ressource, Finance recherche la catégorie par défaut sur les prix horaires pour le coût et le revenu.
 
@@ -59,26 +59,26 @@ Un chef de projet peut utiliser la fonctionnalité de ressources de projet pour 
 
 Les étapes suivantes montrent comment le responsable des ressources peut configurer le rôle de chef de projet principal et y associer des caractéristiques de ressource. Plus tard, le rôle peut être utilisé pour rechercher des ressources disponibles qui correspondent aux compétences de ressources requises.
 
-1. Sur la page **Configurer les rôles** , sélectionnez **Nouveau** , et saisissez les valeurs suivantes :
+1. Sur la page **Configurer les rôles**, sélectionnez **Nouveau**, et saisissez les valeurs suivantes :
 
     - **ID de rôle :** chef de projet senior
     - **Description :** chef de projet senior
 
 2. Sélectionnez **Créer**.
-3. Sélectionnez le rôle **Chef de projet senior** , puis **Configurer les caractéristiques**.
-4. Dans le champ **Type de caractéristique** , sélectionnez **Compétence**.
-5. Dans le champ **Caractéristiques disponibles** , entrez la compétence à rechercher.
-6. Dans le champ **Type de caractéristique** , sélectionnez **Certificat**.
-7. Dans le champ **Caractéristiques disponibles** , entrez le type de certificat à rechercher.
+3. Sélectionnez le rôle **Chef de projet senior**, puis **Configurer les caractéristiques**.
+4. Dans le champ **Type de caractéristique**, sélectionnez **Compétence**.
+5. Dans le champ **Caractéristiques disponibles**, entrez la compétence à rechercher.
+6. Dans le champ **Type de caractéristique**, sélectionnez **Certificat**.
+7. Dans le champ **Caractéristiques disponibles**, entrez le type de certificat à rechercher.
 
 ## <a name="assign-a-project-resource-to-a-project"></a>Attribuer une ressource de projet à un projet
 
-1. Sur la page **Tous les projets** , sélectionnez le projet **Mise à niveau XYZ Phase 2**.
-2. Sur l’onglet **Équipe de projet et planification** , sélectionnez **Ajouter**.
-3. Dans le champ **Rôle** , sélectionnez **Membre de l’équipe**.
+1. Sur la page **Tous les projets**, sélectionnez le projet **Mise à niveau XYZ Phase 2**.
+2. Sur l’onglet **Équipe de projet et planification**, sélectionnez **Ajouter**.
+3. Dans le champ **Rôle**, sélectionnez **Membre de l’équipe**.
 4. Sélectionnez **Réserver depuis le calendrier**.
-5. Sur la page **Disponibilité des ressources** , sélectionnez **Paramètres d’affichage**.
-6. Sur la page **Ajuster les paramètres d’affichage** , entrez les valeurs suivantes :
+5. Sur la page **Disponibilité des ressources**, sélectionnez **Paramètres d’affichage**.
+6. Sur la page **Ajuster les paramètres d’affichage**, entrez les valeurs suivantes :
 
     - **Format d’affichage de la plage de dates :** Journée
     - **Afficher les descriptions de disponibilité :** Oui
@@ -95,15 +95,15 @@ Lors de la réservation de ressources, les chefs de projet peuvent filtrer les r
 
 **Scénario :** Un projet approuvé a démarré et le rôle de chef de projet principal a été réservé en tant que ressource planifiée pendant la phase de planification du projet. Le responsable des ressources a maintenant acquis une ressource pour remplir le rôle de chef de projet senior.
 
-1. Sur la page **Liste des ressources** , sélectionnez **Daniel Goldschmidt**.
-2. Sur la page **Rôle de la ressource** , sélectionnez **Nouveau** , et saisissez les valeurs suivantes :
+1. Sur la page **Liste des ressources**, sélectionnez **Daniel Goldschmidt**.
+2. Sur la page **Rôle de la ressource**, sélectionnez **Nouveau**, et saisissez les valeurs suivantes :
 
     - **Efficace :** saisissez la date actuelle.
     - **Expiration :** saisissez **Jamais**.
-    - **Rôle**  : saisissez **Chef de projet senior**.
+    - **Rôle** : saisissez **Chef de projet senior**.
 
 3. Cliquez sur **Enregistrer** puis fermez la page.
-4. Sur l’onglet **Compétences** , ajoutez la compétence **ProjectMgmt** et le certificat **PMP**.
+4. Sur l’onglet **Compétences**, ajoutez la compétence **ProjectMgmt** et le certificat **PMP**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: dbd3876e555ee6bc70308ef11a3528a5dd8b6a32
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180369"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273510"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimation d’une ligne de devis selon les projets
 

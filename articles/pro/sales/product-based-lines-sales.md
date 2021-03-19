@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b826bf3a1320eee2758af7a094e9f1c2eac6a119
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 4f8da5258a1dd0aa4229654c0e1e222b8cf3a21a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764951"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272610"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>Lignes des opportunités basées sur les produits – Simplifié
 

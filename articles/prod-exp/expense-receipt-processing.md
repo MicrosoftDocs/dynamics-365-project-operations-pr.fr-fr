@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 57ef67412eb3c5795559e4f6d011e97c4d7a1338
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960289"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271800"
 ---
 # <a name="expense-receipt-processing"></a>Traitement des reçus de dépenses
 

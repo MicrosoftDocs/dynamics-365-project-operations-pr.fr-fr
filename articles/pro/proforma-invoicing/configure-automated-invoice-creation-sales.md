@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176563"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274320"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Configurer une création de facture automatisée – Simplifié
  
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Vous pouvez configurer la création automatique de factures dans Dynamics 365 Project Operations. Le système crée un projet de facture pro forma basé sur la planification de facture pour chaque contrat de projet et ligne de contrat. Les planifications de facture sont configurées au niveau de la ligne de contrat. Chaque ligne d’un contrat peut avoir une planification de facture distincte, ou la même planification de facture peut être incluse sur chaque ligne du contrat.
+Vous pouvez configurer la création automatique de factures dans Dynamics 365 Project Operations. Le système crée une facture pro forma provisoire selon le calendrier de facturation pour chaque contrat de projet et chaque ligne de contrat. Les calendriers de facturation sont configurés au niveau de la ligne de contrat. Chaque ligne d’un contrat peut présenter un calendrier de facturation distinct, ou le même calendrier de facturation peut être inclus sur toutes les lignes du contrat.
 
 Lorsque vous créez une facture, le système crée toujours au moins une facture par contrat de projet. Dans certains cas, plusieurs factures peuvent être créées.
 
@@ -71,7 +71,7 @@ Procédez comme suit pour configurer l’exécution d’une facture automatique.
 1. Dans **Project Operations**, accédez à **Paramètres** > **Configuration de facture périodique**.
 2. Créez un traitement par lots, et nommez-le **Créer des factures dans Project Operations**. Le nom du traitement par lots doit inclure les mots « Créer des factures ».
 3. Dans le champ **Type de tâche**, sélectionnez **Aucun**. Par défaut, les champs **Fréquence quotidienne** et **Est actif** sont définies sur **Oui**.
-4. Sélectionnez **Exécuter le flux de travail**. Dans la boîte de dialogue **Rechercher un enregistrement**, vous verrez trois workflows :
+4. Cliquez sur **Exécuter le flux de travail**. Dans la boîte de dialogue **Rechercher un enregistrement**, trois flux de travail s’affichent :
 
 - ProcessRunCaller
 - ProcessRunner

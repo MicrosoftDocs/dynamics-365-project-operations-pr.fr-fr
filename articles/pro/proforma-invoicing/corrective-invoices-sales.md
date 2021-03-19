@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176428"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274230"
 ---
 # <a name="corrected-invoices---lite"></a>Factures corrigées – Simplifié
 

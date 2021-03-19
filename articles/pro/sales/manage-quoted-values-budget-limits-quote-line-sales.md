@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181089"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272970"
 ---
 # <a name="project-based-quote-lines-overview---lite"></a>Vue d’ensemble des lignes du devis basées sur un projet – Simplifié
 
@@ -34,7 +34,7 @@ Le tableau suivant fournit des informations sur les champs de l’onglet **Gén�
 | **Champ** | **Description** | **Impact en aval** |
 | --- | --- | --- |
 | Nom  | Nom de la ligne de devis qui devrait vous aider à identifier le composant discret du devis qui est estimé. | Copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu. |
-| Mode de facturation | Sur un devis créé à partir d’une opportunité, cette valeur est copiée à partir du champ correspondant sur la ligne d’opportunité. Ce champ comprend les deux principaux modèles de contrats pris en charge par Dynamics 365 Project Operations :</br>- Prix fixe</br>- Temps et matériel.| Ce champ est copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu. |
+| Mode de facturation | Sur un devis créé à partir d’une opportunité, cette valeur est copiée à partir du champ correspondant sur la ligne d’opportunité. Ce champ comprend les deux principaux modèles de contrats pris en charge par Dynamics 365 Project Operations :</br>- Prix fixe</br>- Temps et matériel.| Ce champ est copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu. |
 | Project | Utilisez ce champ facultatif pour identifier le projet qui sera utilisé pour livrer le travail sur cet engagement. Lorsqu’un projet est mappé à une ligne de devis, cela aide à configurer des tâches facturables et également à intégrer une estimation basée sur le projet à la ligne de devis en tant que détails de la ligne de devis. Lorsqu’un projet n’est pas mappé à une ligne de devis basée sur un projet, l’estimation doit être créée manuellement en créant chaque détail de ligne de devis. | Ce champ est copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu.|
 | Tâches incluses | Indique si cette ligne de devis est utilisée pour tout ou partie des tâches du projet pour le projet sélectionné. Ce champ contient les valeurs possibles suivantes :</br>- Toutes les tâches du projet</br>- Tâches du projet sélectionnées uniquement</br>Une valeur vide dans ce champ équivaut à l’option **Toutes les tâches du projet**. | Lorsque **Tâches de projet sélectionnées uniquement** est sélectionné sur la page du projet, l’onglet **Configuration de la facturation des tâches** vous permet de sélectionner des tâches spécifiques pour les associer à cette ligne de devis. Ce champ est copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu. |
 | Inclure le temps | Un indicateur **Oui**/**Non** indique si les transactions de temps ou les coûts de main-d’œuvre sur le projet sélectionné seront inclus dans l’estimation sur cette ligne de devis. Une valeur de **Non** indique que le coût des transactions de temps ou de coûts de main-d’œuvre ne seront pas inclus dans l’estimation sur cette ligne de devis. Une valeur de **Oui** indique que le coût des transactions de temps ou de coûts de main-d’œuvre seront inclus dans l’estimation sur cette ligne de devis. | Ce champ est copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu. |

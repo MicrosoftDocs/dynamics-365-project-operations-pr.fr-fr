@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8ca35d1e66cbacaf65b7cd43493e3588f213788e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127745"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276930"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Créer et confirmer des journaux de correction
 

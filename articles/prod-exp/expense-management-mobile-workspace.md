@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960469"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272025"
 ---
 # <a name="expense-management-mobile-workspace"></a>Espace de travail mobile de gestion des dépenses
 

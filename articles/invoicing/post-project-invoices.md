@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 9dc424cf69abfccc10bf551272a14e5cefb3dff0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089235"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275804"
 ---
 # <a name="invoicing-process-overview"></a>Vue d’ensemble du processus de facturation
 

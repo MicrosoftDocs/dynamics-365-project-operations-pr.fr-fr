@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d387816f51f63ecd95df6534c7c012b323e6ddc
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 6214e1b5bec5c9173a6b6e69578de14654da633e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764861"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272270"
 ---
 # <a name="close-a-quote---lite"></a>Fermer un devis – Simplifié
 

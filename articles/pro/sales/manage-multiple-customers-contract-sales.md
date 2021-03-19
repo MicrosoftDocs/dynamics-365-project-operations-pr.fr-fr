@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 3c9804c77cc0931352b026f15fd764f43361757f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181314"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273150"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Gérer plusieurs clients sur des contrats de projets – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Les contrats de projet dans Dynamics 365 Project Operations prennent en charge les scénarios dans lesquels un accord contractuel implique plusieurs clients qui financent une transaction. L’onglet **Synthèse** de la page **Contrat du projet** comprend le champ **Client**. Ce champ identifie le client principal de la transaction. D’autres clients de la transaction peuvent être définis sous l’onglet **Clients** de la page **Contrat du projet**.
+Les contrats de projet dans Dynamics 365 Project Operations prennent en charge les scénarios dans lesquels un accord contractuel implique plusieurs clients qui financent une transaction. L’onglet **Synthèse** de la page **Contrat du projet** comprend le champ **Client**. Ce champ identifie le client principal de la transaction. D’autres clients de la transaction peuvent être définis sous l’onglet **Clients** de la page **Contrat du projet**.
 
 Tous les clients du contrat répertoriés sur le contrat de projet sont créés par défaut en tant que clients de ligne de contrat sur toutes les lignes de contrat basées sur un projet créées pour le contrat du projet. Une fois leur enregistrement créé, les lignes de contrat basées un projet existantes n’héritent pas des nouveaux clients de contrat.
 

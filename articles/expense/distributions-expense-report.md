@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8c0ee3b9b989c644ab429310d1e7b4ef4b600dc3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 96245e6da131c55b2452d7797402fa714fc41d07
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120945"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276615"
 ---
 # <a name="distributions-on-an-expense-report"></a>Distributions sur une note de frais
 

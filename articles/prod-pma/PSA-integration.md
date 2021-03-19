@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 41d2eace497f4291022da0775cca7cda7d600df7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642450"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271080"
 ---
 # <a name="project-service-automation-overview"></a>Vue d’ensemble de Project Service Automation
 

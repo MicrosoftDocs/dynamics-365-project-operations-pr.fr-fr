@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c447e725753d738662f33cc9a5f20ec1a72b2e18
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c2fe2a15d38ab5a1f2a93c6db4ed6b7eb9bbd33d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119686"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275670"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Résolution des prix de revient pour les estimations et les chiffres réels
 

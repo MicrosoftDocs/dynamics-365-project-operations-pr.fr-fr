@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 93cb95ffc0348a1ad1905fbf308477d18e589185
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121035"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276660"
 ---
 # <a name="configure-expense-management-parameters"></a>Configurer les paramètres de gestion des dépenses
 

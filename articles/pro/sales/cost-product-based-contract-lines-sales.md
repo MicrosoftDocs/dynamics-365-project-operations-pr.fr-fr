@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a81c972f36179621f0547c24fc53d294485f638c
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 001b0b54abcdd5fcd1eca7f3271cc78392f68860
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764456"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273690"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Lignes de contrat basées sur les produits pour évaluation des coûts – Simplifié
 

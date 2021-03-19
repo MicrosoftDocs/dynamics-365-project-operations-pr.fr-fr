@@ -8,21 +8,21 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178003"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272385"
 ---
 # <a name="quotes---key-concepts---lite"></a>Devis – Concepts clé – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
 
-Les concepts clés suivants doivent être pris en compte avant de commencer à utiliser des devis de projet dans Dynamics 365 Project Operations :
+Voici les concepts clés à connaître avant de commencer à utiliser des devis de projet dans Dynamics 365 Project Operations :
 
-## <a name="contracting-unit"></a>Unité contractuelle
+## <a name="contracting-unit"></a>Unité contractante
 
 L’unité contractuelle représente la division ou le cabinet qui est propriétaire de la livraison du projet. Vous pouvez configurer les coûts des ressources de l’unité contractuelle. Lorsque vous spécifiez le coût de ressource pour une ressource de l’unité contractuelle, vous pourrez également définir différents taux de coût pour les ressources dont cette unité contractuelle emprunte, ou d’autres divisions ou cabinets au sein de l’entreprise. Ceux-ci sont appelés prix de transfert, emprunt de ressources ou prix de change. Lorsque vous configurez le coût d’emprunt de ressources auprès d’autres divisions, vous pouvez également choisir de configurer ces taux de coût dans la devise de la division de prêt.
 
@@ -57,9 +57,9 @@ Les tarifs de produits sont des tarifs utilisés pour les prix par défaut, et n
 
 Project Operations prend en charge quatre types de classes de transactions :
 
-- Durée
-- Dépense
-- Matériel
+- Temps
+- Dépenses
+- Matière
 - Frais
 
 Les valeurs de coût et de vente peuvent être estimées et engagées sur des classes de transactions Temps, Dépenses et Matériel. Les Frais sont une catégorie de transactions à revenus uniquement.

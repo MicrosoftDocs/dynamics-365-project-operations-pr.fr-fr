@@ -10,12 +10,12 @@ ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
-ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
+ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5098881"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276705"
 ---
 # <a name="cash-advance"></a>Paiement en avance
 

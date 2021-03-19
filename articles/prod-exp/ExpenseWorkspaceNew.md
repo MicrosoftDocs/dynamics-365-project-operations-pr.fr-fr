@@ -1,6 +1,6 @@
 ---
 title: Notes de frais réinventées
-description: Cette rubrique fournit des informations sur l'expérience remodelée et repensée pour la saisie des notes de frais dans Microsoft Dynamics 365 Finance. La nouvelle expérience simplifie le processus de rédaction des rapports de dépenses et réduit le temps requis.
+description: Cette rubrique fournit des informations sur l’expérience remodelée et repensée pour la saisie des notes de frais.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960244"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271980"
 ---
 # <a name="redesigned-expense-reports"></a>Notes de frais réinventées
 
@@ -40,12 +40,6 @@ Pour activer la nouvelle expérience, utilisez l'espace de travail **Gestion des
 - Un nouvel élément de menu pour la visibilité des champs de dépenses est ajouté.
 - Aucun élément de menu existant pour les notes de frais (la page existante) ou les champs de note de frais n’est supprimé.
 - Les workflows et toutes les approbations vous dirigent toujours vers la page des notes de frais existantes.
-
-## <a name="getting-started-video-for-new-users"></a>Vidéo de mise en route pour les nouveaux utilisateurs
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-La vidéo [Expérience de dépenses dans Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ci-dessus) est incluse dans la [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 ## <a name="new-features"></a>Nouvelles fonctionnalités
 

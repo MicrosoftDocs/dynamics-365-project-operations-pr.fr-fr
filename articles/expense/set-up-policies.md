@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 863d1e44dad9fa0d2174cf77582a1d820988e92d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128415"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276075"
 ---
 # <a name="define-expense-policies"></a>Définir des politiques de dépenses
 

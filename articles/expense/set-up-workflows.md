@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e54fca67427e8f3d0e7050563a751b5be354356c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127695"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276030"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Configurer des workflows pour la gestion des dépenses
 

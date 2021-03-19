@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d0d8309fcb4300e33ed2f5933259f99ad7e0d6a
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 186b982ee440576e10cf5b78922848b8877afd51
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180414"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273534"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Estimer une ligne de contrat basée sur un projet– Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Dans Dynamics 365 Project Operations, une ligne de contrat basée sur un projet contient des détails qui aident à estimer le coût et les revenus potentiels du travail impliqué pour fournir la ligne de contrat.
+Dans Dynamics 365 Project Operations, une ligne de contrat basée sur un projet contient des détails qui aident à estimer le coût et les revenus potentiels du travail impliqué pour fournir la ligne de contrat.
 
 Pour estimer une ligne de contrat basée sur un projet, accédez à l’onglet **Détail de la ligne de contrat** sur la **Ligne de contrat** basée sur un projet.  Il existe deux façons de créer une estimation sur une ligne de contrat basée sur un projet :
 

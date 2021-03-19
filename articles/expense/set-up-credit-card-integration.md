@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e0004f9096ea8a03745dbfce35fe0d32d3d707f6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cd60d338e2b2a2d74d4d7f55bb5a1723f10c29ab
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120855"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276165"
 ---
 # <a name="set-up-credit-card-integration"></a>Configurer l’intégration des cartes de crédit
 

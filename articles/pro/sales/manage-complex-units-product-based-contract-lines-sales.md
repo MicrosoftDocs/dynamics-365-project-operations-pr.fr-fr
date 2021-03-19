@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177373"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273330"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Gérer des unités complexes pour les lignes de contrat basées sur les produits – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Dynamics 365 Project Operations utilise des facteurs de quantité pour prendre en charge la vente des produits basés sur un abonnement. Pour les produits basés sur abonnement, la quantité sur le contrat ou la ligne de contrat du projet est exprimée sous la forme du nombre de mois d’utilisateur.
+Dynamics 365 Project Operations utilise des facteurs de quantité pour prendre en charge la vente de produits basés sur un abonnement. Pour les produits basés sur abonnement, la quantité sur le contrat ou la ligne de contrat du projet est exprimée sous la forme du nombre de mois d’utilisateur.
 
 Le prix des logiciels sur abonnement est stocké dans le catalogue comme prix par utilisateur et par mois. Durant le processus de vente, le prix sur la ligne de contrat est généralement le prix par utilisateur, par mois, négocié et avec remise, par l’agent de vente. Chaque transaction a un nombre différent d’utilisateurs et un nombre différent de mois d’abonnement. La quantité utilisée pour calculer le montant de la ligne de contrat est un produit du nombre d’utilisateurs et du nombre de mois d’abonnement.
 

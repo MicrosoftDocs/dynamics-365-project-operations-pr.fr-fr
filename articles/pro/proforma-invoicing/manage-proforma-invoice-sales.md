@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181539"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274023"
 ---
 # <a name="manage-a-proforma-invoice---lite"></a>Gérer une facture pro forma – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Dans Dynamics 365 Project Operations, les factures pro forma sont créées comme une extension des factures dans Dynamics 365 Sales. Cependant, il existe de nombreuses différences dans le processus de facturation dans Sales et celui de Project Operations. Par exemple, il n’est pas possible de créer une facture à partir de la page **Liste des factures** dans Project Operations, alors que cela est possible dans Sales. Ces différences et extensions existent pour prendre en charge les processus de facturation pour les projets différents d’une facture typique pour une commande client.
+Dans Dynamics 365 Project Operations, les factures pro forma sont créées sous forme d’extension des factures dans Dynamics 365 Sales. Cependant, il existe de nombreuses différences dans le processus de facturation dans Sales et celui de Project Operations. Par exemple, il n’est pas possible de créer une facture à partir de la page **Liste des factures** dans Project Operations, alors que cela est possible dans Sales. Ces différences et extensions existent pour prendre en charge les processus de facturation pour les projets différents d’une facture typique pour une commande client.
 
 > [!IMPORTANT]
 > En raison de ces différences, n’utilisez pas les factures de manière interchangeable dans Sales et Project Operations.
@@ -30,7 +30,7 @@ Les informations suivantes sont disponibles sur un en-tête de facture pro forma
 
 | Champ | Emplacement | Description | Impact en aval |
 | --- | --- | --- | --- |
-| **Ref. facture** | Onglet **Résumé** | La Réf. générée automatiquement lors de la création d’une facture pro forma. Un champ en lecture seule qui verrouillé pour modification. | Ce champ sert de référence pour chaque facture pro forma. |
+| **ID de facture** | Onglet **Résumé** | La Réf. générée automatiquement lors de la création d’une facture pro forma. Un champ en lecture seule qui verrouillé pour modification. | Ce champ sert de référence pour chaque facture pro forma. |
 | **Nom** | Onglet **Résumé** | Défini sur le nom du contrat de projet par défaut. Ce champ est modifiable par l’utilisateur. | &nbsp;  |
 | **Devise** | Onglet **Résumé** | Défini sur la devise du contrat de projet par défaut. Un champ en lecture seule qui verrouillé pour modification. |&nbsp; |
 | **Tarif** | Onglet **Résumé** | Défini sur les tarifs du contrat de projet par défaut. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
@@ -54,7 +54,7 @@ Dans Project Operations, il y a toujours une ligne de facture pour chaque ligne
 
 | Champ | Emplacement | Description | Impact en aval |
 | --- | --- | --- | --- |
-| **Réf. de facture** | Onglet **Général** | La référence à la Réf. facture. Un champ en lecture seule qui verrouillé pour modification. | Le lien de Réf. facture peut être utilisé pour revenir à l’en-tête de la facture. |
+| **ID de facture** | Onglet **Général** | La référence à la Réf. facture. Un champ en lecture seule qui verrouillé pour modification. | Le lien de Réf. facture peut être utilisé pour revenir à l’en-tête de la facture. |
 | **Nom** | Onglet **Général** | Le nom de la ligne de facture défini par défaut à partir du nom de la ligne de contrat. Ce champ est modifiable par l’utilisateur. | &nbsp; |
 | **Project** | Onglet **Général** | Le projet sur la ligne de contrat de projet associée. Un champ en lecture seule qui verrouillé pour modification. | Le lien du projet peut être utilisé pour accéder au projet. |
 | **Mode de facturation** | Onglet **Général** | Le mode de facturation sur la ligne de contrat de projet associée. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
@@ -120,7 +120,7 @@ Les champs suivants sont disponibles sur un détail de la ligne de facture assoc
 | **Tarif** | Défini par défaut à partir du montant du jalon source. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
 | **Devise** | Défini par défaut à partir du jalon source. Un champ en lecture seule qui verrouillé pour modification. |&nbsp; |
 | **Montant** | Défini par défaut à partir du montant du jalon source. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
-| **Taxes** | Défini par défaut à partir du montant de taxes du jalon source. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
+| **Télécopie** | Défini par défaut à partir du montant de taxes du jalon source. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
 | **Total final** | Défini par défaut à partir du montant étendu du jalon source. Le champ est modifiable par l’utilisateur | &nbsp; |
 | **Type de facturation** | Toujours défini par défaut sur **Facturable**. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
 | **Type de transaction** | Défini par défaut à partir du jalon source. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |

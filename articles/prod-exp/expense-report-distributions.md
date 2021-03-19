@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a43de30d916d2775f28f59f404c34b60a43fff9c
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 857573c0c2ffaf1ce4bdeaf109a20c6c777b2288
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960739"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271755"
 ---
 # <a name="expense-report-distributions"></a>Répartition de notes de frais
 

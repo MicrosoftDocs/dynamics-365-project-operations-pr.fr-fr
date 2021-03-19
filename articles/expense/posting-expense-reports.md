@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af727e8eb91ff49acb3cc34c225a190f30ba97ed
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124275"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276237"
 ---
 # <a name="post-expense-reports"></a>Publier des notes de frais
 

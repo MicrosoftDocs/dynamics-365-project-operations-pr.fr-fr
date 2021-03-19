@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650204"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274860"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurer des champs personnalisés comme dimensions de tarification
 

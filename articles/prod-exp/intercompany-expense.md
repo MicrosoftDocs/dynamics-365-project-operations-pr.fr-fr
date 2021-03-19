@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 553ddbe622210169db8de4aa506dcf1ea1e9d5ef
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: d908a1c062f5b7f01cf340dcd6f7f24714a992bf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960829"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271530"
 ---
 # <a name="intercompany-expenses"></a>Dépenses intersociétés
 

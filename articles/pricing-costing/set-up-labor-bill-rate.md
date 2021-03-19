@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180687"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274815"
 ---
 # <a name="set-up-labor-bill-rates"></a>Configurer les taux de facturation de la main-d’œuvre
 
 **S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
-Chaque tarif a un ensemble de prix de rôle, ou taux de main-d’œuvre, qui sont effectifs pour le contexte et la plage de dates définie inclus dans l’en-tête du tarif. Les taux de facturation pour le temps dans Dynamics 365 Project Operations peuvent être configurés dans une seule devise, qui est la devise de l’en-tête du tarif.
+Chaque tarif a un ensemble de prix de rôle, ou taux de main-d’œuvre, qui sont effectifs pour le contexte et la plage de dates définie inclus dans l’en-tête du tarif. Les taux de facturation du temps dans Dynamics 365 Project Operations ne peuvent être configurés que dans une seule devise, qui est la devise de l’en-tête Tarifs.
 
 1. Pour configurer les taux de facturation de la main-d’œuvre pour un tarif de vente, créez un tarif basé sur l’en-tête de tarif. 
 2. Dans l’onglet **Prix du rôle**, dans la sous-grille, sélectionnez **+ Nouveau prix de rôle**. 

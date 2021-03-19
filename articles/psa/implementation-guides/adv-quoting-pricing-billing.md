@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ef2698b52bd5a89a10ff0be6aff3d98e6917e95c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c4674aba1d152289c78a202f9da1f710e28f9960
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149180"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275220"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Guide avancé de devis, de tarification et de facturation
 

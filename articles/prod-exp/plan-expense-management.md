@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db3529597c662a326730cf6a0b855ae865f0dce5
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 74a8435464c8573ca831b7886f00c2695fd29827
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960334"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271350"
 ---
 # <a name="configure-expense-management"></a>Configurer la gestion des dépenses
 
@@ -43,7 +43,7 @@ La gestion des dépenses est étroitement intégrée à la gestion financière d
 
 ### <a name="per-diems"></a>Indemnités quotidiennes
 
-Vous devez définir les indemnités journalières des employés fournies par votre organisation. Étant donné que les indemnités journalières sont généralement utilisées pour couvrir des dépenses telles que les repas, l'hébergement et d'autres dépenses secondaires, vous pouvez créer des règles pour les indemnités journalières proposées par votre organisation. Les montants journaliers peuvent être basés sur la période de l’année, le lieu du déplacement ou les deux. Lorsque vous définissez une règle d’indemnité journalière, vous pouvez spécifier qu’un pourcentage du montant journalier sera retenu si un travailleur reçoit des repas ou des services gratuits. Vous pouvez également définir des niveaux de montants journaliers pour définir le nombre d'heures minimal et maximal pouvant être appliqué aux déplacements d'un collaborateur.
+Vous devez définir les indemnités journalières des employés fournies par votre organisation. Étant donné que les indemnités journalières permettent généralement de couvrir les dépenses telles que les repas, les hébergements et d’autres dépenses annexes, vous pouvez créer des règles pour les indemnités journalières que votre organisation verse. Le taux d’indemnité journalière peut être basé sur la période de l’année et/ou le lieu du déplacement. Lorsque vous définissez une règle d’indemnités journalières, vous pouvez indiquer qu’un pourcentage du taux d’indemnité journalière est retenu si un collaborateur bénéficie de repas ou services gratuits. Vous pouvez également définir des niveaux de montants journaliers pour définir le nombre d'heures minimal et maximal pouvant être appliqué aux déplacements d'un collaborateur.
 
 **Décisions :**
 
@@ -54,9 +54,9 @@ Vous devez définir les indemnités journalières des employés fournies par vot
     - Y a-t-il une réduction du montant offert pour l'hébergement à l'hôtel le premier et le dernier jour ? En cas de réduction, quel est le pourcentage de cette réduction ?
     - Y a-t-il une réduction du montant offert pour les autres dépenses engagées le premier et le dernier jour ? En cas de réduction, quel est le pourcentage de cette réduction ?
 
-- Règles d'indemnités journalières par défaut :
+- Règles d’indemnités journalières par défaut :
 
-    - Y a-t-il un pourcentage de réduction appliqué à l'indemnité journalière pour chaque repas si, par exemple, le repas est gratuit ? En cas de réduction, quel est le pourcentage de réduction pour chaque repas ?
+    - Existe-t-il un pourcentage de réduction de l’allocation journalière pour chaque repas si, par exemple, le repas est gratuit ? En cas de réduction, quel est le pourcentage de réduction pour chaque repas ?
     - La réduction de repas est-elle calculée par jour, par déplacment ou par le nombre de repas par jour ?
     - Les montants des indemnités journalières devraient-ils être arrondis de manière habituelle ou arrondis à l'unité supérieure ?
     - Les indemnités journalières sont-elles calculées sur une période de 24 heures ou sur un jour calendaire ?
@@ -82,7 +82,7 @@ La gestion des dépenses nécessite que vous utilisiez plusieurs journaux et com
 
 ### <a name="payment-methods"></a>Modes de paiement
 
-Lorsque vous autorisez les employés à engager des dépenses au nom de votre entreprise, vous devez définir les modes de paiement que les employés sont autorisés à utiliser. Par exemple, vous pouvez autoriser les employés à utiliser des espèces ou une carte de crédit d'entreprise. Vous pouvez également autoriser les employés à utiliser des cartes de crédit personnelles, puis rembourser les employés. Vous devez prendre les décisions suivantes pour chaque mode de paiement que vous autorisez.
+Lorsque vous autorisez les employés à engager des dépenses au nom de votre entreprise, vous devez définir les modes de paiement que les employés sont autorisés à utiliser. Par exemple, vous pouvez autoriser des collaborateurs à utiliser des espèces ou une carte de crédit d’entreprise. Vous pouvez également autoriser des collaborateurs à utiliser des cartes de crédit personnelles pour les rembourser ensuite. Vous devez prendre les décisions suivantes pour chaque mode de paiement que vous autorisez.
 
 **Décisions :**
 

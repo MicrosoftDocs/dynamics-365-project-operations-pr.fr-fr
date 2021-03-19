@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49397592ea002b9da872ac1aa455719b6ca2292e
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 187532281f6aba3cc3fb03428d93c8ebc4cf4a3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960199"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271900"
 ---
 # <a name="vat-recovery"></a>Récupération de la TVA 
 

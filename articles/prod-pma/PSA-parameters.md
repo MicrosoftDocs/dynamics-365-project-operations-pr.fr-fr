@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075880"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270900"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Paramètres d’intégration de Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Sur la page **Paramètres d’intégration de Project Service Automation** , vous pouvez configurer la manière dont les données par défaut sont saisies lorsque vous intégrez Dynamics 365 Project Service Automation avec Dynamics 365 Finance. Pour que les projets soient correctement synchronisés de Project Service Automation vers Finance, vous devez configurer les champs suivants.
+Sur la page **Paramètres d’intégration de Project Service Automation**, vous pouvez configurer la manière dont les données par défaut sont saisies lorsque vous intégrez Dynamics 365 Project Service Automation avec Dynamics 365 Finance. Pour que les projets soient correctement synchronisés de Project Service Automation vers Finance, vous devez configurer les champs suivants.
 
-Pour ouvrir la page **Paramètres d’intégration de Project Service Automation** , accédez à **Gestion de projets et comptabilité** \> **Configurer** \> **Paramètres d’intégration de Dynamics 365 for Project Service Automation**. 
+Pour ouvrir la page **Paramètres d’intégration de Project Service Automation**, accédez à **Gestion de projets et comptabilité** \> **Configurer** \> **Paramètres d’intégration de Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - L’intégration des tâches de projet, les catégories de transactions de dépenses, les estimations d’heures, les estimations de dépenses et le verrouillage des fonctionnalités sont disponibles dans la version 8.0.

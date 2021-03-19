@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642900"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276795"
 ---
 # <a name="security-model"></a>Modèle de sécurité
 
