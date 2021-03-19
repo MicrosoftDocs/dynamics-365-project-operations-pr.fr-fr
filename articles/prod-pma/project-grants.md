@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075921"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289366"
 ---
 # <a name="project-grants"></a>Subventions de projet
 
@@ -42,9 +42,9 @@ Vous pouvez créer une subvention en saisissant tous les détails dans un nouvel
 
 1. Accédez à **Gestion de projet et comptabilité** \> **Subventions** \> **Subventions**.
 2. Sélectionnez **Nouveau** \> **Subvention**.
-3. Sur la page des détails de la subvention, sur le raccourci **Général** , dans le champ **ID de subvention** , saisissez un identifiant alphanumérique pour la subvention.
-4. Dans le champ **Nom de la subvention** , entrez un nom pour la subvention.
-5. Dans le champ **Description** , ajoutez des détails sur la nouvelle subvention.
+3. Sur la page des détails de la subvention, sur le raccourci **Général**, dans le champ **ID de subvention**, saisissez un identifiant alphanumérique pour la subvention.
+4. Dans le champ **Nom de la subvention**, entrez un nom pour la subvention.
+5. Dans le champ **Description**, ajoutez des détails sur la nouvelle subvention.
 
     La plupart des autres champs de la page sont facultatifs et vous pouvez entrer la quantité d'informations que vous souhaitez.
 
@@ -59,7 +59,7 @@ Vous pouvez créer une subvention en saisissant tous les détails dans un nouvel
         - **Ajouter un contrat de projet** – Ajoutez ou mettez à jour les informations du contrat de projet.
         - **Ajouter un projet** – Ajoutez ou mettez à jour les détails du projet.
 
-    - **Configurer** – Entrez les détails relatifs aux correspondants, si ces informations sont requises. De nombreuses organisations qui octroient des subventions exigent que les bénéficiaires dépensent un montant spécifique de leur propre argent ou de leurs propres ressources, afin de correspondre au montant accordé dans la subvention. Dans le champ **Projet local ou ID de suivi** , vous pouvez saisir un identifiant différent de l'identifiant du projet.
+    - **Configurer** – Entrez les détails relatifs aux correspondants, si ces informations sont requises. De nombreuses organisations qui octroient des subventions exigent que les bénéficiaires dépensent un montant spécifique de leur propre argent ou de leurs propres ressources, afin de correspondre au montant accordé dans la subvention. Dans le champ **Projet local ou ID de suivi**, vous pouvez saisir un identifiant différent de l'identifiant du projet.
 
         > [!NOTE]
         > Si une partie de la subvention est attribuée à une autre organisation, définissez l'option **Sous-donateur** sur **Oui**. Pour les subventions accordées aux États-Unis, vous pouvez spécifier si une subvention sera accordée dans le cadre d'un mandat d'État ou d'un mandat fédéral.

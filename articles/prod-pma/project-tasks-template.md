@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7cc9ee9de576549c132e14c333a1000c22a55236
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075722"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288916"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronisez les tâches de projet directement depuis Project Service Automation vers Finance and Operations
 
@@ -45,7 +45,7 @@ L’illustration suivante montre comment les données sont synchronisées entre 
 
 ## <a name="template-and-task"></a>Modèle et tâche
 
-Pour accéder au modèle, dans le centre d’administration Microsoft Power Apps, sélectionnez **Projets** , puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
+Pour accéder au modèle, dans le centre d’administration Microsoft Power Apps, sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
 
 Le modèle et la tâche sous-jacente suivante sont utilisés pour synchroniser les tâches du projet de Project Service Automation vers Finance :
 

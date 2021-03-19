@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075871"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289546"
 ---
 # <a name="project-contracts"></a>Contrats de projet
 
@@ -252,15 +252,15 @@ Lorsque vous négociez un contrat de projet avec un client, vous définissez com
 
 Vous pouvez configurer les types de règles de facturation suivants :
 
--   **Unité de livraison**  : facturer un client lorsque vous complétez une unité de livraison. Vous définissez les unités de livraison dans le contrat.
--   **Progression**  : facturer un client lorsque vous terminez un pourcentage spécifié du projet. Vous pouvez configurer une règle de facturation pour calculer automatiquement le pourcentage de travail achevé, ou vous pouvez calculer manuellement le pourcentage de travail achevé et le montant à facturer au client.
--   **Jalon**  : facturer un client pour le montant total d’un jalon de projet lorsque le jalon est atteint.
--   **Frais**  : facturez un client pour vos services plus des frais de gestion, qui correspondent généralement à un pourcentage du coût des services.
--   **Temps et matériel**  : facturez un client pour la valeur du temps et des matériaux utilisés sur un projet.
+-   **Unité de livraison** : facturer un client lorsque vous complétez une unité de livraison. Vous définissez les unités de livraison dans le contrat.
+-   **Progression** : facturer un client lorsque vous terminez un pourcentage spécifié du projet. Vous pouvez configurer une règle de facturation pour calculer automatiquement le pourcentage de travail achevé, ou vous pouvez calculer manuellement le pourcentage de travail achevé et le montant à facturer au client.
+-   **Jalon** : facturer un client pour le montant total d’un jalon de projet lorsque le jalon est atteint.
+-   **Frais** : facturez un client pour vos services plus des frais de gestion, qui correspondent généralement à un pourcentage du coût des services.
+-   **Temps et matériel** : facturez un client pour la valeur du temps et des matériaux utilisés sur un projet.
 
 Pour tous les types de règles de facturation, vous pouvez spécifier un pourcentage de rétention qui est déduit des factures client jusqu’à ce qu’un projet atteigne une étape convenue. Le pourcentage de rétention de paiement est spécifié dans le contrat de projet. Le montant est calculé en fonction de la valeur totale des lignes d’une facture client et soustrait de celle-ci. 
 
-Pour les règles de facturation **Temps et matériel** et **Progression** , vous pouvez attribuer des catégories facturables. Les catégories facturables indiquent les transactions à inclure dans les factures des clients. 
+Pour les règles de facturation **Temps et matériel** et **Progression**, vous pouvez attribuer des catégories facturables. Les catégories facturables indiquent les transactions à inclure dans les factures des clients. 
 
 Lorsque vous êtes prêt à facturer le client, le montant à facturer pour le projet est calculé en fonction des règles de facturation et une proposition de facture de projet est générée. 
 
@@ -289,8 +289,8 @@ Votre organisation, une société de conseil en logiciels, conclut un accord ave
 
 Votre organisation, une entreprise de développement de logiciels, accepte de développer un progiciel de comptabilité de paie pour un client pour 30 000. Le client s’engage à payer à votre organisation selon le pourcentage de travail exécuté. Vous estimez que les coûts du projet sont de 20 000. Le contrat de projet spécifie les catégories de travail que vous utilisez dans le processus de facturation. Vous configurez des règles de facturation qui calculent automatiquement les montants de facture pour le pourcentage de travail achevé pour chaque catégorie. Vous définissez un budget pour chaque catégorie :
 
--   **Développement**  : coût de 15 000 et revenu de 20 000
--   **Installation**  : coût de 5 000 et revenu de 10 000
+-   **Développement** : coût de 15 000 et revenu de 20 000
+-   **Installation** : coût de 5 000 et revenu de 10 000
 
 Lorsque vous créez une facture client pour la première fois, le montant de la facture est automatiquement calculé en fonction des informations suivantes :
 

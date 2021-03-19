@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075872"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289681"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronisez les données réelles du projet directement depuis Project Service Automation vers le journal d’intégration de projet pour les enregistrer dans Finance and Operations
 
@@ -50,7 +50,7 @@ L’illustration suivante montre comment les données sont synchronisées entre 
 
 ### <a name="template-and-tasks"></a>Modèle et tâches
 
-Pour accéder aux modèles disponibles, dans le centre d’administration Microsoft Power Apps, sélectionnez **Projets** , puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
+Pour accéder aux modèles disponibles, dans le centre d’administration Microsoft Power Apps, sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
 
 Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchroniser les données réelles du projet de Project Service Automation vers Finance :
 
@@ -88,7 +88,7 @@ Dans le modèle de projets réels, vous devez utiliser Microsoft Power Query 
 #### <a name="contract-organizational-unit"></a>Unité organisationnelle de contrat
 Pour mettre à jour la colonne conditionnelle insérée dans le modèle, cliquez sur la flèche **Carte** pour ouvrir le mappage. Sélectionnez le lien **Requête et filtrage avancés** pour ouvrir Power Query.
 
-- Si vous utilisez le modèle par défaut Chiffres réels du projet (PSA vers Fin and Ops), dans Power Query, sélectionnez la dernière **Condition insérée** de la section **Étapes appliquées**. Dans l’entrée **Fonction** , remplacez **USSI** avec le nom de l’entité juridique qui doit être utilisée avec l’intégration. Ajoutez des conditions supplémentaires à l’entrée **Fonction** comme vous le souhaitez et mettez à jour la condition **autre** depuis **USMF** vers l’entité juridique appropriée.
+- Si vous utilisez le modèle par défaut Chiffres réels du projet (PSA vers Fin and Ops), dans Power Query, sélectionnez la dernière **Condition insérée** de la section **Étapes appliquées**. Dans l’entrée **Fonction**, remplacez **USSI** avec le nom de l’entité juridique qui doit être utilisée avec l’intégration. Ajoutez des conditions supplémentaires à l’entrée **Fonction** comme vous le souhaitez et mettez à jour la condition **autre** depuis **USMF** vers l’entité juridique appropriée.
 - Si vous créez un modèle, vous devez ajouter la colonne pour prendre en charge le temps et les dépenses intersociétés. Sélectionnez **Ajouter une colonne conditionnelle** et entrez un nom pour la colonne, tel que **EntitéJuridique**. Entrez une condition pour la colonne, où, si **msdyn\_contractorganizationalunitid.msdyn\_name** est \<organizational unit\>, alors \<enter the legal entity\> ; sinon nul.
 
 ### <a name="template-mapping-in-data-integration"></a>Mappage de modèles dans l’intégration de données

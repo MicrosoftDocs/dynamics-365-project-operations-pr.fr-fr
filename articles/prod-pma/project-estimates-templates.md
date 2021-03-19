@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075868"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289456"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronisez les estimations de projet directement depuis Project Service Automation vers Finance and Operations
 
@@ -46,7 +46,7 @@ L’illustration suivante montre comment les données sont synchronisées entre 
 
 ### <a name="template-and-tasks"></a>Modèle et tâches
 
-Pour accéder aux modèles disponibles, dans le centre d’administration Microsoft Power Apps, sélectionnez **Projets** , puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
+Pour accéder aux modèles disponibles, dans le centre d’administration Microsoft Power Apps, sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner des modèles publics.
 
 Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchroniser les estimations en heures du projet de Project Service Automation vers Finance :
 
@@ -82,7 +82,7 @@ Dans le modèle d'estimations d'heures de projet, vous devez utiliser Microsoft�
 
 Pour mettre à jour l'ID de modèle de prévision par défaut dans le modèle, cliquez sur la flèche **Carte** pour ouvrir le mappage. Puis, sélectionnez le lien **Requête et filtrage avancés**.
 
-- Si vous utilisez le modèle par défaut Estimations des heures de projet (PSA vers Fin and Ops), dans Power Query, sélectionnez la dernière **Condition insérée** dans la liste des **Étapes appliquées**. Dans l'entrée **Fonction** , remplacez **O\_prévision** avec le nom de l'ID du modèle de prévision qui doit être utilisé avec l'intégration. Le modèle par défaut a un ID de modèle de prévision issu des données de démonstration.
+- Si vous utilisez le modèle par défaut Estimations des heures de projet (PSA vers Fin and Ops), dans Power Query, sélectionnez la dernière **Condition insérée** dans la liste des **Étapes appliquées**. Dans l'entrée **Fonction**, remplacez **O\_prévision** avec le nom de l'ID du modèle de prévision qui doit être utilisé avec l'intégration. Le modèle par défaut a un ID de modèle de prévision issu des données de démonstration.
 - Si vous créez un nouveau modèle, vous devez ajouter cette colonne. Dans Power Query, sélectionnez **Ajouter une colonne conditionnelle** et entrez un nom pour la nouvelle colonne, tel que **IDModèle**. Entrez la condition pour la colonne, où, si la tâche du projet n'est pas nulle, alors \<enter the forecast model ID\> ; sinon nul.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrer les enregistrements spécifiques aux ressources
@@ -137,18 +137,18 @@ Dans le modèle d'estimations des dépenses du projet, vous devez utiliser Power
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filtrez pour inclure uniquement les lignes d'estimation des dépenses.
 
-Le modèle Estimations des dépenses du projet (PSA vers Fin et Ops) a un filtre par défaut qui inclut uniquement les lignes de dépenses dans l'intégration. Si vous créez votre propre modèle, vous devez ajouter ce filtre. Sélectionnez la tâche **Relations de transaction** , puis cliquez sur la flèche **Carte** pour ouvrir le mappage. Sélectionnez le lien **Requête et filtrage avancés**. Filtrez la colonne **msdyn\_transactiontype1** de manière à n'inclure que **msdyn\_estimateline**.
+Le modèle Estimations des dépenses du projet (PSA vers Fin et Ops) a un filtre par défaut qui inclut uniquement les lignes de dépenses dans l'intégration. Si vous créez votre propre modèle, vous devez ajouter ce filtre. Sélectionnez la tâche **Relations de transaction**, puis cliquez sur la flèche **Carte** pour ouvrir le mappage. Sélectionnez le lien **Requête et filtrage avancés**. Filtrez la colonne **msdyn\_transactiontype1** de manière à n'inclure que **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Définissez l'ID de modèle de prévision par défaut.
 
-Pour mettre à jour l'ID de modèle de prévision par défaut dans le modèle, sélectionnez la tâche **Estimations des dépenses** , puis cliquez sur la flèche **Carte** pour ouvrir le mappage. Sélectionnez le lien **Requête et filtrage avancés**.
+Pour mettre à jour l'ID de modèle de prévision par défaut dans le modèle, sélectionnez la tâche **Estimations des dépenses**, puis cliquez sur la flèche **Carte** pour ouvrir le mappage. Sélectionnez le lien **Requête et filtrage avancés**.
 
-- Si vous utilisez le modèle par défaut Estimations des dépenses (PSA vers Fin and Ops), dans Power Query, sélectionnez la première **Condition insérée** de la section **Étapes appliquées**. Dans l'entrée **Fonction** , remplacez **O\_prévision** avec le nom de l'ID du modèle de prévision qui doit être utilisé avec l'intégration. Le modèle par défaut a un ID de modèle de prévision issu des données de démonstration.
+- Si vous utilisez le modèle par défaut Estimations des dépenses (PSA vers Fin and Ops), dans Power Query, sélectionnez la première **Condition insérée** de la section **Étapes appliquées**. Dans l'entrée **Fonction**, remplacez **O\_prévision** avec le nom de l'ID du modèle de prévision qui doit être utilisé avec l'intégration. Le modèle par défaut a un ID de modèle de prévision issu des données de démonstration.
 - Si vous créez un nouveau modèle, vous devez ajouter cette colonne. Dans Power Query, sélectionnez **Ajouter une colonne conditionnelle** et entrez un nom pour la nouvelle colonne, tel que **IDModèle**. Entrez la condition pour la colonne, où, si l'ID de ligne d'estimation n'est pas nulle, alors \<enter the forecast model ID\> ; sinon nul.
 
 #### <a name="transform-the-billing-types"></a>Transformer les types de facturation
 
-Le modèle Estimations des dépenses de projet (PSA vers Fin et Ops) comprend une colonne conditionnelle qui est utilisée pour transformer les types de facturation reçus de Project Service Automation lors de l'intégration. Si vous créez votre propre modèle, vous devez ajouter cette colonne conditionnelle. Sélectionnez le lien **Requête et filtrage avancés** , puis sélectionnez **Ajouter une colonne conditionnelle**. Entrez un nom pour la nouvelle colonne, tel que **BillingType**. Puis saisissez la condition suivante :
+Le modèle Estimations des dépenses de projet (PSA vers Fin et Ops) comprend une colonne conditionnelle qui est utilisée pour transformer les types de facturation reçus de Project Service Automation lors de l'intégration. Si vous créez votre propre modèle, vous devez ajouter cette colonne conditionnelle. Sélectionnez le lien **Requête et filtrage avancés**, puis sélectionnez **Ajouter une colonne conditionnelle**. Entrez un nom pour la nouvelle colonne, tel que **BillingType**. Puis saisissez la condition suivante :
 
 Si **msdyn\_billingtype** = 192350000, alors **NonChargeable**  
 autre si **msdyn\_billingtype** = 192350001, alors **Chargeable**  
@@ -157,7 +157,7 @@ autre **NotAvailable**
 
 #### <a name="transform-the-transaction-types"></a>Transformer les types de transaction
 
-Le modèle Estimations des dépenses de projet (PSA vers Fin et Ops) comprend une colonne conditionnelle qui est utilisée pour transformer les types de transaction reçus de Project Service Automation lors de l'intégration. Si vous créez votre propre modèle, vous devez ajouter cette colonne conditionnelle. Sélectionnez le lien **Requête et filtrage avancés** , puis sélectionnez **Ajouter une colonne conditionnelle**. Entrez un nom pour la nouvelle colonne, tel que **TransactionType**. Puis saisissez la condition suivante :
+Le modèle Estimations des dépenses de projet (PSA vers Fin et Ops) comprend une colonne conditionnelle qui est utilisée pour transformer les types de transaction reçus de Project Service Automation lors de l'intégration. Si vous créez votre propre modèle, vous devez ajouter cette colonne conditionnelle. Sélectionnez le lien **Requête et filtrage avancés**, puis sélectionnez **Ajouter une colonne conditionnelle**. Entrez un nom pour la nouvelle colonne, tel que **TransactionType**. Puis saisissez la condition suivante :
 
 Si **msdyn\_transactiontypecode** = 192350000, alors **Coût**  
 autre si **msdyn\_transactiontypecode** = 192350005, alors **Sales**  

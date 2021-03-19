@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b14cfacc9d333911fba69fa10f6b02406071ea7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 03f74d1bf08eb98b7724a6225b6399ef255224ff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075717"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288466"
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Créer un avoir sur les factures de projet
 

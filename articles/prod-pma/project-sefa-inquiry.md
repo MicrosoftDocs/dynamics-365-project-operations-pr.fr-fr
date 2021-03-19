@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075724"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288961"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Demande de Programme des dépenses des subventions fédérales
 
@@ -52,23 +52,23 @@ Vous devez configurer les numéros CFDA qui peuvent être ajoutés à des subven
 
 1. Accédez à **Gestion de projet et comptabilité \> Configurer \> Subventions \> Numéros du Catalogue d'assistance nationale fédérale (CFDA)**.
 2. Sélectionnez **Nouveau** pour créer un numéro CFDA.
-3. Dans la colonne **Numéro** , entrez le numéro CFDA.
+3. Dans la colonne **Numéro**, entrez le numéro CFDA.
 4. Appuyez sur la touche **Tabulation**.
-5. Dans la colonne **Description** , tapez le titre CFDA.
+5. Dans la colonne **Description**, tapez le titre CFDA.
 6. Appuyez sur la touche **Tabulation**.
-7. Facultatif : dans le champ **Cluster du programme** , ajoutez le cluster CFDA approprié.
+7. Facultatif : dans le champ **Cluster du programme**, ajoutez le cluster CFDA approprié.
 8. Sélectionnez **Enregistrer** pour appliquer vos modifications.
 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Mettre en place des subventions à déclarer pour la demande de Programme des dépenses des subventions fédérales
 
 1. Accédez à **Gestion de projet et comptabilité \> Subventions \> Subventions** et sélectionnez une subvention existante.
-2. Sur le raccourci **Configurer** , dans le champ **Catalogue d'assistance nationale fédérale (CFDA)** , attribuez le numéro CFDA. Le numéro CFDA sur la subvention détermine le cluster CFDA pour le rapport.
-3. Sur le raccourci **Informations de contact** , entrez les informations relatives au donateur en procédant comme suit :
+2. Sur le raccourci **Configurer**, dans le champ **Catalogue d’assistance nationale fédérale (CFDA)**, attribuez le numéro CFDA. Le numéro CFDA sur la subvention détermine le cluster CFDA pour le rapport.
+3. Sur le raccourci **Informations de contact**, entrez les informations relatives au donateur en procédant comme suit :
 
-    1. Dans le champ **Client subventionné** , saisissez le client responsable de la subvention. Pour une subvention existante, ces informations peuvent déjà être saisies.
+    1. Dans le champ **Client subventionné**, saisissez le client responsable de la subvention. Pour une subvention existante, ces informations peuvent déjà être saisies.
     2. Indiquez si le client subventionné est le donateur. Si le client subventionné est le donateur, ne cochez pas la case **Intermédiaire**. Si un autre client est le donateur et que le client subventionné est responsable des dépenses et du suivi de l'argent, cochez la case **Intermédiaire**.
 
-4. Si vous avez coché la case **Intermédiaire** à l'étape précédente, dans le champ **Organisme donateur** , entrez le client qui a fourni la subvention. L'organisme donateur et le client de la subvention ne peuvent pas être le même client.
+4. Si vous avez coché la case **Intermédiaire** à l'étape précédente, dans le champ **Organisme donateur**, entrez le client qui a fourni la subvention. L'organisme donateur et le client de la subvention ne peuvent pas être le même client.
 
 Voici un exemple de subvention avec intermédiaire :
 
@@ -79,16 +79,16 @@ Le gouvernement fédéral a financé un projet d'infrastructure pour un État. L
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Exclure les subventions des rapports SEFA en fonction du type de subvention
 
-1. Accédez à **Gestion de projet et comptabilité \> Configurer \> Subventions \> Types de subvention**.
-2. Sur le raccourci **Informations par défaut** , cochez la case **Exclure du Programme des dépenses des subventions fédérales**.
+1. Accédez à **Gestion de projet et comptabilité \> Configurer \> Subventions \> Types de subvention**.
+2. Sur le raccourci **Informations par défaut**, cochez la case **Exclure du Programme des dépenses des subventions fédérales**.
 3. Sélectionnez **Enregistrer** pour appliquer vos modifications.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Exécuter la demande de Programme des dépenses des subventions fédérales
 
 1. Accédez à **Gestion de projet et comptabilité \> Demandes et rapports \> Demande de subvention \> Programme des dépenses des subventions fédérales**.
-2. Dans la section **Paramètres** , suivez les étapes suivantes :
+2. Dans la section **Paramètres**, suivez les étapes suivantes :
 
-    1. Dans le champ **Intervalle de dates** , sélectionnez le code de l'intervalle de dates. Alternativement, dans les champs **Date de début** et **Date de fin** , définissez l'intervalle de dates.
+    1. Dans le champ **Intervalle de dates**, sélectionnez le code de l'intervalle de dates. Alternativement, dans les champs **Date de début** et **Date de fin**, définissez l'intervalle de dates.
     2. Facultatif : pour inclure uniquement les transactions facturées en tant que revenus dans la demande, définissez l'option **Inclure uniquement les revenus facturés** sur **Oui**.
 
 ## <a name="columns"></a>Colonnes

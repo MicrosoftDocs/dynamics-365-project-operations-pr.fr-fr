@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075912"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288736"
 ---
 # <a name="set-up-project-resources"></a>Configurer les ressources de projet
 
@@ -37,11 +37,11 @@ Les procédures suivantes expliquent comment configurer un employé en tant que 
 
 ## <a name="set-up-a-worker-as-a-project-resource"></a>Configurer un employé en tant que ressource de projet
 
-1. Sur la page **Employés** , dans la liste **Employés** , sélectionnez l’employé que vous ajoutez en tant que ressource de projet et ouvrez l’enregistrement de l’employé.
+1. Sur la page **Employés**, dans la liste **Employés**, sélectionnez l’employé que vous ajoutez en tant que ressource de projet et ouvrez l’enregistrement de l’employé.
 2. Dans le volet Actions, sélectionnez **Projet** &gt;**Configurer** &gt; **Configuration du projet**.
 3. Sélectionnez un calendrier, puis fermez la page.
 
-Vous pouvez également spécifier des projets par défaut pour une ressource en tant que type de pré-affectation. Les pré-affectations peuvent être utilisées lorsque le responsable de ressources ou le chef de projet sait à l’avance sur quels projets la ressource travaillera. Les pré-affectations peuvent être également basées sur la demande d’un commanditaire ou d’un client. Pour pré-attribuer un projet, sur la page **Attribuer des projets** , sur l’onglet **Projets** , dans la liste **Projets restants** , sélectionnez le projet approprié.
+Vous pouvez également spécifier des projets par défaut pour une ressource en tant que type de pré-affectation. Les pré-affectations peuvent être utilisées lorsque le responsable de ressources ou le chef de projet sait à l’avance sur quels projets la ressource travaillera. Les pré-affectations peuvent être également basées sur la demande d’un commanditaire ou d’un client. Pour pré-attribuer un projet, sur la page **Attribuer des projets**, sur l’onglet **Projets**, dans la liste **Projets restants**, sélectionnez le projet approprié.
 
 ## <a name="set-up-an-intercompany-resource"></a>Configurer une ressource intersociétés
 
@@ -50,16 +50,16 @@ Lorsque vous configurez un employé en tant que ressource intersociétés, vous 
 ### <a name="in-the-lending-company"></a>Dans la société de prêt
 
 1. Dans Finance, vérifiez que la société de prêt est sélectionnée, puis suivez la procédure de la section précédente, « Configurer un employé en tant que ressource de projet ».
-2. Sur la page **Comptabilité intersociétés** , sélectionnez **Nouveau**.
-3. Dans le champ **ID d’entité juridique** , sélectionnez la société prêteuse. Complétez les champs restants, le cas échéant, puis cliquez sur **Enregistrer**.
-4. Sur la page **Prix du transfert** , sélectionnez **Nouveau**.
-5. Dans le champ **Entité juridique emprunteuse** , sélectionnez la société appropriée.
-6. Pour prêter à la société emprunteuse uniquement la ressource que vous avez créée au début de cette section, dans le champ **Ressource** , sélectionnez le nom de la ressource que vous avez créée. Pour mettre toutes les ressources de la société prêteuse à disposition de la société emprunteuse, laissez le champ **Ressource** vide.
-7. Sur la page **Gestion de projet et comptabilité** , sur l’onglet **Intersociétés** , définissez l’option **Activer la planification des ressources et les feuilles de temps intersociétés** sur **Oui**.
+2. Sur la page **Comptabilité intersociétés**, sélectionnez **Nouveau**.
+3. Dans le champ **ID d’entité juridique**, sélectionnez la société prêteuse. Complétez les champs restants, le cas échéant, puis cliquez sur **Enregistrer**.
+4. Sur la page **Prix du transfert**, sélectionnez **Nouveau**.
+5. Dans le champ **Entité juridique emprunteuse**, sélectionnez la société appropriée.
+6. Pour prêter à la société emprunteuse uniquement la ressource que vous avez créée au début de cette section, dans le champ **Ressource**, sélectionnez le nom de la ressource que vous avez créée. Pour mettre toutes les ressources de la société prêteuse à disposition de la société emprunteuse, laissez le champ **Ressource** vide.
+7. Sur la page **Gestion de projet et comptabilité**, sur l’onglet **Intersociétés**, définissez l’option **Activer la planification des ressources et les feuilles de temps intersociétés** sur **Oui**.
 
 ### <a name="in-the-borrowing-company"></a>Dans la société emprunteuse
 
-- Sur la page **Liste des ressources** , dans le filtre de recherche, saisissez le nom de la ressource que vous avez créée pour la société prêteuse, afin de vérifier que le nom est inclus dans la liste des ressources de la société emprunteuse.
+- Sur la page **Liste des ressources**, dans le filtre de recherche, saisissez le nom de la ressource que vous avez créée pour la société prêteuse, afin de vérifier que le nom est inclus dans la liste des ressources de la société emprunteuse.
 
 ## <a name="request-project-resources"></a>Demander des ressources de projet
 La fonctionnalité de planification des ressources de projet permet uniquement aux responsables des ressources de distribuer les ressources en personnel sur les engagements ou les projets. Pour activer cette fonctionnalité, effectuez les tâches suivantes ou vérifiez qu’elles ont été effectuées :

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2685e99800ef6fd0b613377271259da0da805aad
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075853"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289411"
 ---
 # <a name="project-forecasts-and-budgets"></a>Prévisions et budgets du projet
 
@@ -49,7 +49,7 @@ Chaque méthode a ses propres avantages. Vous devez tenir compte des points suiv
 | **Contrôler**               | Le contrôle des prévisions est effectué en utilisant la réduction des prévisions. Les montants réels sont soustraits des soldes de transaction prévisionnels sans aucune piste d’audit. Cela peut rendre plus difficile la localisation des transactions réelles.                   | Dans le contrôle budgétaire du projet, les montants réels sont soustraits des montants du budget restant. Cela permet une piste d’audit plus claire.                                   |
 
 ## <a name="project-forecasts"></a>Prévisions de projet
-Lorsque vous utilisez la prévision de projet, vous pouvez saisir des transactions de prévision dans des formulaires de prévision pour chaque type de transaction. Chaque attribut disponible pour une transaction réelle peut être utilisé pour une transaction de prévision, par exemple, rentabilité de ligne, attributs de ligne, employés ou descriptions. Vous pouvez également prévoir combien de temps après avoir engagé un coût vous facturerez un client. 
+Lorsque vous utilisez la prévision de projet, vous pouvez saisir des transactions de prévision dans des formulaires de prévision pour chaque type de transaction. Chaque attribut disponible pour une transaction réelle peut être utilisé pour une transaction de prévision, par exemple, rentabilité de ligne, attributs de ligne, employés ou descriptions. Vous pouvez également prévoir le délai entre l’engagement d’un coût et sa facturation à un client. 
 
 Les transactions de prévision de projet sont basées sur des unités et des montants. 
 
@@ -61,14 +61,14 @@ Les modèles de prévision peuvent utiliser la réduction des prévisions comme 
 
 Vous pouvez réviser, copier, supprimer ou transférer des prévisions de projet dans un budget du grand livre. Cependant, il n’y a pas de contrôle de processus. Tout employé disposant des autorisations pour un formulaire de prévision peut réviser les informations sans examen.
 
--   **Réviser**  : vous pouvez réviser une transaction de prévision sous les mêmes formes que celles où les écritures d’origine ont été effectuées.
--   **Copier ou supprimer**  : lorsque vous copiez des transactions de prévision, vous copiez les lignes de transaction d’un modèle de prévision dans un autre modèle de prévision. Lorsque vous supprimez une prévision, vous supprimez les transactions de prévision d’un modèle de prévision. Pour limiter les transactions de prévision qui sont copiées ou supprimées, sélectionnez des types et des dates de transaction spécifiques. Cela vous permet de copier ou de supprimer uniquement des parties spécifiques d’une prévision.
--   **Transfert**  : lorsque vous transférez une prévision de projet vers un budget du grand livre, vous transférez les transactions de prévision d’un modèle de prévision vers un budget du grand livre. Vous pouvez remplacer toutes les transactions précédemment transférées dans le budget du grand livre vers lequel vous transférez vos prévisions de projet.
+-   **Réviser** : vous pouvez réviser une transaction de prévision sous les mêmes formes que celles où les écritures d’origine ont été effectuées.
+-   **Copier ou supprimer** : lorsque vous copiez des transactions de prévision, vous copiez les lignes transaction d’un modèle de prévision dans un autre modèle de prévision. Lorsque vous supprimez une prévision, vous supprimez les transactions de prévision d’un modèle de prévision. Pour limiter le nombre de transactions de prévision copiées ou supprimées, sélectionnez des types et dates de transaction spécifiques. Vous pouvez ainsi copier ou supprimer uniquement des parties spécifiques d’une prévision.
+-   **Transférer** : lorsque vous transférez une prévision de projet vers un budget comptable, vous transférez les transactions de prévision d’un modèle de prévision vers un budget comptable. Vous pouvez remplacer toutes les transactions précédemment transférées dans le budget comptable vers lequel vous transférez vos prévisions de projet.
 
 ## <a name="project-budgets"></a>Budgets de projet
 La budgétisation de projet est une méthode plus simple que la prévision, même si elle s’intègre aux modèles de prévision. Elle utilise un formulaire de saisie unique pour les détails et les révisions du budget d’origine, et permet des projections basées uniquement sur le montant, la catégorie ou l’activité. 
 
-Dans la budgétisation de projet, tous les budgets et révisions d’origine doivent être envoyés à un workflow de projet pour approbation. Les workflows vous donnent un contrôle accru sur le processus et créent un enregistrement d’historique des modifications. 
+Dans la budgétisation de projet, l’ensemble des budgets et révisions d’origine doivent être envoyés à un flux de travail de projet pour approbation. Les workflows vous donnent un contrôle accru sur le processus et créent un enregistrement d’historique des modifications. 
 
 La budgétisation de projet ressemble à la budgétisation du grand livre, mais elle est plus rapide et plus facile à mettre en place. De nombreuses options de la budgétisation du grand livre, telles que les séquences de numéros ou la devise, ne doivent pas être configurées séparément pour les projets.
 
@@ -77,7 +77,7 @@ Les budgets de projet sont automatiquement associés à deux modèles de prévis
 ## <a name="forecast-models"></a>Modèles de prévision
 Les modèles de prévision ont une hiérarchie à un seul niveau. Cela signifie qu’une prévision de projet doit être associée à un modèle de prévision.
 
-Si vous utilisez la prévision de projet, vous pouvez identifier les modèles comme sous-modèles. Vous pouvez ensuite créer des prévisions par service, période ou région. Par exemple, vous pouvez créer un modèle de prévision pour un an, puis créer des sous-modèles pour les prévisions régionales du Nord-Est, du Sud-Est, du Nord-Ouest et du Sud-Ouest que les responsables régionaux soumettent. En sélectionnant différentes options dans les rapports disponibles, vous pouvez afficher les informations par prévision totale ou par sous-modèle.
+Si vous utilisez les prévisions de projet, vous pouvez identifier les modèles comme sous-modèles. Vous pouvez ensuite créer des prévisions par département, période ou région. Par exemple, vous pouvez créer un modèle de prévision pour une année, puis créer des sous-modèles pour les prévisions régionales du Nord-Est, du Sud-Est, du Nord-Ouest et du Sud-Ouest que les responsables régionaux soumettent. En sélectionnant différentes options dans les rapports disponibles, vous pouvez afficher les informations par prévision totale ou par sous-modèle.
 
 
 

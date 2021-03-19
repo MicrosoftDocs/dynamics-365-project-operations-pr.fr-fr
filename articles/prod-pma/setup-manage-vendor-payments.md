@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075719"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288590"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Configurer et utiliser les paiements fournisseur Payer quand payé
 
@@ -49,27 +49,27 @@ Lorsque vous configurez les conditions de paiement Payer quand payé pour un pro
 
 1. Accédez à **Gestion de projets et comptabilité** \> **Projets** \> **Tous les projets**.
 2. Recherchez et ouvrez le projet pour lequel vous souhaitez configurer les conditions de paiement Payer quand payé.
-3. Dans le raccourci **Accords fournisseur** , cliquez sur **Ajouter une ligne**.
-3. Dans le champ **Code de compte** , sélectionnez l'une des options suivantes :
+3. Dans le raccourci **Accords fournisseur**, cliquez sur **Ajouter une ligne**.
+3. Dans le champ **Code de compte**, sélectionnez l'une des options suivantes :
 
     - **Table** – Les conditions de paiement Payer quand payé s'appliquent à un seul fournisseur.
     - **Groupe** – Les conditions de paiement Payer quand payé s'appliquent à tous les fournisseurs d'un groupe de fournisseurs.
     - **Tout** – Les conditions de paiement Payer quand payé s'appliquent à tous les fournisseurs.
 
-4. Si vous avez sélectionné **Table** ou **Groupe** à l'étape précédente, dans le champ **Fournisseur/Groupe de fournisseurs** , sélectionnez le fournisseur ou le groupe de fournisseurs auquel s'appliquent les conditions de paiement Payer quand payé. Si vous avez sélectionné **Tout** à l'étape précédente, le champ **Fournisseur / Groupe de fournisseurs** ne peut pas être modifié.
-5. Si des conditions de rétention des fournisseurs sont configurées pour le fournisseur dans le projet, dans le champ **Conditions de rétention des fournisseurs** , sélectionnez l'ID de règle pour les conditions de rétention.
-6. Dans le champ **Pourcentage minimal de mise en œuvre de la clause Payer quand payé** , entrez le pourcentage de seuil pour le projet. Le pourcentage que vous saisissez pour le projet définit le montant minimum que le client doit vous payer avant que vous ne payiez le fournisseur.
+4. Si vous avez sélectionné **Table** ou **Groupe** à l'étape précédente, dans le champ **Fournisseur/Groupe de fournisseurs**, sélectionnez le fournisseur ou le groupe de fournisseurs auquel s'appliquent les conditions de paiement Payer quand payé. Si vous avez sélectionné **Tout** à l'étape précédente, le champ **Fournisseur / Groupe de fournisseurs** ne peut pas être modifié.
+5. Si des conditions de rétention des fournisseurs sont configurées pour le fournisseur dans le projet, dans le champ **Conditions de rétention des fournisseurs**, sélectionnez l'ID de règle pour les conditions de rétention.
+6. Dans le champ **Pourcentage minimal de mise en œuvre de la clause Payer quand payé**, entrez le pourcentage de seuil pour le projet. Le pourcentage que vous saisissez pour le projet définit le montant minimum que le client doit vous payer avant que vous ne payiez le fournisseur.
 
 ## <a name="create-a-po-that-has-pwp-terms"></a>Créer un bon de commande avec conditions de paiement Payer quand payé
 
 Lorsque vous validez une facture d'un fournisseur, si le fournisseur est soumis aux conditions de paiement Payer quand payé, ces conditions sont affichées sur les lignes du bon de commande. Pour créer un bon de commande avec conditions de paiement Payer quand payé, procédez comme suit.
 
 1. Accédez à **Achats et approvisionnement** \> **Commandes fournisseur** \> **Toutes les commandes fournisseur**.
-2. Dans le volet Actions, sélectionnez **Nouveau**. Puis, dans la boîte de dialogue **Créer une commande achat** , entrez les informations requises, puis sélectionnez **OK**.
+2. Dans le volet Actions, sélectionnez **Nouveau**. Puis, dans la boîte de dialogue **Créer une commande achat**, entrez les informations requises, puis sélectionnez **OK**.
 
     Vous pouvez également ouvrir un bon de commande existant dans la page de liste **Toutes les commandes fournisseur**.
 
-4. Sur la page **Bon de commande** , sur le raccourci **Lignes de commande fournisseur** , passez en revue les détails de la ligne de bon de commande pour le fournisseur. L'option **Payer quand payé** est automatiquement sélectionnée et la valeur du champ **Pourcentage minimal de mise en œuvre de la clause Payer quand payé** est automatiquement copiée à partir du champ **Pourcentage minimal de mise en œuvre de la clause Payer quand payé** sur la page **Projets**.
+4. Sur la page **Bon de commande**, sur le raccourci **Lignes de commande fournisseur**, passez en revue les détails de la ligne de bon de commande pour le fournisseur. L'option **Payer quand payé** est automatiquement sélectionnée et la valeur du champ **Pourcentage minimal de mise en œuvre de la clause Payer quand payé** est automatiquement copiée à partir du champ **Pourcentage minimal de mise en œuvre de la clause Payer quand payé** sur la page **Projets**.
 6. Si vous ne souhaitez pas appliquer les conditions Payer quand payé au fournisseur pour une ligne de bon de commande, désactivez l'option **Payer quand payé**. Dans ce cas, le champ **Pourcentage minimal de mise en œuvre de la clause Payer quand payé** de la ligne de bon de commande sera réinitialisé à 0 (zéro).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Mettre à jour un paiement client et payer le fournisseur
@@ -77,8 +77,8 @@ Lorsque vous validez une facture d'un fournisseur, si le fournisseur est soumis 
 Lorsqu'un fournisseur termine son travail sur un projet et vous envoie une facture, vous devez examiner le statut du projet et les factures client pour déterminer si les conditions de paiement Payer quand payé ont été respectées pour le projet. Si les conditions de paiement Payer quand payé du fournisseur ont été respectées, vous pouvez déterminer les lignes de la facture fournisseur à payer, en fonction des paiements client pour le projet. Si vous décidez de payer le fournisseur même si les conditions de paiement Payer quand payé n'ont pas été respectées, vous pouvez remplacer les conditions de paiement Payer quand payé sur la page **Facture fournisseur avec clause Payer quand payé**.
 
 1. Accédez à **Gestion de projet et comptabilité** \> **Recherches et états** \> **Demandes de rétention** \> **Facture fournisseur avec clause Payer quand payé**.
-2. Sur la page **Facture fournisseur avec clause Payer quand payé** , dans le champ de recherche, saisissez des valeurs pour trouver la facture fournisseur que vous souhaitez consulter, puis sélectionnez **Rechercher**.
-3. Sur le raccourci **Lignes de facture fournisseur** , sélectionnez les lignes que vous souhaitez modifier.
+2. Sur la page **Facture fournisseur avec clause Payer quand payé**, dans le champ de recherche, saisissez des valeurs pour trouver la facture fournisseur que vous souhaitez consulter, puis sélectionnez **Rechercher**.
+3. Sur le raccourci **Lignes de facture fournisseur**, sélectionnez les lignes que vous souhaitez modifier.
 4. Si les conditions **Payer quand payé** sont remplies pour la ligne de facture, sélectionnez **Débloquer le paiement fournisseur**. L'option **Payer quand payé** est désactivée et la valeur du champ **Prêt à payer** est remplacée par **Oui**.
 
 

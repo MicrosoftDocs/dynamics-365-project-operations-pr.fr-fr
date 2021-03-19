@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122340"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287730"
 ---
 # <a name="manage-the-billing-backlog"></a>Gérer la réplication de facturation
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Dynamics 365 Project Operations dispose de deux vues dédiées pour vous aider à utiliser et gérer la réplication de facturation. Il s’agit de **Jalons de prix fixe** et **Réplication de facturation pour le temps et le matériel** Pour sélectionner une vue, dans la zone **Ventes** de Project Operations, sur la page de navigation de gauche, sélectionnez **Facturation**. Les liens de réplication de facturation y sont stockés.
+Dynamics 365 Project Operations offre deux vues dédiées permettant d'utiliser et de gérer la réplication de facturation. Il s’agit de **Jalons de prix fixe** et **Réplication de facturation pour le temps et le matériel** Pour sélectionner une vue, dans la zone **Ventes** de Project Operations, sur la page de navigation de gauche, sélectionnez **Facturation**. Les liens de réplication de facturation y sont stockés.
 
 ## <a name="fixed-price-milestones"></a>Jalons de prix fixe
 

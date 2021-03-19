@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa1e6c17fbda76a283c2ec68760a00e846decf83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b2ed241509d2643d841ce55777e6e316612f70b8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128100"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287865"
 ---
 # <a name="confirm-a-proforma-invoice"></a>Confirmer une facture pro forma
 

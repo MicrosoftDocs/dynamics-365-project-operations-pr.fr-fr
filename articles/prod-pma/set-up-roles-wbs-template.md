@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075720"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288646"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurer des rôles sur des modèles de structure de répartition du travail
 
@@ -33,7 +33,7 @@ Les chefs de projet peuvent configurer des modèles de structure de répartition
 
 1. Sélectionnez **Gestion de projets et comptabilité** > **Paramétrage** > **Projets** > **Modèles de structure de répartition du travail**.
 2. Sélectionnez **Détails** pour un modèle de structure de répartition du travail sélectionné.
-3. Sélectionnez une tâche dans la liste, puis, dans le champ **Rôle** , sélectionnez un rôle à attribuer à la tâche.
+3. Sélectionnez une tâche dans la liste, puis, dans le champ **Rôle**, sélectionnez un rôle à attribuer à la tâche.
 
 ## <a name="work-with-a-wbs"></a>Utiliser une structure de répartition du travail
 
@@ -79,7 +79,7 @@ Des options supplémentaires ont été ajoutées dans la structure de répartiti
 </tbody>
 </table>
 
-1. Sur la page **Tous les projets** , sélectionnez le projet **Mise à niveau XYZ Phase 2**.
+1. Sur la page **Tous les projets**, sélectionnez le projet **Mise à niveau XYZ Phase 2**.
 2. Sélectionnez **Plan** > **Activités** > **Structure de répartition du travail**.
 3. Sélectionnez **Nouveau** pour ajouter les activités de niveau un suivantes à la structure de répartition du travail :
 
@@ -93,20 +93,20 @@ Des options supplémentaires ont été ajoutées dans la structure de répartiti
 
     [![Fixer les dates et les efforts](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Sélectionnez la ligne de tâche **Initier** , puis, dans le champ **Rôle** , sélectionnez **Chef de projet senior**.
+5. Sélectionnez la ligne de tâche **Initier**, puis, dans le champ **Rôle**, sélectionnez **Chef de projet senior**.
 6. Cliquez sur **Publier**.
-7. Sur la même ligne, dans le champ **Ressource** , sélectionnez **Daniel Goldschmidt** , puis **Accepter**.
-8. Sélectionnez la ligne de tâche **Planification** , puis, dans le champ **Rôle** , sélectionnez **Analyste d’affaires**.
-9. Sélectionnez **Publier** , puis **Générer automatiquement une équipe**.
+7. Sur la même ligne, dans le champ **Ressource**, sélectionnez **Daniel Goldschmidt**, puis **Accepter**.
+8. Sélectionnez la ligne de tâche **Planification**, puis, dans le champ **Rôle**, sélectionnez **Analyste d’affaires**.
+9. Sélectionnez **Publier**, puis **Générer automatiquement une équipe**.
 10. Dans la zone de message qui s’affiche, sélectionnez **Oui**.
-11. Dans le champ **Ressource** , vérifiez que la valeur est **Analyste d’affaires 1**.
-12. Pour la ressource **Analyste d’affaires 1** , ouvrez la recherche et sélectionnez **Lancer les affectations de ressources**. Sélectionnez ensuite un employeur pour la tâche.
+11. Dans le champ **Ressource**, vérifiez que la valeur est **Analyste d’affaires 1**.
+12. Pour la ressource **Analyste d’affaires 1**, ouvrez la recherche et sélectionnez **Lancer les affectations de ressources**. Sélectionnez ensuite un employeur pour la tâche.
 13. Sélectionnez **Affectation provisoire** &gt; **Capacité complète**.
 
     > [!NOTE] 
     > Vous ne recevez pas d’avertissement indiquant que la ressource spécifiée est désormais 2, car le nombre de ressources reste 1.
 
-14. Sur la page **Structure de répartition du travail** , validez l’affectation de ressource sur la structure de répartition du travail, puis sélectionnez **Enregistrer**.
+14. Sur la page **Structure de répartition du travail**, validez l’affectation de ressource sur la structure de répartition du travail, puis sélectionnez **Enregistrer**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

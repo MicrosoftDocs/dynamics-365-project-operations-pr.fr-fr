@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075721"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288871"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Espace de travail mobile de saisie des heures de projet
 
@@ -34,13 +34,13 @@ Cette rubrique donne des informations sur l’espace de travail mobile de **sais
 Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Dynamics 365 Unified Ops. 
 
 ## <a name="overview"></a>Vue d’ensemble
-Dans le cadre de leur travail quotidien, les ressources du projet sont souvent sur place ou en déplacement. L’espace de travail mobile **Saisie des heures de projet** permet aux utilisateurs d’entrer leur temps facturable ou non facturable par rapport à un projet sur l’appareil mobile de leur choix. Par conséquent, les ressources du projet peuvent enregistrer des entrées de temps à tout moment et n’importe où. Ils peuvent également afficher les saisies d’heures qui ont déjà été enregistrées. 
+Dans le cadre de leur travail quotidien, les ressources du projet sont souvent sur place ou en déplacement. L’espace de travail mobile **Entrée d’heure du projet** permet aux utilisateurs d’entrer leur temps facturable ou non facturable par rapport à un projet sur l’appareil mobile de leur choix. Par conséquent, les ressources du projet peuvent enregistrer des entrées des temps à tout moment et n’importe où. Elles peuvent également afficher les entrées des temps qui ont déjà été enregistrées. 
 
-Plus précisément, dans l’espace de travail mobile **Saisie des heures de projet** , les utilisateurs peuvent effectuer ces tâches :
+Plus précisément, dans l’espace de travail mobile **Entrée d’heure du projet**, les utilisateurs peuvent effectuer les tâches suivantes :
 
--   Pour toute date sélectionnée, entrez le nombre d’heures que vous avez passé sur une tâche spécifique.
--   Recherchez par nom de projet ou par client pour trouver le projet pour lequel saisir l’heure.
--   Spécifiez la catégorie et l’activité pour le temps que vous avez passé.
+-   Pour n’importe quelle date sélectionnée, entrer le nombre d’heures passé sur une tâche spécifique.
+-   Effectuer une recherche par nom de projet ou par client pour trouver le projet pour lequel entrer des heures.
+-   Spécifier la catégorie et l’activité pour les heures passées.
 -   Enregistrez le temps comme facturable ou non facturable pour le projet.
 -   Facultatif : saisissez des commentaires externes et internes.
 
@@ -93,7 +93,7 @@ Télécharger et installer l’application mobile Finance and Operations :
 ## <a name="sign-in-to-the-mobile-app"></a>Se connecter à l'application mobile
 1.  Démarrez l'application sur votre appareil mobile.
 2.  Tapez votre URL Dynamics 365.
-3.  La première fois que vous vous connectez, vous êtes invité à saisir votre nom d’utilisateur et votre mot de passe. Entrez vos informations d'identification.
+3.  La première fois que vous vous connectez, vous êtes invité à saisir votre nom d’utilisateur et votre mot de passe. Entrez vos informations d’identification.
 4.  Une fois connecté, les espaces de travail disponibles pour votre entreprise s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devez actualiser la liste des espaces de travail mobiles.
 
 [![Balayer pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)

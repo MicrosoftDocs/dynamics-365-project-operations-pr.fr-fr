@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075801"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289321"
 ---
 # <a name="microsoft-project-client-integration"></a>Intégration de Microsoft Project Client
 
@@ -35,14 +35,14 @@ La planification et la gestion d’un calendrier de projet peuvent être complex
 > Si vous utilisez la mise à jour de juillet (version 10.0.4), vous devez installer KB 4054797 et 4055884.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Configurer le complément Microsoft Project Client
-Pour activer l’intégration avec Microsoft Project Client, un complément Microsoft Dynamics 365 doit être installé dans l’application client Microsoft Project de l’utilisateur. Cela se fait en ouvrant l’ **Espace de travail de gestion de projet**.
+Pour activer l’intégration avec Microsoft Project Client, un complément Microsoft Dynamics 365 doit être installé dans l’application client Microsoft Project de l’utilisateur. Cela se fait en ouvrant l’**Espace de travail de gestion de projet**.
 
 • Cliquez sur **Configurer le complément client du projet** depuis la section **Liens** > **Configurer** de l’espace de travail.
 
-• Cliquez sur **Ouvrir** , puis cliquez sur **Exécuter** à l’invite.
+• Cliquez sur **Ouvrir**, puis cliquez sur **Exécuter** à l’invite.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Ouvrir et modifier un brouillon de structure de répartition du travail existant dans Microsoft Project Client
-Si un projet dans Dynamics 365 Finance a déjà créé une structure de répartition du travail, la structure de répartition du travail peut être ouverte dans l’application Microsoft Project Client si la structure de répartition du travail est à l’état de brouillon. Pour ouvrir depuis la page **Projet** , cliquez sur le lien **Ouvrir dans Microsoft Project** depuis l’onglet **Plan**. Cette page peut également être ouverte à partir de l’application Microsoft Project Client en cliquant sur **Ouvrir** dans l’onglet **Microsoft Dynamics 365**. Sélectionnez l’ **Entité juridique** et **Projet** depuis la liste.
+Si un projet dans Dynamics 365 Finance a déjà créé une structure de répartition du travail, la structure de répartition du travail peut être ouverte dans l’application Microsoft Project Client si la structure de répartition du travail est à l’état de brouillon. Pour ouvrir depuis la page **Projet**, cliquez sur le lien **Ouvrir dans Microsoft Project** depuis l’onglet **Plan**. Cette page peut également être ouverte à partir de l’application Microsoft Project Client en cliquant sur **Ouvrir** dans l’onglet **Microsoft Dynamics 365**. Sélectionnez l’**Entité juridique** et **Projet** depuis la liste.
 
 > [!NOTE]
 > Si vous utilisez Internet Explorer comme navigateur, vous devrez cliquer sur **Enregistrer** pour ouvrir manuellement à partir de l’emplacement de téléchargement du fichier. Ou cliquez sur **Enregistrer et ouvrir** pour ouvrir le fichier dans Microsoft Project Client. Ne renommez pas le nom du fichier lors de l’enregistrement.
@@ -82,9 +82,9 @@ Pour créer une structure de répartition du travail à l’aide de Microsoft P
 
 1.  Ouvrez Microsoft Project Client.
 
-2.  Sous l’onglet **Microsoft Dynamics 365** , cliquez sur **Ouvrir**.
+2.  Sous l’onglet **Microsoft Dynamics 365**, cliquez sur **Ouvrir**.
 
-3.  Sélectionnez l’ **Entité juridique** pour le projet.
+3.  Sélectionnez l’**Entité juridique** pour le projet.
 
 4.  Sélectionnez le **Projet**.
 
@@ -99,9 +99,9 @@ Pour créer une nouvelle structure de répartition du travail à l’aide de Mic
 
 2.  Créez le programme dans Microsoft Project Client.
 
-3.  Sur l’onglet **Microsoft Dynamics 365** , cliquez sur **Enregistrer les modifications** > **Remplacer le projet existant**.
+3.  Sur l’onglet **Microsoft Dynamics 365**, cliquez sur **Enregistrer les modifications** > **Remplacer le projet existant**.
 
-4.  Sélectionnez l’ **Entité juridique** pour le projet.
+4.  Sélectionnez l’**Entité juridique** pour le projet.
 
 5.  Sélectionnez le **Projet**.
 
@@ -114,15 +114,15 @@ Pour créer une nouvelle structure de répartition du travail à l’aide de Mic
 
 2.  Créez le programme dans Microsoft Project Client.
 
-3.  Sur l’onglet **Microsoft Dynamics 365** , cliquez sur **Enregistrer les modifications** > **Enregistrer dans un nouveau projet**.
+3.  Sur l’onglet **Microsoft Dynamics 365**, cliquez sur **Enregistrer les modifications** > **Enregistrer dans un nouveau projet**.
 
-4.  Sélectionnez l’ **Entité juridique** pour le projet.
+4.  Sélectionnez l’**Entité juridique** pour le projet.
 
-5.  Entrez l’ **ID de projet** , si nécessaire.
+5.  Entrez l’**ID de projet**, si nécessaire.
 
 6.  Entrez le **Nom du produit**.
 
-7.  Sélectionnez le **Type de projet** , **Groupe de projet** et l’ **ID de contrat de projet**. Vous pouvez également créer un contrat de projet en cliquant sur **Nouveau**.
+7.  Sélectionnez le **Type de projet**, **Groupe de projet** et l’**ID de contrat de projet**. Vous pouvez également créer un contrat de projet en cliquant sur **Nouveau**.
 
 8.  Sélectionnez le **Calendrier** à utiliser pour l’allocation des ressources.
 
