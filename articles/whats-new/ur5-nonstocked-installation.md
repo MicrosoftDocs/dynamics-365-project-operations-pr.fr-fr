@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
-ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
+ms.openlocfilehash: d68296ec59f0bd58f848154c90e02c58f275ab12
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4816622"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291976"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Mettre à jour Project Operations dans votre environnement Finance
 

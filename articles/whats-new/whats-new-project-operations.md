@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b14a22ac728e969944e014c9a6399841f1e9fc4a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: daa919593f08a863d47002c223a83899a777830b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132107"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5292111"
 ---
 # <a name="whats-new-in-project-operations"></a>Nouveautés de Project Operations
 

@@ -1,9 +1,9 @@
 ---
 title: Notes de frais réinventées
-description: Cette rubrique fournit des informations sur l’expérience remodelée et repensée pour la saisie des notes de frais.
+description: Cette rubrique explique l’expérience reconçue et réinventée pour la saisie de notes de frais.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122790"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499713"
 ---
 # <a name="expense-reports-reimagined"></a>Notes de frais réinventées
 
@@ -59,25 +59,22 @@ La vidéo [Expérience de dépenses dans Dynamics 365 for Finance and Operations
 | Réduction des messages dans la barre de messages| Le nombre de messages Infolog a été réduit et un effort a été fait pour empêcher l’apparition de messages en double dans de nombreux cas. |
 | Actions communes regroupées | L’interface a été nettoyée avec l’ajout d’un nouveau bouton d’actions pour la plupart des actions courantes au niveau de la ligne et l’ajout d’un bouton de sélection (...) pour l’en-tête et d’autres actions moins fréquentes. |
 | Nouvel espace de travail pour augmenter la visibilité | Un nouvel espace de travail unifie les fonctionnalités et les liens qui permettent aux utilisateurs de se déplacer vers différentes zones. |
-| Ajouter des dépenses et des reçus existants lors de la création des dépenses | Lorsque vous créez des notes de frais, vous pouvez ajouter la totalité ou une sélection de dépenses et de reçus. |
+| Ajouter des dépenses et des reçus existants lors de la création des dépenses | Lorsque vous créez des notes de frais, vous pouvez ajouter toutes les dépenses ou sélectionner des dépenses non jointes. Les dépenses non jointes sont des dépenses importées à partir du flux de la carte de crédit d’entreprise ou des dépenses créées manuellement par l’utilisateur mais qui n’ont pas été jointes à une note de frais.|
 | Calculatrice de taux de change | Une calculatrice de taux de change est ajoutée qui vous permet de calculer le taux de change pour les transactions multidevises personnelles. |
 | Enregistrer et ajouter de nouvelles lignes de dépenses | Les boutons **Enregistrer** et **Nouveau** sont disponibles lorsque de nouvelles dépenses sont saisies, pour vous aider à saisir rapidement des lignes de dépenses. |
 | Meilleure visibilité sur les lignes fractionnées et détaillées | Des lignes détaillées et fractionnées sont ajoutées directement à la liste des dépenses pour augmenter la visibilité et vous aider à déterminer facilement s’il y a des erreurs. |
 | Afficher les reçus lors de la répartition | Les reçus peuvent être affichés lors de la répartition. |
+| Sélection de l’avance de trésorerie | Sélectionnez une ou plusieurs avances de trésorerie pour exécuter une seule transaction de dépense. |
+| Solde de l’avance de trésorerie | Vérifiez le solde de l’avance de trésorerie en temps réel lorsque vous créez une entrée de dépenses pour les avances de paiement approuvées et payées. |
 
 La version initiale se concentre sur les scénarios de saisie des dépenses. Tout scénario de vérification ou d’approbation des notes de frais continuera d’utiliser la page de saisie des dépenses existante.
 
-Les fonctionnalités suivantes sont présentes sur la page existante mais ne sont pas encore présentes sur la nouvelle page. Ces fonctionnalités seront réintroduites au cours des prochaines versions :
+Les fonctionnalités suivantes ne sont pas prises en charge dans l’espace de travail Dépenses réinventées :
 
-- Approbations
-- Approbations des comptes fournisseurs et possibilité de modifier la comptabilité
-- Plusieurs points de saisie
 - Intégration de la demande de déplacement
-- Entité de données pour la visibilité des champs de dépenses
-- Inscription pour les dépenses journalières
-- Workflow au niveau de la ligne
+- Saisie des dépenses journalières
 - Prise en charge provisoire des approbateurs
-- Répartition avancée
+- Possibilité d’afficher l’historique du flux de travail
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

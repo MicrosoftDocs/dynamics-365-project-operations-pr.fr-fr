@@ -3,17 +3,17 @@ title: Comportement de l’interface utilisateur de saisie de temps
 description: Cette rubrique donne des informations sur le comportement de l’interface utilisateur de saisie de temps.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124500"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499611"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportement de l’interface utilisateur de saisie de temps
 
@@ -21,6 +21,19 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 
 La grille **Entrée de temps hebdomadaire** est un contrôle personnalisé qui comporte deux sections principales, **Dimensions** et **Durée**.
+
+## <a name="keyboard-shortcuts"></a>Raccourcis clavier
+| Pour        | Raccourci                  |
+|------------   |------------------------   |
+| Nouveau           | Alt + Maj + n           |
+| Copier la ligne      | Alt + Maj + c           |
+| Modifier l’entrée    | Alt + Maj + e           |
+| Modifier la ligne      | Alt + Maj + Ctrl + e    |
+| Ouvrir l’entrée    | Alt + Maj + o           |
+| Envoyer        | Alt + Maj + s           |
+| Rappeler        | Alt + Maj + r           |
+| Suppr        | Alt + Maj + d           |
+| Copier la semaine     | Alt + Maj + w           |
 
 ## <a name="dimensions"></a>Dimensions
 La section **Dimensions** affiche toutes les dimensions pour lesquelles le temps peut être entré. Les dimensions suivantes sont prises en charge par défaut :
@@ -40,7 +53,7 @@ La section Durée affiche les jours de la semaine sous forme d’en-têtes de co
 
 1. Dans la grille des entrées de temps, sélectionnez **Nouveau**. 
 2. Dans la boîte de dialogue **Création rapide de saisie de temps**, sélectionnez la date d’entrée de l’heure.
-3. Entrez les données pour les dimensions **Projet**, **Tâche de projet**, **Rôle**, et **Durée**. Ces informations doivent être ajoutées en minutes, heures ou jours en tapant **h**, **m** ou **j**, avec le numéro. 
+3. Entrez les données pour les dimensions **Projet**, **Tâche de projet**, **Rôle**, et **Durée**. Ces informations doivent être ajoutées en minutes, heures ou jours en tapant **h**, **m** ou **j** avec le nombre. 
 4. Entrez une description pour la saisie et des commentaires qui peuvent être partagés en externe concernant l’entrée de temps. 
 
 Lorsque vous enregistrez l’entrée, les valeurs saisies apparaissent dans la section **Dimensions**. Les informations entrées dans le champ **Durée** s’affichent à la date pour laquelle l’entrée de temps a été créée.

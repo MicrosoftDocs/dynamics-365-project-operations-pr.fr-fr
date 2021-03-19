@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401215"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479561"
 ---
 # <a name="determine-your-deployment-type"></a>Déterminer votre type de déploiement
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
 > [!IMPORTANT]
-> Après avoir acheté la licence, commencez ici pour déterminer le meilleur modèle de déploiement de Dynamics 365 Project Operations à l’aide du [Flux d’installation guidé](https://aka.ms/provisionprojectoperations).
+> Après avoir acheté la licence, commencez ici pour déterminer le meilleur modèle de déploiement de Dynamics 365 Project Operations en utilisant le [Flux d’installation guidée](https://aka.ms/provisionprojectoperations).
 > Une fois que vous avez terminé le flux d’installation guidée, vous serez dirigé vers le portail de gestion approprié pour terminer votre installation. Consultez les détails de déploiement pour terminer l’installation.
 
 
@@ -31,6 +31,9 @@ Project Operations inclut les fonctionnalités fournies avec Project Service Aut
 
 Les clients existants de Finance qui utilisent la fonctionnalité Gestion du projet et comptabilité peuvent continuer à l’utiliser tel qu’il est. Voir [Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication](#pma).
 
+
+## <a name="deployment-regions"></a>Régions de déploiement
+Pour déterminer quelles régions prennent en charge le déploiement de Project Operations, voir [Disponibilité géographique pour Dynamics 365 et le rapport Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Sélectionnez **Afficher le rapport** et développez **Dynamics 365 > Applications d’opérations > Dynamics 365 Project Operations** pour afficher les régions prises en charge.
 
 ## <a name="deployment-types"></a>Types de déploiement
 Project Operations prend en charge plusieurs options de déploiement pour répondre à vos besoins. Que vous soyez un client Dynamics 365 nouveau ou existant, Project Operations peut répondre à vos besoins.

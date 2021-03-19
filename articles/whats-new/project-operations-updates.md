@@ -3,18 +3,18 @@ title: Mises à jour de Project Operations
 description: Cette rubrique fournit des informations sur les versions de Dynamics 365 Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 12/07/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b90de169bd9ed2c408f1fded20a6fe95f55ce230
-ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
+ms.openlocfilehash: 07ba97377841b1a2d8f96b60a926dc7499e345f1
+ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141204"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556575"
 ---
 # <a name="project-operations-updates"></a>Mises à jour de Project Operations
 
@@ -29,13 +29,16 @@ Dynamics 365 Project Operations comprend deux composants :
 - Project Operations sur un environnement Dataverse couvre les fonctionnalités de l’opportunité à la facturation pro forma. Dataverse est utilisé dans le déploiement simplifié et le déploiement de scénarios basés sur les ressources/produits non stockés de Project Operations.
 - La gestion de projet et comptabilité sur l’environnement Dynamics 365 Finance couvre les fonctionnalités de gestion des dépenses, de comptabilité de projet et de constatation du produit. L’environnement d’application Finance and Operations est utilisé dans Project Operations pour les scénarios basés sur les ressources/produits non stockés et Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication.
 
+## <a name="project-operations-release-notes"></a>Notes de publication de Project Operations
+- Notes de publication les plus récentes de Project Operations pour le scénario [Ressource/non-stocké](whats-new-mar-2021-resource-based.md).
+- Notes de publication les plus récentes de Project Operations pour le scénario [Déploiement simplifié](../pro/whats-new/whats-new-mar-2021-lite.md).
+- Notes de publication les plus récentes de Project Operations pour le scénario [Stocké/production](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
+
 ## <a name="project-operations-latest-version"></a>Version la plus récente de Project Operations
 
 | Project Operations dans l’environnement Dataverse | Gestion de projet et comptabilité dans les environnements de l’application Finance and Operations |
 | --- | --- |
-| 4.7.0.95 | 10.0.16 |
-
-Notes de publication de Project Operations, janvier 2021 pour des scénarios [Ressources/produits non stockés](whats-new-feb-2021-resource-based.md), [Déploiement simplifié](../pro/whats-new/whats-new-feb-2021-lite.md) et [stocké/production](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
+| 4.8.0.91 | 10.0.16 |
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Calendrier de publication de Project Operations dans l’environnement Dataverse
 
@@ -44,22 +47,23 @@ Des mises à jour de Project Operations dans l’environnement Dataverse sont di
 | Station   | Région        | Version actuelle | Prochaine version | À disposition générale |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Première version |  4.7.0.95       | À définir     | 19 fév. 2021           |
+|   &nbsp;  | Première version |  4.8.0.91       | À définir     | 02 avril 2021           |
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Amérique du Sud |  4.7.0.95       | À définir     | 19 fév. 2021           |
-|    &nbsp; | Canada        |  4.7.0.95       | À définir     | 19 fév. 2021           |
-|   &nbsp;  | Inde         |  4.7.0.95       | À définir     | 19 fév. 2021           |
-|   &nbsp;  | France         |  4.7.0.95       | À définir     | 19 fév. 2021           |
-|   &nbsp;  | Émirats Arabes Unis         |  4.7.0.95       | À définir     | 19 fév. 2021           |
+|   &nbsp;  | Amérique du Sud |  4.8.0.91       | À définir     | 02 avril 2021           |
+|    &nbsp; | Canada        |  4.8.0.91       | À définir     | 02 avril 2021           |
+|   &nbsp;  | Inde         |  4.8.0.91       | À définir     | 02 avril 2021           |
+|   &nbsp;  | France         |  4.8.0.91       | À définir     | 02 avril 2021           |
+|   &nbsp;  | Émirats Arabes Unis         |  4.8.0.91       | À définir     | 02 avril 2021           |
+|   &nbsp;  | Afrique du Sud         |  4.8.0.91       | À définir     | 02 avril 2021           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japon         |  4.7.0.95       | À définir     | 26 fév 2021.           |
-|   &nbsp;  | Asie-Pacifique  |  4.7.0.95       | À définir     | 26 fév 2021.           |
-|   &nbsp;  | Grande-Bretagne |  4.7.0.95       | À définir     | 26 fév 2021.           |
-|   &nbsp;  | Océanie       |  4.7.0.95       | À définir     | 26 fév 2021.           |
+|   &nbsp;  | Japon         |  4.8.0.91       | À définir     | 09 avril 2021           |
+|   &nbsp;  | Asie-Pacifique  |  4.8.0.91       | À définir     | 09 avril 2021           |
+|   &nbsp;  | Grande-Bretagne |  4.8.0.91       | À définir     | 09 avril 2021           |
+|   &nbsp;  | Océanie       |  4.8.0.91       | À définir     | 09 avril 2021           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europe        |  4.6.0.161       | 4.7.0.95     | 12 fév. 2021           |
+|   &nbsp;  | Europe        |  4.8.0.91       | À définir     | 16 avril 2021           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Amérique du Nord |  4.6.0.161       | 4.7.0.95     | 19 fév. 2021           |
+|   &nbsp;  | Amérique du Nord |  4.7.0.96       | 4.8.0.91     | 12 mars 2021           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendrier de publication pour Gestion de projet et comptabilité dans l’environnement de l’application Finance and Operations
 
