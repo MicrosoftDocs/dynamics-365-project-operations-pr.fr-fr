@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: deedfe0c6601fd09e09460034c9a0db936b6566e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 02dda534dcab4e8fee0a96a7e09759c32a669be5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127515"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286740"
 ---
 # <a name="navigating-the-user-interface"></a>Parcourir l’interface utilisateur
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
-ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
+ms.openlocfilehash: 27847575e2d6ec9af77d24f756b13d3aeb0efea7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5045006"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286920"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Développer des modèles de projet avec Copier le projet
 

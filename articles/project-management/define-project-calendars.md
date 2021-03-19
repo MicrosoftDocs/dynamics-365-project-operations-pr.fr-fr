@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 442a901af8754fa0335bbf43f4ac8c73b11f9499
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131655"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286965"
 ---
 # <a name="define-project-calendars"></a>Définir des calendriers de projet
 

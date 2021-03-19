@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131700"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287055"
 ---
 # <a name="expense-estimates"></a>Estimations de dépenses
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-En plus de définir des estimations basées sur les ressources, Dynamics 365 Project Operations permet aux chefs de projet de définir les dépenses basées sur les projets pour chaque projet. Chaque élément de dépense peut être associé à une tâche de projet ou à une catégorie de dépenses spécifique. Les catégories de dépenses sont généralement définies au niveau de l’organisation. La tarification de chaque catégorie de dépenses est généralement définie dans la hiérarchie suivante :
+En plus de définir des estimations basées sur les ressources, Dynamics 365 Project Operations permet aux chefs de projet de définir les dépenses basées sur les projets pour chaque projet. Chaque élément de dépense peut être associé à une tâche de projet ou à une catégorie de dépenses spécifique. Les catégories de dépenses sont généralement définies au niveau de l’organisation. La tarification de chaque catégorie de dépenses est généralement définie dans la hiérarchie suivante :
 
 - Organisation
 - Client

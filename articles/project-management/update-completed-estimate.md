@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 59d04869839cebd6e197f94f2ada8ab12c495c3b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0e63bdb815a6f758c57d055c8c03d92e04700445
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127200"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286425"
 ---
 # <a name="update-estimate-at-completion"></a>Mettre à jour Estimé à Achèvement
 

@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131970"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287640"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurer la comptabilité des projets facturables
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Dynamics 365 Project Operations prend en charge diverses options de comptabilité pour les projets facturables qui incluent des transactions de temps et de matériaux et à prix fixe.
+Dynamics 365 Project Operations prend en charge diverses options de comptabilité pour les projets facturables qui comprennent des transactions en régie et à prix fixe.
 
-- **Transactions de temps et de matériaux et à prix fixe** : Ces transactions sont facturées au fur et à mesure de l’avancement des travaux en fonction de la consommation d’heures, de dépenses, d’articles ou d’honoraires sur le projet. Ces coûts de transaction peuvent être rapprochés des revenus de chaque transaction et le projet est facturé au fur et à mesure de l’avancement des travaux. Les revenus du projet peuvent également être comptabilisés au moment de la transaction. Lors de la facturation, les revenus sont constatés et le cas échéant, les revenus à recevoir sont contrepassés.
+- **Transactions de temps et de matériaux et à prix fixe** : Ces transactions sont facturées au fur et à mesure de l’avancement des travaux en fonction de la consommation d’heures, de dépenses, d’articles ou d’honoraires sur le projet. Ces coûts de transaction peuvent être rapprochés du produit de chaque transaction et le projet est facturé à mesure de l’avancement des travaux. Les revenus du projet peuvent également être comptabilisés au moment de la transaction. Lors de la facturation, les revenus sont constatés et le cas échéant, les revenus à recevoir sont contrepassés.
 - **Transactions à prix fixe** : Ces transactions sont facturées selon un calendrier de facturation basé sur le contrat de projet. Les revenus des transactions à prix fixe peuvent être constatés lors de la facturation ou calculés et validés périodiquement, selon les méthodes de **Contrat terminé** ou de **Pourcentage terminé**.
 
 Un projet est considéré comme facturable lorsqu’il est associé à une ou plusieurs lignes de contrat. Une ligne de contrat de projet définit pour elle-même la méthode de facturation et les types de transaction autorisés.

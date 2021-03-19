@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131520"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286830"
 ---
 # <a name="maintain-team-members"></a>Préserver les membres de l’équipe
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Vous pouvez ajouter une ressource nommée à votre équipe de projet en les réservant directement dans l’équipe.
+Vous pouvez ajouter une ressource nommée à votre équipe de projet en la réservant directement pour l’équipe.
 
-1. Dans Dynamics 365 Project Operations, accédez à **Projets**, puis sélectionnez pour ouvrir le projet que réservez.
+1. Dans Dynamics 365 Project Operations, accédez à **Projets**, puis sélectionnez le projet ouvert pour lequel vous souhaitez effectuer une réservation.
 2. Dans la page **Projet**, dans l’onglet **Équipe**, sélectionnez **Nouveau**. 
 3. Dans la boîte de dialogue **Création rapide : Membre de l’équipe de projet**, sélectionnez la ressource réservable. Le champ **Rôle** se remplit avec le rôle par défaut de la ressource si elle en a un d’attribué. Vous pouvez changer de rôle. 
 4. Sélectionnez les dates de début et de fin auxquelles la ressource sera nécessaire et sélectionnez la méthode d’allocation de la capacité de la ressource. 

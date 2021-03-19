@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133331"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287235"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal d’intégration dans Project Operations
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Les entrées de temps et de dépenses créent des transactions **Réelles** qui sont la vue opérationnelle du travail effectué par rapport à un projet. Dynamics 365 Project Operations fournit aux comptables un outil pour réviser les transactions et ajuster les attributs comptables selon les besoins. Une fois la révision et les ajustements effectués, les transactions sont publiées dans le livre auxiliaire et la Comptabilité du projet. Un comptable peut effectuer ces activités en utilisant le journal d’**intégration de Project Operations** (**Dynamics 365 Finance** > **Gestion de projet et comptabilité** > **Journaux** > **Journal d’intégration de ProjectOperations**).
+Les entrées de temps et de dépenses créent des transactions **Réelles** qui sont la vue opérationnelle du travail effectué par rapport à un projet. Dynamics 365 Project Operations fournit aux comptables un outil permettant d’examiner les transactions et d’ajuster les attributs comptables, le cas échéant. Une fois la révision et les ajustements effectués, les transactions sont publiées dans le livre auxiliaire et la Comptabilité du projet. Un comptable peut effectuer ces activités en utilisant le journal d’**intégration de Project Operations** (**Dynamics 365 Finance** > **Gestion de projet et comptabilité** > **Journaux** > **Journal d’intégration de ProjectOperations**).
 
 ![Flux de journal d’intégration](./media/IntegrationJournal.png)
 
@@ -28,9 +28,9 @@ Les entrées de temps et de dépenses créent des transactions **Réelles** qui 
 Les enregistrements dans le journal d’intégration de Project Operations sont créés à l’aide d’un processus périodique, **Importer depuis la table intermédiaire**. Vous pouvez exécuter ce processus en accédant à **Dynamics 365 Finance** > **Gestion de projet et comptabilité** > **Périodique** > **Intégration dans Project Operations** > **Importer depuis la table intermédiaire**. Vous pouvez exécuter le processus de manière interactive ou configurer le processus pour qu’il s’exécute en arrière-plan si nécessaire.
 
 Lorsque le processus périodique s’exécute, tous les chiffres réels qui ne sont pas encore ajoutés au journal d’intégration de Project Operations sont recherchés. Une ligne de journal pour chaque transaction réelle est créée.
-Le système regroupe les lignes de journal dans des journaux distincts en fonction de la valeur sélectionnée dans le champ **Unité périodique dans le journal d’intégration de Project Operations** (**Finance** > **Gestion de projet et comptabilité** > **Configurer** > **Paramètres de gestion de projet et comptabilités**,**onglet Project Operations dans Dynamics 365 Customer Engagement**). Les valeurs possibles pour ce champ sont notamment :
+Le système regroupe les lignes de journal dans des journaux distincts en fonction de la valeur sélectionnée dans le champ **Unité périodique dans le journal d’intégration de Project Operations** (**Finance** > **Gestion de projet et comptabilité** > **Configurer** > **Paramètres de gestion de projet et comptabilités**, onglet **Project Operations dans Dynamics 365 Customer Engagement**). Les valeurs possibles pour ce champ sont notamment :
 
-  - _*Jours** : les chiffres réels sont regroupés par date de transaction. Un journal distinct est créé pour chaque jour.
+  - **Jours** : les chiffres réels sont regroupés par date de transaction. Un journal distinct est créé pour chaque jour.
   - **Mois** : les chiffres réels sont regroupés par mois calendaire. Un journal distinct est créé pour chaque mois.
   - **Années** : les chiffres réels sont regroupés par année calendaire. Un journal distinct est créé pour chaque année.
   - **Tout** : toutes les transactions réelles sont incluses dans le même journal d’intégration. Si le journal n’est pas disponible lors de l’exécution du processus périodique, par exemple si le journal est en cours d’enregistrement des transactions, un nouveau journal est créé.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286605"
 ---
 # <a name="project-tracking-overview"></a>Vue d’ensemble du suivi des projets
 
@@ -23,7 +23,7 @@ La nécessité de suivre la progression par rapport à une planification varie p
 
 ## <a name="effort-tracking-view"></a>Vue de suivi des efforts
 
-La vue **Suivi de l’effort** suit la progression des tâches dans le calendrier en comparant les heures d’effort réelles consacrées à une tâche aux heures d’effort planifiées de la tâche. Dynamics 365 Project Operations utilise les formules suivantes pour calculer les mesures de suivi :
+La vue **Suivi de l’effort** suit la progression des tâches dans le calendrier en comparant les heures d’effort réelles consacrées à une tâche aux heures d’effort planifiées de la tâche. Dynamics 365 Project Operations utilise les formules suivantes pour calculer les mesures de suivi :
 
 - **Pourcentage de progression** : Cumul des efforts réels consacrés ÷ Estimation à l’achèvement 
 - **Estimation avant achèvement** : Efforts planifiés – Cumul des efforts réels consacrés 

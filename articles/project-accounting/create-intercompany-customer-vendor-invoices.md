@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f1560469d2bdbb8e81dc26c16b272c44446ab20a
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595464"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287460"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Créer des factures clients et fournisseurs intersociétés
 

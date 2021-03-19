@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841334"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287010"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Créer une structure de répartition du travail (WBS)
 
@@ -92,6 +92,8 @@ Le tableau suivant présente des attributs de planification supplémentaires.
 | Démarrer | Date et heure de début. |
 | Nom | Nom de la tâche. |
 | ID | ID de la tâche dans la structure de répartition du travail. |
+
+En tant qu’administrateur, vous pouvez définir des champs personnalisés sur l’entité de tâche. Cependant, les champs ne peuvent pas être affichés sur la grille de planification. Pour voir vos champs personnalisés, ajoutez-les à la page de détails **Tâche du projet**.
 
 ## <a name="staffing-attributes"></a>Attributs de dotation de personnel
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 454b8931db53739a7bc19364911109802a1ed087
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 98a61746f172b50bf6fa29cb0d21462cd616f417
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127354"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286515"
 ---
 # <a name="resource-estimates"></a>Estimations basées sur la ressource
 

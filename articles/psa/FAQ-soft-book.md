@@ -12,12 +12,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 2675096085fc4c673d15741042ffc1b82ed3de8b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1d2044692d1c6d694a1365be76dd8e7ddafd376d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146435"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285975"
 ---
 # <a name="soft-book-a-resource"></a>Réservation temporaire d’une ressource
 

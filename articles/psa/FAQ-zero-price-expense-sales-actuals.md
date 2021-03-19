@@ -19,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bd474d7c0cd64262fdb21d6269efa781b6dc31f2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146300"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285877"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Pourquoi le tarif prend la valeur par défaut de zéro sur les chiffres réels de vente de la dépense ?
 

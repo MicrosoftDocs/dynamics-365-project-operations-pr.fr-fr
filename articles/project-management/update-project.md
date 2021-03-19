@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8bcbc6c5a62d252398d541649647fbad49006a0c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 27444b072bdf7de55d6b38c30c1ea5fe66ed46ac
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131430"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286380"
 ---
 # <a name="update-a-project"></a>Mettre à jour un projet
 

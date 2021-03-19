@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642360"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287370"
 ---
 # <a name="financial-dimension-defaults"></a>Valeurs par défaut d’une dimension financière
 
