@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147650"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283230"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Utilisation des modèles de données Project Service Automation
 
@@ -87,7 +87,7 @@ L’entité **Projets** et ses entités associées sont exclusives à PSA. **Pro
 
 ## <a name="reporting-on-resources"></a>Génération de rapports sur les ressources
 
-Les ressources du projet utilisent les entités **Ressource pouvant être réservée** de Universal Resource Scheduling (URS) qui sont partagées avec d’autres applications, telles que Microsoft Dynamics 365 Field Service. Voici la liste des entités que vous devrez utiliser lorsque vous générerez des rapports sur les ressources de projet :
+Les ressources du projet utilisent les entités **Ressource réservable** de Universal Resource Scheduling (URS) qui sont partagées avec d’autres applications, telles que Microsoft Dynamics 365 Field Service. Voici la liste des entités que vous devrez utiliser lorsque vous générerez des rapports sur les ressources de projet :
 
 - **Ressource pouvant être réservée** : cette entité représente l’utilisateur, le contact, la ressource générique, le compte, le groupe ou les équipements utilisés par l’équipe du projet.
 - **Caractéristiques des ressources pouvant être réservées** : cette entité comprend les compétences, les certifications ou les études de la ressource. Les caractéristiques peuvent avoir des valeurs d’évaluation définies par le modèle d’évaluation.
