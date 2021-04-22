@@ -1,31 +1,41 @@
 ---
-title: Vue d’ensemble des projets d’estimation
-description: Cette rubrique fournit des informations sur les estimations dans Dynamics 365 Project Operations.
-author: ruhercul
+title: Concepts d’estimation financière
+description: Cette rubrique fournit des informations sur les estimations financières de projets dans Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286875"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701733"
 ---
-# <a name="estimate-projects-overview"></a>Vue d’ensemble des projets d’estimation
+# <a name="financial-estimation-concepts"></a>Concepts d’estimation financière
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
+Dans Dynamics 365 Project Operations, vous pouvez estimer financièrement vos projets en deux étapes : 
+1. Au cours de la phase de prévente avant que la transaction ne soit conclue. 
+2. Pendant la phase d’exécution après la création du contrat de projet. 
+
+Vous pouvez créer une estimation financière pour le travail basé sur un projet en utilisant l’une des 3 pages suivantes :
+- La page **Ligne de devis**, en utilisant les détails de la ligne de devis.  
+- La page **Ligne de contrat du projet**, en utilisant les détails de la ligne de contrat. 
+- La page **Projet**, en utilisant les pages d’onglets **Tâches** ou **Estimations des dépenses**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Utiliser un devis de projet pour créer une estimation
 Sur un devis basé sur un projet, vous pouvez utiliser l’entité **Détails de la ligne de devis** pour estimer le travail requis pour fournir un projet. Vous pouvez ensuite partager cette estimation avec le client.
 
 Les lignes de devis basées sur un projet peuvent contenir plusieurs détails ou être vides. Les détails de la ligne de devis sont utilisés pour estimer le temps, les dépenses ou les frais. Microsoft Dynamics 365 Project Operations ne permet pas des estimations matérielles sur les détails de la ligne de devis. Elles sont appelées Classes de transaction. Des montants d’estimation des taxes peuvent également être entrés dans une classe des transactions.
 
 Outre les classes de transaction, les détails de la ligne de devis ont un type des transactions. Deux types de transaction sont pris en charge pour les détails de la ligne de devis : **Coût** et **Contrat du projet**.
 
-## <a name="estimate-by-using-a-contract"></a>Estimation à l’aide d’un contrat
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Utiliser un contrat de projet pour créer une estimation
 
 Si vous avez utilisé un devis lorsque vous avez créé un contrat basé sur un projet, l’estimation effectuée pour chaque ligne de devis sur le devis est copiée dans le contrat du projet. La structure d’un contrat de projet est semblable à la structure du devis de projet contenant les lignes, les détails de ligne, et les planifications de factures.
 
@@ -35,23 +45,17 @@ Les détails de la ligne de contrat peuvent être utilisés pour estimer le temp
 
 Les estimations matérielles ne sont pas autorisées sur les détails de la ligne de contrat.
 
-Les processus pris en charge sur un contrat de projet sont la création et la confirmation de facture. La création de facture crée un brouillon d’une facture basée sur un projet qui inclut tous les chiffres réels vente non facturés jusqu’à la date du jour.
+## <a name="use-a-project-to-create-an-estimate"></a>Utiliser un projet pour créer une estimation 
 
-La confirmation rend le contrat en lecture seule et remplace le statut **Brouillon** par **Confirmé**. Une fois que vous prenez cette mesure, vous ne pouvez pas l’annuler. Cette action étant définitive, il est d’usage de conserver le contrat dans un état **Brouillon**.
-
-Les uniques différences entre les projets de contrat et les contrats confirmés sont leur statut et le fait que les brouillons de contrat peuvent être modifiés alors que les contrats confirmés ne peuvent pas. La création de facture et le suivi des chiffres réels peuvent être réalisés sur les brouillons de contrats et contrats confirmés.
-
-Project Operations ne prend pas en charge les ordres de modifications dans les contrats ou les projets.
-
-## <a name="estimating-projects"></a>Estimations de projets
-
-Vous pouvez évaluer le temps et les dépenses des projets. Project Operations ne permet pas les estimations de matériaux ou de frais sur des projets.
+Vous pouvez évaluer le temps et les dépenses des projets. Project Operations ne prend pas en charge les estimations du matériel ou des frais des projets.
 
 Les estimations de temps sont générées lorsque vous créez une tâche et identifiez les attributs d’une ressource générique qui est obligatoire pour effectuer la tâche. Les estimations de temps sont générées par les tâches de planification. Les estimations de temps ne sont pas créées si vous créez des membres d’équipe génériques en dehors du contexte de la planification.
 
-Les estimations des dépenses sont entrées dans la grille de la page **Estimations**.
+Les estimations des dépenses sont entrées dans la grille de la page **Estimations des dépenses**.
 
-## <a name="understanding-estimation"></a>Compréhension les estimations
+La création d’une estimation pour un projet est considérée comme une meilleure pratique, car vous pouvez créer des estimations détaillées ascendantes pour la main-d’œuvre ou le temps et les dépenses pour chaque tâche du plan de projet. Vous pouvez ensuite utiliser cette estimation détaillée pour créer des estimations pour chaque ligne de devis et créer un devis plus crédible pour le client. Lorsque vous importez ou créez une estimation détaillée sur la ligne de devis à l’aide du plan de projet, Project Operations importe les valeurs de vente et les valeurs de coût de ces estimations. Après l’importation, vous pouvez afficher les mesures de rentabilité, de marges et de faisabilité sur le devis du projet.
+
+## <a name="understanding-estimates"></a>Présentation des estimations
 
 Utilisez le tableau suivant comme guide pour comprendre la logique métier dans la phase d’estimation.
 

@@ -3,17 +3,17 @@ title: Déterminer votre type de déploiement
 description: Cette rubrique offre des informations vous permettant de déterminer le type de déploiement adéquat de Project Operations pour votre entreprise.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479561"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663591"
 ---
 # <a name="determine-your-deployment-type"></a>Déterminer votre type de déploiement
 
@@ -44,7 +44,7 @@ Notre [Questionnaire de déploiement](https://aka.ms/provisionprojectoperations)
 - [Project Operations pour les scénarios basés sur les ressources/produits non stockés](#integrated)
 - [Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication](#pma)
 
-Project Operations prend en charge les scénarios stockés/d’ordre de fabrication et les scénarios non stockés/basés sur les ressources dans le même environnement par le biais des configurations au niveau de l’entité juridique. Par exemple, Contoso peut utiliser les fonctionnalités stockées/ordre de fabrication dans son usine de fabrication aux États-Unis (entité juridique = Contoso Manufacturing, États-Unis). Contoso peut utiliser les fonctionnalités non stockées / basées sur les ressources dans son installation de maintenance Contoso Robotics Arms au Royaume-Uni (entité juridique = Contoso Robotics, Royaume-Uni).
+Project Operations prend en charge les scénarios stockés/d’ordre de fabrication et les scénarios non stockés/basés sur les ressources dans le même environnement par le biais des configurations au niveau de l’entité juridique. Par example, Contoso peut utiliser les fonctionnalités produits stockés/ordres de fabrication dans l’usine de fabrication aux États-Unis (entité juridique = Contoso Manufacturing United States). Contoso peut utiliser les fonctionnalités produits non stockés/basées sur les ressources dans l’installation de service pour bras robotisés Contoso au Royaume-Uni (entité juridique = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Déploiement simplifié – Traiter la facturation pro forma
 
@@ -53,10 +53,10 @@ Le déploiement simplifié comprend les fonctionnalités suivantes :
 - Processus de vente pour les projets qui étendent les expériences d’application Dynamics 365 Sales
 - Planification de projet à l’aide de Microsoft Project pour le web
 - Tarification multidimensionnelle
-- Gestion des ressources unifiée
+- Gestion unifiée des ressources
 - Suivi du temps
 - Dépenses de base
-- Facturation pro forma et client 
+- Facturation pro forma pour révision et modifications par le chef de projet 
 
 #### <a name="deployment-steps"></a>Étapes de déploiement
 Déterminez le meilleur modèle de déploiement de Project Operations à l’aide du [Questionnaire de déploiement](https://aka.ms/provisionprojectoperations).
@@ -90,11 +90,11 @@ Pour ce déploiement, consultez [S’inscrire à l’abonnement à la version pr
 - Gestion des ressources
 - Suivi du temps
 - Dépense complète
-- OCR du reçu
+- Récépissé OCR
 - Facturation complète
-- Comptabilisation de clôture
+- Constatation du produit
 - Ordres de fabrication
-- Prise en charge des matériaux
+- Support matériel stocké avec inventaire
 
 #### <a name="deployment-steps"></a>Étapes de déploiement
 Déterminez le meilleur modèle de déploiement de Project Operations à l’aide du [Questionnaire de déploiement](https://aka.ms/provisionprojectoperations).

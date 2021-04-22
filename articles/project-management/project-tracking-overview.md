@@ -1,21 +1,21 @@
 ---
-title: Vue d’ensemble du suivi des projets
-description: Cette rubrique propose des informations sur comment suivre la progression d’un projet et de la consommation des coûts.
+title: Suivi des efforts de projet
+description: Cette rubrique propose des informations sur le suivi de l’effort d’un projet et de la progression du travail.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286605"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710937"
 ---
-# <a name="project-tracking-overview"></a>Vue d’ensemble du suivi des projets
+# <a name="project-effort-tracking"></a>Suivi des efforts de projet
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -26,50 +26,28 @@ La nécessité de suivre la progression par rapport à une planification varie p
 La vue **Suivi de l’effort** suit la progression des tâches dans le calendrier en comparant les heures d’effort réelles consacrées à une tâche aux heures d’effort planifiées de la tâche. Dynamics 365 Project Operations utilise les formules suivantes pour calculer les mesures de suivi :
 
 - **Pourcentage de progression** : Cumul des efforts réels consacrés ÷ Estimation à l’achèvement 
-- **Estimation avant achèvement** : Efforts planifiés – Cumul des efforts réels consacrés 
+- **Effort restant** : Effort à achèvement estimé – Cumul des efforts réels consacrés 
 - **Estimation à l’achèvement** : Efforts restants + Cumul des efforts réels consacrés 
 - **Écart d’efforts escomptés** : Efforts planifiés – EAA
 
 Project Operations affiche une projection de l’écart d’efforts de la tâche. Si l’EAA excède les efforts planifiés, la tâche est prévue de prendre plus de temps qu’initialement planifié, et est en retard. Si l’EAA est inférieur aux efforts planifiés, la tâche est prévue de prendre moins de temps qu’initialement planifié, et est en avance.
 
-## <a name="reprojecting-effort"></a>Nouvelle projection des efforts
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Reprojection de l’effort sur les tâches de nœud terminal
 
-Les chefs de projet modifient souvent les estimations initiales d’une tâche. Les nouvelles projections de projet sont une perception des estimations du chef de projet, vu l’état actuel de projet. Cependant, nous ne recommandons pas aux chefs de projet de modifier les chiffres de référence. Cela est dû au fait que les chefs de projet modifient les numéros de référence, car la ligne de référence du projet représente la source fiable établie pour les estimations de planning et de coût du projet convenue par toutes les parties prenantes au projet.
+Les chefs de projet modifient souvent les estimations initiales d’une tâche. Les nouvelles projections de projet sont une perception des estimations du chef de projet, vu l’état actuel de projet. Cependant, nous ne recommandons pas aux chefs de projet de modifier les chiffres de l’effort planifié. En effet, l’effort planifié du projet représente la source fiable établie pour la planification du projet et l’estimation des coûts, et toutes les parties prenantes du projet l’ont accepté.
 
-Il existe deux méthodes de nouvelle projection des efforts sur les tâches que peut utiliser un chef de projet :
-
-- Remplacez l’Estimation avant achèvement par défaut par une nouvelle évaluation des efforts restants réels pour la tâche. 
-- Remplacez le pourcentage de progression par défaut par une nouvelle évaluation de la progression réelle pour la tâche.
-
-Chacune de ces approches entraîne un nouveau calcul de l’Estimation avant achèvement, de l’EAA (Estimé à Achèvement) et du pourcentage de progression de la tâche et de l’écart d’efforts escomptés pour une tâche. L’Estimation avant achèvement, l’EAA (Estimé à Achèvement) et le pourcentage de progression sur les tâches récapitulatives sont également recalculés, et produisent une nouvelle projection de l’écart d’efforts.
+Un chef de projet peut reprojeter l’effort sur les tâches en mettant à jour l’**effort restant** par défaut avec une nouvelle estimation sur la tâche. Cette mise à jour entraîne un recalcul de l’estimation finale de la tâche, du pourcentage de progression et de l’écart de l’effort projeté sur une tâche. L’Estimation avant achèvement, l’EAA (Estimé à Achèvement) et le pourcentage de progression sur les tâches récapitulatives sont également recalculés, et produisent une nouvelle projection de l’écart d’efforts.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Nouvelle projection des efforts sur les tâches récapitulatives
 
-Les efforts sur les tâches récapitulatives ou les tâches de conteneur peuvent être de nouveau projetés. Que l’utilisateur refasse une projection à l’aide des efforts restants ou du pourcentage de progression sur les tâches récapitulatives, l’ensemble de calculs suivant commence :
+Les efforts sur les tâches récapitulatives ou les tâches de conteneur peuvent être de nouveau projetés. Les chefs de projet peuvent mettre à jour l’effort restant sur les tâches récapitulatives. La mise à jour de l’effort restant déclenche l’ensemble de calculs suivant dans l’application :
 
-- L’Estimation avant achèvement, l’EAA (Estimé à Achèvement) et le pourcentage de progression sur la tâche sont calculés.
+- La valeur EAA (Estimé à Achèvement) et le pourcentage de progression sur la tâche sont calculés.
 - Le nouvel EAA est distribué aux tâches enfants dans la même proportion que l’EAA d’origine sur la tâche.
 - Le nouvel EAA sur chacune des tâches individuelles jusqu’aux tâches de nœud terminal est calculé. 
-- Les tâches enfants affectées jusqu’aux nœuds terminaux ont leur Estimation avant achèvement et pourcentage de progression recalculés selon la valeur de l’EAA. Cela entraîne une nouvelle projection pour l’écart d’efforts de la tâche. 
+- Les tâches enfants affectées jusqu’aux nœuds terminaux voient leur effort restant et leur pourcentage de progression recalculés selon la valeur EAA. Cela entraîne une nouvelle projection pour l’écart d’efforts de la tâche. 
 - Les EAA des tâches récapitulatives entièrement jusqu’au nœud racine sont recalculés.
 
-### <a name="cost-tracking-view"></a>Vue Suivi du coût 
-
-La vue **Suivi du coût** compare le coût réel consacré à une tâche au coût planifié sur une tâche. 
-
-> [!NOTE]
-> Cette vue affiche uniquement les coûts de main-d’œuvre et n’inclut pas les estimations des coûts des dépenses. Project Operations utilise les formules suivantes pour calculer les mesures de suivi :
-
-- **Pourcentage des coûts consommés** : Cumul des coûts réels consacrés ÷ Estimation des coûts à l’achèvement
-- **Coût pour terminer** : Coûts planifiés – Cumul des coûts réels consacrés
-- **EAA** : Coût restant + Cumul des coûts réels consacrés
-- **Écart de coûts projetés** : Coûts planifiés – EAA
-
-Une projection de l’écart de coûts est affiché sur la tâche. Si l’EAA excède les coûts planifiés, la tâche est prévue d’être plus coûteux qu’initialement planifié. Par conséquent, sa tendance excède le budget. Si l’EAA est inférieur aux coûts planifiés, la tâche est prévue d’être moins coûteuse qu’initialement planifié. Par conséquent, sa tendance est inférieure au budget.
-
-## <a name="project-managers-reprojection-of-cost"></a>Nouvelle projection des coûts du chef de projet
-
-Lorsque l’effort est de nouveau projeté, l’Estimation avant achèvement, l’EAA (Estimé à Achèvement), le pourcentage des coût consommés et l’écart de coûts projeté sont tous recalculés dans la vue **Suivi du coût**.
 
 ## <a name="project-status-summary"></a>Résumé du statut du projet
 

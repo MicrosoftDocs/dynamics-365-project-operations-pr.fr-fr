@@ -3,17 +3,17 @@ title: Gérer le statut et les validations Ne pas dépasser
 description: Cette rubrique fournit des informations sur les vérifications de limite à ne pas dépasser effectués dans Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274012"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866724"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Gérer le statut et les validations Ne pas dépasser 
 
@@ -21,7 +21,7 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 ## <a name="not-to-exceed-on-approvals"></a>« Ne pas dépasser » et approbations
 
-Lorsqu’une entrée de temps ou de dépense est envoyée, un enregistrement d’approbation est créé. Si l’approbation est facturable et correspond à une ligne de contrat de temps et de matériel, le système effectue une vérification de validation Ne pas dépasser aux niveaux suivants :
+Lorsqu’une entrée de temps, de dépense ou d’utilisation de matériel est soumise, un enregistrement d’approbation est créé. Si l’approbation est facturable et correspond à une ligne de contrat de temps et de matériel, le système effectue une vérification de validation Ne pas dépasser aux niveaux suivants :
 
   - Vérification par rapport à la limite définie pour le client sur la ligne du contrat de projet
   - Vérification par rapport à la limite définie sur la ligne du contrat
@@ -34,11 +34,11 @@ Si la vérification est un succès, l’approbation se voit attribuer un statut 
 
 Si la vérification échoue, l’approbation se voit attribuer un statut de validation de **Échec**. Le détail de la validation Ne pas dépasser indiquera à l’utilisateur à quel niveau la validation a échoué.
 
-Lorsque l’entrée de temps ou de dépense envoyée est considérée comme non facturable, le statut de validation Ne pas dépasser est défini sur **Non applicable** et le détail de la validation indique **Non applicable**.
+Lorsque l’entrée de temps, de dépense ou d’utilisation de matériel soumise est considérée comme non facturable, le statut de validation Ne pas dépasser est défini sur **Non applicable** et le détail de validation est égal à **Non applicable**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>« Ne pas dépasser » et chiffres réels de vente non facturés
 
-Lorsqu’une entrée de temps ou de dépenses est approuvée, des enregistrements de coûts et de chiffres réels de vente non facturés sont créés. Si les chiffres réels de vente non facturables créés sont facturables et correspondent à une ligne de contrat de temps et de matériel, l’application effectue une vérification de validation Ne pas dépasser aux niveaux suivants :
+Lorsqu’une entrée de temps, de dépense ou d’utilisation de matériel est approuvée, des enregistrements de chiffres réels de coûts et de ventes non facturées sont créés. Si les chiffres réels de vente non facturables créés sont facturables et correspondent à une ligne de contrat de temps et de matériel, l’application effectue une vérification de validation Ne pas dépasser aux niveaux suivants :
 
   - Vérification par rapport à la limite définie pour le client de la ligne du contrat de projet
   - Vérification par rapport à la limite définie sur la ligne du contrat
@@ -55,9 +55,9 @@ Lorsque les chiffres réels de vente non facturés sont considérées comme non 
 
 ## <a name="reset-the-not-to-exceed-status"></a>Rétablir le statut Ne pas dépasser
 
-Vous pouvez effectuer une réinitialisation en bloc du statut Ne pas dépasser. Cela permet aux chefs de projet d’ajuster la validation Ne pas dépasser afin de hiérarchiser la facturation d’une partie donnée du travail, du temps ou des dépenses par rapport à d’autres qui sont déjà engagés à partir du montant disponible à ne pas dépasser.
+Vous pouvez effectuer une réinitialisation en bloc du statut Ne pas dépasser. Les chefs de projet peuvent ajuster la validation Ne pas dépasser pour donner la priorité à la facturation d’un ensemble de travaux, d’un temps, d’une dépense ou d’une utilisation de matériel en particulier par rapport à d’autres qui sont déjà validés à partir du montant disponible à ne pas dépasser.
 
-Une fois que le statut Ne pas dépasser est réinitialisé sur les chiffres réels de vente non facturés, le montant engagé est réduit. Le chef de projet peut sélectionner une autre partie de travail, de temps ou des dépenses ayant échoué lors de la validation Ne pas dépasser précédente et les réévaluer. Grâce à la réduction du montant engagé, ces chiffres réels passeront désormais la validation avec succès. Cela permet au chef de projet d’exercer une plus grande influence et un meilleur contrôle sur les transactions facturables pour cette période.
+Une fois que le statut Ne pas dépasser est réinitialisé sur les chiffres réels de vente non facturés, le montant engagé est réduit. Le chef de projet peut sélectionner une autre entrée d’ensemble de travaux, de temps, de dépense ou d’utilisation de matériel qui a précédemment échoué la validation Ne pas dépasser et procéder à une nouvelle évaluation. Avec la réduction du montant engagé, ces chiffres réels réussissent désormais la validation, ce qui permet au chef de projet d’exercer une plus grande influence et un meilleur contrôle sur les transactions facturables pour cette période.
 
 Pour réinitialiser le statut Ne pas dépasser, sélectionnez un ou plusieurs chiffres réels dans la vue **Réplication de facturation pour le temps et le matériel** ou **Chiffres réels**, puis sélectionnez **Rétablir le statut Ne pas dépasser**.
 

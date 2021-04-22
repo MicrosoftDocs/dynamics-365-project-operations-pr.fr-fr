@@ -1,42 +1,27 @@
 ---
-title: Créer une facture pro forma manuelle
-description: Cette rubrique offre des informations sur la création d’une facture pro forma.
+title: Factures pro forma
+description: Cette rubrique fournit des informations sur les factures pro forma dans Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287775"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866858"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Créer une facture pro forma manuelle
+# <a name="proforma-invoices"></a>Factures pro forma
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-La facturation offre aux chefs de projet un deuxième niveau d’approbation avant qu’ils créent des factures pour les clients. Le premier niveau de l’approbation est terminé lorsque les entrées de temps et de dépenses que les membres de l’équipe du projet envoient sont approuvées.
+La facturation pro forma offre aux chefs de projet un deuxième niveau d’approbation avant de créer des factures pour les clients. Le premier niveau de l’approbation est terminé lorsque les entrées de temps, de dépenses et de matériel que les membres de l’équipe du projet envoient sont approuvées. Les factures pro forma confirmées sont disponibles dans le module Comptabilité de projet de Project Operations. Les comptables de projet peuvent effectuer des mises à jour supplémentaires telles que la taxe de vente, la comptabilité et la mise en page des factures.
 
-Dynamics 365 Project Operations n’est pas conçu pour générer des factures client, pour les raisons suivantes :
-
-- Il ne contient pas de renseignements fiscaux.
-- Il ne peut pas convertir d’autres devises dans la devise de facturation à l’aide de taux de change correctement configurés.
-- Il ne peut pas correctement mettre en page des factures pour les imprimer.
-
-Vous pouvez en revanche utiliser un système financier ou de comptabilité pour créer des factures client qui exploitent les informations des propositions de facture générées.
 
 ## <a name="creating-project-invoices"></a>Création de factures de projet
 
@@ -50,7 +35,7 @@ Suivez cette étape pour créer une facture pour un contrat de projet spécifiqu
 
 - Dans la page de liste **Contrats de projets**, ouvrez un contrat de projet, puis sélectionnez **Créer une facture**.
 
-    Une facture est générée pour toutes les transactions du contrat de projet sélectionné ayant le statut **Prêt pour la facturation**. Ces transactions contiennent le temps, les dépenses, les jalons et les lignes de contrat basées sur un produit.
+    Une facture est générée pour toutes les transactions du contrat de projet sélectionné ayant le statut **Prêt pour la facturation**. Ces transactions comprennent le temps, les dépenses, les matériaux, les jalons et d’autres lignes de journal des ventes non facturées.
 
 Suivez les étapes ci-dessous pour créer des factures en bloc.
 
@@ -60,7 +45,7 @@ Suivez les étapes ci-dessous pour créer des factures en bloc.
 
 2. Sélectionnez **OK** pour fermer la zone de message.
 
-    Une facture est générée pour toutes les transactions d’une ligne de contrat ayant le statut **Prêt pour la facturation**. Ces transactions contiennent le temps, les dépenses, les jalons et les lignes de contrat basées sur un produit.
+    Une facture est générée pour toutes les transactions d’une ligne de contrat ayant le statut **Prêt pour la facturation**. Ces transactions comprennent le temps, les dépenses, les matériaux, les jalons et d’autres lignes de journal des ventes non facturées.
 
 3. Pour afficher les factures qui sont générées, accédez à **Ventes** \> **Facturation** \> **Factures**. Vous verrez une facture pour chaque contrat de projet.
 
@@ -93,11 +78,10 @@ La tâche de traitement par lots pour la création de factures est une tâche p�
  
 ### <a name="edit-a-draft-invoice"></a>Modifier un brouillon de facture
 
-Lorsque vous créez un brouillon de facture de projet, toutes les transactions commerciales non facturées créées lors de l’approbation des entrées de temps et de dépenses sont extraites sur la facture. Vous pouvez apporter les modifications suivantes lorsque la facture est toujours dans une phase de brouillon :
+Lorsque vous créez un brouillon de facture de projet, toutes les transactions commerciales non facturées créées lors de l’approbation des entrées de temps, de dépenses et d’utilisation du matériel sont extraites sur la facture. Vous pouvez apporter les modifications suivantes lorsque la facture est toujours dans une phase de brouillon :
 
 - Supprimer ou modifier les détails de la ligne de facture.
 - Modifier et ajuster la quantité et le type de facturation.
-- Ajouter directement le temps, les dépenses et les frais comme transactions sur la facture. Vous pouvez utiliser cette fonctionnalité si la ligne de facture est mappée à une ligne de contrat qui permet ces classes de transactions.
 
 Sélectionnez **Confirmer** pour confirmer une facture. L’action Confirmer est une action irréversible. Lorsque vous sélectionnez **Confirmer**, le système rend la facture en lecture seule et crée des chiffres réels de vente facturés à partir de chaque détail de ligne de facture pour chaque ligne de facture. Si le détail de ligne de facture fait référence à un chiffre réel de vente non facturé, le système contrepasse également le chiffre réel non facturé. (Tout détail de ligne de facture créé à partir d’une entrée de temps ou de dépenses fera référence à un chiffre réel de vente non facturé.) Les systèmes d’intégration comptables peuvent utiliser cette contrepassation pour contrepasser le travail en cours du projet à des fins comptables.
 

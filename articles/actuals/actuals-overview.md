@@ -3,7 +3,7 @@ title: Chiffres réels
 description: Cette rubrique des informations sur l’utilisation de chiffres réels dans Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291796"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852541"
 ---
 # <a name="actuals"></a>Chiffres réels 
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Les chiffres réels sont la quantité de travail effectuée sur un projet. Ils sont créés à la suite d’écritures de temps et de dépenses, d’écritures de journal et de factures.
+Les chiffres réels représentent l’état d’avancement des finances et du calendrier révisé et approuvé d’un projet. Ils sont créés suite à l’approbation des entrées de temps, de dépenses, de l’utilisation du matériel ainsi que des écritures feuille et des factures.
 
 ## <a name="journal-lines-and-time-submission"></a>Lignes de journal et envoi de temps
 
@@ -45,7 +45,7 @@ Quand une entrée de temps envoyée est liée à un projet mappé à une ligne d
 
 La logique de création des prix par défaut se trouve sur la ligne de journal. Les valeurs de champ de l’entrée de temps sont copiées sur la ligne de journal. Ces valeurs comprennent la date de la transaction, la ligne de contrat auquel le projet est mappé, ainsi que le résultat en devise dans les tarifs adéquats.
 
-Les champs qui affectent la tarification par défaut, par exemple **Rôle** et **Unité d’organisation**, sont utilisés pour déterminer le tarif approprié à entrer par défaut sur la ligne de journal. Vous pouvez ajouter un champ personnalisé sur l’entrée de temps. Si vous souhaitez que la valeur de champ soit propagée aux chiffres réels, créez un champ dans l’entité Chiffres réels, puis utilisez les mappages de champs pour copier le champ de l’entrée de temps dans les chiffres réels.
+Les champs qui affectent la tarification par défaut, par exemple **Rôle** et **Unité d’allocation des ressources**, sont utilisés pour déterminer le tarif approprié sur la ligne de journal. Vous pouvez ajouter un champ personnalisé sur l’entrée de temps. Si vous souhaitez que la valeur du champ soit propagée aux chiffres réels, créez le champ dans les tables **Chiffres réels** et **Ligne de journal**. Utilisez un code personnalisé pour propager la valeur du champ sélectionné de Entrée de temps à Chiffres réels via la ligne de journal à l’aide des origines des transactions. Pour plus d’informations sur les origines des transactions et les connexions, voir [Lier les chiffres réels aux enregistrements d’origine](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Lignes de journal et envoi des dépenses de base
 
@@ -57,24 +57,42 @@ Lorsqu’une entrée de dépenses de base envoyée est liée à un projet mappé
 
 ### <a name="fixed-price"></a>Prix fixe
 
-Quand une entrée de dépenses de base envoyée est liée à un projet mappé à une ligne de contrat à prix fixe, le système crée une ligne de journal pour le coût.
+Quand une entrée de dépenses de base envoyée est liée à un projet qui est mappé à une ligne de contrat à prix fixe, le système crée une ligne de journal pour le coût.
 
 ### <a name="default-pricing"></a>Tarification par défaut
 
-La logique de saisie des prix par défaut des dépenses est basée sur la catégorie de dépenses. La date de la transaction, la ligne de contrat auquel le projet est mappé, ainsi que la devise sont tous utilisés pour déterminer les tarifs adéquats. Toutefois, par défaut, le montant entré pour le prix lui-même est défini directement sur les lignes de journal relatives de dépenses pour le coût et les ventes.
+La logique de saisie des prix par défaut des dépenses est basée sur la catégorie de dépenses. La date de la transaction, la ligne de contrat auquel le projet est mappé, ainsi que la devise sont tous utilisés pour déterminer les tarifs adéquats. Les champs qui affectent la tarification par défaut, par exemple **Catégorie de transaction** et **Unité d’allocation des ressources**, sont utilisés pour déterminer le tarif approprié sur la ligne de journal. Cependant, cela ne fonctionne que lorsque la méthode de tarification dans les tarifs est **Prix unitaire**. Si la méthode de tarification est **À prix coûtant** ou **Majoration du coût**, le prix saisi lors de la création de l’entrée de dépense est utilisé pour le coût et le prix sur la ligne du journal des ventes est calculé en fonction de la méthode de tarification. 
 
-L’entrée basée sur la catégorie des prix unitaires par défaut dans les entrées de dépense n’est pas disponible.
+Vous pouvez ajouter un champ personnalisé sur l’entrée des dépenses. Si vous souhaitez que la valeur du champ soit propagée aux chiffres réels, créez le champ dans les tables **Chiffres réels** et **Ligne de journal**. Utilisez un code personnalisé pour propager la valeur du champ sélectionné de Entrée de temps à Chiffres réels via la ligne de journal à l’aide des origines des transactions. Pour plus d’informations sur les origines des transactions et les connexions, voir [Lier les chiffres réels aux enregistrements d’origine](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Soumission des lignes de journal et du journal d’utilisation du matériel
+
+Pour plus d’informations sur l’entrée des dépenses, voir [Journal d’utilisation des matériaux](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Temps et matériaux
+
+Lorsqu’une entrée du journal d’utilisation du matériel envoyée est liée à un projet qui est mappé à une ligne de contrat de temps et de matériel, le système crée deux lignes de journal, une pour le coût et une pour les ventes non facturées.
+
+### <a name="fixed-price"></a>Prix fixe
+
+Quand une entrée du journal d’utilisation du matériel envoyée est liée à un projet qui est mappé à une ligne de contrat à prix fixe, le système crée une ligne de journal pour le coût.
+
+### <a name="default-pricing"></a>Tarification par défaut
+
+La logique d’entrée des prix par défaut pour le matériel est basée sur la combinaison de produit et d’unité. La date de la transaction, la ligne de contrat auquel le projet est mappé, ainsi que la devise sont tous utilisés pour déterminer les tarifs adéquats. Les champs qui affectent la tarification par défaut, par exemple **ID produit** et **Unité**, sont utilisés pour déterminer le tarif approprié sur la ligne de journal. Cependant, cela ne fonctionne que pour les produits du catalogue. Pour les produits hors catalogue, le prix saisi lors de la création de l’entrée du journal d’utilisation du matériel est utilisé pour le prix de revient et le prix de vente sur les lignes de journal. 
+
+Vous pouvez ajouter un champ personnalisé sur l’entrée **Journal d’utilisation des matériaux**. Si vous souhaitez que la valeur du champ soit propagée aux chiffres réels, créez le champ dans les tables **Chiffres réels** et **Ligne de journal**. Utilisez un code personnalisé pour propager la valeur du champ sélectionné de Entrée de temps à Chiffres réels via la ligne de journal à l’aide des origines des transactions. Pour plus d’informations sur les origines des transactions et les connexions, voir [Lier les chiffres réels aux enregistrements d’origine](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Utiliser des journaux pour enregistrer les coûts
 
 Vous pouvez utiliser les journaux des entrées pour enregistrer les coûts ou les revenus dans les classes de transaction des matériaux, frais, durée, dépenses ou taxes. Les journaux peuvent être utilisés aux fins suivantes :
 
-- Enregistrer les coûts réels du matériel et les ventes sur un projet.
 - Déplacer les chiffres réels de transactions d’un autre système vers Microsoft Dynamics 365 Project Operations.
 - Enregistrer les coûts survenus dans un autre système. Ces coûts peuvent inclure des coûts d’approvisionnement ou de sous-traitance.
 
 > [!IMPORTANT]
 > L’application ne valide pas le type de ligne de journal ou la tarification associée qui est saisie sur la ligne de journal. Par conséquent, seul un utilisateur pleinement conscient de l’impact comptable des chiffres réels sur le projet doit utiliser des journaux d’entrées pour créer des chiffres réels. En raison de l’impact de ce type de journal, vous devez choisir soigneusement qui a accès pour créer des journaux d’entrées.
+
 ## <a name="record-actuals-based-on-project-events"></a>Enregistrer des chiffres réels en fonction des événements du projet
 
 Project Operations enregistre les transactions financières qui se produisent pendant un projet. Ces transactions sont enregistrées comme chiffres réels. Les tableaux suivants illustrent les différents types de chiffres réels qui sont créés, selon qu’il s’agit d’un projet basé sur la durée et les matériaux ou d’un projet à prix fixe, se trouvant dans la phase préalable à la vente, ou d’un projet interne.

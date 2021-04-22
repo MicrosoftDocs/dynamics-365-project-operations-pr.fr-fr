@@ -1,21 +1,21 @@
 ---
-title: Factures corrigées – Simplifié
-description: Cette rubrique fournit des informations sur les factures corrigées dans Project Operations
+title: Factures de projet correctives
+description: Cette rubrique fournit des informations sur la création et la confirmation de factures correctives dans Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274230"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866588"
 ---
-# <a name="corrected-invoices---lite"></a>Factures corrigées – Simplifié
+# <a name="corrective-project-invoices"></a>Factures de projet correctives
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -37,9 +37,9 @@ Un nouveau projet de facture est créé à partir de la facture confirmée. Tous
 > [!IMPORTANT]
 > Les détails de la ligne de facture qui sont des corrections à d’autres frais déjà facturés ont le champ **Correction** défini sur **Oui**. Les factures dont les détails de ligne de facture ont été corrigés ont un champ appelé **Contient des corrections** qui est également défini sur **Oui**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Rapports réels créés lors de la confirmation d’une facture corrective :
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Chiffres réels créés lorsqu’une facture corrective est confirmée
 
-Ci-dessous les chiffres réels créés par l’application lors de la confirmation d’un correctif en fonction des opérations effectuées sur le projet de facture corrective avant confirmation.
+Le tableau suivant répertorie les chiffres réels créés lorsqu’une facture corrective est confirmée.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +214,51 @@ Un nouveau chiffre d’affaires réel non facturé qui est facturé pour la quan
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Facturation de l’intégralité du crédit d’une transaction de matériel déjà facturée.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Une contrepassation des ventes facturées pour la quantité et le montant du détail de la ligne de facture d’origine du matériel.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nouveau chiffre réel des ventes facturées pour la quantité et le montant du détail de la ligne de facture d’origine du matériel.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Facturation du crédit partiel sur une transaction de matériel.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Une contrepassation des ventes facturées pour la quantité et le montant facturés sur le détail de la ligne de facture d’origine du matériel.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nouveau chiffre réel de ventes non facturées qui est facturable pour la quantité et le montant du détail de la ligne de facture modifiée, une contrepassation de celui-ci et un chiffre réel de ventes facturé équivalent.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nouveau chiffre d’affaires réel non facturé qui est facturé pour la quantité restante et le montant après déduction des chiffres corrigés sur le détail de la ligne de facture.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Facturation de l’intégralité du crédit d’une transaction avec frais déjà facturée.
                 </p>
             </td>
@@ -260,7 +305,7 @@ Facturation de l’intégralité du crédit d’un jalon facturé.
 Une annulation des ventes facturées pour le montant figurant sur la ligne de facture d’origine pour le jalon.
                 </p>
                 <p>
-La facture de jalon ou le statut de facturation sur la ligne de contrat de projet est mis à jour sur **Prêt à facturer**.
+Le statut de la facture du jalon <b>Facture client publiée</b> est remplacé par <b>Prêt pour la facturation</b>.
                 </p>
             </td>
         </tr>

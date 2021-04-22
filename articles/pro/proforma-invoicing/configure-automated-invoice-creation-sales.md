@@ -1,29 +1,27 @@
 ---
-title: Configurer une création de facture automatisée – Simplifié
-description: Cette rubrique fournit des informations sur la configuration de la création automatique de factures pro forma.
+title: Configurer la création automatique de factures
+description: Cette rubrique fournit des informations sur le paramétrage et la configuration de la création automatique de factures pro forma.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274320"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866814"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Configurer une création de facture automatisée – Simplifié
+# <a name="set-up-automatic-invoice-creation"></a>Configurer la création automatique de factures 
  
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma, Project Operations pour les scénarios basés sur les ressources/produits non stockés_
 
 Vous pouvez configurer la création automatique de factures dans Dynamics 365 Project Operations. Le système crée une facture pro forma provisoire selon le calendrier de facturation pour chaque contrat de projet et chaque ligne de contrat. Les calendriers de facturation sont configurés au niveau de la ligne de contrat. Chaque ligne d’un contrat peut présenter un calendrier de facturation distinct, ou le même calendrier de facturation peut être inclus sur toutes les lignes du contrat.
 
-Lorsque vous créez une facture, le système crée toujours au moins une facture par contrat de projet. Dans certains cas, plusieurs factures peuvent être créées.
-
-Par exemple, si le contrat a plusieurs clients, le même nombre de factures que le nombre de clients qui ont des transactions facturables à facturer sera créé sur ce contrat de projet.
+Lorsque vous créez une facture, le système crée toujours au moins une facture par contrat de projet. Dans certains cas, plusieurs factures peuvent être créées. Par exemple, si le contrat a plusieurs clients, le même nombre de factures que le nombre de clients qui ont des transactions facturables à facturer sera créé sur ce contrat de projet.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Comprendre comment les transactions sont incluses sur une facture 
 

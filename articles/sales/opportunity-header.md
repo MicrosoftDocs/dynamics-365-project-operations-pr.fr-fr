@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277695"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5664086"
 ---
-# <a name="opportunity-settings"></a>Paramètre des opportunités
+# <a name="header-details-for-project-based-opportunities"></a>Détails d’en-tête pour les opportunités basées sur un projet
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 

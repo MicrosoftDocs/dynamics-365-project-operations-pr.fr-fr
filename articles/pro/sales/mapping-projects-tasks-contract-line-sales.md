@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272790"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858084"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Mapper les projets et les tâches à une ligne de contrat basée sur un projet – Simplifié
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapper les projets et les tâches sur une ligne de contrat basée sur un projet 
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma, Project Operations pour les scénarios basés sur les ressources/produits non stockés_
 
 Dans les lignes de contrat basées sur un projet, vous pouvez mapper des tâches spécifiques d’un projet à la ligne de contrat.
 

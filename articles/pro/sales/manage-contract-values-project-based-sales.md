@@ -1,5 +1,5 @@
 ---
-title: Utiliser des lignes de contrat basées sur un projet – Simplifié
+title: Vue d’ensemble des lignes de contrat basées sur les projets
 description: Cette rubrique fournit des informations pour travailler avec des lignes de contrat basées sur un projet.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b0ff564c2cf9bc5681e14efbfa7983d6959c155
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273285"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858155"
 ---
-# <a name="work-with-projectbased-contract-lines---lite"></a>Utiliser des lignes de contrat basées sur un projet – Simplifié
+# <a name="project-based-contract-lines-overview"></a>Vue d’ensemble des lignes de contrat basées sur les projets
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
 Les lignes de contrat basées sur un projet dans Dynamics 365 Project Operations ont pour vocation de contenir l’estimation et les accords de facturation des composants spécifiques du travail de projet dans un engagement. La structure d’une ligne de contrat basée sur un projet est étendue pour les estimations de projet et les scénarios de facturation avec les concepts suivants :
 
@@ -35,11 +35,12 @@ Le tableau suivant comprend les champs présents sous l’onglet **Général** d
 | --- | --- | --- |
 | **Nom** | Nom de la ligne de contrat. Il identifie le composant discret du contrat estimé. Pour un contrat de projet créé à partir d’un devis, cette valeur est copiée à partir d’une valeur correspondante de la ligne de devis basée sur le projet. | Le nom copié dans la ligne de facture du projet créée à partir de cette ligne de contrat lorsque la facture est créée. |
 | **Mode de facturation** | Dans un contrat de projet créé à partir d’un devis, cette valeur est copiée à partir du champ correspondant dans la ligne de devis. Il s’agit d’un groupe d’options qui représente les deux principaux modèles de contrats pris en charge par Project Operations :</br>- **Prix fixe**</br>- **Temps et matériel** | En fonction du mode de facturation de la ligne de contrat référencée, la transaction réelle sera traitée. Si la ligne de contrat référencée par la transaction réelle a un mode de facturation pour le temps et le matériel, des enregistrements réels des coûts et des ventes non facturées sont créés. Si la ligne de contrat référencée par la transaction réelle a un mode de facturation à prix fixe, seul un coût réel est créé. |
-| **Project** | Utilisez ce champ pour identifier le projet qui sera utilisé pour livrer le travail sur cet engagement. | Cette valeur sera utilisée conjointement avec les champs **Tâches incluses** et **Classes de transaction incluses** pour résoudre la référence de ligne de contrat sur un enregistrement de ligne réel ou estimé. |
+| **Project** | Utilisez ce champ pour identifier le projet qui sera utilisé pour livrer le travail sur cet engagement. | Cette valeur sera utilisée en conjonction avec **Tâches incluses** et **Classes de transaction incluses** pour résoudre la référence de ligne de contrat sur un enregistrement de ligne réel ou estimé. |
 | **Tâches incluses** | Indique si cette ligne de contrat comprend toutes les tâches du projet pour le projet sélectionné ou seulement un sous-ensemble de tâches. Il s’agit d’un groupe d’options avec les valeurs possibles suivantes :</br>- **Toutes les tâches du projet**</br>- **Tâches du projet sélectionnées uniquement**. Une valeur vide dans ce champ équivaut à sélectionner **Toutes les tâches du projet**. | Si **Tâches sélectionnées uniquement** est sélectionné, vous pouvez sélectionner des tâches spécifiques et les associer à cette ligne de contrat dans l’onglet **Configuration de la facturation de la tâche** sur la page **Projet**. La valeur sera utilisée conjointement avec les classes **Projet** et **Transaction incluses** pour résoudre la référence de ligne de contrat sur un enregistrement de ligne réel ou estimé. |
-| **Inclure le temps** | Un marqueur indique si les transactions de temps ou les coûts de main-d’œuvre du projet sélectionné seront inclus sur cette ligne de contrat. La valeur **Non** indique que les transactions de temps ou le coût de main-d’œuvre ne seront pas inclus dans cette ligne de contrat. La valeur **Oui** indique qu’ils le seront. | Cette valeur est utilisée conjointement avec le projet pour résoudre la référence de ligne de contrat sur un enregistrement de ligne réel ou estimé. |
-| **Inclure la dépense** | Un marqueur indique si les dépenses du projet sélectionné seront incluses sur cette ligne de contrat. La valeur **Non** indique que les dépenses ne seront pas incluses dans cette ligne de contrat. La valeur **Oui** indique qu’elles le seront. | Cette valeur est utilisée conjointement avec le projet pour résoudre la référence de ligne de contrat sur un enregistrement de ligne réel ou estimé. |
-| **Inclure les frais** | Un marqueur indique si les frais du projet sélectionné seront inclus sur cette ligne de contrat. La valeur **Non** indique que les frais ne seront pas inclus dans cette ligne de contrat. La valeur **Oui** indique qu’ils le seront. | Cette valeur est utilisée conjointement avec le projet pour résoudre la référence de ligne de contrat sur un enregistrement de ligne réel ou estimé. |
+| **Inclure le temps** | Une valeur **Oui**/**Non** indique si les transactions de temps ou les coûts de main-d’œuvre sur le projet sélectionné seront inclus dans cette ligne de contrat. La valeur **Non** indique que les transactions de temps ou le coût de main-d’œuvre ne seront pas inclus dans cette ligne de contrat. La valeur **Oui** indique qu’ils le seront. | Cette valeur est utilisée conjointement avec le projet pour résoudre la référence de ligne de contrat sur un enregistrement de ligne réel ou estimé. |
+| **Inclure la dépense** | Une valeur **Oui**/**Non** indique si les coûts de dépense sur le projet sélectionné seront inclus dans cette ligne de contrat. La valeur **Non** indique que les dépenses ne seront pas incluses dans cette ligne de contrat. La valeur **Oui** indique qu’elles le seront. | Cette valeur est utilisée conjointement avec le projet pour résoudre la référence de ligne de contrat sur un enregistrement de ligne réel ou estimé. |
+| **Inclure le matériel** | Une valeur **Oui**/**Non** indique si les coûts de matériel sur le projet sélectionné seront inclus dans cette ligne de contrat. Une valeur **Non** indique que les coûts de matériel ne seront pas inclus dans cette ligne de contrat. La valeur **Oui** indique qu’elles le seront. | Cette valeur est utilisée conjointement avec le projet pour résoudre la référence de ligne de contrat sur un enregistrement de ligne réel ou estimé. |
+| **Inclure les frais** | Une valeur **Oui**/**Non** indique si les frais sur le projet sélectionné seront inclus dans cette ligne de contrat. La valeur **Non** indique que les frais ne seront pas inclus dans cette ligne de contrat. La valeur **Oui** indique qu’ils le seront. | Cette valeur est utilisée conjointement avec le projet pour résoudre la référence de ligne de contrat sur un enregistrement de ligne réel ou estimé. |
 | **Montant contractuel** | Sur une ligne de contrat à prix fixe, ce montant est la valeur convenue qui sera facturée au client pour tous les composants de travail associés à cette ligne de contrat. Sur une ligne de contrat de temps et de matériel, ce montant est une valeur estimée de ce qui sera facturé au client pour tous les composants de travail associés à cette ligne de contrat. Dans un contrat de projet créé à partir d’un devis, cette valeur est copiée à partir du champ correspondant dans la ligne de devis. Lorsqu’une ligne de contrat basée sur un projet comporte des détails de ligne, ce champ est verrouillé pour modification et est synthétisé à partir du montant sur les détails de la ligne de contrat. | Lorsque la ligne de contrat comporte des détails de ligne, cette valeur peut être modifiée en changeant les montants des détails de ligne. Sur une ligne de contrat à prix fixe, cette valeur est utilisée pour générer le montant avant taxes sur les jalons périodiques pour la facturation. |
 | **Estimation de taxe** | L’utilisateur peut modifier ce champ pour saisir le montant estimé des taxes sur la ligne du contrat. Lorsqu’une ligne de contrat basée sur un projet comporte des détails de ligne, ce champ est verrouillé pour modification et est synthétisé à partir du montant des taxes sur les détails de la ligne de contrat. | Lorsque la ligne de contrat comporte des détails de ligne, cette valeur peut être modifiée en changeant les montants des taxes des détails de ligne. Sur une ligne de contrat à prix fixe, cette valeur est utilisée pour générer les taxes sur les jalons périodiques pour la facturation. |
 | **Montant contractuel après taxes** | Le montant de a ligne de contrat après taxes. Ce champ est en lecture seule et est calculé comme **Montant contractuel + taxes**. | Sur une ligne de contrat à prix fixe, cette valeur est utilisée pour générer des jalons périodiques pour la facturation. |
@@ -54,18 +55,559 @@ Règle 2 : lorsque le champ **Tâches incluses** est vide ou défini explicite
 
 Règle 3 : lorsque le champ **Tâches incluses** est défini sur **Tâches du projet sélectionnées uniquement**, un projet et une certaine classe de transactions peuvent être inclus que sur plusieurs lignes de contrat de projet d’un contrat.
 
-| Contrat | Ligne de contrat | Project | Tâches incluses      | Inclure le temps | Inclure les dépenses | Inclure les frais | Valide/Non valide | Motif                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----------|---------------|---------|---------------------|--------------|-----------------|-------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C1       | CL1           | P1      | Vierge               | Oui          | Oui             | Oui         | Non valide       | Violation de la règle n° 2. Le temps, les dépenses et les frais du projet P1 sont inclus sur les deux lignes de contrat : CL1 et CL2.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL2           | P1      | Vierge               | Oui          | Oui             | Oui         | Non valide       | Violation de la règle n° 2. Le temps, les dépenses et les frais du projet P1 sont inclus sur les deux lignes de contrat : CL1 et CL2.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL1           | P1      | Vierge               | Oui          | No              | Oui         | Non valide       | Violation de la règle n° 2. Le temps et les frais du projet P1 sont inclus sur les deux lignes de contrat : CL1 et CL2.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL2           | P1      | Vierge               | Oui          | Oui             | Oui         | Non valide       | Violation de la règle n° 2. Le temps et les frais du projet P1 sont inclus sur les deux lignes de contrat : CL1 et CL2.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL1           | P1      | Vierge               | Oui          | No              | Oui         | Valide           | Le temps et les frais du projet P1 sont inclus sur CL1. Les dépenses du projet P1 sont incluses sur CL2. </br>   Il n’y a pas de chevauchement dans ce qui est inclus sur chaque ligne de contrat et cela est donc valide.                                                                                                                                                                                                                         |
-| C1       | CL2           | P1      | Vierge               | No           | Oui             | No          | Valide           | Le temps et les frais du projet P1 sont inclus sur CL1. Les dépenses du projet P1 sont incluses sur CL2. </br>   Il n’y a pas de chevauchement dans ce qui est inclus sur chaque ligne de contrat et cela est donc valide.                                                                                                                                                                                                                         |
-| C1       | CL1           | P1      | Tâches sélectionnées uniquement | Oui          | Oui             | Oui         | Non valide       | Violation de la règle n° 2.   </br>- C1 comprend le temps, les dépenses et les frais sur un sous-ensemble de tâches du projet P1. </br>- CL2 comprend le temps, les dépenses et les frais pour l’ensemble du projet P1 et il y a donc chevauchement avec ce qui est inclus sur C1.                                                                                                                                                                                          |
-| C1       | CL2           | P1      | Vierge               | Oui          | Oui             | Oui         | Non valide       | Violation de la règle n° 2.   </br>- C1 comprend le temps, les dépenses et les frais sur un sous-ensemble de tâches du projet P1. </br>- CL2 comprend le temps, les dépenses et les frais pour l’ensemble du projet P1 et il y a donc chevauchement avec ce qui est inclus sur C1.                                                                                                                                                                                          |
-| C1       | CL1           | P1      | Tâches sélectionnées uniquement | Oui          | Oui             | Oui         | Valide           | Selon la règle n° 3</br>- C1 comprend le temps, les dépenses et les frais sur un sous-ensemble de tâches du projet P1. </br> - CL2 comprend le temps, les dépenses et les frais pour un sous-ensemble de tâches du projet P1. </br> La seule validation supplémentaire porte sur le sous-ensemble de tâches sur CL1, qui est différent du sous-ensemble de tâches sur CL2 pour s’assurer qu’il n’y a pas de chevauchements. Cette validation est effectuée par le système lorsque des tâches sont associées. |
-| C1       | CL2           | P1      | Tâches sélectionnées uniquement | Oui          | Oui             | Oui         | Valide           | Selon la règle n° 3</br>- C1 comprend le temps, les dépenses et les frais sur un sous-ensemble de tâches du projet P1. </br> - CL2 comprend le temps, les dépenses et les frais pour un sous-ensemble de tâches du projet P1. </br> La seule validation supplémentaire porte sur le sous-ensemble de tâches sur CL1, qui est différent du sous-ensemble de tâches sur CL2 pour s’assurer qu’il n’y a pas de chevauchements. Cette validation est effectuée par le système lorsque des tâches sont associées. |
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    <strong>Contrat</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ligne de contrat</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Project</strong>
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    <strong>Tâches incluses</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Inclure le temps</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Inclure la dépense</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Inclure le matériel</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Inclure </strong>
+                </p>
+                <p>
+                    <strong>Frais</strong>
+                </p>
+            </td>
+            <td width="53" valign="top">
+                <p>
+                    <strong>Valide/Non valide</strong>
+                </p>
+            </td>
+            <td width="250" valign="top">
+                <p>
+                    <strong>Motif</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Vide </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Non valide </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Violation de la règle n° 2. Le temps, les dépenses, le matériel et les frais du projet P1 sont inclus dans les lignes de contrat CL1 et CL2.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Vide </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Vide </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Non valide </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Violation de la règle n° 2. Le temps, le matériel et les frais du projet P1 sont inclus dans les lignes de contrat CL1 et CL2.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Vide </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Vide </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Valide </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Le temps, le matériel et les frais du projet P1 sont inclus dans CL1.
+                </p>
+                <ul>
+                    <li>
+Les dépenses du projet P1 sont inclus sur CL2.
+                    </li>
+                </ul>
+                <p>
+Il n’y a aucun chevauchement concernant ce qui est inclus sur chaque ligne de contrat et donc valide.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Vide </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tâches sélectionnées uniquement </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Non valide </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Violation de la règle n° 2 </p>
+                <p>
+C1 inclut le temps, le matériel, les dépenses et les frais sur un sous-ensemble de tâches du projet P1.
+                </p>
+                <p>
+CL2 comprend le temps, le matériel, les dépenses et les frais pour l’ensemble du projet P1 et chevauche donc ce qui est inclus dans C1.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Vide </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tâches sélectionnées uniquement </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Valide </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Selon la règle n° 3 </p>
+                <p>
+C1 inclut le temps, les dépenses, le matériel et les frais sur un sous-ensemble de tâches du projet P1.
+                </p>
+                <p>
+CL2 inclut le temps, les dépenses, le matériel et les frais pour un sous-ensemble de tâches du projet P1.
+                </p>
+                <p>
+La seule validation supplémentaire concerne le sous-ensemble de tâches sur CL1 qui est différent du sous-ensemble de tâches sur CL2 pour s’assurer qu’il n’y a pas de chevauchements. Ceci est fait par le système lorsque des tâches sont associées.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tâches sélectionnées uniquement </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Oui </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

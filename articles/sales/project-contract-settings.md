@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ba005d82e0ce4fae58543401e34da5a24345dc4
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277605"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663861"
 ---
-# <a name="project-contract-settings"></a>Paramètres de contrat de projet
+# <a name="header-details-for-project-based-contracts"></a>Détails d’en-tête pour les contrats basés sur un projet
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 

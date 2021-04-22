@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 65d05e3a6321dc32aee55c28b3eaa4bd0bae2f86
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287595"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857975"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Configurer la comptabilité des projets internes
 
@@ -28,8 +28,9 @@ Tout projet qui n’est pas associé à un contrat dans Dynamics 365 Project Ope
 
 - Les transactions de temps sont validées en débitant le compte **Coût** et en créditant le compte **Répartition de la paie**.
 - Les transactions de dépense sont validées en débitant le compte **Coût** et en créditant le **Compte de contrepartie des dépenses**.
+- Les transactions d’article sont validées en débitant le compte **Coût** et en créditant le compte **Coût – Article**.
 
-Une fois les transactions enregistrées dans le projet, si le projet est associé à un contrat de projet, le système annule toutes les transactions accumulées et crée de nouvelles transactions facturables. Les transactions facturables suivent les règles comptables définies dans le profil de coût et de revenu du projet respectif.
+Une fois les transactions validées sur le projet, si le projet est associé à un contrat de projet, le système contrepasse toutes les transactions cumulées et crée des transactions facturables. Les transactions facturables suivent les règles comptables définies dans le profil de coût et de revenu du projet respectif.
 
 
 

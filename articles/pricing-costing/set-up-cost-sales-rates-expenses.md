@@ -3,17 +3,17 @@ title: Configurer les taux de coûts et de vente pour les dépenses
 description: Cette rubrique fournit des informations sur la configuration des taux de coûts et de vente pour les catégories de transactions et des dépenses.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274905"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877217"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurer les taux de coûts et de vente pour les dépenses
 
@@ -23,9 +23,10 @@ Vous pouvez configurer les prix de revient et de vente pour les catégories de t
 
 Pour configurer les taux de coûts et de vente pour les catégories de transaction, procédez comme suit. 
 
-1. Créez un tarif basé sur l’en-tête du tarif. 
-2. Sur **Prix de la catégorie**, dans le menu de la sous-grille, sélectionnez **+ Nouveau prix de la catégorie**. 
-3. Sur la page **Création rapide**, entrez la catégorie de transaction et l’unité pour lesquelles vous créez le nouveau prix.
+1. Accédez à **Ventes** > **Clients** > **Listes de prix**.
+2. Sélectionnez **Nouveau** pour créer un nouveau tarif. 
+3. Sur **Prix de la catégorie**, dans le menu de la sous-grille, sélectionnez **Nouveau prix de la catégorie**. 
+4. Sur la page **Création rapide**, entrez la catégorie de transaction et l’unité pour lesquelles vous créez le nouveau prix.
 
 Le tableau suivant répertorie les champs de l’onglet **Général** et de la page **Création rapide** d’une ligne de prix de catégorie que vous devez garder à l’esprit lorsque vous créez des prix de catégorie sur un tarif de vente ou de prix de revient.
 

@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273420"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858245"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importer des estimations pour un projet vers une ligne de devis basée sur un projet – Simplifié
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importer des estimations pour un projet vers une ligne de devis basée sur un projet 
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma, Project Operations pour les scénarios basés sur les ressources/produits non stockés_
 
 Si un projet est créé pendant la phase de prévente, vous pouvez choisir d’importer l’estimation financière du projet vers la ligne de devis selon les projets.
 
@@ -30,7 +30,7 @@ Si un projet est créé pendant la phase de prévente, vous pouvez choisir d’i
   - **Rôle** 
   - **Tâche du projet**
 
-En fonction de votre sélection, l’estimation du projet pour toutes les classes de transactions incluses dans cette ligne de devis est copiée. Pour vérifier quelles classes de transaction sont incluses, sélectionnez l’onglet **Général** sur la ligne de devis selon les projets et vérifiez les valeurs de **Inclure le temps**, **Inclure les dépenses**, et **Inclure les frais**.  Pour vérifier quelles tâches sont incluses, sélectionnez l’onglet **Tâches facturables** sur la ligne de devis.
+En fonction de votre sélection, l’estimation du projet pour toutes les classes de transactions incluses dans cette ligne de devis est copiée. Pour vérifier quelles classes de transaction sont incluses, sélectionnez l’onglet **Général** sur la ligne de devis basée sur les projets et vérifiez les valeurs **Inclure le temps**, **Inclure les dépenses**, **Inclure les matériaux** et **Inclure les frais**.  Pour vérifier quelles tâches sont incluses, sélectionnez l’onglet **Tâches facturables** sur la ligne de devis.
 
 En fonction des tâches associées et des classes de transaction incluses, les estimations pour ces combinaisons de tâches et de classes de transactions sont importées dans la ligne de devis.
 

@@ -1,22 +1,22 @@
 ---
-title: Résoudre des prix de revient pour les estimations et les chiffres réels – Simplifié
-description: Cette rubrique fournit des informations sur la façon dont les prix de revient des estimations et des chiffres réels sont résolus.
+title: Résoudre les prix de revient pour les estimations de projet et les chiffres réels
+description: Cette rubrique fournit des informations sur la résolution des prix de revient sur les estimations et les chiffres réels de projet.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274546"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877262"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Résoudre des prix de revient pour les estimations et les chiffres réels – Simplifié
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Résoudre les prix de revient pour les estimations de projet et les chiffres réels 
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -36,6 +36,12 @@ Une fois la liste de prix de revient résolue, les champs **Rôle** et **Unité 
 Les lignes d’estimation pour les dépenses font référence aux détails de la ligne de contrat pour les dépenses et les lignes d’estimation des dépenses sur un projet.
 
 Une fois la liste de prix de revient résolue, le système utilise une combinaison des champs **Catégorie** et **Unité** sur la ligne d'estimation des dépenses pour faire correspondre les lignes **Prix de la catégorie** sur la liste de prix résolue. Si le système trouve une ligne de prix de catégorie qui a un taux de coût pour la combinaison de champs **Catégorie** et **Unité**, le taux de coût est défini par défaut. Si le système ne correspond pas aux valeurs de **Catégorie** et **Unité**, ou s'il est en mesure de trouver une ligne de prix de catégorie correspondante mais que la méthode de tarification n'est pas **Prix unitaire**, le taux de coût par défaut est zéro (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Résolution des taux de coûts sur les lignes de chiffres réels et d’estimation pour le matériel
+
+Les lignes d’estimation pour le matériel font référence aux détails de la ligne de devis et de contrat pour le matériel et les lignes d’estimation de matériel d’un projet.
+
+Une fois que la liste de prix de revient est résolue, le système utilise une combinaison des champs **Produit** et **Unité** sur la ligne d’estimation d’une estimation de matériel pour les mettre en correspondance avec les lignes **Éléments tarifaires** du tarif résolu. Si le système trouve une ligne de prix de produit ayant un taux de coûts pour la combinaison de champs **Produit** et **Unité**, le taux de coûts est défini par défaut. Si le système ne correspond pas aux valeurs **Produit** et **Unité**, ou s’il est en mesure de trouver une ligne d’élément tarifaire correspondante mais que la méthode de tarification est basée sur le coût standard ou le coût actuel et que ces derniers ne sont pas définis sur le produit, le coût unitaire est par défaut égal à zéro.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

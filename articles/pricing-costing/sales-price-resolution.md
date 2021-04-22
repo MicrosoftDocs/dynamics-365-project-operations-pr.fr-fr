@@ -3,17 +3,17 @@ title: Résoudre les prix de vente pour les estimations et les chiffres réels
 description: Cette rubrique fournit des informations sur la façon de résoudre les prix de vente des estimations et des chiffres réels.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274950"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877442"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Résoudre les prix de vente pour les estimations et les chiffres réels
 
@@ -54,6 +54,17 @@ Une fois le tarif des ventes résolu, le système exécute les étapes suivantes
     | &nbsp; | Majoration du coût | En appliquant une majoration telle que définie par la ligne de prix de catégorie sur les chiffres réels du coût associé |
 
 4. Si le système ne parvient pas à faire correspondre les valeurs des champs **Catégorie** et **Unité**, le taux de vente par défaut est zéro (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Résoudre les taux de vente sur les lignes de chiffres réels et d’estimation pour le matériel
+
+Dans Project Operations, les lignes d’estimation pour le matériel sont utilisées pour désigner les détails de la ligne de devis et de contrat pour le matériel et les lignes d’estimation de matériel du projet.
+
+Une fois le tarif des ventes résolu, le système exécute les étapes suivantes pour définir le prix de vente unitaire par défaut.
+
+1. Le système utilise la combinaison des champs **Produit** et **Unité** sur la ligne d’estimation pour que le matériel corresponde aux lignes d’élément tarifaire dans la liste de prix qui a été résolue.
+2. Si le système trouve une ligne d’élément tarifaire qui a un taux de vente pour la combinaison des champs **Produit** et **Unité** et que la méthode de tarification est **Montant en devise**, le prix de vente spécifié sur la ligne de tarif est utilisé.
+3. Si les valeurs des champs **Produit** et **Unité** ne correspondent pas, le taux de vente par défaut est égal à zéro.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

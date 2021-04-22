@@ -3,7 +3,7 @@ title: Notes de frais réinventées
 description: Cette rubrique explique l’expérience reconçue et réinventée pour la saisie de notes de frais.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499713"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717692"
 ---
 # <a name="expense-reports-reimagined"></a>Notes de frais réinventées
 
@@ -41,11 +41,7 @@ Pour activer la nouvelle expérience, utilisez l’espace de travail **Gestion d
 - Aucun élément de menu existant pour les notes de frais (la page existante) ou les champs de note de frais n’est supprimé.
 - Les workflows et toutes les approbations vous dirigent toujours vers la page des notes de frais existantes.
 
-## <a name="getting-started-video-for-new-users"></a>Vidéo de mise en route pour les nouveaux utilisateurs
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-La vidéo [Expérience de dépenses dans Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ci-dessus) est incluse dans la [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Nouvelles fonctionnalités
 

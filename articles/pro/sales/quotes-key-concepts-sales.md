@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c97488f8be003099210ed58dd5b609c8416474cd
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272385"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663951"
 ---
-# <a name="quotes---key-concepts---lite"></a>Devis – Concepts clé – Simplifié
+# <a name="concepts-unique-to-project-quotes"></a>Concepts propres aux devis de projet
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 

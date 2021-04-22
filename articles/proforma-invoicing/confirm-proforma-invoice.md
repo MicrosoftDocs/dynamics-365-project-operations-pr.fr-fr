@@ -1,39 +1,102 @@
 ---
-title: Confirmer une facture pro forma
-description: Cette rubrique offre des informations sur la confirmation d’une facture pro forma.
+title: Confirmer une facture pro forma basée sur un projet
+description: Cette rubrique fournit des informations sur la confirmation d’une facture pro forma basée sur un projet.
 author: rumant
 manager: AnnBe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2ed241509d2643d841ce55777e6e316612f70b8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 53c647dca506822312053fb5c9b086a2947974c2
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287865"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867127"
 ---
-# <a name="confirm-a-proforma-invoice"></a>Confirmer une facture pro forma
+# <a name="confirm-a-proforma-project-based-invoice"></a>Confirmer une facture pro forma basée sur un projet
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Une fois la facture pro forma confirmée, le statut de la facture projet est mis à jour sur **Confirmé**. Lorsqu’une facture est confirmée, elle devient en lecture seule. À l’avenir, la facture ne pourra être corrigée que s’il y a des corrections ou des crédits initiés par le client, ou lorsqu’elle est marquée comme payée.
+Une fois la facture pro forma confirmée, le statut de la facture projet est mis à jour sur **Confirmé**. Lorsqu’une facture est confirmée, elle devient en lecture seule. À partir de ce moment-là, la facture ne pourra être corrigée que s’il y a des corrections ou des crédits initiés par le client.
 
 Le tableau suivant répertorie les chiffres réels créés par le système. Ces chiffres réels sont créés lorsque certaines opérations sont effectuées sur le projet de facture de projet avant sa confirmation.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="416" valign="top">
+            <td width="216" valign="top">
                 <p>
                     <strong>Scénario</strong>
                 </p>
             </td>
-            <td width="608" valign="top">
+            <td width="808" valign="top">
                 <p>
                     <strong>Rapports réels créés lors de la confirmation</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturation d’une avance ou d’une provision </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Un chiffre d’affaires facturé réel de type <strong>Provision</strong> est créé pour le montant de l’avance ou de la provision.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un chiffre réel de vente non facturé avec un montant négatif de la provision ou de l’avance à utiliser pour le rapprochement.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Après avoir entièrement rapproché une provision ou une avance sur une facture.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Une contrepassation des ventes non facturées de la provision ou de l’avance qui a été créée pour le rapprochement. Ce montant est positif car il vise à annuler le négatif qui a été créé lors de la facturation de la provision ou de l’avance.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Les chiffres réels des ventes facturées pour le montant de cette facture.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Après avoir partiellement rapproché une provision ou une avance sur une facture.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Une contrepassation des ventes non facturées de la provision ou de l’avance qui a été créée pour le rapprochement. Ce montant est positif car il vise à annuler le négatif qui a été créé lors de la facturation de la provision ou de l’avance.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Les chiffres réels des ventes facturées pour le montant de cette facture.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un chiffre d’affaires non facturé négatif d’un montant de la provision ou de l’avance restant à utiliser pour le rapprochement sur les prochaines factures.
                 </p>
             </td>
         </tr>
@@ -71,14 +134,14 @@ Une annulation des ventes non facturées pour les heures et le montant figurant 
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nouveau réel de ventes non facturé qui est facturable pour les heures et le montant du détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes non facturées et un réel de ventes facturé équivalent.
+Un nouveau réel de ventes qui est facturable pour les heures et le montant du détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes facturées et un réel de ventes facturé équivalent.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nouveau réel de ventes non facturé qui n’est pas facturable pour les heures et le montant restants après déduction des chiffres corrects dans le détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes non facturées et un réel de ventes facturé équivalent.
+Un nouveau chiffre réel de vente non facturé qui n’est pas facturable pour les heures restantes et le montant après déduction des chiffres corrigés sur le détail de la ligne de facture modifiée, une contrepassation des chiffres réels de vente et un chiffre réel de ventes facturées équivalent.
                 </p>
             </td>
         </tr>
@@ -135,7 +198,7 @@ Une annulation des ventes non facturées pour la quantité et le montant figuran
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nouveau réel de ventes non facturé qui est facturable pour la quantité et le montant du détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes non facturées et un réel de ventes facturé équivalent. 
+Un nouveau réel de ventes non facturé qui est facturable pour la quantité et le montant du détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes non facturées et un réel de ventes facturé équivalent.
                 </p>
             </td>
         </tr>
@@ -161,7 +224,71 @@ Une annulation des ventes non facturées pour la quantité et le montant figuran
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nouveau réel de ventes non facturé qui est facturable pour la quantité et le montant du détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes facturées et un réel de ventes facturé équivalent.
+Un nouveau réel de ventes non facturé qui est facturable pour la quantité et le montant du détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes non facturées et un réel de ventes facturé équivalent. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturation d’une transaction de matériel sans aucune modification sur la facture provisoire.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Une contrepassation des ventes non facturées pour la quantité et le montant de l’approbation d’utilisation du matériel d’origine.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un chiffre réel de vente facturée pour la quantité et le montant de l’approbation d’utilisation du matériel d’origine.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Facturation d’une transaction de matériel qui a été modifiée pour réduire la quantité.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Une contrepassation des ventes non facturées pour la quantité et le montant de l’approbation du temps d’origine.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nouveau réel de ventes non facturé qui est facturable pour la quantité et le montant du détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes non facturées et un réel de ventes facturé équivalent.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nouveau réel de ventes non facturé qui n’est pas facturable pour la quantité et le montant restants après déduction des chiffres corrects dans le détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes facturées et un réel de ventes facturé équivalent.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturation d’une transaction de matériel qui a été modifiée pour augmenter la quantité.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Une contrepassation des ventes non facturées pour la quantité et le montant de l’approbation d’utilisation du matériel d’origine.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nouveau réel de ventes non facturé qui est facturable pour la quantité et le montant du détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes non facturées et un réel de ventes facturé équivalent.
                 </p>
             </td>
         </tr>
@@ -196,8 +323,8 @@ Un chiffre réel de vente facturée pour le montant du jalon sur le jalon d’or
                 </p>
             </td>
         </tr>
+       
     </tbody>
 </table>
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

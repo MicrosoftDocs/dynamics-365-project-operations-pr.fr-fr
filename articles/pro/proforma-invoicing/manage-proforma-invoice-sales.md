@@ -1,21 +1,21 @@
 ---
-title: Gérer une facture pro forma – Simplifié
-description: Cette rubrique fournit des informations sur l’utilisation des factures pro forma.
+title: Gérer une facture pro forma pour un projet
+description: Cette rubrique fournit des informations sur l’utilisation des factures de projet pro forma.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274023"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866903"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Gérer une facture pro forma – Simplifié
+# <a name="manage-a-proforma-project-invoice"></a>Gérer une facture pro forma pour un projet 
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -69,9 +69,9 @@ Dans Project Operations, il y a toujours une ligne de facture pour chaque ligne
 
 Chaque ligne de facture d’une facture de projet comprend les détails de la ligne de facture. Ces détails de ligne sont associés aux chiffres réels de vente non facturés et aux jalons associés à la ligne de contrat référencée par la ligne de facture. Toutes ces transactions sont marquées **Prêt pour la facturation**.
 
-Pour la ligne **Facture de temps et de matériel**, les détails de la ligne de facture sont regroupés dans **Facturable**, **Non facturable** et **Gratuit** sur la page **Ligne de facture**. Les détails de **Ligne de facturation facturable** s’ajoutent au total de la ligne de facture. **Gratuit** et **Chiffres réels non facturables** ne s’ajoutent pas au total de la ligne de facture.
+Pour une ligne **Facture de temps et de matériel**, les détails de la ligne de facture sont regroupés par catégories suivantes : **Facturable**, **Non facturable** et **Gratuit** sur la page **Ligne de facture**. Les détails de **Ligne de facturation facturable** s’ajoutent au total de la ligne de facture. **Gratuit** et **Chiffres réels non facturables** ne correspondent pas au total de la ligne de facture.
 
-Pour la ligne **Facture à prix fixe**, les détails de la ligne de facture sont créés à partir des jalons marqués comme **Prêt pour la facturation** sur la ligne de contrat associée. Une fois le détail de la ligne de facture créé à partir d’un jalon, le statut de facturation du jalon est mis à jour et devient **Facture client créée**.
+Pour une ligne **Facture à prix fixe**, les détails de la ligne de facture sont créés à partir des jalons marqués comme **Prêt pour la facturation** sur la ligne de contrat correspondante. Une fois le détail de la ligne de facture créé à partir d’un jalon, le statut de facturation du jalon est mis à jour et devient **Facture client créée**.
 
 ### <a name="edit-invoice-line-details"></a>Modifier les détails de ligne de facture
 
@@ -98,8 +98,12 @@ Les champs suivants sont disponibles sur un détail de la ligne de facture assoc
 | **Télécopie** | Défini par défaut à partir d’un chiffre réel source. Le champ est modifiable par l’utilisateur | Le champ peut être modifié par l’utilisateur lors de la création d’un détail de ligne de facture sans chiffres réels associés. |
 | **Total final** | Un champ calculé, calculé comme **Montant + Taxe**. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
 | **Type de facturation** | Défini par défaut à partir d’un chiffre réel source. Le champ est modifiable par l’utilisateur. | Sélectionner **Facturable** ajoute la ligne au total de la ligne de facture. **Gratuit** et **Non facturable** l’exclura du total de la ligne de facture. |
+| **Sélectionner un produit** | Défini par défaut à partir du chiffre réel source, ce champ est en lecture seule. | Lorsque vous créez un nouveau détail de ligne de facture sans chiffre réel de sauvegarde, ce champ peut être modifié. |
+| **Produit** | Défini par défaut à partir du chiffre réel source, ce champ est en lecture seule. | Lorsque vous créez un nouveau détail de ligne de facture sans chiffre réel de sauvegarde, ce champ peut être modifié si le champ **Sélectionner un produit** est défini sur **Produit existant**. |
+| **Nom du produit** | Défini par défaut à partir du chiffre réel source, ce champ est en lecture seule. | Sur un nouveau détail de ligne de facture, où l’ID de produit est sélectionné dans le catalogue, ce champ est défini sur le nom du produit. Pour un produit hors catalogue, le champ est défini sur le nom du produit hors catalogue. |
+| **Description du produit hors catalogue** | Défini par défaut à partir du chiffre réel source, ce champ est en lecture seule. | Lorsque vous créez un nouveau détail de ligne de facture sans chiffre réel de sauvegarde, vous pouvez ajouter une description écrite pour le produit. |
 | **Type de transaction** | Défini par défaut à partir d’un chiffre réel source. Un champ en lecture seule qui verrouillé pour modification. | Défini par défaut sur **Ventes facturées** et verrouillé lors de la création d’un **Détail de la ligne de facture** sans chiffres réels associés.  |
-| **Classe de transaction** | Défini par défaut à partir d’un chiffre réel source. Un champ en lecture seule qui verrouillé pour modification. | Défini par défaut selon que l’utilisateur choisit de créer un détail de ligne de facture de **Temps**, **Dépense** ou **Frais** tout en créant un **Détail de la ligne de facture** sans chiffres réels associés. Verrouillé pour modification. |
+| **Classe de transaction** | Défini par défaut à partir d’un chiffre réel source. Un champ en lecture seule qui verrouillé pour modification. | Défini par défaut selon que l’utilisateur choisit de créer un détail de la ligne de facture **Temps**, **Dépense**, **Matériel** ou **Frais** tout en créant un nouveau **Détail de la ligne de facture** sans chiffre réel de sauvegarde. Verrouillé pour modification. |
 
 Les champs suivants sont disponibles sur un détail de la ligne de facture associé à un jalon :
 

@@ -1,27 +1,27 @@
 ---
-title: Gérer les tarifs des projets sur les devis de projet – Simplifié
-description: Cette rubrique fournit des informations sur l’utilisation de tarifs de projet sur les devis. (Sales)
+title: Gérer les tarifs des projets sur les devis de projet
+description: Cette rubrique fournit des informations sur l’utilisation de tarifs de projet sur les devis.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273015"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858605"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Gérer les tarifs des projets sur les devis de projet – Simplifié
+# <a name="manage-project-price-lists-on-project-quotes"></a>Gérer les tarifs des projets sur les devis de projet 
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
 Les devis de projet sont conçus pour prendre en charge des tarifs de vente effectifs à plusieurs dates. Avec Dynamics 365 Project Operations, une nouvelle entité associée appelée **Tarifs de projet** est ajoutée. Cette entité a une relation 1 à plusieurs avec un devis de projet.
 
-Les tarifs de projet sont utilisés pour évaluer les transactions de temps et de dépenses sur un projet. Lorsqu’un devis comporte un ou plusieurs tarifs de projet, ces tarifs sont utilisés pour évaluer les estimations de temps et de dépenses et les chiffres réels sur les projets associés au devis via la ligne de devis.
+Les tarifs des projets sont utilisés pour fixer le prix des transactions de temps, de matériel et de dépenses sur un projet. Lorsqu’un devis comporte un ou plusieurs tarifs de projet, ces tarifs sont utilisés pour fixer le prix des estimations de temps, de matériel et de dépenses ainsi que les chiffres réels sur les projets associés au devis via la ligne de devis.
 
 Lorsqu’il n’y a pas de tarifs de projet sur un devis de projet, vous recevez un message d’avertissement. Le message indique qu’en l’absence de tarifs de projet, le travail et les dépenses estimés et réels de votre projet ne seront pas facturés. Au lieu de cela, ils auront un prix de zéro (0) pour les valeurs de vente.
 

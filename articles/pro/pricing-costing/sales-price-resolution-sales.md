@@ -1,21 +1,21 @@
 ---
-title: Résoudre des prix de vente pour les estimations et les chiffres réels – Simplifié
-description: Cette rubrique fournit des informations sur la résolution des prix de revient des estimations et des chiffres réels.
+title: Résoudre les prix de vente pour les estimations et les chiffres réels de projet
+description: Cette rubrique fournit des informations sur la résolution des prix de vente sur les estimations et les chiffres réels de projet.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274500"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877353"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Résoudre des prix de vente pour les estimations et les chiffres réels – Simplifié
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Résoudre les prix de vente pour les estimations et les chiffres réels de projet
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -55,5 +55,14 @@ Une fois le tarif des ventes résolu, le système exécute les étapes suivantes
 
 4. Si le système ne parvient pas à faire correspondre les valeurs des champs **Catégorie** et **Unité**, le taux de vente par défaut est zéro (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Résolution des taux de vente sur les lignes de chiffres réels et d’estimation pour le matériel
+
+Dans Project Operations, les lignes d’estimation pour le matériel sont utilisées pour désigner les détails de la ligne de devis et de contrat pour le matériel et les lignes d’estimation de matériel du projet.
+
+Une fois le tarif des ventes résolu, le système exécute les étapes suivantes pour définir le prix de vente unitaire par défaut.
+
+1. Le système utilise la combinaison des champs **Produit** et **Unité** sur la ligne d’estimation pour que le matériel corresponde aux lignes d’élément tarifaire dans la liste de prix qui a été résolue.
+2. Si le système trouve une ligne d’élément tarifaire qui a un taux de vente pour la combinaison des champs **Produit** et **Unité** et que la méthode de tarification est **Montant en devise**, le prix de vente spécifié sur la ligne de tarif est utilisé.
+3. Si les valeurs des champs **Produit** et **Unité** ne correspondent pas, le taux de vente par défaut est égal à zéro.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

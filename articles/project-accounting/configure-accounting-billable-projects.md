@@ -3,17 +3,17 @@ title: Configurer la comptabilité des projets facturables
 description: Cette rubrique fournit des informations sur les options comptables pour les projets facturables.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287640"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858650"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurer la comptabilité des projets facturables
 
@@ -58,13 +58,25 @@ Effectuez les étapes suivantes pour créer un profil de coût et de revenu du p
 
          - **Solde** : Lors de la validation du journal d’intégration de Project Operations, le coût de transaction de dépenses sera débité du compte de comptabilité de type *TEC – Valeur de coût* tel que défini sur l’onglet **Coût** sur la page **Configuration de la validation comptable** et crédité sur le compte de contrepartie sur la ligne de journal. Les comptes de contrepartie par défaut pour les dépenses sont définis dans **Gestion de projets et comptabilité** > **Configurer** \> **Validation** \> **Compte de contrepartie par défaut pour les dépenses**. Le comptable utilisera la fonction de **comptabilisation des coûts** pour déplacer ce coût d’un compte de solde vers un compte de résultat sur une base périodique.
         - **Compte de résultat** : Lors de la validation du journal d’intégration de Project Operations, le coût de transaction de dépenses sera débité du compte de comptabilité de type *TEC – Valeur de coût* tel que défini sur l’onglet **Coût** sur la page **Configuration de la validation comptable** et crédité sur le compte de contrepartie sur la ligne de journal. Les comptes de contrepartie par défaut pour les dépenses sont définis dans **Gestion de projets et comptabilité** \> **Configurer** \> **Validation** \> **Compte de contrepartie par défaut pour les dépenses**.
+      
+    - **Coûts de validation – article** :
+
+         - **Solde** : Lors de la validation du journal d’intégration de Project Operations, le coût de transaction de l’article sera débité du type de compte général *Travaux en cours – Valeur de coût – article* tel que défini sur l’onglet **Coût** de la page **Paramétrage de la validation dans la comptabilité** et crédité à :
+    
+              - Pour le type de document Utilisation : compte **Coût - article** sur **Paramétrage de la validation dans la comptabilité**.  
+              - Pour le type de document Achat : **Compte d’intégration d’approvisionnement** sur **Paramètres de gestion et comptabilité des projets**.
+           Le comptable utilisera la fonction de **comptabilisation des coûts** pour déplacer ce coût d’un compte de solde vers un compte de résultat sur une base périodique.
+        - **Résultat** : Lors de la validation du journal d’intégration de Project Operations, le coût de transaction de l’article sera débité du type de compte général *Coût* tel que défini sur l’onglet **Coût** de la page **Paramétrage de la validation dans la comptabilité** et crédité à :
+         
+             - Pour le type de document Utilisation : compte **Coût - article** sur **Paramétrage de la validation dans la comptabilité**.  
+             - Pour le type de document Achat : **Compte d’intégration d’approvisionnement** sur **Paramètres de gestion et comptabilité des projets**.
        
     - **À la facturation du compte** :
 
         - **Solde** : Lors de la validation de la proposition de facture de projet, une transaction sur le compte (étape de facturation) sera créditée sur le compte de comptabilité de type *TEC facturés – sur compte* tel que défini sur l’onglet **Revenu** sur la page **Configuration de la validation comptable**, et débité sur le compte du solde client.
          - **Compte de résultat** : Lors de la validation de la proposition de facture de projet, une transaction sur le compte (étape de facturation) sera créditée sur le compte de comptabilité de type *Revenu facturé – sur compte* tel que défini sur l’onglet **Revenu** sur la page **Configuration de la validation comptable**, et débité sur le compte du solde client. Les comptes de solde client sont définis dans **Comptabilité client** \> **Configuration** \> **Profils de validation client**.
 
-   Lorsque vous définissez les profils de validation pour les méthodes de facturation du temps et de matériel, vous avez la possibilité de générer des revenus par type de transaction (heure, dépense et frais). Si l’option **Revenus à recevoir** est définie sur **Oui**, les transactions de vente non facturées dans le journal d’intégration de Project Operations seront enregistrées dans la comptabilité. La valeur des ventes est débitée du compte **TEC – compte de valeur des ventes** et crédité au compte **Revenus à recevoir – valeur des ventes** créé sur la page **Configuration de la validation comptable**, sur l’onglet **Revenu**. 
+   Lorsque vous définissez les profils de validation pour les méthodes de facturation du temps et du matériel, vous avez la possibilité de générer des revenus par type de transaction (heure, dépense, article et frais). Si l’option **Revenus à recevoir** est définie sur **Oui**, les transactions de vente non facturées dans le journal d’intégration de Project Operations seront enregistrées dans la comptabilité. La valeur des ventes est débitée du compte **Travaux en cours – compte de valeur des ventes** et crédité au compte **Revenus à recevoir – valeur des ventes** créé sur la page **Configuration de la validation comptable**, sur l’onglet **Revenu**. 
   
   > [!NOTE]
   > L’option, **Revenus à recevoir** est disponible uniquement lorsque le type de transaction correspondant **Coût** est comptabilisé dans le compte de résultat.

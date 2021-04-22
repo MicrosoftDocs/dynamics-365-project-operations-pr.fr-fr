@@ -1,6 +1,6 @@
 ---
-title: Vue d’ensemble de lignes du devis basées sur un projet
-description: Cette rubrique fournit des informations sur l’utilisation des lignes de devis basées sur un projet pour le travail du projet.
+title: Présentation de lignes du devis de projet
+description: Cette rubrique fournit des informations sur l’utilisation de lignes de devis pour un travail de projet.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277785"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858020"
 ---
-# <a name="project-based-quote-lines-overview"></a>Vue d’ensemble de lignes du devis basées sur un projet
+# <a name="project-quote-lines-overview"></a>Présentation de lignes du devis de projet
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
