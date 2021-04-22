@@ -1,41 +1,264 @@
 ---
-title: Correction de factures
-description: Cette rubrique fournit des informations sur la correction de factures.
+title: Factures correctives basées sur un projet
+description: Cette rubrique fournit des informations sur la création et la confirmation de factures correctives basées sur un projet dans Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 03/29/2021
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 734dc01e15339a31ac21f92bb3fb20d634a075ad
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287820"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867038"
 ---
-# <a name="corrected-invoices"></a><span data-ttu-id="e82d3-103">Correction de factures</span><span class="sxs-lookup"><span data-stu-id="e82d3-103">Corrected invoices</span></span>
+# <a name="corrective-project-based-invoices"></a><span data-ttu-id="ba504-103">Factures correctives basées sur un projet</span><span class="sxs-lookup"><span data-stu-id="ba504-103">Corrective project-based invoices</span></span>
 
-<span data-ttu-id="e82d3-104">_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_</span><span class="sxs-lookup"><span data-stu-id="e82d3-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="ba504-104">_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_</span><span class="sxs-lookup"><span data-stu-id="ba504-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="e82d3-105">Les factures confirmées peuvent être modifiées.</span><span class="sxs-lookup"><span data-stu-id="e82d3-105">Confirmed invoices can be edited.</span></span> <span data-ttu-id="e82d3-106">Lorsque vous modifiez une facture confirmée, un brouillon de la facture corrigée est créé.</span><span class="sxs-lookup"><span data-stu-id="e82d3-106">When you edit a confirmed invoice, a draft of the corrected invoice is created.</span></span> <span data-ttu-id="e82d3-107">Comme la supposition est que vous souhaitez contrepasser toutes les transactions et quantités de la facture d’origine, cette facture corrigée inclut toutes les transactions de la facture d’origine, et toutes les quantités sont de zéro (0).</span><span class="sxs-lookup"><span data-stu-id="e82d3-107">Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).</span></span>
+<span data-ttu-id="ba504-105">Une facture de projet confirmée peut être corrigée pour traiter les modifications ou les crédits négociés avec le client et le chef de projet.</span><span class="sxs-lookup"><span data-stu-id="ba504-105">A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.</span></span>
 
-<span data-ttu-id="e82d3-108">Si aucune transaction ne nécessite de correction, vous pouvez la supprimer du brouillon de facture corrective.</span><span class="sxs-lookup"><span data-stu-id="e82d3-108">When transactions don't require correction, you can remove them from the draft corrective invoice.</span></span> <span data-ttu-id="e82d3-109">Pour contrepasser ou ne retourner qu’une quantité partielle, vous pouvez modifier le champ Quantité sur le détail de la ligne.</span><span class="sxs-lookup"><span data-stu-id="e82d3-109">To reverse or return only a partial quantity, you can edit the Quantity field on the line detail.</span></span> <span data-ttu-id="e82d3-110">Si vous ouvrez le détail de ligne de facture, la quantité de la facture d’origine s’affiche.</span><span class="sxs-lookup"><span data-stu-id="e82d3-110">If you open the invoice line detail, you can see the original invoice quantity.</span></span> <span data-ttu-id="e82d3-111">Vous pouvez ensuite modifier la quantité actuelle de la facture afin qu’elle soit inférieure ou supérieure à la quantité de la facture d’origine.</span><span class="sxs-lookup"><span data-stu-id="e82d3-111">You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.</span></span>
+<span data-ttu-id="ba504-106">Pour apporter des modifications à une facture confirmée, ouvrez la facture confirmée et sélectionnez **Corriger cette facture**.</span><span class="sxs-lookup"><span data-stu-id="ba504-106">To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**.</span></span> 
 
-<span data-ttu-id="e82d3-112">Lorsque vous confirmez une facture corrective, le chiffre réel facturé d’origine est contrepassé et un chiffre réel de ventes facturées est créé.</span><span class="sxs-lookup"><span data-stu-id="e82d3-112">When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created.</span></span> <span data-ttu-id="e82d3-113">Si la quantité a été réduite, la différence aura pour effet la création d’un chiffre réel de ventes non facturées.</span><span class="sxs-lookup"><span data-stu-id="e82d3-113">If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too.</span></span> <span data-ttu-id="e82d3-114">Par exemple, si la vente facturée d’origine était de huit heures, et que le détail de la ligne de facture corrigée dispose d’une quantité réduite de six heures, la ligne de vente facturée d’origine est contrepassée et deux chiffres réels sont créés :</span><span class="sxs-lookup"><span data-stu-id="e82d3-114">For example, if the original billed sale was for eight hours, and the corrected invoice line detail has a reduced quantity of six hours, the original billed sales line is revered and two new actuals are created:</span></span>
+> [!NOTE]
+> <span data-ttu-id="ba504-107">Cette sélection n’est pas disponible, sauf si une facture de projet est confirmée ou si la facture basée sur le projet comporte des avances, des provisions ou des rapprochements d’avances ou de provisions.</span><span class="sxs-lookup"><span data-stu-id="ba504-107">This selection isn't available unless a project invoice is confirmed or the project-based invoice has advances or retainers or reconciliations of advances or retainers.</span></span>
 
-- <span data-ttu-id="e82d3-115">Un chiffre réel de vente facturée de six heures.</span><span class="sxs-lookup"><span data-stu-id="e82d3-115">A billed sales actual for six hours.</span></span>
-- <span data-ttu-id="e82d3-116">Un chiffre réel de ventes non facturées de deux heures restantes.</span><span class="sxs-lookup"><span data-stu-id="e82d3-116">An unbilled sales actual for the remaining two hours.</span></span> <span data-ttu-id="e82d3-117">Cette transaction peut être facturée ultérieurement ou marquée comme non facturable, selon les négociations avec le client.</span><span class="sxs-lookup"><span data-stu-id="e82d3-117">This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.</span></span>
+<span data-ttu-id="ba504-108">Un nouveau projet de facture est créé à partir de la facture confirmée.</span><span class="sxs-lookup"><span data-stu-id="ba504-108">A new draft invoice is created from the confirmed invoice.</span></span> <span data-ttu-id="ba504-109">Tous les détails de la ligne de facture de la facture précédemment confirmée sont copiés dans le nouveau brouillon.</span><span class="sxs-lookup"><span data-stu-id="ba504-109">All invoice line details from the previously confirmed invoice are copied to the new draft.</span></span> <span data-ttu-id="ba504-110">Voici quelques-uns des points clés à comprendre concernant les détails de la ligne sur la nouvelle facture corrigée :</span><span class="sxs-lookup"><span data-stu-id="ba504-110">The following are some of the key points to understand about the line details on the new corrected invoice:</span></span>
+
+- <span data-ttu-id="ba504-111">Toutes les quantités sont mises à jour à zéro.</span><span class="sxs-lookup"><span data-stu-id="ba504-111">All quantities are updated to zero.</span></span> <span data-ttu-id="ba504-112">Dynamics 365 Project Operations suppose que tous les articles facturés sont entièrement crédités.</span><span class="sxs-lookup"><span data-stu-id="ba504-112">Dynamics 365 Project Operations assumes that all invoiced items are fully credited.</span></span> <span data-ttu-id="ba504-113">Si nécessaire, vous pouvez mettre à jour manuellement ces quantités pour refléter la quantité facturée et non la quantité créditée.</span><span class="sxs-lookup"><span data-stu-id="ba504-113">If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited.</span></span> <span data-ttu-id="ba504-114">En fonction de la quantité que vous saisissez, l’application calcule la quantité créditée.</span><span class="sxs-lookup"><span data-stu-id="ba504-114">Based on the quantity you enter, the application calculates the credited quantity.</span></span> <span data-ttu-id="ba504-115">Ce montant est reflété dans les chiffres réels créés lorsque la facture corrigée est confirmée.</span><span class="sxs-lookup"><span data-stu-id="ba504-115">This amount is reflected in the actuals that are created when the corrected invoice is confirmed.</span></span> <span data-ttu-id="ba504-116">Si vous apportez des modifications au montant de la taxe, vous devez entrer le montant de taxe correct et non le montant de taxe crédité.</span><span class="sxs-lookup"><span data-stu-id="ba504-116">If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.</span></span>
+- <span data-ttu-id="ba504-117">Les corrections d’étape sont toujours traitées comme des crédits complets.</span><span class="sxs-lookup"><span data-stu-id="ba504-117">Milestone corrections are always processed as full credits.</span></span>
+
+
+> [!IMPORTANT]
+> <span data-ttu-id="ba504-118">Pour les détails de la ligne de facture qui sont des corrections d’autres frais déjà facturés, le champ **Correction** est défini sur **Oui**.</span><span class="sxs-lookup"><span data-stu-id="ba504-118">For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**.</span></span> <span data-ttu-id="ba504-119">Pour les factures dont des détails de la ligne de facture sont corrigés, le champ **Contient des corrections** est défini sur **Oui**.</span><span class="sxs-lookup"><span data-stu-id="ba504-119">For invoices that have corrected invoice line details, the **Has corrections** field is set to **Yes**.</span></span>
+
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a><span data-ttu-id="ba504-120">Chiffres réels créés lorsqu’une facture corrective est confirmée</span><span class="sxs-lookup"><span data-stu-id="ba504-120">Actuals created when a corrective invoice is confirmed</span></span>
+
+<span data-ttu-id="ba504-121">Le tableau suivant répertorie les chiffres réels créés lorsqu’une facture corrective est confirmée.</span><span class="sxs-lookup"><span data-stu-id="ba504-121">The following table lists the actuals that are created when a corrective invoice is confirmed.</span></span>
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="216" valign="top">
+                <p><span data-ttu-id="ba504-122">
+                    <strong>Scénario</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ba504-122">
+                    <strong>Scenario</strong>
+                </span></span></p>
+            </td>
+            <td width="808" valign="top">
+                <p><span data-ttu-id="ba504-123">
+                    <strong>Rapports réels créés lors de la confirmation</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ba504-123">
+                    <strong>Actuals created on confirmation</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ba504-124">Facturation de l’intégralité du crédit d’une transaction horaire déjà facturée.</span><span class="sxs-lookup"><span data-stu-id="ba504-124">Invoicing the full credit of a previously invoiced time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-125">Une annulation des ventes facturées pour les heures et le montant figurant sur la ligne de facture d’origine pour le temps.</span><span class="sxs-lookup"><span data-stu-id="ba504-125">A billed sales reversal for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-126">Un nouveau chiffre d’affaires non facturé réel pour les heures et le montant figurant sur la ligne de facture d’origine pour le temps.</span><span class="sxs-lookup"><span data-stu-id="ba504-126">A new unbilled sales actual for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="ba504-127">Facturation du crédit partiel sur une opération de temps.</span><span class="sxs-lookup"><span data-stu-id="ba504-127">Invoicing the partial credit on a time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-128">Une annulation des ventes facturées pour les heures et le montant facturé figurant sur la ligne de facture d’origine pour le temps.</span><span class="sxs-lookup"><span data-stu-id="ba504-128">A billed sales reversal for the hours and amount invoiced on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-129">Un nouveau réel de ventes non facturé qui est facturable pour les heures et le montant du détail de la ligne de facture modifiée, une contrepassation de ce chiffre et un réel de ventes facturé équivalent.</span><span class="sxs-lookup"><span data-stu-id="ba504-129">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-130">Un nouveau chiffre d’affaires réel non facturé qui est facturé pour les heures restantes et le montant après déduction des chiffres corrigés sur le détail de la ligne de facture.</span><span class="sxs-lookup"><span data-stu-id="ba504-130">A new unbilled sales actual that is chargeable for the remaining hours and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ba504-131">Facturation de l’intégralité du crédit d’une transaction de dépense déjà facturée.</span><span class="sxs-lookup"><span data-stu-id="ba504-131">Invoicing the full credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-132">Une annulation des ventes facturées pour les quantités et le montant figurant sur la ligne de facture d’origine pour la dépense.</span><span class="sxs-lookup"><span data-stu-id="ba504-132">A billed sales reversal for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-133">Un nouveau chiffre d’affaires non facturé réel pour les quantités et le montant figurant sur la ligne de facture d’origine pour la dépense.</span><span class="sxs-lookup"><span data-stu-id="ba504-133">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="ba504-134">Facturation du crédit partiel d’une transaction de dépense déjà facturée.</span><span class="sxs-lookup"><span data-stu-id="ba504-134">Invoicing the partial credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-135">Une annulation des ventes facturées pour les quantités et le montant facturé figurant sur la ligne de facture d’origine pour une dépense.</span><span class="sxs-lookup"><span data-stu-id="ba504-135">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for an expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-136">Un nouveau réel de ventes non facturé qui est facturable pour la quantité et le montant du détail de la ligne de facture corrigée, une contrepassation de ce chiffre et un réel de ventes facturé équivalent.</span><span class="sxs-lookup"><span data-stu-id="ba504-136">A new unbilled sales actual that is chargeable for the quantity and amount on the corrected invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-137">Un nouveau chiffre d’affaires réel non facturé qui est facturé pour la quantité restante et le montant après déduction des chiffres corrigés sur le détail de la ligne de facture.</span><span class="sxs-lookup"><span data-stu-id="ba504-137">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+                <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ba504-138">Facturation de l’intégralité du crédit d’une transaction de matériel déjà facturée.</span><span class="sxs-lookup"><span data-stu-id="ba504-138">Invoicing the full credit of a previously invoiced material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-139">Une contrepassation des ventes facturées pour la quantité et le montant du détail de la ligne de facture d’origine du matériel.</span><span class="sxs-lookup"><span data-stu-id="ba504-139">A billed sales reversal for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-140">Un nouveau chiffre réel des ventes facturées pour la quantité et le montant du détail de la ligne de facture d’origine du matériel.</span><span class="sxs-lookup"><span data-stu-id="ba504-140">A new unbilled sales actual for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="ba504-141">Facturation du crédit partiel sur une transaction de matériel.</span><span class="sxs-lookup"><span data-stu-id="ba504-141">Invoicing the partial credit on a material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-142">Une contrepassation des ventes facturées pour la quantité et le montant facturés sur le détail de la ligne de facture d’origine du matériel.</span><span class="sxs-lookup"><span data-stu-id="ba504-142">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-143">Un nouveau chiffre réel de ventes non facturées qui est facturable pour la quantité et le montant du détail de la ligne de facture modifiée, une contrepassation de celui-ci et un chiffre réel de ventes facturé équivalent.</span><span class="sxs-lookup"><span data-stu-id="ba504-143">A new unbilled sales actual that is chargeable for the quantity and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-144">Un nouveau chiffre d’affaires réel non facturé qui est facturé pour la quantité restante et le montant après déduction des chiffres corrigés sur le détail de la ligne de facture.</span><span class="sxs-lookup"><span data-stu-id="ba504-144">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ba504-145">Facturation de l’intégralité du crédit d’une transaction avec frais déjà facturée.</span><span class="sxs-lookup"><span data-stu-id="ba504-145">Invoicing the full credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-146">Une annulation des ventes facturées pour les quantités et le montant figurant sur la ligne de facture d’origine pour les frais.</span><span class="sxs-lookup"><span data-stu-id="ba504-146">A billed sales reversal for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-147">Un nouveau chiffre d’affaires non facturé réel pour les quantités et le montant figurant sur la ligne de facture d’origine pour les frais.</span><span class="sxs-lookup"><span data-stu-id="ba504-147">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ba504-148">Facturation du crédit partiel d’une transaction avec frais déjà facturée.</span><span class="sxs-lookup"><span data-stu-id="ba504-148">Invoicing the partial credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-149">Une annulation des ventes facturées pour les quantités et le montant facturé figurant sur la ligne de facture d’origine pour les frais.</span><span class="sxs-lookup"><span data-stu-id="ba504-149">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-150">Un nouveau réel de ventes non facturé qui est facturable pour la quantité et le montant du détail de la ligne de facture corrective modifiée, une contrepassation de ce chiffre et un réel de ventes facturé équivalent.</span><span class="sxs-lookup"><span data-stu-id="ba504-150">A new unbilled sales actual that is chargeable for the quantity and amount on the edited corrective invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="ba504-151">Facturation de l’intégralité du crédit d’un jalon facturé.</span><span class="sxs-lookup"><span data-stu-id="ba504-151">Invoicing the full credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-152">Une annulation des ventes facturées pour le montant figurant sur la ligne de facture d’origine pour le jalon.</span><span class="sxs-lookup"><span data-stu-id="ba504-152">A billed sales reversal for the amount on the original invoice line detail for the milestone.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="ba504-153">Le statut de la facture du jalon <b>Facture client publiée</b> est remplacé par <b>Prêt pour la facturation</b>.</span><span class="sxs-lookup"><span data-stu-id="ba504-153">The invoice status of the milestone is updated from <b>Customer Invoice Posted</b> to <b>Ready to Invoice</b>.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="ba504-154">Facturation du crédit partiel d’un jalon facturé.</span><span class="sxs-lookup"><span data-stu-id="ba504-154">Invoicing the partial credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="ba504-155">Ce scénario n’est pas pris en charge.</span><span class="sxs-lookup"><span data-stu-id="ba504-155">This scenario isn't supported.</span></span>
+                </p>
+            </td>
+        </tr>       
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
