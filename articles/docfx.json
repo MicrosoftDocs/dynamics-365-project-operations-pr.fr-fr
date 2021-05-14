@@ -44,7 +44,11 @@
       "feedback_system": "None",
       "recommendations": "true"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+        "ms.service": {
+            "**.md": "dynamics-365-project-operations"
+        }
+    },
     "template": [],
     "dest": "dynamics-365-project-operations",
     "markdownEngineName": "markdig"
