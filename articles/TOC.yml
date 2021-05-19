@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: "Configurer l’intégration de Project\_Operations par entité juridique"
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Configurer l’intégration à double écriture
+          items:
+            - name: Présentation de l’intégration à double écriture
+              href: environment/resource-dual-write-overview.md
+            - name: Versions du mappage à double écriture Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: Intégration des données de configuration et d’installation Project Operations
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Intégration des estimations et des chiffres réels de projet
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Intégration des factures de projet
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Intégration de la gestion des dépenses
+              href: environment/resource-dual-write-expense.md
+            - name: Intégration des factures fournisseur
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Nouveautés
       items:
         - name: "Avril\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Définir des calendriers de projet
           href: project-management/define-project-calendars.md
+        - name: Modes de planification
+          href: project-management/scheduling-modes.md
         - name: Mettre à jour un projet
           href: project-management/update-project.md
         - name: Copier un projet
@@ -404,6 +422,12 @@
           items:
             - name: Créer et confirmer des journaux de correction
               href: actuals/create-confirm-correction-journals.md
+    - name: Approvisionnement
+      items:
+        - name: Configurer le matériel non stocké et les factures fournisseur en attente
+          href: procurement/configure-materials-nonstocked.md
+        - name: Approvisionner du matériel non stocké pour les projets à l’aide des factures fournisseur en attente
+          href: procurement/pending-vendor-invoices.md
     - name: Facturation
       items:
         - name: Vue d’ensemble du processus de facturation
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurer l’automatisation des factures basées sur des projets
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Gérer des propositions de facture pour un projet
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Comptabilité de projet
       items:
         - name: Valeurs par défaut d’une dimension financière
@@ -676,12 +702,14 @@
           href: project-management/project-management-overview.md
         - name: Phases du projet
           href: project-management/project-stages.md
-        - name: Parcourir l’interface utilisateur
+        - name: Navigation dans l’interface utilisateur
           href: project-management/navigate-ui.md
         - name: Comprendre le statut du projet
           href: project-management/understand-project-status.md
         - name: Définir des calendriers de projet
           href: project-management/define-project-calendars.md
+        - name: Modes de planification
+          hreF: project-management/scheduling-modes.md
         - name: Mettre à jour un projet
           href: project-management/update-project.md
         - name: Copier un projet
@@ -848,6 +876,8 @@
   items:
     - name: Nouveautés
       items:
+        - name: "Nouveautés d’avril\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: "Nouveautés de mars\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: "Nouveautés de janvier\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
@@ -871,9 +901,9 @@
     - name: Configurer et utiliser les paiements fournisseur au moment du paiement
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Allocation des coûts du projet sur les réceptions achat
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Facturation de projet
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Performance de la proposition de facture de projet
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Contrats du projet
@@ -998,6 +1028,8 @@
       items:
         - name: "Calendrier de publication des mises à jour pour Project\_Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_31,\_V3"
+          href: psa/whats-new-ur-31.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_30,\_V3"
           href: psa/whats-new-ur-30.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_29.5 correctif logiciel, V3"
@@ -1327,7 +1359,7 @@
             - name: Afficher l’utilisation des ressources
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Guide du gestionnaire de projet
           items:
             - name: "Guide du gestionnaire de projet (Project\_Service)"
