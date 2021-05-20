@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283770"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948136"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Guide de l’utilisateur du Centre des ressources de projet
 
@@ -48,7 +48,7 @@ Il y a deux sortes de [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-
 ## <a name="install-the-mobile-app"></a>Installer l’application mobile
 Avant de pouvoir commencer à utiliser l’application du Centre des ressources du projet, vous devez installer l’application mobile sur votre appareil. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installer Dynamics 365 pour téléphones et tablettes](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installer Dynamics 365 pour téléphones et tablettes](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Navigation de base
 1.  Lorsque vous vous connectez à l’application mobile, vous voyez la page MyApps avec une liste des applications auxquelles vous accédez. 
@@ -99,7 +99,7 @@ Entrez vos dépenses au moins une fois par semaine - ou à la fréquence demand�
 5. Continuez d’entrer vos dépenses pour la semaine. Lorsque vous avez terminé et que tout semble correct, cliquez sur **Envoyer**. Un directeur examinera et approuvera vos dépenses.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Informations générales sur la manière d’utiliser l’application mobile 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guide des principes de base pour les appareils mobiles](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guide des principes de base pour les appareils mobiles](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Voir aussi  
  [Vue d’ensemble de Project Service](../psa/overview.md)   

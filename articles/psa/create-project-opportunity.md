@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285210"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948191"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Créer une opportunité de projet (Project Service)
 
@@ -39,7 +39,7 @@ Les opportunités sont des prospects intéressés de clients souhaitant s’offr
   
 3.  Dans la zone **Résumé**, entrez l’opportunité de votre société et d’autres données.  
   
-4.  Ajoutez d’éventuelles notes et activités (par exemple, des appels téléphoniques ou des messages électroniques) associées à ce prospect. Pour en savoir plus sur l’ajout de notes et d’activités, voir [Conserver un suivi des notes, tâches, appels, ou messages électronique avec les activités](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Ajoutez d’éventuelles notes et activités (par exemple, des appels téléphoniques ou des messages électroniques) associées à ce prospect. Pour en savoir plus sur l'ajout de notes et d'activités, voir [Conserver un suivi des notes, tâches, appels, ou messages électronique avec les activités](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Pour ajouter des parties prenantes, dans la zone **Parties prenantes**, cliquez sur **+**.  
   

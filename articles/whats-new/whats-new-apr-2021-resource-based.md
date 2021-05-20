@@ -3,18 +3,18 @@ title: Nouveautés d’avril 2021 – Project Operations pour les scénarios b
 description: Cette rubrique fournit des informations sur les mises à jour de qualité disponibles dans la version d’avril 2021 de Project Operations pour les scénarios basés sur les ressources/produits non stockés.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867990"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935471"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés d’avril 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
@@ -33,8 +33,26 @@ Les fonctionnalités suivantes sont incluses dans cette version :
   - Estimation et tarification du matériel non stocké pendant le cycle de vente d’un projet. Pour plus d’informations, consultez [Configurer les taux de coûts et de vente pour les produits du catalogue – Simplifié](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Suivi de l’utilisation du matériel non stocké lors de la livraison de projet. Pour plus d’informations, consultez [Enregistrer l’utilisation du matériel sur les projets et les tâches du projet](../material/material-usage-log.md).
   - Facturation des coûts du matériel non stocké utilisé. Pour plus d’informations, consultez [Gérer la réplication de facturation](../proforma-invoicing/manage-billing-backlog.md).
+  - Pour plus d’informations sur la configuration de cette fonctionnalité, voir [Configurer le matériel non stocké et les factures fournisseur en attente](../procurement/configure-materials-nonstocked.md)
 - Facturation basée sur les tâches : ajout de la possibilité d’associer des tâches de projet à des lignes de contrat du projet, en les soumettant ainsi à la même méthode de facturation, à la même fréquence de facturation et aux mêmes clients que celles de la ligne de contrat. Cette association garantit une facturation, une comptabilité, une estimation des revenus et une reconnaissance précises pour fonctionner conformément à cette configuration sur les tâches du projet.
 - Les nouvelles API dans Dynamics 365 Dataverse autorisent les opérations de création, de mise à jour et de suppression avec des **Entités de planification**. Pour plus d’informations, consultez [Utiliser les API de planification pour effectuer des opérations avec des entités de planification](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Mises à jour des mappages à double écriture Project Operations
+
+La liste suivante répertorie les mappages à double écriture qui ont été modifiés ou ajoutés dans la version d’avril 2021 de Project Operations.
+
+| **Mappage d’entité** | **Version mise à jour** | **Commentaires** |
+| --- | --- | --- |
+| Chiffres réels d’intégration Project Operations (msdyn\_actuals) | 1.0.0.14 | Mappage modifié pour synchroniser les chiffres réels du projet de matériel. |
+| Entité d’intégration de Project Operations pour les estimations de dépenses (msdyn\_estimateslines) | 1.0.0.2 | Ajout de la synchronisation des lignes de contrat de projet avec les applications Finance and Operations pour un support de facturation basé sur les tâches. |
+| Entité d’intégration de Project Operations pour les estimations d’heures (msdyn\_resourceassignments) | 1.0.0.5 | Ajout de la synchronisation des lignes de contrat de projet avec les applications Finance and Operations pour un support de facturation basé sur les tâches. |
+| Table Intégration de Project Operations pour les estimations de matériel (msdyn\_estimatelines) | 1.0.0.0 | Nouveau mappage de table pour synchroniser les estimations de matériel de Dataverse avec les applications Finance and Operations. |
+| Entité d’exportation des factures fournisseur de projet d’intégration de Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nouveau mappage de table pour synchroniser les en-têtes de facture fournisseur des applications Finance and Operations avec Dataverse. |
+| Entité d’exportation des lignes de facture fournisseur de projet d’intégration de Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nouveau mappage de table pour synchroniser les lignes de facture fournisseur des applications Finance and Operations avec Dataverse. |
+
+Vous devez toujours exécuter la dernière version du mappage dans votre environnement et activer tous les mappages de table associés lorsque vous mettez à jour votre solution Dataverse Project Operations et la version de la solution Finance and Operations. Certaines fonctionnalités et capacités peuvent ne pas fonctionner correctement si la dernière version du mappage n’est pas activée. Vous pouvez voir la version active du mappage dans la colonne **Version** de la page **Double écriture**. Vous pouvez activer une nouvelle version du mappage en sélectionnant **Versions du mappage de table**, en sélectionnant la dernière version, puis en enregistrant la version sélectionnée. Si vous avez personnalisé un mappage de table prêt à l’emploi, réappliquez les modifications. Pour en savoir plus, voir [Cycle de vie de l’application](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Si vous rencontrez un problème lors du démarrage du mappage, suivez les instructions de la section [Problème de colonnes de table manquantes sur les mappages](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) du guide de dépannage consacré à la double écriture.
 
 ## <a name="quality-updates"></a>Mises à jour qualité
 
@@ -67,7 +85,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 
 | **Fonctionnalités** | **Numéro de référence** | **Mise à jour qualité** |
 | --- | --- | --- |
-| Gestion et comptabilité des projets | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | L’inversion de l’élimination des estimations ne fonctionne pas dans **Périodique**.  |
+| Gestion et comptabilité des projets | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | L'élimination des estimations inversées ne fonctionne pas dans la section **Périodique**.  |
 | Gestion et comptabilité des projets | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | La fonctionnalité **Ajustement comptable** crée un problème avec les comptes généraux pour lesquels l’option **Ne pas autoriser la saisie manuelle** est sélectionnée. |
 | Gestion et comptabilité des projets | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Ajout d’une logique métier pour traiter les factures de correction, y compris le montant de la provision ou le montant appliqué de la provision. |
 | Gestion et comptabilité des projets | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | La validation d'une valeur de vente TEC dans la facturation de projets intersociétés sélectionne un compte inattendu. |

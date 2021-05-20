@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 7357e9a8c8c6294c0a395a80287bb7eeb5c47d85
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664086"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948281"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>Détails d’en-tête pour les opportunités basées sur un projet
 
@@ -35,7 +35,7 @@ Le tableau suivant inclut les champs d’une opportunité basée sur un projet q
 | Gestionnaire de comptes | Onglet Général | Nom du Gestionnaire de compte de cette opportunité basée sur un projet. | Le gestionnaire de compte est responsable de la gestion de la relation avec le client jusqu’à la réalisation de ce projet. En fonction de l’enregistrement de ressource réservable lié au gestionnaire du compte, l’unité contractuelle utilise par défaut. |
 | Unité contractuelle | Onglet Général | Unité d’organisation responsable de la livraison du ou des projets associés à cette transaction. | L’unité contractuelle est la division de l’entreprise qui terminera les projets après la conclusion de la transaction. Chaque unité contractuelle dispose d’une devise, et cette devise est utilisée pour déclarer les coûts estimés et réels engagés pendant le projet. |
 
-Pour tous les autres champs et sections de l’onglet **Résumé** de l’opportunité, voir [Créer ou modifier des opportunités (Ventes et Centre des ventes)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+Pour tous les autres champs et sections de l’onglet **Résumé** de l’opportunité, voir [Créer ou modifier des opportunités (Ventes et Centre des ventes)](/dynamics365/sales-enterprise/create-edit-opportunity-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

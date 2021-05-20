@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 95a9251707de3699322471535aa93070ba4fb2ae
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 4d114ee64bd26d3271a1c72a7404c0f7035c2b61
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499997"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948056"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de mars 2021 – Project Operations pour les scénarios selon les ressources/produits non stockés
 
@@ -50,7 +50,7 @@ Pour plus d’informations, voir [Nouveautés de janvier 2021 – Project Oper
 
 ## <a name="regulatory-updates"></a>Mises à jour réglementaires
 
-Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Une autre façon d’en savoir plus sur les mises à jour réglementaires consiste à vous connecter à LCS et à afficher les mises à jour réglementaires prévues à l’aide de l’outil de recherche de problèmes. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Une autre façon d’en savoir plus sur les mises à jour réglementaires consiste à vous connecter à LCS et à afficher les mises à jour réglementaires prévues à l’aide de l’outil de recherche de problèmes. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

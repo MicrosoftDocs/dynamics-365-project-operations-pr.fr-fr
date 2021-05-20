@@ -3,17 +3,17 @@ title: Créer des factures clients et fournisseurs intersociétés
 description: Cette rubrique fournit des informations sur la manière de créer des factures clients et fournisseurs intersociétés.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287460"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948388"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Créer des factures clients et fournisseurs intersociétés
 
@@ -25,7 +25,9 @@ Le comptable de projet de l'entité juridique prêteuse peut configurer un trait
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Créer manuellement une facture client intersociétés pour les transactions de projet 
 
-Utilisez cette procédure pour créer manuellement une facture client intersociétés pour les transactions de projet. Recherchez les heures qui ont été validées par des collaborateurs sur des projets dans les entités juridiques emprunteuses et les dépenses engagées par votre entité juridique pour le compte d'entités juridiques emprunteuses. Vous pouvez effectuer une recherche par nom d'entité juridique, numéro de contrat de projet, numéro de projet, plage de dates ou toute combinaison de ces options. Dans les résultats de la recherche, sélectionnez les transactions à ajouter à une facture intersociétés.
+Utilisez cette procédure pour créer manuellement une facture client intersociétés pour les transactions de projet. Recherchez les heures qui ont été validées par des collaborateurs sur des projets dans les entités juridiques emprunteuses et les dépenses engagées par votre entité juridique pour le compte d'entités juridiques emprunteuses. Vous pouvez effectuer une recherche par nom d'entité juridique, numéro de contrat de projet, numéro de projet, plage de dates ou toute combinaison de ces options. Dans les résultats de la recherche, sélectionnez les transactions à ajouter à une facture intersociétés. 
+
+Les étapes suivantes doivent être effectuées dans l’entité juridique prêteuse. 
 
 1. Dans Dynamics 365 Finance, accédez à **Gestion et comptabilité des projets** > **Factures de projet** > **Factures clients intersociétés**. Sur la page de liste **Factures clients intersociétés**, dans le volet Actions, sélectionnez **Nouveau.**
 2. Sur la page **Créer une facture intersociétés**, dans le champs **Entité juridique**, sélectionnez une entité juridique emprunteuse.
@@ -35,9 +37,9 @@ Utilisez cette procédure pour créer manuellement une facture client intersoci�
 6. Dans les résultats de la recherche, sélectionnez les transactions à inclure dans la proposition de facture intersociétés, puis sélectionnez **OK**.
 7. Sur la page **Facture client intersociétés**, les transactions de projet intersociétés que vous avez sélectionnées dans les résultats de la recherche s'affichent. Pour modifier les transactions avant d'envoyer la facture à l'entité juridique emprunteuse, procédez comme suit :
   
-    1. Ouvrez la page **Créer une proposition de facture**. Sélectionnez des transactions intersociétés supplémentaires pour la facture actuelle, puis sélectionnez **Ajouter une ligne**.
+    1. Sur la page **Facture client intersociétés**, ouvrez les détails de la facture, puis sélectionnez **Ajouter une ligne**.
     2. Pour supprimer une ligne, sélectionnez-la, puis cliquez sur **Supprimer**.
-    3. Afficher des commentaires, des raisons, des dimensions financières et d'autres informations au sujet d'une ligne sélectionnée sur le raccourci **Lignes de facture**.
+    3. Affichez les commentaires, les raisons, les dimensions financières et d’autres informations sur une ligne sélectionnée dans les détails de la ligne de facture.
     
 8. Pour valider la facture client intersociétés, sélectionnez **Valider** dans le volet Actions.
 
@@ -52,7 +54,7 @@ Vous pouvez créer plusieurs factures intersociétés en même temps pour toutes
 2. Sur la page **Créer des factures clients et fournisseurs intersociétés**, dans le champs **Société**, sélectionnez une entité juridique à facturer. Si vous ne sélectionnez pas de société, toutes les transactions qui répondent aux critères de recherche sont affichées pour toutes les entités juridiques emprunteuses.
 3. Dans **Créer une facture par**, indiquez si vous souhaitez créer une facture pour les transactions intersociétés basées sur un projet ou sur une entité juridique emprunteuse.
 4. Facultatif : pour sélectionner un projet et un contrat de projet spécifiques pour lesquels créer des factures intersociétés, cliquez sur **Sélectionner**. Sur la page **Demande**, dans le champ **Critères**, sélectionnez le contrat de projet, le numéro de projet ou les deux, puis sélectionnez **OK**.
-5. Sur l'onglet **Lot**, configurez un traitement par lots pour créer des factures intersociétés de manière récurrente. Pour plus d'informations, voir [Soumettre une tâche de traitement par lots à partir d'un formulaire](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Sur l'onglet **Lot**, configurez un traitement par lots pour créer des factures intersociétés de manière récurrente. Pour plus d'informations, voir [Soumettre une tâche de traitement par lots à partir d'un formulaire](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Pour valider les factures client intersociétés, sélectionnez **Valider** dans le volet Actions.
 
 > [!NOTE]

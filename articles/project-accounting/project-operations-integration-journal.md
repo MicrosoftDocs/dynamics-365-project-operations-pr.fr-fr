@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287235"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948327"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal d’intégration dans Project Operations
 
@@ -38,7 +38,7 @@ Le système regroupe les lignes de journal dans des journaux distincts en foncti
 Les lignes de journal sont créées en fonction des chiffres réels du projet. La liste suivante comprend certaines des règles par défaut et de transformation les plus importantes :
 
   - Chaque transaction réelle de projet figure sur une ligne dans le journal d’intégration de Project Operations. Les transactions de coût et de vente non facturées pour le type de facturation Temps et matériel sont affichées sur des lignes séparées.
-  - Le champ **Date** représente la date de la transaction. Le champ **Date comptable** représente la date à laquelle la transaction est enregistrée dans le registre. Si la date comptable est dans une [période comptable close](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), et que le paramètre **Définir automatiquement la date comptable pour ouvrir la période comptable** est défini sur l’onglet **Finance** de la page **Paratèmetres de gestion de projet et comptabilité**, le système ajustera la date comptable de la transaction à la première date de la prochaine période comptable ouverte.
+  - Le champ **Date** représente la date de la transaction. Le champ **Date comptable** représente la date à laquelle la transaction est enregistrée dans le registre. Si la date comptable est dans une [période comptable close](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), et que le paramètre **Définir automatiquement la date comptable pour ouvrir la période comptable** est défini sur l’onglet **Finance** de la page **Paratèmetres de gestion de projet et comptabilité**, le système ajustera la date comptable de la transaction à la première date de la prochaine période comptable ouverte.
   - Le champ **N° document** affiche le numéro de document de chaque transaction réelle. La séquence de numéros de document est définie sous l’onglet **Séquences de numéros**, dans la page **Paramètres de gestion de projet et comptabilité**. Un nouveau numéro est attribué à chaque ligne. Une fois le document publié, vous pouvez voir comment le coût et la transaction de vente non facturée sont associés en sélectionnant **Documents associés** sur la page **N° document de transaction**.
   - Le champ **Catégorie** représente une transaction de projet et les valeurs par défaut basées sur la catégorie de transaction pour le chiffre réel associé du projet.
     - Si **Catégorie de transaction** est défini dans le chiffre réel d’un projet et qu’une **Catégorie de projet** existe dans une entité juridique donnée, la catégorie par défaut est cette catégorie de projet.
