@@ -1,9 +1,9 @@
 ---
 title: Définir des calendriers de projet
-description: Cette rubrique fournit des informations sur l’utilisation d’un calendrier pour suivre l’avancée d’un projet.
+description: Cette rubrique fournit des informations sur la façon d’appliquer un modèle de calendrier à un projet pour suivre la planification du projet.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286965"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981297"
 ---
 # <a name="define-project-calendars"></a>Définir des calendriers de projet
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Pour créer une planification de projet, créez un modèle de calendrier de projet qui définit le nombre d’heures de travail par jour et les heures de fermeture. Pour créer un modèle de calendrier de projet, vous associez un modèle de travail au champ **Modèle de calendrier** du projet. Pour créer un modèle de travail, procédez comme suit.
+Pour créer et gérer un projet, vous devez appliquer un modèle de calendrier au projet. Le modèle de calendrier définit les attributs de projet suivants :
 
-1. Sélectionnez **Ressources** dans le volet de navigation de gauche. 
-2. Sur la page de liste **Ressources**, ouvrez enregistrement utilisateur, puis sélectionnez **Afficher les heures de travail**.
+- Heures de travail, y compris l’heure de début et l’heure de fin
+- Jours de travail
+- Exceptions de calendrier, par exemple les jours non ouvrés
 
-  > [!NOTE]
-  > Vérifiez que vous autorisez les fenêtres contextuelles sur la page de navigateur. Cela vous permet de voir les heures de travail définies pour la ressource.
-  
-3. Dans l’onglet **Vue mensuelle**, cliquez sur **Configuration**. Une liste de trois options apparaît : 
+Le modèle de calendrier appliqué à un projet est une copie du modèle de calendrier défini dans les paramètres de votre organisation.
 
-  - Nouvelle planification hebdomadaire
-  - Planification des tâches sur un jour
-  - Absence
+> [!NOTE]
+> Si vous modifiez le modèle de calendrier, ces modifications ne se propagent pas aux heures de travail du projet. Pour modifier les heures de travail du projet, un nouveau modèle doit être appliqué.
 
-4. Sélectionnez **Nouvelle planification hebdomadaire**, puis définissez les options de cette planification de ressource. Vous pouvez définir une planification hebdomadaire récurrente, des paramètres d’heure quotidiens, des fermetures de bureaux, et plus encore.
-5. Définissez la plage de dates, la sélectionnez **Enregistrer**, puis cliquez sur **Fermer**. 
-6. Revenez à la page de liste **Ressources**, puis sélectionnez la ressource pour laquelle vous avez défini les heures de travail. 
-7. Sélectionnez **Définir le calendrier comme** pour définir le modèle de travail. 
-8. Dans la boîte de dialogue **Modèle de travail**, entrez le nom pour le modèle de travail, puis sélectionnez **Appliquer**. 
+Pour créer un modèle de calendrier pour votre organisation, il existe deux exigences clés :
+
+- Définissez les heures de travail souhaitées du modèle à l’aide d’une ressource réservable nouvelle ou existante.
+- Créez un nouveau modèle de calendrier et associez le modèle à la ressource réservable.
+
+**Définir les heures de travail du modèle**
+
+1. Accédez à **Ressources** \> **Ressources**.
+2. Créez une nouvelle ressource à référencer dans le modèle de calendrier ou sélectionnez une ressource existante.
+3. Sélectionnez l’onglet **Heures de travail** de la ressource et suivez les instructions dans [Définition des heures de travail pour une ressource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) pour configurer les règles du calendrier.
+
+**Créer un modèle de calendrier**
+
+1. Accédez à **Paramètres** \> **Modèle de calendrier**.
+2. Sélectionnez **Nouveau** et entrez un nom, une description et une ressource de modèle.
+
+> [!NOTE]
+> Lorsqu’une ressource est référencée dans un modèle de calendrier, une copie du calendrier de la ressource est associée au modèle de calendrier. Si vous modifiez les heures de travail du modèle de calendrier, ces modifications ne se propagent pas au modèle de calendrier.
 
 Vous pouvez désormais associer le modèle de travail à un modèle de calendrier de projet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
