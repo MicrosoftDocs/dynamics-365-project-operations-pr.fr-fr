@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283365"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951521"
 ---
 # <a name="dashboards"></a>Tableaux de bord
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation comprend deux tableaux de bord système�
 
 ## <a name="practice-manager"></a>Gestionnaire des recommandations 
 
-Le tableau de bord **Gestionnaire des recommandations** offre aux gestionnaires des recommandations une expérience de tableau de bord graphique pour le suivi des coûts, des ventes, de la marge brute et de l’utilisation. Il permet également aux gestionnaires des recommandations de découper les informations par tranches de diverses dimensions, telles que le client, le projet ou le rôle de la ressource. Pour obtenir plus d’informations sur la création de tableaux de bord personnalisés, voir [Créer ou modifier des tableaux de bord](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Le tableau de bord **Gestionnaire des recommandations** offre aux gestionnaires des recommandations une expérience de tableau de bord graphique pour le suivi des coûts, des ventes, de la marge brute et de l’utilisation. Il permet également aux gestionnaires des recommandations de découper les informations par tranches de diverses dimensions, telles que le client, le projet ou le rôle de la ressource. Pour obtenir plus d'informations sur la création de tableaux de bord personnalisés, voir [Créer ou modifier des tableaux de bord](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Gestionnaire des ressources 
 

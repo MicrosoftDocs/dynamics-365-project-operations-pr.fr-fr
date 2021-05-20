@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289771"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950441"
 ---
 # <a name="project-management-and-accounting-overview"></a>Vue d‘ensemble de gestion de projets et compatibilité
 
@@ -52,13 +52,13 @@ Comme le montre l’illustration précédente, la fonctionnalité Gestion de pro
 3.  Analyser
 
 ## <a name="initiate-the-project"></a>Lancer le projet
-Lors du lancement du projet, plusieurs processus clés se produisent. Vous pouvez utiliser un devis de projet pour communiquer l’estimation de la main-d’œuvre, des dépenses et des matériaux au client. Vous pouvez enregistrer les conditions de facturation, les limites et les accords dans un contrat de projet. Vous pouvez utiliser une structure de répartition du travail pour planifier et estimer le travail. Vous pouvez configurer des prévisions et des budgets pour guider l’exécution du projet. L’illustration suivante présente la structure d’un projet.[![structure du projet](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Lors du lancement du projet, plusieurs processus clés se produisent. Vous pouvez utiliser un devis de projet pour communiquer l’estimation de la main-d’œuvre, des dépenses et des matériaux au client. Vous pouvez enregistrer les conditions de facturation, les limites et les accords dans un contrat de projet. Une structure de répartition du travail (WBS) peut être utilisée pour planifier et estimer le travail. Vous pouvez configurer des prévisions et des budgets pour guider l’exécution du projet. L’illustration suivante présente la structure d’un projet.[![structure du projet](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Créer des devis de projet
 
 Dans la phase de vente initiale d’un projet, un devis de projet vous permet de proposer à un client une offre sans engagement. Un devis peut inclure des articles, tels que les articles et services proposés, les coordonnées de base, les accords commerciaux spéciaux et les remises, ainsi que les éventuelles taxes et surtaxes.
 
-Vous pouvez également émettre une lettre de garantie pour une transaction de devis de projet entre votre organisation et le client. Une fois l’offre de projet créée, vous pouvez créer la demande de lettre de garantie pour le client et la soumettre à la banque. Une fois que la banque a approuvé la demande, la lettre de garantie est délivrée au client. 
+Vous pouvez également émettre une lettre de garantie pour une transaction de devis de projet entre votre organisation et le client. Une fois le devis de projet créé, vous pouvez créer la demande de lettre de garantie pour le client et la soumettre à la banque. Une fois que la banque a approuvé la demande, la lettre de garantie est délivrée au client. 
 
 Pour plus d’informations, voir [Devis du projet](project-quotations.md).
 
@@ -80,7 +80,7 @@ Vous pouvez utiliser les prévisions si votre organisation a une perspective op�
 
 ### <a name="create-projects"></a>Créer des projets
 
-Vous pouvez créer six types de projets dans Finance. Chaque type de projet est configuré différemment pour la comptabilisation des coûts et des revenus. Le type de projet que vous choisissez dépend de l’objectif du projet. Le tableau suivant décrit l’utilisation type de chaque type de projet.
+Vous pouvez créer six types de projets dans Finance. Chaque type de projet est configuré différemment pour la constatation des coûts et du produit. Le type de projet que vous choisissez dépend de l’objectif du projet. Le tableau suivant décrit l’utilisation type de chaque type de projet.
                                                                                                             
 <table>
   <tr>
@@ -93,23 +93,23 @@ Vous pouvez créer six types de projets dans Finance. Chaque type de projet est 
   </tr>
   <tr>
     <td>Prix fixe</td>
-    <td>Dans les projets à prix fixe, les factures consistent en des transactions de compte. Un projet à prix fixe est facturé selon un calendrier de facturation basé sur un contrat de projet. Les revenus d’un projet à prix fixe peuvent être calculés et comptabilisés tout au long du projet via la méthode du pourcentage atteint. Sinon, les revenus peuvent être calculés et comptabilisés à l’issue du projet, via la méthode du contrat exécuté. Les entreprises peuvent souvent tirer profit de l’utilisation de la valeur des travaux en cours pour calculer le degré d’exécution d’un projet ou d’un groupe de projets.</td>
+    <td>Dans les projets à prix fixe, les factures se composent de transactions en compte. Un projet à prix fixe est facturé selon un calendrier de facturation basé sur un contrat de projet. Le produit d’un projet à prix fixe peut être calculé et validé tout au long du projet à l’aide de la méthode Pourcentage d’achèvement. Sinon, les revenus peuvent être calculés et comptabilisés à l’issue du projet, via la méthode du contrat exécuté. Les entreprises peuvent souvent tirer profit de l’utilisation de la valeur des travaux en cours pour calculer le degré d’exécution d’un projet ou d’un groupe de projets.</td>
   </tr>
   <tr>
     <td>Investissement</td>
-    <td>Les projets d’investissement sont des projets qui ne produisent pas de bénéfices immédiats. Ils sont généralement utilisés pour des projets internes à long terme où les coûts doivent être capitalisés. Seuls les coûts d’articles, d’heures et de dépenses peuvent être enregistrés pour un projet d’investissement. Les coûts d’un projet d’investissement sont suivis et contrôlés à l’aide de la fonctionnalité d’estimation. Les projets d’investissement peuvent être mis en place avec une capitalisation maximale optionnelle. Au fur et à mesure qu’un projet d’investissement progresse, vous enregistrez ses coûts dans des comptes de travaux en cours, où les coûts sont conservés jusqu’à ce que le projet soit exécuté. Une fois le projet éliminé, vous transférez la valeur des travaux en cours vers une immobilisation, un compte général ou un nouveau projet. <br></br> <strong>REMARQUE :</strong> Les transactions sur les projets d’investissement ne sont pas affichées sur la page <strong>Valider les coûts<strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
+    <td>Les projets d’investissement sont des projets qui ne produisent pas de bénéfices immédiats. Ils sont généralement utilisés pour des projets internes à long terme où les coûts doivent être capitalisés. Seuls les coûts associés aux articles, heures et dépenses peuvent être enregistrés pour un projet d’investissement. Les coûts d’un projet d’investissement sont suivis et contrôlés à l’aide de la fonctionnalité d’estimation. Les projets d’investissement peuvent être configurés avec une capitalisation maximale facultative. Au fil de l’avancement d’un projet d’investissement, vous enregistrez ses coûts sur des comptes TEC, où les coûts sont conservés jusqu’à l’achèvement du projet. Une fois le projet éliminé, vous transférez la valeur des travaux en cours vers une immobilisation, un compte général ou un nouveau projet. <br></br> <strong>REMARQUE :</strong> Les transactions sur les projets d’investissement ne sont pas affichées sur la page <strong>Valider les coûts<strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
   </tr>
   <tr>
     <td>Projet de coût</td>
-    <td>Tout comme les projets Investissement, les projets Coût sont généralement utilisés pour suivre les projets internes, et seuls les heures, les dépenses et les articles peuvent être enregistrés dans ce cadre. Cependant, les projets Coût sont généralement de durée plus courte que les projets Investissement. De plus, contrairement aux projets Investissement, les projets Coût ne peuvent pas être capitalisés dans les comptes de bilan. À la place, leurs transactions de projet sont enregistrées uniquement dans les comptes de résultat. <br></br> <strong>REMARQUE :</strong> Les transactions sur les projets Coût ne sont pas affichées sur la page <strong>Valider les coûts</strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>. Puisque les projets Coût sont généralement utilisés pour suivre les projets internes, ils ne doivent généralement pas être associés à un compte client. Cependant, si votre configuration nécessite que des demandes d’article soient créées pour les commandes achat, vous devez associer le projet Coût à un client. Cette association est obligatoire, car les besoins en articles sont gérés comme des lignes de commande client et le système exige qu’un client soit spécifié. Cependant, cette configuration n’entraînera pas la création automatique des demandes d’article à partir d’une commande achat. Pour les projets Coût, le paramètre <strong>Créer une demande d’article</strong> est ignoré. Si vous avez besoin d’une demande d’article dans un projet Coût, vous pouvez la créer manuellement, à condition qu’un client soit associé au projet.</td>
+    <td>Comme les projets d’investissement, les projets de coût permettent généralement de suivre les projets internes, et seuls les heures, les dépenses et les articles peuvent être enregistrés pour eux. Cependant, la durée des projets de coût est généralement plus courte que celle des projets d’investissement. De plus, contrairement aux projets d’investissement, les projets de coût ne peuvent pas être capitalisés dans les comptes de bilan. À la place, leurs transactions de projet sont enregistrées uniquement dans les comptes de résultat. <br></br> <strong>REMARQUE :</strong> Les transactions sur les projets Coût ne sont pas affichées sur la page <strong>Valider les coûts</strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>. Comme les projets de coût permettent généralement de suivre les projets internes, ils ne doivent généralement pas être associés à un compte client. Cependant, si votre configuration nécessite que des demandes d’articles soient créées pour des commandes fournisseur, vous devez associer le projet de coût concerné à un client. Cette association est obligatoire, car les demandes d’articles sont gérées en tant que lignes commande client et le système exige qu’un client soit spécifié. Cependant, cette configuration n’entraîne pas la création automatique des demandes d’articles à partir d’une commande fournisseur. Pour les projets Coût, le paramètre <strong>Créer une demande d’article</strong> est ignoré. Si vous avez besoin d’une demande d’article dans un projet de coût, vous pouvez la créer manuellement, à condition qu’un client soit associé au projet.</td>
   </tr>
   <tr>
     <td>Interne</td>
-    <td>Les projets internes sont utilisés pour suivre les coûts d’un projet interne à votre organisation. Les projets internes peuvent fournir un outil de planification pour gérer la consommation des ressources. <br></br><strong>REMARQUE :<strong> Les transactions sur les projets internes ne sont pas affichées sur la page <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
+    <td>Les projets internes permettent de suivre les coûts d’un projet interne pour votre organisation. Les projets internes peuvent fournir un outil de planification pour gérer la consommation des ressources. <br></br><strong>REMARQUE :<strong> Les transactions sur les projets internes ne sont pas affichées sur la page <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
   </tr>
   <tr>
-    <td>Time</td>
-    <td>Les projets Temps sont utilisés pour suivre le temps associé à des activités non facturables et non productives, comme un projet pour suivre les congés maladie des employés. Les transactions des projets Temps ne sont pas validées en comptabilité. À la place, elles sont incluses dans les rapports d’utilisation des employés. Seules les transactions horaires peuvent être enregistrées dans les projets Temps. Vous utilisez un journal d’heures ou une feuille de temps pour enregistrer ces heures dans le projet. Une fois les heures enregistrées, elles apparaissent comme des transactions de projet, mais n’ont pas de transactions de bons correspondants. <br></br><strong>REMARQUE :</strong> Les transactions sur les projets Temps ne sont pas affichées sur la page <strong>Valider les coûts</strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
+    <td>Temps</td>
+    <td>Les projets de temps permettent de suivre la durée associé à des activités non facturables et non productives, comme un projet de suivi des congés de maladie des collaborateurs. Les transactions des projets de temps ne sont pas validées dans la comptabilité. À la place, elles sont incluses dans les états sur l’utilisation des collaborateurs. Seules les transactions d’heures peuvent être enregistrées pour les projets de temps. Vous utilisez un journal d’heures ou une feuille de temps pour enregistrer ces heures dans le projet. Une fois les heures enregistrées, elles apparaissent comme des transactions de projet, mais n’ont pas de transactions de bons correspondants. <br></br><strong>REMARQUE :</strong> Les transactions sur les projets Temps ne sont pas affichées sur la page <strong>Valider les coûts</strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
   </tr>
 </table>
 
@@ -227,7 +227,7 @@ Le type de projet détermine la procédure de facturation à appliquer. Seuls le
 Avant de créer une facture client pour un projet, vous pouvez créer une facture préliminaire ou une proposition de facture. Dans une proposition de facture, vous pouvez sélectionner des transactions de projet à inclure dans une facture de projet. Vous pouvez ensuite consulter les détails de la facture avant de valider la facture du projet et de l’envoyer au client ou à une autre source de financement. 
 
 
-Pour plus d’informations sur le traitement des factures d’un projet, consultez [Facturation du projet](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Pour plus d’informations sur le traitement des factures d’un projet, consultez [Facturation du projet](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calculer le coût pour terminer un projet
@@ -285,7 +285,7 @@ Finance ne diminue pas automatiquement les estimations prévues. Par conséquent
 ## <a name="analyze-the-project"></a>Analyser le projet
 À son niveau le plus élémentaire, un projet est utilisé pour regrouper les transactions qui enregistrent les coûts, puis les enregistrer en comptabilité. 
 
-En général, ces transactions résultent de documents commerciaux, tels que des feuilles de temps, des notes de frais, des factures fournisseurs ou des transactions de stock. Le cycle de vie d’un projet commence généralement par des estimations, des prévisions et des budgets qui permettent de planifier et d’anticiper les travaux et l’impact financier du projet. Lorsque vous analysez un projet, vous pouvez évaluer non seulement les transactions qui se sont produites au cours du projet, mais également l’exactitude de vos estimations et prévisions, les taux d’utilisation des membres de l’équipe de projet et le succès global du projet.
+En général, ces transactions résultent de documents commerciaux, tels que des feuilles de temps, des notes de frais, des factures fournisseurs ou des mouvements de stock. Le cycle de vie d’un projet commence généralement par des estimations, des prévisions et des budgets qui permettent de planifier et d’anticiper les travaux et l’impact financier du projet. Lorsque vous analysez un projet, vous pouvez évaluer non seulement les transactions qui se sont produites au cours du projet, mais également l’exactitude de vos estimations et prévisions, les taux d’utilisation des membres de l’équipe de projet et le succès global du projet.
 
 ### <a name="analyze-cash-flow"></a>Analyser les flux de trésorerie
 

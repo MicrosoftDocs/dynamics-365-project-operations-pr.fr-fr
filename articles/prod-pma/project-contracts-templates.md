@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289591"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950396"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronisation des contrats de projet et des projets directement depuis Project Service Automation vers Finance 
 
@@ -109,8 +109,8 @@ Lorsque la solution d’intégration Project Service Automation vers Finance e
 ## <a name="prerequisites-and-mapping-setup"></a>Prérequis et configuration de mappage
 
 - Avant que la synchronisation des contrats de projet et des projets puisse avoir lieu, vous devez synchroniser les comptes.
-- Dans votre jeu de connexions, ajoutez un mappage de champ de clé d’intégration pour **msdyn\_organizationalunits** à **msdyn\_name \[Name\]**. Vous devrez peut-être d’abord ajouter un projet à l’ensemble de connexions. Pour plus d’informations, consultez [Intégrer les données dans Common Data Service pour les applications](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Dans votre jeu de connexions, ajoutez un mappage de champ de clé d’intégration pour **msdyn\_projects** à **msdynce\_projectnumber \[Project Number\]**. Vous devrez peut-être d’abord ajouter un projet à l’ensemble de connexions. Pour plus d’informations, consultez [Intégrer les données dans Common Data Service pour les applications](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Dans votre jeu de connexions, ajoutez un mappage de champ de clé d’intégration pour **msdyn\_organizationalunits** à **msdyn\_name \[Name\]**. Vous devrez peut-être d’abord ajouter un projet à l’ensemble de connexions. Pour plus d’informations, consultez [Intégrer les données dans Common Data Service pour les applications](/powerapps/administrator/data-integrator).
+- Dans votre jeu de connexions, ajoutez un mappage de champ de clé d’intégration pour **msdyn\_projects** à **msdynce\_projectnumber \[Project Number\]**. Vous devrez peut-être d’abord ajouter un projet à l’ensemble de connexions. Pour plus d’informations, consultez [Intégrer les données dans Common Data Service pour les applications](/powerapps/administrator/data-integrator).
 - **SourceDataID** pour les contrats de projet et les projets peuvent être mis à jour à une valeur différente ou supprimés du mappage. La valeur par défaut du modèle est **Project Service Automation**.
 - Le mappage **PaymentTerms** doit être mis à jour afin de refléter les conditions de paiement valides dans Finance. Vous pouvez également supprimer le mappage de la tâche de projet. La carte de valeur par défaut a des valeurs par défaut pour les données de démonstration. Le tableau suivant montre les valeurs dans Project Service Automation.
 
@@ -131,7 +131,7 @@ Utilisez Microsoft Power Query pour Excel pour filtrer les données si les condi
 Si vous devez utiliser Power Query, suivez ces instructions :
 
 - Le modèle Projets et contrats (PSA vers Fin and Ops) a un filtre par défaut qui inclut uniquement les commandes client de type **Élément de travail (msdyn\_ordertype = 192350001)**. Ce filtre permet de garantir que les contrats de projet ne sont pas créés pour les commandes client dans Finance. Si vous créez votre propre modèle, vous devez ajouter ce filtre.
-- Créez un filtre Power Query qui inclut uniquement les organisations contractuelles qui doivent être synchronisées avec l'entité juridique de l'ensemble de connexions d'intégration. Par exemple, les contrats de projet que vous avez avec l’unité d’organisation de contrat de Contoso US doivent être synchronisés avec l’entité juridique USSI, mais les contrats de projet que vous avez avec l’unité d’organisation de contrat de Contoso Global doivent être synchronisés avec l’entité juridique USMF. Si vous n’ajoutez pas ce filtre à votre mappage de tâches, tous les contrats de projet seront synchronisés avec l’entité juridique définie pour l’ensemble de connexions, quelle que soit l’unité d’organisation du contrat.
+- Créez un filtre Power Query qui inclut uniquement les organisations contractuelles qui doivent être synchronisées avec l'entité juridique de l'ensemble de connexions d'intégration. Par exemple, les contrats de projet dont vous disposez avec l’unité d’organisation de contrat de Contoso États-Unis doivent être synchronisés avec l’entité juridique USSI, mais les contrats de projet dont vous disposez avec l’unité d’organisation de contrat de Contoso Global doivent être synchronisés avec l’entité juridique USMF. Si vous n’ajoutez pas ce filtre à votre mappage de tâches, tous les contrats de projet seront synchronisés avec l’entité juridique définie pour l’ensemble de connexions, quelle que soit l’unité d’organisation du contrat.
 
 ## <a name="template-mapping-in-data-integration"></a>Mappage de modèles dans l’intégration de données
 

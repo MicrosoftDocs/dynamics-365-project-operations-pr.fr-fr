@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c434356c08e8490931bd60ea5b10fe2706cb0f51
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271575"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951071"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importer et gérer les transactions par carte de crédit
 
 Les transactions par carte de crédit liées aux dépenses peuvent être configurées afin d'être automatiquement importées selon un calendrier récurrent. Les transactions peuvent également être importées manuellement selon les besoins. Les transactions par carte de crédit sont importées via l'entité de données Transactions par carte de crédit.
 
-Pour plus d'informations sur les entités de données, voir [Entités de données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Pour plus d'informations sur les entités de données, voir [Entités de données](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Importer des transactions par carte de crédit
 

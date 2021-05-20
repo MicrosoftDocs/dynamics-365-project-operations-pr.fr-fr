@@ -3,17 +3,17 @@ title: Gérer des propositions de facture pour un projet
 description: Cette rubrique fournit des détails sur le traitement des factures client avec Project Operations pour les scénarios basés sur les ressources/non stockés.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275850"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950711"
 ---
 # <a name="manage-project-invoice-proposals"></a>Gérer des propositions de facture pour un projet
 
@@ -80,7 +80,8 @@ Les valeurs **Groupe de taxes** et **Groupe de taxes d'article** par défaut des
     - **Client** définit toujours par défaut le groupe de taxes de facturation du client.
     - **Recherche** recherchera dans toutes les entités de cette liste et sélectionnera la première valeur disponible. La recherche commence par l'entité **Projet**, puis l'entité **Contrat de projet**, puis l'entité **Client**.
 
-- **Groupe de taxes d'article d'étape à prix fixe** est utilisé pour définir par défaut la valeur du champ **Groupe de taxes d'article**.
+- **Groupe de taxe d’article de jalon à prix fixe** est utilisé comme valeur par défaut dans le champ **Groupe de taxe d’article** pour le jalon de facturation. Le comptable peut vérifier et modifier cette valeur sur la page **Transactions en compte**. Le système utilise la valeur de la transaction en compte lors de la création d’une ligne de proposition de facture de projet.
+ 
 
 ### <a name="financial-dimensions"></a>Dimensions financières
 
@@ -132,7 +133,7 @@ La page **Mettre en forme les propositions de facture** permet d'afficher les tr
 
 La gestion de l'impression utilise différents fichiers de rapport pour imprimer, spécifier les destinations et personnaliser le texte du pied de page de la facture. La gestion de l'impression peut être configurée au niveau du module, mais ces paramètres peuvent être remplacés pour un client, un contrat ou une proposition de facture spécifique. Pour accéder à cette fonction sur la page **Proposition de facture de projet**, sélectionnez **Imprimer** > **Gestion d'impression**.
 
-La configuration de la gestion de l'impression est affichée sous la forme d'une arborescence, où chaque niveau de nœud affiche les documents disponibles à ajuster. Vous pouvez affecter des impressions personnalisées au niveau du module, du client, du contrat ou du document de proposition de facture. Pour modifier l'impression du document d'origine, développez le nœud souhaité et sélectionnez **Article d'origine**. Dans le champ **Format de rapport**, sélectionnez le format de rapport à utiliser pour l'impression. Vous pouvez utiliser des formats de rapport personnalisés en utilisant [Cadre de gestion des documents commerciaux](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+La configuration de la gestion de l'impression est affichée sous la forme d'une arborescence, où chaque niveau de nœud affiche les documents disponibles à ajuster. Vous pouvez affecter des impressions personnalisées au niveau du module, du client, du contrat ou du document de proposition de facture. Pour modifier l'impression du document d'origine, développez le nœud souhaité et sélectionnez **Article d'origine**. Dans le champ **Format de rapport**, sélectionnez le format de rapport à utiliser pour l'impression. Vous pouvez utiliser des formats de rapport personnalisés en utilisant [Cadre de gestion des documents commerciaux](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Valider les propositions de facture
 

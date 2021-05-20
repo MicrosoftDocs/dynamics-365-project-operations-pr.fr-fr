@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275040"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950306"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Gérer les projets et les réservations dans votre calendrier (Project Service)
 
@@ -52,7 +52,7 @@ Afficher les rendez-vous personnels, les réservations de tâche de projet et le
   
 - Vous devez disposer des informations d’identification de l’administrateur global ou de l’administrateur système [!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- Votre administrateur doit configurer le profil du serveur de messagerie et chaque utilisateur doit configurer sa boîte aux lettres. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurer le traitement des messages électroniques via la synchronisation côté serveur](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Votre administrateur doit configurer le profil du serveur de messagerie et chaque utilisateur doit configurer sa boîte aux lettres. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurer le traitement des messages électroniques via la synchronisation côté serveur](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Activer la synchronisation de votre organisation (tâche d’administrateur)  
   

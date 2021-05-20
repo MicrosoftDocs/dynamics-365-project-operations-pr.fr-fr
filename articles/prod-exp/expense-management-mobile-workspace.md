@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272025"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950476"
 ---
 # <a name="expense-management-mobile-workspace"></a>Espace de travail mobile de gestion des dépenses
 
@@ -58,7 +58,7 @@ Vous pouvez également utiliser ces fonctionnalités :
 Les conditions préalables varient en fonction de la version qui a été déployée pour votre organisation.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prérequis si vous utilisez Dynamics 365 Finance 
-Si Finance a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Gestion des dépenses**. Pour obtenir des instructions, consultez [Publiez les espaces de travail mobiles](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Si Finance a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Gestion des dépenses**. Pour obtenir des instructions, consultez [Publiez les espaces de travail mobiles](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Conditions préalables si vous utilisez la version 1611 avec la mise à jour de la plateforme 3 (ou version ultérieure)
 Si la version 1611 avec la mise à jour de la plateforme 3 (ou version ultérieure) a été déployée pour votre organisation, l’administrateur système doit remplir les conditions préalables suivantes. 
@@ -77,16 +77,16 @@ Si la version 1611 avec la mise à jour de la plateforme 3 (ou version ultéri
 <td>Administrateur système</td>
 <td>KB 4019015 est une mise à jour X++ ou un correctif de métadonnées qui contient l’espace de travail mobile <strong>Gestion des dépenses</strong>. Pour implémenter KB 4019015, votre administrateur système doit procéder comme suit.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Téléchargez le correctif des métadonnées à partir de Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Installez le correctif des métadonnées</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Créez un package déployable</a> qui contient les modèles <strong>ApplicationSuite</strong> et <strong>ExpenseMobile</strong>, puis téléchargez le package déployable sur LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Appliquez le package déployable</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Téléchargez le correctif des métadonnées à partir de Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Installez le correctif des métadonnées</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Créez un package déployable</a> qui contient les modèles <strong>ApplicationSuite</strong> et <strong>ExpenseMobile</strong>, puis téléchargez le package déployable sur LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Appliquez le package déployable</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publiez l’espace de travail mobile <strong>Gestion des dépenses</strong>.</td>
 <td>Administrateur système</td>
-<td>Voir <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publier un espace de travail mobile</a>.</td>
+<td>Voir <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publier un espace de travail mobile</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ Téléchargez et installez l'application mobile Dynamics 365 Unified Ops :
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Saisir rapidement des dépenses à l’aide de l’espace de travail mobile Gestion des dépenses
 1. Sur votre appareil mobile, ouvrez l'espace de travail **Gestion des dépenses**.
 2. Sélectionnez **Saisie rapide des dépenses**.
-3. Sélectionnez la catégorie de dépense. Une liste affiche les catégories de dépenses chargées dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par catégorie de dépense ou faites une recherche par type de dépense.
+3. Sélectionnez la catégorie de dépense. Une liste affiche les catégories de dépenses chargées dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d’informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par catégorie de dépense ou faites une recherche par type de dépense.
 4. Saisissez la date de transaction de la dépense.
 5. Facultatif : Saisissez le prestataire de la dépense.
 6. Entrez le montant de la dépense.
-7. Sélectionnez la devise de la dépense. Une liste affiche les codes de devise chargées dans votre application pour une utilisation hors connexion. Par défaut, 400 devises sont chargées, mais un développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre devise ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par devise ou passez à la recherche par nom.
+7. Sélectionnez la devise de la dépense. Une liste affiche les codes de devise chargées dans votre application pour une utilisation hors connexion. Par défaut, 400 devises sont chargées, mais un développeur peut modifier ce nombre. Pour plus d’informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre devise ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par devise ou passez à la recherche par nom.
 8. Sélectionnez **Prendre une photo** ou **Choisir une image**.
 9. Suivez l’une de ces étapes :
 
@@ -163,11 +163,11 @@ Téléchargez et installez l'application mobile Dynamics 365 Unified Ops :
 7. Sélectionnez une ou plusieurs dépenses dans la liste.
 8. Cliquez sur **Terminé**.
 9. Pour ajouter une nouvelle dépense à la note de frais, sélectionnez **Nouvelle dépense**.
-10. Sélectionnez la catégorie de dépense. Une liste affiche les catégories de dépenses chargées dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par catégorie de dépense ou faites une recherche par type de dépense.
+10. Sélectionnez la catégorie de dépense. Une liste affiche les catégories de dépenses chargées dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d’informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par catégorie de dépense ou faites une recherche par type de dépense.
 11. Facultatif : Saisissez le prestataire de la dépense.
 12. Saisissez la date de transaction de la dépense.
 13. Entrez le montant de la dépense.
-14. Sélectionnez la devise de la dépense. Une liste affiche les codes de devise chargées dans votre application pour une utilisation hors connexion. Par défaut, 400 devises sont chargées, mais un développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre devise ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par devise ou passez à la recherche par nom.
+14. Sélectionnez la devise de la dépense. Une liste affiche les codes de devise chargées dans votre application pour une utilisation hors connexion. Par défaut, 400 devises sont chargées, mais un développeur peut modifier ce nombre. Pour plus d’informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre devise ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par devise ou passez à la recherche par nom.
 15. Cliquez sur **Terminé**.
 16. Pour ajouter plus de détails à la dépense, sélectionnez **Ajouter plus de détails**. Les champs disponibles dépendent de la configuration de la gestion des dépenses de votre entreprise.
 17. Si la politique de l’entreprise exige un reçu pour la dépense, sélectionnez **Reçus**, puis suivez ces étapes :
@@ -213,12 +213,12 @@ Téléchargez et installez l'application mobile Dynamics 365 Unified Ops :
 
         - Si vous avez sélectionné **Invités précédents**, suivez ces étapes :
 
-            1. Sélectionnez un ou plusieurs invités précédents dans la liste. Vous voyez une liste des invités précédents que vous avez ajoutés aux notes de frais précédentes qui sont chargées dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre invité précédent ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par nom ou passez à une recherche par organisation, pays ou fonction.
+            1. Sélectionnez un ou plusieurs invités précédents dans la liste. Vous voyez une liste des invités précédents que vous avez ajoutés aux notes de frais précédentes qui sont chargées dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d’informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre invité précédent ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par nom ou passez à une recherche par organisation, pays ou fonction.
             2. Cliquez sur **Terminé**.
 
         - Si vous avez sélectionné **Collègues**, suivez ces étapes :
 
-            1. Sélectionnez un ou plusieurs collègues dans la liste. Une liste affiche les collègues chargés dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre collègue ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par nom ou passez à une recherche par société ou fonction.
+            1. Sélectionnez un ou plusieurs collègues dans la liste. Une liste affiche les collègues chargés dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d’informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre collègue ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par nom ou passez à une recherche par société ou fonction.
             2. Cliquez sur **Terminé**.
 
     3. Cliquez sur le bouton **Précédent** pour revenir aux détails des dépenses.
@@ -227,7 +227,7 @@ Téléchargez et installez l'application mobile Dynamics 365 Unified Ops :
 
     1. Sélectionnez la première date à détailler.
     2. Sélectionnez **Ajouter un justificatif**.
-    3. Sélectionnez la sous-catégorie pour la ventilation des dépenses. Une liste affiche les sous-catégories de dépenses chargées dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d'informations, les développeurs doivent consulter [Plateforme mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre sous-catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par nom de sous-catégorie de dépenses.
+    3. Sélectionnez la sous-catégorie pour la ventilation des dépenses. Une liste affiche les sous-catégories de dépenses chargées dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d’informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre sous-catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par nom de sous-catégorie de dépenses.
     4. Saisissez le montant de la transaction pour le justificatif.
     5. Modifiez la date de transaction si nécessaire.
     6. Cliquez sur **Terminé**.

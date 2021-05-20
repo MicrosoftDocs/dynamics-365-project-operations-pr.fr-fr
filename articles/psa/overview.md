@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284175"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949631"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Qu’est-ce que Dynamics 365 Project Service Automation ?
 
@@ -47,10 +47,10 @@ En outre, pour vous aider à surveiller et contrôler les coûts pour votre trav
 ## <a name="whats-new-in-psa"></a>Nouveautés de PSA
 L’équipe est ravie d’annoncer nos mises à jour les plus récentes ! Des améliorations ont été apportées à l’interface utilisateur, des bogues ont été corrigés et de nouvelles fonctionnalités et capacités importantes ont été ajoutées. Vous avez demandé et nous vous avons écouté.
 
-Consultez les [notes de publication d’octobre 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) pour connaître nos améliorations et ajouts les plus récents.
+Consultez les [notes de publication d’octobre 2019](/dynamics365-release-plan/2019wave2/index) pour connaître nos améliorations et ajouts les plus récents.
 
 ### <a name="in-development"></a>En développement
-Pour savoir ce que nous avons prévu dans un futur proche, consultez [Dynamics 365 : Plan de la 1ère partie du lancement 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Pour savoir ce que nous avons prévu dans un futur proche, consultez [Dynamics 365 : Plan de la 1re vague de lancement 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Obtenir de l’aide avec PSA version 3.x
 Vous recherchez des ressources pour vous aider à planifier votre implémentation ? Consultez les guides téléchargeables suivants.

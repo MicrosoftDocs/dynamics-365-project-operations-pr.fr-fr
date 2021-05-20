@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275085"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950576"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installation d’exemples de données pour l’application Project Service
 
@@ -149,7 +149,7 @@ Le package de données de démonstration nécessite six utilisateurs. Pour que l
 
 5. Le calendrier du premier utilisateur (dans la balise **userstocreateandconfigure**) est utilisé pour exécuter les heures de travail de toutes les ressources pouvant être réservées à l’importation des données de démonstration. Accédez à **Paramètres** > **Sécurité** > **Utilisateurs**, recherchez votre utilisateur « Spencer Low », puis ouvrez l’option « Heures de travail ». Modifiez les heures de travail existantes, sélectionnez l’option **Planification hebdomadaire récurrente complète du début à la fin**. Assurez-vous que **Les heures de travail sont définies de 8 h 00 à 17 h 00 (9 heures), du lundi au vendredi et que le fuseau horaire est défini sur l’heure du Pacifique (É.-U. et Canada)**. Ceci est indispensable pour que la projet et le tableau de planification s’affichent comme prévu.
 
-**Recommandation :** Envisagez de créer une sauvegarde de votre organisation maintenant, au cas où vous auriez à revenir à votre point de départ si une opération se passe mal pendant l’installation des exemples de données. Pour plus d’informations, voir [Sauvegarder et restaurer les instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recommandation :** Envisagez de créer une sauvegarde de votre organisation maintenant, au cas où vous auriez à revenir à votre point de départ si une opération se passe mal pendant l’installation des exemples de données. Pour plus d’informations, voir [Sauvegarder et restaurer les instances](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Exécuter l’Package Deployer
 

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288135"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950216"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nouveautés ou modifications de décembre 2020 – Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication
 
@@ -141,7 +141,7 @@ Cette rubrique s'applique aux composants et versions suivants de Dynamics 365 Pr
 
 ## <a name="regulatory-updates"></a>Mises à jour réglementaires
 
-Pour plus d'informations sur les mises à jour réglementaires pour Dynamics 365 Finance, voir [Mises à jour réglementaires](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Une autre façon d'en savoir plus sur les mises à jour réglementaires consiste à vous connecter à Lifecycle Services (LCS) et à afficher les mises à jour réglementaires prévues à l'aide de l'outil de recherche de problèmes. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+Pour plus d'informations sur les mises à jour réglementaires pour Dynamics 365 Finance, voir [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Une autre façon d'en savoir plus sur les mises à jour réglementaires consiste à vous connecter à Lifecycle Services (LCS) et à afficher les mises à jour réglementaires prévues à l'aide de l'outil de recherche de problèmes. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
