@@ -2,8 +2,6 @@
 title: Gérer les ressources
 description: Cette rubrique fournit des informations sur la façon dont vous pouvez gérer les ressources.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d47be6c11ced70b94b7497dfbc0c67d1a3f631b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b067f900fa49bba04536b49600dbe80a2167f707
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274995"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997823"
 ---
 # <a name="manage-resources"></a>Gérer les ressources
 
@@ -44,12 +42,12 @@ Dynamics 365 Project Service Automation contient un tableau de bord de gestionna
 
 Les responsables de projet peuvent utiliser le tableau de bord du gde ressources pour gérer les ressources dans des projets. Par exemple, ils peuvent ajouter un membre de l’équipe directement au projet et réserver un membre de l’équipe pour combler les besoins en ressources capturés par une ressource générique.
 
-### <a name="add-a-team-member-directly-to-a-project"></a>Ajouter un membre d’équipe directement au projet
+### <a name="add-a-team-member-directly-to-a-project"></a>Ajouter un membre d’équipe directement à un projet
 
 Pour ajouter un membre de l’équipe directement au projet, dans la page **Projets**, dans l’onglet **Équipe**, sélectionnez **Nouveau**. La boîte de dialogue **Création rapide : Membre de l’équipe du projet** apparaît. Dans cette boîte de dialogue, vous pouvez effectuer ces tâches :
 
-- **Réserver une ressource nommée** – Dans le champ **Ressource pouvant être réservée**, sélectionnez le nom de la ressource. Puis sélectionnez le rôle, définissez la période, puis sélectionnez une méthode de répartition. La ressource nommée sélectionnée est ajoutée au projet en utilisant la méthode sélectionnée de répartition et le calendrier de ressources.
-- **Ajouter une ressource générique** – Laissez le champ **Ressource pouvant être réservée** vide, puis sélectionnez le rôle, définissez la période, puis la méthode privilégiée de répartition. Une ressource générique est ajoutée à l’équipe comme un espace réservé pour maintenir le critère de demande utilisé pour réserver des ressources nommées de l’équipe. Le besoin est créé selon le calendrier de projet.
+- **Réserver une ressource nommée** – Dans le champ **Ressource pouvant être réservée**, sélectionnez le nom de la ressource. Sélectionnez ensuite le rôle, définissez la période et sélectionnez une méthode d’allocation. La ressource nommée sélectionnée est ajoutée au projet en utilisant la méthode sélectionnée de répartition et le calendrier de ressources.
+- **Ajouter une ressource générique** – Laissez le champ **Ressource pouvant être réservée** vide, puis sélectionnez le rôle, définissez la période, puis la méthode privilégiée de répartition. Une ressource générique est ajoutée à l’équipe comme un espace réservé pour maintenir le critère de demande utilisé pour réserver des ressources nommées de l’équipe. La demande est effectuée en fonction du calendrier du projet.
 - **Ajouter une ressource nommée à l’équipe sans consommer la capacité de ressource** – Dans le champ **Ressource pouvant être réservée**, sélectionnez une ressource. Puis sélectionnez la période, et sélectionnez **Aucun** comme méthode de répartition. La ressource est ajoutée à l’équipe, mais la capacité de la ressource n’est pas consommée via une réservation.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Réserver un membre de l’équipe pour satisfaire aux besoins en ressources pour une ressource générique
@@ -318,7 +316,7 @@ Parfois, un chef de projet doit substituer un membre de l’équipe réservé su
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Rapprocher les réservations et les attributions de membre d’équipe
 
-Pour les membres de l’équipe, les réservations et les attributions sont légèrement couplées. En d’autres termes, les ressources peuvent avoir des attributions mais aucune réservation, ou elles peuvent avoir des réservations mais aucune attribution. Idéalement, certaines réservation et attributions doivent être alignées, de sorte que les ressources aient une capacité engagée à effectuer les affectations des tâches. Toutefois, les réservations peuvent être basées sur la disponibilité, et les horaires des tâches peuvent changer à mesure que le projet avance. Par conséquent, le couplage léger des réservations ou des attributions procurent de la flexibilité.
+Pour les membres de l’équipe, les réservations et les attributions sont légèrement couplées. En d’autres termes, les ressources peuvent avoir des attributions mais aucune réservation, ou elles peuvent avoir des réservations mais aucune attribution. Idéalement, certaines réservation et attributions doivent être alignées, de sorte que les ressources aient une capacité engagée à effectuer les affectations des tâches. Cependant, les réservations peuvent être basées sur la disponibilité et les calendriers des tâches peuvent changer à mesure que le projet se poursuit. Par conséquent, le couplage léger des réservations ou des attributions procurent de la flexibilité.
 
 PSA a un onglet **Rapprochement** permettant aux chefs de projet de rapprocher les réservations des membres de l’équipe et leurs attributions pour les équipes de projet.
 
@@ -330,8 +328,8 @@ L’onglet affiche également un total net général pour le projet, conjointeme
 
 Pour chaque ressource, l’onglet calcule la distinction entre les réservations du membre de l’équipe et un report des affectations des tâches du membre de l’équipe. Idéalement, cette différence doit être de 0 (zéro). En d’autres termes, il ne doit exister aucune différence entre les réservations et les attributions. Les différences sont en couleur et grisées pour attirer l’attention sur deux conditions :
 
-- **Pénurie de réservation** – Une pénurie de réservation se produit lorsque la ressource a plus d’attributions que de réservations. Cette capacité n’ayant pas été réservée, un chef de projet peut également corriger cette condition en étendant les réservations de la ressource pour compenser la pénurie.
-- **Réservations en trop** - Une réservation excessive se produit lorsque la ressource a été réservée pour le projet, mais n’a pas été affectée à des tâches. Cet état peut être acceptable dans les cas où la ressource a été réservée dans le projet avant l’affectation de la tâche. Cependant, dans d’autres cas, la ressource n’est pas planifiée pour être affectée à des tâches. Dans ce genre de situation, le chef de projet doit envisager d’annuler les réservations de la ressource, de sorte que la capacité puisse être utilisée pour un autre projet.
+- **Pénurie de réservation** : ce phénomène se produit lorsqu’une ressource comporte plus d’affectations que de réservations. Comme cette capacité n’a pas été réservée, un chef de projet peut souhaiter corriger cet état en augmentant les réservations de la ressource pour couvrir le déficit.
+- **Réservations excédentaires** : ce phénomène se produit lorsqu’une ressource a été réservée dans le projet mais n’a pas été affectée à des tâches. Cet état peut être acceptable dans les cas où la ressource a été réservée dans le projet avant l’affectation de la tâche. Cependant, dans d’autres cas, la ressource n’est pas planifiée pour être affectée à des tâches. Dans ce genre de situation, le chef de projet doit envisager d’annuler les réservations de la ressource, de sorte que la capacité puisse être utilisée pour un autre projet.
 
 Dans certains cas, lorsque vous affichez le temps à un niveau supérieur que le niveau du jour (par exemple, le niveau de mois), vous pouvez voir une différence nette de zéro pour une ressource (en d’autres termes, réservations = attributions). Toutefois, si vous affichez le temps au niveau de la semaine, vous pouvez voir des attributions de zéro heure et des réservations de 40 heures au cours de la première semaine, mais des attributions de 40 heures et des réservations de zéro heure dans la deuxième semaine. Globalement, les réservations et attributions sont rapprochées, mais elles ne correspondent pas d’une semaine à l’autre.
 

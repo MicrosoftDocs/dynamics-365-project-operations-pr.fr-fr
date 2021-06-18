@@ -5,15 +5,14 @@ author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 102a7cdba467a2071119c5b32d2e75e48170c783
-ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5955743"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996563"
 ---
 # <a name="project-invoice-integration"></a>Intégration des factures de projet
 

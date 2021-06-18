@@ -2,18 +2,16 @@
 title: Développement des entrées de temps
 description: Cette rubrique fournit des informations sur la façon dont les développeurs peuvent étendre le contrôle de saisie de l’heure.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 02ed62c9ea27429b4b1d95d67d1607a090ab1dd2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277155"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995978"
 ---
 # <a name="extending-time-entries"></a>Développement des entrées de temps
 
@@ -39,7 +37,7 @@ Les entrées de temps sont une entité principale utilisée dans plusieurs scén
 ### <a name="time-source-entity"></a>Entité source de temps
 | Champ | Description | 
 |-------|------------|
-| Nom   | Nom de l’entrée de source de temps utilisée comme valeur de sélection lors de la création des entrées de temps. |
+| Nom  | Nom de l’entrée de source de temps utilisée comme valeur de sélection lors de la création des entrées de temps. |
 | Source de temps par défaut [Source de temps : isdefault] | Par défaut, une seule source de temps peut être marquée par défaut. Cela permet aux entrées de se définir par défaut sur une source de temps si aucune n’est spécifiée. |
 |Type de source de temps [Source de temps : sourcetype] | Le type de source est une option (Type de source d’entrée de temps) qui permet l’association de la source de temps à une application. Microsoft réserve des valeurs supérieures à 190 000 000.|
 

@@ -2,8 +2,6 @@
 title: Proposer des ressources de projet
 description: Cette rubrique explique comment proposer des ressources de projet.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2003f6f06912b0c47eb942aae17e509b00e19487
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283005"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997958"
 ---
 # <a name="propose-project-resources"></a>Proposer des ressources de projet
 
@@ -61,7 +59,7 @@ Lorsque les gestionnaires de ressources gèrent les demandes de ressources, ils 
 
 ## <a name="billable-utilization"></a>Utilisation facturable
 
-Les ressources peuvent avoir une utilisation facturable cible. Cette utilisation cible est définie comme un attribut dans le rôle par défaut d’une ressource ou sur l’enregistrement de la ressource réservable individuelle. Les calculs de l’utilisation sont basés sur les heures réelles que les ressources ont signalées à l’aide des entrées de temps approuvées.
+Les ressources peuvent avoir une utilisation facturable cible. Cette utilisation cible est définie comme un attribut dans le rôle par défaut d’une ressource ou sur l’enregistrement de la ressource réservable individuelle. Les calculs de l’utilisation sont basés sur les heures réelles déclarées par des ressources à l’aide d’entrées de temps approuvées.
 
 Les formules suivantes sont utilisées pour calculer l’utilisation :
 

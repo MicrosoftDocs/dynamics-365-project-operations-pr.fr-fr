@@ -2,11 +2,9 @@
 title: Devis - Concepts clés
 description: Cette rubrique fournit des informations sur les devis de projet et les devis de vente disponibles dans Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: b6bbb1b747cbf8ce9fa1ffd2bfec6b47ac877b60
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663683"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996113"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Concepts propres aux devis basés sur des projets
 

@@ -2,11 +2,9 @@
 title: Gérer les tarifs du projet sur un devis
 description: Cette rubrique fournit des informations sur l’entité Tarif des projets.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4bd4e9cb22bfd6a86fd86e5fc403cb185aab140a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da349924488fb62dc0b0bd8eaf4c48b02aa16d09
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277740"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996248"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Gérer les tarifs du projet sur un devis
 
@@ -119,7 +117,7 @@ Comme les taux de factures, les taux de coûts pour les ressources humaines sont
 
     1. La liste de prix de revient qui est jointe à l’unité d’organisation.
     2. La liste de prix de revient qui est jointe aux paramètres de Project Operations. Étant donné que les listes de prix de revient dans plusieurs devises différentes peuvent être attachées aux paramètres, une correspondance de devise est effectuée entre la devise de l’unité d’organisation contractuelle du projet, du contrat ou du devis, et la devise de la liste de prix de revient.
-    3. Pour les dépenses, les modes de tarification À prix coûtant et Majoration du coût ne s’appliquent pas aux listes de prix de revient. Même si ces modes de tarification sont utilisés sur la liste de prix de revient pour configurer les coûts des catégories de transactions, le système les ignore, et aucun prix de revient par défaut n'est entré.
+    3. Pour les dépenses, les modes de tarification À prix coûtant et Majoration du coût ne s’appliquent pas aux listes de prix de revient. Même si ces modes de tarification sont utilisés sur la liste de prix de revient pour configurer les coûts des catégories de transactions, le système les ignore, et aucun prix de revient par défaut n’est entré.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

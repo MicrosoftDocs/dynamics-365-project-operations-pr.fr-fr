@@ -2,19 +2,17 @@
 title: Lier des chiffres réels à des enregistrements d’origine
 description: Cette rubrique explique comment lier des chiffres réels à des enregistrements d’origine tels qu’une entrée de temps, de dépense ou des journaux d’utilisation du matériel.
 author: rumant
-manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852586"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996743"
 ---
 # <a name="link-actuals-to-original-records"></a>Lier des chiffres réels à des enregistrements d’origine
 
@@ -90,7 +88,7 @@ Chacun de ces événements crée un enregistrement dans les entités **Origine d
 
 Le tableau suivant indique l’enregistrement dans l’entité **Origine de la transaction** pour le workflow.
 
-| Événement                        | Origine                    | Type d’origine                       | Transaction                       | Type de transaction         |
+| Événement                        | Origine                   | Type d’origine                       | Transaction                       | Type de transaction         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
 | Envoi d’entrée de temps        | GUID de l’enregistrement de l’entrée de temps   | Entrée de temps                        | GUID de l’enregistrement de la ligne de journal (coût)   | Ligne de journal             |
 | GUID de l’enregistrement de l’entrée de temps       | Entrée de temps               | GUID de l’enregistrement de la ligne de journal (ventes)  | Ligne de journal                      |                          |

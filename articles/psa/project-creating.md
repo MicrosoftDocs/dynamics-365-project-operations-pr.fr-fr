@@ -2,8 +2,6 @@
 title: Planifications de projets
 description: Cette rubrique donne des informations sur la création d’une planification.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8f1a0b0ed610ade094546782a1fa517682a390e4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dd8e916b06d4d8ee77c800f601fb517d797b5c6d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283983"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998453"
 ---
 # <a name="project-schedules"></a>Planifications de projets 
 

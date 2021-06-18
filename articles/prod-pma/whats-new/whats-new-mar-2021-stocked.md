@@ -2,25 +2,23 @@
 title: Nouveautés ou modifications de Project Operations, mars 2021, pour les scénarios basés sur les produits stockés/ordres de fabrication
 description: Cette rubrique fournit des informations sur les mises à jour de qualité disponibles dans la version de mars 2021 de Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication.
 author: andchoi
-manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: d1a4658c8eec23f6816b58de42d785d769050b07
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701929"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997013"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Nouveautés ou modifications de Project Operations, mars 2021, pour les scénarios basés sur les produits stockés/ordres de fabrication
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication_
 
-Cette rubrique s'applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
 - Version 10.0.17 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
 
@@ -58,7 +56,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 | Gestion et comptabilité des projets | [510607](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510607) | Les prix de revient et de vente sont incorrects sur un ajustement de projet avec tarification de rôle.                                                                                                                        |
 | Gestion et comptabilité des projets | [10728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=10728) | Dans Project Operations, la facture de correction des provisions ne fonctionne pas après une correction partielle des provisions.                                                                                                                   |
 | Gestion et comptabilité des projets | [510743](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510743) | L’option **Supprimer le lien** ne doit être activée que si vous annulez une commande fournisseur intersociétés.                                                                                                                                          |
-| Gestion et comptabilité des projets | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | La validation d'une valeur de vente TEC dans la facturation de projets intersociétés sélectionne un compte inattendu.                                                                                                                  |
+| Gestion et comptabilité des projets | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | La validation d’une valeur de vente TEC dans la facturation de projets intersociétés sélectionne un compte inattendu.                                                                                                                  |
 | Gestion et comptabilité des projets | [514432](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514432) | Les frais d’une règle de facturation ne sont pas recalculés lorsque la proposition de facture contient des lignes sélectionnées pour les notes de crédit.                                                                                            |
 | Gestion et comptabilité des projets | [515820](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515820) | Le calendrier de la demande de dépenses de subventions fédérales affiche les montants reçus lorsqu’une proposition de facture de projet n’a pas été exécutée pour une transaction de dépense.                                               |
 | Gestion et comptabilité des projets | [516301](https://fix.lcs.dynamics.com/Issue/Details/?bugId=516301) | Le coût des travaux en cours est incorrect dans le relevé du projet pour un article de service dont le groupe de projet est **Solde**.                                                                                               |
@@ -123,7 +121,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 | Gestion et comptabilité des projets | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | La méthode de classe de la structure de répartition du travail héritée, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder**, est obsolète.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Mises à jour réglementaires
-Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates.md). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

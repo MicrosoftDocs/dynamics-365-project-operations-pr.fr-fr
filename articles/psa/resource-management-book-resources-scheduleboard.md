@@ -2,8 +2,6 @@
 title: Utiliser le Tableau de planification pour réserver des ressources de projet
 description: Cette rubrique fournit des informations sur la façon de réserver les ressources.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89eac463fd80378a6cfdb53741afbbd1444d5662
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bbd6e8c711f6c15221143514efdd43a388ef4e7f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283185"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998048"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Utiliser le Tableau de planification pour réserver des ressources de projet
 

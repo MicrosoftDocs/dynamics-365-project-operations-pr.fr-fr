@@ -2,11 +2,9 @@
 title: Phases du projet
 description: Cette rubrique fournit des informations sur les phases de projet disponibles dans Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a5c695e0cd39f8a222e719cc6c9ffe984fe80b07
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 079c3d2d16cf802d2b9ecc779577e6e390d92ddc
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286785"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996923"
 ---
 # <a name="project-stages"></a>Phases du projet
 

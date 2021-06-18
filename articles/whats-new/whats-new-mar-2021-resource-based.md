@@ -2,25 +2,23 @@
 title: Nouveautés de mars 2021 – Project Operations pour les scénarios selon les ressources/produits non stockés
 description: Cette rubrique fournit des informations sur les mises à jour qualité disponibles dans la version de mars 2021 de Project Operations pour les scénarios basés sur les ressources/produits non stockés.
 author: sigitac
-manager: tfehr
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d114ee64bd26d3271a1c72a7404c0f7035c2b61
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: dcf11d770082308d77b369c6f50aabb1ec7c1c86
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948056"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995663"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de mars 2021 – Project Operations pour les scénarios selon les ressources/produits non stockés
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Cette rubrique s'applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
 - Version 4.8.0.91 de Project Operations dans l’environnement Dataverse 
 - Gestion de projets et comptabilité dans l’environnement Dynamics 365 Finance version 10.0.16 

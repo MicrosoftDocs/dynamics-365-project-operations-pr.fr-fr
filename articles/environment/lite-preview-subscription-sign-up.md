@@ -2,18 +2,16 @@
 title: S’inscrire à l’abonnement à la version préliminaire – Simplifié
 description: Cette rubrique fournit des informations sur la façon de souscrire et de déployer le déploiement simplifié de Project Operations – Traiter la facturation pro forma.
 author: sigitac
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290041"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997418"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>S’inscrire à l’abonnement à la version préliminaire – Simplifié 
 
@@ -42,7 +40,7 @@ Lorsque vous recevez une approbation d’une [demande de version préliminaire](
 
 Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur avec le compte de travail de l’utilisateur dans le client où vous souhaitez la version préliminaire de Project Operations.
 
-1. Utilisez le premier code promotionnel, **Dynamics 365 Project Operations (CRM) - Version d’essai** en le collant dans l'URL du navigateur.
+1. Utilisez le premier code promotionnel, **Dynamics 365 Project Operations (CRM) - Version d’essai** en le collant dans l’URL du navigateur.
 
 ![Accepter l’offre](./media/16RedeemFirstOfferNew.png)
 

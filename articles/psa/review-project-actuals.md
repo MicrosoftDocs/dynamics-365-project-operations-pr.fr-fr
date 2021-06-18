@@ -2,8 +2,6 @@
 title: Examiner les chiffres réels du projet
 description: Procédure d’examen des chiffres réels du projet dans Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68d940790a33b22bf7dd8bc663dcea61264b082e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a46039ad8fc6c175ad5e736d344d869b94e2fab2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282735"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997778"
 ---
 # <a name="review-project-actuals-project-service"></a>Examiner les chiffres réels du projet (Project Service)
 

@@ -2,11 +2,9 @@
 title: Ajuster les transactions du projet
 description: Ce guide des tâches vous montre comment ajuster une transaction sur un projet.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c2cd38c37ef22b9b174c9732e829f6fb4ebf687
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c02816ceb5b75e00abfe54b1741fddc9e0917873
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288511"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997058"
 ---
 # <a name="adjust-project-transactions"></a>Ajuster les transactions du projet
 

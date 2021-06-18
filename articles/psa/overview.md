@@ -2,8 +2,6 @@
 title: Qu’est-ce que Dynamics 365 Project Service Automation ?
 description: Introduction et vue d’ensemble de Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/23/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 537fa056fd0103e1a4fa05c8e66d408286ee101c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949631"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998543"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Qu’est-ce que Dynamics 365 Project Service Automation ?
 
