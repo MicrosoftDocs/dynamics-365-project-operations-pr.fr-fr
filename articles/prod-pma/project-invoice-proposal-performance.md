@@ -2,11 +2,9 @@
 title: Performance de la proposition de facture de projet
 description: Cette rubrique fournit des informations sur les améliorations des performances des propositions de facture de projet.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
-ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
+ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920299"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999488"
 ---
 # <a name="project-invoice-proposal-performance"></a>Performance de la proposition de facture de projet
 

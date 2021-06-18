@@ -2,11 +2,9 @@
 title: Commandes fournisseur pour un projet
 description: Cet article décrit les différentes méthodes que vous pouvez utiliser pour créer des commandes fournisseur pour un projet. La méthode que vous utilisez dépend de l’objectif de la commande fournisseur et quand les articles achetés sont consommés et, par conséquent, facturés sur un projet.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f3f5d196e0d7db4a6d8c4cfe834a335f4ef737c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3c3ce2d0c0fb3cecf22157db5cb37eb744027d0f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289186"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999353"
 ---
 # <a name="purchase-orders-for-a-project"></a>Commandes fournisseur pour un projet
 
@@ -59,7 +57,7 @@ Vous pouvez utiliser l’une des méthodes suivantes pour créer une commande fo
 <td>Les articles sont consommés lors de la mise à jour de la facture fournisseur.</td>
 </tr>
 <tr class="even">
-<td>Créer une commande achat à partir d'une commande client.</td>
+<td>Créer une commande achat à partir d’une commande client.</td>
 <td>Utilisez cette méthode pour acheter des articles lorsque vous créez une commande client à partir d’un projet.</td>
 <td>Les articles sont consommés lorsque la commande client est facturée au client.</td>
 </tr>

@@ -2,11 +2,9 @@
 title: Désactiver les tarifs
 description: Cette rubrique explique comment désactiver ou supprimer des tarifs inutilisés ou anciens.
 author: rumant
-manager: AnnBe
 ms.date: 03/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Professional Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3fa902e93815002be7d6915880cd7759dbbde5ef
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: d5d6cf6b4b097c08edca5a3235ed1b438a0eae2d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701928"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001333"
 ---
 # <a name="deactivate-price-lists"></a>Désactiver les tarifs 
 

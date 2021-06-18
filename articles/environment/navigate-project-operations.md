@@ -2,18 +2,16 @@
 title: Parcourir Project Operations
 description: Cette rubrique fournit des informations sur la façon d’accéder à Project Operations à partir de Lifecycle Services.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50b44b014fcbb730b273322390227ae82cbdcefc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289996"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000118"
 ---
 # <a name="navigate-project-operations"></a>Parcourir Project Operations
 

@@ -2,11 +2,9 @@
 title: Configurer la facturation des projets intersociétés
 description: Cette rubrique présente comment configurer la facturation des projets entre deux sociétés au sein de votre organisation.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9df15cb3712356a164de3507f5dbc17a9ff9a652
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad25aba492b7902ddd8955be87f88f96f6d4508f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288376"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001198"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurer la facturation des projets intersociétés
 

@@ -2,11 +2,9 @@
 title: Synchronisez les données réelles du projet directement depuis Project Service Automation vers le journal d’intégration de projet pour les enregistrer dans Finance and Operations
 description: Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les données réelles du projet directement à partir de Microsoft Dynamics 365 Project Service Automation vers Finance and Operations.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289681"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999893"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronisez les données réelles du projet directement depuis Project Service Automation vers le journal d’intégration de projet pour les enregistrer dans Finance and Operations
 
@@ -65,7 +63,7 @@ Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchronise
 | Project Service Automation | Finances                                   |
 |----------------------------|----------------------------------------------------------|
 | Chiffres réels                    | Entité d’intégration pour les chiffres réels du projet                   |
-| Connexions de transactions    | Entité d'intégration pour les relations de transaction du projet |
+| Connexions de transactions    | Entité d’intégration pour les relations de transaction du projet |
 
 ### <a name="entity-flow"></a>Flux d’entité
 
@@ -120,7 +118,7 @@ Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchronise
 | Finances                                                  | Project Service Automation |
 |----------------------------------------------------------|----------------------------|
 | Entité d’intégration pour les chiffres réels du projet                   | Chiffres réels                    |
-| Entité d'intégration pour les relations de transaction du projet | Connexions de transactions    |
+| Entité d’intégration pour les relations de transaction du projet | Connexions de transactions    |
 
 ### <a name="entity-flow"></a>Flux d’entité
 

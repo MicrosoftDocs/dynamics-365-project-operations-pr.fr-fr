@@ -2,8 +2,6 @@
 title: Nouveautés ou modifications de la mise à jour (version 13) de Project Service Automation (correctif logiciel), V3
 description: Cette rubrique donne des informations sur les nouveautés de la mise à jour (version 13) de Project Service Automation, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a4ebc2e6ca3f6be0a05a7240d762d7a8cf92d81b
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: c328821064065e19938406856d327f690f577e7a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949451"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000298"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Mise à jour (version 13) de Project Service Automation, V3
 

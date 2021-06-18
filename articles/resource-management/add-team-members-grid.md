@@ -2,18 +2,16 @@
 title: Ajouter des membres de l’équipe depuis la grille des membres de l’équipe
 description: Cette rubrique fournit des informations sur la façon dont vous pouvez gérer les ressources des membres de l’équipe.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 95f9e1d836e49672cfb51ace59aa77ea9da65b35
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280080"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998858"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Ajouter des membres de l’équipe depuis la grille des membres de l’équipe
 
@@ -36,8 +34,8 @@ Les responsables de projet peuvent utiliser le tableau de bord Resource Manager 
 
 Pour ajouter un membre de l’équipe directement au projet, sur le formulaire **Projets**, dans l’onglet **Équipe**, sélectionnez **Nouveau**. La boîte de dialogue **Création rapide : Membre de l’équipe du projet** apparaît. Dans cette boîte de dialogue, vous pouvez effectuer ces tâches :
 
-- **Réserver une ressource nommée** : Dans le champ **Ressource pouvant être réservée**, sélectionnez le nom de la ressource. Puis sélectionnez le rôle, définissez la période, puis sélectionnez une méthode de répartition. La ressource nommée sélectionnée est ajoutée au projet en utilisant la méthode sélectionnée de répartition et le calendrier de ressources.
-- **Ajouter une ressource générique** : Laissez le champ **Ressource pouvant être réservée** vide, puis sélectionnez le rôle, définissez la période, puis la méthode privilégiée de répartition. Une ressource générique est ajoutée à l’équipe en tant qu’espace réservé. L’espace réservé contient le modèle de demande utilisé pour réserver des ressources nommées dans l’équipe. Le besoin est créé selon le calendrier de projet.
+- **Réserver une ressource nommée** : Dans le champ **Ressource pouvant être réservée**, sélectionnez le nom de la ressource. Sélectionnez ensuite le rôle, définissez la période et sélectionnez une méthode d’allocation. La ressource nommée sélectionnée est ajoutée au projet en utilisant la méthode sélectionnée de répartition et le calendrier de ressources.
+- **Ajouter une ressource générique** : Laissez le champ **Ressource pouvant être réservée** vide, puis sélectionnez le rôle, définissez la période, puis la méthode privilégiée de répartition. Une ressource générique est ajoutée à l’équipe en tant qu’espace réservé. L’espace réservé contient le modèle de demande utilisé pour réserver des ressources nommées dans l’équipe. La demande est effectuée en fonction du calendrier du projet.
 - **Ajouter une ressource nommée à l’équipe sans consommer la capacité de ressource** : Dans le champ **Ressource pouvant être réservée**, sélectionnez une ressource. Sélectionnez la période, puis **Aucun** comme méthode de répartition. La ressource est ajoutée à l’équipe, mais la capacité de la ressource n’est pas consommée via une réservation.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Réserver un membre de l’équipe pour satisfaire aux besoins en ressources pour une ressource générique
@@ -180,7 +178,7 @@ ou si vous devez rechercher une ressource, procédez comme suit.
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Rapprocher les réservations et les attributions de membre d’équipe
 
-Pour les membres de l’équipe, les réservations et les attributions sont légèrement couplées. En d’autres termes, les ressources peuvent avoir des attributions mais aucune réservation, ou elles peuvent avoir des réservations mais aucune attribution. Idéalement, certaines réservation et attributions doivent être alignées, de sorte que les ressources aient une capacité engagée à effectuer les affectations des tâches. Toutefois, les réservations peuvent être basées sur la disponibilité, et les horaires des tâches peuvent changer à mesure que le projet avance. Par conséquent, le couplage léger des réservations ou des attributions procurent de la flexibilité.
+Pour les membres de l’équipe, les réservations et les attributions sont légèrement couplées. En d’autres termes, les ressources peuvent avoir des attributions mais aucune réservation, ou elles peuvent avoir des réservations mais aucune attribution. Idéalement, certaines réservation et attributions doivent être alignées, de sorte que les ressources aient une capacité engagée à effectuer les affectations des tâches. Cependant, les réservations peuvent être basées sur la disponibilité et les calendriers des tâches peuvent changer à mesure que le projet se poursuit. Par conséquent, le couplage léger des réservations ou des attributions procurent de la flexibilité.
 
 Project Operations a un onglet **Rapprochement** permettant aux chefs de projet de rapprocher les réservations des membres de l’équipe et leurs attributions pour les équipes de projet.
 

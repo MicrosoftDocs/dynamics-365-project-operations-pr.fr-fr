@@ -2,24 +2,22 @@
 title: Vue d’ensemble de l’utilisation des ressources
 description: Cette rubrique fournit des informations sur l’utilisation des ressources dans Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4d66b5fc642ef53adf1169ce891a7a5fa26b07d6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a683931bcd6a357c5feec9198b190b948ad17a40
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279315"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000793"
 ---
 # <a name="resource-utilization-overview"></a>Vue d’ensemble de l’utilisation des ressources
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Les ressources peuvent avoir une utilisation facturable cible. Cette utilisation cible est définie soit comme un attribut dans le rôle par défaut d’une ressource, soit sur l’enregistrement de la ressource réservable individuelle. Les calculs de l’utilisation sont basés sur les heures réelles que les ressources ont signalées à l’aide des entrées de temps approuvées.
+Les ressources peuvent avoir une utilisation facturable cible. Cette utilisation cible est définie soit comme un attribut dans le rôle par défaut d’une ressource, soit sur l’enregistrement de la ressource réservable individuelle. Les calculs de l’utilisation sont basés sur les heures réelles déclarées par des ressources à l’aide d’entrées de temps approuvées.
 
 Les formules suivantes sont utilisées pour calculer l’utilisation :
 

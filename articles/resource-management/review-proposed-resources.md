@@ -2,11 +2,9 @@
 title: Vérifier les ressources proposées
 description: Cette rubrique explique comment proposer des ressources de projet.
 author: ruhercul
-manager: AnnBe
 ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 987ea08c77c1824182856c0d52ee0cd15e7029b9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279270"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000748"
 ---
 # <a name="review-proposed-resources"></a>Vérifier les ressources proposées
 
@@ -35,8 +33,8 @@ Les gestionnaires de ressources peuvent proposer une ressource au chef de projet
 
 Les mises à jour de statut suivantes se produisent :
 
-- Dans la page **Assistant Planifier**, les indicateurs de statut sont mis à jour pour indiquer que la réservation est proposée, mais pas réservée de manière ferme.
-- Dans la demande de ressource, le statut passe à **Révision nécessaire**.
+- Sur la page **Assistant de planification**, les indicateurs de statut sont mis à jour pour indiquer que la réservation est proposée, et non pas réservée fermement.
+- Sur la demande de ressource, le statut est changé en **Révision nécessaire**.
 - Dans l’onglet **Équipe** du projet, la valeur **Statut de demande** du membre de l’équipe générique passe à **Révision nécessaire**.
 
 Le chef du projet peut accepter ou rejeter la proposition.

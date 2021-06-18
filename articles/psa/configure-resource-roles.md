@@ -2,8 +2,6 @@
 title: Configurer les rôles de ressource
 description: Procédure de configuration des rôles de ressources dans Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae18350723e3fc371707a3087d8948f3375131e1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 59c66aa7bd6c481f8db3088bede71c1ab81a203f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290671"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999308"
 ---
 # <a name="configure-resource-roles-project-service"></a>Configurer des rôles de ressources (Project Service)
 

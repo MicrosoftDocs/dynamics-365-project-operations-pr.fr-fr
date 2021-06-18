@@ -2,11 +2,9 @@
 title: Créer des champs et des entités personnalisés comme dimensions de tarification
 description: Cette rubrique fournit des informations sur la création de groupes d’options ou d’entités personnalisé(es).
 author: rumant
-manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,24 +15,24 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 089481cd3e7c0f8f1d1aa880d64cb79e8d677c2d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275625"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000523"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Créer des champs et des entités personnalisés comme dimensions de tarification
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Effectuez les étapes suivantes lorsque vous voulez créer un jeu d'options ou une entité personnalisés à utiliser comme dimension de tarification. Pour plus d’informations, voir [Vue d’ensemble des dimensions de tarification](pricing-dimensions-overview.md).  
+Effectuez les étapes suivantes lorsque vous voulez créer un jeu d’options ou une entité personnalisés à utiliser comme dimension de tarification. Pour plus d’informations, voir [Vue d’ensemble des dimensions de tarification](pricing-dimensions-overview.md).  
 
 > [!IMPORTANT]
-> Il est recommandé d’apporter toutes les modifications de dimension de tarification personnalisées dans une solution distincte. Cette bonne pratique importante offre une flexibilité à l'avenir pour mettre à jour ou supprimer les modifications selon les besoins. Cela vous aidera également à réutiliser votre travail et facilitera le portage de ces modifications vers une autre instance. Après avoir effectué toutes les modifications requises, exportez cette solution en tant que **Solution gérée** et importez-la dans d'autres instances pour réutiliser votre configuration de tarification.
+> Il est recommandé d’apporter toutes les modifications de dimension de tarification personnalisées dans une solution distincte. Cette bonne pratique importante offre une flexibilité à l’avenir pour mettre à jour ou supprimer les modifications selon les besoins. Cela vous aidera également à réutiliser votre travail et facilitera le portage de ces modifications vers une autre instance. Après avoir effectué toutes les modifications requises, exportez cette solution en tant que **Solution gérée** et importez-la dans d’autres instances pour réutiliser votre configuration de tarification.
 
   
-## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Créer des champs et des jeux d'options personnalisés dans la solution de dimension Tarification
+## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Créer des champs et des jeux d’options personnalisés dans la solution de dimension Tarification
 
 Une dimension Tarification peut être un jeu d’options ou une entité. Tous deux doivent être créés dans votre solution de tarification. Les étapes de cette procédure expliquent comment créer des dimensions basées sur une entité et des dimensions basées sur un jeu d’options.
 
@@ -46,21 +44,21 @@ Pour créer des dimensions basées sur une entité, procédez comme suit :
 3. Cliquez sur **Nouveau** pour créer une entité intitulée **Titre standard**. 
 4. Tapez les informations obligatoires restantes, puis cliquez sur **Enregistrer**.
 
-> ![Définition de l'entité Titre standard](media/Standard-Title-entity-definition.png)
+> ![Définition de l’entité Titre standard](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimensions basées sur un jeu d’options 
-Vous pouvez créer deux dimensions basées sur un jeu d'options. 
+Vous pouvez créer deux dimensions basées sur un jeu d’options. 
 
-- Utilisez **Emplacement de travail des ressources** pour suivre le prix de l'emplacement de travail **Accueil** et le travail **Sur site**. 
+- Utilisez **Emplacement de travail des ressources** pour suivre le prix de l’emplacement de travail **Accueil** et le travail **Sur site**. 
 - Utilisez **Heures de travail des ressources** avec les valeurs **Régulières** et **Heures supplémentaires** pour appliquer une majoration lorsque le travail est terminé.
 
 Le graphique suivant fournit une vue de la dimension **Emplacement de travail des ressources**. 
 
-> ![Dimension Tarification basée sur un jeu d'options appelé Emplacement de travail de la ressource](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimension Tarification basée sur un jeu d’options appelé Emplacement de travail de la ressource](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Le graphique suivant fournit une vue de la dimension **Heures de travail des ressources**. 
 
-> ![Dimension Tarification basée sur un jeu d'options appelé Heures de travail de la ressource](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Dimension Tarification basée sur un jeu d’options appelé Heures de travail de la ressource](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Allez dans **Paramètres** > **Solutions**, puis double-cliquez sur **\<your organization name> dimensions de tarification**. 
 2. Dans l’Explorateur de solutions, dans le volet de navigation de gauche, sélectionnez **Jeux d’options**. 
@@ -76,7 +74,7 @@ Vous pouvez créer des données pour les dimensions basées sur une entité manu
 4. Fermez la page. 
 5. Répétez les étapes 1 à 3 pour créer un autre titre standard pour « Ingénieur système principal ».
 
-> ![Exemple de données pour l'entité Titre standard](media/ST-data.png)
+> ![Exemple de données pour l’entité Titre standard](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

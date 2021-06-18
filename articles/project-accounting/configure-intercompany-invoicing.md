@@ -2,60 +2,58 @@
 title: Configurer la facturation intersociétés
 description: Cette rubrique fournit des informations et des exemples sur la configuration de la facturation intersociétés pour les projets.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bb39e212d00f8874254d4255f310217cdf46eb5a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 9894a405403d4faeb2f02387b03c77a40a6cea3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949676"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001153"
 ---
 # <a name="configure-intercompany-invoicing"></a>Configurer la facturation intersociétés
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Effectuez les étapes suivantes pour configurer la facturation intersociétés pour les projets dans Dynamics 365 Project Operations. Les transactions intersociétés sont des transactions de temps et de dépenses d'un contrat de projet qui appartiennent à une société ou une unité d'organisation, tandis que les ressources du contrat de projet font partie d'une société ou d'une unité d'organisation différente.
+Effectuez les étapes suivantes pour configurer la facturation intersociétés pour les projets dans Dynamics 365 Project Operations. Les transactions intersociétés sont des transactions de temps et de dépenses d’un contrat de projet qui appartiennent à une société ou une unité d’organisation, tandis que les ressources du contrat de projet font partie d’une société ou d’une unité d’organisation différente.
 
 ## <a name="example-configure-intercompany-invoicing"></a>Exemple : Configurer la facturation intersociétés
 
 Dans l’exemple suivant, Contoso Robotics États-Unis (USPM) est l’entité juridique emprunteuse et Contoso Robotics Royaume-Uni (GBPM) est l’entité juridique prêteuse. 
 
-1. **Configurer la comptabilité intersociétés entre des entités juridiques**. Chaque paire d'entités juridiques emprunteuses et prêteuses doit être configurée dans la page Comptabilité [Comptabilité intersociétés](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
+1. **Configurer la comptabilité intersociétés entre des entités juridiques**. Chaque paire d’entités juridiques emprunteuses et prêteuses doit être configurée dans la page Comptabilité [Comptabilité intersociétés](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
     1. Dans Dynamics 365 Finance, accédez à **Comptabilité** > **Paramétrage de la validation** > **Comptabilité intersociétés**. Créez un enregistrement contenant les informations suivantes :
 
         - **Société d’origine** = **GBPM**
         - **Société de destination** = **USPM**
 
-2. **Configurez la relation commerciale entre des entités juridiques**. L'enregistrement client représentant l'entité juridique emprunteuse doit être créé dans l'entité juridique prêteuse. L'enregistrement fournisseur représentant l'entité juridique prêteuse doit être créé dans l'entité juridique emprunteuse.
+2. **Configurez la relation commerciale entre des entités juridiques**. L’enregistrement client représentant l’entité juridique emprunteuse doit être créé dans l’entité juridique prêteuse. L’enregistrement fournisseur représentant l’entité juridique prêteuse doit être créé dans l’entité juridique emprunteuse.
 
-     1. Dans Finance, sélectionnez l'entité juridique **GBPM**.
-     2. Accédez à **Comptabilité client** > **Client** > **Tous les clients**. Créez un nouvel enregistrement pour l'entité juridiques, **USPM**.
+     1. Dans Finance, sélectionnez l’entité juridique **GBPM**.
+     2. Accédez à **Comptabilité client** > **Client** > **Tous les clients**. Créez un nouvel enregistrement pour l’entité juridiques, **USPM**.
      3. Développez **Nom**, filtrez les enregistrements par **Type** et sélectionnez **Entités juridiques**. 
      4. Recherchez et sélectionnez l’enregistrement client pour **Contoso Robotics États-Unis (USPM)**.
      5. Cliquez sur **Utiliser une correspondance**. 
      6. Sélectionnez le groupe de clients **50 - Clients intersociétés**, puis enregistrez l’enregistrement.
      7. Sélectionnez l’entité juridique **USPM**.
-     8. Accédez à **Comptabilité fournisseur** > **Fournisseurs** > **Tous les fournisseurs**. Créez un nouvel enregistrement pour l'entité juridique, **GBPM**.
+     8. Accédez à **Comptabilité fournisseur** > **Fournisseurs** > **Tous les fournisseurs**. Créez un nouvel enregistrement pour l’entité juridique, **GBPM**.
      9. Développez **Nom**, filtrez les enregistrements par **Type** et sélectionnez **Entités juridiques**. 
      10. Recherchez et sélectionnez l’enregistrement client pour **Contoso Robotics Royaume-Uni (GBPM)**.
-     11. Sélectionnez **Utiliser une correspondance**, sélectionnez le groupe de fournisseurs, puis enregistrez l'enregistrement.
-     12. Dans l'enregistrement du fournisseur, sélectionnez **Général** > **Installer** > **Intersociétés**.
-     13. Sur l'onglet **Relation commerciale**, définissez **Actif** sur **Oui**.
+     11. Sélectionnez **Utiliser une correspondance**, sélectionnez le groupe de fournisseurs, puis enregistrez l’enregistrement.
+     12. Dans l’enregistrement du fournisseur, sélectionnez **Général** > **Installer** > **Intersociétés**.
+     13. Sur l’onglet **Relation commerciale**, définissez **Actif** sur **Oui**.
      14. Définissez le champ **Société du client** sur **GBPM** et dans **Mon enregistrement de compte**, sélectionnez l’enregistrement de client que vous avez créé précédemment dans la procédure.
 
 3. **Configurez les paramètres intersociétés dans la gestion de projet et les paramètres de comptabilité**. 
 
-    1. Sélectionnez l'entité juridique **USPM** et accédez à **Gestion et comptabilité des projets** > **Configurer** > **Paramètres de gestion et comptabilité des projets**.
-    2. Sur l'onglet **Intersociétés**, sélectionnez la catégorie d'approvisionnement correspondant aux factures fournisseurs générées automatiquement.
+    1. Sélectionnez l’entité juridique **USPM** et accédez à **Gestion et comptabilité des projets** > **Configurer** > **Paramètres de gestion et comptabilité des projets**.
+    2. Sur l’onglet **Intersociétés**, sélectionnez la catégorie d’approvisionnement correspondant aux factures fournisseurs générées automatiquement.
     3. Dans **Catégorie par défaut**, sélectionnez **Ressources intersociétés**.
-    4. Sélectionnez l'entité juridique **GBPM** et accédez à **Gestion et comptabilité des projets** > **Configurer** > **Paramètres de gestion et comptabilité des projets**.
-    5. Sur l'onglet **Intersociétés**, sélectionnez une catégorie de projet par défaut pour chaque type de transaction. Les catégories de projet sont utilisées pour la configuration fiscale lorsque la catégorie facturée dans les transactions intersociétés existe uniquement dans l’entité juridique emprunteuse. Vous pouvez choisir de provisionner un produit pour les transactions intersociétés. Une régularisation a lieu lorsque les transactions sont validées via le journal d’intégration de Project Operations dans l'entité juridique prêteuse. Le journal est inversé lorsque la facture intersociétés est validée.
+    4. Sélectionnez l’entité juridique **GBPM** et accédez à **Gestion et comptabilité des projets** > **Configurer** > **Paramètres de gestion et comptabilité des projets**.
+    5. Sur l’onglet **Intersociétés**, sélectionnez une catégorie de projet par défaut pour chaque type de transaction. Les catégories de projet sont utilisées pour la configuration fiscale lorsque la catégorie facturée dans les transactions intersociétés existe uniquement dans l’entité juridique emprunteuse. Vous pouvez choisir de provisionner un produit pour les transactions intersociétés. Une régularisation a lieu lorsque les transactions sont validées via le journal d’intégration de Project Operations dans l’entité juridique prêteuse. Le journal est inversé lorsque la facture intersociétés est validée.
     6. Dans le groupe **Lors du prêt de ressources**, sélectionnez **...** > **Nouveau**. 
     7. Dans la grille, sélectionnez les informations suivantes :
 
@@ -64,23 +62,23 @@ Dans l’exemple suivant, Contoso Robotics États-Unis (USPM) est l’entité ju
           - **Catégorie de feuille de temps par défaut** = **Par défaut - Heure**
           - **Catégorie de dépense par défaut** = **Défaut - dépense**
 
-4. **Définissez les comptes de coûts et de revenus intersociétés dans le paramétrage de la validation dans la comptabilité**. Le compte de revenus intersociétés est crédité lorsque la facture client intersociétés est validée dans l'entité juridique prêteuse. Le compte de coûts intersociétés est débité lorsque la facture fournisseur en attente correspondante est validée dans l'entité juridique emprunteuse. Ces comptes sont configurés dans les entités juridiques correspondantes. 
+4. **Définissez les comptes de coûts et de revenus intersociétés dans le paramétrage de la validation dans la comptabilité**. Le compte de revenus intersociétés est crédité lorsque la facture client intersociétés est validée dans l’entité juridique prêteuse. Le compte de coûts intersociétés est débité lorsque la facture fournisseur en attente correspondante est validée dans l’entité juridique emprunteuse. Ces comptes sont configurés dans les entités juridiques correspondantes. 
       
-     1. Dans Finance, sélectionnez l'entité juridique emprunteuse **USPM**. 
+     1. Dans Finance, sélectionnez l’entité juridique emprunteuse **USPM**. 
      2. Accédezr à **Gestion et comptabilité des projets** > **Configurer** > **Validation** > **Paramétrage de la validation dans la comptabilité**. 
-     3. Sur l'onglet **Comptes de coûts**, dans **Type de compte général**, sélectionnez **Coût intersociétés**. Créez un nouvel enregistrement contenant les informations suivantes :
+     3. Sur l’onglet **Comptes de coûts**, dans **Type de compte général**, sélectionnez **Coût intersociétés**. Créez un nouvel enregistrement contenant les informations suivantes :
       
         - **Entité juridique prêteuse** = **GBPM**
         - **Compte principal** = Sélectionnez le compte principal pour le coût intersociétés. Cette configuration est requise. La configuration est utilisée pour les flux intersociétés dans Finance, mais pas pour les flux intersociétés liés au projet. Cette sélection n’a pas d’impact en aval. 
         
      4. Sélectionnez l’entité juridique prêteuse **GBPM**. 
      5. Accédezr à **Gestion et comptabilité des projets** > **Configurer** > **Validation** > **Paramétrage de la validation dans la comptabilité**. 
-     6. Sur l'onglet **Comptes de revenus**, dans **Type de compte général**, sélectionnez **Revenu intersociétés**. Créez un nouvel enregistrement contenant les informations suivantes :
+     6. Sur l’onglet **Comptes de revenus**, dans **Type de compte général**, sélectionnez **Revenu intersociétés**. Créez un nouvel enregistrement contenant les informations suivantes :
 
         - **Entité juridique emprunteuse** = **USPM**
         - **Compte principal** = Sélectionnez le compte principal pour le revenu intersociétés. Cette configuration est requise. La configuration est utilisée pour les flux intersociétés dans Finance, mais pas pour les flux intersociétés liés au projet. Cette sélection n’a pas d’impact en aval. 
 
-5. **Configurez la tarification de transfert pour la main-d'œuvre**. La tarification de transfert intersociétés est configurée dans Project Operations sur Dataverse. Configurez les [taux de coûts de la main-d’œuvre](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) et les [taux de facturation de la main-d’œuvre](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) pour la facturation intersociétés. La tarification de transfert n'est pas prise en charge pour les transactions de dépenses intersociétés. Le prix de vente unitaire inter-organisationnel sera toujours fixé à la même valeur que le prix de revient unitaire de ressourcement.
+5. **Configurez la tarification de transfert pour la main-d’œuvre**. La tarification de transfert intersociétés est configurée dans Project Operations sur Dataverse. Configurez les [taux de coûts de la main-d’œuvre](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) et les [taux de facturation de la main-d’œuvre](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) pour la facturation intersociétés. La tarification de transfert n’est pas prise en charge pour les transactions de dépenses intersociétés. Le prix de vente unitaire inter-organisationnel sera toujours fixé à la même valeur que le prix de revient unitaire de ressourcement.
 
       Le coût des ressources du développeur dans Contoso Robotics Royaume-Uni est de 88 livres sterling (GBP) par heure. Contoso Robotics Royaume-Uni facturera Contoso Robotics États-Unis 120 USD pour chaque heure que cette ressource a travaillé sur des projets américains. Contoso Robotics États-Unis facturera le client Adventure Works 200 USD pour le travail effectué par la ressource développeur Contoso Robotics Royaume-Uni.
 

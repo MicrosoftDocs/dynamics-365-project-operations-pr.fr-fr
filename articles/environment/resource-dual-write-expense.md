@@ -5,15 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8c347f14f3a479eb4aec951cfe4094c5581bce32
-ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5955745"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999983"
 ---
 # <a name="expense-management-integration"></a>Intégration de la gestion des dépenses
 

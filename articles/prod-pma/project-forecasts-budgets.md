@@ -2,11 +2,9 @@
 title: Prévisions et budgets du projet
 description: Microsoft Dynamics 365 Finance offre les prévisions de projet et les budgets de projet pour gérer et contrôler vos projets.
 author: Yowelle
-manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2685e99800ef6fd0b613377271259da0da805aad
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c1c1cde984334af8cc30e7899e3cf0b38467666f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289411"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999623"
 ---
 # <a name="project-forecasts-and-budgets"></a>Prévisions et budgets du projet
 
@@ -37,7 +35,7 @@ Les prévisions de projet et les budgets de projet utilisent des modèles de pr�
 
 Chaque méthode a ses propres avantages. Vous devez tenir compte des points suivants avant de sélectionner une méthode pour votre organisation.
 
-|   Méthode d'allocation       |           Prévisions de projet            |        Budgétisation de projet                           |
+|   Méthode d’allocation       |           Prévisions de projet            |        Budgétisation de projet                           |
 |---------------------------|------------------------------------------|----------------------------------------------------|
 | **Attribution de période**     | Vous ne pouvez pas allouer explicitement des transactions sur un période fiscale. Au lieu de cela, la prévision et le contrôle de la prévision sont basés sur la durée de vie du projet. Les prévisions étant basées sur une date spécifique, vous devez déduire la période à partir de la date. | Vous pouvez allouer des transactions sur l’intégralité du projet ou une période fiscale. Si vous faite la répartition sur une période, vous pouvez reporter les montants inutilisés à la prochaine période fiscale. |
 | **Affichage des transactions**  | Vous pouvez afficher les transactions dans les formulaires de prévision, où vous voyez les prévisions pour l’ensemble de l’entreprise et pour tous les projets, quelle que soit la hiérarchie. Pour vous concentrer sur un projet particulier, vous devez filtrer les données.                                       | Vous pouvez afficher les transactions budgétisées pour une seule hiérarchie de projet. Par conséquent, vous pouvez afficher les détails de la transaction pour un projet parent ou ses sous-projets.                 |
@@ -63,7 +61,7 @@ Vous pouvez réviser, copier, supprimer ou transférer des prévisions de projet
 
 -   **Réviser** : vous pouvez réviser une transaction de prévision sous les mêmes formes que celles où les écritures d’origine ont été effectuées.
 -   **Copier ou supprimer** : lorsque vous copiez des transactions de prévision, vous copiez les lignes transaction d’un modèle de prévision dans un autre modèle de prévision. Lorsque vous supprimez une prévision, vous supprimez les transactions de prévision d’un modèle de prévision. Pour limiter le nombre de transactions de prévision copiées ou supprimées, sélectionnez des types et dates de transaction spécifiques. Vous pouvez ainsi copier ou supprimer uniquement des parties spécifiques d’une prévision.
--   **Transférer** : lorsque vous transférez une prévision de projet vers un budget comptable, vous transférez les transactions de prévision d’un modèle de prévision vers un budget comptable. Vous pouvez remplacer toutes les transactions précédemment transférées dans le budget comptable vers lequel vous transférez vos prévisions de projet.
+-   **Transférer** : lorsque vous transférez une prévision de projet vers un budget comptabilité, vous transférez les transactions de prévision d’un modèle de prévision vers un budget comptabilité. Vous pouvez remplacer toutes les transactions précédemment transférées dans le budget comptabilité vers lequel vous transférez vos prévisions de projet.
 
 ## <a name="project-budgets"></a>Budgets de projet
 La budgétisation de projet est une méthode plus simple que la prévision, même si elle s’intègre aux modèles de prévision. Elle utilise un formulaire de saisie unique pour les détails et les révisions du budget d’origine, et permet des projections basées uniquement sur le montant, la catégorie ou l’activité. 

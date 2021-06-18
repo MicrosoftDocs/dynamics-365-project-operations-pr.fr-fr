@@ -2,11 +2,9 @@
 title: Modes d’attribution des réservations
 description: Cette rubrique fournit des informations sur le fonctionnement des modes d’attribution des réservations dans Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 358eb5a6ccf1dd09f8056a20dbf6906e2c3803bd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 839ef1f1d35c7d900794c0af36e6bc9ea640c497
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280035"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998768"
 ---
 # <a name="booking-allocation-methods"></a>Modes d’attribution des réservations
 
@@ -42,13 +40,13 @@ Vous pouvez utiliser six méthodes d’attribution des réservations :
 - [Aucune](#none)
 
 ### <a name="full-capacity"></a><a name="full"></a>Capacité maximale 
-Le mode Capacité maximale réserve la capacité totale de la ressource pour les dates de début et de fin spécifiées. Par exemple, si une ressource a un calendrier défini pour fonctionner huit heures par jour, cinq jours par semaine, définir une date de début et une date de fin couvrant cinq jours ouvrables réserve la ressource pendant 40 heures. La réservation est effectuée sans considération pour la capacité restante de la ressource. Si une ressource est déjà réservée sur d’autres projets pendant cette période, les 40 heures sont réservées en tant qu’heures supplémentaires, ce qui entraîne potentiellement des surréservations.
+Le mode Capacité maximale réserve la capacité totale de la ressource pour les dates de début et de fin spécifiées. Par exemple, si une ressource a un calendrier défini pour fonctionner huit heures par jour, cinq jours par semaine, définir une date de début et une date de fin couvrant cinq jours ouvrables réserve la ressource pendant 40 heures. La réservation se fait sans tenir compte de la capacité restante de la ressource. Si une ressource est déjà réservée sur d’autres projets pendant cette période, les 40 heures sont réservées en tant qu’heures supplémentaires, ce qui entraîne potentiellement des surréservations.
 
 ### <a name="remaining-capacity"></a><a name="remaining"></a>Capacité restante
 Le mode Capacité restante est uniquement disponible si vous réservez directement dans un projet via le tableau de Planification. Ce mode réserve la capacité disponible de la ressource au sein de la plage de dates spécifiée. Par exemple, si une ressource a une capacité de 40 heures par semaine et a été déjà été réservée pour 10 heures, la réservation cette semaine-là entraîne une réservation des 30 heures de capacité restante cette semaine-là.
 
 ### <a name="percentage-capacity"></a><a name="percentage"></a>Capacité du pourcentage
-Le mode Capacité en pourcentage réserve la ressource pour un pourcentage de la capacité aux dates de début et de fin spécifiées. Par exemple, si le calendrier d’une ressource est défini pour fonctionner huit heures par jour, cinq jours par semaine, définir une date de début et une date de fin couvrant cinq jours ouvrables à une capacité de 50 % réserve la ressource pendant 20 heures. Les réservations individuelles par jour sont étalées à part égales sur la période, quatre heures par jour dans cet exemple. La réservation est effectuée sans considération pour la capacité restante de la ressource. Si la ressource est déjà réservée pendant cette période sur d’autres projets, les 20 heures sont réservées en tant qu’heures supplémentaires, ce qui entraîne potentiellement des surréservations.
+Le mode Capacité en pourcentage réserve la ressource pour un pourcentage de la capacité aux dates de début et de fin spécifiées. Par exemple, si le calendrier d’une ressource est défini pour fonctionner huit heures par jour, cinq jours par semaine, définir une date de début et une date de fin couvrant cinq jours ouvrables à une capacité de 50 %% réserve la ressource pendant 20 heures. Les réservations individuelles par jour sont étalées à part égales sur la période, quatre heures par jour dans cet exemple. La réservation est effectuée sans considération pour la capacité restante de la ressource. Si la ressource est déjà réservée pendant cette période sur d’autres projets, les 20 heures sont réservées en tant qu’heures supplémentaires, ce qui entraîne potentiellement des surréservations.
 
 ### <a name="evenly-distribute-hours"></a><a name="evenly"></a>Heures distribuées de manière homogène
 Le mode Heures distribuées de manière homogène réserve la ressource pour un nombre spécifique d’heures, en distribuant le temps de manière homogène par jour pendant la période spécifiée. Par exemple, si vous réservez une ressource pendant 20 heures sur une période de cinq jours, ce mode distribue les 20 heures en quatre heures par jour de manière homogène. La réservation est effectuée sans considération pour la capacité restante de la ressource. Si la ressource est déjà réservée pendant cette période sur d’autres projets, les 20 heures sont réservées en tant qu’heures supplémentaires, ce qui entraîne potentiellement des surréservations.

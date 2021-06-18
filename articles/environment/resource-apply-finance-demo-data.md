@@ -2,18 +2,16 @@
 title: Appliquer les données de démonstration à un environnement hébergé par le cloud Finance
 description: Ce sujet explique comment appliquer les données de démonstration entre Project Operations et un environnement hébergé dans le cloud Dynamics 365 Finance.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7239301dc8b775dc4a53a1cf6c0bcba3956125a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289861"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000147"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Appliquer les données de démonstration à un environnement hébergé par le cloud Finance
 

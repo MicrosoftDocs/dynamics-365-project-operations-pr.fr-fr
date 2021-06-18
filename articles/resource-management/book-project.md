@@ -2,18 +2,16 @@
 title: Réserver à un projet
 description: Cette rubrique explique comment réserver une ressource sur un projet.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dff8107864f95c87d25a421dfeeafe9081e98e25
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 15de5735ba6d25994a68192ebdf80aefec772d6e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279991"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998813"
 ---
 # <a name="book-to-a-project"></a>Réserver à un projet
 
@@ -32,7 +30,7 @@ Si votre organisation fonctionne en mode d’allocation des ressources hybride, 
 1. À partir du projet, accédez à la grille des membres de l’équipe et sélectionnez **Nouveau**.
 2. Définissez le nom du poste et le rôle de la ressource.
 3. Sélectionnez la ressource pouvant être réservée dans la recherche disponible.
-4. Après avoir sélectionné la ressource, définissez les informations de champ suivantes pour réserver la ressource :
+4. Après avoir sélectionné la ressource, renseignez les informations de champs suivantes pour réserver la ressource :
 
     - Date de début
     - Date de fin

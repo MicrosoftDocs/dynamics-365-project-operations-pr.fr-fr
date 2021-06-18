@@ -2,18 +2,16 @@
 title: Créer des factures correctives basées sur un projet
 description: Cette rubrique fournit des informations sur les factures correctives dans Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 03/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
-ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
+ms.openlocfilehash: f0423fe9895b91431b2a83a8fff81118205b0736
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788852"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001609"
 ---
 # <a name="create-corrective-project-based-invoices"></a>Créer des factures correctives basées sur un projet 
 
