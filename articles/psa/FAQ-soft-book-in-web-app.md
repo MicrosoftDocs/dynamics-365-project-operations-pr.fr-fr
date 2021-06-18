@@ -2,8 +2,6 @@
 title: Comment puis-je réserver temporairement les ressources dans la version 2.x de l’application ?
 description: Cet article décrit comment réserver temporairement des membres de l’équipe du projet avec Project Service.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18a1176c131e233f62f74dc0dd8a6aa3ee561da5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 413783d2386cccd98cfe216a7c7300a5b7f771ab
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286020"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992891"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Comment puis-je réserver temporairement des ressources dans l’application Web (application Project Service v2.x) ?
 

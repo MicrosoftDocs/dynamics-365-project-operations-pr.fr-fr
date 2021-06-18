@@ -2,18 +2,16 @@
 title: Gérer les tarifs des projets sur les devis de projet
 description: Cette rubrique fournit des informations sur l’utilisation de tarifs de projet sur les devis.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 926581f877f91e3a351d51cac9c2b1daba035126
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858605"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994898"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Gérer les tarifs des projets sur les devis de projet 
 

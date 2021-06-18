@@ -1,12 +1,10 @@
 ---
 title: Présentation de la fonctionnalité de gestion des dépenses
-description: Cette rubrique fournit des informations générales sur la gestion des dépenses et des liens vers des ressources supplémentaires. Vous pouvez utiliser la gestion des dépenses pour créer un flux de travail intégré dans lequel vous pouvez stocker des informations sur le mode de paiement, importer des transactions par carte de crédit et suivre l'argent que les employés dépensent lorsqu'ils engagent des dépenses pour votre entreprise.
+description: Cette rubrique fournit des informations générales sur la gestion des dépenses et des liens vers des ressources supplémentaires. Vous pouvez utiliser la gestion des dépenses pour créer un flux de travail intégré dans lequel vous pouvez stocker des informations sur le mode de paiement, importer des transactions par carte de crédit et suivre l’argent que les employés dépensent lorsqu’ils engagent des dépenses pour votre entreprise.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
@@ -18,20 +16,20 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2db1c2cd34a2b99ac8e0cc88c34bac804bbafdb6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 0fe9f763e18507fa232cb830f8e0b6852374b65b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949766"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993548"
 ---
 # <a name="expense-management-overview"></a>Présentation de la fonctionnalité de gestion des dépenses
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez utiliser la gestion des dépenses pour créer un flux de travail intégré dans lequel vous pouvez stocker des informations sur le mode de paiement, importer des transactions par carte de crédit et suivre l'argent que les employés dépensent lorsqu'ils engagent des dépenses pour votre entreprise. Vous pouvez également définir des politiques de dépenses et automatiser le remboursement des frais de déplacement.
+Vous pouvez utiliser la gestion des dépenses pour créer un flux de travail intégré dans lequel vous pouvez stocker des informations sur le mode de paiement, importer des transactions par carte de crédit et suivre l’argent que les employés dépensent lorsqu’ils engagent des dépenses pour votre entreprise. Vous pouvez également définir des politiques de dépenses et automatiser le remboursement des frais de déplacement.
 
-Pour plus d'informations, voir [Configurer la gestion des dépenses](plan-expense-management.md).
+Pour plus d’informations, voir [Configurer la gestion des dépenses](plan-expense-management.md).
 
 ## <a name="additional-resources"></a>Ressources complémentaires
 
@@ -41,19 +39,19 @@ Pour voir quelles nouvelles fonctionnalités sont prévues, consultez les Plans 
 
 #### <a name="expense-report-entry"></a>Saisie des notes de frais
 
-La saisie des notes de frais a été repensée pour simplifier l'expérience et réduire le temps nécessaire pour remplir les notes de frais. Vous pouvez activer cette fonctionnalité dans la gestion des fonctionnalités. Vous pouvez ajouter une nouvelle page de configuration pour configurer la visibilité des champs de dépenses et spécifier les données requises, facultatives ou non disponibles lors de la saisie des notes de frais. Lorsque cette fonctionnalité est activée, un nouvel espace de travail des dépenses est disponible. Cet espace de travail remplace l'espace de travail des dépenses précédent et constitue la page d'accueil pour une expérience d'entrée améliorée.
+La saisie des notes de frais a été repensée pour simplifier l’expérience et réduire le temps nécessaire pour remplir les notes de frais. Vous pouvez activer cette fonctionnalité dans la gestion des fonctionnalités. Vous pouvez ajouter une nouvelle page de configuration pour configurer la visibilité des champs de dépenses et spécifier les données requises, facultatives ou non disponibles lors de la saisie des notes de frais. Lorsque cette fonctionnalité est activée, un nouvel espace de travail des dépenses est disponible. Cet espace de travail remplace l’espace de travail des dépenses précédent et constitue la page d’accueil pour une expérience d’entrée améliorée.
 
-Pour plus d'informations, voir [Notes de frais réinventées](ExpenseWorkspaceNew.md).
+Pour plus d’informations, voir [Notes de frais réinventées](ExpenseWorkspaceNew.md).
 
 ### <a name="blogs"></a>Blogs
 
-Vous pouvez trouver des opinions, des actualités et d'autres informations sur le [Blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) et le[Microsoft Dynamics 365 Finance and Operations - Blog financier](https://community.dynamics.com/365/financeandoperations/b/financials).
+Vous pouvez trouver des opinions, des actualités et d’autres informations sur le [Blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) et le[Microsoft Dynamics 365 Finance and Operations - Blog financier](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Le [Microsoft Dynamics Operations Partner Community blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) donne aux Partenaires Microsoft Dynamics une ressource unique où ils peuvent apprendre ce qui est nouveau et les tendances dans MBS Operations.
 
 ### <a name="task-guides"></a>Guides de tâche
 
-Une aide supplémentaire est disponible sous forme de guides de tâches. Pour accéder aux guides des tâches, sélectionnez le bouton **Aide** sur n'importe quelle page.
+Une aide supplémentaire est disponible sous forme de guides de tâches. Pour accéder aux guides des tâches, sélectionnez le bouton **Aide** sur n’importe quelle page.
 
 ### <a name="videos"></a>Vidéos
 

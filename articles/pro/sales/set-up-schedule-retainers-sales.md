@@ -2,18 +2,16 @@
 title: Configurer une planification de la provision
 description: Cette rubrique fournit des informations sur la façon de configurer une planification de provsions dans Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d90781407f11c93b9fb9e0cd2446e102e216b8db
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 64bb94d0381696418330e9ba5c26af34a3fb6e5b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272253"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994178"
 ---
 # <a name="set-up-a-retainer-schedule"></a>Configurer une planification de la provision
 

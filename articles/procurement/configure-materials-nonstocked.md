@@ -2,19 +2,17 @@
 title: Configurer le matériel non stocké et les factures fournisseur en attente
 description: Cette rubrique explique comment activer le matériel non stocké et les factures fournisseur en attente.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880641"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993908"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurer le matériel non stocké et les factures fournisseur en attente
 
@@ -61,11 +59,11 @@ Si vous utilisez des données de démonstration standard, vous devrez peut-être
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Activer le flux de travail pour créer des comptes basés sur l’entité du fournisseur
 
-La solution d’orchestration à double écriture fournit l’[intégration principale des fournisseurs ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Comme condition préalable à cette fonctionnalité, les données fournisseur doivent être créées dans l’entité **Comptes**. Activez un modèle de processus de flux de travail pour créer des fournisseurs dans la table **Comptes**, comme décrit dans [Basculer entre les conceptions des fournisseurs](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+La solution d’orchestration à double écriture fournit l’[intégration principale des fournisseurs ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Comme condition préalable à cette fonctionnalité, les données fournisseur doivent être créées dans l’entité **Comptes**. Activez un modèle de processus de flux de travail pour créer des fournisseurs dans la table **Comptes**, comme décrit dans [Basculer entre les conceptions des fournisseurs](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Définir les produits à créer comme actifs
 
-Le matériel non stocké doit être configuré comme **Produits lancés** dans Finance. La solution d’orchestration à double écriture fournit une solution prête à l’emploi [Intégration des produits lancés dans le catalogue des produits Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Par défaut, les produits de Finance sont synchronisés avec Dataverse à l’état de brouillon. Pour synchroniser le produit à un état actif afin qu’il puisse être directement utilisé dans les documents d’utilisation du matériel ou les factures fournisseur en attente, accédez à **Système** > **Administration** > **Administration système** > **Paramètres du système**, puis, sur l’onglet **Ventes**, définissez **Créer des produits à l’état actif** sur **Oui**.
+Le matériel non stocké doit être configuré comme **Produits lancés** dans Finance. La solution d’orchestration à double écriture fournit une solution prête à l’emploi [Intégration des produits lancés dans le catalogue des produits Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Par défaut, les produits de Finance sont synchronisés avec Dataverse à l’état de brouillon. Pour synchroniser le produit à un état actif afin qu’il puisse être directement utilisé dans les documents d’utilisation du matériel ou les factures fournisseur en attente, accédez à **Système** > **Administration** > **Administration système** > **Paramètres du système**, puis, sur l’onglet **Ventes**, définissez **Créer des produits à l’état actif** sur **Oui**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Configurer les conditions préalables dans Finance
 

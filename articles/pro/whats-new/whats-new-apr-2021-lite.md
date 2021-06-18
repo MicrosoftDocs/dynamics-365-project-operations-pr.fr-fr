@@ -2,25 +2,23 @@
 title: Nouveautés d’avril 2021 – Déploiement simplifié de Project Operations
 description: Cette rubrique fournit des informations sur les mises à jour de qualité disponibles dans la version d’avril 2021 du déploiement simplifié de Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bd6fbe8d75fbe9157a97d2edd38d40a97395c924
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 868d6daf8ac3ad9ef4245cef3c74a735137d3903
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868035"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994088"
 ---
 # <a name="whats-new-april-2021---project-operations-lite-deployment"></a>Nouveautés d’avril 2021 – Déploiement simplifié de Project Operations
 
 _S’applique à : Déploiement simplifié – Traiter la facturation pro forma_
 
-Cette rubrique s'applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
   - Version 4.9.0.221 de Project Operations dans l’environnement Dataverse 
 

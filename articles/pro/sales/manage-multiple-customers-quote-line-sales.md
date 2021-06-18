@@ -2,18 +2,16 @@
 title: Gérer plusieurs clients sur les lignes de devis basées sur un projet – Simplifié
 description: Cette rubrique décrit comment gérer plusieurs clients sur des lignes de devis basées sur des projets.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0fde833ad6b13fc12b733d1aa9f3bba0cfd95b2b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f2e45e0a83f904a65a29c1e39b59adac47a77c58
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273069"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994988"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Gérer plusieurs clients sur les lignes de devis basées sur un projet – Simplifié
 
@@ -27,7 +25,7 @@ Tous les clients du devis sur l’onglet **Clients** du devis de projet par déf
 
 ## <a name="create-update-or-delete-a-quote-line-customer-record"></a>Créer, mettre à jour ou supprimer un enregistrement client de ligne de devis
 
-Vous pouvez créer, mettre à jour ou supprimer un client de ligne de devis sur l’onglet **Clients de la ligne de devis** sur la page **Ligne de devis basée sur le projet**. Lorsque vous ajoutez un nouveau client sur la ligne de devis basée sur le projet, le client est également ajouté au devis global en tant que client du devis, avec un pourcentage de répartition de facturation par défaut sur le devis global de 0 %. Le pourcentage de facturation fractionnée sur le devis global est copié dans les nouvelles lignes de devis et dans l’éventuel contrat de projet. Cependant, lors de la facturation à partir du contrat, le pourcentage de facturation fractionnée au niveau de la ligne de devis est utilisé, et non le pourcentage de facturation fractionnée au niveau du contrat global. 
+Vous pouvez créer, mettre à jour ou supprimer un client de ligne de devis sur l’onglet **Clients de la ligne de devis** sur la page **Ligne de devis basée sur le projet**. Lorsque vous ajoutez un nouveau client sur la ligne de devis basée sur le projet, le client est également ajouté au devis global en tant que client du devis, avec un pourcentage de répartition de facturation par défaut sur le devis global de 0 %%. Le pourcentage de facturation fractionnée sur le devis global est copié dans les nouvelles lignes de devis et dans l’éventuel contrat de projet. Cependant, lors de la facturation à partir du contrat, le pourcentage de facturation fractionnée au niveau de la ligne de devis est utilisé, et non le pourcentage de facturation fractionnée au niveau du contrat global. 
 
 Le tableau suivant affiche les champs sur l’enregistrement de client de la ligne de devis d’une ligne de devis selon un projet.
 
@@ -40,7 +38,7 @@ Le tableau suivant affiche les champs sur l’enregistrement de client de la lig
 
 ## <a name="edit-billing-split-percentages"></a>Modifier des pourcentages de facturation fractionnée
 
-Vous pouvez modifier les pourcentages de facturation fractionnée en ligne. Lorsque les pourcentages de facturation fractionnée ne totalisent pas 100 %, une erreur se produit. Après avoir modifié les pourcentages de facturation fractionnée, actualisez la page de ligne de devis pour supprimer l’erreur.
+Vous pouvez modifier les pourcentages de facturation fractionnée en ligne. Lorsque les pourcentages de facturation fractionnée ne totalisent pas 100 %%, une erreur se produit. Après avoir modifié les pourcentages de facturation fractionnée, actualisez la page de ligne de devis pour supprimer l’erreur.
 
 Utilisez l’action de répartition homogène sur la sous-grille des clients de la ligne de devis pour attribuer des facturations fractionnées à tous les clients de la ligne de devis. S’il y a un facteur d’arrondi, il sera ajouté au client d’arrondi. L’un des clients de la ligne de devis est toujours marqué comme client d’arrondi, ce qui signifie que l’enregistrement de client de la ligne de devis a l’indicateur d’arrondi défini sur **Oui**. 
 

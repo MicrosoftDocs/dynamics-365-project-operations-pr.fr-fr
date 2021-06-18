@@ -1,13 +1,9 @@
 ---
 title: Espace de travail mobile de gestion des dépenses
-description: Cette rubrique donne des informations sur l'espace de travail mobile Gestion des dépenses. Cet espace de travail permet aux utilisateurs de capturer et de télécharger un reçu, afin de pouvoir le joindre à une note de frais ultérieurement. Les utilisateurs peuvent également créer rapidement une ligne de dépenses en utilisant un reçu joint, et créer et gérer leurs notes de frais.
+description: Cette rubrique donne des informations sur l’espace de travail mobile Gestion des dépenses. Cet espace de travail permet aux utilisateurs de capturer et de télécharger un reçu, afin de pouvoir le joindre à une note de frais ultérieurement. Les utilisateurs peuvent également créer rapidement une ligne de dépenses en utilisant un reçu joint, et créer et gérer leurs notes de frais.
 author: suvaidya
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -17,29 +13,29 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7eccf5cd234df6ca4fc4c83b581f6c4c22b3396f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950476"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993638"
 ---
 # <a name="expense-management-mobile-workspace"></a>Espace de travail mobile de gestion des dépenses
 
-Cette rubrique donne des informations sur l'espace de travail mobile **Gestion des dépenses** . Cet espace de travail permet aux utilisateurs de capturer et de télécharger un reçu, afin de pouvoir le joindre à une note de frais ultérieurement. Les utilisateurs peuvent également créer rapidement une ligne de dépenses en utilisant un reçu joint, et créer et gérer leurs notes de frais. De plus, les approbateurs peuvent utiliser l’espace de travail mobile **Gestion des dépenses** pour afficher les notes de frais qui leur sont affectées et les approuver ou les rejeter.
+Cette rubrique donne des informations sur l’espace de travail mobile **Gestion des dépenses** . Cet espace de travail permet aux utilisateurs de capturer et de télécharger un reçu, afin de pouvoir le joindre à une note de frais ultérieurement. Les utilisateurs peuvent également créer rapidement une ligne de dépenses en utilisant un reçu joint, et créer et gérer leurs notes de frais. De plus, les approbateurs peuvent utiliser l’espace de travail mobile **Gestion des dépenses** pour afficher les notes de frais qui leur sont affectées et les approuver ou les rejeter.
 
 
 Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Dynamics 365 Unified Ops.
 
 
-## <a name="overview"></a>Vue d\'ensemble
+## <a name="overview"></a>Vue d\’ensemble
 
-De nombreuses organisations exigent qu'une copie d'un reçu soit jointe à une note de frais de voyage ou d'affaires qu'un employé soumet pour remboursement. L’espace de travail mobile **Gestion des dépenses** permet aux utilisateurs de créer rapidement de nouvelles lignes de dépenses sur l’appareil mobile de leur choix en joignant la photo d’un reçu. Ils peuvent également prendre une photo d’un reçu, puis la joindre ultérieurement à une note de frais. Les employés peuvent également créer et gérer leurs notes de frais, puis les soumettre pour approbation et remboursement en utilisant leur appareil mobile.
+De nombreuses organisations exigent qu’une copie d’un reçu soit jointe à une note de frais de voyage ou d’affaires qu’un employé soumet pour remboursement. L’espace de travail mobile **Gestion des dépenses** permet aux utilisateurs de créer rapidement de nouvelles lignes de dépenses sur l’appareil mobile de leur choix en joignant la photo d’un reçu. Ils peuvent également prendre une photo d’un reçu, puis la joindre ultérieurement à une note de frais. Les employés peuvent également créer et gérer leurs notes de frais, puis les soumettre pour approbation et remboursement en utilisant leur appareil mobile.
 
 
-L'espace de travail mobile **Gestion des dépenses** en particulier permet aux utilisateurs d'effectuer ces tâches :
+L’espace de travail mobile **Gestion des dépenses** en particulier permet aux utilisateurs d’effectuer ces tâches :
 
-- Prenez une photo d'un reçu et téléchargez-le sur Dynamics 365 Finance. Vous pouvez joindre cette photo à une note de frais ultérieurement.
+- Prenez une photo d’un reçu et téléchargez-le sur Dynamics 365 Finance. Vous pouvez joindre cette photo à une note de frais ultérieurement.
 - Télécharger un fichier en tant que reçu capturé. Vous pouvez joindre ce fichier à une note de frais ultérieurement.
 - Créez une nouvelle ligne de dépense en utilisant un reçu joint. Vous pouvez ensuite ajouter l’élément de ligne à une note de frais ultérieurement et le soumettre pour approbation et remboursement.
 
@@ -58,7 +54,7 @@ Vous pouvez également utiliser ces fonctionnalités :
 Les conditions préalables varient en fonction de la version qui a été déployée pour votre organisation.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prérequis si vous utilisez Dynamics 365 Finance 
-Si Finance a été déployé pour votre organisation, l'administrateur système doit publier l'espace de travail mobile **Gestion des dépenses**. Pour obtenir des instructions, consultez [Publiez les espaces de travail mobiles](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Si Finance a été déployé pour votre organisation, l’administrateur système doit publier l’espace de travail mobile **Gestion des dépenses**. Pour obtenir des instructions, consultez [Publiez les espaces de travail mobiles](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Conditions préalables si vous utilisez la version 1611 avec la mise à jour de la plateforme 3 (ou version ultérieure)
 Si la version 1611 avec la mise à jour de la plateforme 3 (ou version ultérieure) a été déployée pour votre organisation, l’administrateur système doit remplir les conditions préalables suivantes. 
@@ -92,7 +88,7 @@ Si la version 1611 avec la mise à jour de la plateforme 3 (ou version ultéri
 </table>
 
 ## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Télécharger et installer l’application mobile Dynamics 365 for Operations
-Téléchargez et installez l'application mobile Dynamics 365 Unified Ops :
+Téléchargez et installez l’application mobile Dynamics 365 Unified Ops :
 
 - [Pour les téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -101,12 +97,12 @@ Téléchargez et installez l'application mobile Dynamics 365 Unified Ops :
 1. Démarrez l’application sur votre appareil mobile.
 2. Tapez votre URL Dynamics 365.
 4. La première fois que vous vous connectez, vous êtes invité à saisir votre nom d’utilisateur et votre mot de passe. Entrez vos informations d’identification.
-5. Une fois connecté, les espaces de travail disponibles pour votre entreprise s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devez actualiser la liste des espaces de travail mobiles.
+5. Une fois connecté, les espaces de travail disponibles pour votre entreprise s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devez actualiser la liste des espaces de travail mobiles.
 
 
 [![Balayer pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Capturer un reçu à l'aide de l'espace de travail mobile Gestion des dépenses
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Capturer un reçu à l’aide de l’espace de travail mobile Gestion des dépenses
 
 1. Sur votre appareil mobile, ouvrez l’espace de travail **Gestion des dépenses**.
 2. Sélectionnez **Capturer le reçu**.
@@ -126,7 +122,7 @@ Téléchargez et installez l'application mobile Dynamics 365 Unified Ops :
 5. Cliquez sur **Terminé**.
 
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Saisir rapidement des dépenses à l’aide de l’espace de travail mobile Gestion des dépenses
-1. Sur votre appareil mobile, ouvrez l'espace de travail **Gestion des dépenses**.
+1. Sur votre appareil mobile, ouvrez l’espace de travail **Gestion des dépenses**.
 2. Sélectionnez **Saisie rapide des dépenses**.
 3. Sélectionnez la catégorie de dépense. Une liste affiche les catégories de dépenses chargées dans votre application pour une utilisation hors connexion. Par défaut, 50 éléments sont chargés, mais un développeur peut modifier ce nombre. Pour plus d’informations, les développeurs doivent consulter [Plateforme mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si votre catégorie ne figure pas dans la liste, sélectionnez **Rechercher** pour faire une recherche en ligne. Recherchez par catégorie de dépense ou faites une recherche par type de dépense.
 4. Saisissez la date de transaction de la dépense.

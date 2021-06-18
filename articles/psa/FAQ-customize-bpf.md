@@ -1,8 +1,6 @@
 ---
 title: Comment personnaliser le flux des processus d’entreprise des phases du projet ?
 description: Vue d’ensemble de la personnalisation du flux des processus d’entreprise des phases du projet.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0f95677c56b745bf7900ad503596c93f1e722281
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286155"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993143"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Comment personnaliser le flux des processus d’entreprise des phases du projet ?
 

@@ -2,18 +2,16 @@
 title: Vue d’ensemble de lignes du devis basées sur un projet
 description: Cette rubrique fournit des informations sur l’utilisation des lignes de devis basées sur un projet pour le travail du projet.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 32337b05f09ef7c5b84fdff9870744d6367e2693
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858695"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994853"
 ---
 # <a name="project-based-quote-lines-overview"></a>Présentation de lignes du devis basées sur un projet 
 
@@ -33,7 +31,7 @@ Le tableau suivant fournit des informations sur les champs de l’onglet **Gén�
 
 | **Champ** | **Description** | **Impact en aval** |
 | --- | --- | --- |
-| Nom  | Le nom de la ligne de devis qui vous aide à identifier le composant discret du devis qui est estimé. | Copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu. |
+| Nom | Le nom de la ligne de devis qui vous aide à identifier le composant discret du devis qui est estimé. | Copié dans la ligne de contrat de projet créée à partir de cette ligne de devis lorsque le devis est conclu. |
 | Mode de facturation | Sur un devis créé à partir d’une opportunité, cette valeur est copiée à partir du champ correspondant sur la ligne d’opportunité. Ce champ comprend les deux principaux modèles de contrats pris en charge par Dynamics 365 Project Operations :</br>- Prix fixe</br>- Temps et matériel.| Cette valeur est copiée dans la ligne de contrat du projet créée à partir de cette ligne de devis lorsque le devis est conclu. |
 | Project | Utilisez ce champ facultatif pour identifier le projet qui sera utilisé pour livrer le travail sur cet engagement. Lorsqu’un projet est mappé à une ligne de devis, cela aide à configurer des tâches facturables et également à intégrer une estimation basée sur le projet à la ligne de devis en tant que détails de la ligne de devis. Lorsqu’un projet n’est pas mappé à une ligne de devis basée sur un projet, l’estimation doit être créée manuellement en créant chaque détail de ligne de devis. | Cette valeur est copiée dans la ligne de contrat du projet créée à partir de cette ligne de devis lorsque le devis est conclu.|
 | Tâches incluses | Indique si cette ligne de devis est utilisée pour tout ou partie des tâches du projet pour le projet sélectionné. Ce champ contient les valeurs possibles suivantes :</br>- Toutes les tâches du projet</br>- Tâches du projet sélectionnées uniquement</br>Une valeur vide dans ce champ équivaut à l’option **Toutes les tâches du projet**. | Lorsque **Tâches du projet sélectionnées uniquement** est sélectionné sur la page du projet, l’onglet **Configuration de la facturation de la tâche** vous permet de sélectionner des tâches spécifiques pour les associer à cette ligne de devis. Cette valeur est copiée dans la ligne de contrat du projet créée à partir de cette ligne de devis lorsque le devis est conclu. |

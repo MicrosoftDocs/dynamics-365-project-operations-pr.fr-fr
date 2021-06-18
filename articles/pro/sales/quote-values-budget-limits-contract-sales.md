@@ -2,18 +2,16 @@
 title: Informations récapitulatives sur un devis de projet – Simplifié
 description: Cette rubrique fournit des renseignements sur les informations et les paramètres qui s’appliquent aux devis de projet et qui ont un impact. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0a7fb3419536ca3a595ec339b971e32c11f9671e
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: ad549513c70ccf935e4dfdc17123be09ad737c02
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663989"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994313"
 ---
 # <a name="header-details-for-project-quotes"></a>Détails d’en-tête pour les devis de projet
 

@@ -2,18 +2,16 @@
 title: Nouveautés de novembre 2020 – Déploiement simplifié de Project Operations – Traiter la facturation pro forma
 description: Cette rubrique fournit des informations sur les mises à jour qualité disponibles dans la version de novembre 2020 du déploiement simplifié de Project Operations – Traiter la facturation pro forma.
 author: sigitac
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eb7c15fa937d508fa30ed2c04a6aa9cb117ef011
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 99539c378748f40df330841dbc52814a7841837a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272070"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993786"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nouveautés de novembre 2020 – Déploiement simplifié de Project Operations – Traiter la facturation pro forma
 
@@ -23,8 +21,8 @@ Le tableau suivant répertorie les mises à jour de la version 4.4.0.70 de Proje
 
 | Fonctionnalités                 | Numéro de référence | Mise à jour qualité                                                                                                                                                                    |
 |------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Gestion des opportunités       | 2036993          | La ligne d’estimation et les lignes de contrat d’affectation de ressources sont mises à jour sur les devis gagnants lorsque le type de ligne de devis est **Toutes les tâches**.                                                 |
-|   Gestion des opportunités       | 2071514          | Impossible de créer une facture pour un jalon à prix fixe sur un contrat pour lequel la facturation basée sur les tâches est activée.                                                                          |
+| Gestion des opportunités       | 2036993          | La ligne d’estimation et les lignes de contrat d’affectation de ressources sont mises à jour sur les devis gagnants lorsque le type de ligne de devis est **Toutes les tâches**.                                                 |
+| Gestion des opportunités       | 2071514          | Impossible de créer une facture pour un jalon à prix fixe sur un contrat pour lequel la facturation basée sur les tâches est activée.                                                                          |
 | Facturation et tarification          | 2070392          | Les lignes de contrat de projet sur la facture augmentent à chaque fois que **Actualiser les transactions de facture** est sélectionné.                                                                       |
 | Planification de projet             | 2043336          | Impossible de supprimer un enregistrement de membre de l’équipe de projet.                                                                                                                                    |
 | Planification de projet             | 2046013          | Comportement incohérent des colonnes d’indicateur Estimations pendant le chargement par rapport au changement de type de phase de temps.                                                                                   |

@@ -1,12 +1,10 @@
 ---
 title: Traitement des reçus de dépenses
-description: Cette rubrique fournit des informations sur le traitement de la reconnaissance optique de caractères (OCR) pour les reçus. Cette fonctionnalité est conçue pour améliorer l'expérience utilisateur lors de la création de notes de frais dans Microsoft Dynamics 365 Finance.
+description: Cette rubrique fournit des informations sur le traitement de la reconnaissance optique de caractères (OCR) pour les reçus. Cette fonctionnalité est conçue pour améliorer l’expérience utilisateur lors de la création de notes de frais dans Microsoft Dynamics 365 Finance.
 author: stsporen
-manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,16 +13,16 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 57ef67412eb3c5795559e4f6d011e97c4d7a1338
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ed9c97ba9cc505106599c2896dc2112358d0c408
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271800"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993503"
 ---
 # <a name="expense-receipt-processing"></a>Traitement des reçus de dépenses
 
-La saisie des dépenses a été améliorée grâce à l'introduction du traitement de reconnaissance optique de caractères (OCR) pour les reçus. Cette fonctionnalité est conçue pour améliorer l'expérience utilisateur lors de la création de notes de frais.
+La saisie des dépenses a été améliorée grâce à l’introduction du traitement de reconnaissance optique de caractères (OCR) pour les reçus. Cette fonctionnalité est conçue pour améliorer l’expérience utilisateur lors de la création de notes de frais.
 
 ## <a name="key-features"></a>Fonctionnalités clés
 
@@ -34,16 +32,16 @@ La saisie des dépenses a été améliorée grâce à l'introduction du traiteme
 
 ## <a name="usage-examples"></a>Exemples d’utilisation
 
-Pour joindre automatiquement des reçus qui incluent des transactions par carte de crédit lors de la création d'une note de frais, procédez comme suit.
+Pour joindre automatiquement des reçus qui incluent des transactions par carte de crédit lors de la création d’une note de frais, procédez comme suit.
 
-  1. Ouvrez l'espace de travail **Gestion des dépenses**.
-  2. Vérifiez que l'onglet **Reçus** contient bien des reçus non joints. Vous pouvez également télécharger des reçus sur l’onglet **Reçus**.
+  1. Ouvrez l’espace de travail **Gestion des dépenses**.
+  2. Vérifiez que l’onglet **Reçus** contient bien des reçus non joints. Vous pouvez également télécharger des reçus sur l’onglet **Reçus**.
   3. Vérifiez que l’onglet **Dépenses** contient bien des dépenses non jointes. En règle générale, l’administrateur des dépenses importe ces dépenses à partir d’un fournisseur de cartes de crédit.
   4. Sélectionnez **Nouvelle note de frais**. Notez que vous pouvez désormais inclure les dépenses et les reçus également lorsque vous créez une note de frais. Si vous ajoutez à la fois des dépenses et des reçus, un rapprochement automatique des reçus et des dépenses est déclenché.
 
-Pour créer une dépense ou faire correspondre une dépense à partir d'un reçu, procédez comme suit :
+Pour créer une dépense ou faire correspondre une dépense à partir d’un reçu, procédez comme suit :
 
-  1. Sur une note de frais, sur l'onglet **Reçus**, joignez un reçu en sélectionnant **Ajouter des reçus**.
+  1. Sur une note de frais, sur l’onglet **Reçus**, joignez un reçu en sélectionnant **Ajouter des reçus**.
   2. Sous l’image téléchargée du reçu, notez les options **Créer** et **Faire correspondre**.
 
       - Sélectionnez **Créer** pour créer une transaction de dépense saisie manuellement et remplir les valeurs extraites du reçu.
@@ -51,7 +49,7 @@ Pour créer une dépense ou faire correspondre une dépense à partir d'un reçu
 
 ## <a name="installation"></a>Installation
 
-Cette fonction fonctionne en combinaison avec la fonction **Rapports de dépenses repensés** pour aider à simplifier l'expérience de dépenses. Cette fonctionnalité n'est disponible que pour les environnements de niveau 2+, qui sont Sandbox et Production.
+Cette fonction fonctionne en combinaison avec la fonction **Rapports de dépenses repensés** pour aider à simplifier l’expérience de dépenses. Cette fonctionnalité n’est disponible que pour les environnements de niveau 2+, qui sont Sandbox et Production.
 
 Pour utiliser ces fonctionnalités avancées de gestion des dépenses, installez le complément Service de gestion des dépenses pour Microsoft Dynamics 365 Finance et activez les fonctionnalités dans votre instance. Vous pouvez accéder au complément depuis votre projet dans Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -76,9 +74,9 @@ Lorsque vous activez ces fonctionnalités, les actions suivantes se produisent 
 - Les workflows et toutes les approbations vous dirigent toujours vers la page des notes de frais existantes.
 - Les reçus seront traités via Microsoft Azure Cognitive Services et les métadonnées seront extraites et ajoutées.
 - Une option est ajoutée, elle vous permet de créer une note de frais qui comprend des reçus non joints mis en correspondance.
-- Une option ajoutée aux notes de frais vous permet de créer une ligne de dépenses à partir d'un reçu ou de tenter de faire correspondre un reçu existant à une ligne de dépenses existante.
+- Une option ajoutée aux notes de frais vous permet de créer une ligne de dépenses à partir d’un reçu ou de tenter de faire correspondre un reçu existant à une ligne de dépenses existante.
 
-Pour plus d'informations sur la fonctionnalité repensée des notes de frais, voir [Notes de frais réinventées](ExpenseWorkspaceNew.md).
+Pour plus d’informations sur la fonctionnalité repensée des notes de frais, voir [Notes de frais réinventées](ExpenseWorkspaceNew.md).
 
 ## <a name="frequently-asked-questions"></a>Forums aux questions
 

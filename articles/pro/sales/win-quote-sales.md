@@ -2,25 +2,23 @@
 title: Fermer un devis – Simplifié
 description: Cette rubrique offre des informations sur la conclusion un devis dans Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6214e1b5bec5c9173a6b6e69578de14654da633e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 75345fed57dcbdb84f2a82587c7d0c152530c72b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272270"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994133"
 ---
 # <a name="close-a-quote---lite"></a>Fermer un devis – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Un devis de projet peut être fermé comme « conclu » ou » perdu ». Un projet de devis peut être fermé car les opérations d'activation et de révision sur les devis ne sont pas prises en charge dans Microsoft Dynamics 365 Project Operations.
+Un devis de projet peut être fermé comme « conclu » ou » perdu ». Un projet de devis peut être fermé car les opérations d’activation et de révision sur les devis ne sont pas prises en charge dans Microsoft Dynamics 365 Project Operations.
 
 ## <a name="close-a-quote-as-won"></a>Fermer un devis comme conclu
 
@@ -30,13 +28,13 @@ Si le devis est associé à une opportunité, tous les autres devis de projet su
 
 ### <a name="financial-impact-of-closing-a-quote-as-won"></a>Impact financier de la clôture d’un devis comme Conclu
 
-S'il y a des chiffres réels pour le temps sur un projet alors qu'il est toujours joint à une ébauche de devis, seul le coût du temps ou des dépenses est enregistré. Une fois qu’un devis est clôturé comme Conclu, l’application refactorise les coûts en inversant les anciens chiffres réels de coûts et en recréant les chiffres réels de coûts. L’application traitera ces chiffres réels de coûts en fonction du mode de facturation de la ligne de contrat de projet associée. Si les coûts réels font référence à une ligne de contrat temps et matières, les chiffres réels de ventes non facturés correspondants sont créés pour la clôture du devis et la création du contrat de projet. Si les coûts réels font référence à une ligne de contrat à prix fixe, l'application arrête de retraiter les coûts réels basés sur les règles de facturation fractionnée pour les clients du contrat de projet.
+S’il y a des chiffres réels pour le temps sur un projet alors qu’il est toujours joint à une ébauche de devis, seul le coût du temps ou des dépenses est enregistré. Une fois qu’un devis est clôturé comme Conclu, l’application refactorise les coûts en inversant les anciens chiffres réels de coûts et en recréant les chiffres réels de coûts. L’application traitera ces chiffres réels de coûts en fonction du mode de facturation de la ligne de contrat de projet associée. Si les coûts réels font référence à une ligne de contrat temps et matières, les chiffres réels de ventes non facturés correspondants sont créés pour la clôture du devis et la création du contrat de projet. Si les coûts réels font référence à une ligne de contrat à prix fixe, l’application arrête de retraiter les coûts réels basés sur les règles de facturation fractionnée pour les clients du contrat de projet.
 
 ## <a name="closing-a-quote-as-lost"></a>Fermeture d’un devis comme perdu :
 
 Lorsque vous fermez un devis de projet comme Perdu, le statut est défini sur Fermé et le raison du statut est Perdu. La fermeture du devis rend le devis du projet en lecture seule. Étant donné qu’un devis fermé ne peut pas être rouvert et, avant de fermer un devis, une boîte de dialogue de confirmation confirmera vos modifications.
 
-Si le devis de projet fermé comme Perdu fait référence à un projet sur l'une de ses lignes, ce projet est également marqué comme Fermé. Toutes les réservations de ressources à partir de ce jour sont annulées.
+Si le devis de projet fermé comme Perdu fait référence à un projet sur l’une de ses lignes, ce projet est également marqué comme Fermé. Toutes les réservations de ressources à partir de ce jour sont annulées.
 
 > [!NOTE]
 > Dans Project Operations, la fermeture d’un devis comme conclu ou perdu n’aura aucune incidence sur ce statut de l’opportunité, qui restera ouverte jusqu’à ce qu’elle soit fermée manuellement.

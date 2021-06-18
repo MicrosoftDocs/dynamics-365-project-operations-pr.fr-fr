@@ -2,24 +2,22 @@
 title: Nouveautés de novembre 2020 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 description: Cette rubrique fournit des informations sur les mises à jour qualité disponibles dans la version de novembre 2020 Project Operations pour les scénarios basés sur les ressources/produits non stockés.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f6b14a1cbe7f3d41c86aedaf863434214f911eaa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950936"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995618"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de novembre 2020 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Cette rubrique s'applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
 - Version 4.4.0.70 de Project Operations dans l’environnement CDS
 - Version 10.0.14 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
@@ -30,7 +28,7 @@ Cette rubrique s'applique aux composants et versions suivants de Dynamics 365 Pr
 
 | Fonctionnalités                 | Numéro de référence | Mise à jour qualité                                                                                                                                                                    |
 |------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Gestion des opportunités       | 2036993          | La ligne d’estimation et les lignes de contrat d’affectation de ressources sont mises à jour sur les devis gagnants lorsque le type de ligne de devis est **Toutes les tâches**.                                                 |
+| Gestion des opportunités       | 2036993          | La ligne d’estimation et les lignes de contrat d’affectation de ressources sont mises à jour sur les devis gagnants lorsque le type de ligne de devis est **Toutes les tâches**.                                                 |
 | Facturation et tarification          | 2070392          | Les lignes de contrat de projet sur la facture augmentent à chaque fois que **Actualiser les transactions de facture** est sélectionné.                                                                         |
 | Planification de projet             | 2043336          | Impossible de supprimer un enregistrement de membre de l’équipe de projet.                                                                                                                                  |
 | Planification de projet             | 2046013          | Comportement incohérent des colonnes d’indicateur Estimations pendant le chargement par rapport au changement de type de phase de temps.                                                                                   |

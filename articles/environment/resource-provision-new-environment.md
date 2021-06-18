@@ -2,19 +2,17 @@
 title: Mettre en service un nouvel environnement
 description: Cette rubrique fournit des informations sur la mise en service d’un nouvel environnement Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950531"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995483"
 ---
 # <a name="provision-a-new-environment"></a>Mettre en service un nouvel environnement
 
@@ -22,7 +20,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Cette rubrique fournit des informations sur la manière d'approvisionner un nouvel environnement Dynamics 365 Project Operations pour les scénarios basés sur les ressources/produits non stockés.
+Cette rubrique fournit des informations sur la manière d’approvisionner un nouvel environnement Dynamics 365 Project Operations pour les scénarios basés sur les ressources/produits non stockés.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Activer la mise en service automatisée de Project Operations dans un projet LCS
 
@@ -61,13 +59,13 @@ Utilisez les étapes suivantes pour activer le flux de mise en service automatis
 
 ![Consentement au déploiement](./media/2DeploymentConsent.png)
 
-7. Facultatif – Appliquez les données de démonstration à l'environnement. Aller à **Réglages avancés**, sélectionnez **Personnaliser la configuration de SQL Database**, et définissez **Spécifier un jeu de données pour la base de données d'application** sur **Démo**.
+7. Facultatif – Appliquez les données de démonstration à l’environnement. Aller à **Réglages avancés**, sélectionnez **Personnaliser la configuration de SQL Database**, et définissez **Spécifier un jeu de données pour la base de données d’application** sur **Démo**.
 
-8. Renseignez les champs obligatoires restants dans l’Assistant et confirmez le déploiement. Le délai d'approvisionnement de l'environnement varie en fonction du type d'environnement. La mise en service peut prendre jusqu’à six heures.
+8. Renseignez les champs obligatoires restants dans l’Assistant et confirmez le déploiement. Le délai d’approvisionnement de l’environnement varie en fonction du type d’environnement. La mise en service peut prendre jusqu’à six heures.
 
   Une fois le déploiement terminé, l’environnement apparaîtra comme **Déployé**.
 
-9. Pour confirmer que l'environnement s'est déployé avec succès, sélectionnez **Connexion** et connectez-vous à l'environnement pour confirmer.
+9. Pour confirmer que l’environnement s’est déployé avec succès, sélectionnez **Connexion** et connectez-vous à l’environnement pour confirmer.
 
 ![Détails de l’environnement](./media/3EnvironmentDetails.png)
 
@@ -121,7 +119,7 @@ La maintenance de l’environnement prendra un certain temps. Une fois terminé,
 
 ![Appliquer des solutions](./media/13ApplySolutions.png)
 
-5. Sélectionnez les deux solutions, **Dynamics 365 Finance and Operations Carte d'entité à double écriture** et **Dynamics 365 Project Operations Cartes d'entités à double écriture**, puis sélectionnez **Appliquer**.
+5. Sélectionnez les deux solutions, **Dynamics 365 Finance and Operations Carte d’entité à double écriture** et **Dynamics 365 Project Operations Cartes d’entités à double écriture**, puis sélectionnez **Appliquer**.
 
 ![Confirmer des solutions](./media/14ConfirmSolutions.png)
 
@@ -155,7 +153,7 @@ L’actualisation prendra environ 20 minutes. Vous recevrez une alerte lorsqu�
 
 1. Accédez à Project Operations sur votre environnement Dataverse. 
 2. Accédez à **Paramètres** > **Sécurité** > **Rôles de sécurité**. 
-3. Sur la page **Rôles de sécurité**, dans la liste des rôles, sélectionnez **Utilisateur d'application à double écriture** et sélectionnez l'onglet **Entités personnalisées**.  
+3. Sur la page **Rôles de sécurité**, dans la liste des rôles, sélectionnez **Utilisateur d’application à double écriture** et sélectionnez l’onglet **Entités personnalisées**.  
 4. Vérifiez que le rôle a les autorisations en **Lecture** et **Ajouter à** pour :
       
       - **Type de taux de change devise**
@@ -163,8 +161,8 @@ L’actualisation prendra environ 20 minutes. Vous recevrez une alerte lorsqu�
       - **Calendrier fiscal**
       - **Registre**
 
-5. Une fois le rôle de sécurité mis à jour, accédez à **Paramètres** > **Sécurité** > **Équipes** et sélectionnez l'équipe par défaut dans la vue d'équipe **Propriétaire d'entreprise locale**.
-6. Sélectionnez **Gérer les rôles** et vérifiez que le privilège de sécurité **Utilisateur d'application à double écriture** est appliqué à cette équipe.
+5. Une fois le rôle de sécurité mis à jour, accédez à **Paramètres** > **Sécurité** > **Équipes** et sélectionnez l’équipe par défaut dans la vue d’équipe **Propriétaire d’entreprise locale**.
+6. Sélectionnez **Gérer les rôles** et vérifiez que le privilège de sécurité **Utilisateur d’application à double écriture** est appliqué à cette équipe.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Exécuter les mappages d’écriture double Project Operations
 

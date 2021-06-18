@@ -2,18 +2,16 @@
 title: Gérer plusieurs clients sur les devis de projet – Simplifié
 description: Cette rubrique fournit des informations sur le travail sur les devis avec plusieurs clients qui financeront le projet. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 532eea802430e8b5a66c4a0d4348937708400347
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 02a05de28a92d98b58245a70f456a9b144c8d5a1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273078"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994943"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Gérer plusieurs clients sur les devis de projet – Simplifié
 
@@ -49,7 +47,7 @@ Un client de devis peut être créé, mis à jour ou supprimé de l’onglet **C
 
 ## <a name="editing-billing-split-percentages"></a>Modification des pourcentages de facturation fractionnée
 
-Vous pouvez modifier les pourcentages de facturation fractionnée à l’aide de l’expérience de modification de grille en ligne. Lorsque les pourcentages de facturation fractionnée ne totalisent pas 100 %, une erreur se produit. Après avoir mis à jour les pourcentages de facturation fractionnée, actualisez la page pour supprimer l’erreur.
+Vous pouvez modifier les pourcentages de facturation fractionnée à l’aide de l’expérience de modification de grille en ligne. Lorsque les pourcentages de facturation fractionnée ne totalisent pas 100 %%, une erreur se produit. Après avoir mis à jour les pourcentages de facturation fractionnée, actualisez la page pour supprimer l’erreur.
 
 Vous pouvez également essayer de sélectionner **Répartition homogène** dans la sous-grille des clients de devis. Cette action attribue des fractionnements de facturation à tous les clients de devis. S’il y a un facteur d’arrondi, il sera ajouté au client d’arrondi. L’un des clients du devis est toujours identifié comme le client arrondi. cela signifie que l’enregistrement client du devis a l’indicateur **Arrondi** défini sur **Oui**. Il s’agit généralement du client principal du devis, mais cela peut être modifié.
 

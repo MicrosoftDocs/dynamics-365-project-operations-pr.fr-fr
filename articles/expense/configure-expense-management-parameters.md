@@ -2,18 +2,16 @@
 title: Configurer les paramètres de gestion des dépenses
 description: Cette rubrique décrit les paramètres qui contrôlent le comportement général dans la gestion des dépenses.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 93cb95ffc0348a1ad1905fbf308477d18e589185
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1e1181467c51384c4de7dcda2de29ed531360a0a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276660"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995438"
 ---
 # <a name="configure-expense-management-parameters"></a>Configurer les paramètres de gestion des dépenses
 
@@ -61,9 +59,9 @@ Cette rubrique décrit les paramètres qui contrôlent le comportement général
 | Pourcentage de repas                          | Entrez le pourcentage par défaut de l’indemnité journalière pour les repas qui est utilisé le premier et le dernier jour de la dépense liée au voyage lorsque le champ **Calculer la réduction de repas par** est défini sur **Type de repas par jour** ou **Nombre de repas par jour**. La journée de travail du premier et du dernier jour peut être plus courte qu’une journée de travail standard. Par conséquent, le montant de l’indemnité journalière de ces jours peut différer du montant standard. Si le pourcentage est défini sur **0** (zéro), les déductions pour le premier et le dernier jour seront de 0,00. |
 | Pourcentage de l’hôtel                         | Entrez le pourcentage par défaut de l’indemnité journalière pour les hôtels qui est utilisé le premier et le dernier jour des dépenses liées au voyage. La journée de travail du premier et du dernier jour peut être plus courte qu’une journée de travail standard. Par conséquent, le montant de l’indemnité journalière de ces jours peut différer du montant standard. Si le pourcentage est défini sur **0** (zéro), les déductions pour le premier et le dernier jour seront de 0,00. |
 | Autre pourcentage                         | Entrez le pourcentage par défaut de l’indemnité journalière pour les frais divers qui est utilisé le premier et le dernier jour des dépenses liées au voyage. La journée de travail du premier et du dernier jour peut être plus courte qu’une journée de travail standard. Par conséquent, le montant de l’indemnité journalière de ces jours peut différer du montant standard. Si le pourcentage est défini sur **0** (zéro), les déductions pour le premier et le dernier jour seront de 0,00. |
-| Réduction en pourcentage pour le petit déjeuner | Saisissez le montant de la réduction de l’indemnité journalière pour le petit-déjeuner. Par exemple, si un employé reçoit un petit-déjeuner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 10 %. |
-| Réduction en pourcentage pour le déjeuner     | Saisissez le montant de la réduction de l’indemnité journalière pour le déjeuner. Par exemple, si un employé reçoit un déjeuner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 15 %. |
-| Réduction en pourcentage pour le dîner    | Saisissez le montant de la réduction de l’indemnité journalière pour le dîner. Par exemple, si un employé reçoit un dîner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 25 %. |
+| Réduction en pourcentage pour le petit déjeuner | Saisissez le montant de la réduction de l’indemnité journalière pour le petit-déjeuner. Par exemple, si un employé reçoit un petit-déjeuner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 10 %%. |
+| Réduction en pourcentage pour le déjeuner     | Saisissez le montant de la réduction de l’indemnité journalière pour le déjeuner. Par exemple, si un employé reçoit un déjeuner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 15 %%. |
+| Réduction en pourcentage pour le dîner    | Saisissez le montant de la réduction de l’indemnité journalière pour le dîner. Par exemple, si un employé reçoit un dîner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 25 %%. |
 | Calculer la réduction de repas par           | Spécifiez comment le système doit calculer la réduction de repas par jour, en sélectionnant si la réduction est basée sur le type de repas par trajet ou par jour, ou si elle est basée sur le nombre de repas autorisés par jour. |
 | Arrondi des indemnités journalières                     | Sélectionnez le type d’arrondi utilisé pour les dépenses journalières. Si vous sélectionnez l’arrondi normal, toute dépense journalière d’un montant de 0,50 est arrondie à 1,00, et toute dépense journalière dont le montant est inférieur à 0,50 est arrondie à 0,00. |
 | Calcul des indemnités journalières de base sur          | Indiquez si le montant de l’indemnité journalière est basé sur un jour civil ou une période de 24 heures. |

@@ -2,11 +2,9 @@
 title: Notes de frais réinventées
 description: Cette rubrique fournit des informations sur l’expérience remodelée et repensée pour la saisie des notes de frais.
 author: ryansandness
-manager: AnnBe
 ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bd334d3404e9baae4f8314173834d9fbb708d574
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271980"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993684"
 ---
 # <a name="redesigned-expense-reports"></a>Notes de frais réinventées
 
@@ -30,11 +28,11 @@ La saisie des notes de frais a été repensée pour simplifier le processus de r
 - Une nouvelle expérience de rapprochement des reçus pour mieux afficher les reçus au niveau de l’en-tête et simplifier le processus de jonction des reçus aux lignes de dépenses.
 - Une nouvelle grille en lecture seule qui vous permet d’afficher beaucoup plus de lignes de dépenses et de colonnes de données supplémentaires. Vous pouvez maintenant voir toutes les lignes détaillées et fractionnées, ainsi que leurs dépenses parents.
 - Un volet simplifié pour la modification des dépenses.
-- Messages d'erreur, d'avertissement et de stratégie repensés pour fournir le contexte et la compréhension appropriés du problème et comment le résoudre. Microsoft a supprimé de nombreux messages qui apparaissaient avant que les utilisateurs aient eu la possibilité de terminer leurs tâches et de résoudre les problèmes, tels que le message de détail incomplet.
+- Messages d’erreur, d’avertissement et de stratégie repensés pour fournir le contexte et la compréhension appropriés du problème et comment le résoudre. Microsoft a supprimé de nombreux messages qui apparaissaient avant que les utilisateurs aient eu la possibilité de terminer leurs tâches et de résoudre les problèmes, tels que le message de détail incomplet.
 - Une nouvelle page pour spécifier quels champs sont requis par votre organisation, quels champs sont facultatifs et quels champs ne doivent pas être capturés. Cette page permet de réduire le nombre de champs que les utilisateurs doivent définir.
 - Un nouvel aspect pour les notes de frais, de sorte que celles-ci ne semblent plus avoir été conçues pour des comptables.
 
-Pour activer la nouvelle expérience, utilisez l'espace de travail **Gestion des fonctionnalités** pour activer la fonctionnalité **Notes de frais réinventées**. Lorsque vous activez cette fonctionnalité, les actions suivantes se produisent :
+Pour activer la nouvelle expérience, utilisez l’espace de travail **Gestion des fonctionnalités** pour activer la fonctionnalité **Notes de frais réinventées**. Lorsque vous activez cette fonctionnalité, les actions suivantes se produisent :
 
 - L’espace de travail des dépenses existant est remplacé par le nouvel espace de travail.
 - Un nouvel élément de menu pour la visibilité des champs de dépenses est ajouté.
@@ -56,7 +54,7 @@ Pour activer la nouvelle expérience, utilisez l'espace de travail **Gestion des
 | Ajouter des dépenses et des reçus existants lors de la création des dépenses | Lorsque vous créez des notes de frais, vous pouvez ajouter la totalité ou une sélection de dépenses et de reçus. |
 | Calculatrice de taux de change | Une calculatrice de taux de change est ajoutée qui vous permet de calculer le taux de change pour les transactions multidevises personnelles. |
 | Enregistrer et ajouter de nouvelles lignes de dépenses | Les boutons **Enregistrer** et **Nouveau** sont disponibles lorsque de nouvelles dépenses sont saisies, pour vous aider à saisir rapidement des lignes de dépenses. |
-| Meilleure visibilité sur les lignes fractionnées et détaillées | Des lignes détaillées et fractionnées sont ajoutées directement à la liste des dépenses pour augmenter la visibilité et vous aider à déterminer facilement s'il y a des erreurs de politiques ou d'autres types d'erreur. |
+| Meilleure visibilité sur les lignes fractionnées et détaillées | Des lignes détaillées et fractionnées sont ajoutées directement à la liste des dépenses pour augmenter la visibilité et vous aider à déterminer facilement s’il y a des erreurs de politiques ou d’autres types d’erreur. |
 | Afficher les reçus lors de la répartition | Les reçus peuvent être affichés lors de la répartition. |
 
 La version initiale se concentre sur les scénarios de saisie des dépenses. Tout scénario de vérification ou d’approbation des notes de frais continuera d’utiliser la page de saisie des dépenses existante.
