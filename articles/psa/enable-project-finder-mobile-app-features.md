@@ -2,9 +2,7 @@
 title: Activer des fonctionnalités de l’application Project Finder Mobile
 description: Procédure d’activation des fonctionnalités de l’application Project Finder Mobile pour Project Service
 author: JohnPBurrows
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e4f3bf15589181e3095400c131d322184578afa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f068c32ac957dc5921ccabc989b3b7a347585c19
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284625"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007723"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Activer des fonctionnalités de l’application Project Finder Mobile (Project Service)
 
@@ -60,8 +58,8 @@ Vos ressources peuvent utiliser l’application Project Finder Mobile sur leur t
   
 |Destinataire|Événement|  
 |---------------|-----------|  
-|Chef de projet|- Une ressource s'abonne à un projet avec l'application Project Finder Mobile.|  
-|Ressource|- La tâche de projet à laquelle la ressource s'est abonnée a déjà été réalisée par une autre ressource.<br />- La demande d'approbation d'inclusion a été approuvée ou rejetée.<br />- La demande d'inscription d'inclusion a été approuvée ou rejetée.|  
+|Chef de projet|- Une ressource s’abonne à un projet avec l’application Project Finder Mobile.|  
+|Ressource|- La tâche de projet à laquelle la ressource s’est abonnée a déjà été réalisée par une autre ressource.<br />- La demande d’approbation d’inclusion a été approuvée ou rejetée.<br />- La demande d’inscription d’inclusion a été approuvée ou rejetée.|  
   
 ## <a name="privacy-notice"></a>Avis de confidentialité  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  

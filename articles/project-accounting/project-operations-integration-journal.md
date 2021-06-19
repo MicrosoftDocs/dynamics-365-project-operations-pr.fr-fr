@@ -2,24 +2,22 @@
 title: Journal d’intégration dans Project Operations
 description: Cette rubrique fournit des informations sur l’utilisation du journal d’intégration dans Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948327"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007138"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal d’intégration dans Project Operations
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Les entrées de temps et de dépenses créent des transactions **Réelles** qui sont la vue opérationnelle du travail effectué par rapport à un projet. Dynamics 365 Project Operations fournit aux comptables un outil permettant d’examiner les transactions et d’ajuster les attributs comptables, le cas échéant. Une fois la révision et les ajustements effectués, les transactions sont publiées dans le livre auxiliaire et la Comptabilité du projet. Un comptable peut effectuer ces activités en utilisant le journal d’**intégration de Project Operations** (**Dynamics 365 Finance** > **Gestion de projet et comptabilité** > **Journaux** > **Journal d’intégration de ProjectOperations**).
+Les entrées de temps et de dépenses créent des transactions **Réelles** qui sont la vue opérationnelle du travail effectué par rapport à un projet. Dynamics 365 Project Operations fournit aux comptables un outil permettant d’examiner les transactions et d’ajuster les attributs comptables, le cas échéant. Une fois l’examen et les ajustements terminés, les transactions sont validées dans la comptabilité auxiliaire de projet et la comptabilité. Un comptable peut effectuer ces activités en utilisant le journal d’**intégration de Project Operations** (**Dynamics 365 Finance** > **Gestion de projet et comptabilité** > **Journaux** > **Journal d’intégration de ProjectOperations**).
 
 ![Flux de journal d’intégration](./media/IntegrationJournal.png)
 
@@ -27,7 +25,7 @@ Les entrées de temps et de dépenses créent des transactions **Réelles** qui 
 
 Les enregistrements dans le journal d’intégration de Project Operations sont créés à l’aide d’un processus périodique, **Importer depuis la table intermédiaire**. Vous pouvez exécuter ce processus en accédant à **Dynamics 365 Finance** > **Gestion de projet et comptabilité** > **Périodique** > **Intégration dans Project Operations** > **Importer depuis la table intermédiaire**. Vous pouvez exécuter le processus de manière interactive ou configurer le processus pour qu’il s’exécute en arrière-plan si nécessaire.
 
-Lorsque le processus périodique s’exécute, tous les chiffres réels qui ne sont pas encore ajoutés au journal d’intégration de Project Operations sont recherchés. Une ligne de journal pour chaque transaction réelle est créée.
+Lorsque le processus périodique s’exécute, tous les chiffres réels qui ne sont pas encore ajoutés au journal d’intégration de Project Operations sont recherchés. Une ligne feuille est créée pour chaque transaction réelle.
 Le système regroupe les lignes de journal dans des journaux distincts en fonction de la valeur sélectionnée dans le champ **Unité périodique dans le journal d’intégration de Project Operations** (**Finance** > **Gestion de projet et comptabilité** > **Configurer** > **Paramètres de gestion de projet et comptabilités**, onglet **Project Operations dans Dynamics 365 Customer Engagement**). Les valeurs possibles pour ce champ sont notamment :
 
   - **Jours** : les chiffres réels sont regroupés par date de transaction. Un journal distinct est créé pour chaque jour.

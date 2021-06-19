@@ -2,8 +2,6 @@
 title: Créer un tarif
 description: Procédure de création d’un tarif dans Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0732ccca43e404412efae8a91873e43c28d041ca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32f0cc66d1caa08bd24eb232338444df0388de3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290311"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006058"
 ---
 # <a name="create-a-price-list-project-service"></a>Créer un tarif (Project Service)
 

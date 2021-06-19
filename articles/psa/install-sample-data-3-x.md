@@ -3,7 +3,6 @@ title: Installation d’un exemple de données
 description: Cette rubrique fournit des informations sur l’installation d’exemples de données dans Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950576"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007273"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installation d’exemples de données pour l’application Project Service
 

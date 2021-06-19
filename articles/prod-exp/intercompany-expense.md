@@ -1,12 +1,10 @@
 ---
 title: Dépenses intersociétés
-description: Cette rubrique fournit des informations sur l'utilisation des dépenses intersociétés pour affecter les dépenses du collaborateur à l’entité juridique pour laquelle le travail a été effectué.
+description: Cette rubrique fournit des informations sur l’utilisation des dépenses intersociétés pour affecter les dépenses du collaborateur à l’entité juridique pour laquelle le travail a été effectué.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908a1c062f5b7f01cf340dcd6f7f24714a992bf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d2cdba8d5368a8b26bf4d98226bda76a58261cf0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271530"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005068"
 ---
 # <a name="intercompany-expenses"></a>Dépenses intersociétés
 
-Un collaborateur employé par une entité juridique d’une organisation peut effectuer du travail pour une autre entité juridique de la même organisation. Vous pouvez utiliser les dépenses intersociétés pour affecter les dépenses du collaborateur à l’entité juridique pour laquelle le travail a été effectué. L'entité juridique qui emploie le travailleur s'appelle l'entité juridique prêteuse. L'entité juridique pour laquelle le travailleur engage des dépenses est appelée l'entité juridique emprunteuse. 
+Un collaborateur employé par une entité juridique d’une organisation peut effectuer du travail pour une autre entité juridique de la même organisation. Vous pouvez utiliser les dépenses intersociétés pour affecter les dépenses du collaborateur à l’entité juridique pour laquelle le travail a été effectué. L’entité juridique qui emploie le travailleur s’appelle l’entité juridique prêteuse. L’entité juridique pour laquelle le travailleur engage des dépenses est appelée l’entité juridique emprunteuse. 
 
-Avant qu'un collaborateur puisse créer et soumettre des dépenses intersociétés, vous devez activer les lignes de dépenses intersociétés. Dans l'entité juridique prêteuse, sur la page **Paramètres de gestion des dépenses**, sélectionnez **Autoriser les lignes de dépenses intersociétés**. 
+Avant qu’un collaborateur puisse créer et soumettre des dépenses intersociétés, vous devez activer les lignes de dépenses intersociétés. Dans l’entité juridique prêteuse, sur la page **Paramètres de gestion des dépenses**, sélectionnez **Autoriser les lignes de dépenses intersociétés**. 
 
 ## <a name="tax-posting-for-intercompany-expenses"></a>Écriture fiscale pour les dépenses intersociétés
 

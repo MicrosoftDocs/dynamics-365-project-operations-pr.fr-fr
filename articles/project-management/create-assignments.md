@@ -2,18 +2,16 @@
 title: Créer des attributions de ressources
 description: Cette rubrique fournit des informations sur la création d’affectations de ressources génériques et nommées.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a6f4f12a962cb570e8b83d8ee7a01fc0cc2c6155
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 610d9f7abbe7bc2eea8cc9a238dd7cfa1c626787
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287100"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006958"
 ---
 # <a name="create-resource-assignments"></a>Créer des attributions de ressources
 

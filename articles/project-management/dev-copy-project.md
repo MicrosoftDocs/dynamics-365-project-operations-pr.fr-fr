@@ -2,18 +2,16 @@
 title: Développer des modèles de projet avec Copier le projet
 description: Cette rubrique fournit des informations sur la création de modèles de projet à l’aide de l’action personnalisée Copier le projet.
 author: stsporen
-manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: cc17df0c73b276048f7c4b04bd9dc6644e828dc0
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7a1f602e789e07014fd6c742940f52341ce6c672
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949811"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005653"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Développer des modèles de projet avec Copier le projet
 
@@ -51,7 +49,7 @@ Lorsque l’action est appelée **Copier le projet** regardera la vue du projet 
 
 
 ### <a name="example"></a>Exemple
-L'exemple suivant montre comment appeler l'action personnalisée **CopyProject** avec le jeu de paramètres **removeNamedResources**.
+L’exemple suivant montre comment appeler l’action personnalisée **CopyProject** avec le jeu de paramètres **removeNamedResources**.
 ```C#
 {
     using System;

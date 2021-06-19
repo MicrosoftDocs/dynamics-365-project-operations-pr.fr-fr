@@ -2,8 +2,6 @@
 title: Guide de gestion des ressources
 description: Cette rubrique fournit des liens vers des informations sur la gestion des ressources dans Project Service Automation
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da7371a050ae6962d7081ff7bd28e2c3ae6f623a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f4c320e666696d3ff065a4431790d39c4f4e549b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275130"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007318"
 ---
 # <a name="resource-management-guide"></a>Guide de gestion des ressources
 

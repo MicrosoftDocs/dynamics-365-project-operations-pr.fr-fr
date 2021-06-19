@@ -2,8 +2,6 @@
 title: Nouveautés ou modifications de la mise à jour (version 26) de Project Service Automation (correctif logiciel), V3
 description: Cette rubrique répertorie les fonctionnalités et les correctifs disponibles pour la mise à jour (version 26) de Project Service Automation, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 669b3ca4601bdac483db4e1d7f55a8bf5b3d9661
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6aafe66fe8c63dc886455a36e93f32d4a581d5cc
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948821"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005563"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Mise à jour (version 26) de Project Service Automation, V3
 
@@ -41,39 +39,39 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
 Les problèmes suivants ont été résolus :
 
 - Les utilisateurs peuvent modifier la tâche sur une entrée de temps qui a été approuvée/soumise.
-- Erreur « Référence d'objet non définie » lors de l'enregistrement d'une entrée de temps.
-- L'importation des entrées de temps à partir des affectations de ressources crée des entrées de temps avec des valeurs DateHeure incorrectes.
-- Lorsque Project Service Automation et l'application Field Service sont toutes deux installés, le bouton **Nouveau** s'affiche deux fois sur la barre de commandes pour les entrées de temps dans l'application Field Service.
+- Erreur « Référence d’objet non définie » lors de l’enregistrement d’une entrée de temps.
+- L’importation des entrées de temps à partir des affectations de ressources crée des entrées de temps avec des valeurs DateHeure incorrectes.
+- Lorsque Project Service Automation et l’application Field Service sont toutes deux installés, le bouton **Nouveau** s’affiche deux fois sur la barre de commandes pour les entrées de temps dans l’application Field Service.
 - Les mises à jour des cellules **Autoriser unité** et **Groupe d’unités** fonctionnent désormais dans la grille **Estimations des dépenses**.
-- Le formulaire **Mettre à jour l'entrée de temps Modifier** comprend **Chronologie**.
-- L'approbation du temps pour les entrées de temps hors projet bloque le système lors de la recherche d'un rôle d'approbateur de projet.
+- Le formulaire **Mettre à jour l’entrée de temps Modifier** comprend **Chronologie**.
+- L’approbation du temps pour les entrées de temps hors projet bloque le système lors de la recherche d’un rôle d’approbateur de projet.
 
 **Gestion des ressources**
 
 Les problèmes suivants ont été résolus :
 
-- Ajout de validation dans le plug-in **PostProjectCreate** pour vérifier une exigence principale avant d'en créer.
-- Le formulaire de création rapide **Membre de l'équipe de projet** lève une exception de référence nulle si des champs sont supprimés du formulaire.
-- La génération d'exigences pendant 12 heures sur 1 an échouera.
-- Exception de référence nulle de message d'erreur améliorée lors de la création des besoins en ressources.
+- Ajout de validation dans le plug-in **PostProjectCreate** pour vérifier une exigence principale avant d’en créer.
+- Le formulaire de création rapide **Membre de l’équipe de projet** lève une exception de référence nulle si des champs sont supprimés du formulaire.
+- La génération d’exigences pendant 12 heures sur 1 an échouera.
+- Exception de référence nulle de message d’erreur améliorée lors de la création des besoins en ressources.
 
 **Gestion du projet**
 
 Les problèmes suivants ont été résolus :
 
-- Amélioration de la validation pour traiter l'exception de référence nulle générée dans le plug-in **PreProjectUpdate**.
+- Amélioration de la validation pour traiter l’exception de référence nulle générée dans le plug-in **PreProjectUpdate**.
 - Les projets publiés par le complément de bureau Microsoft Project suppriment les affectations non attribuées.
-- Ajout d'une nouvelle validation lorsque la référence de projet d'une tâche n'est pas valide en raison d'une exception de référence nulle dans le plug-in **PreValidateProjectTaskUpdate**.
-- La grille Membre d'équipe n'affiche pas les affectations distinctes sur l'enregistrement des membres de l'équipe.
-- Ajout de nouveaux messages de validation et d'erreur en raison d'une exception de référence nulle dans le plug-in **PreProjectTaskDelete**.
+- Ajout d’une nouvelle validation lorsque la référence de projet d’une tâche n’est pas valide en raison d’une exception de référence nulle dans le plug-in **PreValidateProjectTaskUpdate**.
+- La grille Membre d’équipe n’affiche pas les affectations distinctes sur l’enregistrement des membres de l’équipe.
+- Ajout de nouveaux messages de validation et d’erreur en raison d’une exception de référence nulle dans le plug-in **PreProjectTaskDelete**.
 
 **Ventes**
 
 Les problèmes suivants ont été résolus :
 
-- Lors de la sélection d'une ligne basée sur un projet dans un devis ou un contrat, le bouton **Suggestion** ne doit être visible que lors de la sélection d'une ligne basée sur un produit associée à un produit existant.
+- Lors de la sélection d’une ligne basée sur un projet dans un devis ou un contrat, le bouton **Suggestion** ne doit être visible que lors de la sélection d’une ligne basée sur un produit associée à un produit existant.
 - Split du privilège **Create_Product** à partir du privilège **Create_ProjectContract**.
-- La suppression d'une ligne de facture entraîne un échec de référence nul sur **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+- La suppression d’une ligne de facture entraîne un échec de référence nul sur **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

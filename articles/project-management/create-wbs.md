@@ -2,18 +2,16 @@
 title: Créer une structure de répartition du travail
 description: Cette rubrique explique comment créer une structure de répartition du travail (WBS) incluant les commandes de base dans la nouvelle interface de planification.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287010"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005698"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Créer une structure de répartition du travail (WBS)
 
@@ -36,7 +34,7 @@ La première étape de création d’un calendrier de projet consiste de répart
 
 ### <a name="summary-tasks"></a>Tâches récapitulatives
 
-Les tâches récapitulatives peuvent stocker d'autres tâches récapitulatives ou des tâches de nœud feuille. Elles n’ont pas elles-mêmes d’effort ou coût de travail. Au lieu de cela, les efforts de travail et de coût sont un report de l’effort de travail et du coût de leur tâches de conteneur. La date de début de la tâche récapitulative est la date de début des tâches de conteneur, et la date de fin est la date de fin des tâches de conteneur. Le nom d’une tâche récapitulative peut être modifié, mais les propriétés de planification, notamment effort, dates et durée, ne peuvent pas être modifiées. Si vous supprimez une tâche récapitulative, vous supprimez également toutes ses tâches de conteneur.
+Les tâches récapitulatives peuvent stocker d’autres tâches récapitulatives ou des tâches de nœud feuille. Elles n’ont pas elles-mêmes d’effort ou coût de travail. Au lieu de cela, les efforts de travail et de coût sont un report de l’effort de travail et du coût de leur tâches de conteneur. La date de début de la tâche récapitulative est la date de début des tâches de conteneur, et la date de fin est la date de fin des tâches de conteneur. Le nom d’une tâche récapitulative peut être modifié, mais les propriétés de planification, notamment effort, dates et durée, ne peuvent pas être modifiées. Si vous supprimez une tâche récapitulative, vous supprimez également toutes ses tâches de conteneur.
 
 ### <a name="leaf-node-tasks"></a>Tâches de nœud terminal
 
@@ -48,26 +46,26 @@ Les tâches de nœud terminal représentent le travail le plus granulaire du pro
 
 Pour ajouter une ou plusieurs tâches, procédez comme suit.
 
-1. Aller à **Projets** et sélectionnez et ouvrez l'enregistrement de projet pour lequel vous souhaitez créer une planification. 
-2. Cliquez sur l'onglet **Tâches**. 
+1. Aller à **Projets** et sélectionnez et ouvrez l’enregistrement de projet pour lequel vous souhaitez créer une planification. 
+2. Cliquez sur l’onglet **Tâches**. 
 3. Sélectionnez **Ajouter une nouvelle tâche**, entrez un nom pour la tâche, puis appuyez sur Entrée.
-2. Entrez un autre nom de tâche et appuyez à nouveau sur Entrée jusqu'à ce que vous ayez une liste complète des tâches.
+2. Entrez un autre nom de tâche et appuyez à nouveau sur Entrée jusqu’à ce que vous ayez une liste complète des tâches.
 
-### <a name="manage-hierarchy-of-a-task"></a>Gestion de la hiérarchie d'une tâche
+### <a name="manage-hierarchy-of-a-task"></a>Gestion de la hiérarchie d’une tâche
 
 Lorsqu’une tâche est mise en retrait, elle devient rapidement un enfant de la tâche directement supérieure à celle-ci. L’ID de planification de la tâche est alors recalculé de sorte qu’il soit basé sur l’ID de planification de son nouveau parent et suive le schéma de numérotation d’ensemble. La tâche parent est désormais une tâche récapitulative. Par conséquent, elle devient un report de ses tâches enfants. Lorsqu’une tâche est promue, ce n’est plus un enfant de la tâche qui était son parent. L’ID de planification est alors recalculé afin qu’il reflète le degré mis à jour de la tâche et sa place dans la hiérarchie. L’effort, le coût et les dates de la tâche parente précédente sont recalculés afin qu’ils n’incluent pas cette tâche.
 
 Pour ajouter mettre en retrait ou promouvoir une tâche, procédez comme suit.
 
-1. Sur la page **Projet**, sous l'onglet **Tâches** sous les **tâches récapitulatives**, sélectionnez les trois points verticaux à côté du nom de la tâche, puis sélectionnez **Créer une sous-tâche**. 
+1. Sur la page **Projet**, sous l’onglet **Tâches** sous les **tâches récapitulatives**, sélectionnez les trois points verticaux à côté du nom de la tâche, puis sélectionnez **Créer une sous-tâche**. 
 2. Sélectionnez la tâche à mettre en retrait ou à promouvoir. Pour sélectionner plusieurs tâches, sélectionnez une tâche, maintenez la touche Ctrl enfoncée, puis sélectionnez des tâches supplémentaires.
 2. Choisissez **Mettre en retrait** ou **Promouvoir la sous-tâche** pour déplacer vers le haut ou vers le bas des tâches récapitulatives.
 
 ### <a name="move-tasks-up-and-down"></a>Monter et Descendre des tâches
 
-Les tâches peuvent être déplacées à n'importe quel niveau de la structure de répartition du travail de l'une des deux manières suivantes :
+Les tâches peuvent être déplacées à n’importe quel niveau de la structure de répartition du travail de l’une des deux manières suivantes :
 
-- Sélectionnez une ou plusieurs tâches et faites-les glisser vers l'emplacement souhaité.
+- Sélectionnez une ou plusieurs tâches et faites-les glisser vers l’emplacement souhaité.
 - Sélectionnez une ou plusieurs tâches, faites un clic droit et sélectionnez **Couper**, sélectionnez la cellule de destination dans la planification, puis cliquez avec le bouton droit et sélectionnez **Coller**.
 
 ## <a name="task-attributes"></a>Attributs de tâche
@@ -80,13 +78,13 @@ Les attributs **Effort**, **Date de début**, **Date de fin** et **Durée** déf
 
 Le tableau suivant présente des attributs de planification supplémentaires.
 
-| **Nom d'affichage final** | **Description finale** |
+| **Nom d’affichage final** | **Description finale** |
 | --- | --- |
 | Effort réalisé (en heures) | Travail terminé pour la tâche en heures. |
 | Durée | Affiche la durée de la tâche en jours. |
 | Effort total | Travail total pour la tâche en heures. |
 | Terminer | Date et heure de fin. |
-| % terminé | Pourcentage de réalisation de la tâche. |
+| %% terminé | Pourcentage de réalisation de la tâche. |
 | Compartiment du projet | Le tableau des tâches peut être regroupé par compartiment afin que chaque compartiment ait sa propre colonne. |
 | Effort restant (en heures) | Travail restant pour la tâche en heures. |
 | Démarrer | Date et heure de début. |

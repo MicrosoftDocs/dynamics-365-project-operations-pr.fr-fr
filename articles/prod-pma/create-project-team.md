@@ -1,12 +1,10 @@
 ---
 title: Créer une équipe de projet
-description: Cette rubrique donne des informations sur la création et la gestion d'équipes de projet.
+description: Cette rubrique donne des informations sur la création et la gestion d’équipes de projet.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270855"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006193"
 ---
 # <a name="create-a-project-team"></a>Créer une équipe de projet
 

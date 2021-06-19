@@ -1,8 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Project Service Automation version 3
 description: Cette rubrique donne des informations sur les nouveautés et les modifications dans Project Service Automation version 3.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2388aedec25915b3d364001fed11ca537b0f5507
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281115"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007003"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nouveautés ou modifications dans Project Service Automation version 3
 
@@ -176,7 +174,7 @@ Dans la version 3, nous avons remplacé le contrôle Calendrier personnalisé e
 > [!NOTE]
 > Une limitation du calendrier est que ce contrôle ne prend pas en charge les actions sur des éléments de calendrier individuels. Par exemple, vous ne pourrez pas sélectionner un ou plusieurs éléments de calendrier et envoyer ou supprimer ces éléments. Cliquez sur un élément de calendrier pour ouvrir la page **Entité d’entrée de temps** pour des actions supplémentaires. 
 
-### <a name="extensibility"></a>Extensibilité 
+### <a name="extensibility"></a>Extensibilité
 **Capturer des données dans les champs personnalisés des entités d’entrée de temps et de dépenses uniquement** - L’entrée de temps utilise une grille modifiable, une grille en lecture seule et des contrôles de calendrier à partir de la plateforme. Tous ces contrôles sont natifs et prennent donc en charge les personnalisations. Dans Project Service Automation version 3, vous pouvez ajouter des champs personnalisés supplémentaires, configurer des champs de recherche et les sauvegarder avec les vues personnalisées. Vous pouvez également définir une logique métier personnalisée basée sur les valeurs sélectionnées dans les champs personnalisés.  
 
 **Capturer des données dans les champs personnalisés de l’entrée de temps et de dépenses et les propager via des entités prenant en charge le flux d’envoi et d’approbation** - Le traitement normal des entrées de temps est illustré dans le diagramme suivant.

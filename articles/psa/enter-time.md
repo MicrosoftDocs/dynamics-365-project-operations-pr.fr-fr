@@ -2,8 +2,6 @@
 title: Entrer le temps
 description: Procédure d’entrée du temps dans Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68424bba30b2be22bb2ec715d70c361585eef6fd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 272e83b1f53d25b16ca95f642e4aadb304658a53
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284535"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007633"
 ---
 # <a name="enter-time-project-service"></a>Entrer le temps (Project Service)
 
