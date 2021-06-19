@@ -2,8 +2,6 @@
 title: Scénarios à plusieurs devises (version 3.x)
 description: Cette rubrique fournit des informations sur les scénarios à plusieurs devises.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291706"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014788"
 ---
 # <a name="multiple-currency-scenarios"></a>Scénarios à plusieurs devises
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 a deux concepts de devises :
 - **Devise de transaction** - Devise dans laquelle une transaction est effectuée. 
 - **Devise de base** - Devise de l’instance de Dynamics 365. Cette devise est configurée lorsqu’une instance de Dynamics 365 est mise en service. Elle ne peut pas être modifiée.
 
-Par exemple, Contoso US a vendu 100 teeshirts à un client au R.-U. pour 15 livres sterling (GBP) pièce. Le tableau suivant montre comment cette transaction est enregistrée dans l’entité Produit de la commande.
+Par exemple, Contoso US a vendu 100 teeshirts à un client au Royaume-Uni pour 15 livres sterling (GBP) pièce. Le tableau suivant montre comment cette transaction est enregistrée dans l’entité Produit de la commande.
 
 | Produit | Quantité | Prix unitaire | Devise | Amount | Taux de change | Prix unitaire (devise de base)| Montant (devise de base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSA étend le concept de devise de transaction au coût et aux ventes des maniè
 
 ## <a name="multiple-currency-scenario"></a>Scénario à plusieurs devises
 
-Cette section propose l’exemple d’un projet que Contoso UK fournit pour un client intitulé Fabrikam, au Japon. Voici comment le scénario a été configuré :
+Cette section propose l’exemple d’un projet que Contoso UK fournit pour un client nommé Fabrikam, au Japon. Voici comment le scénario a été configuré :
 
 1. La GBP et le yen japonais (JPY) sont configurés sous **Paramètres** \> **Gestion d’entreprise** \> **Devises**. 
 2. Un compte client nommé **Fabrikam - Japon** est configuré, et le JPY est sélectionné comme devise sur le compte.
-3. Une unité d’organisation nommée **Contoso UK** est configurée, et la GBP est sélectionnée comme devise.
-4. Un contrat de projet est créé, où **Contoso UK** est spécifiée comme unité contractuelle et **Fabrikam – Japon** est spécifiée comme client.
+3. Une unité d’organisation nommée **Contoso UK** est configurée, et la GBP est sélectionnée comme devise.
+4. Un contrat de projet est créé, où **Contoso UK** est spécifié comme unité contractuelle et **Fabrikam – Japon** est spécifié comme client.
 5. Des lignes de contrat de projet sont créées, selon les agencements de facturation des différentes classes de transactions dans le projet, comme la facturation pour le temps et la facturation pour les dépenses.
-6. Un projet est créé où **Contoso UK** est désignée comme unité contractuelle. Ce projet est créé et mappé aux lignes de contrat du projet.
+6. Un projet est créé où **Contoso UK** est désigné comme unité contractuelle. Ce projet est créé et mappé aux lignes de contrat du projet.
 
 
 Pendant l’estimation qui utilise les détails de la ligne du devis, les détails de la ligne du devis du projet, ou sur la ligne d’estimation de la planification, deux enregistrements sont toujours créés dans l’entité. Un enregistrement est pour le coût, tandis que l’autre est pour les ventes.

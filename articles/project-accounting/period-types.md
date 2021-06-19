@@ -2,24 +2,22 @@
 title: Types de période
 description: Cette rubrique fournit des informations sur la manière de configurer des types de période pour une estimation de revenus.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 107cecbc1dabdf13147d847bf1816f44cc2703c5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 07cc9cde5fab10accb1fd6efede58926918f614c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287280"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013483"
 ---
 # <a name="period-types"></a>Types de période
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Un type de période définit la fréquence à laquelle les revenus d'un projet sont estimés. Cette rubrique fournit des informations sur la manière de configurer des types de période pour une estimation de revenus. 
+Un type de période définit la fréquence à laquelle les revenus d’un projet sont estimés. Cette rubrique fournit des informations sur la manière de configurer des types de période pour une estimation de revenus. 
 
 ## <a name="create-and-work-with-period-types"></a>Créer et utiliser des types de période
 Pour créer et utiliser des types de période, procédez comme suit :
@@ -31,7 +29,7 @@ Pour créer et utiliser des types de période, procédez comme suit :
     - Si vous sélectionnez **Semaine**, **Bihebdomadaire**, **Semi-mensuelle**, **Mois**, **Jour**, **Trimestre** ou **Année**, le calendrier sera utilisé pour générer les périodes. 
     - Si vous sélectionnez **Période comptable**, les périodes comptables de la configuration de comptabilité seront utilisées pour générer des périodes.
     - Si vous sélectionnez **Illimité**, vous pouvez spécifier des périodes personnalisées.
-4. Sélectionnez l'enregistrement de type de période, puis sélectionnez **Générer des périodes** pour créer des périodes pour le type de période. En fonction de la fréquence de période que vous avez sélectionnée, vous avez la possibilité de spécifier une date de début ou le nombre de périodes à générer.
+4. Sélectionnez l’enregistrement de type de période, puis sélectionnez **Générer des périodes** pour créer des périodes pour le type de période. En fonction de la fréquence de période que vous avez sélectionnée, vous avez la possibilité de spécifier une date de début ou le nombre de périodes à générer.
 5. Sélectionnez **Périodes** pour revoir les périodes générées.
 
 

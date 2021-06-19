@@ -1,9 +1,7 @@
 ---
 title: 'Considérations relatives à la mise à niveau : Microsoft Dynamics 365 Project Service Automation version 2.x ou 1.x vers la version 3'
 description: Cette rubrique donne des informations sur les considérations que vous devez prendre en compte lors de la mise à niveau de Project Service Automation version 2.x ou 1.x vers la version 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281655"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014878"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considérations relatives à la mise à niveau - PSA version 2.x ou 1.x vers la version 3
 
@@ -32,7 +30,7 @@ ms.locfileid: "5281655"
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation et Field Service
-Dynamics 365 Project Service Automation et Dynamics 365 Field Service utilisent la solution Universal Resourcing Scheduling (URS) pour la planification des ressources. Si vous disposez de Project Service Automation et Field Service dans votre instance, mettez-les à niveau vers la version la plus récente. Pour Project Service Automation c'est la version 3.x. Pour Field Service, il s'agit de la version 8.x. La mise à niveau de Project Service Automation ou Field Service installera la dernière version d'URS. Si les solutions Project Service Automation et Field Service de la même instance ne sont pas mises à niveau vers la dernière version, il peut y avoir un comportement incohérent.
+Dynamics 365 Project Service Automation et Dynamics 365 Field Service utilisent la solution Universal Resourcing Scheduling (URS) pour la planification des ressources. Si vous disposez de Project Service Automation et Field Service dans votre instance, mettez-les à niveau vers la version la plus récente. Pour Project Service Automation c’est la version 3.x. Pour Field Service, il s’agit de la version 8.x. La mise à niveau de Project Service Automation ou Field Service installera la dernière version d’URS. Si les solutions Project Service Automation et Field Service de la même instance ne sont pas mises à niveau vers la dernière version, il peut y avoir un comportement incohérent.
 
 ## <a name="resource-assignments"></a>Attributions de ressources
 Dans Project Service Automation version 2 et version 1, les affectations de tâches étaient stockées en tant que tâches enfants (également appelées tâches de ligne) dans l’entité **Tâche**, et indirectement associées à l’entité **Affectation de ressource**. La tâche de ligne était visible dans la fenêtre contextuelle d’affectation de la structure de répartition du travail (WBS).

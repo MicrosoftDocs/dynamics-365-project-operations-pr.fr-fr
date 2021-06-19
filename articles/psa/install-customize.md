@@ -2,8 +2,6 @@
 title: Installer et personnaliser
 description: Procédure d’installation et de personnalisation de Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 93891931f07d5cb16a8773f4c360cff1187f8dbf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947921"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015103"
 ---
 # <a name="install-and-customize-project-service"></a>Installer et personnaliser (Project Service)
 
@@ -47,7 +45,7 @@ Les fonctionnalités de [!INCLUDE[pn_project_service_auto](../includes/pn-projec
   
 - [Création et modification de processus](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Présentation de la création de rapports et de l'analyse](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Présentation de la création de rapports et de l’analyse](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide de l’administrateur](../psa/admin-guide.md)   

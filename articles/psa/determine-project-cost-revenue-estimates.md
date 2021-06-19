@@ -2,9 +2,7 @@
 title: Déterminer les estimations de coût et de revenu du projet
 description: Procédure de détermination des estimations de coût et de revenu du projet dans Project Service
 author: ruhercul
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 851e98cf5481ec7df3f430801a9d3b327794f68c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a81214baafc2017b3d67e6b8bb5b2de19025b10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284940"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015238"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Déterminer les estimations de coût et de revenu du projet 
 
@@ -32,7 +30,7 @@ ms.locfileid: "5284940"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Les estimations du projet fournissent une vue financière de la tâche prévue et planifiée dans la structure de répartition du travail du projet. La vue des estimations vous informe de l'impact du coût et du revenu du travail planifié. La vue des estimations fournit un outil pour afficher les informations sur un nombre de dimensions prédéfinies pour vous informer au mieux de l’impact financier du projet.  
+Les estimations du projet fournissent une vue financière de la tâche prévue et planifiée dans la structure de répartition du travail du projet. La vue des estimations vous informe de l’impact du coût et du revenu du travail planifié. La vue des estimations fournit un outil pour afficher les informations sur un nombre de dimensions prédéfinies pour vous informer au mieux de l’impact financier du projet.  
   
 ## <a name="cost-and-sales-value-of-the-project"></a>Coût et valeur de vente du projet  
 Les tarifs du [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] définissent le coût et les taux de facturation pour les rôles que les projets utilisent. En fonction des rôles associés aux tâches dans la structure de répartition du travail du projet, vous pouvez déterminer l’impact du coût et du revenu du travail concerné.  
@@ -40,7 +38,7 @@ Les tarifs du [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-
 ## <a name="cost-price-defaulting"></a>Prix de revient par défaut  
 Chaque projet appartient à une organisation (indiquée dans **Unité propriétaire** dans le projet). Les tarifs associés à l’unité d’organisation propriétaire déterminent le prix de revient unitaire. Le [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] détermine les prix de revient des rôles en recherchant la combinaison de rôle, d’unité et d’unité d’organisation dans la liste de prix de revient pour obtenir le prix de revient approprié pour la date réelle sur les lignes d’estimation.  
   
-Dans la combinaison de rôle, d'unité et d’unité d’organisation n’aboutit pas à un prix de revient à partir des tarifs de l’unité propriétaire, l’unité est ignorée en faveur de la combinaison de rôle et d’unité d’organisation. S’il y a un prix de revient, ce dernier est converti vers l’unité que vous avez sélectionnée sur la ligne d’estimation.  
+Dans la combinaison de rôle, d’unité et d’unité d’organisation n’aboutit pas à un prix de revient à partir des tarifs de l’unité propriétaire, l’unité est ignorée en faveur de la combinaison de rôle et d’unité d’organisation. S’il y a un prix de revient, ce dernier est converti vers l’unité que vous avez sélectionnée sur la ligne d’estimation.  
   
 Si la combinaison de rôle et d’unité d’organisation n’aboutit pas à un prix de revient, l’unité d’organisation est ignorée en faveur de la combinaison de rôle et d’unité, et le prix par défaut est appliqué après l’application de toute conversion, si nécessaire.  
   
@@ -72,12 +70,12 @@ Le mode de tâche de planification manuelle ne tient pas compte des heures de tr
 De cette façon, le modèle de tâche défini sur la tâche détermine la distribution ou l’allocation de l’effort par période de temps dans les estimations par phases de temps.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Options de groupement et d’échelonnement  
-Cette vue vous aide à comprendre la distribution des estimations d’effort, de coût et de vente sur une base quotidienne, hebdomadaire, mensuelle ou annuelle. L’option Grouper par permet de pivoter les données des estimations sur deux autres dimensions : catégorie et ressource. Dans la vue grille et la vue par phases de temps, vous pouvez sélectionner les champs à afficher. Le total pour chacun des blocs horaires est affiché dans la partie inférieure indiquant le total des efforts, coûts estimés et ventes pour le jour, la semaine, le mois ou l'année.  
+Cette vue vous aide à comprendre la distribution des estimations d’effort, de coût et de vente sur une base quotidienne, hebdomadaire, mensuelle ou annuelle. L’option Grouper par permet de pivoter les données des estimations sur deux autres dimensions : catégorie et ressource. Dans la vue grille et la vue par phases de temps, vous pouvez sélectionner les champs à afficher. Le total pour chacun des blocs horaires est affiché dans la partie inférieure indiquant le total des efforts, coûts estimés et ventes pour le jour, la semaine, le mois ou l’année.  
   
 Les prix de revient et de ventes par défaut dépendent de la date. Lorsque les tarifs pour les rôles changent, ce sera plus transparent dans la vue par phases de temps lorsque vous affichez les données d’estimation pivotées sur « ressource » et par phases de temps par semaine.  
   
 ## <a name="expense-estimates"></a>Estimations de dépenses  
-Toutes les dépenses qui seront engagées dans le projet qui ne sont pas directement associées à la main d'œuvre peuvent être enregistrées dans des estimations de projet dans la vue grille. Vous pouvez le faire à l’aide de l’option **Ajouter l’estimation des dépenses** dans la vue grille. Les estimations des dépenses peuvent être enregistrées pour une tâche spécifique ou le projet entier. Vous pouvez choisir des catégories de dépenses sur ces lignes et choisir une date provisoire à laquelle la dépense devrait être engagée. Si le coût et les tarifs associés ont des prix par défaut, ou des pourcentages de majoration définis pour les catégories de dépenses, les valeurs seront transférées sur la ligne d’estimation sur l’association.  
+Toutes les dépenses qui seront engagées dans le projet qui ne sont pas directement associées à la main d’œuvre peuvent être enregistrées dans des estimations de projet dans la vue grille. Vous pouvez le faire à l’aide de l’option **Ajouter l’estimation des dépenses** dans la vue grille. Les estimations des dépenses peuvent être enregistrées pour une tâche spécifique ou le projet entier. Vous pouvez choisir des catégories de dépenses sur ces lignes et choisir une date provisoire à laquelle la dépense devrait être engagée. Si le coût et les tarifs associés ont des prix par défaut, ou des pourcentages de majoration définis pour les catégories de dépenses, les valeurs seront transférées sur la ligne d’estimation sur l’association.  
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/project-manager-guide.md)

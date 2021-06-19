@@ -2,38 +2,36 @@
 title: Projets d’estimation de revenus à prix fixe
 description: Cette rubrique fournit des informations sur les projets d’estimation de revenus à prix fixe.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7cf4d7853f7fedaeeeba99bc589f39989b924423
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 639c6a104f2a90366a0f477c0d7cf384f19cdd81
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278910"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013798"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projets d’estimation de revenus à prix fixe 
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Lorsque vous créez une ligne de contrat de projet avec les attributs suivants dans Dynamics 365 Project Operations sur Microsoft Dataverse, le système crée automatiquement un projet d'estimation des revenus à prix fixe. Les informations de ce projet reposent sur les éléments suivants :
+Lorsque vous créez une ligne de contrat de projet avec les attributs suivants dans Dynamics 365 Project Operations sur Microsoft Dataverse, le système crée automatiquement un projet d’estimation des revenus à prix fixe. Les informations de ce projet reposent sur les éléments suivants :
 
   - Une méthode de facturation à prix fixe.
   - Un projet associé.
-  - Au moins un jalon défini sur l'onglet **Calendrier de facturation** de la page **Ligne de contrat de projet**.
+  - Au moins un jalon défini sur l’onglet **Calendrier de facturation** de la page **Ligne de contrat de projet**.
 
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Réviser des projets d’estimation de revenus à prix fixe
-Pour réviser des projets d'estimation des revenus à prix fixe, procédez comme suit :
+Pour réviser des projets d’estimation des revenus à prix fixe, procédez comme suit :
 
-1. Dans l'environnement Dynamics 365 Finance, accédez à **Gestion et comptabilité des projets** > **Projets** > **Projets d'estimation de revenus à prix fixe**.
-2. Sélectionnez le projet que vous souhaitez afficher et double-cliquez sur **ID projet d'estimation** pour ouvrir l'enregistrement et revoir les détails du projet.
-3. Développez l'onglet **Projet**. Vous verrez un projet dans la grille **Projets sélectionnés**. Le système l'utilise comme projet par défaut car il s'agit du projet associé à la ligne de contrat de projet. 
-4. Pour modifier l'association, sélectionnez des projets supplémentaires et ajoutez-les à la grille **Projets sélectionnés**. Si plusieurs projets sont sélectionnés dans cette grille, le pourcentage d'achèvement du projet et les estimations de revenus sont calculés ensemble pour tous les projets sélectionnés.
+1. Dans l’environnement Dynamics 365 Finance, accédez à **Gestion et comptabilité des projets** > **Projets** > **Projets d’estimation de revenus à prix fixe**.
+2. Sélectionnez le projet que vous souhaitez afficher et double-cliquez sur **ID projet d’estimation** pour ouvrir l’enregistrement et revoir les détails du projet.
+3. Développez l’onglet **Projet**. Vous verrez un projet dans la grille **Projets sélectionnés**. Le système l’utilise comme projet par défaut car il s’agit du projet associé à la ligne de contrat de projet. 
+4. Pour modifier l’association, sélectionnez des projets supplémentaires et ajoutez-les à la grille **Projets sélectionnés**. Si plusieurs projets sont sélectionnés dans cette grille, le pourcentage d’achèvement du projet et les estimations de revenus sont calculés ensemble pour tous les projets sélectionnés.
 
-  Le coût du projet, le profil de revenu, le modèle de coût et le code de période peuvent être définis manuellement. S'ils ne sont pas définis manuellement, les valeurs sont définies par défaut lors du premier calcul d'estimation du projet à l'aide des règles configurées pour les profils de coût et de revenu du projet.
+  Le coût du projet, le profil de revenu, le modèle de coût et le code de période peuvent être définis manuellement. S’ils ne sont pas définis manuellement, les valeurs sont définies par défaut lors du premier calcul d’estimation du projet à l’aide des règles configurées pour les profils de coût et de revenu du projet.
 
 
 

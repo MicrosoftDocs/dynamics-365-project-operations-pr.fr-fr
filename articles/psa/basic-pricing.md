@@ -2,8 +2,6 @@
 title: Tarification de projet
 description: Cette rubrique fournit des informations sur le fonctionnement de la tarification dans Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2337a1cef55ecc3b7625a0c9a643b9ed8a1d70e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291166"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014968"
 ---
 # <a name="project-pricing"></a>Tarification de projet 
 
@@ -130,7 +128,7 @@ Comme les taux de factures, les taux de coûts pour les ressources humaines sont
 
     1. La liste de prix de revient qui est jointe à l’unité d’organisation.
     2. La liste de prix de revient qui est jointe aux paramètres Project Service. Étant donné que les listes de prix de revient dans de nombreux différentes devises peuvent être attachées aux paramètres Project Service, PSA crée une correspondance de devise entre la devise de l’unité d’organisation contractuelle du projet, du contrat ou du devis, et la devise de la liste de prix de revient.
-    3. Pour les dépenses, les modes de tarification À prix coûtant et Majoration du coût ne s’appliquent pas aux listes de prix de revient. Même si ces modes de tarification sont utilisés sur la liste de prix de revient pour configurer les coûts des catégories de transactions, le système les ignore, et aucun prix de revient par défaut n'est entré.
+    3. Pour les dépenses, les modes de tarification À prix coûtant et Majoration du coût ne s’appliquent pas aux listes de prix de revient. Même si ces modes de tarification sont utilisés sur la liste de prix de revient pour configurer les coûts des catégories de transactions, le système les ignore, et aucun prix de revient par défaut n’est entré.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Utiliser le module complémentaire Project Service pour planifier votre travail dans Microsoft Project | MicrosoftDocs
 description: Cette rubrique fournit des informations à suivre pour ajouter, configurer et utiliser le module complémentaire Microsoft Project pour Microsoft Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20436393aca6c16e337e06ae646b2857ef925e74
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e85b3e0e13bb48aeb9eeb111c2f782f4d62505a7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285480"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014518"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utiliser le module complémentaire Project Service Automation pour planifier votre travail dans Microsoft Project
 
@@ -178,7 +176,7 @@ L’association du fichier de projet à [!INCLUDE[pn_project_service_auto](../in
 
 ## <a name="read-a-resource-loaded-schedule"></a>Lire une planification chargée avec des ressources
 
-Lors de la lecture d'un projet à partir de Project Service Automation, le calendrier de la ressource n'est pas synchronisé avec le client de bureau. S'il existe des différences dans la durée, l'effort ou la fin des tâches, c'est probablement parce que les ressources et le client de bureau n'ont pas le même calendrier de modèle d'heures de travail appliqué au projet.
+Lors de la lecture d’un projet à partir de Project Service Automation, le calendrier de la ressource n’est pas synchronisé avec le client de bureau. S’il existe des différences dans la durée, l’effort ou la fin des tâches, c’est probablement parce que les ressources et le client de bureau n’ont pas le même calendrier de modèle d’heures de travail appliqué au projet.
 
 
 ## <a name="data-synchronization"></a>Synchronisation des données
@@ -194,7 +192,7 @@ Le tableau suivant décrit comment les données sont synchronisées entre Projec
 | Tâche du projet | Project | ● | - |
 | Tâche du projet | Tâche du projet | ● | - |
 | Tâche du projet | Nom de la tâche du projet | ● | - |
-| Tâche du projet | Unité d'allocation des ressources (obsolète dans la version 3.0) | ● | - |
+| Tâche du projet | Unité d’allocation des ressources (obsolète dans la version 3.0) | ● | - |
 | Tâche du projet | Durée planifiée | ● | - |
 | Tâche du projet | Date de début | ● | - |
 | Tâche du projet | ID WBS | ● | - |

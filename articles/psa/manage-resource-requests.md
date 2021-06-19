@@ -2,8 +2,6 @@
 title: Gérer les demandes de ressource.
 description: Procédure de gestion des demandes de ressource dans Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e19f3a710191e3a5b41ffb89b289e357e574207f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284220"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015013"
 ---
 # <a name="manage-resource-requests-project-service"></a>Gérer les demandes de ressource (Project Service)
 

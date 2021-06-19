@@ -1,21 +1,19 @@
 ---
-title: Vue d'ensemble de la constatation du produit
+title: Vue d’ensemble de la constatation du produit
 description: Cette rubrique fournit des informations sur la constatation du produit dans Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e77a0442f634a50f8099fadec42ff400fee0e81
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f5f962572c6ec0298d2d91d33f83e4120a498a6f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278865"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013753"
 ---
-# <a name="revenue-recognition-overview"></a>Vue d'ensemble de la constatation du produit
+# <a name="revenue-recognition-overview"></a>Vue d’ensemble de la constatation du produit
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
@@ -23,15 +21,15 @@ Dans Dynamics 365 Project Operations, les principes de constatation du produit v
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transactions comptabilisées utilisant une méthode de facturation des temps et matières
 
-- La constatation des coûts et des revenus est liée. Le coût de transaction et les ventes non facturées sont enregistrés à l'aide du [Journal d'intégration Project Operations](../project-accounting/project-operations-integration-journal.md).
-- Le profil de coût et de revenu du projet détermine si les transactions de vente non facturées sont validées dans la comptabilité. Si **Régulariser revenus** est sélectionné, le système utilise les comptes **Valeur des ventes TEC** et **Valeur des ventes des revenus régularisés** lors de la validation. Voici un exemple de cette méthode.  
+- La constatation des coûts et des revenus est liée. Le coût de transaction et les ventes non facturées sont enregistrés à l’aide du [Journal d’intégration Project Operations](../project-accounting/project-operations-integration-journal.md).
+- Le profil de coût et de revenu du projet détermine si les transactions de vente non facturées sont validées dans la comptabilité. Si **Régulariser revenus** est sélectionné, le système utilise les comptes **Valeur des ventes TEC** et **Valeur des ventes des revenus régularisés** lors de la validation. Voici un exemple de ce mode :  
 
   | Type de transaction | Débit/crédit | Montant |
   | --- | --- | --- |
   | Valeur des ventes TEC | Débit | 100 |
   | Valeur des ventes des revenus régularisés | Crédit | 100 |
 
-- Le produit est constaté lors de la facturation. Le système utilise le compte **Revenu facturé** lors de la validation. Voici un exemple de cette méthode.  
+- Le produit est constaté lors de la facturation. Le système utilise le compte **Revenu facturé** lors de la validation. Voici un exemple de ce mode :  
 
   | Type de transaction | Débit/crédit | Montant |
   | --- | --- | --- |
@@ -48,9 +46,9 @@ Dans Dynamics 365 Project Operations, les principes de constatation du produit v
 
 ## <a name="transactions-accounted-using-the-fixed-price-billing-method"></a>Transactions comptabilisées utilisant une méthode de facturation à prix fixe
 
-- La constatation des coûts et des revenus est séparée. Le coût de transaction est validé à l'aide du [Journal d'intégration Project Operations](../project-accounting/project-operations-integration-journal.md). Les transactions de vente non facturées ne sont pas créées.
-- Le revenu peut être reconnu lors de la facturation si le profil de coût et de revenu du projet **Principe utilisé pour les calculs d'achèvement de projet** est défini sur **Pas de TEC**. N'utilisez cette méthode que pour des projets simples à court terme.
-- Le produit peut être constaté à l'aide d'estimations de revenus à prix fixe, avec la méthode **Contrat complété** ou **Reconnaissance des revenus en pourcentage d'achèvement**.
+- La constatation des coûts et des revenus est séparée. Le coût de transaction est validé à l’aide du [Journal d’intégration Project Operations](../project-accounting/project-operations-integration-journal.md). Les transactions de vente non facturées ne sont pas créées.
+- Le revenu peut être reconnu lors de la facturation si le profil de coût et de revenu du projet **Principe utilisé pour les calculs d’achèvement de projet** est défini sur **Pas de TEC**. Utilisez ce mode uniquement pour des projets simples à court terme.
+- Le produit peut être constaté à l’aide d’estimations de revenus à prix fixe, avec la méthode **Contrat complété** ou **Reconnaissance des revenus en pourcentage d’achèvement**.
 
 ## <a name="additional-resources"></a>Ressources complémentaires
 [Configurer la comptabilité des projets facturables](../project-accounting/configure-accounting-billable-projects.md)
