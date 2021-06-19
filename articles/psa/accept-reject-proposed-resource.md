@@ -1,8 +1,6 @@
 ---
 title: Acceptez ou rejeter une ressource de projet proposée
 description: Cette rubrique explique comment approuver ou rejeter une ressource de projet proposée.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 895712a4c6bed38c41d880e46922ea4fea739a8f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7cc49a846c98c0359ce4cd681c42ff57e16dc9bd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285705"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011593"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Acceptez ou rejeter une ressource de projet proposée
 

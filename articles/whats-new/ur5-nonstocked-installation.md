@@ -2,19 +2,17 @@
 title: Mettre à jour Project Operations dans votre environnement Finance
 description: Cette rubrique fournit des informations sur la façon de mettre à jour Project Operations dans votre environnement Dynamics 365 Finance.
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d68296ec59f0bd58f848154c90e02c58f275ab12
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291976"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011053"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Mettre à jour Project Operations dans votre environnement Finance
 
@@ -31,8 +29,8 @@ Cette rubrique fournit des informations sur la façon de mettre à jour Dynamics
 
 1. Se connecter à [Lifecycle Services (LCS)](https://lcs.dynamics.com/) en tant que propriétaire de projet ou responsable environnement.
 2. Dans la liste de vos projets, sélectionnez votre projet LCS.
-3. Sur la page **Projet**, dans le groupe **Environnements**, ouvrez l'environnement que vous souhaitez mettre à jour.
-4. Assurez-vous que l'environnement s'exécute. S'il n'est pas démarré, démarrez l'environnement.
+3. Sur la page **Projet**, dans le groupe **Environnements**, ouvrez l’environnement que vous souhaitez mettre à jour.
+4. Assurez-vous que l’environnement s’exécute. S’il n’est pas démarré, démarrez l’environnement.
 5. Dans la section **Nouvelle version** sous **Mises à jour disponibles**, sélectionnez **Afficher la mise à jour** pour 10.0.15.
 
 ![Bouton Afficher la mise à jour](media/view-update.png)
@@ -40,7 +38,7 @@ Cette rubrique fournit des informations sur la façon de mettre à jour Dynamics
 6. Sur la page **Mises à jour binaires**, cliquez sur **Enregistrer le package**.
 7. Sur la page **Consulter et enregistrer les mises à jour**, cliquez sur **Enregistrer le package**.
 8. Sur le volet **Enregistrer le package dans la bibliothèque d’actifs** qui s’ouvre, saisissez le nom du package, puis cliquez sur **Enregistrer le package**.
-9. Lorsque LCS a terminé d'enregistrer le package, le bouton **Terminé** est activé. Cliquez sur **Terminé**. LCS vérifiera le package. La vérification peut prendre quelques minutes ou jusqu'à une heure.
+9. Lorsque LCS a terminé d’enregistrer le package, le bouton **Terminé** est activé. Cliquez sur **Terminé**. LCS vérifiera le package. La vérification peut prendre quelques minutes ou jusqu’à une heure.
 
 
 ## <a name="apply-the-package-update"></a><a name="apply"></a>Appliquez la mise à jour du package
@@ -51,24 +49,24 @@ Cette rubrique fournit des informations sur la façon de mettre à jour Dynamics
 
 ![Boîte de dialogue Confirmer le déploiement du package](media/confirm-package-deployment.png)
 
-4. Cliquez sur **Oui** pour confirmer la mise à jour de l'application.
+4. Cliquez sur **Oui** pour confirmer la mise à jour de l’application.
 
-![Boîte de dialogue Confirmer la mise à jour de l'application](media/confirm-application-update.png)
+![Boîte de dialogue Confirmer la mise à jour de l’application](media/confirm-application-update.png)
 
-Le déploiement et la mise à jour de l'application commenceront. 
+Le déploiement et la mise à jour de l’application commenceront. 
 
-Sur la page **Détails de l'environnement**, dans le coin supérieur droit, le statut de l'environnement sera mis à jour sur **Maintenance**. Dans environ deux heures, la mise à jour sera terminée. Les informations de version de l'application seront mises à jour pour **Microsoft Dynamics 365 for Finance and Operations 10.0.15** et le statut de l'environnement sera mis à jour sur **Déployé**.
+Sur la page **Détails de l’environnement**, dans le coin supérieur droit, le statut de l’environnement sera mis à jour sur **Maintenance**. Dans environ deux heures, la mise à jour sera terminée. Les informations de version de l’application seront mises à jour pour **Microsoft Dynamics 365 for Finance and Operations 10.0.15** et le statut de l’environnement sera mis à jour sur **Déployé**.
 
 
 ## <a name="update-your-dataverse-environment"></a><a name="update"></a>Mettez à jour votre environnement Dataverse
 
 1. Connectez-vous au [centre d’administration Power Platform](https://admin.powerplatform.com/).
-2. Dans la liste, recherchez et ouvrez l'environnement que vous avez utilisé pour installer Project Operations.
+2. Dans la liste, recherchez et ouvrez l’environnement que vous avez utilisé pour installer Project Operations.
 3. Sur la page **Environnements**, sélectionnez **Ressource** > **Applications Dynamics 365**.
 4. Dans la liste, recherchez **Microsoft Dynamics 365 Project Operations**, et dans la colonne **Statut**, sélectionnez **Mise à jour disponible**.
-5. Cochez la case **J'accepte les conditions d'utilisation**, puis sélectionnez **Mettre à jour**. La dernière version de la solution sera installée.
+5. Cochez la case **J’accepte les conditions d’utilisation**, puis sélectionnez **Mettre à jour**. La dernière version de la solution sera installée.
 
-Une fois l'installation terminée, vous aurez la version 4.5.0.134 installée.
+Une fois l’installation terminée, vous aurez la version 4.5.0.134 installée.
 
 ## <a name="configure-new-features"></a>Configurer de nouvelles fonctionnalités
 
@@ -76,11 +74,11 @@ Une fois l'installation terminée, vous aurez la version 4.5.0.134 installée.
 
 Après avoir terminé la mise à jour sur les environnements Finance et Dataverse, vous pouvez activer les mappages à double écriture requis. Terminez les procédures suivantes pour activer les mappages de table de double écriture.
 
-- [Mettre à jour les paramètres de sécurité sur l'environnement Customer Engagement](#security)
+- [Mettre à jour les paramètres de sécurité sur l’environnement Customer Engagement](#security)
 - [Actualiser les entités de données](#refresh)
 - [Mettez à jour et exécutez les mappages en double écriture](#run)
 
-### <a name="update-security-settings-on-the-dataverse-environment"></a><a name="security"></a>Mettre à jour les paramètres de sécurité sur l'environnement Dataverse
+### <a name="update-security-settings-on-the-dataverse-environment"></a><a name="security"></a>Mettre à jour les paramètres de sécurité sur l’environnement Dataverse
 
 Les mises à jour suivantes des privilèges de sécurité pour les entités sont requises dans le cadre de la mise à jour vers UR5.
 
@@ -89,7 +87,7 @@ Les mises à jour suivantes des privilèges de sécurité pour les entités sont
 ![Paramètres de l’environnement Dataverse](media/Picture21.png)
 
 2. Sélectionnez **Rôles de sécurité**.
-3. Dans la liste des rôles, sélectionnez **Utilisateur d'application à double écriture** et sélectionnez l'onglet **Entités personnalisées**. 
+3. Dans la liste des rôles, sélectionnez **Utilisateur d’application à double écriture** et sélectionnez l’onglet **Entités personnalisées**. 
 4. Vérifiez que le rôle a les autorisations en **Lecture** et **Ajouter à** pour :
 
       - **Type de taux de change devise**
@@ -97,16 +95,16 @@ Les mises à jour suivantes des privilèges de sécurité pour les entités sont
       - **Calendrier fiscal** 
       - **Registre**
 
-5. Une fois le rôle de sécurité mis à jour, accédez à **Paramètres** > **Sécurité** > **Équipes**. Vérifiez que le rôle **Utilisateur d'application à double écriture** a été appliqué à l'équipe. 
+5. Une fois le rôle de sécurité mis à jour, accédez à **Paramètres** > **Sécurité** > **Équipes**. Vérifiez que le rôle **Utilisateur d’application à double écriture** a été appliqué à l’équipe. 
 
 ### <a name="refresh-data-entities-from-the-update"></a><a name="refresh"></a>Actualiser les entités de données à partir de la mise à jour
 
-1. Dans votre environnement Finance, ouvrez l'espace de travail **Gestion de données**, puis ouvrez la page **Paramètres du cadre**.
-2. Sur l'onglet **Paramètres d'entité**, sélectionnez **Actualiser la liste des entités**.
-3. Sélectionnez **Fermer** pour confirmer l'actualisation de l'entité.
+1. Dans votre environnement Finance, ouvrez l’espace de travail **Gestion de données**, puis ouvrez la page **Paramètres du cadre**.
+2. Sur l’onglet **Paramètres d’entité**, sélectionnez **Actualiser la liste des entités**.
+3. Sélectionnez **Fermer** pour confirmer l’actualisation de l’entité.
 
  > [!NOTE]
- > Ce processus prendra environ 20 minutes. Vous serez averti lorsque l'actualisation sera terminée.
+ > Ce processus prendra environ 20 minutes. Vous serez averti lorsque l’actualisation sera terminée.
 
 ### <a name="update-dual-write-mappings"></a><a name="run"></a>Mettre à jour les mappages de la double écriture
 
@@ -115,8 +113,8 @@ Les mises à jour suivantes des privilèges de sécurité pour les entités sont
 3. Sur la page **Double écriture**, sélectionnez les cartes de table suivantes, puis sélectionnez **Arrêter**.
 
     - **Intégration des chiffres réels Project Operations (msdyn_actuals)**
-    - **Catégories de dépenses de projet d'intégration de Project Operations (msdyn_expensecategories)**
-    - **Catégories de l'entité d'exportation des dépenses de projet de chiffres réels d'intégration de Project Operations (msdyn_expenses)**
+    - **Catégories de dépenses de projet d’intégration de Project Operations (msdyn_expensecategories)**
+    - **Catégories de l’entité d’exportation des dépenses de projet de chiffres réels d’intégration de Project Operations (msdyn_expenses)**
 
 4. Sur la page **Version carte de table**, appliquez une nouvelle version de la carte à chacune des trois entités.
 5. Sur la page **Double écriture**, sélectionnez Exécuter pour redémarrer les cartes.

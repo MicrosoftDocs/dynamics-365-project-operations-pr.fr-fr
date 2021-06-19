@@ -2,25 +2,23 @@
 title: Nouveautés d’avril 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 description: Cette rubrique fournit des informations sur les mises à jour de qualité disponibles dans la version d’avril 2021 de Project Operations pour les scénarios basés sur les ressources/produits non stockés.
 author: sigitac
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
-ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
+ms.openlocfilehash: 518d795cf7fd2e172a1ce54e2483881d35cea1da
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935471"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012673"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés d’avril 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Cette rubrique s'applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
 - Version 4.9.0.221 de Project Operations dans l’environnement Dataverse
 - Version 10.0.17 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
@@ -85,10 +83,10 @@ Si vous rencontrez un problème lors du démarrage du mappage, suivez les instru
 
 | **Fonctionnalités** | **Numéro de référence** | **Mise à jour qualité** |
 | --- | --- | --- |
-| Gestion et comptabilité des projets | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | L'élimination des estimations inversées ne fonctionne pas dans la section **Périodique**.  |
+| Gestion et comptabilité des projets | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | L’élimination des estimations inversées ne fonctionne pas dans la section **Périodique**.  |
 | Gestion et comptabilité des projets | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | La fonctionnalité **Ajustement comptable** crée un problème avec les comptes généraux pour lesquels l’option **Ne pas autoriser la saisie manuelle** est sélectionnée. |
 | Gestion et comptabilité des projets | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Ajout d’une logique métier pour traiter les factures de correction, y compris le montant de la provision ou le montant appliqué de la provision. |
-| Gestion et comptabilité des projets | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | La validation d'une valeur de vente TEC dans la facturation de projets intersociétés sélectionne un compte inattendu. |
+| Gestion et comptabilité des projets | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | La validation d’une valeur de vente TEC dans la facturation de projets intersociétés sélectionne un compte inattendu. |
 | Gestion et comptabilité des projets | [521807](https://fix.lcs.dynamics.com/Issue/Details/?bugId=521807) | Lorsque vous utilisez des provisions dans Project Operations, la modification du projet par défaut sur un contrat après la facturation des acomptes entraîne des problèmes avec les déductions entrantes. |
 | Gestion et comptabilité des projets | [527319](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527319) | Dans Project Operations, la suppression d’un projet d’un contrat doit réinitialiser le projet par défaut du contrat, si nécessaire. |
 | Gestion et comptabilité des projets | [528212](https://fix.lcs.dynamics.com/Issue/Details/?bugId=528212) | Dans Project Operations, les mauvaises lignes de dépenses s’affichent dans la liste **Ajouter une ligne** sur la facture intersociétés. |

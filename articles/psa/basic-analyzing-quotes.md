@@ -2,8 +2,6 @@
 title: Analyse des devis de projet
 description: Cette rubrique fournit des informations sur l’analyse des devis de projet.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d1b79a61147bfccf13b0a33179464af91b45121e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: acb3f1a2020cfd59f60f828e9092bd7ccde00077
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291256"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012448"
 ---
 # <a name="analysis-of-project-quotes"></a>Analyse des devis de projet
 

@@ -2,8 +2,6 @@
 title: Suivre la progression et les coûts du projet
 description: Procédure de suivi de la progression et des coûts du projet dans Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4040df9b6cad29b4034660c7be57b6d81044eb31
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ef2db198716f5c8a18aae2b37624b0aece766d83
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281970"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012988"
 ---
 # <a name="track-project-progress-and-cost-project-service"></a>Suivre la progression et les coûts du projet (Project Service)
 

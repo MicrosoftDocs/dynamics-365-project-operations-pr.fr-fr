@@ -2,8 +2,6 @@
 title: Pourquoi le tarif prend la valeur par défaut de zéro sur les chiffres réels de vente des heures ?
 description: Résolution de pourquoi un pris prend la valeur par défaut de 0 sur les chiffres réels des ventes des heures.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cfb359b4ebd7c1a7a70ffdc2c47cf6291c797566
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e32b4c8113afdc18d9b220b1a8daf5007be93ac8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285750"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011638"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Pourquoi le tarif prend la valeur par défaut de zéro sur les chiffres réels de vente des heures ?
 

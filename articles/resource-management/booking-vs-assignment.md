@@ -2,18 +2,16 @@
 title: Réservations et Affectations
 description: Cette rubrique fournit des informations sur les différences entre les réservations de ressources et les affectations de ressources.
 author: ruhercul
-manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3aaf8dcbae0a5762879c2b1223eba3bdc33af1a7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3c1a1003af0b23c4be44fefac0b3c4ea725f96b2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279900"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012763"
 ---
 # <a name="bookings-vs-assignments"></a>Réservations et Affectations
 
@@ -21,7 +19,7 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 Les réservations sont l’allocation ferme ou provisoire des ressources sur un projet. Les réservations fixes consomment la capacité d’une ressource. Les réservations représentent des concepts organisationnels pour les équipes, afin qu’elles puissent comprendre comment les ressources seront impliquées dans divers projets. Dynamics 365 Project Operations prend en compte les réservations en tant que concept au niveau du projet. 
 
-Contrairement aux réservations, les affectations désignent l’engagement de ressources sur des tâches de projet dans le calendrier de projet. Les ressources peuvent être nommées ou génériques.  Lorsqu'un besoin en ressources est dérivé des affectations de tâches de projet, Project Operations utilise les contours d'effort de l'affectation de ressources pour créer les contours des détails des besoins en ressources. Cependant, une référence aux affectations de ressources n'est pas conservée. Les mises à jour des réservations dérivées des besoins en ressources ne mettent pas à jour les affectations de ressources.
+Contrairement aux réservations, les affectations désignent l’engagement de ressources sur des tâches de projet dans le calendrier de projet. Les ressources peuvent être nommées ou génériques.  Lorsqu’un besoin en ressources est dérivé des affectations de tâches de projet, Project Operations utilise les contours d’effort de l’affectation de ressources pour créer les contours des détails des besoins en ressources. Cependant, une référence aux affectations de ressources n’est pas conservée. Les mises à jour des réservations dérivées des besoins en ressources ne mettent pas à jour les affectations de ressources.
 
 En règle générale, la somme des réservations pour une ressource est égale à la somme des affectations de la ressource sur une ou plusieurs tâches. Toutefois, Project Operations n’applique pas cette mise en correspondance. La vue **Rapprochement** affiche au chef de projet des emplacements où les réservations et les affectations d’une ressource ne correspondent pas.
 

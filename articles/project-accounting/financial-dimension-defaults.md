@@ -2,18 +2,16 @@
 title: Valeurs par défaut d’une dimension financière
 description: Cette rubrique fournit des informations sur la configuration des valeurs par défaut des dimensions financières.
 author: sigitac
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950126"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013303"
 ---
 # <a name="financial-dimension-defaults"></a>Valeurs par défaut d’une dimension financière
 
@@ -40,17 +38,17 @@ Les contrats de projet sont créés et gérés dans Common Data Service (CDS). L
 
 1. Accédez à **Gestion du projet et comptabilité** > **Projets** > **Contrats de projet**.
 2. Sélectionnez l’enregistrement que vous souhaitez mettre à jour et dans l’onglet **Contrat de projet**, sélectionnez **Afficher la comptabilité par défaut**.
-3. Développez **Informations connexes** et sélectionnez l’onglet **Sources de financement**.
-4. Définissez les valeurs par défaut d’une dimension financière. Notez que les dimensions financières par défaut proviennent du compte client.
+3. Développez **Informations associées**, puis cliquez sur l’onglet **Sources de financement**.
+4. Définissez les valeurs par défaut des dimensions financières. Notez que les dimensions financières par défaut proviennent du compte client.
 
 ### <a name="set-financial-dimensions-for-a-project-contract-line"></a>Définir les dimensions financières d’une ligne de contrat de projet
 
 1. Accédez à **Gestion du projet et comptabilité** > **Projets** > **Contrats de projet**.
 2. Sélectionnez l’enregistrement que vous souhaitez mettre à jour et dans l’onglet **Contrat de projet**, sélectionnez **Afficher la comptabilité par défaut**.
-3. Développez **Informations connexes** et sélectionnez l’onglet **Lignes de contrat**.
-4. Définissez les valeurs par défaut d’une dimension financière. Les valeurs par défaut des dimensions financières sont applicables et ne peuvent être utilisées qu’avec des lignes de contrat à prix fixe (jalon).
+3. Développez **Informations associées**, puis cliquez sur l’onglet **Lignes de contrat**.
+4. Définissez les valeurs par défaut des dimensions financières. Les valeurs par défaut des dimensions financières sont applicables et ne peuvent être utilisées qu’avec des lignes de contrat à prix fixe (jalon).
 
-Ces valeurs par défaut sont utilisées pour les transactions de compte de projet et les lignes de facture connexes.
+Ces valeurs par défaut sont utilisées sur les transactions en compte de projet et les lignes de facture associées.
 
 ## <a name="define-default-financial-dimensions-for-projects"></a>Définir les dimensions financières par défaut pour des projets
 
@@ -58,10 +56,10 @@ Les projets sont créés et gérés dans CDS. Les attributs comptables des proje
 
 1. Accédez à **Gestion du projet et comptabilité** > **Projets** > **Tous les projets**.
 2. Sélectionnez l’enregistrement que vous souhaitez mettre à jour et dans l’onglet **Projet**, sélectionnez **Afficher la comptabilité par défaut**.
-3. Développez **Informations connexes** et sélectionnez l’onglet **Configurer**.
-4. Définissez les valeurs par défaut d’une dimension financière. Notez que ces dimensions financières par défaut proviennent du compte client. Si le projet est associé à une ligne de contrat ayant plusieurs clients de contrat de projet, le client principal est utilisé pour définir les valeurs par défaut des dimensions financières.
+3. Développez **Informations associées**, puis cliquez sur l’onglet **Configuration**.
+4. Définissez les valeurs par défaut des dimensions financières. Notez que les dimensions financières proviennent par défaut du compte client. Si le projet est associé à une ligne de contrat avec plusieurs clients de contrat de projet, le client principal est utilisé pour les dimensions financières par défaut.
 
-Les dimensions financières par défaut du projet sont utilisées pour définir les valeurs par défaut de la ligne de journal des transactions de temps, de dépenses et de frais dans le **Journal d’intégration de Project Operations** et les lignes de facture de projets connexes.
+Les dimensions financières par défaut du projet permettent de définir les valeurs par défaut des lignes feuille pour les transactions de temps, de dépenses et de frais dans la **Feuille Intégration Project Operations** et sur les lignes de facture de projet associées.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

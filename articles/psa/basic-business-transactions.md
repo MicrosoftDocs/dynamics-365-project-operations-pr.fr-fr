@@ -2,8 +2,6 @@
 title: Transactions commerciales
 description: Cette rubrique fournit des informations sur les transactions commerciales.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68506142c5cd046806bc085f297ac928b0c94440
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291211"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011548"
 ---
 # <a name="business-transactions"></a>Transactions commerciales
 
@@ -101,7 +99,7 @@ Chacun de ces événements déclenche la création d’enregistrements dans les 
 
 Le tableau suivant indique l’enregistrement dans l’entité Origine de la transaction pour le workflow précédent.
 
-| Événement                        | Origine                    | Type d’origine                       | Transaction                       | Type de transaction         |
+| Événement                        | Origine                   | Type d’origine                       | Transaction                       | Type de transaction         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
 | Envoi d’entrée de temps        | GUID de l’enregistrement de l’entrée de temps   | Entrée de temps                        | GUID de l’enregistrement de la ligne de journal (coût)   | Ligne de journal             |
 | GUID de l’enregistrement de l’entrée de temps       | Entrée de temps               | GUID de l’enregistrement de la ligne de journal (ventes)  | Ligne de journal                      |                          |

@@ -1,9 +1,7 @@
 ---
 title: Mettre à niveau la page d’accueil
 description: Cette rubrique décrit où trouver des informations importantes concernant les fonctionnalités nouvelles et modifiées dans Dynamics 365 Project Service Automation, ainsi que le processus de mise à niveau vers la nouvelle version.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 838eecb1229ea20106c7d5487dc37a81e8df501b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a2e17fbdfb71eb62053236bf6c8a3d1aedf332df
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281700"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012358"
 ---
 # <a name="upgrade-home-page"></a>Mettre à niveau la page d’accueil
 
@@ -40,7 +38,7 @@ ms.locfileid: "5281700"
 
 ### <a name="existing-instances"></a>Instances existantes
 
-Auparavant, les clients qui disposent d'une instance de PSA version 2.x et devaient effectuer une mise à niveau vers la version 3.x, qui est la version basée sur l'interface Unified Client (UCI) de PSA, devaient contacter Support Microsoft et fournir les détails de leur instance, afin que le support puisse activer l'instance pour la mise à niveau vers la version 3.x. À compter du 1er mars 2020, les clients qui disposent d'une instance de PSA version 2.x et doivent passer à la version 3.x, pourront mettre à niveau leurs instances directement à partir du portail d'administration sans avoir à contacter le support Microsoft.  
+Auparavant, les clients qui disposent d’une instance de PSA version 2.x et devaient effectuer une mise à niveau vers la version 3.x, qui est la version basée sur l’interface Unified Client (UCI) de PSA, devaient contacter Support Microsoft et fournir les détails de leur instance, afin que le support puisse activer l’instance pour la mise à niveau vers la version 3.x. À compter du 1er mars 2020, les clients qui disposent d’une instance de PSA version 2.x et doivent passer à la version 3.x, pourront mettre à niveau leurs instances directement à partir du portail d’administration sans avoir à contacter le support Microsoft.  
 
 > [!NOTE]
 > PSA version 3.x comprend des modifications importantes. Elle est bâtie sur la structure Unified Interface pour offrir une expérience utilisateur améliorée. L’application modifiée offre une interface utilisateur cohérente et uniforme et elle applique les principes de conception réactive pour un affichage optimal sur n’importe quelle taille d’écran ou n’importe quel appareil. D’autres modifications ont été apportées dans l’application. Parmi les zones qui ont été modifiées, on peut citer la tarification, la réservation et l’affectation de ressources, le temps, les dépenses et les approbations.

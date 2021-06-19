@@ -1,11 +1,9 @@
 ---
 title: Corrections en masse des chiffres réels créés par des entrées de temps et de dépenses approuvées
-description: Cette rubrique explique comment un administrateur peut apporter des corrections individuelles ou en masse aux entrées de temps ou de dépenses précédemment approuvées si la facturation n'a pas été effectuée.
+description: Cette rubrique explique comment un administrateur peut apporter des corrections individuelles ou en masse aux entrées de temps ou de dépenses précédemment approuvées si la facturation n’a pas été effectuée.
 author: rumant
-manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -18,18 +16,18 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 17d6648840e27a4e573985af2cdd74c4adf878e1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c6d849e4be9e3687396cd6a0c4158d92f25c7879
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290896"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012043"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Corrections en masse des chiffres réels créés par des entrées de temps et de dépenses approuvées
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Il peut arriver qu'une entrée de temps ou de dépense soit mal saisie. Un consultant peut par exemple sélectionner la mauvaise date lors de la création d’une entrée de temps ou transposer les chiffres lors de la saisie d’une dépense. Si un consultant ne peut pas mettre à jour les entrées soumises, un administrateur peut directement corriger l’entrée pour un projet.
+Il peut arriver qu’une entrée de temps ou de dépense soit mal saisie. Un consultant peut par exemple sélectionner la mauvaise date lors de la création d’une entrée de temps ou transposer les chiffres lors de la saisie d’une dépense. Si un consultant ne peut pas mettre à jour les entrées soumises, un administrateur peut directement corriger l’entrée pour un projet.
 
 Pour effectuer les procédures de cette rubrique, vous aurez besoin des autorisations Administrateur.
 
@@ -87,7 +85,7 @@ Effectuez les étapes suivantes pour corriger une ou plusieurs entrées de dépe
 
 7. Après avoir confirmé le journal de correction, revenez au projet ou aux projets que vous avez mis à jour pour afficher vos modifications.  
 
-8. Dans la page du projet, sur l’onglet **Chiffres réels**, passez en revue **Vue associée Chiffre réel**. Les entrées originales et les entrées corrigées sont répertoriées. Le graphique suivant montre les montants d'entrée des dépenses d'origine et ceux des dépenses corrigées correspondants. 
+8. Dans la page du projet, sur l’onglet **Chiffres réels**, passez en revue **Vue associée Chiffre réel**. Les entrées originales et les entrées corrigées sont répertoriées. Le graphique suivant montre les montants d’entrée des dépenses d’origine et ceux des dépenses corrigées correspondants. 
 
 ![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 

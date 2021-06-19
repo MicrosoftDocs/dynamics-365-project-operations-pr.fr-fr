@@ -1,13 +1,11 @@
 ---
-title: Estimer les ventes et les coûts du projet lorsqu'une ressource réservable remplit plusieurs rôles sur un projet
-description: Cette rubrique fournit des informations sur l'utilisation des dimensions de tarification pour prendre en charge la tarification et le coût pour une ressource qui remplit plusieurs rôles sur un projet.
+title: Estimer les ventes et les coûts du projet lorsqu’une ressource réservable remplit plusieurs rôles sur un projet
+description: Cette rubrique fournit des informations sur l’utilisation des dimensions de tarification pour prendre en charge la tarification et le coût pour une ressource qui remplit plusieurs rôles sur un projet.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,18 +15,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0f779cf7e247157d6cae2ae7c4c5644201cb7714
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5b2b57f5268a92168952b6da5123886df70cd4e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290986"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013258"
 ---
-# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Estimer les ventes et les coûts du projet lorsqu'une ressource réservable remplit plusieurs rôles sur un projet 
+# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Estimer les ventes et les coûts du projet lorsqu’une ressource réservable remplit plusieurs rôles sur un projet 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Les entreprises basées sur des projets ont souvent besoin d'une seule ressource pour remplir plusieurs rôles sur un projet. Chacun de ces rôles pourrait être évalué différemment en termes de prix et de coût. Autrement dit, le même temps de la ressource dans le projet pourrait obtenir une autre estimation financière en fonction des taux de facturation et de coût pour chacun des rôles. Project Service Automation permet de configurer les valeurs sur l’enregistrement de membre de l’équipe pour la ressource désignée et permet également différents remplacements sur chacune des tâches auxquelles le membre de l’équipe est attribué.
+Les entreprises basées sur des projets ont souvent besoin d’une seule ressource pour remplir plusieurs rôles sur un projet. Chacun de ces rôles pourrait être évalué différemment en termes de prix et de coût. Autrement dit, le même temps de la ressource dans le projet pourrait obtenir une autre estimation financière en fonction des taux de facturation et de coût pour chacun des rôles. Project Service Automation permet de configurer les valeurs sur l’enregistrement de membre de l’équipe pour la ressource désignée et permet également différents remplacements sur chacune des tâches auxquelles le membre de l’équipe est attribué.
 
 L’exemple suivant explique comment le simple remplacement de cette valeur permet à une ressource d’avoir plusieurs rôles sur un projet avec différents taux de facturation et de coût.
 
@@ -60,7 +58,7 @@ Répétez ces étapes pour la Tâche B et veillez à ce que le rôle et l’uni
 
 5. Enregistrez et fermez la page **Détails de la tâche**. 
 
-## <a name="team-member-and-estimates-behavior"></a>Membre de l'équipe et comportement des estimations 
+## <a name="team-member-and-estimates-behavior"></a>Membre de l’équipe et comportement des estimations 
 
 1. Sur la page **Détails de la tâche**, sur le champ **Membre de l’équipe**, sélectionnez les deux membres de l’équipe générique, puis sélectionnez **Générer des besoins**. 
 2. Sélectionnez la ligne du membre de l’équipe pour le champ **Consultant**, puis sélectionnez **Réserver**. Le tableau de bord de planification ouvre et réserve une ressource pour ce besoin.

@@ -2,11 +2,9 @@
 title: Vue d’ensemble des structures de répartition du travail
 description: Une structure de répartition du travail est une description du travail qui sera effectué pour un projet. Il s’agit d’une hiérarchie des tâches qui représente la compréhension par l’équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 713e38f4218b980c4256e433e90c12adccd70e11
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287955"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012223"
 ---
 # <a name="work-breakdown-structures-overview"></a>Vue d’ensemble des structures de répartition du travail
 
@@ -66,7 +64,7 @@ Pour utiliser toutes les fonctionnalités d’estimation des coûts de la WBS, v
 -   Pour configurer le coût et le prix de vente des catégories de main-d’œuvre, de dépenses et de frais, cliquez sur **Gestion de projet et comptabilité** &gt; **Paramétrage** &gt; **Prix**.
 -   Pour configurer le coût et le prix de vente des articles, utilisez la page **Accords commerciaux** pour chaque élément de la liste **Produits lancés** dans la gestion des informations sur le produit.
 
-## <a name="creating-a-wbs"></a>Création d'un adaptateur WBS
+## <a name="creating-a-wbs"></a>Création d’un adaptateur WBS
 La création d’une WBS implique trois activités :
 
 1.  **Décomposition du travail** : créez une répartition du travail en morceaux ou tâches gérables.
@@ -81,7 +79,7 @@ La création d’une ventilation ou d’une décomposition du travail est géné
 
 **Tâche racine du projet** La tâche racine du projet est la tâche récapitulative de niveau supérieur d’un projet. Toutes les autres tâches du projet sont créées en dessous. La tâche du nœud racine est toujours définie sur le nom du projet. L’effort, les dates et la durée du nœud racine résument les valeurs des tâches sous la tâche racine. Vous ne pouvez pas modifier les propriétés de nœud racine ou supprimer le nœud racine.
 
-**Tâches récapitulatives ou de conteneur** Une tâche récapitulative est une tâche qui comporte des sous-tâches ou des tâches constitutives en dessous d’elle. Une tâche récapitulative n'a pas d'efforts ou coûts de travail qui lui sont propres. Au lieu de cela, l’effort de travail et le coût d’une tâche récapitulative sont la somme de l’effort de travail et du coût de ses tâches constitutives. La date de début des tâches constitutives est utilisée en tant que date de début de la tâche récapitulative, et la date de fin des tâches constitutives est utilisée en tant que date de fin. Vous pouvez modifier le nom d’une tâche récapitulative, mais vous ne pouvez pas modifier les propriétés de planification pour effort, dates et durée. Si vous supprimez une tâche récapitulative, vous supprimez également toutes ses tâches constitutives. 
+**Tâches récapitulatives ou de conteneur** Une tâche récapitulative est une tâche qui comporte des sous-tâches ou des tâches constitutives en dessous d’elle. Une tâche récapitulative n’a pas d’efforts ou coûts de travail qui lui sont propres. Au lieu de cela, l’effort de travail et le coût d’une tâche récapitulative sont la somme de l’effort de travail et du coût de ses tâches constitutives. La date de début des tâches constitutives est utilisée en tant que date de début de la tâche récapitulative, et la date de fin des tâches constitutives est utilisée en tant que date de fin. Vous pouvez modifier le nom d’une tâche récapitulative, mais vous ne pouvez pas modifier les propriétés de planification pour effort, dates et durée. Si vous supprimez une tâche récapitulative, vous supprimez également toutes ses tâches constitutives. 
 
 **Tâches de nœud terminal** Une tâche de nœud terminal représente le lot de travail le plus granulaire du projet. Un nœud terminal possède un effort estimé, un nombre de ressources planifiées, des dates de début et de fin planifiées, et une durée. 
 
@@ -179,7 +177,7 @@ La vue Suivi des efforts suit la progression des tâches dans la planification. 
 -   Pourcentage de progression = Cumul des efforts réels consacrés ÷ Efforts planifiés pour la tâche
 -   Effort restant (également connu sous le nom d’estimation pour terminer \[ETC \]) = Effort planifié - Effort réel à ce jour
 -   Estimation à achèvement (EAA) = Efforts restants + Cumul des efforts réels consacrés
--   Écart d'efforts escomptés = Efforts planifiés – EAA
+-   Écart d’efforts escomptés = Efforts planifiés – EAA
 
 La vue Suivi des efforts affiche une projection de la variance de l’effort pour la tâche, selon que l’EAA est supérieur ou inférieur à l’effort prévu :
 
@@ -197,7 +195,7 @@ Chacune de ces méthode entraîne un nouveau calcul de l’Estimation avant ach�
 
 **Effort modifié sur les tâches récapitulatives** Vous pouvez modifier l’effort sur les tâches récapitulatives ou conteneurs. Que vous modifiiez ces valeurs avec les efforts restants ou le pourcentage de progression sur les tâches récapitulatives, les calculs surviennent automatiquement dans l’ordre suivant :
 
-1.  L'Estimation avant achèvement, l'EAA (Estimé à Achèvement) et le pourcentage de progression sur la tâche sont calculés.
+1.  L’Estimation avant achèvement, l’EAA (Estimé à Achèvement) et le pourcentage de progression sur la tâche sont calculés.
 2.  Le nouvel EAA est distribué aux tâches enfants dans la même proportion que l’EAA d’origine.
 3.  Le nouveau EEA sur chaque tâche de nœud terminal est calculé.
 4.  Les efforts restants et le pourcentage de progression sont recalculés pour toutes les tâches enfants affectées, en fonction de la nouvelle valeur de l’EEA. L’écart de l’effort des tâches est également recalculé.
@@ -242,13 +240,13 @@ La phase de temps sur le graphique de la valeur acquise est affichée par semain
 
 **Valeur planifiée** La théorie concernant la méthode de la valeur acquise stipule que le tracé de la valeur planifiée représente le taux auquel l’équipe du projet prévoyait de gagner de la valeur sur le projet. 
 
-Finance utilise la règle de gain 0:100 lorsqu’il trace la valeur planifiée. Selon cette règle, la valeur de la tâche est publiée dans la tâche à compter de sa date de fin. Aucune valeur n’est publiée tant que la tâche n’est pas terminée à 100 %. 
+Finance utilise la règle de gain 0:100 lorsqu’il trace la valeur planifiée. Selon cette règle, la valeur de la tâche est publiée dans la tâche à compter de sa date de fin. Aucune valeur n’est publiée tant que la tâche n’est pas terminée à 100 %%. 
 
 Dans Gestion de projets et comptabilité, vous saisissez la date de fin des nœuds terminaux et le coût prévu pour celui-ci. Lorsque le graphique de la valeur planifiée est affiché par semaine, la valeur planifiée est récapitulée par semaine pour toutes les tâches du nœud terminal pendant la durée du projet. 
 
 **Valeur acquise** La théorie concernant la méthode de la valeur acquise stipule que le tracé de la valeur planifiée représente le taux auquel l’équipe du projet est en fait la valeur acquise sur le projet. 
 
-Finance utilise la règle de gain 0:100 lorsqu’il trace la valeur acquise. Selon cette règle, la valeur de la tâche est publiée dans la tâche à compter de sa date de fin. Aucune valeur n’est publiée tant que la tâche n’est pas terminée à 100 %. 
+Finance utilise la règle de gain 0:100 lorsqu’il trace la valeur acquise. Selon cette règle, la valeur de la tâche est publiée dans la tâche à compter de sa date de fin. Aucune valeur n’est publiée tant que la tâche n’est pas terminée à 100 %%. 
 
 Lorsque la valeur acquise est calculée, le pourcentage de progression de chaque tâche est pris en compte. En vertu de la règle de gain de 0:100, seules les tâches qui sont achevées au cours d’une période donnée sont prises en compte pour le calcul de la valeur acquise à la fin de cette période. La valeur acquise sur le projet est calculée pour toutes les tâches qui ont été achevées lors de la création du graphique. 
 

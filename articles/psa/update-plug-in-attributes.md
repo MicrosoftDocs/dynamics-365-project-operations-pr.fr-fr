@@ -2,11 +2,9 @@
 title: Mettre à jour les attributs de plug-in pour inclure de nouvelles dimensions de tarification
 description: Cette rubrique donne des informations sur la mise à jour des attributs de plug-in pour les dimensions de tarification.
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 958646c9e06a15e265bc0caa8b0f3eb9f79fc347
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281790"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012808"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Mettre à jour les attributs de plug-in pour inclure de nouvelles dimensions de tarification
 

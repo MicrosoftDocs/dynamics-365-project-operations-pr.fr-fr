@@ -2,8 +2,6 @@
 title: Personnaliser une entrée de temps hebdomadaire
 description: Cette rubrique donne des informations sur la mise en œuvre de règles métier personnalisées qui prennent en charge les pratiques d’une organisation.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c117e06e7a5c57c7f9b70d1380f450c0ea97cd12
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282060"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013033"
 ---
 # <a name="customize-weekly-time-entry"></a>Personnaliser une entrée de temps hebdomadaire 
 
@@ -55,7 +53,7 @@ La section Durée affiche les jours de la semaine sous forme d’en-têtes de co
 ## <a name="create-a-new-time-entry"></a>Créer une entrée de temps
 Pour créer une entrée de temps dans la grille d’entrée de temps, sélectionnez **Nouveau**. La boîte de dialogue **Création rapide d’une entrée de temps** s’affiche. Dans cette boîte de dialogue, les utilisateurs peuvent sélectionner la date d’entrée de temps, puis entrer des données pour les dimensions **Projet**, **Tâche du projet**, **Rôle** et **Durée** en minutes, heures ou jours en saisissant **h**, **m** ou **j**, ainsi que le nombre. Les utilisateurs peuvent également entrer une description et des commentaires qui peuvent être partagés en externe pour l’entrée de temps. Lorsque les utilisateurs enregistrent leurs modifications, les valeurs qu’ils ont entrées pour les dimensions s’affichent dans la section **Dimensions**. Les informations de durée qu’ils ont entrées dans le champ **Durée** s’affichent à la date pour laquelle l’entrée de temps a été créée.
 
-Les champs de recherche sont étayées par des vues système. Par exemple, une fois qu’un utilisateur active un projet, le champ **Tâche du projet** est défini sur la vue **Copier** par défaut. Pour créer des entrées de temps pour les tâches qui ne sont pas affectées à un utilisateur, sélectionnez **Modifier la vue** dans la boîte de dialogue de recherche, puis sélectionnez la vue **Toutes les tâches du projet actives**.
+Les champs de recherche sont soutenus par des vues système. Par exemple, après qu’un utilisateur a saisi un projet, le champ **Tâche du projet** est défini sur la vue **Copie** par défaut. Pour créer des entrées de temps pour les tâches qui ne sont pas affectées à un utilisateur, sélectionnez **Modifier la vue** dans la boîte de dialogue de recherche, puis sélectionnez la vue **Toutes les tâches du projet actives**.
 
 ## <a name="edit-a-time-entry"></a>Modifier une entrée de temps
 Les détails de certains champs de la page d’entrée de temps, comme **Description** et **Commentaires externes**, ne sont pas affichés dans la grille d’entrée de temps hebdomadaire. À la place, un petit indicateur triangulaire apparaît dans les cellules de durée contenant ces détails supplémentaires. Sélectionnez la cellule, puis sélectionnez **Modifier les détails** pour afficher les données dans le volet **Modification rapide**. Pour modifier ou mettre à jour les détails d’une entrée de temps spécifique qui ne fait pas partie de la grille d’entrée de temps hebdomadaire, les utilisateurs doivent ouvrir le volet **Modification rapide**.
@@ -84,7 +82,7 @@ Après avoir créé quelques entrées de temps, les utilisateurs peuvent sélect
 ## <a name="import"></a>Importer
 Le même processus de base est utilisé pour importer des réservations, des affectations et des échanges. Les utilisateurs peuvent spécifier la plage de dates à partir de laquelle les réservations sont importées. Ils doivent ensuite explicitement sélectionner les réservations qui doivent être copiées dans les entrées de temps brouillon. Dans la version précédente, les entrées de temps suggérées s’affichaient dans la grille et le calendrier, et étaient perdues au moment de l’actualisation de la session.
 
-## <a name="extensibility"></a>Extensibilité 
+## <a name="extensibility"></a>Extensibilité
 ### <a name="add-custom-fields-that-have-lookups-to-other-entities"></a>Ajouter des champs personnalisés comportant des champs de recherche à d’autres entités
 Il existe trois grandes étapes pour ajouter un champ personnalisé à la grille d’entrée de temps hebdomadaire.
 
