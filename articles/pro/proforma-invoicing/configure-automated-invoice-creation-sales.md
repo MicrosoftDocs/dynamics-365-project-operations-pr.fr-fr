@@ -2,18 +2,16 @@
 title: Configurer la création automatique de factures
 description: Cette rubrique fournit des informations sur le paramétrage et la configuration de la création automatique de factures pro forma.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 2d212f2279b28d900e75d45386e343f95b8e825e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866814"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004168"
 ---
 # <a name="set-up-automatic-invoice-creation"></a>Configurer la création automatique de factures 
  
@@ -75,17 +73,17 @@ Procédez comme suit pour configurer l’exécution d’une facture automatique.
 - ProcessRunner
 - UpdateRoleUtilization
 
-5. Sélectionnez **ProcessRunCaller**, puis **Ajouter**.
-6. Dans la boîte de dialogue suivante, sélectionnez **OK**. Un workflow **Veille** est suivi d’un workflow **Processus**. 
+5. Sélectionnez **ProcessRunCaller**, puis cliquez sur **Ajouter**.
+6. Dans la boîte de dialogue suivante, cliquez sur **OK**. Un flux de travail **Sleep** est suivi d’un flux de travail **Process**. 
 
 > [!NOTE]
 > Vous pouvez également sélectionner **ProcessRunner** à l’étape 5. Ensuite, lorsque vous sélectionnez **OK**, un workflow **Processus** est suivi d’un workflow **Veille**.
 
-Les workflows **ProcessRunCaller** et **ProcessRunner** créent des factures. **ProcessRunCaller** appelle **ProcessRunner**. **ProcessRunner** est le workflow qui crée en fait les factures. Le workflow traverse toutes les lignes de contrat pour lesquelles des factures doivent être créées, et crée des factures pour ces lignes. Pour déterminer les lignes de contrat pour lesquelles des factures doivent être créées, la tâche recherche les dates d’exécution de factures des lignes de contrat. Si des lignes de contrat qui appartiennent à un contrat disposent de la même date d’exécution de factures, les transactions sont combinées en une seule facture avec deux lignes de facture. S’il n’existe pas de transaction pour créer des factures, la tâche ignore la création de facture.
+Les workflows **ProcessRunCaller** et **ProcessRunner** créent des factures. **ProcessRunCaller** appelle **ProcessRunner**. **ProcessRunner** est le workflow qui crée en fait les factures. Le workflow traverse toutes les lignes de contrat pour lesquelles des factures doivent être créées, et crée des factures pour ces lignes. Pour déterminer les lignes de contrat pour lesquelles des factures doivent être créées, la tâche recherche les dates d’exécution de factures des lignes de contrat. Si des lignes de contrat appartenant à un contrat sont associées à la même date d’exécution de la facture, les transactions sont combinées en une seule facture comportant deux lignes de facture. S’il n’existe pas de transaction pour créer des factures, la tâche ignore la création de facture.
 
 Une fois que **ProcessRunner** a fini de s’exécuter, il appelle **ProcessRunCaller**, fournit l’heure de fin, et est fermé. **ProcessRunCaller** lance alors une minuterie qui s’exécute pendant 24 heures à partir de l’heure de fin spécifiée. À la fin de la minuterie, **ProcessRunCaller** est fermé.
 
-La tâche de traitement par lots pour la création de factures est une tâche périodique. Si ce traitement par lots est exécuté de nombreuses fois, plusieurs instances de la tâche sont créées et entraînent des erreurs. Par conséquent, vous devez démarrer le traitement par lots une seule fois, et redémarrer uniquement s’il cesse de s’exécuter.
+Le processus de traitement par lots pour la création de factures est une tâche récurrente. Si ce traitement par lots est exécuté de nombreuses fois, plusieurs instances de la tâche sont créées et entraînent des erreurs. Par conséquent, vous devez démarrer le traitement par lots une seule fois, et redémarrer uniquement s’il cesse de s’exécuter.
 
 > [!NOTE]
 > La facturation par lots dans Project Operations ne s’exécute que pour les lignes de contrat de projet qui sont configurées par des planifications de facture. Une ligne de contrat avec une méthode de facturation à prix fixe doit avoir des jalons configurés. Une ligne de contrat de projet avec une méthode de facturation en régie nécessite la configuration d’un calendrier de facturation basé sur la date.

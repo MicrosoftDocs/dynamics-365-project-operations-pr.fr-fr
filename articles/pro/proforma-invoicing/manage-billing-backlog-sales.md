@@ -2,18 +2,16 @@
 title: Gérer la réplication de facturation des projets
 description: Cette rubrique fournit des informations sur les différentes vues disponibles pour être utilisées lors de la gestion de la réplication de facturation sur les projets.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: ddd0b62133139a8d9d8d09920986890bd8616808
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866993"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003943"
 ---
 # <a name="manage-project-billing-backlog"></a>Gérer la réplication de facturation des projets 
 
@@ -39,7 +37,7 @@ La vue **Provisions et avances disponibles** répertorie toutes les provisions e
 
 ## <a name="fixed-price-milestones"></a>Jalons de prix fixe
 
-La vue **Jalons de prix fixes** répertorie tous les jalons à prix fixe de toutes les lignes de contrat de projet du système. Le statut **Prêt pour la facturation** ou **Non prêt pour la facturation** peut être affecté à un ou plusieurs jalons sur cette vue. Le fait de marquer un jalon comme **Prêt pour la facturation** le rend disponible pour pouvoir figurer sur une facture en mode brouillon.
+La vue **Jalons de prix fixes** répertorie tous les jalons à prix fixe de toutes les lignes de contrat de projet du système. Le statut **Prêt pour la facturation** ou **Non prêt pour la facturation** peut être affecté à un ou plusieurs jalons dans cette vue. Le fait de marquer un jalon comme **Prêt pour la facturation** le rend disponible pour pouvoir figurer sur une facture en mode brouillon.
 
 Lorsque les lignes de contrat multi-clients ont une méthode de facturation à prix fixe, un jalon est créé pour chaque client sur la ligne de contrat. Un jalon peut être créé, puis fractionné en enregistrements de jalons individuels spécifiques au client. Cet fractionnement est interne et conforme au pourcentage de fractionnement de facturation défini pour chaque client sur la ligne de contrat. Dans la vue **Jalons à prix fixe**, vous verrez les enregistrements de jalons spécifiques au client. Chacun de ces enregistrements de jalons peut être marqué comme **Prêt pour la facturation** séparément dans cette vue. Lorsqu’un ou plusieurs fractionnements de jalon connexes sont marquées comme **Prêt pour la facturation**, le statut de l’en-tête est mis à jour, passant ainsi de **En cours** à **Pas démarré**. Lorsque tous les fractionnements de jalon sont facturés, le statut du jalon de l’en-tête est mis à jour sur **Terminé**.
 

@@ -2,11 +2,9 @@
 title: Application mobile Dépenses
 description: Cette rubrique donne des informations sur l’espace de travail mobile Gestion des dépenses.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2cbce8fbfa622a143f3ebfc34d7d60a7da4a9171
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 2f274a5f0dfcfdbe8c6771fff7a636c6e93eeea9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950883"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001963"
 ---
 # <a name="mobile-expense-app"></a>Application mobile Dépenses
 

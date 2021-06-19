@@ -2,18 +2,16 @@
 title: Gérer des unités complexes pour les lignes de contrat basées sur les produits – Simplifié
 description: Cette rubrique fournit des informations sur la prise en charge de la vente de produits basés sur un abonnement.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 86da5a96919438e883b56fc8ecfe765f70a789ff
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273330"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003178"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Gérer des unités complexes pour les lignes de contrat basées sur les produits – Simplifié
 

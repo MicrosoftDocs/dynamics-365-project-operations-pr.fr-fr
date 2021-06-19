@@ -2,18 +2,16 @@
 title: Confirmer un contrat de projet
 description: Cette rubrique fournit des informations sur le mode de confirmation d’un contrat dans Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b5eabcad028a8282f552f3571b170d9b933a7b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273825"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003673"
 ---
 # <a name="confirm-a-project-contract"></a>Confirmer un contrat de projet
 
@@ -23,7 +21,7 @@ Un contrat de projet dans Dynamics 365 Project Operations peut être actif avec 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Impact financier de la confirmation d’un contrat de projet
 
-Une fois qu’un contrat de projet est confirmé, l’application recalcule les coûts en inversant les anciens chiffres réels de coûts et en créant les chiffres réels de coûts. Les nouveaux coûts réels sont ensuite traités en fonction de la méthode de facturation de la ligne de contrat de projet associée. Si les coûts réels font référence à une ligne de contrat Temps et matériel, l’application recrée automatiquement les chiffres réels des ventes non facturées correspondants. Si les coûts réels font référence à une ligne de contrat à prix fixe, l’application arrête de retraiter les coûts réels.
+Après la confirmation d’un contrat de projet, l’application recalcule les coûts en contrepassant les anciens chiffres réels des coûts et en créant des chiffres réels des coûts. Les nouveaux chiffres réels des coûts sont ensuite traités en fonction du mode de facturation de la ligne de contrat de projet associée. Si les coûts réels font référence à une ligne de contrat Temps et matériel, l’application recrée automatiquement les chiffres réels des ventes non facturées correspondants. Si les coûts réels font référence à une ligne de contrat à prix fixe, l’application arrête de retraiter les coûts réels.
 
 Les limites à ne pas dépasser, la configuration de la chargeabilité, la tarification et le calcul des coûts réels sont évalués puis mis à jour dans le cadre du processus de confirmation.
 

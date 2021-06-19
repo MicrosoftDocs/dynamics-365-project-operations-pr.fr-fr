@@ -2,20 +2,18 @@
 title: Paiement en avance
 description: Cette rubrique fournit des informations sur les avances de fonds.
 author: suvaidya
-manager: AnnBe
 ms.date: 03/25/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
-ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
+ms.openlocfilehash: c610fdda8f337e0c16fe5010770aca678201c328
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "5715557"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002143"
 ---
 # <a name="cash-advance"></a>Paiement en avance
 
@@ -24,7 +22,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 Une avance de fonds permet aux employés d’emprunter de l’argent à leur entreprise avant d’engager des dépenses. Lorsqu’une avance de fonds demandée est approuvée et versée, l’employé peut utiliser l’argent pour les dépenses professionnelles qu’il est sur le point d’engager. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Créer et soumettre une demande d’avance de fonds
-Pour créer une avance de fonds et soumettre une demande d'avance de fonds, procédez comme suit : 
+Pour créer une avance de fonds et soumettre une demande d’avance de fonds, procédez comme suit : 
 
 1. En dessous de **Mes dépenses**, sélectionnez **Avances de fonds** > **Nouveau**. 
 2. Sur la page **Nouvelle demande d’avance de fonds**, entrez l’objet de la dépense et sélectionnez l’emplacement où la dépense sera engagée.
@@ -35,7 +33,7 @@ Pour créer une avance de fonds et soumettre une demande d'avance de fonds, proc
 
 Vous pouvez modifier une demande d’avance de fonds si elle n’a pas été envoyée pour approbation.
 
-1. En dessous de **Mes dépenses : avances de fonds** recherchez et sélectionnez l'avance de fonds que vous souhaitez modifier.
+1. En dessous de **Mes dépenses : avances de fonds** recherchez et sélectionnez l’avance de fonds que vous souhaitez modifier.
 2. Sélectionnez **Modifier**, et apportez les modifications nécessaires à la demande d’avance de fonds. 
 3. Sélectionnez **Enregistrer et fermer**.
 
@@ -58,7 +56,7 @@ La procédure suivante est généralement effectuée par un comptable ou un util
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Envoyer une note de frais contre une avance de fonds versée 
 
-Lorsque vous créez et soumettez une note de frais pour l'avance de fonds que vous avez déjà reçue, les dépenses seront automatiquement ajustées par rapport à cette avance. Si votre avance de fonds est supérieure au montant dépensé, vous devez retourner le solde à l’entreprise en utilisant la catégorie de dépense **Retourner les fonds**. Si l'avance de trésorerie payée par l'entreprise est inférieure au montant que vous avez passé en charges, l'entreprise doit vous rembourser le solde. 
+Lorsque vous créez et soumettez une note de frais pour l’avance de fonds que vous avez déjà reçue, les dépenses seront automatiquement ajustées par rapport à cette avance. Si votre avance de fonds est supérieure au montant dépensé, vous devez retourner le solde à l’entreprise en utilisant la catégorie de dépense **Retourner les fonds**. Si l’avance de trésorerie payée par l’entreprise est inférieure au montant que vous avez passé en charges, l’entreprise doit vous rembourser le solde. 
 
 ### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Sélectionner les avances de disponibilités qui s’appliquent à vos dépenses
 Avant de soumettre une note de frais, vous pouvez sélectionner l’avance de disponibilités qui correspond aux transactions de dépenses du rapport. Pour utiliser cette fonction, les deux fonctionnalités suivantes doivent être activées à partir de l’espace de travail **Gestion des fonctionnalités** :
@@ -76,7 +74,7 @@ Avant de soumettre une note de frais, vous pouvez sélectionner l’avance de di
 Si vous n’utilisez pas ces fonctionnalités, la fonctionnalité restera la même, les avances de disponibilités existantes étant automatiquement réduites après la soumission d’une dépense.
 
 ### <a name="example"></a>Exemple 
-Vous prévoyez de vous rendre de Seattle à New York pour une conférence. Vous créez une demande d'avance de fonds pour 3 000,00 USD en fonction du coût estimé du billet de conférence, des vols, de l'hôtel, des repas et du taxi. Vous ne serez payé que si votre responsable approuve cette demande. Une fois que votre responsable l’a approuvée, l’avance de fonds demandée est payée d’un montant de 3 000,00 USD sur votre compte bancaire. Vous assistez ensuite à la conférence. Après avoir terminé votre voyage, vous constatez que la dépense totale n’était que de 2 790,00 USD. Sélectionnez **En espèces** dans le champ **Mode de paiement** et soumettez vos dépenses pour 2 790,00 USD. Le montant de vos dépenses soumis est automatiquement ajusté par rapport à l’avance de fonds de 3 000,00 USD qui vous a été prêtée. Vous devez maintenant un solde de 210,00 USD (3 000,00 - 2 790,00), que vous pouvez restituer à l'entreprise en utilisant la catégorie de dépense **Retour en espèces**.
+Vous prévoyez de vous rendre de Seattle à New York pour une conférence. Vous créez une demande d’avance de fonds pour 3 000,00 USD en fonction du coût estimé du billet de conférence, des vols, de l’hôtel, des repas et du taxi. Vous ne serez payé que si votre responsable approuve cette demande. Une fois que votre responsable l’a approuvée, l’avance de fonds demandée est payée d’un montant de 3 000,00 USD sur votre compte bancaire. Vous assistez ensuite à la conférence. Après avoir terminé votre voyage, vous constatez que la dépense totale n’était que de 2 790,00 USD. Sélectionnez **En espèces** dans le champ **Mode de paiement** et soumettez vos dépenses pour 2 790,00 USD. Le montant de vos dépenses soumis est automatiquement ajusté par rapport à l’avance de fonds de 3 000,00 USD qui vous a été prêtée. Vous devez maintenant un solde de 210,00 USD (3 000,00 - 2 790,00), que vous pouvez restituer à l’entreprise en utilisant la catégorie de dépense **Retour en espèces**.
 
 
 

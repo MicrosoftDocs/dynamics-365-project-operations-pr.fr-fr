@@ -2,18 +2,16 @@
 title: Configurer les composants facturables d’une ligne de devis
 description: Cette rubrique fournit des informations sur la configuration de composants payants et non facturables sur une ligne de devis basée sur un projet.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: c933a3800aae72624dbcbe3f06df20e5981d74d4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858290"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003763"
 ---
 # <a name="configure-the-chargeable-components-of-a-quote-line"></a>Configurer les composants facturables d’une ligne de devis 
 

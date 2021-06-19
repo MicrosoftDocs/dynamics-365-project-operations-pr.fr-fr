@@ -2,24 +2,22 @@
 title: Gérer une facture pro forma pour un projet
 description: Cette rubrique fournit des informations sur l’utilisation des factures de projet pro forma.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: dc069d7007bdc58140a33c7a2ebae7ef9d1e84ff
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866903"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003853"
 ---
 # <a name="manage-a-proforma-project-invoice"></a>Gérer une facture pro forma pour un projet 
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Dans Dynamics 365 Project Operations, les factures pro forma sont créées sous forme d’extension des factures dans Dynamics 365 Sales. Cependant, il existe de nombreuses différences dans le processus de facturation dans Sales et celui de Project Operations. Par exemple, il n’est pas possible de créer une facture à partir de la page **Liste des factures** dans Project Operations, alors que cela est possible dans Sales. Ces différences et extensions existent pour prendre en charge les processus de facturation pour les projets différents d’une facture typique pour une commande client.
+Dans Dynamics 365 Project Operations, les factures pro forma sont créées sous forme d’extension des factures dans Dynamics 365 Sales. Cependant, le processus de facturation présente de nombreuses différences entre Sales et Project Operations. Par exemple, il n’est pas possible de créer une facture à partir de la page de liste **Factures** dans Project Operations, mais il est possible de le faire dans Sales. Ces différences et extensions sont en place pour prendre en charge les processus de facturation pour des projets différents d’une facture typique pour une commande client.
 
 > [!IMPORTANT]
 > En raison de ces différences, n’utilisez pas les factures de manière interchangeable dans Sales et Project Operations.
@@ -42,7 +40,7 @@ Les informations suivantes sont disponibles sur un en-tête de facture pro forma
 | **Statut** | Onglet **Résumé** | Définit les options suivantes : **Actif**, **Fermé**, **Payé** et **Annulé**. Modifiable par l’utilisateur. | Les statuts non pris en charge par Project Operations sont **Fermé** et **Annulé**. </br> Le statut est défini sur **Actif** lors de la création de la facture. </br>Le statut doit être défini sur **Payé** seulement après confirmation de la facture. |
 | **Statut de la facture du projet** | Onglet **Résumé** | Définit les options suivantes : **Brouillon**, **En cours de révision** et **Confirmé**. Modifiable par l’utilisateur. | Les factures ayant les statuts **Brouillon** et **En cours de révision** sont modifiables. La facture ne peut pas être modifiée une fois confirmée. |
 | **Montant détaillé** | Onglet **Résumé** | La somme des montants de toutes les lignes de facture après avances et déductions. Un champ en lecture seule qui verrouillé pour modification. | Ce champ est utilisé pour calculer le montant final. |
-| **Remise (%)** | Onglet **Résumé** | Ce champ est modifiable pour saisir un pourcentage de remise. Ce champ n’est pas pris en charge par la fonctionnalité Project Operations. | Il s’agit d’un champ non pris en charge. |
+| **Remise (%%)** | Onglet **Résumé** | Ce champ est modifiable pour saisir un pourcentage de remise. Ce champ n’est pas pris en charge par la fonctionnalité Project Operations. | Il s’agit d’un champ non pris en charge. |
 | **Montant de la remise** | Onglet **Résumé** | Ce champ est modifiable pour saisir le montant de la remise. Ce champ n’est pas pris en charge par la fonctionnalité Project Operations. | Il s’agit d’un champ non pris en charge. |
 | **Montant hors frais de port** | Onglet **Résumé** | Le montant total de la facture après que les remises ont été appliquées. Un champ en lecture seule qui verrouillé pour modification. | Ce champ est utilisé pour calculer le montant final. |
 | **Frais de port** | Onglet **Résumé** | Ce champ est modifiable pour saisir le montant des fais de port. Ce champ n’est pas pris en charge par la fonctionnalité Project Operations. | Il s’agit d’un champ non pris en charge. |

@@ -2,18 +2,16 @@
 title: Gérer plusieurs clients sur des contrats de projets – Simplifié
 description: Cette rubrique fournit des informations sur la gestion de plusieurs clients sur des contrats de projets.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c9804c77cc0931352b026f15fd764f43361757f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31a12e44353160dde851e2b9b06148a31fbeb167
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273150"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002834"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Gérer plusieurs clients sur des contrats de projets – Simplifié
 
@@ -49,7 +47,7 @@ Un client de contrat peut être créé, mis à jour ou supprimé depuis l’ongl
 
 ## <a name="edit-billing-split-percentages"></a>Modifier des pourcentages de facturation fractionnée
 
-Les pourcentages de fractionnement de la facturation peuvent être modifiés en utilisant la modification de la grille en ligne. Si le total des pourcentages de fractionnement de la facturation n’est pas égal à 100 %, vous recevrez un message d’erreur. Après avoir modifié les pourcentages de fractionnement de la facturation, actualisez la page pour annuler l’erreur.
+Les pourcentages de fractionnement de la facturation peuvent être modifiés en utilisant la modification de la grille en ligne. Si le total des pourcentages de fractionnement de la facturation n’est pas égal à 100 %%, vous recevrez un message d’erreur. Après avoir modifié les pourcentages de fractionnement de la facturation, actualisez la page pour annuler l’erreur.
 
 Vous pouvez également sélectionner **Répartition homogène** dans la sous-grille **Clients du contrat** pour répartir les fractionnements de la facturation de façon homogène entre tous les clients du contrat. S’il existe une valeur d’arrondi, elle sera ajoutée au client d’arrondi. Un des clients de contrat est toujours identifié comme client d’**arrondi**, ce qui signifie que l’enregistrement de ce client du contrat est marqué de l’indicateur d’arrondi défini sur **Oui**. En règle générale, il s’agit du client principal du contrat, mais cela peut également être modifié.
 

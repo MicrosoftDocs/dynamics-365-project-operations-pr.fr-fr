@@ -2,18 +2,16 @@
 title: Factures de projet correctives
 description: Cette rubrique fournit des informations sur la création et la confirmation de factures correctives dans Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: dfa5535597ee6e144259c9246b33075f3492285e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866588"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004078"
 ---
 # <a name="corrective-project-invoices"></a>Factures de projet correctives
 
