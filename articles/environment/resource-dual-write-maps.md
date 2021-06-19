@@ -2,18 +2,16 @@
 title: Versions du mappage à double écriture Project Operations
 description: Cette rubrique fournit la liste des mappages à double écriture requis pour Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938977"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025771"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versions du mappage à double écriture Project Operations
 
@@ -36,32 +34,32 @@ Les mappages suivants sont des conditions préalables requises pour la solution 
 
 ![Synchronisation de la carte du registre](media/DW6.png)
 
-1. Suivez les mêmes étapes pour tous les autres mappages de table répertoriés dans le tableau ci-dessus. Ne cochez pas la case **Synchronisation initiale** lors de l’exécution de ces mappages.
+2. Suivez les mêmes étapes pour tous les autres mappages de table répertoriés dans le tableau ci-dessus. Ne cochez pas la case **Synchronisation initiale** lors de l’exécution de ces mappages.
 
 ## <a name="project-operations-dual-write-maps"></a>Mappages à double écriture Project Operations
 
-Les mappages suivants sont requis pour une solution Project Operations.
+Les mappages suivants sont requis pour une solution Project Operations. Les versions des mappages en double écriture sont répertoriées à partir de la mise à jour de Project Operations de mai 2021, version 4.10.0.186.
 
 | **Mappage d’entité** | **Version la plus récente** | **Synchronisation initiale** |
 | --- | --- | --- |
 | Entité d’intégration pour les relations de transaction du projet (msdyn\_transactionconnections) | 1.0.0.0 | Non requis pour l’approvisionnement. |
 | En-têtes de contrat du projet (commandes client) | 1.0.0.1 | Non requis pour l’approvisionnement. |
 | Lignes du contrat de projet (salesorderdetails) | 1.0.0.0 | Non requis pour l’approvisionnement. |
-| Source de financement de projet (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | Non requis pour l’approvisionnement. |
+| Source de financement de projet (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Non requis pour l’approvisionnement. |
 | Table Intégration de Project Operations pour les estimations de matériel (msdyn\_estimatelines) | 1.0.0.0 | Non requis pour l’approvisionnement. |
-| Propositions de facture de projet V2 (factures) | 1.0.0.2 | Non requis pour l’approvisionnement. |
+| Propositions de facture de projet V2 (factures) | 1.0.0.3 | Non requis pour l’approvisionnement. |
 | Chiffres réels d’intégration Project Operations (msdyn_actuals) | 1.0.0.14 | Non requis pour l’approvisionnement. |
 | Jalons de la ligne de contrat d’intégration de Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Non requis pour l’approvisionnement. |
 | Entité d’intégration de Project Operations pour les estimations de dépenses (msdyn_estimateslines) | 1.0.0.2 | Non requis pour l’approvisionnement. |
 | Entité d’intégration de Project Operations pour les estimations d’heures (msdyn_resourceassignments) | 1.0.0.5 | Non requis pour l’approvisionnement. |
-| Entité d’exportation des catégories de dépenses de projet d’intégration de Project Operations (msdyn_expensecategories) | 1.0.0.2 | Non requis pour l’approvisionnement. |
+| Entité d’exportation des catégories de dépenses de projet d’intégration de Project Operations (msdyn_expensecategories) | 1.0.0.1 | Non requis pour l’approvisionnement. |
 | Entité d’exportation des dépenses de projet d’intégration de Project Operations (msdyn_expenses) | 1.0.0.2 | Non requis pour l’approvisionnement. |
 | Entité d’exportation des factures fournisseur de projet d’intégration de Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Non requis pour l’approvisionnement. |
-| Entité d’exportation des lignes de facture fournisseur de projet d’intégration de Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.0 | Non requis pour l’approvisionnement. |
+| Entité d’exportation des lignes de facture fournisseur de projet d’intégration de Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Non requis pour l’approvisionnement. |
 | Rôles des ressources de projet pour toutes les entreprises (bookableresourcecategories) | 1.0.0.1 | Nécessite une synchronisation initiale afin que le mappage de table synchronise les rôles de ressources de gestionnaire de projet et de membre d’équipe qui sont renseignés dans l’environnement Dynamics 365 Dataverse pendant l’approvisionnement. Dataverse est la source principale de la synchronisation initiale. |
 | Tâches du projet (msdyn_projecttasks) | 1.0.0.4 | Non requis pour l’approvisionnement. |
 | Catégories de transactions du projet (msdyn_transactioncategories) | 1.0.0.0 | Non requis pour l’approvisionnement. |
-| Projets V2 (msdyn_projects) | 1.0.0.1 | Non requis pour l’approvisionnement. |
+| Projets V2 (msdyn_projects) | 1.0.0.2 | Non requis pour l’approvisionnement. |
 
 Pour exécuter les mappages répertoriés, procédez comme suit.
 

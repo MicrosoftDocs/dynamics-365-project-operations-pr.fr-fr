@@ -2,18 +2,16 @@
 title: Utiliser les API de planification pour effectuer des opérations avec des entités de planification
 description: Cette rubrique fournit des informations et des exemples d’utilisation des API de planification.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950801"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116794"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utiliser les API de planification pour effectuer des opérations avec des entités de planification
 
@@ -28,14 +26,14 @@ Les API de planification offrent la possibilité d’effectuer des opérations d
 
 Le tableau suivant fournit une liste complète des **Entités de planification**.
 
-| Nom de l'entité  | Nom logique de l’entité |
+| Nom de l’entité  | Nom logique de l’entité |
 | --- | --- |
 | Project | msdyn_project |
 | Tâche du projet  | msdyn_projecttask  |
 | Dépendance de la tâche du projet  | msdyn_projecttaskdependency  |
 | Attribution de ressource | msdyn_resourceassignment |
 | Compartiment du projet  | msdyn_projectbucket |
-| Membre de l'équipe du projet | msdyn_projectteam |
+| Membre de l’équipe du projet | msdyn_projectteam |
 
 ## <a name="operationset"></a>OperationSet
 
@@ -260,7 +258,7 @@ Les tableaux suivants définissent les champs interdits pour **Créer** et **Mod
 Voici une liste des limitations et des problèmes connus :
 
 - Les API de planification ne peuvent être utilisées que par les **utilisateurs disposant d’une licence Microsoft Project**. Elles ne peuvent pas être utilisées par :
-    - Utilisateurs de l'application
+    - Utilisateurs de l’application
     - Utilisateurs du système
     - Utilisateurs de l’intégration
     - Autres utilisateurs ne disposant pas de la licence requise
@@ -268,7 +266,6 @@ Voici une liste des limitations et des problèmes connus :
 - Chaque utilisateur peut seulement avoir un maximum de 10 **OperationSets** ouverts.
 - Project Operations prend actuellement en charge un maximum de 500 tâches au total sur un projet.
 - Les statuts d’échec et les journaux d’échec **OperationSet** ne sont pas disponibles actuellement.
-- Les API de planification sont disponibles en version préliminaire publique. L’utilisation de ces API dans un environnement de production n’est pas prise en charge par Microsoft.
 - [Limites des projets et des tâches](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Gestion des erreurs
