@@ -2,8 +2,6 @@
 title: Réservation de ressources pouvant être réservées nommées à une équipe de projet et lui attribuer des tâches
 description: Cette rubrique fournit des informations sur le mode de réservation de ressources nommées dans les équipes de projet et leur attribution de tâches.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6169f2bdc107e63d666fb32d34f531fd5d472c2f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e0f3957936e699fb2a9f570b9789924c55e12cc2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291436"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009343"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Réservation de ressources pouvant être réservées nommées à une équipe de projet et lui attribuer des tâches 
 
@@ -43,7 +41,7 @@ Vous pouvez ajouter une ressource nommée à votre équipe de projet en les rés
 5. Si vous voulez que le membre de l’équipe soit un approbateur de projet, sélectionnez **Oui** dans le champ **Approbateur du projet**. Cela signifiera que le membre de l’équipe peut approuver les entrées de temps et de dépenses envoyées pour ce projet. 
 6. Cliquez sur **Enregistrer**.
 
-![Ajout d'un membre de l'équipe au formulaire de création rapide](media/RM-how-to-2.png)
+![Ajout d’un membre de l’équipe au formulaire de création rapide](media/RM-how-to-2.png)
 
 
 Vous pouvez désormais attribuer la ressource réservée aux tâches sur le projet. Dans la page **Projet**, cliquez sur l’onglet **Planification** pour attribuer des tâches à la nouvelle ressource. Le sélecteur de ressources lancé à partir du champ **Ressources** dans la grille de tâches affichera les membres de l’équipe que vous pouvez sélectionner.

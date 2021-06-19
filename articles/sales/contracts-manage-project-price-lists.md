@@ -2,18 +2,16 @@
 title: Gérer les tarifs des projets sur les contrats de projet
 description: Cette rubrique fournit des informations sur la gestion des tarifs de projet sur les contrats de projet.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 3313eef74b5e7a0624b32d2a336cd986dfdda839
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858560"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010378"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Gérer les tarifs des projets sur les contrats de projet
 

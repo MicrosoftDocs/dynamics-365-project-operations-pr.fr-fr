@@ -2,8 +2,6 @@
 title: Unités d’organisation
 description: Cette rubrique fournit des informations sur les unités d’organisation dans Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291661"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009613"
 ---
 # <a name="organizational-units"></a>Unités d’organisation 
 
@@ -79,7 +77,7 @@ Lorsque vous implémentez Dynamics 365, optimisez l’autorisation de sécurit�
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Exemple d’unités d’organisation et de divisions
 
-Contoso, Ltd a une pratique prospère en matière de technologie Microsoft. Jérôme et Bernadette sont tous les deux développeurs C\#, mais Bernadette est aux États-Unis, alors que Jérôme est en Inde. La plupart des engagements à un projet nécessitent des ressources Contoso Inde et Contoso US, et Jérôme et Bernadette nécessitent le même niveau d’accès de sécurité aux projets dans ce domaine de pratique. Toutefois, le coût des développeurs Contoso Inde diffère de manière conséquente du coût des développeurs Contoso US.
+Contoso, Ltd a une pratique prospère en matière de technologie Microsoft. Jérôme et Bernadette sont tous les deux développeurs C\#, mais Bernadette est aux États-Unis, alors que Jérôme est en Inde. La plupart des engagements à un projet nécessitent des ressources Contoso Inde et Contoso US, et Jérôme et Bernadette ont besoin du même niveau d’accès de sécurité aux projets dans ce domaine de pratique. Toutefois, le coût des développeurs Contoso Inde diffère considérablement du coût des développeurs Contoso US.
 
 Voici une manière optimale de concevoir ce scénario à l’aide de Dynamics 365 et PSA.
 
@@ -96,11 +94,11 @@ Une unité d’organisation est un groupe ou une division interne à la sociét�
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Exemple d’unités d’organisation et de secteurs de vente
 
-Contoso, Ltd a deux centres de développement : Contoso US et Contoso Inde. Les coûts des ressources diffèrent considérablement entre ces deux centres de développement.
+Contoso, Ltd. dispose de deux centres de développement : Contoso US et Contoso Inde. Les coûts des ressources diffèrent considérablement entre ces deux centres de développement.
 
 Contoso vend ses services informatiques sur de nombreux marchés internationaux, par exemple en Amérique latine, en Amérique du Nord, en Asie Pacifique, en Europe de l’ouest et au Moyen-Orient. Les taux de factures pour les mêmes rôles de projet peuvent varier considérablement selon les marchés.
 
-Contoso US et Contoso Inde doivent être configurés en tant qu’unités d’organisation, et chaque unité d’organisation doit avoir ses propres listes de prix de revient. L’Asie Pacifique, l’Amérique latine, l’Amérique du Nord, l’Europe de l’ouest et le Moyen-Orient doivent être configurés en tant que secteurs de vente, et chaque secteur de vente doit avoir ses propres tarifs de vente.
+Contoso US et Contoso Inde doivent être configurés en tant qu’unités d’organisation, et chaque unité d’organisation doit avoir ses propres listes de prix de revient. L’Asie Pacifique, l’Amérique latine, l’Amérique du Nord, l’Europe de l’ouest et le Moyen-Orient doivent être configurés en tant que secteurs de vente, et chaque secteur de vente doit avoir ses propres tarifs de vente.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Pourquoi existe-t-il une restriction sur l’association des tarifs aux unités d’organisation ? 
 
@@ -124,24 +122,24 @@ Non. Dans la version actuelle de PSA, les unités d’organisation ne sont pas h
 Lorsque vous disposez d’une hiérarchie complexe de centres de coût, divisions, bureaux de facturation, etc., configurer les nœuds terminaux de cette hiérarchie en tant qu’unités d’organisation différentes.
 L’exemple suivant affiche une hiérarchie typique :
 
-**Contoso Inde**
+**ContosoInde**
 
   - Pratique SAP 
 
     - Consultants techniques 
-    - Consultants opérationnels 
+    - Consultants fonctionnels 
     
   - Pratique technologique Microsoft 
 
     - Consultants techniques
-    - Consultants opérationnels 
+    - Consultants fonctionnels 
     
-**Contoso US**
+**Contoso US**
 
  - Pratique SAP 
 
     - Consultants techniques 
-    - Consultants opérationnels 
+    - Consultants fonctionnels 
     
  - Pratique technologique Microsoft 
 

@@ -2,8 +2,6 @@
 title: Configurer les fréquences de facturation
 description: Procédure de configuration des fréquences de facturation dans Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 21baa270c307aaee584d6ea1c6d133a48dcbe485
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9c1b6de7ff15a0902db90cfa80aff87141c65637
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282510"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008353"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Configurer les fréquences de facturation (Project Service)
 

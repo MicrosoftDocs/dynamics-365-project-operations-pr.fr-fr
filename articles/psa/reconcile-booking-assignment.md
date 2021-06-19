@@ -2,8 +2,6 @@
 title: Rapprochement des réservations et attributions
 description: Cette rubrique fournit des informations sur les chiffres réels.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 30af3cca9b4c3dc3f1a9412de7380c963bde88f0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283410"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008893"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Rapprochement des réservations et attributions
 

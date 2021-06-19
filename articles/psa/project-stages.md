@@ -2,8 +2,6 @@
 title: Types de phase du projet
 description: Cette rubrique fournit des informations sur les phases du projet.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3503b17e54fc0b321582c30ce534e4cb3f497a5f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ed725d8ea2f671c45a7a19bb017bbb08c41f42db
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283680"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008983"
 ---
 # <a name="project-stage-types"></a>Types de phase du projet 
 

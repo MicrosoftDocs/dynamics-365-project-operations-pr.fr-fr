@@ -2,8 +2,6 @@
 title: Appliquer un calendrier à une ressource
 description: Procédure d’application d’un calendrier à une ressource dans Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31edf93afc160fc5366cb5e98659312728e4c55e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4f925711e642167e6b5e8e0cbff7e549d35b2efa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291526"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009478"
 ---
 # <a name="apply-a-calendar-to-a-resource-project-service"></a>Appliquer un calendrier à une ressource (Project Service)
 

@@ -2,8 +2,6 @@
 title: Utilisation des modèles de données Project Service Automation
 description: Cette rubrique fournit des informations sur la façon d’utiliser le modèle de données.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283230"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008803"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Utilisation des modèles de données Project Service Automation
 

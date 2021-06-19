@@ -2,8 +2,6 @@
 title: Nouveautés ou modifications de la mise à jour (version 28) de Project Service Automation (correctif logiciel), V3
 description: Cette rubrique répertorie les fonctionnalités et les correctifs disponibles pour la mise à jour (version 28) de Project Service Automation, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/26/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d5e8c629f8108ed039948ca70842c9d8afebfa6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: b06a5ee6d0e2da76801a36701f38f1885d6c7562
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948674"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010513"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a>Nouveautés ou modifications de la mise à jour (version 28) de Project Service Automation (correctif logiciel), V3
 
@@ -46,14 +44,14 @@ Les problèmes suivants ont été résolus :
 
 Les problèmes suivants ont été résolus :
 
-- Dans les cas où le GUID de la tâche est interprété comme un nombre, les tâches ne peuvent pas être ouvertes pour modification à l'aide de **Modifier la tâche** dans le ruban sur la page **Structure de répartition du travail**.
+- Dans les cas où le GUID de la tâche est interprété comme un nombre, les tâches ne peuvent pas être ouvertes pour modification à l’aide de **Modifier la tâche** dans le ruban sur la page **Structure de répartition du travail**.
 
 **Ventes**
 
 Les problèmes suivants ont été résolus :
 
 - Une exception de référence nulle est générée lorsque le plug-in **GetEstimatesForProject** est appelé.
-- **Marquer prêt à facturer** sur la grille des jalons ne met à jour que partiellement les attributs, sauf pour l'attribut **InvoiceStatus**, qui est mis à jour.
+- **Marquer prêt à facturer** sur la grille des jalons ne met à jour que partiellement les attributs, sauf pour l’attribut **InvoiceStatus**, qui est mis à jour.
 
 
 

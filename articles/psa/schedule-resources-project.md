@@ -2,8 +2,6 @@
 title: Planifier des ressources pour un projet
 description: Procédure de planification de ressources pour un projet dans Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: c67633960bb448d2190ec1bfde4e964f4fcb7969
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951431"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008488"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planifier des ressources pour un projet (Project Service)
 

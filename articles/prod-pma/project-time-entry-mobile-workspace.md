@@ -2,11 +2,9 @@
 title: Espace de travail mobile de saisie des heures de projet
 description: Cette rubrique donne des informations sur l’espace de travail mobile de saisie des heures de projet. Cet espace de travail permet aux utilisateurs de saisir et de gagner du temps sur un projet en utilisant leur appareil mobile.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950171"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009928"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Espace de travail mobile de saisie des heures de projet
 
@@ -83,18 +81,18 @@ Si la version 1611 avec Platform update 3 ou version ultérieure a été dépl
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
+## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
 
 Télécharger et installer l’application mobile Finance and Operations :
 
 -   [Pour les téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Se connecter à l'application mobile
-1.  Démarrez l'application sur votre appareil mobile.
+## <a name="sign-in-to-the-mobile-app"></a>Se connecter à l’application mobile
+1.  Démarrez l’application sur votre appareil mobile.
 2.  Tapez votre URL Dynamics 365.
 3.  La première fois que vous vous connectez, vous êtes invité à saisir votre nom d’utilisateur et votre mot de passe. Entrez vos informations d’identification.
-4.  Une fois connecté, les espaces de travail disponibles pour votre entreprise s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devez actualiser la liste des espaces de travail mobiles.
+4.  Une fois connecté, les espaces de travail disponibles pour votre entreprise s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devez actualiser la liste des espaces de travail mobiles.
 
 [![Balayer pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 

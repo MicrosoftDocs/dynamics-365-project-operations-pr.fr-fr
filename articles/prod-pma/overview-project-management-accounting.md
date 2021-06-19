@@ -2,11 +2,9 @@
 title: Vue d‘ensemble de gestion de projets et compatibilité
 description: La fonctionnalité Gestion de projets et comptabilité peut être utilisée dans plusieurs secteurs pour fournir un service, fabriquer un produit ou obtenir un résultat.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: a6d3b9eb97fce836e5b2310714d8f731b2c09e6c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950441"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008128"
 ---
 # <a name="project-management-and-accounting-overview"></a>Vue d‘ensemble de gestion de projets et compatibilité
 
@@ -31,14 +29,14 @@ ms.locfileid: "5950441"
 
 La fonctionnalité Gestion de projets et comptabilité peut être utilisée dans plusieurs secteurs pour fournir un service, fabriquer un produit ou obtenir un résultat.  
 
-Un projet est un groupe d'activités conçu pour fournir un service, fabriquer un produit ou atteindre un objectif. Les projets consomment des ressources et génèrent des résultats financiers sous forme de revenus ou d'actifs.
+Un projet est un groupe d’activités conçu pour fournir un service, fabriquer un produit ou atteindre un objectif. Les projets consomment des ressources et génèrent des résultats financiers sous forme de revenus ou d’actifs.
 
 ## <a name="projects-across-industries"></a>Projets dans plusieurs secteurs
-Le module Gestion de projets et comptabilité peut être utilisé dans plusieurs secteurs, comme indiqué dans l'illustration suivante.
+Le module Gestion de projets et comptabilité peut être utilisé dans plusieurs secteurs, comme indiqué dans l’illustration suivante.
 
 [![Projets dans plusieurs secteurs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Dans un centre d’appels, un ticket peut être utilisé pour décrire l’ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les organisations de conseil en gestion ou de conseil technique ou encore les agences de publicité, font référence à leurs activités comme des projets. En marketing, une campagne représente un ensemble de travaux qui doivent être livrés. Dans la fabrication par projet, un ordre de fabrication fait référence aux tâches variées qui doivent être effectuées pour produire certains produits finis. Quel que soit le nom utilisé pour eux, ces projets impliquent des ressources, des calendriers et des coûts, et le module Gestion de projets et comptabilité permet la planification, l'exécution et l'analyse de ces projets.
+Dans un centre d’appels, un ticket peut être utilisé pour décrire l’ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les organisations de conseil en gestion ou de conseil technique ou encore les agences de publicité, font référence à leurs activités comme des projets. En marketing, une campagne représente un ensemble de travaux qui doivent être livrés. Dans la fabrication par projet, un ordre de fabrication fait référence aux tâches variées qui doivent être effectuées pour produire certains produits finis. Quel que soit le nom utilisé pour eux, ces projets impliquent des ressources, des calendriers et des coûts, et le module Gestion de projets et comptabilité permet la planification, l’exécution et l’analyse de ces projets.
 
 ## <a name="project-phases"></a>Phases du projet
 Bien que le flux de processus suivant vise les projets externes, ou des projets qui sont exécutés pour un ou plusieurs clients, la fonctionnalité s’applique également aux projets internes, uniquement de coûts. 
@@ -273,7 +271,7 @@ Finance ne diminue pas automatiquement les estimations prévues. Par conséquent
 </tr>
 <tr class="odd">
 <td>Définir le coût pour terminer à zéro</td>
-<td>En règle générale, cette méthode est utilisée avant l’élimination du projet d’estimation. Cette méthode fait correspondre les estimations totales avec les transactions réelles qui ont été validées et efface la colonne <strong>Coût pour terminer</strong>. Le pourcentage d’achèvement qui en résulte est toujours égal à 100 %. Le champ <strong>Prévision</strong> n’est pas sélectionné pour chaque ligne de coût que vous créez et l’estimation totale est copiée à partir de l’estimation de coût précédente. La consommation réelle pour la période estimée est déduite du coût de réalisation du projet. Cette méthode ne nécessite pas de modèle de prévision.</td>
+<td>En règle générale, cette méthode est utilisée avant l’élimination du projet d’estimation. Cette méthode fait correspondre les estimations totales avec les transactions réelles qui ont été validées et efface la colonne <strong>Coût pour terminer</strong>. Le pourcentage d’achèvement qui en résulte est toujours égal à 100 %%. Le champ <strong>Prévision</strong> n’est pas sélectionné pour chaque ligne de coût que vous créez et l’estimation totale est copiée à partir de l’estimation de coût précédente. La consommation réelle pour la période estimée est déduite du coût de réalisation du projet. Cette méthode ne nécessite pas de modèle de prévision.</td>
 </tr>
 <tr class="even">
 <td>À partir du modèle de coût</td>
@@ -400,7 +398,7 @@ Sur la page **Contrôle des coûts**, sur l’onglet **Écart**, vous pouvez voi
 
 Le taux d’utilisation est le pourcentage de temps pendant lequel un employé effectue un travail facturable ou productif pendant une période de travail spécifique. Les heures facturables sont les heures de l’employé qui peuvent être facturées à un client spécifique. 
 
-Le taux d’utilisation d’un employé est calculé en divisant le nombre d’heures facturables par le nombre d’heures de travail dans une période donnée. Par exemple, si un collaborateur dispose de 30 heures facturables dans une période et que le nombre d’heures de travail dans la même période est de 40, son taux d’utilisation est de 75 %. 
+Le taux d’utilisation d’un employé est calculé en divisant le nombre d’heures facturables par le nombre d’heures de travail dans une période donnée. Par exemple, si un collaborateur dispose de 30 heures facturables dans une période et que le nombre d’heures de travail dans la même période est de 40, son taux d’utilisation est de 75 %%. 
 
 Lorsque vous calculez le taux d’utilisation d’un collaborateur, vous pouvez calculer soit le taux facturable, soit le taux d’efficacité :
 

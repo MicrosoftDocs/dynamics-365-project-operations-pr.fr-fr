@@ -2,11 +2,9 @@
 title: Créer des estimations sur une ligne du devis
 description: Cette rubrique fournit des informations sur la façon de créer des estimations sur une ligne du devis pour un projet.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f4010f7599b66c9ad9e49943c1c0d7d165493d60
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278460"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010288"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Créer des estimations sur une ligne du devis
 
@@ -38,15 +36,15 @@ Outre les classes de transaction, les détails de la ligne de devis ont un type 
 
 Si vous avez utilisé un devis Project Operations lorsque vous avez créé un contrat basé sur un projet, l’estimation effectuée pour chaque ligne de devis sur le devis est copiée dans le contrat du projet. La structure d’un contrat de projet est semblable à la structure du devis de projet contenant les lignes, les détails de ligne, et les planifications de factures.
 
-Les estimations peuvent être effectuées directement dans un contrat de projet, comme dans un devis de projet. Pour un devis de projet, l’estimation est effectuée à l’aide de lignes de contrat et de détails de la ligne de contrat. Les détails de la ligne de contrat peuvent également être générés depuis un plan de projet créé à l’aide de l’approche d’estimation ascendante.
+Les estimations peuvent être effectuées directement dans un contrat de projet, comme dans un devis de projet. Pour un devis de projet, l’estimation est effectuée à l’aide de lignes de contrat et de détails de la ligne de contrat. Les détails de ligne de contrat peuvent également être générés à partir d’un plan de projet créé à l’aide de l’approche d’estimation ascendante.
 
-Les détails de la ligne de contrat peuvent être utilisés pour estimer le temps, les dépenses ou les frais. Des montants d’estimation des taxes peuvent également être entrés dans un détail de la ligne de contrat.
+Les détails de ligne de contrat permettent d’estimer le temps, les dépenses ou les frais. Les montants de taxe estimés peuvent également être saisis dans un détail de ligne de contrat.
 
-Les estimations matérielles ne sont pas autorisées sur les détails de la ligne de contrat.
+Les matériaux ne peuvent pas être estimés dans les détails de ligne de contrat.
 
 Les processus pris en charge sur un contrat de projet sont la création et la confirmation de facture. La création de facture crée un brouillon d’une facture basée sur un projet qui inclut tous les chiffres réels vente non facturés jusqu’à la date du jour.
 
-La confirmation rend le contrat en lecture seule et remplace le statut **Brouillon** par **Confirmé**. Une fois que vous prenez cette mesure, vous ne pouvez pas l’annuler. Cette action étant définitive, il est d’usage de conserver le contrat dans un état **Brouillon**.
+Le processus de confirmation définit le contrat en lecture seule et modifie son statut en passant de **Provisoire** à **Confirmé**. Une fois que vous prenez cette mesure, vous ne pouvez pas l’annuler. Cette action étant définitive, il est d’usage de conserver le contrat dans un état **Brouillon**.
 
 Les uniques différences entre les projets de contrat et les contrats confirmés sont leur statut et le fait que les brouillons de contrat peuvent être modifiés alors que les contrats confirmés ne peuvent pas. La création de facture et le suivi des chiffres réels peuvent être réalisés sur les brouillons de contrats et contrats confirmés.
 
@@ -56,7 +54,7 @@ Les ordres de modification ne sont pas pris en charge dans les contrats ou les p
 
 Vous pouvez estimer le temps et les dépenses sur les projets mais pas les matériaux ou les frais.
 
-Les estimations de temps sont générées lorsque vous créez une tâche et identifiez les attributs d’une ressource générique qui est obligatoire pour effectuer la tâche. Les estimations de temps sont générées par les tâches de planification. Les estimations de temps ne sont pas créées si vous créez des membres d’équipe génériques en dehors du contexte de la planification.
+Les estimations de temps sont générées lorsque vous créez une tâche et identifiez les attributs d’une ressource générique qui est obligatoire pour effectuer la tâche. Les estimations du temps sont générées à partir des tâches de planification. Les estimations du temps ne sont pas créées si vous créez des membres d’équipe génériques en dehors du contexte de la planification.
 
 Les estimations des dépenses sont entrées dans la grille de la page **Estimations**.
 

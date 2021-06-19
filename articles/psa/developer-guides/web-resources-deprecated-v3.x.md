@@ -2,12 +2,10 @@
 title: Ressources Web déconseillées dans Project Service Automation 3.x
 description: Cette rubrique décrit les ressources Web qui ne sont plus utilisées dans Dynamics 365 Project Service Automation 3.0.
 author: makk
-manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,18 +14,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b60c5cf8d5b7cd891218faf71de6187a3b8ea85e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 774e068a2160345f72a1c004ff16e5ac492f6087
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284715"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007903"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Ressources Web déconseillées dans Project Service Automation 3.x
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-En raison de la nouvelle interface du client et d'autres modifications qui ont été apportées à la solution Dynamics 365 Project Service Automation, certaines ressources Web de la solution ne sont plus utilisées. Par conséquent, elles sont obsolètes (déconseillées) à compter de la version 3.0.
+En raison de la nouvelle interface du client et d’autres modifications qui ont été apportées à la solution Dynamics 365 Project Service Automation, certaines ressources Web de la solution ne sont plus utilisées. Par conséquent, elles sont obsolètes (déconseillées) à compter de la version 3.0.
 
 ## <a name="deprecated-style-sheets"></a>Feuilles de style déconseillées
 

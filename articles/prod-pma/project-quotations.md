@@ -2,11 +2,9 @@
 title: Devis de projet
 description: Cet article présente le concept de devis de projet, que vous pouvez utiliser pour faire une offre attractive à un client dans la première étape de la phase du projet. Un devis de projet peut inclure les articles et services proposés, les coordonnées de base, les accords commerciaux spéciaux et les remises, ainsi que les éventuelles taxes et surtaxes.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8f86c86aac8ebae9a77bacbb5275f1f7e6609f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 322c2403543b9eaebbd4bad56cfbe6f7c42b682a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289141"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009748"
 ---
 # <a name="project-quotations"></a>Devis de projet
 

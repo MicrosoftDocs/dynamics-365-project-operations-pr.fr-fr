@@ -2,8 +2,6 @@
 title: Tarification du catalogue de produits
 description: Cette rubrique fournit des informations sur la manière dont la tarification du catalogue de produits fonctionne dans Dynamics 365 Project Service Automation (PSA).
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e3a070f2e0a13e2caff2157b200c334bc4418f0b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284040"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009208"
 ---
 # <a name="product-catalog-pricing"></a>Tarification du catalogue de produits 
 

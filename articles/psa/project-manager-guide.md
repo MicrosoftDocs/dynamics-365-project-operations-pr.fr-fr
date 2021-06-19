@@ -2,8 +2,6 @@
 title: Guide du responsable de projet
 description: Guide de gestion de projets avec Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47761815403992799950ca2c8a5469343bd1c9ff
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a4ec2cbd2750d1619b2970d97b321f4b89a2262
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283860"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009118"
 ---
 # <a name="project-manager-guide-project-service"></a>Guide du gestionnaire de projets (Project Service)
 
