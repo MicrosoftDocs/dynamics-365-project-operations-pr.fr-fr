@@ -28,7 +28,9 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Déployer des environnements
           items:
-            - name: Approvisionner un nouvel environnement
+            - name: Déployer manuellement l’application Project Operations Dataverse avec prise en charge de la double écriture
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
+            - name: Mettre en service un nouvel environnement
               href: environment/resource-provision-new-environment.md
             - name: Modèle de sécurité
               href: environment/security-model.md
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nouveautés
       items:
+        - name: "Juillet\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: "Juin\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: "Mai\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: "Avril\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
@@ -282,7 +288,7 @@
           items:
             - name: Développer des modèles de projet avec Copier le projet
               href: project-management/dev-copy-project.md
-            - name: Utiliser les API de planification (version préliminaire publique)
+            - name: Utiliser les API de planification de projet (version préliminaire publique)
               href: project-management/schedule-api-preview.md
     - name: Gestion des ressources
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Vue d’ensemble du processus de facturation
           href: invoicing/post-project-invoices.md
-        - name: Gérer des propositions de facture pour un projet
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Facturation pro forma
           items:
             - name: Gérer la réplication de facturation basée sur les projets
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurer l’automatisation des factures basées sur des projets
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Gérer des propositions de facture pour un projet
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Facturation client
+          items:
+            - name: Gérer des propositions de facture pour un projet
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Corriger la comptabilité des propositions de facture de projet provisoires
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Facturation intersociétés
+          items:
+            - name: Vue d’ensemble de la facturation intersociétés
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurer la facturation intersociétés
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Créer des transactions intersociétés
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Créer des factures clients et fournisseurs intersociétés
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Comptabilité de projet
       items:
         - name: Valeurs par défaut d’une dimension financière
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Journal d’intégration dans Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Facturation intersociétés
-          items:
-            - name: Vue d’ensemble de la facturation intersociétés
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Configurer la facturation intersociétés
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Créer des transactions intersociétés
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Créer des factures clients et fournisseurs intersociétés
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Constatation du produit
       items:
         - name: Vue d’ensemble de la constatation du produit
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Nouveautés
       items:
+        - name: "Nouveautés de juillet\_2021 – Déploiement simplifié"
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: "Nouveautés de juin\_2021 – Déploiement simplifié"
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: "Nouveautés de mai\_2021 – Déploiement simplifié"
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: "Nouveautés d’avril\_2021 – Déploiement simplifié"
@@ -762,7 +774,7 @@
           items:
             - name: Développer des modèles de projet avec Copier le projet
               href: project-management/dev-copy-project.md
-            - name: Utiliser les API de planification (version préliminaire publique)
+            - name: Utiliser les API de planification de projet (version préliminaire publique)
               href: project-management/schedule-api-preview.md
     - name: Gestion des ressources
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Nouveautés
       items:
+        - name: "Nouveautés de juillet\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: "Nouveautés de mai\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: "Nouveautés d’avril\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: "Nouveautés de mars\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
@@ -1034,6 +1050,10 @@
       items:
         - name: "Calendrier de publication des mises à jour pour Project\_Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_33,\_V3"
+          href: psa/whats-new-ur-33.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_32.5,\_V3"
+          href: psa/whats-new-ur-32-5.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_32,\_V3"
           href: psa/whats-new-ur-32.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_31,\_V3"
