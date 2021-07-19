@@ -6,12 +6,13 @@ ms.date: 03/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3fdf7787f0144dace84852a0442406085bdc1639
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 6fe381470326fc4000a9ed096b91fde56c045c38
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010873"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369193"
 ---
 # <a name="project-effort-tracking"></a>Suivi des efforts de projet
 

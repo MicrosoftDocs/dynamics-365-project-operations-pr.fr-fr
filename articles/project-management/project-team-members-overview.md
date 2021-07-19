@@ -6,12 +6,13 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 273736219aff9c2ed4ffa8cf616d6ea656bd7294
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: f46b71ece5f2573108def22224801dd960df00ae
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010918"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369238"
 ---
 # <a name="project-team-members"></a>les membres de l’équipe du projet ;
 

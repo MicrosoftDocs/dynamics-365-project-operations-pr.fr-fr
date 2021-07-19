@@ -1,19 +1,19 @@
 ---
-title: Utiliser les API de planification pour effectuer des opérations avec des entités de planification
-description: Cette rubrique fournit des informations et des exemples d’utilisation des API de planification.
+title: Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification
+description: Cette rubrique fournit des informations et des exemples pour utiliser les API de planification de projets.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116794"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293224"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utiliser les API de planification pour effectuer des opérations avec des entités de planification
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -22,11 +22,11 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 ## <a name="scheduling-entities"></a>Entités de planification
 
-Les API de planification offrent la possibilité d’effectuer des opérations de création, de mise à jour et de suppression avec des **Entités de planification**. Ces entités sont gérées via le moteur de planification de l’application Project pour le Web. Les opérations de création, de mise à jour et de suppression avec des **Entités de planification** étaient restreintes dans les précédentes versions de Dynamics 365 Project Operations.
+Les API de planification de projets offrent la possibilité d’effectuer des opérations de création, de mise à jour et de suppression avec les **Entités de planification**. Ces entités sont gérées via le moteur de planification de l’application Project pour le Web. Les opérations de création, de mise à jour et de suppression avec des **Entités de planification** étaient restreintes dans les précédentes versions de Dynamics 365 Project Operations.
 
-Le tableau suivant fournit une liste complète des **Entités de planification**.
+Le tableau suivant fournit une liste complète des entités de planification de projets.
 
-| Nom de l’entité  | Nom logique de l’entité |
+| Nom de l'entité  | Nom logique de l’entité |
 | --- | --- |
 | Project | msdyn_project |
 | Tâche du projet  | msdyn_projecttask  |
@@ -39,19 +39,19 @@ Le tableau suivant fournit une liste complète des **Entités de planification**
 
 OperationSet est un modèle d’unité de travail qui peut être utilisé lorsque plusieurs demandes ayant un impact sur la planification doivent être traitées dans une transaction.
 
-## <a name="schedule-apis"></a>API de planification
+## <a name="project-schedule-apis"></a>API de planification de projets
 
-Voici une liste des API de planification actuelles.
+Voici la liste des API de planification de projet actuelles.
 
 - **msdyn_CreateProjectV1** : Cette API peut être utilisée pour créer un projet. Le projet et le compartiment de projet par défaut sont créés immédiatement.
 - **msdyn_CreateTeamMemberV1** : Cette API peut être utilisée pour créer un membre de l’équipe de projet. L’enregistrement de membre de l’équipe est créé immédiatement.
 - **msdyn_CreateOperationSetV1** : Cette API peut être utilisée pour planifier plusieurs demandes qui doivent être effectuées dans une transaction.
-- **msdyn_PSSCreateV1** : Cette API peut être utilisée pour créer une entité. L’entité peut être n’importe quelle entité de planification prenant en charge l’opération de création.
-- **msdyn_PSSUpdateV1** : Cette API peut être utilisée pour mettre à jour une entité. L’entité peut être n’importe quelle entité de planification prenant en charge l’opération de mise à jour.
-- **msdyn_PSSDeleteV1** : Cette API peut être utilisée pour supprimer une entité. L’entité peut être n’importe quelle entité de planification prenant en charge l’opération de suppression.
+- **msdyn_PSSCreateV1** : Cette API peut être utilisée pour créer une entité. L’entité peut être n’importe laquelle des entités de planification de projets qui prennent en charge l’opération de création.
+- **msdyn_PSSUpdateV1** : Cette API peut être utilisée pour mettre à jour une entité. L’entité peut être n’importe laquelle des entités de planification de projets qui prennent en charge l’opération de mise à jour.
+- **msdyn_PSSDeleteV1** : Cette API peut être utilisée pour supprimer une entité. L’entité peut être n’importe laquelle des entités de planification de projets qui prennent en charge l’opération de suppression.
 - **msdyn_ExecuteOperationSetV1** : Cette API est utilisée pour exécuter toutes les opérations dans l’ensemble d’opérations donné.
 
-## <a name="using-schedule-apis-with-operationset"></a>Utilisation des API de planification avec OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Utilisation des API de planification de projets avec OperationSet
 
 Étant donné que les enregistrements avec **CreateProjectV1** et **CreateTeamMemberV1** sont créés immédiatement, ces API ne peuvent pas être utilisées directement dans l’**OperationSet**. Cependant, vous pouvez utiliser l’API pour créer les enregistrements nécessaires, créer un **OperationSet**, puis utiliser ces enregistrements précréés dans l’**OperationSet**.
 
@@ -257,7 +257,7 @@ Les tableaux suivants définissent les champs interdits pour **Créer** et **Mod
 ## <a name="limitations-and-known-issues"></a>Limitations et problèmes connus
 Voici une liste des limitations et des problèmes connus :
 
-- Les API de planification ne peuvent être utilisées que par les **utilisateurs disposant d’une licence Microsoft Project**. Elles ne peuvent pas être utilisées par :
+- Les API de planification de projets ne peuvent être utilisées que par les **Utilisateurs disposant d’une licence Microsoft Project.** Elles ne peuvent pas être utilisées par :
     - Utilisateurs de l’application
     - Utilisateurs du système
     - Utilisateurs de l’intégration
@@ -270,8 +270,8 @@ Voici une liste des limitations et des problèmes connus :
 
 ## <a name="error-handling"></a>Gestion des erreurs
 
-   - Pour consulter les erreurs générées par les ensembles d’opérations, accédez à **Paramètres** \> **Planifier l’intégration** \> **Ensembles d’opérations**.
-   - Pour consulter les erreurs générées par le service de planification de projet, accédez à **Paramètres** \> **Planifier l’intégration** \> **Journaux des erreurs de PSS**.
+   - Pour consulter les erreurs générées par les ensembles d’opérations, accédez à **Paramètres** \> **Intégration de la planification** \> **Ensembles d’opérations**.
+   - Pour consulter les erreurs générées par le service de planification de projets, accédez à **Paramètres** \> **Intégration de la planification** \> **Journaux d’erreurs PSS**.
 
 ## <a name="sample-scenario"></a>Exemple de scénario
 

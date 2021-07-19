@@ -4,6 +4,7 @@ description: Cette rubrique fournit des informations sur la génération de rapp
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: ruhercul
@@ -16,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c35729e51b7439a74446641af3feace5c7751ac
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b074f1a1dd45cb66f57c68b4b7f9df64250dcee4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998093"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368743"
 ---
 # <a name="reporting-home-page"></a>Page d’accueil de la création de rapports
 

@@ -6,12 +6,13 @@ ms.date: 11/02/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca8c0894dff1a74b532f8262278fb20400f097c5
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 3648bf6c5e00fe701f309392bd09819f84bf574d
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001243"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368698"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Vue d’ensemble de Project Operations pour le déploiement de scénarios selon les ressources/produits non stockés
 

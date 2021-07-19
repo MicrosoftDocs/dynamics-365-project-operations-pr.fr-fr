@@ -6,12 +6,13 @@ ms.date: 03/31/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 5e30b8a386805faee869f77e695d5ee492d78cdb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 9148c9f55e8664850c38aebbc9c4bbaa243475ad
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996698"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368653"
 ---
 # <a name="approvals-overview"></a>Vue d’ensemble des approbations
 

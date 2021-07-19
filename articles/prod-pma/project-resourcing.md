@@ -10,18 +10,18 @@ ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 82022
+ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00632be050b2ac98aaa6b98c3b09ff324c606e72
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 579a07e117cf00727813385da28d47f7e42f0127
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009703"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369463"
 ---
 # <a name="project-resourcing-home-page"></a>Page d’accueil Ressources du projet
 

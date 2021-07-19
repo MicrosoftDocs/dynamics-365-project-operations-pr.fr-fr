@@ -10,18 +10,18 @@ ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 713e38f4218b980c4256e433e90c12adccd70e11
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: eddaf8a868845bde11c8bb7bc04f63777d628cf4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012223"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369418"
 ---
 # <a name="work-breakdown-structures-overview"></a>Vue d’ensemble des structures de répartition du travail
 
@@ -100,8 +100,8 @@ Actuellement, vous ne pouvez pas personnaliser la numérotation WBS.
 
 ### <a name="schedule-estimation"></a>Planifier l’estimation
 
-Planifier l’estimation est généralement la deuxième étape de la création d’une WBS. Une bonne pratique consiste à effectuer l’estimation du calendrier après avoir créé les tâches. La page **Structure de répartition du travail** dans Finance comporte deux sections. Le volet supérieur est destiné à l’estimation de la planification et le volet inférieur comprend un onglet **Coûts et revenus estimés** que vous pouvez utiliser pour l’estimation des coûts. 
-**Dépendances de tâches** Dans une WBS, vous pouvez créer une relation de prédécesseur entre les tâches. Lorsque vous affectez des tâches précédentes (ou prédécesseurs) à une tâche, elle ne peut démarrer qu’une fois tous ses prédécesseurs terminés. La date de début prévue de la tâche est automatiquement définie sur la dernière date de tous ses prédécesseurs. 
+Planifier l’estimation est généralement la deuxième étape de la création d’une WBS. Une bonne pratique consiste à effectuer l’estimation du calendrier après avoir créé les tâches. La page **Structure de répartition du travail** dans Finance comporte deux sections. Le volet supérieur est destiné à l’estimation du calendrier et le volet inférieur comprend un onglet **Coûts et produit estimés** permettant d’effectuer l’estimation des coûts. 
+**Dépendances de tâches** Dans une WBS, vous pouvez créer une relation de prédécesseur entre les tâches. Lorsque vous affectez des tâches précédentes (ou prédécesseurs) à une tâche, elle ne peut démarrer qu’une fois tous ses prédécesseurs terminés. La date de début prévue de la tâche est automatiquement définie sur la dernière date de fin de tous ses prédécesseurs. 
 
 **Planification des tâches** Les facteurs suivants déterminent la planification des tâches du nœud feuille :
 
@@ -155,7 +155,7 @@ Une transaction de type **Sur compte** est utilisée pour enregistrer la valeur 
 
 Lorsque vous estimez les coûts de main-d’œuvre, de matériel et de dépenses pour chaque tâche, vous devez affecter une catégorie de projet au coût estimé. 
 
-**Estimation des coûts de main-d’œuvre** Pour chaque tâche de nœud terminal, vous affectez un effort de travail en heures et une catégorie par défaut. Par conséquent, lorsque vous configurez un calendrier pour une tâche, l’estimation des coûts de main-d’œuvre pour cette tâche est automatiquement ajoutée dans la catégorie par défaut pour la main-d’œuvre. Cette estimation des coûts s’affiche dans l’onglet **Coûts et produit estimés** de la grille **Détails de ligne** pour cette tâche. Si vous avez besoin de plus d’estimations des coûts de main-d’œuvre, vous pouvez les ajouter dans cet onglet. Si vous augmentez ou diminuez les heures sur l’estimation du coût de la main-d’œuvre, le calendrier de la tâche est automatiquement recalculé. 
+**Estimation des coûts de main-d’œuvre** Pour chaque tâche de nœud terminal, vous affectez un effort de travail en heures et une catégorie par défaut. Par conséquent, lorsque vous configurez un calendrier pour une tâche, l’estimation des coûts de main-d’œuvre pour cette tâche est automatiquement ajoutée dans la catégorie par défaut pour la main-d’œuvre. Cette estimation des coûts s’affiche dans l’onglet **Coûts et produit estimés** de la grille **Détails de ligne** pour cette tâche. Si vous avez besoin d’autres estimations des coûts de main-d’œuvre, vous pouvez les ajouter dans cet onglet. Si vous augmentez ou diminuez le nombre d’heures sur l’estimation des coûts de main-d’œuvre, le calendrier de la tâche est automatiquement recalculé. 
 
 **Estimation des dépenses et des coûts matériels** L’onglet **Coûts et revenus estimés** vous permet également d’estimer les dépenses et les coûts matériels d’une tâche, si vous avez besoin d’estimations. 
 

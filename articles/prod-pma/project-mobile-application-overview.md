@@ -9,19 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ef63e82a85acc84c67d900d5f8fe94ed8d4478d3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b6c14fdc043b2a95f1e548c160620a3b06c79bf5
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999532"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369553"
 ---
 # <a name="project-mobile-applications-overview"></a>Vue d’ensemble des applications mobiles du projet
 

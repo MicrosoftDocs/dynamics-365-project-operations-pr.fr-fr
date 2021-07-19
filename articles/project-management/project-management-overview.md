@@ -6,12 +6,13 @@ ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: b99fab32101724a4c6307136ef37503316dfc42e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 2160908c6ef1f92b257229bc5fc71e7efcbc10d6
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011818"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369283"
 ---
 # <a name="project-management-overview"></a>Vue d’ensemble de la gestion des projets
 

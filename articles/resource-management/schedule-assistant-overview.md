@@ -6,12 +6,13 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4d58f5f45ca54691b6e736dee5aab7b273a8e042
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 83583c97e4ecb5f1fdc0d8d98098afe8e12d27e4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014113"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368113"
 ---
 # <a name="schedule-assistant-overview"></a>Vue d’ensemble de l’Assistant Planifier
 

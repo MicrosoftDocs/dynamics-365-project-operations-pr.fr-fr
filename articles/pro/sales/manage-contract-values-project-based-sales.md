@@ -6,12 +6,13 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8af32b0475650db9c5862ea23d185588a631ade6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 22e8ff927c5ff6c3748a35031e7703e3fcfe0dab
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003133"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369913"
 ---
 # <a name="project-based-contract-lines-overview"></a>Vue d’ensemble des lignes de contrat basées sur les projets
 

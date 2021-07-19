@@ -6,12 +6,13 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 72feb791e48c9bacd4a0b7ea5cd77ddc8eb5f514
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: c585bbc55119e678a4f75f5dfe8966a436db1a34
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996293"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368068"
 ---
 # <a name="project-quote-lines-overview"></a>Présentation de lignes du devis de projet
 

@@ -8,18 +8,18 @@ ms.prod: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 78c7a9486d0338adfd7770447f21d17509e654f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9e046602a3005930c41ab8c50472d5b1a72303c6
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996608"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368608"
 ---
 # <a name="actuals"></a>Chiffres réels 
 

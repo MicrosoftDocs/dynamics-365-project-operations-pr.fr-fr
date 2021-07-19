@@ -5,6 +5,7 @@ author: rumant
 ms.author: rumant
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 audience: Admin
@@ -16,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0923dbca91e2975d0fd90dde012122a85e5ac700
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e40f519df7304749c8d88fa9f313a3b85d3cf765
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008938"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368788"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Page d’accueil Devis, tarification et facturation
 

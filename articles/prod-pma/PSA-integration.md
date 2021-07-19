@@ -9,18 +9,18 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ca459b99881b612e4656be112c8a2e420b4196e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1c756caec6cd7eda8f891446d3e8309aca3b2482
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005878"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369616"
 ---
 # <a name="project-service-automation-overview"></a>Vue d’ensemble de Project Service Automation
 

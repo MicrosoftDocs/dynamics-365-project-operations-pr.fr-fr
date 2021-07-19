@@ -1,59 +1,41 @@
 ---
-title: S’inscrire à l’abonnement à la version préliminaire – Simplifié
-description: Cette rubrique fournit des informations sur la façon de souscrire et de déployer le déploiement simplifié de Project Operations – Traiter la facturation pro forma.
+title: Souscrire un abonnement à la version préliminaire – Simplifié
+description: Cette rubrique fournit des informations sur la façon de souscrire un abonnement et de déployer le scénario Déploiement simplifié de Project Operations – Opter pour la facturation pro forma.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997418"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334779"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a>S’inscrire à l’abonnement à la version préliminaire – Simplifié 
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Souscrire un abonnement à la version préliminaire – Simplifié 
 
-Cette rubrique explique comment souscrire à l’offre partenariat de version préliminaire et effectuer le déploiement simplifié de Dynamics 365 Project Operations - traiter la facturation pro forma.
+Cette rubrique explique comment souscrire à l’offre d’évaluation et déployer le scénario Déploiement simplifié de Dynamics 365 Project Operations - Opter pour la facturation pro forma.
 
 > [!NOTE]
 > Ce processus changera dans les prochaines versions de Project Operations.
 
 ## <a name="prerequisites"></a>Conditions préalables
-
-- Vous recevrez un e-mail vous invitant à participer à la version préliminaire. Vous pouvez demander une version préliminaire sur le [site web de Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- L’utilisateur qui déploie la version préliminaire doit disposer des droits administrateur général du client Azure.
-- Passez en revue tous les termes et conditions.
-
-## <a name="subscribe"></a>S’abonner
-
-Lorsque vous recevez une approbation d’une [demande de version préliminaire](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), vous recevez deux offres de Microsoft par e-mail. Ces offres vous permettent de déployer la version préliminaire de Project Operations :
-
-- Dynamics 365 Project Operations (CRM) - Version d’essai
-- Office 365 Project Operations - Version d’essai
+- L’utilisateur qui déploie la version préliminaire doit disposer des droits administrateur général du client Azure. Vous pouvez créer un client pendant la première acceptation de l’offre.
 
 > [!IMPORTANT]
 > Une seule personne, l’administrateur du client, dans une organisation doit effectuer cette tâche. Si vous n’êtes pas abonné à cette version, attendez que votre organisation soit inscrite et que vous ayez reçu vos informations d’identification utilisateur.
+> 
+> Les évaluations sont à usage unique dans le client. Vous ne pouvez exécuter une évaluation qu’une seule fois. Nous vous recommandons de créer un nouveau client pour les besoins de l’évaluation.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Version d’essai 
+### <a name="dynamics-365-project-operations-trial"></a>Évaluation de Dynamics 365 Project Operations 
 
 Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur avec le compte de travail de l’utilisateur dans le client où vous souhaitez la version préliminaire de Project Operations.
 
-1. Utilisez le premier code promotionnel, **Dynamics 365 Project Operations (CRM) - Version d’essai** en le collant dans l’URL du navigateur.
-
-![Accepter l’offre](./media/16RedeemFirstOfferNew.png)
-
+1. Accédez à [Évaluation de Project Operations](https://aka.ms/try-po) pour accepter le premier code d’offre, **Dynamics 365 Project Operations**.
 2. Confirmez votre commande.
-![Confirmer la commande](./media/17ConfirmOrderNew.png)
 
-Vous verrez la confirmation que l’offre a été utilisée avec succès.
-
-![Confirmation](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Version d’essai
-
-Répétez les mêmes étapes que pour le premier code d’offre. Assurez-vous d’ajouter le deuxième code d’offre en utilisant le même compte d’utilisateur que celui utilisé avec le premier code d’offre.
+  Vous verrez que l’offre de confirmation a été acceptée avec succès.
 
 ## <a name="assign-licenses"></a>Attribuer des licences
 
@@ -62,25 +44,20 @@ Répétez les mêmes étapes que pour le premier code d’offre. Assurez-vous d�
 
 
 1. Accédez au [Centre d’administration Microsoft 365](https://portal.office.com/) pour attribuer les licences à vos utilisateurs.
-
-![Page d’accueil du centre d’administration](./media/14AdminPortal.png)
-
 2. Sur la page **Utilisateurs actifs**, sélectionnez les utilisateurs auxquels vous souhaitez attribuer une licence.
-
-![Attribuer des licences](./media/15AssignLicenses.png)
-
-3. Vérifiez que les licences **Dynamics 365 Project Operations (CRM) version préliminaire** et **Office 365 Project Operations - Version préliminaire** sont sélectionnées. 
+3. Vérifiez que la licence **Dynamics 365 Project Operations** est sélectionnée. 
 4. Sélectionnez **Enregistrer les modifications**.
 
-## <a name="create-a-new-cds-environment"></a>Créer un environnement CDS
+## <a name="create-a-new-dataverse-environment"></a>Créez un environnement Dataverse
 
-1. Mettez en service un nouvel environnement de déploiement CDS Project Operations en suivant les instructions de la rubrique [Modèle de déploiement CDS](lite-deployment.md). Lorsque vous sélectionnez le type d’environnement, assurez-vous d’utiliser la **Version d’essai (basé sur un abonnement)**.
-![Nouvel environnement](./media/19CreateEnvironment.png)
+1. Mettez en service un nouvel environnement de déploiement de Project Operations Dataverse en suivant les instructions de la rubrique, [Modèle de déploiement Dataverse](lite-deployment.md). Lorsque vous sélectionnez le type d’environnement, assurez-vous d’utiliser la **Version d’essai (basé sur un abonnement)**.
+
+  ![Nouvel environnement](./media/19CreateEnvironment.png)
 
 2. Sélectionnez le paramètre **Activer les applications Dynamics 365**, puis laissez **Déployer automatiquement ces applications** vide.  
 3. Sélectionnez **Enregistrer** pour créer l’environnement.
 
-![Ajouter une base de données](./media/20CreateEnvironment1.png)
+  ![Ajouter une base de données](./media/20CreateEnvironment1.png)
 
 4. Une fois l’environnement créé, installez la solution **Microsoft Dynamics 365 Project Operations**. 
 

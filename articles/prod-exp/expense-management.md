@@ -10,18 +10,18 @@ ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
-ms.custom: 15001
+ms.custom: intro-internal
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fe9f763e18507fa232cb830f8e0b6852374b65b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b9d3e3a1eccb92faf11cfba46ccb1c7e3074c9a4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993548"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369787"
 ---
 # <a name="expense-management-overview"></a>Présentation de la fonctionnalité de gestion des dépenses
 

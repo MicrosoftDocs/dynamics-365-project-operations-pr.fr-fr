@@ -4,6 +4,7 @@ description: Cette rubrique fournit des informations sur les chiffres réels du 
 author: rumant
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -16,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73f1b14bbb4cc53111a1b3a93756a86db04475ab
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbb3e5c7f74cdf37ae4d259687bf7a98102a8131
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014653"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368158"
 ---
 # <a name="actuals-overview"></a>Vue d’ensemble des chiffres réels
 

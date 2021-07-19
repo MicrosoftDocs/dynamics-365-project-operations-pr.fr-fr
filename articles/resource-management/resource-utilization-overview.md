@@ -6,12 +6,13 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a683931bcd6a357c5feec9198b190b948ad17a40
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: c9464b1de87211f8317a39a1d749e619769309ae
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000793"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6367933"
 ---
 # <a name="resource-utilization-overview"></a>Vue d’ensemble de l’utilisation des ressources
 

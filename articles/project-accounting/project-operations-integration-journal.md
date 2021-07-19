@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007138"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304253"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal d’intégration dans Project Operations
 
@@ -26,7 +26,7 @@ Les entrées de temps et de dépenses créent des transactions **Réelles** qui 
 Les enregistrements dans le journal d’intégration de Project Operations sont créés à l’aide d’un processus périodique, **Importer depuis la table intermédiaire**. Vous pouvez exécuter ce processus en accédant à **Dynamics 365 Finance** > **Gestion de projet et comptabilité** > **Périodique** > **Intégration dans Project Operations** > **Importer depuis la table intermédiaire**. Vous pouvez exécuter le processus de manière interactive ou configurer le processus pour qu’il s’exécute en arrière-plan si nécessaire.
 
 Lorsque le processus périodique s’exécute, tous les chiffres réels qui ne sont pas encore ajoutés au journal d’intégration de Project Operations sont recherchés. Une ligne feuille est créée pour chaque transaction réelle.
-Le système regroupe les lignes de journal dans des journaux distincts en fonction de la valeur sélectionnée dans le champ **Unité périodique dans le journal d’intégration de Project Operations** (**Finance** > **Gestion de projet et comptabilité** > **Configurer** > **Paramètres de gestion de projet et comptabilités**, onglet **Project Operations dans Dynamics 365 Customer Engagement**). Les valeurs possibles pour ce champ sont notamment :
+Le système regroupe les lignes de journal en journaux distincts en fonction de la valeur sélectionnée dans le champ **Unité de période dans le journal d’intégration de Project Operations** (**Finance** > **Gestion et comptabilité de projets** > **Configurer** > **Paramètres de gestion et comptabilité de projets**, onglet **Project Operations dans Dynamics 365 Customer Engagement**). Voici les valeurs possibles pour ce champ :
 
   - **Jours** : les chiffres réels sont regroupés par date de transaction. Un journal distinct est créé pour chaque jour.
   - **Mois** : les chiffres réels sont regroupés par mois calendaire. Un journal distinct est créé pour chaque mois.

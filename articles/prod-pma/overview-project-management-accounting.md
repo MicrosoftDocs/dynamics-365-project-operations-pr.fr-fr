@@ -10,18 +10,18 @@ ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6d3b9eb97fce836e5b2310714d8f731b2c09e6c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008128"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369688"
 ---
 # <a name="project-management-and-accounting-overview"></a>Vue d‘ensemble de gestion de projets et compatibilité
 

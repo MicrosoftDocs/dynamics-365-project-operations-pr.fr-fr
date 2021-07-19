@@ -4,6 +4,7 @@ description: Introduction et vue d’ensemble de Project Service
 author: stsporen
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -16,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 537fa056fd0103e1a4fa05c8e66d408286ee101c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ee6fda5da83e4cb3c4910af49c33243f39fc73d7
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998543"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368923"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Qu’est-ce que Dynamics 365 Project Service Automation ?
 

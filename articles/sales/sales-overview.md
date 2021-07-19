@@ -6,12 +6,13 @@ ms.date: 10/29/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a03cb4949cafdf0754a89435542f616c41d65a5f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: ed9731193e83eebd35e979adffcea529a289b9c5
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996024"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368338"
 ---
 # <a name="sales-process-overview"></a>Vue d’ensemble du processus de vente
 
