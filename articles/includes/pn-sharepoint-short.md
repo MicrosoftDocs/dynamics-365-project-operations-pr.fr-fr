@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: 6df6338dc8bb2f5c96b9a4865862a6cc6c776915
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 9b85c8e08043ba8862b926334fb78f312db3028545adf785a5cf69cb19752229
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4069539"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989053"
 ---
 SharePoint

@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: 2865b6362b37ce63e9993a539cb860f7c7f25e37
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7fbdaff7437520ae5553a7f6a409a262eecafb771777a1c087b69e4c6f12c33b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4069540"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990717"
 ---
 Windows Phone

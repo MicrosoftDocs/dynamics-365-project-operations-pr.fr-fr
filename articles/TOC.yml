@@ -832,6 +832,16 @@
           items:
             - name: Vue d’ensemble de l’utilisation des ressources
               href: resource-management/resource-utilization-overview.md
+    - name: Gestion de la sous-traitance dans Project Operations
+      items:
+        - name: Présentation de la gestion de la sous-traitance
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Concepts clés de la sous-traitance
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Gestion des fournisseurs et des listes de prix des projets
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Les sous-traitants en tant que ressources réservables
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Temps
       items:
         - name: Vue d’ensemble du temps
@@ -1050,6 +1060,8 @@
       items:
         - name: "Calendrier de publication des mises à jour pour Project\_Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_34,\_V3"
+          href: psa/whats-new-ur-34.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_33,\_V3"
           href: psa/whats-new-ur-33.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_32.5,\_V3"
