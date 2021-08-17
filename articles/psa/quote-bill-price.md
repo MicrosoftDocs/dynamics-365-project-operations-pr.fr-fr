@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e40f519df7304749c8d88fa9f313a3b85d3cf765
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 0b3d40158534f039160156087d6edab0d21dd5f3eaf71d5b665eff794793a9b3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368788"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004758"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Page d’accueil Devis, tarification et facturation
 

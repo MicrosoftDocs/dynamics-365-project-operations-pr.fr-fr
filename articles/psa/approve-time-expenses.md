@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17652d0d41c33739d163d024a9c26fcce1712dd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 0c4ea0393b961d444a65c3ea50287b922ff95a322645844927ce9379fdb7e6b1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009433"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005028"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Approuver les temps et les dépenses (Project Service)
 

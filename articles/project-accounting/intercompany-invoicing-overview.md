@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369373"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005388"
 ---
 # <a name="intercompany-invoicing-overview"></a>Vue d’ensemble de la facturation intersociétés
 
@@ -22,7 +22,7 @@ Votre organisation peut avoir plusieurs divisions, filiales et autres entités j
 
 L’illustration suivante présente un scénario typique dans lequel deux entités juridiques, Contoso Robotics USA (l’entité juridique emprunteuse) et Contoso Robotics UK (l’entité juridique prêteuse) partagent des ressources pour livrer un projet au client, Adventure works. Pour ce scénario, Contoso Robotics USA est engagé pour livrer le travail à Adventure Works.
 
-![Facturation intersociétés](./media/IntercompanyScenario.png) 
+![Facturation intersociétés.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations utilise le flux suivant pour traiter les transactions intersociétés :
 
@@ -35,9 +35,9 @@ Dynamics 365 Project Operations utilise le flux suivant pour traiter les transac
 
 Le diagramme suivant illustre la facturation intersociétés en ce qui concerne les événements comptables et les écritures attendues dans la comptabilité.
 
-![Flux intersociétés](./media/IntercompanyFlow.png)
+![Flux intersociétés.](./media/IntercompanyFlow.png)
 
-## <a name="additional-resources"></a>Ressources complémentaires
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Configurer la facturation intersociétés](configure-intercompany-invoicing.md)
 - [Enregistrer des transactions intersociétés](create-intercompany-transactions.md)

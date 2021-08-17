@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004708"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003588"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurer des champs personnalisés comme dimensions de tarification
 
@@ -42,11 +42,11 @@ Pour qu’un champ devienne une dimension de tarification, il doit être :
 
 - Créé en tant que ligne dans la table **Dimension de tarification**. Par exemple, ajoutez des lignes de dimension de tarification, comme illustré dans le graphique suivant. 
 
-![Lignes de dimension de tarification basées sur le montant](media/Amt-based-PD.png)
+![Lignes de dimension de tarification basées sur le montant.](media/Amt-based-PD.png)
 
 Les heures de travail de la ressource (**msdyn_resourceworkhours**) ont été ajoutée comme dimension basée sur la majoration et ajoutée à la grille de l’onglet **Dimension de tarification basée sur la majoration**.
 
-![Lignes de dimension de tarification basées sur la majoration](media/Markup-based-PD.png)
+![Lignes de dimension de tarification basées sur la majoration.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]

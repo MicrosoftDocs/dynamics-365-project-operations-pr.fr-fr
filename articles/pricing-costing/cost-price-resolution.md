@@ -6,12 +6,12 @@ ms.date: 04/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d81b521acbfd97127cf056bd41a3249c01108374
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f9a6c3236c1d523a967155d3f1fdbe05aa00001bcc36b38afd86270c4cd1d7cc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001378"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003678"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Résolution des prix de revient pour les estimations et les chiffres réels
 

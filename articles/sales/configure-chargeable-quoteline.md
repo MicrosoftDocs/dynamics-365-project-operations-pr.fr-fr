@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a9febf305e3cd29bab42cd6c83a941f7b494fa56
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013573"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003993"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Configurer les composants facturables d’une ligne de devis basée sur un projet
 

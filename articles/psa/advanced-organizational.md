@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009613"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005073"
 ---
 # <a name="organizational-units"></a>Unités d’organisation 
 
@@ -53,7 +53,7 @@ L’unité d’organisation joue deux rôles dans PSA :
 - **Unité contractuelle** – Unité d’organisation qui représente le groupe de sociétés ou la division principalement responsables de remporter la vente et de gérer la prestation du travail et des services au client. L’unité contractuelle est identifiée par le champ **Unité contractuelle** dans la section d’en-tête des pages **Opportunité**, **Devis**, **Contrat du projet** et **Projet**.
 - **Unité d’allocation des ressources** – Unité d’organisation à laquelle une ressource appartient ou est attribuée. Cette unité d’organisation peut offrir ses ressources à certains rôles sur les énoncés des travaux et les projets qui appartiennent à l’unité contractuelle.
 
-> ![Unités contractuelles et unités d’allocation des ressources](media/advanced-1.png)
+> ![Unités contractuelles et unités d’allocation des ressources.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>FAQ de l’unité d’organisation
 

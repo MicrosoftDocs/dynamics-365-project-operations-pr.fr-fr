@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae95041bb6883cd7ae7a779eb6a3cf9741572802
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 0333445594cd8c02e14ba93e0ff3e9d8da50afd85ab90810762c415b53018ccb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011773"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004713"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Guide sur le temps, les dépenses et la collaboration (Project Service)
 

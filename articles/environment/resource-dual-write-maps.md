@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025771"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003813"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versions du mappage à double écriture Project Operations
 
@@ -32,7 +32,7 @@ Les mappages suivants sont des conditions préalables requises pour la solution 
 
 1. Dans la liste des mappages, sélectionnez le mappage Registre **(msdyn\_ledgers)** avec tous les prérequis et cochez la case **Synchronisation initiale**. Dans le champ **Sélection principale pour la synchronisation initiale**, sélectionnez les applications **Finance and Operations** pour le mappage du registre et tous les mappages prérequis. Cliquez sur **Exécuter**.
 
-![Synchronisation de la carte du registre](media/DW6.png)
+![Synchronisation du mappage du registre.](media/DW6.png)
 
 2. Suivez les mêmes étapes pour tous les autres mappages de table répertoriés dans le tableau ci-dessus. Ne cochez pas la case **Synchronisation initiale** lors de l’exécution de ces mappages.
 
@@ -65,7 +65,7 @@ Pour exécuter les mappages répertoriés, procédez comme suit.
 
 1. Activez les rôles de ressources de projet pour le mappage de table **toutes les entreprises (bookableresourcecategories)** car ce mappage nécessite la synchronisation initiale. Dans le champ **Sélection principale pour la synchronisation initiale**, sélectionnez **Common Data Service**. 
 
- ![Synchronisation du mappage de table des rôles de ressources](media/6ResourceInitialSync.jpg)
+ ![Synchronisation du mappage de table des rôles de ressources.](media/6ResourceInitialSync.jpg)
 
  Attendez que l’état de la carte soit **En cours** avant de passer à l’étape suivante.
 

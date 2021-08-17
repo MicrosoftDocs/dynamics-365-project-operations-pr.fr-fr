@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8954964ee5503d338620221c24867d136dd8f217
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6e591bd9b00bb39efaf4bb2893329a1c853573f03cb2d51a7564e3a8fc8efa56
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992705"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005162"
 ---
 # <a name="administrator-guide-project-service"></a>Guide de l’administrateur (Project Service)
 

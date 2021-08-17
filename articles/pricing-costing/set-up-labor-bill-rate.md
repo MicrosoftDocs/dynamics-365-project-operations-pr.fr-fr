@@ -6,12 +6,12 @@ ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7d2dd7b6001ddb475d381d35a4863dcc4b322214
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 0fee2c98713f4d1f8da85a0b60fb3fc2a873e5f82a64cf350ebeb68fe65fab35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004663"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003543"
 ---
 # <a name="set-up-labor-bill-rates"></a>Configurer les taux de facturation de la main-d’œuvre
 

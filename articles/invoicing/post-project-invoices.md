@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369013"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003768"
 ---
 # <a name="invoicing-process-overview"></a>Vue d’ensemble du processus de facturation
 
@@ -20,9 +20,9 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 Project Operations pour les scénarios basés sur les ressources/non stockés offrent des capacités complètes adaptées aux besoins du chef de projet et du commis aux comptes clients/comptable de projet. Pour le processus de facturation, le chef de projet gère l’arriéré de facturation du projet et le commis à la Comptabilité client/comptable de projet crée un document de facture conforme et précis destiné au client.
 
-![Diagramme de flux de facturation](./media/invoicing-flow.png)
+![Diagramme du flux de facturation.](./media/invoicing-flow.png)
 
-La ligne de contrat de projet définit la méthode de facturation pour les transactions de projet associées. Lorsque le chef de projet approuve les transactions de temps et de dépenses, le système enregistre les transactions dans l’entité **Rapports réels du projet** et envoie les informations au module **Gestion de projet et comptabilité** dans Dynamics 365 Finance. Le comptable du projet examine et publie ensuite les enregistrements à l’aide du [Journal d’intégration Project Operations](../project-accounting/project-operations-integration-journal.md). Ce journal comprend des détails comptables importants pour les chiffres réels du projet, tels que la facturation, le groupe de taxes, le groupe de taxes d’article de facturation et les dimensions financières.
+La ligne de contrat de projet définit le mode de facturation pour les transactions de projet associées. Lorsque le chef de projet approuve les transactions de temps et de dépenses, le système enregistre les transactions dans l’entité **Rapports réels du projet** et envoie les informations au module **Gestion de projet et comptabilité** dans Dynamics 365 Finance. Le comptable du projet examine et publie ensuite les enregistrements à l’aide du [Journal d’intégration Project Operations](../project-accounting/project-operations-integration-journal.md). Ce journal comprend des détails comptables importants pour les chiffres réels du projet, tels que la facturation, le groupe de taxes, le groupe de taxes d’article de facturation et les dimensions financières.
 
 Le chef de projet peut consulter les transactions de vente non facturées à l’aide de la méthode de facturation du temps et des matières dans la [réplication de facturation du temps et du matériel](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) et facturation forfaitaire dans [Jalons de prix fixe](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Ces vues vous permettent de filtrer et sélectionner les transactions à intégrer au prochain cycle de facturation, puis de leur affecter le statut **Prêt pour la facturation**.
 

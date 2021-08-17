@@ -6,12 +6,12 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ac812428e107eabece4744739579070d61bb5183
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 635d76c55358b27ce6ff3babd9e69041d99f5005c140fca0c0bc28d7210ad168
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998723"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004083"
 ---
 # <a name="booking-statuses"></a>Statuts de réservation
 

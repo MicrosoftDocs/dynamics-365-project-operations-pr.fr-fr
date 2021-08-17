@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000523"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003633"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Créer des champs et des entités personnalisés comme dimensions de tarification
 
@@ -44,7 +44,7 @@ Pour créer des dimensions basées sur une entité, procédez comme suit :
 3. Cliquez sur **Nouveau** pour créer une entité intitulée **Titre standard**. 
 4. Tapez les informations obligatoires restantes, puis cliquez sur **Enregistrer**.
 
-> ![Définition de l’entité Titre standard](media/Standard-Title-entity-definition.png)
+> ![Définition de l’entité Titre standard.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimensions basées sur un jeu d’options 
 Vous pouvez créer deux dimensions basées sur un jeu d’options. 
@@ -54,11 +54,11 @@ Vous pouvez créer deux dimensions basées sur un jeu d’options.
 
 Le graphique suivant fournit une vue de la dimension **Emplacement de travail des ressources**. 
 
-> ![Dimension Tarification basée sur un jeu d’options appelé Emplacement de travail de la ressource](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimension Tarification basée sur un jeu d’options appelé Emplacement de travail de la ressource.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Le graphique suivant fournit une vue de la dimension **Heures de travail des ressources**. 
 
-> ![Dimension Tarification basée sur un jeu d’options appelé Heures de travail de la ressource](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Dimension Tarification basée sur un jeu d’options appelé Heures de travail de la ressource.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Allez dans **Paramètres** > **Solutions**, puis double-cliquez sur **\<your organization name> dimensions de tarification**. 
 2. Dans l’Explorateur de solutions, dans le volet de navigation de gauche, sélectionnez **Jeux d’options**. 
@@ -74,7 +74,7 @@ Vous pouvez créer des données pour les dimensions basées sur une entité manu
 4. Fermez la page. 
 5. Répétez les étapes 1 à 3 pour créer un autre titre standard pour « Ingénieur système principal ».
 
-> ![Exemple de données pour l’entité Titre standard](media/ST-data.png)
+> ![Exemple de données pour l’entité Titre standard.](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
