@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7167eaee2842df5358b4de7ea40f65ef0364baf8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 348dbe3e660eaad28f4f8f1c4d15b7cebf6540cb358d013724088f099f0b6a95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008173"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008538"
 ---
 # <a name="set-up-time-units-project-service"></a>Configurer les unités de temps (Project Service)
 

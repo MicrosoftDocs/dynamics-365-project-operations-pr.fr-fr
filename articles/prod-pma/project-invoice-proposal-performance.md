@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
-ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
+ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6269787"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005703"
 ---
 # <a name="project-invoice-proposal-performance"></a>Performance de la proposition de facture de projet
 

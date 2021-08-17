@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: c6f7888f3803b2c83a72bcac4caed1a7d7bc5f65
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997553"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008853"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Configurer et utiliser les paiements fournisseur Payer quand payé
 

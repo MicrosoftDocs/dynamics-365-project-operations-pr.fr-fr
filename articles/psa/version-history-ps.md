@@ -2,7 +2,7 @@
 title: Calendrier de publication des mises à jour pour Project Service 3.x
 description: Cette rubrique offre des informations sur les versions disponibles et à venir de Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.reviewer: kfend
 ms.prod: ''
 ms.suite: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 332e1f97816145da00e1fcff9c293414578d6b29
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334869"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024825"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Calendrier de publication des mises à jour pour Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "6334869"
 
 | Solution  | Version la plus récente |
 |-------|----|
-| Project Service Automation    | 3.10.54.98 |
+| Project Service Automation    | 3.10.55.38 |
 | Complément de bureau Project Service Automation                | 3.15          |
 
 Pour plus d’informations sur les mises à jour de Project Service, consultez le site [Plans de version Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ Pour plus d’informations sur les mises à jour de Project Service, consultez l
 | Station  | Région | Version actuelle | Prochaine version |  Date planifiée
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>Première version</i> | [3.10.54.98](whats-new-ur-33.md) | À définir | 28 juillet 2021
+| | <i>Première version</i> | [3.10.55.38](whats-new-ur-34.md) | À définir | 27 août 2021
 |<strong>Station 2</strong> | |  |  | |
-| | <i>Amérique du Sud</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juillet 2021
-| | <i>Canada</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juillet 2021
-| | <i>Inde</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juillet 2021
-| | <i>France</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juillet 2021
-| | <i>Émirats Arabes Unis</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juillet 2021
-| | <i>Afrique du Sud</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juillet 2021
-| | <i>Allemagne</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juillet 2021
-| | <i>Suisse</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juillet 2021
+| | <i>Amérique du Sud</i> | [3.10.55.38](whats-new-ur-34.md) | À définir | 03 septembre 2021
+| | <i>Canada</i> | [3.10.55.38](whats-new-ur-34.md) | À définir | 03 septembre 2021
+| | <i>Inde</i> | [3.10.55.38](whats-new-ur-34.md) | À définir | 03 septembre 2021
+| | <i>France</i> | [3.10.55.38](whats-new-ur-34.md) | À définir | 03 septembre 2021
+| | <i>Émirats Arabes Unis</i> | [3.10.55.38](whats-new-ur-34.md) | À définir | 03 septembre 2021
+| | <i>Afrique du Sud</i> | [3.10.55.38](whats-new-ur-34.md) | À définir | 03 septembre 2021
+| | <i>Allemagne</i> | [3.10.55.38](whats-new-ur-34.md) | À définir | 03 septembre 2021
+| | <i>Suisse</i> | [3.10.55.38](whats-new-ur-34.md) | À définir | 03 septembre 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japon</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 juillet 2021
-| | <i>Asie-Pacifique</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 juillet 2021
-| | <i>Grande-Bretagne</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 juillet 2021
-| | <i>Océanie</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 juillet 2021
+| | <i>Japon</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 août 2021
+| | <i>Asie-Pacifique</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 août 2021
+| | <i>Grande-Bretagne</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 août 2021
+| | <i>Océanie</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 août 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 23 juillet 2021
+| | <i>Europe</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 20 août 2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Amérique du Nord</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 juillet 2021
+| | <i>Amérique du Nord</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 août 2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Cloud de la communauté du secteur public</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 juillet 2021
-| | <i>Groupes d’échelles dédiés</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 06 août 2021
+| | <i>Cloud de la communauté du secteur public</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 août 2021
+| | <i>Groupes d’échelles dédiés</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 03 septembre 2021
 
 >[!Note]
 > - Les dates dans toutes les régions à l’exception du Cloud de la communauté du secteur public indiquent la date de la prochaine mise à jour automatique. Les dates dans le Cloud de la communauté du secteur public indiquent la disponibilité de la version ; pour le moment, aucune mise à jour automatique n’est disponible pour ces régions.

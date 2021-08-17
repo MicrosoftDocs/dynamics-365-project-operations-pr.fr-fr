@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6fb1955e2adb8562ac00a90880bf8e147bf5ed6a
-ms.sourcegitcommit: 18bb56676999dbde1cf880239847ee9c2b216fe4
+ms.openlocfilehash: 14ff7f1f7374ffe885c511fd693cda5b7023c5beb53adb45042ddda1e932c93d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6060430"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005973"
 ---
 # <a name="whats-new-may-2021---project-operations-lite-deployment"></a>Nouveautés de mai 2021 – Déploiement simplifié de Project Operations
 

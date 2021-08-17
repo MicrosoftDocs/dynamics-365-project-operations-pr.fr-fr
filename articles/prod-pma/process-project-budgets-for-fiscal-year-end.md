@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: be3dc039b92e88cac6f6b3b7f72bc32ecf587539
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008038"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007368"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Transférer les budgets de projet à la fin de l’exercice comptable
 
@@ -75,7 +75,7 @@ Lorsque vous traitez les montants budgétaires restants, vous pouvez créer des 
    -  Sélectionner **Afficher zéro en tant que montant restant** pour inclure les projets qui n’ont aucun montant budgétaire restant, mais qui répondent aux autres critères que vous sélectionnez dans les projets affichés dans le volet inférieur.
 
 7. Dans l’onglet **Sélectionner les budgets**, sélectionnez **Récupérer tous les budgets** pour charger tous les budgets correspondant aux critères sélectionnés. Si vous préférez concevoir une requête de base de données qui charge un ensemble spécifique de budgets de projet dans le volet, sélectionnez **Récupérer les budgets sélectionnés**.
-8. Pour chaque projet que vous souhaitez traiter, sélectionnez l’option au début de la ligne du projet.
+8. Pour chaque projet que vous souhaitez traiter, sélectionnez l'option au début de la ligne du projet.
 
     > [!TIP]
     > Pour sélectionner tous ou la plupart des projets, cochez la case dans le coin supérieur gauche. Pour exclure le traitement d’un projet, décochez la case correspondant à ce projet.
@@ -93,7 +93,7 @@ Lorsque vous traitez les montants budgétaires restants, vous pouvez créer des 
    - Sélectionnez **Afficher zéro en tant que montant restant** pour inclure les projets qui n’ont pas de montant budgétaire restant, mais qui répondent aux critères sélectionnés.
    - Dans le groupe **Sélectionner les budgets**, sélectionnez **Récupérer tous les budgets** pour charger tous les budgets correspondant aux critères sélectionnés. Pour concevoir une requête de base de données qui charge un ensemble spécifique de budgets de projet dans le volet, sélectionnez **Récupérer les budgets sélectionnés**.
 
-5. Pour chaque projet que vous souhaitez traiter, sélectionnez l’option au début de la ligne du projet. 
+5. Pour chaque projet que vous souhaitez traiter, sélectionnez l'option au début de la ligne du projet. 
 6. Sélectionnez **Traiter** pour transférer les montants budgétaires restants pour les projets sélectionnés vers le exercice sélectionné.
 
 

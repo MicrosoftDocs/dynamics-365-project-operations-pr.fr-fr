@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 322c2403543b9eaebbd4bad56cfbe6f7c42b682a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 987444e66bb1b151065bfc8a92a021cd8fdd9cf07aee31780bf7607dc4de221c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009748"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008943"
 ---
 # <a name="project-quotations"></a>Devis de projet
 

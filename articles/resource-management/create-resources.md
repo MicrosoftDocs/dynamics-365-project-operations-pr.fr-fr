@@ -6,12 +6,12 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ae0b5f9e72fc4baf53262dea2a5798add9f83531
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e1f2be2f0b8ed8fc332a575b165ec23c4e8ab1fc9c50d998da3459c05dbcead1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002914"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008358"
 ---
 # <a name="create-resources"></a>Créer des ressources
 

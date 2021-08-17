@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014293"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006783"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Désactiver une dimension de tarification
 
@@ -32,7 +32,7 @@ La désactivation d’une dimension de tarification, qu’elle soit prédéfinie
 
 Toutefois, lorsque vous effectuez cette action, vous pouvez recevoir le message d’erreur suivant.
 
-![Erreur de processus d’entreprise probablement lors de la désactivation d’une dimension de tarification](media/Business-Process-Error.png)
+![Erreur de processus d’entreprise probablement lors de la désactivation d’une dimension de tarification.](media/Business-Process-Error.png)
 
 
 Ce message d’erreur indique que des enregistrements de prix ont été précédemment configurés pour la dimension désactivée. Tous les enregistrements **Prix du rôle** et **Majoration du prix du rôle** qui font référence à une dimension doivent être supprimés avant que l’applicabilité de la dimension puisse être définie sur **Non**. Cette règle s’applique à la fois aux dimensions de tarification prédéfinies et aux dimensions de tarification personnalisées que vous avez peut-être créées. La raison de cette validation est que Project Service a la contrainte que chaque enregistrement **Prix du rôle** doit avoir une combinaison unique de dimensions. Par exemple, sur une liste de prix appelée **Taux de coût US 2018**, les lignes **Prix du rôle** suivantes sont disponibles. 

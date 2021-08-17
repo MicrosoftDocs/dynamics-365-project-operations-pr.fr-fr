@@ -6,12 +6,12 @@ ms.date: 03/29/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f0423fe9895b91431b2a83a8fff81118205b0736
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cde82bb3c5777458a63a44a131af284e6ed5d7532de6aacbb5eb860c1fcddebd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001609"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006191"
 ---
 # <a name="create-corrective-project-based-invoices"></a>Créer des factures correctives basées sur un projet 
 

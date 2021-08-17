@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367888"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008223"
 ---
 # <a name="resource-management-modes-overview"></a>Vue d’ensemble des modes de gestion des ressources
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations prend en charge deux modes pour vous permettre d
 ## <a name="central-mode"></a>Mode central
 Pour les organisations qui centralisent l’affectation des ressources aux projets, le mode central permet de s’assurer que les chefs de projet peuvent définir les besoins en ressources au niveau du projet. La satisfaction des besoins en ressources est déléguée à un gestionnaire de ressources. Les chefs de projet peuvent accepter ou refuser les ressources proposées par le gestionnaire de ressources.
 
-![Mode central](./media/resource-management-central.png)
+![Mode central.](./media/resource-management-central.png)
 
 Pour gérer les ressources avec le mode central, voir :
 
@@ -37,7 +37,7 @@ Pour gérer les ressources avec le mode central, voir :
 ## <a name="hybrid-mode"></a>Modèle hybride
 Pour les organisations qui ont besoin de flexibilité dans l’allocation des ressources, le mode hybride permet aux chefs de projet et aux gestionnaires de ressources de réserver des ressources.
 
-![Mode hybride](./media/resource-management-hybrid.png)
+![Mode hybride.](./media/resource-management-hybrid.png)
 
 En plus du processus du mode central pris en charge, consultez les rubriques suivantes pour gérer tous les autres flux de réservation pris en charge en mode hybride :
 

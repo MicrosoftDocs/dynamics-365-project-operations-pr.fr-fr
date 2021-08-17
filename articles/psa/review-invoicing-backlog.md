@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008533"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006963"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Réviser l’arriéré de facturation sur les projets et les contrats de projet
 
@@ -40,7 +40,7 @@ Les chiffres réels de ventes non facturées représentent l’arriéré de fact
 
 Pour vérifier les arriérés de facturation pour le temps et les matériaux, accédez à **Ventes** \> **Facturation** \> **Arriéré de facturation de temps et de matériaux**. Sélectionnez tous les chiffres réels de ventes non facturés prêts à être facturés, puis sélectionnez **Prêt pour la facturation**. Le statut de facturation de ces chiffres réels passe à **Prêt pour la facturation**.
 
-![Arriérés de facturation pour le temps et le matériel](media/TMBacklog.png)
+![Arriéré de facturation de temps et de matériaux.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Vérifier l’arriéré de facturation pour les produits
 
@@ -48,7 +48,7 @@ Dans PSA, lorsqu’un contrat de projet contient des lignes de contrat basées s
 
 Pour vérifier les arriérés de facturation pour les produits, accédez à **Ventes** \> **Facturation** \> **Arriéré de facturation de produit**. Sélectionnez toutes les lignes de contrat basées sur des produits prêtes à être facturées, puis sélectionnez **Prêt pour la facturation**. Le statut de facturation de ces lignes passe à **Prêt pour la facturation**.
 
-![Arriéré de facturation pour les produits](media/ProductBacklog.png)
+![Arriéré de facturation de produit.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Vérifiez les jalons de facturation sur les contrats à prix fixe
 
@@ -56,7 +56,7 @@ Chaque ligne de contrat de projet avec une méthode de facturation à prix fixe 
 
 Pour vérifier les jalons de facturation, accédez à **Ventes** \> **Facturation** \> **Jalons de forfait**. Sélectionnez les jalons prêts à être facturés, puis sélectionnez **Prêt pour la facturation**. Le statut de facturation de ces jalons passe à **Prêt pour la facturation**.
 
-![Jalons à prix fixe](media/FPBacklog.png)
+![Jalons de forfait.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 579a07e117cf00727813385da28d47f7e42f0127
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369463"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007323"
 ---
 # <a name="project-resourcing-home-page"></a>Page d’accueil Ressources du projet
 
@@ -36,11 +36,11 @@ Un défi auquel sont confrontés les chefs de projet et les responsables des res
 - Estimer les coûts et déterminer un budget initial, en fonction des rôles et des ressources attribués à un projet.
 - Utiliser des rôles pour estimer le nombre de réservations de ressources requises pour chaque engagement.
 - Estimer le nombre de ressources nécessaires pour tout le cycle de vie d’un projet.
-- Rédigez une structure de répartition du travail en utilisant les affectations de ressources initiales.
+- Rédigez une structure de répartition du travail (WBS) en utilisant les affectations de ressources initiales.
 
-[![Cycle de vie d’un projet](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Cycle de vie d’un projet.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
-Au fur et à mesure de la planification du projet, les ressources planifiées peuvent être remplacées par des ressources en personnel. Le chef de projet peut également revenir en arrière et mettre à jour les réservations de ressources à n’importe quelle étape du projet.
+Au fur et à mesure de la planification du projet, les ressources planifiées peuvent être remplacées par des ressources dotées en personnel. Le chef de projet peut également revenir en arrière et mettre à jour les réservations de ressources à n’importe quelle étape du projet.
 
 Les rubriques suivantes fournissent des informations sur les tâches à effectuer lorsque vous travaillez sur des projets de ressources.
 

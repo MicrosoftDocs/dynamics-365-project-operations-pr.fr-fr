@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 95f9e1d836e49672cfb51ace59aa77ea9da65b35
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998858"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008403"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Ajouter des membres de l’équipe depuis la grille des membres de l’équipe
 

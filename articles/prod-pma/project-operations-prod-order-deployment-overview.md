@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: 71fd9d3ae30147c3c03202a54f74477a95838eb9
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369508"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009078"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Vue d’ensemble du déploiement de Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication
 

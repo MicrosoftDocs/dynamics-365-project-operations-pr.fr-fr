@@ -6,12 +6,12 @@ ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad8b974ef75cb0a4e43af0aa254cec1bbcab154a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: be1dcd1b6b18591c99c904e0013d9870c7cafe1077fa6e9634f2e9f495190848
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012853"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005523"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Configurer la comptabilité des projets internes
 

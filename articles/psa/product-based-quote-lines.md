@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998498"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008583"
 ---
 # <a name="product-based-quote-lines"></a>Lignes de devis basées sur un produit
 
@@ -58,7 +58,7 @@ Si vous définissez ce champ sur **Remplacer la tarification**, Dynamics 365 ne
 
 Après avoir installé PSA, des prix de vente par défaut sont entrés dans les lignes basées sur un produit d’un devis. Le champ **Tarification** est alors défini sur **Remplacer la tarification** pour pouvoir modifier le prix par défaut sur les lignes de devis.
 
-> ![Définition du remplacement de la tarification](media/basic-guide-10.png)
+> ![Définition du remplacement de la tarification.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Facteurs de quantité pour les produits
 
@@ -78,7 +78,7 @@ Par exemple, Dynamics 365 peut contenir les propriétés suivantes :
 
 Les propriétés **Nombre d’utilisateurs** et **Nombre de mois** peuvent être marquées comme facteurs de quantité en modifiant les propriétés de la ligne de produit. 
 
-> ![Marquage du Nombre d’utilisateurs et du Nombre de mois comme facteurs de qualité](media/basic-guide-11.png)
+> ![Marquage du Nombre d’utilisateurs et du Nombre de mois comme facteurs de qualité.](media/basic-guide-11.png)
  
 
 

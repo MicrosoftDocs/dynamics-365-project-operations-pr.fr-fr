@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369688"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007503"
 ---
 # <a name="project-management-and-accounting-overview"></a>Vue d‘ensemble de gestion de projets et compatibilité
 
@@ -34,14 +34,14 @@ Un projet est un groupe d’activités conçu pour fournir un service, fabriquer
 ## <a name="projects-across-industries"></a>Projets dans plusieurs secteurs
 Le module Gestion de projets et comptabilité peut être utilisé dans plusieurs secteurs, comme indiqué dans l’illustration suivante.
 
-[![Projets dans plusieurs secteurs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projets dans plusieurs secteurs.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Dans un centre d’appels, un ticket peut être utilisé pour décrire l’ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les organisations de conseil en gestion ou de conseil technique ou encore les agences de publicité, font référence à leurs activités comme des projets. En marketing, une campagne représente un ensemble de travaux qui doivent être livrés. Dans la fabrication par projet, un ordre de fabrication fait référence aux tâches variées qui doivent être effectuées pour produire certains produits finis. Quel que soit le nom utilisé pour eux, ces projets impliquent des ressources, des calendriers et des coûts, et le module Gestion de projets et comptabilité permet la planification, l’exécution et l’analyse de ces projets.
 
 ## <a name="project-phases"></a>Phases du projet
 Bien que le flux de processus suivant vise les projets externes, ou des projets qui sont exécutés pour un ou plusieurs clients, la fonctionnalité s’applique également aux projets internes, uniquement de coûts. 
 
-![3 phases d’un projet](./media/3-stages-of-a-project.png) 
+![3 phases d’un projet.](./media/3-stages-of-a-project.png) 
 
 Comme le montre l’illustration précédente, la fonctionnalité Gestion de projets et comptabilité peut être divisée en trois phases :
 
@@ -50,11 +50,11 @@ Comme le montre l’illustration précédente, la fonctionnalité Gestion de pro
 3.  Analyser
 
 ## <a name="initiate-the-project"></a>Lancer le projet
-Lors du lancement du projet, plusieurs processus clés se produisent. Vous pouvez utiliser un devis de projet pour communiquer l’estimation de la main-d’œuvre, des dépenses et des matériaux au client. Vous pouvez enregistrer les conditions de facturation, les limites et les accords dans un contrat de projet. Une structure de répartition du travail (WBS) peut être utilisée pour planifier et estimer le travail. Vous pouvez configurer des prévisions et des budgets pour guider l’exécution du projet. L’illustration suivante présente la structure d’un projet.[![structure du projet](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Lors du lancement du projet, plusieurs processus clés se produisent. Vous pouvez utiliser un devis de projet pour communiquer l’estimation de la main-d’œuvre, des dépenses et des matériaux au client. Vous pouvez enregistrer les conditions de facturation, les limites et les accords dans un contrat de projet. Une structure de répartition du travail (WBS) peut être utilisée pour planifier et estimer le travail. Vous pouvez configurer des prévisions et des budgets pour guider l’exécution du projet. L’illustration suivante présente la structure d’un projet.[![structure du projet.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Créer des devis de projet
 
-Dans la phase de vente initiale d’un projet, un devis de projet vous permet de proposer à un client une offre sans engagement. Un devis peut inclure des articles, tels que les articles et services proposés, les coordonnées de base, les accords commerciaux spéciaux et les remises, ainsi que les éventuelles taxes et surtaxes.
+Durant la phase de vente initiale d’un projet, un devis de projet permet de proposer à un client une offre sans engagement. Un devis peut inclure des articles, tels que les articles et services proposés, les coordonnées de base, les accords commerciaux spéciaux et les remises, ainsi que les éventuelles taxes et surtaxes.
 
 Vous pouvez également émettre une lettre de garantie pour une transaction de devis de projet entre votre organisation et le client. Une fois le devis de projet créé, vous pouvez créer la demande de lettre de garantie pour le client et la soumettre à la banque. Une fois que la banque a approuvé la demande, la lettre de garantie est délivrée au client. 
 
@@ -214,7 +214,7 @@ Le tableau suivant répertorie les méthodes de commande d’articles et décrit
 | Méthode            | Objectif                                                                                                                                                        | Consommation de transactions d’articles                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Commande client       | Saisissez une transaction directement sur un projet Temps et matériel.                                                                                                   | Les transactions d’article sont consommées lorsque la facture client est validée.                                                                               |
-| Journal d’inventaire | Saisissez et gérez rapidement les enregistrements d’articles. Si, par exemple, vous souhaitez saisir une demande d’articles basée sur une liste imprimée, le journal d’inventaire peut être appliqué. | Les transactions d’articles sont consommées lorsque le journal est validé.                                                                                        |
+| Feuille stock | Saisissez et gérez rapidement les enregistrements d’articles. Si, par exemple, vous souhaitez saisir une demande d’articles basée sur une liste imprimée, la feuille stock peut être appliquée. | Les transactions d’articles sont consommées lorsque la feuille est validée.                                                                                        |
 | Demande d’articles  | Saisissez des articles qui ne vont pas être consommés immédiatement. Cette méthode vous permet de suivre le nombre d’articles qui ont été consommés dans un seul enregistrement de demande d’articles.    | Les transactions d’articles sont consommées lorsque le bon de livraison est mis à jour. En d’autres termes, la demande d’articles est créée lorsque le bon de livraison est validé. |
 | Commandes fournisseur   | Saisissez les transactions dans l’un des trois emplacements, selon la méthode d’achat.                                                                              | Les transactions d’article sont consommées lorsque le bordereau de livraison est mis à jour ou lorsque le client ou le fournisseur est facturé.                                      |
 

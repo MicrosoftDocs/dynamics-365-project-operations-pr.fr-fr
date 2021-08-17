@@ -6,12 +6,12 @@ ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89e6b6ea258dff4ae2e592c58d6e0a61bf7d8e35
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002377"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008313"
 ---
 # <a name="edit-bookings"></a>Modifier les réservations
 

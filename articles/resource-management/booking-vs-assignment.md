@@ -6,12 +6,12 @@ ms.date: 01/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3c1a1003af0b23c4be44fefac0b3c4ea725f96b2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012763"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008448"
 ---
 # <a name="bookings-vs-assignments"></a>Réservations et Affectations
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d83e30eb4e0f10a990f72e148c29db9d3cb0c83
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 62fc0ad741940c2d3046bb1b89f99cd490cbd6e1aa6015f1df3b92afb2f107ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008218"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006828"
 ---
 # <a name="set-up-resources-project-service"></a>Configurer des ressources (Project Service)
 

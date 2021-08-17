@@ -6,12 +6,12 @@ ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 639c6a104f2a90366a0f477c0d7cf384f19cdd81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013798"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006423"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projets d’estimation de revenus à prix fixe 
 

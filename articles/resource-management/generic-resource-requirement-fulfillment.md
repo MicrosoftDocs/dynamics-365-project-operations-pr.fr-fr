@@ -6,12 +6,12 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e36875a0d5dcb24d9669e2ea989c6fc7db7bcd7c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005833"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008268"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Répondre aux besoins en ressources génériques
 

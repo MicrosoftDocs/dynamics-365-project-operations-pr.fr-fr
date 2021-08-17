@@ -6,12 +6,12 @@ ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 118c2bd6b59b509e5628ac00fc1607809458853b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005023"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009483"
 ---
 # <a name="set-up-price-lists"></a>Configurer les tarifs
 

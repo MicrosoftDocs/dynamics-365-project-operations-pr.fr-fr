@@ -6,12 +6,12 @@ ms.date: 05/21/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c3055ab5b8c07faa2bc9167956d283e2a66029dd
-ms.sourcegitcommit: 173f2b1f4e063c440a5f78d76d456c62aadbd89e
+ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6091251"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007188"
 ---
 # <a name="copy-a-project"></a>Copier un projet
 

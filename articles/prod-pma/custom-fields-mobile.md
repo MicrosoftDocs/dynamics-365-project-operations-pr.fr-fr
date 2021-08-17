@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003026"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005748"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implémenter des champs personnalisés pour l’application mobile Microsoft Dynamics 365 Project Timesheet sur iOS et Android
 
@@ -153,13 +153,13 @@ Pour les champs de type **Date**, cette propriété transmet la valeur date du c
 
 Vous trouverez ci-dessous une capture d’écran de l’application mobile d’une création d’entrée de feuille de temps. Elle présente les champs prêts à l’emploi et un champ personnalisé dans la section « Entrée de temps » appelée « Chaîne de test » avec une valeur d’énumération « Deuxième option » déjà définie.
 
-![Champ personnalisé de la chaîne de test dans l’application](media/timesheet-entry.jpg)
+![Champ personnalisé Chaîne de test dans l’application.](media/timesheet-entry.jpg)
 
 
 
 Vous trouverez ci-dessous une capture d’écran de l’application mobile de l’utilisateur sélectionnant l’une des options d’énumération disponibles pour le champ personnalisé « Chaîne de test ».  Les deux options sont « Première option » et « Deuxième option » affichées sous forme de case d’option. La deuxième option est actuellement sélectionnée.
 
-![Cases d’option pour le champ personnalisé Chaîne de test](media/enum-option.jpg)
+![Cases d’option pour le champ personnalisé Chaîne de test.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Notez que les champs personnalisés n’ont pas besoin d’enregistrements de ba
 
 Ci-dessous, vous trouverez une capture d’écran de Visual Studio de l’arborescence d’objets d’application. Elle présente une extension de la table TSTimesheetLine avec le champ TestLineString ajouté en tant que champ personnalisé.
 
-![Chaîne de ligne](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Chaîne de ligne.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Utiliser la chaîne de commande sur la méthode buildCustomFieldList de la classe TSTimesheetSettings pour afficher un champ dans la section d’entrée de feuille de temps
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Vous trouverez ci-dessous une capture d’écran de l’application mobile d’un utilisateur affichant une feuille de temps. Le bouton « Autres informations » a été sélectionné dans l’angle supérieur droit pour afficher l’option « Afficher plus de détails ».  
 
-![Commande Afficher plus de détails](media/show-more.png)
+![Commande Afficher plus de détails.](media/show-more.png)
 
 Vous trouverez ci-dessous une capture d’écran de l’application mobile affichant la section « Plus » d’une feuille de temps. Un champ personnalisé appelé « Taux d’utilisation de cette feuille de temps (champ personnalisé calculé) » a été ajouté à la section d’en-tête de la feuille de temps. Une valeur en lecture seule de « 0,667 » est définie sur le champ personnalisé.
 
-![Section Plus](media/more-section.jpg)
+![Section Plus.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Développer la table TSTimesheetTable afin qu’elle ait un champ personnalisé
 
@@ -414,7 +414,7 @@ La logique existante pour la fonctionnalité de feuille de temps au niveau de la
 
 À partir des paramètres du projet, vous pouvez rendre les champs prêts à l’emploi en lecture seule ou masqués dans l’application mobile. Définissez les options dans la section **Feuilles de temps mobiles** sur l’onglet **Feuille de temps** de la page **Paramètres de gestion de projets et de comptabilité**.
 
-![Paramètres du projet](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Paramètres du projet.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Modifier les activités disponibles à la sélection via les extensions
 

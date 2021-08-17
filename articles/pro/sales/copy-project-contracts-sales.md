@@ -6,12 +6,12 @@ ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee769dbd553e4a174cb71ce7a883f828e587ce36
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003583"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006018"
 ---
 # <a name="copy-project-contracts---lite"></a>Copier des contrats de projets – Simplifié
 
