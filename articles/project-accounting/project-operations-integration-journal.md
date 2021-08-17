@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304253"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987928"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal d’intégration dans Project Operations
 
@@ -19,7 +19,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 Les entrées de temps et de dépenses créent des transactions **Réelles** qui sont la vue opérationnelle du travail effectué par rapport à un projet. Dynamics 365 Project Operations fournit aux comptables un outil permettant d’examiner les transactions et d’ajuster les attributs comptables, le cas échéant. Une fois l’examen et les ajustements terminés, les transactions sont validées dans la comptabilité auxiliaire de projet et la comptabilité. Un comptable peut effectuer ces activités en utilisant le journal d’**intégration de Project Operations** (**Dynamics 365 Finance** > **Gestion de projet et comptabilité** > **Journaux** > **Journal d’intégration de ProjectOperations**).
 
-![Flux de journal d’intégration](./media/IntegrationJournal.png)
+![Flux du journal d’intégration.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Créer des enregistrement dans le journal d’intégration de Project Operations
 

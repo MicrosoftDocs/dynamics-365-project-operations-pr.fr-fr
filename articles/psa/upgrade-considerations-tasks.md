@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 868b0daadaf6cf96ca7bf847914bca8014412f26
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005608"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992338"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Considérations relatives à la mise à niveau de la structure de répartition du travail
 

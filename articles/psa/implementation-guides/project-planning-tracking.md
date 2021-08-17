@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 23bfab9e68a89ba268847c463a8ee618f479d227
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dafe76864ac873c596381324ab6865b1b3adc24a495d828b552e7ac459954b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015148"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985386"
 ---
 # <a name="project-planning-and-tracking"></a>Planification et de suivi de projets
 

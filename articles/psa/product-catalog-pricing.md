@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009208"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000168"
 ---
 # <a name="product-catalog-pricing"></a>Tarification du catalogue de produits 
 
@@ -44,7 +44,7 @@ Vous pouvez ajouter des produits d’un catalogue de produits à plusieurs tarif
 
 PSA prend en charge diverses options d’arrondi si les prix sont configurés en fonction du tarif, du coût standard, ou du coût actuel. En plus de bénéficier de plusieurs modes de tarification et d’options d’arrondis, vous pouvez associer des types de remises aux éléments tarifaires. 
 
-> ![Ajout de produits d’un catalogue à différents tarifs](media/basic-guide-16.png)
+> ![Ajout de produits d’un catalogue à différents tarifs.](media/basic-guide-16.png)
 
 Lorsque vous créez des tarifs personnalisés pour un devis en sélectionnant **Créer une tarification personnalisée** sur la page **Devis du projet**, PSA crée une copie des tarifs, et le champ **Entité** sur l’en-tête des nouveaux tarifs est défini sur **Entité des ventes**. Le nom des nouveaux tarifs est ajouté au nom du devis avec un horodatage. Vous pouvez également utiliser le nom des nouveaux tarifs et le nom du devis dans les workflows personnalisés pour déclencher une révision et des approbations supplémentaires pour les devis qui utilisent la tarification personnalisée.
 

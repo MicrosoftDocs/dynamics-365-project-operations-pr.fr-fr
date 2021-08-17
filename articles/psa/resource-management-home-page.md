@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da3d6622d4ad7da5e67cd01ce6eacb54298ee515
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: a55b0f7c8190fd88017851a8e7c9b44cefacb483cd563f6f94110a7421de5d1d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369148"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998188"
 ---
 # <a name="resource-management-home-page"></a>Page d’accueil de la gestion des ressources
 

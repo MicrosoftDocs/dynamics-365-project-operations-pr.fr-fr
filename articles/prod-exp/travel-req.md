@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf08ebfa86e9976a7ff82cfa28a9ec5af37f4b60
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 9e6f7f92101b79db7145ca7f3e44aa22e5f21bddfc5fe3d5adfa765fe37b8fd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369599"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988153"
 ---
 # <a name="travel-requisitions-overview"></a>Présentation des demandes de déplacement
 

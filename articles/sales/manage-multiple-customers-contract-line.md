@@ -6,12 +6,12 @@ ms.date: 10/22/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b302368bcb476527c94d48f7693058d2044c74b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996428"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992113"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Gérer plusieurs clients sur les lignes de contrat basées sur un projet
 

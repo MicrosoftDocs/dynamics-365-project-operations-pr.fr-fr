@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010333"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992203"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Créer une solution pour les dimensions de tarification personnalisées
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010333"
 2.  Nommez la solution,*dimensions de tarification <your organization name>*.
 3. Tapez les informations obligatoires restantes, puis cliquez sur **Enregistrer**.
 
-  ![Création d’une solution de dimension de tarification personnalisée](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Création d’une solution de dimension de tarification personnalisée.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Ajouter tous les entités requises et les composants associés à la solution Dimension Tarification
 
@@ -49,19 +49,19 @@ Ajoutez les entités Project Service suivantes à votre solution de tarification
    - **Prix du rôle**
    - **Entrée de temps**
  
-   ![Ajouter des entités existantes à la solution de dimensions de tarification personnalisée](./media/Existing-entities-to-PD-solution.png)
+   ![Ajouter des entités existantes à la solution de dimensions de tarification personnalisée.](./media/Existing-entities-to-PD-solution.png)
  
  4. Pour chaque entité, examinez les composants ajoutés et la liste finale des actifs d’entité pour chaque entité. 
 
    >[!NOTE]
    > Incluez tous les formulaires et toutes les vues pour chacune des entités sélectionnées.
 
-  ![Entités ajoutées](./media/solution-component-selection.png)
+  ![Entités ajoutées.](./media/solution-component-selection.png)
 
 
 5.  Lorsque vous êtes invité à inclure des entités dépendantes pour les entités sélectionnées, sélectionnez **Non, ne pas inclure les composants requis.**
 
-    ![Inclure des entités dépendantes](./media/Do-not-include-required.png)
+    ![Inclure les entités dépendantes.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

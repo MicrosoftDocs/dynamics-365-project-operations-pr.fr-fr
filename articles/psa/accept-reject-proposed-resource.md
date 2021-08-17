@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7cc49a846c98c0359ce4cd681c42ff57e16dc9bd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011593"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992518"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Acceptez ou rejeter une ressource de projet proposée
 
@@ -33,14 +33,14 @@ Cette rubrique explique comment approuver ou rejeter une ressource de projet pro
 
 Lorsqu’un gestionnaire des ressources propose une ressource nommée pour remplir la demande de ressources générique d’un projet, le champ **Statut de la demande** pour le membre de l’équipe générique est mis à jour **Révision nécessaire**. La demande sera envoyée au responsable de projet pour approbation ou rejet.
 
-![Membre de l’équipe générique avec une proposition](media/RM-how-to-19.png)
+![Membre de l’équipe générique avec une proposition.](media/RM-how-to-19.png)
 
 La grille de l’onglet **Ressources proposées** sur la page **Membre de l’équipe du projet** affiche les réservations actuelles de la ressource proposée. Une fois la proposition acceptée, la grille est mise à jour pour refléter cette réservation. 
 
 Pour accepter la ressource proposée et réserver cette ressource dans votre équipe, cliquez sur **Accepter des propositions**.  
 Pour refuser la proposition, cliquez sur **Ressource**.
 
-![Accepter une proposition de ressource](media/RM-how-to-20.png) 
+![Acceptation d′une proposition de ressource.](media/RM-how-to-20.png) 
 
 Comme pour remplir directement une demande de ressources générique avec une ressource nommée, la ressource générique sera remplacée et les tâches attribuées seront mises à jour avec le membre de l’équipe nommé.
 

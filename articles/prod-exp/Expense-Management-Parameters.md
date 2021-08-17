@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 41d78726f6d0aa6b5e647dbb359824950cb6ca72
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2ef48f844656ff5197ae1731fb3f9bdf91a1a906b16f35bb2124469743a9e954
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993723"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991348"
 ---
 # <a name="expense-management-parameters"></a>Paramètres de gestion des dépenses
 

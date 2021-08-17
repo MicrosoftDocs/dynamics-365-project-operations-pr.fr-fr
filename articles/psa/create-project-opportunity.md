@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9d8a879df6fc1b1c85ba5d856ab1df02ae55cec1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fc24b0f3f6091f1a81b83d5bea61dfd2fd5a4ff6e4fdc6ec206f15460f364db1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997328"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002688"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Créer une opportunité de projet (Project Service)
 

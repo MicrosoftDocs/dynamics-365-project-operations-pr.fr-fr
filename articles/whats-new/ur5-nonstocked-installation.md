@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011053"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986758"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Mettre à jour Project Operations dans votre environnement Finance
 
@@ -33,7 +33,7 @@ Cette rubrique fournit des informations sur la façon de mettre à jour Dynamics
 4. Assurez-vous que l’environnement s’exécute. S’il n’est pas démarré, démarrez l’environnement.
 5. Dans la section **Nouvelle version** sous **Mises à jour disponibles**, sélectionnez **Afficher la mise à jour** pour 10.0.15.
 
-![Bouton Afficher la mise à jour](media/view-update.png)
+![Bouton Afficher la mise à jour.](media/view-update.png)
 
 6. Sur la page **Mises à jour binaires**, cliquez sur **Enregistrer le package**.
 7. Sur la page **Consulter et enregistrer les mises à jour**, cliquez sur **Enregistrer le package**.
@@ -47,11 +47,11 @@ Cette rubrique fournit des informations sur la façon de mettre à jour Dynamics
 2. Dans la liste, sélectionnez le package que vous avez enregistré précédemment, puis sélectionnez **Appliquer**.
 3. Cliquez sur **Oui** pour confirmer le déploiement du package.
 
-![Boîte de dialogue Confirmer le déploiement du package](media/confirm-package-deployment.png)
+![Boîte de dialogue Confirmer le déploiement du package.](media/confirm-package-deployment.png)
 
 4. Cliquez sur **Oui** pour confirmer la mise à jour de l’application.
 
-![Boîte de dialogue Confirmer la mise à jour de l’application](media/confirm-application-update.png)
+![Boîte de dialogue Confirmer la mise à jour de l’application.](media/confirm-application-update.png)
 
 Le déploiement et la mise à jour de l’application commenceront. 
 
@@ -84,7 +84,7 @@ Les mises à jour suivantes des privilèges de sécurité pour les entités sont
 
 1. Dans votre environnement Dataverse, allez à **Paramètres**, et dans le groupe **Système**, sélectionnez **Sécurité**.
 
-![Paramètres de l’environnement Dataverse](media/Picture21.png)
+![Paramètres de l’environnement Dataverse.](media/Picture21.png)
 
 2. Sélectionnez **Rôles de sécurité**.
 3. Dans la liste des rôles, sélectionnez **Utilisateur d’application à double écriture** et sélectionnez l’onglet **Entités personnalisées**. 
@@ -121,7 +121,7 @@ Les mises à jour suivantes des privilèges de sécurité pour les entités sont
 6. Dans la liste des cartes, sélectionnez la carte **Registre (msdyn_ledgers)** avec tous les prérequis et cocher la case **Synchronisation initiale**. 
 7. Dans le champ **Maître pour la synchronisation initiale**, sélectionnez **Applications Finance and Operations** puis sélectionnez **Exécuter**.
  
- ![Synchronisation de la carte du registre](media/DW6.png)
+ ![Synchronisation du mappage du registre.](media/DW6.png)
  
 
 

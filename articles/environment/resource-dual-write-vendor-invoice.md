@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002259"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986488"
 ---
 # <a name="vendor-invoice-integration"></a>Intégration des factures fournisseur
 
@@ -36,7 +36,7 @@ Dans Project Operations, les factures fournisseur liées au projet sont validée
 
 Le livre auxiliaire fiscal, le livre auxiliaire fournisseur et les autres écritures financières sont enregistrés, en fonction de la situation, dans Dynamics 365 Finance au moment de la validation de la facture fournisseur.
 
-![Intégration des factures fournisseur](media/DW7VendorInvoice.png)
+![Intégration des factures fournisseur.](media/DW7VendorInvoice.png)
 
 Lorsque les enregistrements sont écrits sur une entité **Facture fournisseur** dans Dataverse, un processus d’approbation automatisé des enregistrements commence. Si nécessaire, le statut du processus d’approbation automatisé peut être révisé dans Dataverse en accédant à **Réglages avancés** > **Système** > **Tâches système**. Une fois l’approbation terminée, le système crée les enregistrements de classe de transaction de matériel dans l’entité **Chiffres réels**.
 

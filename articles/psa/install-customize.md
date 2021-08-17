@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 93891931f07d5cb16a8773f4c360cff1187f8dbf
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9d482a4e38009f371b877599bc7559bc0e21b9acf57b175081c8618236163585
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015103"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985341"
 ---
 # <a name="install-and-customize-project-service"></a>Installer et personnaliser (Project Service)
 

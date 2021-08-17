@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86da5a96919438e883b56fc8ecfe765f70a789ff
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003178"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003363"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Gérer des unités complexes pour les lignes de contrat basées sur les produits – Simplifié
 

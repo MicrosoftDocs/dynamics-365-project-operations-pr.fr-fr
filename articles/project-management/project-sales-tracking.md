@@ -6,12 +6,12 @@ ms.date: 03/24/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3f9873dc3e709453a56cb53273b35cc1cd312127
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 78d7bdaf9f5ca1757273cb81a1303befb0357ba547eb354097786fc3c38962b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996968"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995578"
 ---
 # <a name="project-sales-tracking"></a>Suivi des ventes du projet
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1410da02800a94f8b61174087aa30694192f3cab
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9a7827a349b3c4e1b53654b1c58ec1fd628cdce77f47e92c4a61e62eae675ef9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997643"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995668"
 ---
 # <a name="set-up-role-based-pricing"></a>Configurer la tarification basée sur les rôles
 

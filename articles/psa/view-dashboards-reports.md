@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 00d42d6e79c592bd828bbf54353cde52900d288d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: de1c83730b9c45f6a38e4bd4538b6f9cb5cee44f701db0bd395069cf8336d080
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012943"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987118"
 ---
 # <a name="view-dashboards-and-reports-project-service"></a>Afficher les tableaux de bord et les rapports (Project Service)
 

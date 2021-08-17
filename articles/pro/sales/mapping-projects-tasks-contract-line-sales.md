@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4b86e03192625b0dabb89080f2ade1ed9e3567cf
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6ce99e6f770c5eb39e5f2740a861721cf3d210ac9743bbd9d2a1e1a7236f368c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994629"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989728"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapper les projets et les tâches sur une ligne de contrat basée sur un projet 
 

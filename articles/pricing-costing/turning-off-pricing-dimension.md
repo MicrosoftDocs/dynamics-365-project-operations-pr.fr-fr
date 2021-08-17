@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004528"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994498"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Désactiver une dimension de tarification
 
@@ -32,7 +32,7 @@ La désactivation d’une dimension de tarification, qu’elle soit prédéfinie
 
 Cependant, lorsque vous effectuez cette opération, il est possible que vous receviez ce message d’erreur, **La dimension de tarification ne peut pas être mise à jour ou supprimée s’il existe des enregistrements de prix associés.**
 
-![Erreur de processus d’entreprise probablement lors de la désactivation d’une dimension de tarification](media/Business-Process-Error.png)
+![Erreur de processus d’entreprise probablement lors de la désactivation d’une dimension de tarification.](media/Business-Process-Error.png)
 
 Ce message d’erreur indique que des enregistrements de prix ont été précédemment configurés pour la dimension désactivée. Tous les enregistrements **Prix du rôle** et **Majoration du prix du rôle** qui font référence à une dimension doivent être supprimés avant que l’applicabilité de la dimension puisse être définie sur **Non**. Cette règle s’applique à la fois aux dimensions de tarification prédéfinies et aux dimensions de tarification personnalisées que vous avez peut-être créées. La raison de cette validation est que chaque enregistrement **Prix du rôle** doit avoir une combinaison unique de dimensions. Par exemple, sur une liste de prix appelée **Taux de coût US 2018**, les lignes **Prix du rôle** suivantes sont disponibles. 
 

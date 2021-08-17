@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998003"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996838"
 ---
 # <a name="fulfilling-resource-requests"></a>Répondre aux demandes de ressources
 
@@ -33,15 +33,15 @@ Les besoins en ressources peuvent être envoyés en tant que demandes de ressour
 
 Les demandes de ressources sont affichées sous forme de liste dans la vue **Demandes de ressources actives**.
 
-> ![Liste des demandes de ressources](media/Resource-Management-image59.png)
+> ![Liste des demandes de ressources.](media/Resource-Management-image59.png)
 
 Pour satisfaire une demande, sélectionnez-la dans la liste, puis sélectionnez **Rechercher des ressources**. Sinon, double-cliquez sur une ligne pour ouvrir la demande. Vous pouvez ensuite sélectionner l’onglet **Besoin en ressources** pour afficher les besoins de cette demande. Pour commencer à satisfaire la demande, sélectionnez **Rechercher des ressources**.
 
-> ![Détails de la demande de ressources](media/Resource-Management-image60.png)
+> ![Détails de la demande de ressources.](media/Resource-Management-image60.png)
 
 L’Assistant Planifier s’affiche et est filtré selon les besoins. Sélectionnez la ressource, puis **Réserver**.
 
-> ![Ressource sélectionnée](media/Resource-Management-image61.png)
+> ![Ressource sélectionnée.](media/Resource-Management-image61.png)
 
 Le membre de l’équipe générique est remplacé par la ressource nommée réservée de manière ferme sur l’équipe du projet et les affectations de tâches dans la planification du projet.
 

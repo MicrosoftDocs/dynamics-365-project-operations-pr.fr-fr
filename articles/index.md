@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 58bcf444d71a706730b91c982b06c6c1ed0b225d
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 6646379fb421796a083bc321542daef4f58dcddfc67915d68403c2a370ba90c4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367978"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988378"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 

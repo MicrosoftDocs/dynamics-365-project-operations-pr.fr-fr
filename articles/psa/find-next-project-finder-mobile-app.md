@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007498"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990767"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Rechercher votre projet suivant avec l’application Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ Avec l’application Project Finder Mobile sur votre téléphone [!INCLUDE[tn_ip
   
  Cliquez sur la flèche à droite du projet qui vous intéresse pour afficher plus de détails et vous y abonner.  
   
- ![Liste des projets correspondant aux compétences dans l’application Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Liste des projets correspondant aux compétences dans l’application Project Finder Mobile")  
+ ![Liste des projets correspondant aux compétences dans l′application Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Liste des projets correspondant aux compétences dans l’application Project Finder Mobile")  
   
-## <a name="update-your-skills"></a>Mettez à jour vos compétences  
+## <a name="update-your-skills"></a>Mettre à jour vos compétences  
  Appuyez sur le bouton Profil en bas à droite de l’écran pour mettre à jour vos compétences et niveaux de compétence.  
   
- ![Bouton de profil dans l’application Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Bouton de profil dans l’application Project Finder Mobile")  
+ ![Bouton de profil dans l′application Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Bouton de profil dans l’application Project Finder Mobile")  
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)

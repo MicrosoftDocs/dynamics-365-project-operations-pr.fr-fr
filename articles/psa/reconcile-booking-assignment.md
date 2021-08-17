@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008893"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995128"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Rapprochement des réservations et attributions
 
@@ -51,11 +51,11 @@ Dans certains cas, lorsque le champ **Échelle de temps** est défini à niveau 
 
 Lorsque vous affichez des niveaux de temps supérieurs, l’onglet **Rapprochement** affiche un indicateur de cellule pour vous informer qu’il existe des différences à des niveaux de temps inférieurs. Par exemple, dans l’illustration qui suit, un indicateur de cellule apparaît dans la cellule du mois d’octobre 2018 pour la ressource nommée Élise Flamand. Par conséquent, vous pouvez voir que, même si les réservations et les affectations de la ressource sont égales lorsqu’elles sont agrégées au niveau du **Mois**, elles ne correspondent pas aux niveaux inférieurs.
 
-![Réservations et attributions différentes au niveau mensuel](media/reconcile-assignments-01.JPG)
+![Réservations et attributions différentes au niveau du mois.](media/reconcile-assignments-01.JPG)
 
 Double-cliquez sur une cellule pour effectuer un zoom avant au niveau inférieur suivant et afficher la différence. Par exemple, si vous double-cliquez sur la différence d’octobre 2018 pour Élise Flamand, vous effectuez un zoom avant au niveau de la **Semaine**. Vous pouvez alors visualiser que la ressource a des réservations de 16 heures mais aucune attribution au cours des deux premières semaines d’octobre, et 16 heures d’attributions mais aucune réservation au cours de la semaine troisième d’octobre.
 
-![Réservations et attributions différentes au niveau hebdomadaire](media/reconcile-assignments-02.JPG)
+![Réservations et attributions différentes au niveau de la semaine.](media/reconcile-assignments-02.JPG)
 
 Vous pouvez cliquer avec le bouton droit sur une cellule pour effectuer un zoom arrière au niveau supérieur suivant. Vous pouvez également désactiver l’indicateur de cellule en sélectionnant le bouton **Paramètres**. 
 
@@ -68,13 +68,13 @@ Pour garantir des résultats précis et prévisibles lors de l’utilisation de 
 
 - L’utilisateur doit configurer le fuseau horaire de son appareil de manière à ce qu’il corresponde au fuseau horaire défini dans les paramètres de personnalisation de votre système.
  
-  ![Paramètres de fuseau horaire dans Windows 10](media/reconcile-assignments-03.png)
+  ![Paramètres de fuseau horaire dans Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Paramètres de fuseau horaire dans les paramètres de personnalisation](media/reconcile-assignments-04.png)
+  ![Paramètres de fuseau horaire dans les paramètres de personnalisation.](media/reconcile-assignments-04.png)
  
 - La ressource réservable doit avoir au moins une minute de temps de travail qui se chevauche avec les profils utilisés pour définir l’extension demandée. Par exemple, l’exemple suivant présente des ressources de révision dont les heures de travail se situent entre 9h00 et 19h00. 
 
-  ![Comparaison de profils de ressource](media/reconcile-assignments-05.png)
+  ![Comparaison de profils de ressource.](media/reconcile-assignments-05.png)
 
 Le tableau suivant présente :
 
@@ -83,22 +83,22 @@ Le tableau suivant présente :
 - Ressource B : cette ressource se trouve dans un fuseau horaire différent du projet et commence donc à 7h00 dans son fuseau horaire. Cependant, les réservations commenceront à 9h00, car il s’agit de l’heure de début la plus proche du profil d’affectation.
 - Ressources C et D : ces ressources se trouvent également dans des fuseaux horaires différents, à la fois différents l’un de l’autre et du projet, et leurs réservations commencent au plus tôt à leurs heures de début disponibles respectives.
 
-|Entité  |Calendrier  |
+|Entity  |Calendrier  |
 |-|-|
-|Modèle de calendrier de projet   | ![calendrier du projet](media/reconcile-assignments-06.png) |
-|Ressource A  | ![Calendrier de la ressource A](media/reconcile-assignments-06.png) |
-|Ressource B  |  ![Calendrier de la ressource B](media/reconcile-assignments-07.png) |
-|Ressource C  |  ![Calendrier de la ressource C](media/reconcile-assignments-08.png) |
-|Ressource D  | ![Calendrier de la ressource D](media/reconcile-assignments-09.png)  |
+|Modèle de calendrier de projet   | ![calendrier du projet.](media/reconcile-assignments-06.png) |
+|Ressource A  | ![Calendrier de la ressource A.](media/reconcile-assignments-06.png) |
+|Ressource B  |  ![Calendrier de la ressource B.](media/reconcile-assignments-07.png) |
+|Ressource C  |  ![Calendrier de la ressource C.](media/reconcile-assignments-08.png) |
+|Ressource D  | ![Calendrier de la ressource D.](media/reconcile-assignments-09.png)  |
  
 Lorsque vous accédez à la vue Rapprochement, les affectations de ressources et les pénuries de réservation associées s’affichent.
- ![Vue Rapprochement avant l’extension](media/reconcile-assignments-10.png)
+ ![Vue Rapprochement avant l’extension.](media/reconcile-assignments-10.png)
 
 Une fois que la fonctionnalité Étendre la réservation a été exécutée sur chaque ressource, les réservations sont correctement étendues pour chaque ressource. En effet, les heures de travail de chaque ressource se chevauchent avec les profls de la pénurie.
- ![Vue Rapprochement après l’extension de la réservation](media/reconcile-assignments-11.png) 
+ ![Vue Rapprochement après l’extension de la réservation.](media/reconcile-assignments-11.png) 
 
 Cependant, un examen plus approfondi des détails des réservations montre des différences dans l’heure de début des réservations. Les réservations commenceront au plus tôt à l’heure de début du profil d’affectation et au plus tôt à l’heure de début disponible de la ressource.
- ![Nouvelles réservations des ressources dans le tableau de planification](media/reconcile-assignments-12.png)
+ ![Nouvelles réservations des ressources dans le tableau de planification.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

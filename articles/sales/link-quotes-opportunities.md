@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d678fce7a6b52522500a77daecc46353ff17fbf2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009793"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999628"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Créer des devis de projet à partir d’opportunités
 

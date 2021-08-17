@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: a44d32358a9e88824efc5452b2b5493ac8b97c7f
-ms.sourcegitcommit: 18f99fbceccadd4b3e75875e1c5bcdd3e59ce206
+ms.openlocfilehash: 030c6abca169b712312ad70ed2ac8262f3d0777bcf93dcccfd956f2f9e0ea77c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6083668"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993058"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Configurer le kilométrage à l’aide de barèmes de kilométrage
 

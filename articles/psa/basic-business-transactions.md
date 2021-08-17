@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011548"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987523"
 ---
 # <a name="business-transactions"></a>Transactions commerciales
 
@@ -88,7 +88,7 @@ Ensemble, Origine de la transaction et Connexion de la transaction vous permette
 
 L’exemple suivant explique le traitement classique des entrées de temps dans un cycle de vie de projet PSA.
 
-> ![Traitement des entrées de temps au cours du cycle de vie de Project Service](media/basic-guide-17.png)
+> ![Traitement des entrées de temps dans un cycle de vie de Project Service.](media/basic-guide-17.png)
  
 1. L’envoi d’une entrée de temps entraîne la création de deux lignes de journal : une pour le coût et une pour les ventes non facturées.
 2. L’approbation finale de l’entrée de temps entraîne la création de deux chiffres réels : une pour le coût et une pour les ventes non facturées.

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8891ef08d187706a9fdef1be3f0c97beac4d711c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4302b922e3ed9a2d01f12473c272c58f888e19825424c319c0c49b80e79a8bea
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013213"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990448"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Se connecter à Project Service Automation
 

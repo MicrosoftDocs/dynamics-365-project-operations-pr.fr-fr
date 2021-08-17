@@ -6,12 +6,12 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 768da6adb83b4593a227f60182179b3036f4c040
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002683"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992608"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Estimations financières pour le matériel des projets
 

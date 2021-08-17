@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e2f182f66bd1f4fe57d19e4bf82525ac8b84c29
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003088"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001833"
 ---
 # <a name="manage-project-contracts"></a>Gérer les contrats de projets
 

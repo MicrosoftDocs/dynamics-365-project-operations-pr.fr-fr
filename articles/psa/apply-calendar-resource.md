@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4f925711e642167e6b5e8e0cbff7e549d35b2efa
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 24d300df710850df329c9fbba2b6eeceaa7d29125aae23a42bf3f2a94bed131a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009478"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000663"
 ---
 # <a name="apply-a-calendar-to-a-resource-project-service"></a>Appliquer un calendrier à une ressource (Project Service)
 

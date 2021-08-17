@@ -6,12 +6,12 @@ ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c6d3cd6056466be686f15c9f332c8274aeb0ac19
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013933"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997963"
 ---
 # <a name="cost-to-complete-methods"></a>Coût pour compléter les méthodes
 

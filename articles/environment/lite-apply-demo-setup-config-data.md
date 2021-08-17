@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997148"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993283"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Appliquer la configuration de la démonstration et les données de configuration pour Project Operations – Simplifié 
 
@@ -30,24 +30,24 @@ Avant de commencer la configuration, vous devez disposer d’un environnement Co
 2. Accédez au dossier *ProjOpsSampleSetupData - CE only CMT* et lancez le fichier exécutable *DataMigrationUtility*.
 3. Sur la page 1 de l’Assistant de migration de configuration (CMT) Common Data Service, sélectionnez **Importer des données**, puis **Continuer**.
 
-    ![Migration de la configuration](./media/1ConfigurationMigration.png)
+    ![Migration de la configuration.](./media/1ConfigurationMigration.png)
 
 4. Sur la page 2 de l’Assistant CMT, sélectionnez **Microsoft 365** comme **Type de déploiement**.
 5. Cochez les cases **Afficher une liste des organisations disponibles** et **Afficher les paramètres avancés**.
 6. Sélectionnez la région de votre client, entrez vos informations d’identification, puis sélectionnez **Connexion**.
 
-   ![Connexion de configuration](./media/2ConfigurationSignin.png)
+   ![Connexion à la configuration.](./media/2ConfigurationSignin.png)
 
 7. Sur la page 3, dans la liste des Organisations sur le Client, sélectionnez l’organisation dans laquelle vous souhaitez importer les données de démonstration et sélectionnez **Connexion**.
 8. À la page 4, sélectionnez le fichier zip *ExempleSetupAndConfigData* dans le dossier décompressé *ProjOpsSampleSetupData - CE only CMT*.
 
-   ![Fichier compressé](./media/3ZipFile.png)
+   ![Compressez le fichier.](./media/3ZipFile.png)
 
-   ![Sélectionner un fichier](./media/4SelectAFile.png)
+   ![Sélectionnez un fichier.](./media/4SelectAFile.png)
 
 9. Une fois le fichier zip sélectionné, sélectionnez **Importer des données**.
 
-   ![Importer les données](./media/5ImportData.png)
+   ![Importez les données.](./media/5ImportData.png)
 
 10. L’importation durera environ deux à dix minutes en fonction de la vitesse de votre réseau. Une fois terminé, quittez l’Assistant CMT. 
 11. Vérifiez votre organisation pour les données dans les 18 entités suivantes :
@@ -71,7 +71,7 @@ Avant de commencer la configuration, vous devez disposer d’un environnement Co
     -   Association de catégories de ressources pouvant être réservées
     -   Caractéristique des ressources pouvant être réservées
 
-    ![Importation terminée](./media/6CompleteImport.png)
+    ![Importation terminée.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

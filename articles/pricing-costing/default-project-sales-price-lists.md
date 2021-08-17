@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c204a8f0364a4be39974b101e834d4465b99f769
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000478"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989863"
 ---
 # <a name="default-price-lists"></a>Listes de prix par défaut
 

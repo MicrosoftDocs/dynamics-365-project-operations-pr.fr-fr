@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007588"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992383"
 ---
 # <a name="estimates"></a>Estimations
 
@@ -83,24 +83,24 @@ Si vous avez ajouté un champ personnalisé sur les détails de la ligne de devi
 1. Ouvrez PluginRegistrationTool et connectez-vous à votre instance en ligne.
 2. Sélectionnez **Rechercher** et recherchez le plug-in à mettre à jour.
 
-    ![Boîte de dialogue Rechercher dans l’arborescence](media/basic-guide-19.png)
+    ![Boîte de dialogue Rechercher dans l’arborescence.](media/basic-guide-19.png)
 
 3. Sélectionnez le plug-in, puis, dans la page principale, sélectionnez **Sélectionner**.
 4. Sélectionnez l’étape du plug-in à mettre à jour, cliquez avec le bouton droit, puis sélectionnez **Mettre à jour**.
 
-    ![Sélectionner une étape du plug-in](media/basic-guide-20.png)
+    ![Sélectionner une étape dans le plug-in.](media/basic-guide-20.png)
 
 5. Dans la boîte de dialogue **Mettre à jour l’étape existante**, dans le champ **Attributs de filtrage**, sélectionnez le bouton de sélection (**...**) :
  
-    ![Boîte de dialogue Mettre à jour l’étape existante](media/basic-guide-21.png)
+    ![Boîte de dialogue Mettre à jour l’étape existante.](media/basic-guide-21.png)
 
 6. Dans la boîte de dialogue **Sélectionner les attributs**, activez les cases à cocher des attributs personnalisés.
 
-    ![Boîte de dialogue Sélectionner les attributs](media/basic-guide-22.png)
+    ![Boîte de dialogue Sélectionner les attributs.](media/basic-guide-22.png)
 
 7. Sélectionnez **OK** pour fermer la boîte de dialogue, puis sélectionnez **Mettre à jour l’étape**.
  
-    ![Bouton Mettre à jour l’étape](media/basic-guide-23.png)
+    ![Bouton Mettre à jour l’étape.](media/basic-guide-23.png)
 
 8. Répétez les étapes 1 à 7 pour le deuxième plug-in.
 9. Fermez PluginRegistrationTool.

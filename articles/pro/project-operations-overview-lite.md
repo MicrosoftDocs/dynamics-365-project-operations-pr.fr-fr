@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: 9bd20d0bccb51e3afc0ad2d4a5409723c6fdcd92
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369958"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997378"
 ---
 # <a name="lite-deployment-overview"></a>Vue d’ensemble du déploiement simplifié
 

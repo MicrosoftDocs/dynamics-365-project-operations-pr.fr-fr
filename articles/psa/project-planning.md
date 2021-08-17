@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2505a831d18e882c0fd8fa9059a6fff84b0dadb1
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368833"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990583"
 ---
 # <a name="project-planning-home-page"></a>Page d’accueil de la planification de projet
 

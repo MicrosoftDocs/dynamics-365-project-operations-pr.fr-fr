@@ -6,12 +6,12 @@ ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5b4e2e0bfd0da02c3386978ce732232631f10421
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 87e275cb72f1edc5a2a9913b4aa47d461d1f3d3d9bf177bf0ffba8b463f4ce01
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994223"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994408"
 ---
 # <a name="advances-and-retainer-based-contracts"></a>Paiements anticipés et contrats basés sur un acompte
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 41191384c688c3b77d08a0e7990ddf0d9a48545c
-ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6293044"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003228"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurer le matériel non stocké et les factures fournisseur en attente
 

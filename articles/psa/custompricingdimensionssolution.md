@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012313"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995263"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Création de solutions personnalisées pour les dimensions Tarification
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012313"
 1. Sélectionnez **Paramètres** > **Solutions**, puis sélectionnez **Nouveau**. 
 2. Nommez la solution, **\<your organization name> dimensions tarification**, entrez les informations obligatoires restantes, puis cliquez sur **Enregistrer**.
 
-> ![Création d’une solution personnalisée pour les dimensions Tarification](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Création d’une solution personnalisée pour les dimensions de tarification.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Ajouter tous les entités requises et les composants associés à la solution Dimension Tarification
 Vous devrez ajouter les entités Project Service suivantes à votre solution de tarification. Exécutez la procédure ci-dessous pour apporter quelques modifications importantes au schéma dans la solution de tarification de sorte que les entités soient informées des nouvelles dimensions de tarification.
@@ -54,16 +54,16 @@ Vous devrez ajouter les entités Project Service suivantes à votre solution de 
 - Prix du rôle 
 - Entrée de temps 
 
-> ![Ajouter des entités existantes à la solution Dimensions de tarification](media/Existing-entities-to-PD-solution.png)
+> ![Ajouter des entités existantes à la solution des dimensions de tarification.](media/Existing-entities-to-PD-solution.png)
 
-> ![Sélectionner les composants de solution](media/Dimension-Components.png)
+> ![Sélectionner les composants de solution.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Veillez à inclure tous les formulaires et vues pour chacune des entités sélectionnées.
 
 4. Lorsque vous êtes invité à inclure toutes les entités dépendantes des entités sélectionnées, cliquez sur **Non**.
 
-> ![Ne pas inclure tous les composants associés](media/Do-not-include-required.png)
+> ![Ne pas inclure tous les composants associés.](media/Do-not-include-required.png)
 
 
 

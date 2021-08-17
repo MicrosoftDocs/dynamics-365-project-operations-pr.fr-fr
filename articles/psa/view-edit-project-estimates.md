@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 96eec162ecbc3e40a923d00cb6377feebc02b3c7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4c31f4eb6fb9ee94c6da52311439a8661d46f056bc10ae4a16dd53642e2338fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015508"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999988"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Afficher et modifier les estimations de projet (Project Service)
 

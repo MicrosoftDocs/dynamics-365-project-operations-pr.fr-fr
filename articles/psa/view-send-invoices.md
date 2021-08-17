@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3971c10370f41d6729f2a51bf0c9e1dbe0757bec
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fef14421431f8a597d7593d857d0878a15aa4aa0ce603fb1ed8614903a8f6104
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002503"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996658"
 ---
 # <a name="view-and-send-invoices-project-service"></a>Afficher et envoyer des factures (Project Service)
 

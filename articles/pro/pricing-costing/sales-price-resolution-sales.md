@@ -6,12 +6,12 @@ ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8ac7b8ca7dfc5679b0acb1a984bb7663552d66b4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2152b3f59050482cab0d1c5940d6743f420206bfc90e034dc2d754df8bd513a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004317"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996073"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Résoudre les prix de vente pour les estimations et les chiffres réels de projet
 

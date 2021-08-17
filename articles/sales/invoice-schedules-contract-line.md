@@ -6,12 +6,12 @@ ms.date: 10/17/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3f84d9935eec13666e3eaaa675908e9bc3d2097c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010108"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999673"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Créer une planification de factures sur une ligne de contrat basée sur un projet 
 

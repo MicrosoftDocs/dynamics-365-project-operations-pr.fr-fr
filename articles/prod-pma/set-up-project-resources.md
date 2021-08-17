@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49e0ca6254518079d2e01d92ac2e31d119468c4b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9c8e4373da50999a0cc57f4eab672a98e7cf21edcfa5a5589d87691603a777de
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997688"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995713"
 ---
 # <a name="set-up-project-resources"></a>Configurer les ressources de projet
 

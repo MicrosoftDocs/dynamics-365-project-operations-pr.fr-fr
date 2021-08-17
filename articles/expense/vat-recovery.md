@@ -6,12 +6,12 @@ ms.date: 10/10/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: a840c808a76c96dd5f9dfb863c230801718c203c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 64e9f4091fdf40cc702e83a165fe0a5be5043359348210bbe4afcd8a18055133
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001693"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999358"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Récupération de la TVA dans Gestion des dépenses
 

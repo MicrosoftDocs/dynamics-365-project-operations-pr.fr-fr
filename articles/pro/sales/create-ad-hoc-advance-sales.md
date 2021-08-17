@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 51e3b0ac8e111be70fe6ad0f9c162dfaec3339ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003493"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999133"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Créer une avance ad hoc sur un contrat
 

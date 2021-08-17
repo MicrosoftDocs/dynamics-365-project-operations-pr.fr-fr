@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3efa30f017643cbcf7baa72f8ab964091c9e4f28
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 699cfd1d89d90ace092ffe44abb242ab91464d5d8a813ee7964e923abe245d21
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013078"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996748"
 ---
 # <a name="time-entry-calendar"></a>Calendrier des entrées de temps
 

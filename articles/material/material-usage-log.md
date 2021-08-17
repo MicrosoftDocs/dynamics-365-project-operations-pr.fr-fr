@@ -6,12 +6,12 @@ ms.date: 03/31/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c739d7fabb96a845eaf139fcc9eab21247b0860
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4d8757049953fab0ad8bf6ee1a1d695fcb6df75b1be52641ad4af3b3137d7a0a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001558"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999268"
 ---
 # <a name="record-material-usage-on-projects-and-project-tasks"></a>Enregistrer l’utilisation du matériel sur les projets et les tâches du projet
 

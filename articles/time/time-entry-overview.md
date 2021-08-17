@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
 ms.custom: intro-internal
-ms.openlocfilehash: fecbb7c6985608c21ef089434e67d5f1e47f06ec
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 23697d7fedbf3edfef5099f615056162d2f8d6ce094884e20229123c17006311
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369058"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999493"
 ---
 # <a name="time-overview"></a>Vue d’ensemble du temps
 

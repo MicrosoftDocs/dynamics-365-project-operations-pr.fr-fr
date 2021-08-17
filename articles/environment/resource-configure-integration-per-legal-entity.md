@@ -6,12 +6,12 @@ ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e5a12de275a9f886434da45fbbed5140e3913d83
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000073"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999403"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurer l’intégration de Project Operations par entité juridique 
 

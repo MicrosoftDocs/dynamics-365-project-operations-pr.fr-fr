@@ -6,12 +6,12 @@ ms.date: 03/15/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ad700a84edd6c39609bc5b4f09ca74af3059a0dd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997103"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994633"
 ---
 # <a name="determine-your-deployment-type"></a>Déterminer votre type de déploiement
 

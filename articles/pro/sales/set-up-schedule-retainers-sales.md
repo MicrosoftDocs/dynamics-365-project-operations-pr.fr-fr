@@ -6,12 +6,12 @@ ms.date: 10/22/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64bb94d0381696418330e9ba5c26af34a3fb6e5b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: a1cfd83837a91a8d1b3db6df688da6e216a90ada4735e5909a7e8cb26b87247d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994178"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994363"
 ---
 # <a name="set-up-a-retainer-schedule"></a>Configurer une planification de la provision
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: cfb418606f4186c5371c36946f75c9d946047a61
-ms.sourcegitcommit: be5beba71ee9770c0083b4fe5cc89e7ec6b741b8
+ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334532"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991123"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Nouveautés ou modifications dans Project Operations de mai 2021 pour les scénarios basés sur le stock/la production
 

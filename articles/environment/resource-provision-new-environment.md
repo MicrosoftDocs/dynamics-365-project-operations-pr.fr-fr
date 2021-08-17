@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995483"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988558"
 ---
 # <a name="provision-a-new-environment"></a>Mettre en service un nouvel environnement
 
@@ -52,12 +52,12 @@ Utilisez les étapes suivantes pour activer le flux de mise en service automatis
 
 6. Sélectionnez le type d’environnement pour votre déploiement. Un essai basé sur un abonnement vous permettra de déployer un environnement CDS pendant 30 jours. 
 
-![Paramètres de déploiement](./media/1DeploymentSettings.png)
+![Paramètres de déploiement.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Sélectionnez **J’accepte** pour accepter les conditions d’utilisation, puis sélectionnez **Terminé** pour revenir aux paramètres de déploiement.
 
-![Consentement au déploiement](./media/2DeploymentConsent.png)
+![Consentement au déploiement.](./media/2DeploymentConsent.png)
 
 7. Facultatif – Appliquez les données de démonstration à l’environnement. Aller à **Réglages avancés**, sélectionnez **Personnaliser la configuration de SQL Database**, et définissez **Spécifier un jeu de données pour la base de données d’application** sur **Démo**.
 
@@ -67,7 +67,7 @@ Utilisez les étapes suivantes pour activer le flux de mise en service automatis
 
 9. Pour confirmer que l’environnement s’est déployé avec succès, sélectionnez **Connexion** et connectez-vous à l’environnement pour confirmer.
 
-![Détails de l’environnement](./media/3EnvironmentDetails.png)
+![Détails de l’environnement.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Appliquer des mises à jour à l’environnement Finance
 
@@ -77,19 +77,19 @@ Vous devrez peut-être appliquer des mises à jour de qualité à votre environn
 
 1. Dans LCS, sur la page **Détails de l’environnement**, dans la section **Mises à jour disponibles**, sélectionnez **Afficher la mise à jour**.
 
-![Afficher les mises à jour](./media/5ViewUpdates.png)
+![Affichez les mises à jour.](./media/5ViewUpdates.png)
 
 2. Sur la page **Mises à jour binaires**, cliquez sur **Enregistrer le package.**
 
-![Enregistrer le package](./media/6SavePackage.png)
+![Enregistrez le package.](./media/6SavePackage.png)
 
 3. Cliquez sur **Sélectionner tout** et **Enregistrer le package**.
 
-![Relire et enregistrer les mises à jour](./media/7ReviewAndSaveUpdates.png)
+![Relisez et enregistrez les mises à jour.](./media/7ReviewAndSaveUpdates.png)
 
 4. Saisissez un nom et une description du package, puis sélectionnez **Enregistrer**. Selon la connexion Internet, ce processus peut prendre un certain temps.
 
-![Charger le package dans la Bibliothèque d’actifs](./media/8UploadPackageToAssetsLibrary.png)
+![Chargez le package dans la Bibliothèque d’actifs.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Une fois le package enregistré, sélectionnez **Terminé** et enregistrez ce package dans la Bibliothèque d’actifs de votre projet LCS.
 
@@ -97,15 +97,15 @@ L’enregistrement et la validation du package peuvent prendre environ 15 minut
 
 6. Pour appliquer la mise à jour, accédez à la page **Détails de l’environnement** dans LCS, sélectionnez **Gérer** > **Appliquer les mises à jour**.
 
-![Gérer des environnements](./media/9MaintainEnvironment.png)
+![Gérez les environnements.](./media/9MaintainEnvironment.png)
 
 7. Dans la liste des mises à jour, sélectionnez le package que vous avez créé et sélectionnez **Appliquer**.
 
-![Appliquez les mises à jour](./media/10ApplyUpdates.png)
+![Appliquez les mises à jour.](./media/10ApplyUpdates.png)
 
 La maintenance de l’environnement prendra un certain temps. Une fois terminé, l’environnement retournera à un état déployé.
 
-![Environnement déployé](./media/11EnvironmentDeployed.png)
+![Environnement déployé.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Établir une connexion en double écriture 
 
@@ -113,41 +113,41 @@ La maintenance de l’environnement prendra un certain temps. Une fois terminé,
 2. Sous **Informations sur l’environnement Common Data Service**, sélectionnez **Lien vers CDS for Apps**.
 3. Une fois le lien créé, sélectionnez à nouveau **Lien vers CDS for Apps**. Vous serez redirigé vers Double écriture dans Finance.
 
-![Lien vers CDS](./media/12LinktoCDS.png)
+![Liez vers CDS.](./media/12LinktoCDS.png)
 
 4. Sélectionnez **Appliquer la solution** pour accéder aux entités qui seront mappées dans l’intégration.
 
-![Appliquer des solutions](./media/13ApplySolutions.png)
+![Appliquez les solutions.](./media/13ApplySolutions.png)
 
 5. Sélectionnez les deux solutions, **Dynamics 365 Finance and Operations Carte d’entité à double écriture** et **Dynamics 365 Project Operations Cartes d’entités à double écriture**, puis sélectionnez **Appliquer**.
 
-![Confirmer des solutions](./media/14ConfirmSolutions.png)
+![Confirmez les solutions.](./media/14ConfirmSolutions.png)
 
 Une fois les solutions appliquées, les entités Double écriture sont appliquées à l’environnement.
 
-![Application des solutions](./media/15ApplyingSolutions.png)
+![Application des solutions.](./media/15ApplyingSolutions.png)
 
 Une fois les entités appliquées, tous les mappages disponibles sont répertoriés dans l’environnement.
 
-![Mappages de double écriture](./media/15DWMappings.png)
+![Mappages de double écriture.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Actualiser les entités de données après la mise à jour
 
 1. Dans Finance, accédez à l’espace de travail **Gestion des données**.
 
-![Espace de travail de la gestion de données](./media/16DataManagement.png)
+![Espace de travail Gestion des données.](./media/16DataManagement.png)
 
 2. Sélectionnez la vignette **Paramètres du cadre**.
 
-![Paramètres du cadre](./media/17FrameworkParameters.png)
+![Paramètres du cadre.](./media/17FrameworkParameters.png)
 
 3. Sur la page **Paramètres d’entité**, sélectionnez **Actualiser la liste des entités**.
 
-![Actualiser la liste des entités](./media/18RefreshEntityList.png)
+![Actualisez la liste des entités.](./media/18RefreshEntityList.png)
 
 L’actualisation prendra environ 20 minutes. Vous recevrez une alerte lorsqu’elle sera terminée.
 
-![Confirmer l’actualisation](./media/19RefreshConfirmation.png)
+![Confirmez l’actualisation.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Mettre à jour les paramètres de sécurité sur Project Operations sur Dataverse
 
@@ -188,17 +188,17 @@ L’actualisation prendra environ 20 minutes. Vous recevrez une alerte lorsqu�
 4. Pour actualiser l’entité, sélectionnez le nom du mappage, puis sélectionnez **Actualiser les entités**. 
 
 
-![Actualiser le mappage](./media/20RefreshMapping.png)
+![Actualisez le mappage.](./media/20RefreshMapping.png)
 
 5. Une fois l’actualisation terminée, exécutez le mappage. Avant d’activer le mappage suivant, vérifiez que le mappage du tableau est dans un état de **En cours d’exécution**. L’exécution des mappages avec un plus grand nombre de prérequis peut prendre un certain temps.
 
 Pour exécuter un mappage avec des prérequis, activez le bouton de basculement **Afficher les mappages d’entités associés**. Si le tableau indique que **Synchronisation initiale préalable** est **Non**, vérifiez que l’indicateur **Synchronisation initiale** est **Désactivé** dans tous les mappages de prérequises avant de l’exécuter.
 
-![Exécuter le mappage](./media/21RunMap.png)
+![Exécutez le mappage.](./media/21RunMap.png)
 
 6. Validez que tous les mappages liés au projet sont en cours d’exécution.
 
-![Tous les mappages en cours d’exécution](./media/22AllMapsRunning.png)
+![Tous les mappages en cours d’exécution.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Appliquer les données de configuration dans CDS pour Project Operations (facultatif)

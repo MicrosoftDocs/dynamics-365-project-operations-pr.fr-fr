@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368473"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001968"
 ---
 # <a name="pricing-dimensions-overview"></a>Vue d’ensemble des dimensions de tarification
 
@@ -33,7 +33,7 @@ Pour cette raison, deux types de valeurs de dimension de tarification sont dispo
 
 Dynamics 365 Project Operations est fourni avec un ensemble par défaut de dimensions de tarification. Vous pouvez les consulter en accédant à **Project Operations** > **Paramètres**. Dans l’enregistrement du paramètre, dans l’onglet **Dimensions de tarification basées sur un montant**, vérifiez que le rôle, **msdyn_resourcecategory** et l’unité d’organisation d’allocation des ressources, **msdyn_organizationalunit**, contiennent les champs **Applicable aux ventes** et **Applicable aux coûts** définis sur **Oui**. Si ces champs sont activés, vous pouvez alors configurer le prix et le coût de chaque combinaison de rôle et d’unité d’organisation.
 
-![Capture d’écran des paramètres de Project Service avec « Applicable aux ventes » en surbrillance](media/PS-OOB-parameters.png)
+![Capture d’écran des paramètres de Project Service avec « Applicable aux ventes » en surbrillance.](media/PS-OOB-parameters.png)
 
 Si vous devez évaluer un prix ou un coût pour vos ressources en utilisant des attributs supplémentaires, vous pouvez créer des champs, des entités, et des dimensions personnalisés. Pour plus d’informations, voir les rubriques suivantes. 
   

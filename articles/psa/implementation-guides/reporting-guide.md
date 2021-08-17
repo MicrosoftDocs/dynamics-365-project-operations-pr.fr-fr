@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a366528fa54ed999a79f5adbda7ec478e4dda439
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dbfcbc724842a0c2dd507da63b45608f3a18b9eae489f72e2ec0bd50f9fd2f24
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007363"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985409"
 ---
 # <a name="reporting-guide"></a>Guide de création de rapports
 

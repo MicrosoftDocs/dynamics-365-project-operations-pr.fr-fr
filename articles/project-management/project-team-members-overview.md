@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: f46b71ece5f2573108def22224801dd960df00ae
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369238"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994003"
 ---
 # <a name="project-team-members"></a>les membres de l’équipe du projet ;
 

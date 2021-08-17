@@ -6,12 +6,12 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6c0347a880f59a220313d5d40d3246d6857c4c80
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 926346fc3b522c79ec2108d68b8be9314eb1751396a9f26b172f01bad87f5f40
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011728"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992248"
 ---
 # <a name="define-roles"></a>Définir les rôles
 

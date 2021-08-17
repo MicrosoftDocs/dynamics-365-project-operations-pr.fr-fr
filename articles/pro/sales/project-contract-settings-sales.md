@@ -6,12 +6,12 @@ ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1dd3be176bc8f87054c6cad3a958de233c874840
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994358"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995938"
 ---
 # <a name="header-details-for-project-contracts"></a>Détails d’en-tête pour les contrats de projet
 

@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 02a05de28a92d98b58245a70f456a9b144c8d5a1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994943"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001653"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Gérer plusieurs clients sur les devis de projet – Simplifié
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c0ea75d34047f7145466ab427d213c5df27fbed
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014563"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993868"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Planifiez votre travail dans Microsoft Project avec le module complémentaire Project Service
 

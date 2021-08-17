@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad25aba492b7902ddd8955be87f88f96f6d4508f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfb804945d15476fad29ce93d3f21adfbf2d950ace7b58f30911b36e494ff0c1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001198"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989412"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurer la facturation des projets intersociétés
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7a0722cc41c53635b689681aad889407b361b04f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 727f7139ec590ff2994d1ae7e7c5dddbd50a7733b0e5935f3fd6bdefde713713
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012403"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995353"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Créer des articles du catalogue de produits (Project Service)
 

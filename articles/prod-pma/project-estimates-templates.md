@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: a6955dcd1ebe494e0171c30ac4384089da6a8745
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999713"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988198"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronisez les estimations de projet directement depuis Project Service Automation vers Finance and Operations
 
@@ -38,7 +38,7 @@ La solution d’intégration Project Service Automation vers Finance utilise l
 
 L’illustration suivante montre comment les données sont synchronisées entre Project Service Automation et Finance.
 
-[![Flux de données pour l’intégration de Project Service Automation avec Finance](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Flux de données pour l’intégration de Project Service Automation avec Finance.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Estimations des heures du projet
 
@@ -95,7 +95,7 @@ Vous devez ajouter un filtre pour supprimer toutes les lignes contenant des cat�
 
 L’illustration suivante montre un exemple de mappage de tâches de modèle dans l’intégration de données. Le mappage affiche les informations de champ qui seront synchronisées de Project Service Automation vers Finance.
 
-[![Mappage de tâche de modèle dans l’intégration de données](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Mappage de tâches de modèles dans l’intégration de données.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>les estimations de dépense du projet.
 
@@ -165,9 +165,9 @@ autre **null**
 
 Les illustrations suivantes montrent des exemples de mappage de tâches de modèle dans l’intégration de données. Le mappage affiche les informations de champ qui seront synchronisées de Project Service Automation vers Finance.
 
-[![Mappage des modèles de transactions d’estimation de dépenses](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![Mappage de modèles de transactions d’estimation de dépenses.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![Mappage des modèles d’estimation de dépenses](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+[![Mappage de modèles d’estimation de dépenses.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

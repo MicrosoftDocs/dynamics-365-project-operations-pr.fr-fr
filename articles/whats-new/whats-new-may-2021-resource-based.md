@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 07ae18faef6acb9d64b889bbfdba89de0c96a453
-ms.sourcegitcommit: d48dce64f6c5b16db3250096715c9d9f92a81971
+ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6083923"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994678"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de mai 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 

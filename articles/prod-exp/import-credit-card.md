@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: edeab157aa2fa6cf518ad086b4c1f22c5b45fa04
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005158"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995848"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importer et gérer les transactions par carte de crédit
 

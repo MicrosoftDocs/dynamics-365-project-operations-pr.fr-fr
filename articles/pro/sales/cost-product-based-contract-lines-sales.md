@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9458a57863244a68359f57185325c03a46bd6569
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 55f74b016b55945433083e11902003cea99f1aa463264cdd95b0aad389592e20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003538"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997333"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Lignes de contrat basées sur les produits pour évaluation des coûts – Simplifié
 

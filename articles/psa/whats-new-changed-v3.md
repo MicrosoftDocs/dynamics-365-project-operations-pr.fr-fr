@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007003"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987073"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nouveautés ou modifications dans Project Service Automation version 3
 
@@ -36,7 +36,7 @@ Cette rubrique donne des informations sur les modifications de l’interface uti
 ## <a name="project-scheduling"></a>Planification de projet
 La planification de projet, qui était appelée Structure de répartition du travail (WBS) dans les versions précédentes, a été renommée Planification et est accessible en cliquant sur l’onglet **Planification**. 
 
-![Planification de projet](media/psa-schedule-01.png)
+![Planification de projet.](media/psa-schedule-01.png)
 
 Le planning a désormais une nouvelle surface d’interaction à la fois moderne et accessible. Cependant, le moteur de planification Project Service Automation sous-jacent n’a pas été modifié. Les boutons de commande du ruban de la grille de planification vous permettent d’interagir avec le planning comme dans la version précédente de Project Service Automation. Les modifications supplémentaires de la planification comprennent :
 
@@ -95,22 +95,22 @@ Lorsque vous avancez la planification d’un projet existant, les événements s
 ## <a name="estimates"></a>Estimations
 Les estimations ont été fractionnées en deux onglets, **Affectation de ressource** et **Estimations**. L’onglet **Affectation de ressource** contient les estimations de l’effort et affiche les affectations de ressource pour les tâches dans une vue par phases de temps. Vous pouvez modifier les estimations en fonction de ce que le moteur de planification a généré.
 
-![Onglet Affectation de ressource affichant les estimations de l’effort et les affectations de ressource pour les tâches](media/resource-assignments-tab-02.png)
+![Onglet Affectation de ressource affichant les estimations d’effort et les affectations de ressource pour les tâches.](media/resource-assignments-tab-02.png)
 
 L’onglet **Estimations** affiche les montants du coût et des ventes pour les affectations de ressource. Les montants sont en lecture seule. L’évaluation des coûts et la tarification des ventes sont désormais déterminées par les affectations des membres de l’équipe sur la planification. Cela signifie que si vous avez une tâche sans affectation, celle-ci s’affiche sous l’emplacement non affecté. Cela signifie également que sans **rôle**, qui est une dimension de tarification par défaut, aucun coût ou aucune vente estimé n’est possible si un client ou un contrat/devis est associé au projet. 
 
-![Onglet Estimations affichant les montants du coût et des ventes](media/estimates-tab-03.png)
+![Onglet Estimations affichant les montants du coût et des ventes.](media/estimates-tab-03.png)
   
 La catégorie est également prise en charge sur les tâches dans la vue Planification. Le regroupement par catégorie dans la vue des estimations par phases de temps offre une meilleure expérience, surtout lorsque des estimations des dépenses sont également disponibles dans votre projet. Les estimations des dépenses sont entrées à l’aide d’une grille dans un onglet distinct. 
 
 Les estimations des dépenses peuvent être entrées dans la grille de l’onglet **Estimations des dépenses**. 
 
-![Onglet Estimations des dépenses affichant la grille des estimations des dépenses](media/expense-estimates-tab-04.png)
+![Onglet Estimations des dépenses affichant la grille des estimations des dépenses.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Gestion des ressources
 Dans Project Service Automation version 3, avec la nouvelle interface utilisateur de Unified Client et les modifications de la relation entre les réservations et les affectations, la dotation d’un projet en ressources génériques ou réelles a considérablement changé par rapport à la version 2 et la version 1. Toutefois, les concepts des ressources réservables, à la fois **réelles** et **génériques** restent inchangés, de même que les membres de l’équipe, les besoins, les affectations et les réservations.   
 
-![Utilisation du sélecteur de ressources](media/resource-management-05.png)
+![Utilisation du sélecteur de ressources.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Affecter une ressource réservable réelle 
 Dans Project Service Automation version 3, les réservations et les affectations de tâches ne sont pas aussi étroitement liées que dans les versions précédentes de Project Service Automation. Vous pouvez utiliser la grille de l’équipe pour réserver un membre de l’équipe **réelle**, comme sur le marché.
@@ -136,7 +136,7 @@ Lorsqu’un besoin est satisfait avec plusieurs ressources, la ressource génér
 ### <a name="reconciliation"></a>Rapprochement
 L’onglet **Rapprochement** affiche les réservations et toutes les affectations pour chaque membre de l’équipe du projet. La vue affiche les heures dans les cellules qui peuvent représenter des périodes allant des mois jusqu’à des jours. Cette vue permet aux chefs de projet de rapprocher les réservations des membres de l’équipe et leurs affectations pour leur équipe de projet. Ceci est très utile, car les réservations et les affectations de tâche ne sont pas étroitement liées, ce qui offre plus de flexibilité lors de la planification d’un projet. 
 
-![Onglet Rapprochement affichant les réservations et les affectations pour les membre de l’équipe du projet](media/resource-reconciliation-tab-06.png)
+![Onglet Rapprochement affichant les réservations et les affectations pour les membre de l’équipe du projet.](media/resource-reconciliation-tab-06.png)
 
 Pour chaque ressource, la vue calcule la différence entre les réservations d’un membre de l’équipe et un cumul de ses affectations de tâche et affiche les deux différences suivantes qui peuvent se produire avec les réservations et les affectations dans un projet : 
 
@@ -151,21 +151,21 @@ Cette section donne des informations sur les modifications du temps, des dépens
 ### <a name="landing-page"></a>Page d’arrivée
 L’expérience d’entrée de temps personnalisée et non extensible a été déconseillée dans la version 3. À la place, il existe maintenant une expérience de grille native extensible et accessible. Vous pouvez accéder à la fonctionnalité d’entrée de temps en utilisant le plan de site à gauche. Avec ce changement, vous ne pourrez plus entrer le temps pour une semaine à la fois. À la place, vous devez créer une entrée de temps pour chaque jour dans la grille. Après avoir créé quelques entrées de temps, les utilisateurs peuvent créer des entrées de temps en bloc avec la fonction **Copier** expliquée plus loin dans cette rubrique. 
 
-![Page d’arrivée des entrées de temps](media/time-entry-landing-page-07.png)
+![Page d’arrivée des entrées de temps.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Créer des entrées de temps 
 Cliquez sur **Nouveau** dans le ruban pour ouvrir une page de création rapide d’une entrée de temps où vous entrez la durée en minutes, heures ou jours. Pour ce faire, commencez par taper h, m ou j avec la quantité.  
 
-![Création rapide d’une entrée de temps](media/quick-create-time-entry-08.png)
+![Création rapide d’une entrée de temps.](media/quick-create-time-entry-08.png)
 
 Les champs de recherche sont étayés par des vues système. Par exemple, une fois que vous avez entré les informations du projet, le champ **Tâche du projet** est défini par défaut sur la vue **Mes tâches du projet ouvertes**. Pour créer des entrées de temps pour les tâches qui ne sont pas affectées à l’utilisateur, cliquez sur **Modifier la vue** dans la boîte de dialogue de recherche et sélectionnez **Toutes les tâches du projet actives**. Une fois que l’entrée de temps a été créée et affichée dans la grille, vous pouvez modifier les valeurs de ligne directement dans la grille.  
 
 ### <a name="bulk-createcopy"></a>Création/copie en bloc 
 Après avoir créé quelques entrées de temps, vous pouvez utiliser la fonctionnalité de copie pour créer des entrées de temps supplémentaires en bloc. Cliquez sur **Copier** pour ouvrir la boîte de dialogue **Copier**. Dans **À partir de la période : Date de début**, définissez la plage de dates à partir de laquelle les périodes doivent être copiées. Dans **Vers la période : Date de début**, entrez la date pour laquelle les entrées de temps doivent être créées. Cliquez sur **Copier** pour copier les entrées de temps dans le jour correspondant de la semaine indiquée dans **Vers la période**. Par exemple, l’entrée de temps du lundi de la semaine dernière est copiée dans le lundi de la semaine indiquée dans **Vers la période**. 
 
-![Copier des entrées de temps en bloc](media/bulk-copy-time-entry-09.png)
+![Copier les entrées de temps en bloc.](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Importer des données 
+### <a name="import-data"></a>Importer les données 
 Les affectations et les échanges suivent le même modèle d’interface utilisateur, ce qui pemet à l’utilisateur de spécifier la plage de dates lorsque des réservations doivent être importées. Vous devez ensuite explicitement choisir les réservations qui doivent être copiées dans les entrées de temps **Brouillon**. Dans la version 3, vous ne pouvez plus afficher le modèle des entrées de temps **Suggérées** sur la grille et le calendrier.  
 
 ### <a name="change-in-calendar-control"></a>Modification du contrôle Calendrier
@@ -179,7 +179,7 @@ Dans la version 3, nous avons remplacé le contrôle Calendrier personnalisé e
 
 **Capturer des données dans les champs personnalisés de l’entrée de temps et de dépenses et les propager via des entités prenant en charge le flux d’envoi et d’approbation** - Le traitement normal des entrées de temps est illustré dans le diagramme suivant.
 
-![Traitement du flux d’une entrée de temps](media/process-time-entries-10.png)
+![Traitement du flux d’une entrée de temps.](media/process-time-entries-10.png)
 
 Si les exigences de l’entreprise stipulent que les entités de temps et de dépenses doivent capturer des dimensions de tarification personnalisées et propager les valeurs définies par une ressource d’entrée de temps dans la dimension de tarification personnalisée par le biais de toutes les entités décrites dans le graphique précédent, consultez [Configurer des champs personnalisés comme dimensions de tarification](set-up-pricing-dimensions.md)
 
@@ -236,7 +236,7 @@ Dans les versions 1 et 2, la configuration de l’exigibilité pour les rôles 
 
 À compter de la version 3, la configuration des options d’exigibilité par rôle et par catégorie de dépense est effectuée au niveau de la ligne de devis ou de contrat. La configuration de la tarification est séparée de la configuration de l’exigibilité. Vous trouverez les **Rôles facturables** et les **Catégories facturables** en tant qu’onglets dans les pages **Ligne de devis** et **Ligne de contrat** sans avoir à utiliser la barre de navigation supérieure.
 
-![Rôles facturables](media/chargeable-12.png)
+![Rôles facturables.](media/chargeable-12.png)
  
 La configuration des rôles facturables et des catégories facturables utilise également le contrôle de grille modifiable prédéfini. Pour chaque rôle et catégorie, les options prises en charge pour le type de facturation pendant la phase Devis et contrat restent inchangées (**Facturable** et **Non facturable**) par rapport aux versions antérieures. **Gratuit** n’est pas un type pris en charge pendant la phase Devis ou Contrat. **Gratuit** est pris en charge uniquement lors de l’approbation du temps ou des dépenses.  
  
@@ -247,11 +247,11 @@ Dans les versions 1 et 2, l’utilisation de tarifs personnalisés pour des dev
   
 Le graphique suivant s’affiche avant la création des tarifs personnalisés.
 
-![Avant les tarifs personnalisés](media/before-custom-price-lists-13.png)
+![Avant les tarifs personnalisés.](media/before-custom-price-lists-13.png)
 
 Le graphique suivant s’affiche après la création des tarifs personnalisés.
 
-![Après les tarifs personnalisés](media/after-custom-price-lists-14.png)
+![Après les tarifs personnalisés.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Un court décalage peut se produire entre le moment où vous cliquez sur **Créer des tarifs personnalisés** et le moment où les tarifs personnalisés sont créés. Nous vous recommandons d’actualiser la grille au lieu de cliquer à plusieures reprises. Les tarifs personnalisés ont été créés si le nom du devis ou le nom du contrat de projet est ajouté au nom des tarifs associés.

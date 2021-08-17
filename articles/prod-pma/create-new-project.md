@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006238"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985948"
 ---
 # <a name="create-a-new-project"></a>Créer un projet
 
@@ -51,7 +51,7 @@ Vous pouvez également attribuer des catégories à une ressource selon vos beso
 
 Un chef de projet peut utiliser la fonctionnalité de ressources de projet pour créer les rôles requis pour le projet. Les rôles peuvent être utilisés si les ressources confirmées sont toujours inconnues lorsque les ressources sont réservées. Les rôles peuvent être temporairement réservés en tant que ressources planifiées, afin que vous puissiez poursuivre les étapes de planification du projet.
 
-[![Exemple de rôle](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Exemple de rôle.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Scénario :** Contoso a été engagé pour mener à bien un projet en régie qui comporte une charte de projet approuvée. Le chef de projet junior est toujours en train de compléter la portée du projet. Le responsable des ressources identifie actuellement des ressources spécifiques qui seront réservées pour travailler sur le nouveau projet. En raison de la nature critique du projet, le commanditaire a demandé le chef de projet senior comme l’un des rôles. Le responsable des ressources doit acquérir la nouvelle ressource et définir le rôle dans le système au cas où le chef de projet junior aurait besoin des informations sur la ressource lors de la planification du projet.
 

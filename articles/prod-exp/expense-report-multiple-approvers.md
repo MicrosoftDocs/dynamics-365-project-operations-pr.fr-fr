@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c745dda957fab5acc464b9d1c774fcdc783cde40
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 437f782d6a30cb6369fb7c7a2b79e59509ef603446098389ce946be6427dee9d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005248"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995893"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Plusieurs approbateurs sur une note de frais
 

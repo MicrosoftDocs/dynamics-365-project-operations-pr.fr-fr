@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c1b6de7ff15a0902db90cfa80aff87141c65637
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 07c784222855c26a5715e4f3a69342ac79383b5d67c1095e880a4eb6102e6375
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008353"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984627"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Configurer les fréquences de facturation (Project Service)
 

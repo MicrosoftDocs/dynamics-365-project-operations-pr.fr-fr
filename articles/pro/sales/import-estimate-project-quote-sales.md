@@ -6,12 +6,12 @@ ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5cc1643751be25864e641ea297180fbefb1f2161
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: a5ac7827f3499aafb63f6bc0b8580ca52e883f272464532bd353170a12b3ae55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003268"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986128"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importer des estimations pour un projet vers une ligne de devis basée sur un projet 
 

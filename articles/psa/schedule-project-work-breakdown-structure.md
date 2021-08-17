@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 027bcbc8995ed39af78c7ff9b1028f401c3b0d4d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008578"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996793"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Planifier un projet avec une structure de répartition du travail (Project Service)
 

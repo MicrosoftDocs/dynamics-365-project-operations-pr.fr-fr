@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993289"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987703"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Comment attribuer une ressource réservable à une tâche dans l’application web (application Project Service v2.x) ?
 
@@ -43,7 +43,7 @@ Avec cette méthode vous ajoutez une ressource à l’équipe du projet puis att
 3.  Sélectionnez les dates **De** et **À**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Capture d’écran de l’ajout d’un membre de l’équipe](media/FAQ-Resources-to-Tasks2-1.png "Capture d’écran de l’ajout d’un membre de l’équipe")
+    > ![Capture d’écran de l’ajout d’un membre de l’équipe.](media/FAQ-Resources-to-Tasks2-1.png "Capture d’écran de l’ajout d’un membre de l’équipe")
  
 4.  Sélectionnez une des méthodes d’attribution suivantes pour réserver la ressource :
     - **Capacité maximale** réserve la capacité totale de la ressource pour les dates de début et de fin spécifiées.
@@ -63,12 +63,12 @@ Avec cette méthode vous ajoutez une ressource à l’équipe du projet puis att
     3. Sélectionnez **OK**. Le membre de l’équipe est maintenant attribué à la tâche.
 
     > [!div class="mx-imgBorder"] 
-    > ![Capture d’écran de l’ajout de ressources avec WBS](media/FAQ-Resources-to-Tasks2-2.png "Capture d’écran de l’ajout de ressources avec WBS")
+    > ![Capture d’écran de l’ajout de ressources avec WBS.](media/FAQ-Resources-to-Tasks2-2.png "Capture d’écran de l’ajout de ressources avec WBS")
  
 Dans la grille du membre de l’équipe, vous verrez l’agrégat des heures attribuées de la ressource sous Heures attribuées. Il est inférieur ou égal aux heures réservées pour la ressource. 
 
 > [!div class="mx-imgBorder"] 
-> ![Capture d’écran des heures attribuées pour une ressource](media/FAQ-Resources-to-Tasks2-3.png "Capture d’écran des heures attribuées pour une ressource")
+> ![Capture d’écran des heures attribuées pour une ressource.](media/FAQ-Resources-to-Tasks2-3.png "Capture d’écran des heures attribuées pour une ressource")
  
 Si la tâche que vous tentez d’attribuer à la ressource commence après la date de fin des réservations de ressources, la ressource n’apparaîtra pas dans la liste déroulante.
 
@@ -89,25 +89,25 @@ Cette méthode vous assurer que les ressources ont suffisamment de réservations
 1. Dans la structure de répartition du travail, sélectionnez une tâche.
 2. Sélectionnez l’icône de menu déroulant **Rôle attribué** dans la cellule de ressource.
 3. Sélectionnez le menu déroulant **Rôle** et sélectionnez le rôle pour la ressource générique.
-4. Sélectionnez **OK**.
+4. Cliquez sur **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Capture d’écran de l’utilisation de WBS pour ajouter une ressource](media/FAQ-Resources-to-Tasks2-4.png "Capture d’écran de l’utilisation de WBS pour ajouter une ressource")
+    > ![Capture d’écran de l’utilisation de WBS pour ajouter une ressource.](media/FAQ-Resources-to-Tasks2-4.png "Capture d’écran de l’utilisation de WBS pour ajouter une ressource")
  
 Une fois que vous avez terminé d’attribuer des rôles aux tâches dans la WBS, sélectionnez **Générer une équipe de projet**. Project Service crée le nombre minimal de membres d’équipe génériques selon les rôles, les unités d’organisation d’allocation des ressources, et le calendrier de projet en regroupant les attributions des tâches.
 
 > [!div class="mx-imgBorder"] 
-> ![Capture d’écran de la génération de l’équipe du projet](media/FAQ-Resources-to-Tasks2-5.png "Capture d’écran de la génération de l’équipe du projet")
+> ![Capture d’écran de la génération de l’équipe du projet.](media/FAQ-Resources-to-Tasks2-5.png "Capture d’écran de la génération de l’équipe du projet")
  
 Dans la grille du membre de l’équipe, vous verrez des ressources de type de ressource générique avec le nom de rôle et de poste. Si deux ressources sont nécessaires pour qu’un rôle termine le travail, la fonctionnalité Générer une équipe crée deux membres d’équipe et utilise les noms de poste pour les distinguer.
 
 > [!div class="mx-imgBorder"] 
-> ![Capture d’écran de l’ajout de deux ressources génériques](media/FAQ-Resources-to-Tasks2-6.png "Capture d’écran de l’ajout de deux ressources génériques")
+> ![Capture d’écran de l’ajout de deux ressources génériques.](media/FAQ-Resources-to-Tasks2-6.png "Capture d’écran de l’ajout de deux ressources génériques")
  
 Vous pouvez ouvrir le besoin en ressources de sauvegarde pour le membre de l’équipe générique en sélectionnant le lien sous Besoin en ressources.
 
 > [!div class="mx-imgBorder"] 
-> ![Capture d’écran de l’ouverture des ressources de sauvegarde requises](media/FAQ-Resources-to-Tasks2-7.png "Capture d’écran de l’ouverture des ressources de sauvegarde requises")
+> ![Capture d’écran de l’ouverture des ressources de sauvegarde requises.](media/FAQ-Resources-to-Tasks2-7.png "Capture d’écran de l’ouverture des ressources de sauvegarde requises")
 
 Sélectionnez **Réserver** pour la ressource générique, puis utilisez le tableau de planification pour rechercher et réserver une ressource réelle. Vous pouvez également envoyer le besoin pour exécution par un gestionnaire des ressources en sélectionnant **Envoyer la demande**.
 

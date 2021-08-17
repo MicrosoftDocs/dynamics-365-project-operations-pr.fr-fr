@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015058"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985498"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturation dans Project Service Automation
 
@@ -50,15 +50,15 @@ Pour créer une facture pour un contrat de projet spécifique, procédez comme s
 
 - Dans la page de liste **Contrats de projets**, ouvrez un contrat de projet, puis sélectionnez **Créer une facture**.
 
-    ![Création de factures de projets pour un contrat de projet spécifique](media/CreateProjectInvoicesOneByOne.png)
+    ![Création des factures du projet pour un contrat de projet spécifique.](media/CreateProjectInvoicesOneByOne.png)
 
-    Une facture est générée pour toutes les transactions du contrat de projet sélectionné ayant le statut **Prêt pour la facturation**. Ces transactions comprennent le temps, les dépenses, les jalons et les lignes de contrat basées sur les produits.
+    Une facture est générée pour toutes les transactions du contrat de projet sélectionné dont le statut est **Prêt pour la facturation**. Ces transactions comprennent le temps, les dépenses, les jalons et les lignes de contrat basées sur les produits.
 
 Pour créer des factures en bloc, procédez comme suit :
 
-1. Dans la page de liste **Contrats de projets**, sélectionnez un ou plusieurs contrats de projets pour lesquels créer une facture, puis sélectionnez **Créer des factures de projet**.
+1. Sur la page de liste **Contrats de projet**, sélectionnez un ou plusieurs contrats de projet pour lesquels vous devez créer une facture, puis cliquez sur **Créer des factures de projet**.
 
-    ![Création de factures de projet en bloc](media/CreateProjectInvoicesBulk.png)
+    ![Création des factures du projet en bloc.](media/CreateProjectInvoicesBulk.png)
 
     Un message d’avertissement vous informe que cela peut entraîner un retard avant la création des factures. Le processus est également affiché.
 

@@ -16,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: c6d849e4be9e3687396cd6a0c4158d92f25c7879
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012043"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995398"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Corrections en masse des chiffres réels créés par des entrées de temps et de dépenses approuvées
 
@@ -62,7 +62,7 @@ Effectuez les étapes suivantes pour corriger des entrées de temps individuelle
 
 Par exemple, dans le graphique suivant, deux éléments de ligne dont la quantité est 8,00 ont des débits répertoriés dans la colonne Montant. En outre, deux éléments de ligne dont la quantité est -8,00 indiquent des montants crédités dans la colonne Montant. Ces corrections ramènent la quantité à zéro.
 
-![Liste de la vue Chiffre réel associée](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Liste de la vue Chiffre réel associée.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Corriger les entrées de dépense approuvées
 
@@ -87,7 +87,7 @@ Effectuez les étapes suivantes pour corriger une ou plusieurs entrées de dépe
 
 8. Dans la page du projet, sur l’onglet **Chiffres réels**, passez en revue **Vue associée Chiffre réel**. Les entrées originales et les entrées corrigées sont répertoriées. Le graphique suivant montre les montants d’entrée des dépenses d’origine et ceux des dépenses corrigées correspondants. 
 
-![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![Expense_actuals.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

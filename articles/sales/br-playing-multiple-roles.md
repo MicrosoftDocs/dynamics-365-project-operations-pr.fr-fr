@@ -6,12 +6,12 @@ ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7ef9765b7db1c6650fb0599bf5fb4b4b6304be69
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013663"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990133"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Estimer les ventes et les coûts du projet lorsqu’une ressource réservable remplit plusieurs rôles sur un projet 
 

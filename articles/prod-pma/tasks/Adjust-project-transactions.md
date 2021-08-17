@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c02816ceb5b75e00abfe54b1741fddc9e0917873
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 92f5f998d7ecaed724298be16ff8680e56ee77d77a4ee3b7ba83fa5a8a1a4787
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997058"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985903"
 ---
 # <a name="adjust-project-transactions"></a>Ajuster les transactions du projet
 

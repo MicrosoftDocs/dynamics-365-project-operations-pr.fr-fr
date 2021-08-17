@@ -6,12 +6,12 @@ ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e00299b5717d0ae21ee8ca757239d8ce864f309
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003628"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991438"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Concepts uniques aux contrats de projet
 

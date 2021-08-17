@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bed1ac33dbb51113d25e360eed204e02b439b257
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7b8781c177ac2cc2b01b3fc3a73f461cadec4aa2a7d27205361bd6681994c240
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007768"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995308"
 ---
 # <a name="time-and-expense-changes-project-service-automation-3x"></a>Modifications du temps et des dépenses (Project Service Automation 3.x)
 

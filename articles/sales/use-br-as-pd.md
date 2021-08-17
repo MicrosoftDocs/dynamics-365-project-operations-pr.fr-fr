@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011188"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996253"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Utiliser une ressource réservable comme dimension de tarification
 
@@ -64,18 +64,18 @@ L’enregistrement de la dimension de tarification pour **msydn_bookableresource
 1. Double-cliquez sur la ligne dans la grille **Dimensions de tarification** pour ouvrir la page de dimension **msdyn_bookableresource**.
 2. Sur la page Dimension, dans l’onglet **Association**, sélectionnez **Noms des champs Dimension de tarification**.
 
-  ![Onglet Noms des champs Dimension de tarification](media/PD-fieldname.png)
+  ![Onglet Noms des champs Dimension de tarification.](media/PD-fieldname.png)
 
 3. Dans la vue associée qui apparaît, sélectionnez **Ajouter le nouveau nom de champ Dimension de tarification**.
 
-  ![Ajouter le nouveau nom de champ Dimension de tarification](media/Add-NewPD-fieldname.png)
+  ![Ajoutez les nouveaux noms de champ Dimension de tarification.](media/Add-NewPD-fieldname.png)
 
   Cela ouvre la page **Nouveau nom du champ Dimension de tarification** pour **msdyn_bookableresource**. 
 
 4. Sur la page **Nouveau nom de champ de dimension de tarification**, ajoutez **msdyn_projectteam** à **Nom logique d’entité**.
 5. Ajoutez **msdyn_bookableresourceid** à **Nom de domaine**.
 
- ![Formulaire Nouveau nom de champ Dimension de tarification](media/PD-fieldname-Added.png)
+ ![Formulaire Nouveau nom de champ Dimension de tarification.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

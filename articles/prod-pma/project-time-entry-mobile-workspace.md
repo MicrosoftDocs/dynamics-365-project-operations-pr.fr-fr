@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009928"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989548"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Espace de travail mobile de saisie des heures de projet
 
@@ -94,7 +94,7 @@ Télécharger et installer l’application mobile Finance and Operations :
 3.  La première fois que vous vous connectez, vous êtes invité à saisir votre nom d’utilisateur et votre mot de passe. Entrez vos informations d’identification.
 4.  Une fois connecté, les espaces de travail disponibles pour votre entreprise s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devez actualiser la liste des espaces de travail mobiles.
 
-[![Balayer pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Balayer pour actualiser.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Saisir les heures à l’aide de l’espace de travail mobile de saisie des heures de projet
 1.  Sur votre appareil mobile, sélectionnez l’espace de travail **Saisie des heures de projet**.

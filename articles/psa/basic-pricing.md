@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014968"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000573"
 ---
 # <a name="project-pricing"></a>Tarification de projet 
 
@@ -46,7 +46,7 @@ L’entité Tarifs comporte trois tables associées qui stockent des prix :
   - **Prix de la catégorie de transaction** : Cette table stocke les prix par catégorie de transaction et est utilisée pour définir les prix des catégories de dépenses.
   - **Éléments tarifaires** : Cette table stocke les prix des produits du catalogue.
 
-> ![Configuration des prix en utilisant des tarifs](media/basic-guide-12.png)
+> ![Configuration des prix en utilisant des tarifs.](media/basic-guide-12.png)
  
 Les tarifs sont une carte de tarifs. Une carte de tarifs est une combinaison de l’entité Tarifs et des lignes associées dans les tables Prix du rôle, Prix de la catégorie de la transaction et Éléments tarifaires.
 
@@ -58,7 +58,7 @@ Le temps des ressources humaines est généralement estimé dans le devis selon 
 
 Le groupe d’unités **Temps** est créé lorsque PSA est installé. Son unité par défaut est **Heure**. Vous ne pouvez pas supprimer, renommer, ou modifier les attributs du groupe d’unités **Temps** ou l’unité **Heure**. Cependant, vous pouvez ajouter d’autres unités au groupe d’unités **Temps**. Si vous essayez de supprimer le groupe d’unités **Temps** ou l’unité **Heure**, cela peut entraîner des défaillances dans la logique métier PSA.
 
-> ![Configuration des prix par rôle](media/basic-guide-13.png)
+> ![Configuration des prix par rôle.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Catégories de transactions et catégories de dépenses
 
@@ -68,7 +68,7 @@ Les voyages et autres dépenses encourus par les consultants de projet sont gén
 - **Pourcentage de majoration** : Le pourcentage sur le coût réel est facturé au client. 
 - **Prix unitaire** : Le prix de facturation est défini par unité de la catégorie de dépenses. Le montant facturé au client est calculé selon le nombre d’unités de dépenses que le consultant signale. Le kilométrage utilise le mode de tarification de prix unitaire. Par exemple, la catégorie de dépenses de kilométrage peut être configurée pour 30 dollars américains (USD) par jour ou 2 USD par mile. Lorsqu’un consultant enregistre le kilométrage d’un projet, le montant à facturer est calculé selon le nombre de miles que le consultant a signalés.
 
-> ![Configuration de la tarification pour les catégories de dépenses](media/basic-guide-14.png)
+> ![Configuration de la tarification pour les catégories de dépenses.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Tarification et remplacements de ventes du projet
 
@@ -114,7 +114,7 @@ Toutefois, dans un devis, vous pouvez utiliser un tarif principal. Par ailleurs,
 
 Lorsque vous créez un tarif personnalisé de projet, seuls les composants de projet des tarifs sont copiés. En d’autres termes, des tarifs créés comme copie du tarif existant de projet attaché au devis, et ce nouveau tarif est associé uniquement aux prix des rôles et aux prix des catégories de transactions.
 
-> ![Affichage et configuration de la tarification personnalisée d’un contrat de projet](media/basic-guide-15.png)
+> ![Affichage et configuration de la tarification personnalisée d’un contrat de projet.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Suivi des coûts
 
@@ -128,7 +128,7 @@ Comme les taux de factures, les taux de coûts pour les ressources humaines sont
 
     1. La liste de prix de revient qui est jointe à l’unité d’organisation.
     2. La liste de prix de revient qui est jointe aux paramètres Project Service. Étant donné que les listes de prix de revient dans de nombreux différentes devises peuvent être attachées aux paramètres Project Service, PSA crée une correspondance de devise entre la devise de l’unité d’organisation contractuelle du projet, du contrat ou du devis, et la devise de la liste de prix de revient.
-    3. Pour les dépenses, les modes de tarification À prix coûtant et Majoration du coût ne s’appliquent pas aux listes de prix de revient. Même si ces modes de tarification sont utilisés sur la liste de prix de revient pour configurer les coûts des catégories de transactions, le système les ignore, et aucun prix de revient par défaut n’est entré.
+    3. Pour les dépenses, les modes de tarification À prix coûtant et Majoration du coût ne s’appliquent pas aux listes de prix de revient. Même si ces modes de tarification sont utilisés sur la liste de prix de revient pour configurer les coûts des catégories de transactions, le système les ignore, et aucun prix de revient par défaut n′est entré.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

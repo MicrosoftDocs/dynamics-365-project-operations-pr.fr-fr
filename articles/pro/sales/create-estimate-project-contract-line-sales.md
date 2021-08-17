@@ -6,12 +6,12 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e745bb5cb8e620e54f236aabdc006414c21290d3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 747a1abe5630cac3dc074eba3a469d8d858c5ef244b59e26921e35afa61645df
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003382"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999088"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Estimer une ligne de contrat basée sur un projet– Simplifié
 

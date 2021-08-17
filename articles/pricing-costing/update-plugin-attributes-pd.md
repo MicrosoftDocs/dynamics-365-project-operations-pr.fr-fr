@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 54b87a993929edbf89ef48741ba0a06c6c42ec4e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004618"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988333"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Mettre à jour les attributs de plug-in avec de nouvelles dimensions de tarification
 

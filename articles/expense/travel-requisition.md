@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: e05f54349eaa09dd22331ff07950542dd326e711
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f00b5ca2142c4ba5cb523773f1f6dd8f0a055f6f6d474bc2b8e5f775ca0fc739
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001738"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994543"
 ---
 # <a name="travel-requisitions"></a>Demandes de déplacement
 

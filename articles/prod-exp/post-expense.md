@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24dd945ea7ea73b37806e209a90d5301ac09d956
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e6df49bb6831b08611b05e02bbb1a5a2a80a34193497e3020ccddd5370cf37a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005788"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993013"
 ---
 # <a name="post-an-expense-report"></a>Publier une note de frais
 

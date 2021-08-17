@@ -6,12 +6,12 @@ ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116704"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987748"
 ---
 # <a name="scheduling-modes"></a>Modes de planification
 

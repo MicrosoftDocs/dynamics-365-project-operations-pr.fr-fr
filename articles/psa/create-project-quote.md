@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 40c57aa5e80416659e620ca016631a32d2d81b8d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8a7907ee4c85c2993e86abec11fc11d2fe82a3e0ca435b25c7a213bbce931e73
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997283"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000348"
 ---
 # <a name="create-a-project-quote-project-service"></a>Créer un devis de projet (Project Service)
 

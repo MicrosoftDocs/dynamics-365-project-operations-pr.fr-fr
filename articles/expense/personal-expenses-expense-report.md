@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025681"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993148"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Utiliser les dépenses personnelles sur une note de frais
 

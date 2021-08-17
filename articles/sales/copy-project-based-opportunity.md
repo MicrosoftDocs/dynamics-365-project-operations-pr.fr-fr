@@ -6,12 +6,12 @@ ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae724d18e768b838f388b6fd089bfa657c937da1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013438"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999718"
 ---
 # <a name="copy-project-based-opportunities"></a>Copier des opportunités basées sur des projets
 

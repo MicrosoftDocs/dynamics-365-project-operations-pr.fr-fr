@@ -6,12 +6,12 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 926581f877f91e3a351d51cac9c2b1daba035126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7fcc7feaa9fc8d53046f54576e20989318dc3ec939569ea3844b18097512a24b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994898"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001608"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Gérer les tarifs des projets sur les devis de projet 
 

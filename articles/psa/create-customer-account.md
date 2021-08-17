@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6dd844d03ddca1d717d1dedefe44679ef14adca7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1d622dd2eb936611015fedd43925296313221435b9183c6d94bc6e6538518770
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014428"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002733"
 ---
 # <a name="create-a-customer-account-project-service"></a>Créer un compte client (Project Service)
 

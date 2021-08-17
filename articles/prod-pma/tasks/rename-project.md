@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53fa9547c6cf8439fc61118c0922f5f15800f7c8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 664c1044c1ff23e892d7f90d255517b22cfa1a5656670efa1bf15339c5ae2112
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011863"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998908"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Renommer ou modifier une étape de projet
 

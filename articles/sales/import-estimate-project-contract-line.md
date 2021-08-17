@@ -6,12 +6,12 @@ ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f8d9637e4a8bd09664c43ccc2b02514dc825997e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010243"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990088"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importer une estimation vers une ligne de contrat basée sur un projet
 

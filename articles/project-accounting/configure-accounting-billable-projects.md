@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012583"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991032"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurer la comptabilité des projets facturables
 
@@ -101,23 +101,23 @@ Effectuez les étapes suivantes pour créer un profil de coût et de revenu du p
 
 Temps et matériel – aucun TEC
 
-![Profil des coûts et des revenus : Temps et matériel – aucun TEC](media/time-material-no-wip.png)
+![Profil des coûts et des revenus : Temps et matériel – aucun TEC.](media/time-material-no-wip.png)
 
 Temps et matériel – TEC (revenu)
 
-![Profil des coûts et des revenus : Temps et matériel – TEC](media/time-material-with-wip.png)
+![Profil des coûts et des revenus : Temps et matériel – TEC.](media/time-material-with-wip.png)
 
 Prix fixe – aucun TEC
 
-![Profil de coût et de revenu : Prix fixe – aucun TEC](media/fixed-price-no-wip.png)
+![Profil de coût et de revenu : Prix fixe – aucun TEC.](media/fixed-price-no-wip.png)
 
 Prix fixe – contrat terminé
 
-![Profil de coût et de revenu : Prix fixe – contrat terminé](media/fixed-price-completed-contract.png)
+![Profil de coût et de revenu : Prix fixe – contrat terminé.](media/fixed-price-completed-contract.png)
 
 Prix fixe – pourcentage d’achèvement
 
-![Profil de coût et de revenu : Prix fixe – pourcentage d’achèvement](media/fixed-price-completed-percentage.png)
+![Profil de coût et de revenu : Prix fixe – pourcentage d’achèvement.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Exemples d’événement comptable pour les exemples de profils de coûts et de revenus du projet.

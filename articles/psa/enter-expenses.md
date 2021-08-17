@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: faa6f44e184af016227fcd9fec5d7dae15bd250f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b13aafffc2f418915ee7da7e3c9ec49230ec92d896cf8465557347c269df57f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007678"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988831"
 ---
 # <a name="enter-expenses-project-service"></a>Entrer les dépenses (Project Service)
 

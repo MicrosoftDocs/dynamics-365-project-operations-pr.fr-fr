@@ -6,12 +6,12 @@ ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c7c932ec379e004f58727912920aba114f4cfbca
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 0c5e7b1ab03a170ca95a005985a13aaff7494f95ca15cf1ce726674ae9a14222
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004798"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986218"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurer les taux de coûts et de vente pour les dépenses
 

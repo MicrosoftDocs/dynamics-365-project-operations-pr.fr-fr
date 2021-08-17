@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009163"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002553"
 ---
 # <a name="project-costs-and-revenue"></a>Revenu et coûts du projet
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009163"
 
 Les estimations du projet fournissent une vue financière de la tâche qui est prévue et planifiée dans la planification du projet. L’onglet **Estimations** sur la page **Projets** affiche l’impact du coût et du revenu du travail que vous envisagez. Il fournit également des informations sur de nombreuses dimensions prédéfinies. 
 
-> ![Onglet Estimations](media/project-5.png)
+> ![Onglet Estimations.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Valeurs de coût et de vente du projet
 
@@ -66,13 +66,13 @@ Si le système ne trouve pas de prix pour le rôle, le prix de ventes sur la lig
 
 L’onglet **Estimations** offre une vue de grille montrant les lignes d’estimation. La grille contient des colonnes pour l’unité, le prix de revient total et le prix de ventes total, comme présenté dans l’illustration qui suit. 
 
-> ![Vue de grille de l’onglet Estimations](media/project-6.png)
+> ![Vue de grille sur l’onglet Estimations.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Vue par phases de temps des estimations du projet
 
 La vue par phases de temps des estimations du projet affiche les estimations de données de la vue de grille entre la chronologie, à une échelle de temps que vous sélectionnez. Par défaut, les données d’estimation sont pivotées sur la dimension **Rôle**.
 
-> ![Vue par phases de temps pour les estimations du projet](media/project-7.png)
+> ![Vue par phases de temps pour les estimations du projet.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Allocation de l’effort estimé basée sur le mode de tâche
 

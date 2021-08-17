@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: 8b904f9abd3d2505c5397906f63a5ae8ff4be41b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 871597b38d72d2b670c375d2a1711a6022e3446ba3955a3d2a233a6486d85f5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369823"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003318"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Vue d’ensemble des lignes du devis basées sur les produits – Simplifié
 

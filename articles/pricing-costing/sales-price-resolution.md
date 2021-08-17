@@ -6,12 +6,12 @@ ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf0d92c08cb32d7bddb72246623b608831ff883e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b78d0f970f942513ecb6911d64fcffa629567f93f1a763eef20ca168080e4d02
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004843"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986263"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Résoudre les prix de vente pour les estimations et les chiffres réels
 

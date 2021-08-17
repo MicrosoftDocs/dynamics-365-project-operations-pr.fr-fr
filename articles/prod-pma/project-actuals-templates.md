@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999893"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988108"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronisez les données réelles du projet directement depuis Project Service Automation vers le journal d’intégration de projet pour les enregistrer dans Finance and Operations
 
@@ -42,7 +42,7 @@ La solution d’intégration Project Service Automation vers Finance utilise l
 
 L’illustration suivante montre comment les données sont synchronisées entre Project Service Automation et Finance.
 
-[![Flux de données pour l’intégration de Project Service Automation avec Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Flux de données pour l’intégration de Project Service Automation avec Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Chiffres réels du projet depuis Project Service Automation
 
@@ -93,9 +93,9 @@ Pour mettre à jour la colonne conditionnelle insérée dans le modèle, cliquez
 
 Les illustrations suivantes montrent un exemple de mappage de tâches de modèle dans l’intégration de données. Le mappage affiche les informations de champ qui seront synchronisées de Project Service Automation vers Finance.
 
-[![Cartographie des modèles - Chiffres réels](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Mappage de modèles - Chiffres réels.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Cartographie des modèles - Connexions de transactions](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Mappage de modèles - Connexions de transactions.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importer à partir de la table de préparation après l’intégration à partir de Project Service Automation
 
@@ -135,9 +135,9 @@ Dans le modèle de mise à jour des chiffres réels du projet, vous devez utilis
 
 Les illustrations suivantes montrent des exemples de mappage de tâches de modèle dans l’intégration de données. Le mappage affiche les informations de champ qui seront synchronisées de Finance vers Project Service Automation.
 
-[![Cartographie des modèles - Mise à jour des chiffres réels](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Mappage de modèles - Mise à jour des chiffres réels.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Cartographie des modèles - Mise à jour des transactions](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Mappage de modèles - Mise à jour des transactions.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

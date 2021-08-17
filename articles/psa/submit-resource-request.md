@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013168"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985003"
 ---
 # <a name="submitting-a-resource-request"></a>Envoi d’une demande de ressource
 
@@ -34,9 +34,9 @@ Vous pouvez envoyer un besoin en ressources généré en tant que demande de res
 1. Dans Project Service Automation (PSA), dans la page **Projets**, cliquez sur l’onglet **Équipe** pour afficher la liste des ressources réservables. 
 2. Sélectionnez la ressource générique qui a un besoin en ressources dans la liste, puis cliquez sur **Envoyer la demande**.
 
-![Envoi d’une demande de ressource](media/RM-how-to-18.png)
+![Envoi d’une demande de ressource.](media/RM-how-to-18.png)
 
-Le statut de la demande du membre de l’équipe générique passe à **Envoyé**.
+Le statut de la demande du membre d’équipe générique deviendra **Soumis**.
 
 Une fois la demande traitée par le gestionnaire de ressources, la ressource générique est remplacée par une ressource nommée si le gestionnaire de ressources traite la demande avec la réservation d’une ressource nommée. Sinon, la ressource générique reste dans l’équipe et le statut de la demande passe à **Révision nécessaire**, si le gestionnaire de ressources a proposé une ressource nommée.
 

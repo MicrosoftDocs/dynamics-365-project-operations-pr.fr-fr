@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007273"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985543"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installation d’exemples de données pour l’application Project Service
 
@@ -86,7 +86,7 @@ Vous devez prévoir que l’ordinateur reste connecté à un réseau, et pour qu
 L’ordinateur doit avoir la fonction d’économiseur d’écran désactivée. Sinon, les informations d’identification de session pour l’installation peuvent être perdues lorsque l’économiseur d’écran s’active (sauf si vous conservez une session active tout du long).
 
 > [!div class="mx-imgBorder"]
-> ![Capture d’écran des paramètres de l’économiseur d’écran, avec l’économiseur d’écran désactivé](media/sample-data-1.png)
+> ![Capture d’écran des paramètres de l’économiseur d’écran, avec l’économiseur d’écran désactivé.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Téléchargez et décompresser
 
@@ -142,7 +142,7 @@ Le package de données de démonstration nécessite six utilisateurs. Pour que l
 3. Ouvrez **PkgFolder** puis recherchez et ouvrez **ImportUserMapFile.xml**. Mettez à jour les champs **New=** avec les adresses de messagerie des utilisateurs correspondants dans votre système.
 
    > [!div class="mx-imgBorder"]
-   > ![Capture d’écran de UserMapFile](media/sample-data-7.png)
+   > ![Capture d’écran de UserMapFile.](media/sample-data-7.png)
 
 4. Si votre utilisateur avec le nom complet « Spencer Low » a ID utilisateur autre que **« spencerl »**, vous devez mettre à jour un fichier supplémentaire. Ouvrez **DemoDataPreImportConfig.xml** et rechercher la balise **userstocreateandconfigure**. Mettez à jour la balise **\<login\>** avec le loginId (sensible à la casse). 
 
@@ -172,7 +172,7 @@ Le package de données de démonstration nécessite six utilisateurs. Pour que l
 5. Sélectionnez **Suivant** jusqu’à ce que la boîte de dialogue **Paramétrage de données de démonstration** s’affiche.
 
    > [!div class="mx-imgBorder"]
-   > ![Capture d’écran de la fenêtre du statut du programme d’installation des données de démonstration](media/sample-data-3.png)
+   > ![Capture d’écran de la fenêtre du statut du programme d’installation des données de démonstration.](media/sample-data-3.png)
 
 6. Avant de continuer, notez que l’installation des exemples de données peut prendre jusqu’à une heure (normalement ~10 minutes). Vous devrez vous assurer que l’ordinateur reste activé et connecté à un réseau tout au long du processus d’installation, et que votre session reste active.   
 
@@ -191,10 +191,10 @@ Une fois les exemples de données complètement chargées, connectez-vous comme 
 - Si l’application Field Service est installée, accédez à **Project Service** > **Paramètres** > **Tarifs**. Vérifiez que vos taux de factures et de coûts existent. Accédez à **Field Service** > **Paramètres** > **Tarifs** et vérifiez que vos taux de factures et de coûts existent, avec la devise appropriée, pour chaque pays/région dans le jeu de données.
 
   > [!div class="mx-imgBorder"]
-  > ![Capture d’écran des tarifs actifs](media/sample-data-4.png)
+  > ![Capture d’écran des tarifs actifs.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Capture d’écran des unités d’organisation actives](media/sample-data-5.png)
+  > ![Capture d’écran des unités d’organisation actives.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Notes techniques
 
@@ -295,7 +295,7 @@ Si vous devez modifier les heures de travail pour des exemples de ressources pou
 Sélectionnez un utilisateur (par exemple, Spencer Low) et modifiez les heures de travail de Spencer avec les heures que vous souhaitez appliquer à plusieurs utilisateurs. Accédez à **Universal Resource Scheduling** > **Paramètres** > **Modèles d’heures de travail** et modifiez l’enregistrement **Modèle de travail par défaut**. Dans le champ **Modèle de ressource**, sélectionnez un utilisateur avec les heures de travail à appliquer à d’autres ressources. Accédez à **Universal Resource Scheduling** > **Planification** > **Ressources** > **Ressources pouvant être réservées actives**. Sélectionnez les ressources à modifier, puis sélectionnez **Définir le calendrier**. Dans la liste déroulante **Modèle d’emploi**, sélectionnez le modèle **Heure de travail par défaut** ou un autre modèle avec la ressource de création de modèles correcte. Lorsque vous accédez au tableau de planification, vous devriez voir maintenant que les ressources ont mis à jour les heures de travail.
 
 > [!div class="mx-imgBorder"]
-> ![Capture d’écran de ressources pouvant être réservées actives](media/sample-data-6.png)
+> ![Capture d’écran de ressources pouvant être réservées actives.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

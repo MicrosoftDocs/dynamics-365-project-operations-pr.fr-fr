@@ -6,12 +6,12 @@ ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3deea480222af00ee49a34bd49c7c951937323f0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004753"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999178"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Configurer les taux de coûts et de vente pour le matériel
 

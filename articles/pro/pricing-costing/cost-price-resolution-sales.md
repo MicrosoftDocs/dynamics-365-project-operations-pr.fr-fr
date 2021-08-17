@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6b42bc97251aec7259d314fe51b3a012edf597aa
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: a2a2df7672118a4a4d7748795174e8e8238dd7618a48437185879e06a253a381
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004393"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997558"
 ---
 # <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Résoudre les prix de revient pour les estimations de projet et les chiffres réels 
 

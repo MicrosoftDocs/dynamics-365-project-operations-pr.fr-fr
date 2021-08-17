@@ -6,12 +6,12 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c933a3800aae72624dbcbe3f06df20e5981d74d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ec8a999142fd9960c79ef981e499ae840642e57b269c83d201d2db006179de09
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003763"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995983"
 ---
 # <a name="configure-the-chargeable-components-of-a-quote-line"></a>Configurer les composants facturables d’une ligne de devis 
 

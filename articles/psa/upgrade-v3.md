@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014878"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000078"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considérations relatives à la mise à niveau - PSA version 2.x ou 1.x vers la version 3
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation et Dynamics 365 Field Service utilisent 
 ## <a name="resource-assignments"></a>Attributions de ressources
 Dans Project Service Automation version 2 et version 1, les affectations de tâches étaient stockées en tant que tâches enfants (également appelées tâches de ligne) dans l’entité **Tâche**, et indirectement associées à l’entité **Affectation de ressource**. La tâche de ligne était visible dans la fenêtre contextuelle d’affectation de la structure de répartition du travail (WBS).
 
-![Tâches de ligne de WBS dans Project Service Automation version 2 et version 1](media/upgrade-line-task-01.png)
+![Tâches de ligne de WBS dans Project Service Automation version 2 et version 1.](media/upgrade-line-task-01.png)
 
 Dans la version 3 de Project Service Automation, le schéma sous-jacent d’affectation de ressources réservables aux tâches a été modifié. La tâche de ligne a été déconseillée et il existe une relation directe de type 1:1 entre la tâche dans l’entité **Tâche** et le membre de l’équipe dans l’entité **Affectation de ressource**. Les tâches qui sont affectées à un membre de l’équipe du projet sont maintenant stockées directement dans l’entité Affectation de ressource.  
 
@@ -46,26 +46,26 @@ Ces modifications ont une incidence sur la mise à niveau des projets existants 
 
 Si vous avez affecté une ressource à une tâche en dehors de son rôle par défaut dans la version 2 et la version 1, lorsque vous effectuez une mise à niveau, le rôle par défaut est affecté à la ressource nommée pour toutes les affectations de tâches, quelle que soit l’affectation de rôle dans la version 2. Cette affectation entraînera des différences dans les estimations calculées de la version 2 ou version 1 vers la version 3, car les estimations sont calculées en fonction du rôle de la ressource au lieu de l’affectation de tâches de ligne. Par exemple, dans la version 2, deux tâches ont été affectées à Astrid Lang. Le rôle sur la tâche de ligne pour la tâche 1 est Développeur et pour la tâche 2, Gestionnaire de programmes. Astrid Lang a le rôle par défaut de Gestionnaire de programmes.
 
-![Rôles multiples affectés à une ressource](media/upgrade-multiple-roles-02.png)
+![Rôles multiples affectés à une ressource.](media/upgrade-multiple-roles-02.png)
 
 Étant donné que les rôles de Développeur et de Gestionnaire de programmes diffèrent, les estimations de coût et de vente se présentent comme suit :
 
-![Estimations de coût pour les rôles de ressource](media/upggrade-cost-estimates-03.png)
+![Estimations de coût pour les rôles de ressource.](media/upggrade-cost-estimates-03.png)
 
-![Estimations de vente pour les rôles de ressource](media/upgrade-sales-estimates-04.png)
+![Estimations de vente pour les rôles de ressource.](media/upgrade-sales-estimates-04.png)
 
 Lorsque vous effectuez une mise à niveau vers la version 3, les tâches de ligne sont remplacées par des affectations de ressources sur la tâche du membre de l’équipe pour la ressource réservable. L’affectation utilise le rôle par défaut de la ressource réservable. Dans le graphique suivant, Astrid Lang qui a le rôle de Gestionnaire de programmes, est la ressource.
 
-![Affectations de ressources](media/resource-assignment-v2-05.png)
+![Attributions de ressources.](media/resource-assignment-v2-05.png)
 
 Comme les estimations sont basées sur le rôle par défaut de la ressource, les estimations de vente et de coût peuvent changer. Dans le graphique suivant, le rôle **Développeur** ne s’affiche plus, car il est maintenant extrait du rôle par défaut de la ressource réservable.
 
-![Estimations de coût pour les rôles par défaut](media/resource-assignment-cost-estimate-06.png)
-![Estimations de vente pour les rôles par défaut](media/resource-assignment-sales-estimate-07.png)
+![Estimations de coût pour les rôles par défaut.](media/resource-assignment-cost-estimate-06.png)
+![Estimations de vente pour les rôles par défaut.](media/resource-assignment-sales-estimate-07.png)
 
 Une fois la mise à niveau terminée, vous pouvez modifier le rôle d’un membre de l’équipe en un rôle autre que celui affecté par défaut. Toutefois, si vous modifiez le rôle d’un membre de l’équipe, cette modification est appliquée à toutes les tâches qui lui sont affectées, car les membres de l’équipe ne peuvent plus avoir plusieurs rôles dans la version 3.
 
-![Mise à jour du rôle d’une ressource](media/resource-role-assignment-08.png)
+![Mise à jour du rôle d’une ressource.](media/resource-role-assignment-08.png)
 
 Cette procédure s’applique également aux tâches de ligne qui ont été affectées aux ressources nommées lorsque vous modifiez l’unité d’organisation par défaut de la ressource en une autre unité d’organisation. Une fois la mise à niveau vers la version 3 terminée, l’affectation utilise l’unité d’organisation par défaut de la ressource au lieu de celle définie sur la tâche de ligne.
 
@@ -83,24 +83,24 @@ Pour les tâches affectées aux membres de l’équipe générique qui ont été
 
 Par exemple, dans le projet Project Z, l’unité d’organisation contractuelle est Contoso US. Dans le plan du projet, les tâches de test dans la phase de mise en œuvre ont été affectées au rôle Consultant technique et l’unité d’organisation affectée est Contoso Inde.
 
-![Affectation d’organisation dans la phase de mise en œuvre](media/org-unit-assignment-09.png)
+![Affectation d’organisation dans la phase de mise en œuvre.](media/org-unit-assignment-09.png)
 
 Après la phase de mise en œuvre, la tâche de test de l’intégration est affectée au rôle Consultant technique, mais l’organisation est définie sur Contoso US.  
 
-![Affectation d’organisation pour la tâche de test de l’intégration](media/org-unit-generate-team-10.png)
+![Affectation d’organisation pour la tâche de test de l’intégration.](media/org-unit-generate-team-10.png)
 
 Lorsque vous générez une équipe pour le projet, deux membres de l’équipe générique sont créés en raison des différentes unités d’organisation des tâches. Les tâches de Contoso Inde sont affectées au consultant technique 1 et les tâches de Contoso US au consultant technique 2.  
 
-![Membres de l’équipe générique générés](media/org-unit-assignments-multiple-resources-11.png)
+![Membres de l’équipe générique générés.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > Dans Project Service Automation version 2 et version 1, le membre de l’équipe ne détient pas l’unité d’organisation, qui est conservée sur la tâche de ligne.
 
-![Tâches de ligne dans la version 2 et la version 1 de Project Service Automation](media/line-tasks-12.png)
+![Tâches de ligne dans la version 2 et la version 1 dans Project Service Automation.](media/line-tasks-12.png)
 
 L’unité d’organisation est visible sur la vue des estimations. 
 
-![Estimations de l’unité d’organisation](media/org-unit-estimates-view-13.png)
+![Estimations de l’unité d’organisation.](media/org-unit-estimates-view-13.png)
  
 Lorsque la mise à niveau est terminée, l’unité d’organisation sur la tâche de ligne correspondant au membre de l’équipe générique est ajoutée au membre de l’équipe générique et la tâche de ligne est supprimée. C’est pourquoi il est recommandé, avant la mise à niveau, de générer ou de régénérer l’équipe sur chaque projet contenant des ressources génériques.
 

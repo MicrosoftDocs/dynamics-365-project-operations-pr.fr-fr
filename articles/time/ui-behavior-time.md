@@ -6,12 +6,12 @@ ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: fd62fb1d8e0b2d859cb7da8b99cb725af587ff2f
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304298"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999448"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportement de l’interface utilisateur de saisie de temps
 

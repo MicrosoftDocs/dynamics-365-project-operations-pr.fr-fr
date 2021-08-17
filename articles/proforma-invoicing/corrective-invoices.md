@@ -6,12 +6,12 @@ ms.date: 03/29/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f6b6670f823577bf7f784443f97f0b77e1e9a6aa
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: aaa61c8473da0aab369bbb25acb10e9a3661379997737acbcc0b3d4ab33e0ce9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012268"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997153"
 ---
 # <a name="corrective-project-based-invoices"></a>Factures correctives basées sur un projet
 

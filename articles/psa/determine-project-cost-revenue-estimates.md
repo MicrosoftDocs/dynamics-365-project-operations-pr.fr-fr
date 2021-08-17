@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a81214baafc2017b3d67e6b8bb5b2de19025b10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 38de99680f4ba67b8eb593ec575c2a796fcfb59436fea5323dd1d86d7cf3d797
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015238"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002598"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Déterminer les estimations de coût et de revenu du projet 
 
@@ -30,7 +30,7 @@ ms.locfileid: "6015238"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Les estimations du projet fournissent une vue financière de la tâche prévue et planifiée dans la structure de répartition du travail du projet. La vue des estimations vous informe de l’impact du coût et du revenu du travail planifié. La vue des estimations fournit un outil pour afficher les informations sur un nombre de dimensions prédéfinies pour vous informer au mieux de l’impact financier du projet.  
+Les estimations du projet fournissent une vue financière de la tâche prévue et planifiée dans la structure de répartition du travail du projet. La vue des estimations vous informe de l'impact du coût et du revenu du travail planifié. La vue des estimations fournit un outil pour afficher les informations sur un nombre de dimensions prédéfinies pour vous informer au mieux de l’impact financier du projet.  
   
 ## <a name="cost-and-sales-value-of-the-project"></a>Coût et valeur de vente du projet  
 Les tarifs du [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] définissent le coût et les taux de facturation pour les rôles que les projets utilisent. En fonction des rôles associés aux tâches dans la structure de répartition du travail du projet, vous pouvez déterminer l’impact du coût et du revenu du travail concerné.  

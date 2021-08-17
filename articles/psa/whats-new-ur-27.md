@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6dd514e573d2ee977010311cd7f7fcb201abc27
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ee7bbe888a982e3554ba524c67442437c9be9183a5ee0940ccc3261b4a4992e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999218"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985048"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a>Nouveautés ou modifications de la mise à jour (version 27) de Project Service Automation (correctif logiciel), V3
 

@@ -6,12 +6,12 @@ ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: aebff4d3a94735e76bcb9cafd25a058207dae846
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d640bda1f325c283e591eb8d1a100d4e6b09d76ae847833e9664c3631eabd154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996338"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991888"
 ---
 # <a name="manage-project-based-opportunities"></a>Gérer des opportunités basées sur des projets
 

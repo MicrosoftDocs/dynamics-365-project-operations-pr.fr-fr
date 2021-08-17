@@ -6,12 +6,12 @@ ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 238b55e906fb66415cf46d3abc8827d85c174dd7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003988"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997468"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Facturer une provision ou une avance
 

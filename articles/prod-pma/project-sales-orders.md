@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: dec9bc700d18f71ec7c9e976b38cb8cbb41f21b5
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009658"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992833"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projeter les commandes client pour les projets temps et matériels
 

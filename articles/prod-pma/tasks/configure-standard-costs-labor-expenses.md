@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 517e5ae776cff18aec81e5446a7aaedfba61ac0c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b8f65709433ed6f9ff9d23ed6d99624ee1d4aaef6927ee689c9f7651807340c5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011008"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987973"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Configurer les coûts standard pour la main-d’œuvre et les dépenses
 

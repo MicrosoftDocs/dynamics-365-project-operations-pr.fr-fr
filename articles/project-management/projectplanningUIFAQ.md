@@ -2,17 +2,17 @@
 title: Résolution des problèmes lors de l’utilisation de la grille des tâches
 description: Cette rubrique fournit les informations de dépannage nécessaires lorsque vous travaillez dans la grille des tâches.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213397"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989098"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Résolution des problèmes lors de l’utilisation de la grille des tâches 
 
@@ -24,7 +24,7 @@ Ce sujet décrit comment résoudre les problèmes que vous pourriez rencontrer e
 
 Project Operations nécessite que les cookies tiers soient activés afin de rendre la structure de répartition du travail. Lorsque les cookies tiers ne sont pas activés, au lieu de voir les tâches, vous verrez une page vierge lorsque vous sélectionnez l’onglet **Tâches** sur la page **Projet**.
 
-![Onglet vide lorsque les cookies tiers ne sont pas activés](media/blankschedule.png)
+![Onglet vide lorsque les cookies tiers ne sont pas activés.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Solution de contournement
@@ -52,11 +52,22 @@ Pour Microsoft Edge ou les navigateurs Google Chrome, les procédures suivantes 
 Project Operations requiert qu’un paramètre de projet fasse référence au point de terminaison PEX. Ce point de terminaison est nécessaire pour communiquer avec le service utilisé pour rendre la structure de répartition du travail. Si le paramètre n’est pas activé, vous recevrez l’erreur "Le paramètre de projet n’est pas valide". 
 
 ### <a name="workaround"></a>Solution de contournement
- ![Champ Point de terminaison PEX sur le paramètre de projet](media/projectparameter.png)
 
 1. Ajoutez le champ **Point de terminaison PEX** à la page **Paramètres du projet**.
-2. Mettez à jour le champ avec la valeur suivante : `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Supprimez le champ de la page **Paramètres du projet**.
+2. Identifiez le type de produit que vous utilisez. Cette valeur est utilisée lorsque le point de terminaison PEX est défini. Lors de la récupération, le type de produit est déjà défini dans le point de terminaison PEX. Conservez cette valeur. 
+   
+    ![Champ Point de terminaison PEX sur le paramètre de projet.](media/pex-endpoint.png)
+
+3. Mettez à jour le champ avec la valeur suivante : `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Type de produit                         | Paramètre de type |
+   |--------------------------------------|----------------|
+   | Project for the Web sur l'organisation par défaut   | type=0         |
+   | Project for the Web sur l'organisation nommée CDS | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Supprimez le champ de la page **Paramètres du projet**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilèges pour Projet pour le web
 
@@ -67,7 +78,7 @@ Project Operations s’appuie sur un service de planification externe. Le servic
 
 1. Accédez à **Paramètres > Sécurité > Utilisateurs > Utilisateurs de l’application**.  
 
-   ![Lecteur d’application](media/applicationuser.jpg)
+   ![Lecteur d’application.](media/applicationuser.jpg)
    
 2. Double-cliquez sur l’enregistrement d’utilisateur de l’application pour vérifier ce qui suit :
 
@@ -76,7 +87,7 @@ Project Operations s’appuie sur un service de planification externe. Le servic
  
 3. Si cet utilisateur n’existe pas, vous pouvez en un enregistrement d’utilisateur. Sélectionnez **Nouveaux utilisateurs**. Remplacez le formulaire de saisie par **Utilisateur de l’application**, puis ajoutez l’**ID d’application**.
 
-   ![Détails de l’utilisateur de l’application](media/applicationuserdetails.jpg)
+   ![Détails de l’utilisateur de l’application.](media/applicationuserdetails.jpg)
 
 4. Vérifiez que l’utilisateur a reçu la licence correcte et que le service est activé dans les détails des plans de service de la licence.
 5. Vérifiez que l’utilisateur peut ouvrir project.microsoft.com.

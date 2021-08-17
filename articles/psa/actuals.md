@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbb3e5c7f74cdf37ae4d259687bf7a98102a8131
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368158"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992473"
 ---
 # <a name="actuals-overview"></a>Vue d’ensemble des chiffres réels
 
@@ -32,7 +32,7 @@ ms.locfileid: "6368158"
 
 Les chiffres réels sont la quantité de travail effectuée sur un projet. Les chiffres réels du projet peuvent être retracés jusqu’à leurs documents origine. Ces documents origine incluent les écritures de temps, de dépenses et de journal, ainsi que les factures.
 
-![Comment les chiffres réels du projet de planification sont retracés jusqu’aux documents origine](media/basic-guide-18.png)
+![Comment les chiffres réels du projet sont retracés jusqu’aux documents origine.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Envoi d’une entrée de temps
 

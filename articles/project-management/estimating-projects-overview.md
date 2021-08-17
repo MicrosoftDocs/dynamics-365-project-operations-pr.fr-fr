@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: 6ba006511c3dd5b3d0484cb5e964ef252fe41c93
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 74b2499cc706e03658cadeb088df154100051cbc7cce386b2e4d50dbdb5c197f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369328"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989188"
 ---
 # <a name="financial-estimation-concepts"></a>Concepts d’estimation financière
 

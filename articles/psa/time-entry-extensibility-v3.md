@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c117e06e7a5c57c7f9b70d1380f450c0ea97cd12
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013033"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002283"
 ---
 # <a name="customize-weekly-time-entry"></a>Personnaliser une entrée de temps hebdomadaire 
 

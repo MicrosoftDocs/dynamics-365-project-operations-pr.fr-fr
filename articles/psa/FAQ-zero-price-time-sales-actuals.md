@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e32b4c8113afdc18d9b220b1a8daf5007be93ac8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011638"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992563"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Pourquoi le tarif prend la valeur par défaut de zéro sur les chiffres réels de vente des heures ?
 

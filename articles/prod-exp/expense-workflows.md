@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4070b4fb5109464abdabbce971688fb881dfcf2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 97db155a1d8ce77f711ea37bbd537527607f13f212ee59383ea165f5e46b81ba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005113"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001248"
 ---
 # <a name="set-up-expense-management-workflows"></a>Configurer des workflows pour la gestion des dépenses
 

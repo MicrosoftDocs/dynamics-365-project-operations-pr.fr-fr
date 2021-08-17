@@ -6,12 +6,12 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3313eef74b5e7a0624b32d2a336cd986dfdda839
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 824026d0620de809c0366c86c2d4d13fe83d4d1ddd4c0dc1cc2645ff712705d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010378"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996478"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Gérer les tarifs des projets sur les contrats de projet
 

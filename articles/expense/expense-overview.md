@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: stsporen
 ms.custom: intro-internal
-ms.openlocfilehash: 921df6fa8f1eb33bd01792c0b7c787fc74604adf
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368563"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988468"
 ---
 # <a name="expense-home-page"></a>Page d’accueil des dépenses
 

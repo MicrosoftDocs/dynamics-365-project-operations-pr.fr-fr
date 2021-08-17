@@ -6,12 +6,12 @@ ms.date: 10/12/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 95e96f8d8e33de93862547ad812396008bd62c99
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004573"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986173"
 ---
 # <a name="set-up-labor-cost-rates"></a>Configurer les taux de coûts de la main-d’œuvre
 

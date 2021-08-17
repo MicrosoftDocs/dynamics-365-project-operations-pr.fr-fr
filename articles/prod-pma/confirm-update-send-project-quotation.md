@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6897890156b8cef374f6279c8b7fa629c0f775ec
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: df7bfd7c57b7a273a94e49fcf3834072a8eb20b0ed598a144cefaff41e28a431
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006373"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991258"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Confirmer, mettre à jour et envoyer un devis de projet
 

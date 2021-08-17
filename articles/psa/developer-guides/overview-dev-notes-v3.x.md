@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d44f46f09ea21b5c20b7a8d7bb842f83663879f9
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c76faeecf252f0ae70594e7dfbb28c1aac2423a37f6cd12b53103dd7a493306e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368968"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987298"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Page d’accueil de développement (Project Service Automation 3.x)
 
