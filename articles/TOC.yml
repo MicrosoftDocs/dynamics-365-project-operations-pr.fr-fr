@@ -4,9 +4,11 @@
   items:
     - name: Déterminer votre type de déploiement
       href: environment/determine-deployment-type.md
+    - name: S’inscrire aux versions d’essai de Project Operations
+      href: environment/admin-trials.md
     - name: Mises à jour de Project Operations
       href: whats-new/project-operations-updates.md
-- name: "Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+- name: "Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
   items:
     - name: Prise en main
       items:
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nouveautés
       items:
+        - name: "Août\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: "Juillet\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: "Juin\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
@@ -222,7 +226,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'Configurer des champs personnalisés comme dimensions de tarification '
+                - name: Configurer des champs personnalisés comme dimensions de tarification
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: Mettre à jour les attributs de plug-in pour inclure de nouvelles dimensions de tarification
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -418,6 +422,8 @@
       items:
         - name: Vue d’ensemble des approbations
           href: approvals/approvals-overview.md
+        - name: Ensembles d’approbations
+          href: approvals/approval-sets.md
         - name: Notes du développeur
           items:
             - name: Notes du développeur pour les approbations
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Nouveautés
       items:
+        - name: "Nouveautés de l’accès anticipé à la 2e vague du lancement\_2021 - Déploiement simplifié"
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Nouveautés d’août\_2021 – Déploiement simplifié"
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: "Nouveautés de juillet\_2021 – Déploiement simplifié"
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: "Nouveautés de juin\_2021 – Déploiement simplifié"
@@ -708,7 +718,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'Configurer des champs personnalisés comme dimensions de tarification '
+                - name: Configurer des champs personnalisés comme dimensions de tarification
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: Mettre à jour les attributs de plug-in pour inclure de nouvelles dimensions de tarification
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Gestion de la sous-traitance dans Project Operations
       items:
-        - name: Présentation de la gestion de la sous-traitance
+        - name: Gestion de la sous-traitance dans Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: "Accès anticipé à la sous-traitance en octobre\_2021"
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Concepts clés de la sous-traitance
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Gestion des fournisseurs et des listes de prix des projets
+        - name: Gestion des fournisseurs et des tarifs des projets
           href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: Les sous-traitants en tant que ressources réservables
+        - name: Sous-traitants en tant que ressources réservables
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Détails d’en-tête pour les contrats de sous-traitance
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Lignes du contrat de sous-traitance pour le temps
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Lignes du contrat de sous-traitance pour les dépenses
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Lignes du contrat de sous-traitance pour les produits
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ressources de la ligne du contrat de sous-traitance
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Jalons de la ligne du contrat de sous-traitance
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Temps
       items:
         - name: Vue d’ensemble du temps
@@ -868,6 +892,8 @@
       items:
         - name: Vue d’ensemble des approbations
           href: approvals/approvals-overview.md
+        - name: Ensembles d’approbations
+          href: approvals/approval-sets.md
         - name: Notes du développeur
           items:
             - name: Notes du développeur pour les approbations
@@ -1060,6 +1086,8 @@
       items:
         - name: "Calendrier de publication des mises à jour pour Project\_Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_35,\_V3"
+          href: psa/whats-new-ur-35.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_34,\_V3"
           href: psa/whats-new-ur-34.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_33,\_V3"
@@ -1188,7 +1216,7 @@
               href: psa/create-custom-fields-entities.md
             - name: Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles
               href: psa/field-references.md
-            - name: 'Configurer des champs personnalisés comme dimensions de tarification '
+            - name: Configurer des champs personnalisés comme dimensions de tarification
               href: psa/set-up-pricing-dimensions.md
             - name: Mettre à jour les attributs de plug-in pour inclure de nouvelles dimensions de tarification
               href: psa/update-plug-in-attributes.md
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Personnaliser une entrée de temps hebdomadaire
               href: psa/time-entry-extensibility-v3.md
-            - name: Ensembles d’approbations
+            - name: Ensembles d’approbations dans Project Service Automation
               href: psa/approval-set.md
     - name: FAQ et résolution des problèmes (3.x)
       items:
