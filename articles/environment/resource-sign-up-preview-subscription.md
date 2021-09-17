@@ -1,21 +1,21 @@
 ---
-title: Souscrire des abonnements à la version préliminaire de Project Operations pour les scénarios de ressources/non stockés
-description: Cette rubrique fournit des informations sur la façon de souscrire un abonnement et de déployer des scénarios basés sur les ressources/non-stockés Project Operations.
+title: Souscrire des abonnements à la version préliminaire de Project Operations pour les scénarios de ressources/hors stock
+description: Cette rubrique fournit des informations sur la façon de souscrire un abonnement et de déployer des scénarios basés sur les ressources/hors stock Project Operations.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007863"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323413"
 ---
-# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Souscrire des abonnements à la version préliminaire de Project Operations pour les scénarios de ressources/non stockés
+# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Souscrire des abonnements à la version préliminaire de Project Operations pour les scénarios de ressources/hors stock
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -23,7 +23,7 @@ Cette rubrique explique comment souscrire à l’offre d’évaluation et déplo
 
 ## <a name="prerequisites"></a>Conditions préalables
 - L’utilisateur qui déploie la version préliminaire doit disposer des droits administrateur général du client Azure. Vous pouvez créer un client pendant la première acceptation de l’offre. 
-- Le déploiement d’un environnement Finance nécessite un abonnement Azure valide qui sera facturé par environnement. Vous pouvez utiliser l’abonnement existant de votre organisation ou utiliser un [Essai Azure](https://azure.microsoft.com/en-us/free/) pour commencer. L’environnement CDS sera fourni gratuitement pendant une période limitée de 30 jours.
+- Le déploiement d’un environnement Finance nécessite un abonnement Azure valide qui sera facturé par environnement. Vous pouvez utiliser l’abonnement existant de votre organisation ou utiliser un [Essai Azure](https://azure.microsoft.com/free/) pour commencer. L’environnement CDS sera fourni gratuitement pendant une période limitée de 30 jours.
 
 > [!IMPORTANT]
 > Une seule personne, l’administrateur du client, dans une organisation doit effectuer cette tâche. Si vous n’êtes pas abonné à cette version, attendez que votre organisation soit inscrite et que vous ayez reçu vos informations d’identification utilisateur.
@@ -31,7 +31,7 @@ Cette rubrique explique comment souscrire à l’offre d’évaluation et déplo
 > Les évaluations sont à usage unique dans le client. Vous ne pouvez exécuter une évaluation qu’une seule fois. Nous vous recommandons de créer un nouveau client pour les besoins de l’évaluation.
 
 
-### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) - Évaluation préliminaire 
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) - Essai en version préliminaire 
 
 Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur avec le compte de travail de l’utilisateur dans le client où vous souhaitez la version préliminaire de Project Operations.
 
@@ -40,9 +40,9 @@ Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur av
 
   Vous verrez la confirmation que l’offre a été utilisée avec succès.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Évaluation préliminaire de Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Essai en version préliminaire de Dynamics 365 Finance
 
-Accédez à [Évaluation préliminaire de Dynamics 365 for Finance](https://aka.ms/trypoche) et répétez les étapes de la section précédente avec l’offre, S’inscrire pour accéder à l’environnement hébergé dans le cloud.  
+Accédez à [Essai en version préliminaire de Dynamics 365 for Finance](https://aka.ms/trypoche) et répétez les étapes de la section précédente avec l’offre, S’inscrire pour accéder à l’environnement hébergé dans le cloud.  
 
 ## <a name="assign-licenses"></a>Attribuer des licences
 
@@ -66,7 +66,7 @@ Créez un projet LCS comme décrit dans la rubrique, [Démarrer un nouveau proje
 
 Pour terminer cette tâche, suivez les étapes du sujet, [Ajouter un abonnement Azure au projet LCS](resource-add-azure-subscription-lcs-project.md).
 
-## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Déployer l’environnement de démonstration Finance avec Project Operations pour les scénarios basés sur des ressources/non stockés
+## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Déployer l’environnement de démonstration Finance avec Project Operations pour les scénarios basés sur des ressources/hors stock
 
 Suivez les instructions de la rubrique [Mettre en service un nouvel environnement](resource-provision-new-environment.md) pour terminer le déploiement. Utilisez le type de déploiement [d’environnement de démonstration](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pour la version préliminaire. 
 

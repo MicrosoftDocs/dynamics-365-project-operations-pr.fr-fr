@@ -1,5 +1,5 @@
 ---
-title: Ensembles d’approbations
+title: Ensembles d’approbations dans Project Service Automation
 description: Cette rubrique fournit des informations sur l’ensemble d’approbation, les demandes et les sous-ensembles de ces opérations.
 author: stsporen
 manager: tfehr
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e57944b3031ff8b6da163125bb6668875ae77bd06f23a5b8c4ef06f396210e4f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9a7a9efbd8615f4923c6795a16c9cf98a40362b6
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995488"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323548"
 ---
-# <a name="approval-sets"></a>Ensembles d’approbations
+# <a name="approval-sets-in-project-service-automation"></a>Ensembles d’approbations dans Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001653"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440774"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Gérer plusieurs clients sur les devis de projet – Simplifié
 
@@ -37,7 +37,7 @@ Un client de devis peut être créé, mis à jour ou supprimé de l’onglet **C
 
 | **Champ** | **Emplacement** | **Description** | **Impact en aval** |
 | --- | --- | --- | --- |
-| Compte | Grille modifiable sur l’onglet **Clients du devis** et les formulaires **Principal** et **Création rapide** pour un client de devis. | Répertorie tous les comptes actifs. Ce champ est verrouillé après la création de l’enregistrement. Si vous souhaitez le mettre à jour, supprimez l’enregistrement et recréez-le. Si vous avez enregistré des chiffres réels ou si l’enregistrement client du devis est un client principal, vous serez autorisé à supprimer l’enregistrement. | Les clients de devis sont copiés en tant que clients de ligne de devis lorsqu’une ligne de devis est créée. Les clients de devis sont également copiés vers les clients du contrat de projet lorsqu’un devis est remporté. |
+| Compte | Grille modifiable sur l’onglet **Clients du devis** et les formulaires **Principal** et **Création rapide** pour un client de devis. | Répertorie tous les comptes actifs. Ce champ est verrouillé après la création de l’enregistrement. Si vous souhaitez le mettre à jour, supprimez l’enregistrement et recréez-le. Si vous avez enregistré des chiffres réels ou si l’enregistrement de devis client est un client principal, vous ne serez pas autorisé à supprimer l’enregistrement en question. | Les clients de devis sont copiés en tant que clients de ligne de devis lorsqu’une ligne de devis est créée. Les clients de devis sont également copiés vers les clients du contrat de projet lorsqu’un devis est remporté. |
 | Pourcentage de facturation fractionnée | Grille modifiable sur l’onglet **Clients du devis** et les formulaires **Principal** et **Création rapide** pour un client de devis. | Représente le pourcentage de chaque transaction de vente non facturée qui sera attribuée à ce client de devis. | Copié sur les nouvelles lignes de devis et sur les clients contractuels du projet. |
 | Nom du contact de facturation | Grille modifiable sur l’onglet **Clients du devis** et les formulaires **Principal** et **Création rapide** pour un client de devis. | Il s’agit d’un champ de texte qui doit être utilisé pour identifier la personne à contacter pour la facture de ce client. Celle-ci est définie par défaut à partir de l’enregistrement de compte associé | Copié vers les clients du contrat de projet lorsqu’un devis est conclu et ensuite dans le champ Nom de la facture au contrat sur la facture générée pour ce client. |
 | Nom de facturation | Grille modifiable sur l’onglet **Clients du devis** et les formulaires **Principal** et **Création rapide** pour un client de devis. | Ce champ de texte doit être utilisé pour identifier la personne à contacter pour la facture de ce client. | Copié vers les clients du contrat de projet lorsqu’un devis est conclu et ensuite dans le champ **Nom du contrat à facturer** sur la facture générée pour ce client. |
