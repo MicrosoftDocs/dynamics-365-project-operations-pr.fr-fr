@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nouveautés
       items:
+        - name: "Octobre\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: "Septembre\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: "Août\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: "Juillet\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
@@ -292,7 +296,7 @@
           items:
             - name: Développer des modèles de projet avec Copier le projet
               href: project-management/dev-copy-project.md
-            - name: Utiliser les API de planification de projet (version préliminaire publique)
+            - name: Utiliser les API de planification de projets
               href: project-management/schedule-api-preview.md
     - name: Gestion des ressources
       items:
@@ -442,8 +446,16 @@
       items:
         - name: Configurer le matériel non stocké et les factures fournisseur en attente
           href: procurement/configure-materials-nonstocked.md
-        - name: Approvisionner du matériel non stocké pour les projets à l’aide des factures fournisseur en attente
+        - name: Approvisionner du matériel non stocké pour les projets qui utilisent des factures fournisseur en attente
           href: procurement/pending-vendor-invoices.md
+        - name: Commander du matériel non stocké pour les projets qui utilisent des bons de commande de projet
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Rétention de fournisseurs
+          items:
+            - name: Vue d’ensemble de la rétention de fournisseurs
+              href: procurement/vendor-retention-overview.md
+            - name: Configurer la rétention de fournisseurs
+              href: procurement/set-up-vendor-retention.md
     - name: Facturation
       items:
         - name: Vue d’ensemble du processus de facturation
@@ -528,6 +540,10 @@
       items:
         - name: "Nouveautés de l’accès anticipé à la 2e vague du lancement\_2021 - Déploiement simplifié"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Nouveautés d’octobre\_2021 – Déploiement simplifié"
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: "Nouveautés de septembre\_2021 – Déploiement simplifié"
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: "Nouveautés d’août\_2021 – Déploiement simplifié"
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: "Nouveautés de juillet\_2021 – Déploiement simplifié"
@@ -784,7 +800,7 @@
           items:
             - name: Développer des modèles de projet avec Copier le projet
               href: project-management/dev-copy-project.md
-            - name: Utiliser les API de planification de projet (version préliminaire publique)
+            - name: Utiliser les API de planification de projets
               href: project-management/schedule-api-preview.md
     - name: Gestion des ressources
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Lignes du contrat de sous-traitance pour le temps
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Lignes du contrat de sous-traitance pour les dépenses
+        - name: Lignes du contrat de sous-traitance pour les catégories de dépenses
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Lignes du contrat de sous-traitance pour les produits
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: "Calendrier de publication des mises à jour pour Project\_Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_36,\_V3"
+          href: psa/whats-new-ur-36.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_35,\_V3"
           href: psa/whats-new-ur-35.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_34,\_V3"
