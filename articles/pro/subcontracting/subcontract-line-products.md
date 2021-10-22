@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c0ddc39638ae9830eacc57f3e1def75aa36e6553
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323683"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558544"
 ---
 # <a name="subcontract-lines-for-products"></a>Lignes du contrat de sous-traitance pour les produits
 
@@ -30,25 +30,25 @@ Procédez comme suit pour créer des lignes pour les produits dans le contrat de
 
 Le tableau suivant fournit des informations sur les champs de la page des détails **Ligne du contrat de sous-traitance** et de la page **Création rapide** qui sont pertinents pour l’achat de produits.
 
-| Champ | Description |
-| ----- | ----------- |
-| Nom | Le nom de la ligne du contrat de sous-traitance. |
-| Description | Une brève description des produits qui sont commandés sur la ligne du contrat de sous-traitance. |
-| Type de ligne | La valeur de ce champ est définie par défaut sur **Basé sur la quantité**. |
-| Mode de facturation |  Le mode de facturation de la ligne du contrat de sous-traitance. Un échéancier de facturation basé sur des jalons est disponible pour les modes de facturation à prix fixe. |
-| Classe de transaction | La valeur de ce champ est définie par défaut sur **Temps**. Pour créer des lignes de contrat de sous-traitance pour l’achat de produits, dans le champ **Classe de transaction**, sélectionnez **Matériel**. Cette sélection indique que la ligne du contrat de sous-traitance est utilisée pour enregistrer un achat de produits à utiliser sur des projets. |
-| Sélectionner un produit | Sélectionnez cette option si le produit acheté est conservé dans le catalogue de produits ou s’il s’agit d’un produit hors catalogue. |
-| Produit | Sélectionnez un produit actif dans le catalogue. Ce champ est disponible uniquement lorsque le champ **Sélectionner un produit** est défini sur **Existant**. |
-| Produit hors catalogue | Entrez le nom du produit hors catalogue. Ce champ est disponible uniquement lorsque le champ **Sélectionner un produit** est défini sur **Hors catalogue**.  |
-| Date de livraison demandée | Sélectionnez la date de livraison souhaitée pour les produits. Cette date permet aussi de choisir un tarif projet parmi ceux rattachés au contrat de sous-traitance. Le coût du produit sur la ligne du contrat de sous-traitance est alors défini par défaut à partir de ce tarif. |
-| Date de livraison contractuelle | Sélectionnez la date à laquelle il est convenu que les produits soient livrés.  |
-| Quantité commandée | Entrez la quantité de produits achetée auprès du fournisseur. Un avertissement s’affiche si un chef de projet dépasse cette quantité. |
-| Groupe d’unités | Cette valeur est définie par défaut pour les produits du catalogue uniquement. Lorsque **Produit** et **Date de livraison demandée** sont tous deux sélectionnés, le système sélectionne les tarifs applicables en fonction de la date de livraison. Les éléments tarifaires associés sont interrogés pour le produit correspondant. Les valeurs d’unité et de groupe d’unités par défaut proviennent de la configuration de l’enregistrement de l’élément tarifaire. |
-| Unité | Cette valeur est définie par défaut sur la configuration de l’unité sur l’enregistrement de l’élément tarifaire. Vous pouvez la remplacer par une autre unité, si nécessaire. La combinaison entre le produit et l’unité permet de calculer le prix unitaire par défaut de la ligne du contrat de sous-traitance pour les produits existants dans le catalogue. |
-| Prix unitaire | Le prix unitaire provient par défaut de la combinaison entre le produit et l’unité des éléments tarifaires associés aux tarifs du projet qui s’applique à la date de livraison demandée de la ligne du contrat de sous-traitance.  |
-| Sous-total | Ce champ en lecture seule est calculé comme suit : Quantité x Prix unitaire, si des valeurs sont saisies dans les deux champs. Si le champ **Quantité**, **Prix unitaire** ou les deux sont vides, vous pouvez saisir une valeur manuellement.  |
-| Taxe de ventes | Entrez la valeur de la taxe de ventes. |
-| Montant total | Ce champ calculé indique le montant total de la ligne du contrat de sous-traitance, taxes incluses. La valeur de ce champ est calculée comme suit : sous-total + taxe. |
+| Champ | Description | Impact fonctionnel|
+| ----- | ----------- | ----------- |
+| Nom | Le nom de la ligne du contrat de sous-traitance pour aider à l’identification. |Il apparaît dans la première colonne de toutes les recherches basées sur les lignes du contrat de sous-traitance.
+| Description | Une brève description des produits qui sont commandés sur la ligne du contrat de sous-traitance. | Aucun(e) |
+| Type de ligne | Ce champ contient la valeur par défaut **Basé sur la quantité**. |Aucun(e) |
+| Mode de facturation | Ce groupe d’options représente les deux principaux modèles contractuels pris en charge par Project Operations : **Prix fixe** et **Temps et matériel**. | En fonction du mode de facturation sélectionné, une planification de facturation basée sur des jalons est mise à disposition pour les lignes du contrat de sous-traitance avec le mode de facturation à prix fixe. |
+| Classe de transaction |Ce champ contient une valeur par défaut **Temps**. Pour créer des lignes de contrat de sous-traitance pour acheter des produits, définissez le champ **Classe de transaction** sur **Matériel**.  | Il indique que la ligne du contrat de sous-traitance est utilisée pour enregistrer l’achat de produits à utiliser dans les projets. |
+| Sélectionner un produit | Sélectionnez cette option si le produit acheté est conservé dans le catalogue de produits ou s’il s’agit d’un produit hors catalogue. |Aucun(e) |
+| Produit | Sélectionnez un produit actif dans le catalogue. Ce champ est disponible uniquement lorsque le champ **Sélectionner un produit** est défini sur **Existant**. |L’association **Produit** et **Unité** est utilisée par défaut ou calculée pour le prix unitaire de la ligne du contrat de sous-traitance.
+| Produit hors catalogue | Entrez le nom du produit hors catalogue. Ce champ est disponible uniquement lorsque le champ **Sélectionner un produit** est défini sur **Hors catalogue**.  |Le prix d’achat n’est pas automatiquement renseigné pour les produits hors catalogue.|
+| Date de livraison demandée | Entrez la date de livraison obligatoire pour les produits.| Cette date permet aussi de choisir un tarif projet parmi ceux rattachés au contrat de sous-traitance. Le coût du produit sur la ligne du contrat de sous-traitance est alors défini par défaut à partir de ce tarif. |
+| Date de livraison contractuelle | Entrez la date à laquelle les produits sont contractuellement prévus d’être livrés.  |Aucun(e)|
+| Quantité commandée | Entrez la quantité de produits achetée auprès du fournisseur.| Elle permet d’afficher des avertissements si un chef de projet puise excessivement dans cette quantité.|
+| Groupe d’unités | Cette valeur est définie par défaut pour les produits du catalogue uniquement. |Lorsque **Produit** et **Date de livraison demandée** sont tous deux sélectionnés, le système sélectionne les tarifs applicables en fonction de la date de livraison. Les éléments tarifaires associés sont interrogés pour le produit correspondant. Les valeurs d’unité et de groupe d’unités par défaut proviennent de la configuration de l’enregistrement de l’élément tarifaire. |
+| Unité | Cette valeur est par défaut l’unité configurée dans l’enregistrement de l’élément tarifaire. Vous pouvez la remplacer par une autre unité, si nécessaire.| La combinaison entre le produit et l’unité permet de calculer le prix unitaire par défaut de la ligne du contrat de sous-traitance pour les produits existants dans le catalogue. |
+| Prix unitaire | Le prix unitaire provient par défaut de la combinaison entre le produit et l’unité des éléments tarifaires associés aux tarifs du projet qui s’applique à la date de livraison demandée de la ligne du contrat de sous-traitance.  |Aucun(e) |
+| Sous-total | Ce champ en lecture seule est calculé comme suit : Quantité x Prix unitaire, si des valeurs sont saisies dans les deux champs. Si le champ **Quantité**, **Prix unitaire** ou les deux sont vides, vous pouvez saisir une valeur manuellement.  |Aucun(e) |
+| Taxe de ventes | Entrez la valeur de la taxe de ventes. |Aucun(e) |
+| Montant total | Ce champ calculé indique le montant total de la ligne du contrat de sous-traitance, taxes incluses. La valeur de ce champ est calculée de la façon suivante : Sous-total + Taxe. |Aucun(e) |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

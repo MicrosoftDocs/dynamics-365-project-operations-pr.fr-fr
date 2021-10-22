@@ -2,32 +2,38 @@
 title: Résolution des problèmes lors de l’utilisation de la grille des tâches
 description: Cette rubrique fournit les informations de dépannage nécessaires lorsque vous travaillez dans la grille des tâches.
 author: ruhercul
-ms.date: 08/02/2021
+ms.date: 09/22/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989098"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547196"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Résolution des problèmes lors de l’utilisation de la grille des tâches 
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Ce sujet décrit comment résoudre les problèmes que vous pourriez rencontrer en travaillant avec la gestion des coûts.
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés, déploiement simplifié : traiter la facturation pro forma, Project for the Web_
 
-## <a name="enable-cookies"></a>Activer les cookies
+La grille de tâches exploitée par Dynamics 365 Project Operations est un iFrame hébergé dans Microsoft Dataverse. Ainsi, des exigences spécifiques doivent être remplies pour garantir le bon fonctionnement de l’authentification et de l’autorisation. Cette rubrique décrit les problèmes courants qui peuvent avoir un impact sur l’affichage de la grille ou la gestion des tâches dans la structure de répartition du travail (WBS).
 
-Project Operations nécessite que les cookies tiers soient activés afin de rendre la structure de répartition du travail. Lorsque les cookies tiers ne sont pas activés, au lieu de voir les tâches, vous verrez une page vierge lorsque vous sélectionnez l’onglet **Tâches** sur la page **Projet**.
+Les problèmes courants sont les suivants :
 
-![Onglet vide lorsque les cookies tiers ne sont pas activés.](media/blankschedule.png)
+- L’onglet **Tâche** sur la grille des tâches est vide.
+- Lors de l’ouverture du projet, ce dernier ne se charge pas et l’interface utilisateur (IU) est bloquée sur le compteur.
+- Administration des privilèges pour **Projet for the Web**.
+- Les modifications ne sont pas enregistrées si vous créez, mettez à jour ou supprimez une tâche.
 
+## <a name="issue-the-task-tab-is-empty"></a>Problème : l’onglet Tâche est vide
 
-### <a name="workaround"></a>Solution de contournement
+### <a name="mitigation-1-enable-cookies"></a>Atténuation 1 : activer les cookies
+
+Project Operations exige que les cookies tiers soient activés pour afficher la structure de répartition du travail. Lorsque les cookies tiers ne sont pas activés, au lieu de voir les tâches, vous verrez une page vierge lorsque vous sélectionnez l’onglet **Tâches** sur la page **Projet**.
+
 Pour Microsoft Edge ou les navigateurs Google Chrome, les procédures suivantes décrivent comment mettre à jour les paramètres de votre navigateur pour activer les cookies tiers.
 
 #### <a name="microsoft-edge"></a>Microsoft Edge
@@ -36,6 +42,7 @@ Pour Microsoft Edge ou les navigateurs Google Chrome, les procédures suivantes 
 2. Dans l’angle supérieur droit, sélectionnez les **points de suspension** (...), puis **Paramètres**.
 3. En dessous de **Cookies et autorisations du site**, sélectionnez **Cookies et données de site**.
 4. Désactivez **Bloquer les cookies tiers**.
+5. Actualisez votre navigateur. 
 
 #### <a name="google-chrome"></a>Google Chrome
 
@@ -43,78 +50,101 @@ Pour Microsoft Edge ou les navigateurs Google Chrome, les procédures suivantes 
 2. Dans l’angle supérieur droit, sélectionnez les trois points verticaux, puis sélectionnez **Paramètres**.
 3. En dessous de **Confidentialité et sécurité**, sélectionnez **Cookies et autres données de site**.
 4. Sélectionnez **Autoriser tous les cookies**.
+5. Actualisez votre navigateur. 
 
-> [!IMPORTANT]
+> [!NOTE]
 > Si vous bloquez les cookies tiers, tous les cookies et données de site d’autres sites seront bloqués, même si le site est autorisé sur votre liste d’exceptions.
 
-## <a name="pex-endpoint"></a>Point de terminaison PEX
+### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Atténuation 2 : vérifier que le point de terminaison PEX est correctement configuré
 
-Project Operations requiert qu’un paramètre de projet fasse référence au point de terminaison PEX. Ce point de terminaison est nécessaire pour communiquer avec le service utilisé pour rendre la structure de répartition du travail. Si le paramètre n’est pas activé, vous recevrez l’erreur "Le paramètre de projet n’est pas valide". 
-
-### <a name="workaround"></a>Solution de contournement
+Project Operations requiert qu’un paramètre de projet fasse référence au point de terminaison PEX. Ce point de terminaison est requis pour communiquer avec le service utilisé pour afficher la structure de répartition du travail. Si le paramètre n’est pas activé, vous recevrez l’erreur "Le paramètre de projet n’est pas valide". Pour mettre à jour le point de terminaison PEX, procédez comme suit.
 
 1. Ajoutez le champ **Point de terminaison PEX** à la page **Paramètres du projet**.
-2. Identifiez le type de produit que vous utilisez. Cette valeur est utilisée lorsque le point de terminaison PEX est défini. Lors de la récupération, le type de produit est déjà défini dans le point de terminaison PEX. Conservez cette valeur. 
-   
-    ![Champ Point de terminaison PEX sur le paramètre de projet.](media/pex-endpoint.png)
+2. Identifiez le type de produit que vous utilisez. Cette valeur est utilisée lorsque le point de terminaison PEX est défini. Lors de la récupération, le type de produit est déjà défini dans le point de terminaison PEX. Conservez cette valeur.
+3. Mettez à jour le champ avec la valeur suivante : `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Le tableau suivant fournit le paramètre de type à utiliser selon le type de produit.
 
-3. Mettez à jour le champ avec la valeur suivante : `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+      | **Type de produit**                     | **Paramètre de type** |
+      |--------------------------------------|--------------------|
+      | Project for the Web sur l’organisation par défaut   | type=0             |
+      | Project for the Web sur l’organisation nommée CDS | type=1             |
+      | Project Operations                   | type=2             |
 
-   
-   | Type de produit                         | Paramètre de type |
-   |--------------------------------------|----------------|
-   | Project for the Web sur l'organisation par défaut   | type=0         |
-   | Project for the Web sur l'organisation nommée CDS | type=1         |
-   | Project Operations                   | type=2         |
-   
 4. Supprimez le champ de la page **Paramètres du projet**.
 
-## <a name="privileges-for-project-for-the-web"></a>Privilèges pour Projet pour le web
+## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problème : le projet ne se charge pas et l’interface utilisateur est bloquée sur le compteur
 
-Project Operations s’appuie sur un service de planification externe. Le service exige qu’un utilisateur dispose de plusieurs rôles attribués pour lire et écrire sur des entités liées à la structure de répartition du travail. Ces entités incluent les tâches de projet, les affectations de ressources et les dépendances de tâches. Si un utilisateur ne peut pas rendre la structure de répartition du travail lorsqu’il accède à l’onglet **Tâches**, c’est probablement parce que Projet pour Project Operations n’a pas été activé. Un utilisateur peut recevoir soit une erreur rôle de sécurité, soit une erreur liée à un refus d’accès.
+Pour l’authentification, les fenêtres contextuelles doivent être activées pour que la grille de tâches se charge. Si les fenêtres contextuelles ne sont pas activées, l’écran est bloqué sur le compteur en chargement. L’illustration suivante montre l’URL avec une étiquette contextuelle bloquée dans la barre d’adresse, ce qui a pour conséquence de bloquer le compteur lorsqu’il essaie de charger la page. 
 
+   ![Compteur coincé et blocage des fenêtres contextuelles.](media/popupsblocked.png)
 
-## <a name="workaround"></a>Solution de contournement
+### <a name="mitigation-1-enable-pop-ups"></a>Atténuation 1 : activer les fenêtres contextuelles
 
-1. Accédez à **Paramètres > Sécurité > Utilisateurs > Utilisateurs de l’application**.  
+Si le projet est bloqué sur le compteur, il est possible que les fenêtres contextuelles ne soient pas activées.
+
+#### <a name="microsoft-edge"></a>Microsoft Edge
+
+Il existe deux façons d’activer les fenêtres contextuelles dans le navigateur Edge.
+
+1. Dans le navigateur Edge, sélectionnez la notification dans le coin supérieur droit du navigateur.
+2. Sélectionnez **Toujours autoriser les fenêtres contextuelles et les redirections depuis** l’environnement Dataverse donné.
+ 
+     ![Fenêtre des fenêtres contextuelles bloquée.](media/enablepopups.png)
+
+Sinon, vous pouvez terminer les étapes suivantes.
+
+1. Ouvrez votre navigateur Edge.
+2. Dans le coin supérieur droit, sélectionnez l’**ellipse** (...), puis sélectionnez **Paramètres** > **Autorisations du site** > **Fenêtres contextuelles et redirections**.
+3. Désactivez **Fenêtres contextuelles et redirections** pour les fenêtres contextuelles de blocage ou activez cette option pour autoriser les fenêtres contextuelles sur votre appareil.
+4. Une fois les fenêtres contextuelles activées, actualisez le navigateur. 
+
+#### <a name="google-chrome"></a>Google Chrome
+1. Ouvrez votre navigateur Chrome.
+2. Accédez à une page qui contient des fenêtres contextuelles bloquées.
+3. Dans la barre d’adresse, sélectionnez **Fenêtre contextuelle bloquée**.
+4. Sélectionnez le lien de la fenêtre contextuelle que vous souhaitez voir.
+5. Une fois les fenêtres contextuelles activées, actualisez le navigateur. 
+
+> [!NOTE]
+> Pour toujours afficher les fenêtres contextuelles, sélectionnez **Toujours autoriser les fenêtres contextuelles et les redirections depuis [site]**, puis cliquez sur **Terminé**.
+
+## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problème 3 : administration des privilèges pour Projet for the Web
+
+Project Operations s’appuie sur un service de planification externe. Le service exige qu’un utilisateur soit associé à plusieurs rôles qui lui permettent de lire et d’écrire dans des entités liées à WBS. Ces entités incluent les tâches de projet, les affectations de ressources et les dépendances de tâches. Si un utilisateur ne peut pas afficher WBS lorsqu’il accède à l’onglet **Tâches**, il est probable que **Project** pour **Project Operations** ne soit pas activé. Un utilisateur peut recevoir soit une erreur rôle de sécurité, soit une erreur liée à un refus d’accès.
+
+### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Atténuation 1 : valider l’utilisation de l’application et les rôles de sécurité de l’utilisateur final
+
+1. Accédez à **Paramètres** > **Sécurité** > **Utilisateurs** > **Utilisateurs de l’application**.  
 
    ![Lecteur d’application.](media/applicationuser.jpg)
    
-2. Double-cliquez sur l’enregistrement d’utilisateur de l’application pour vérifier ce qui suit :
+2. Cliquez deux fois sur l’enregistrement de l’utilisateur de l’application pour vérifier les points suivants :
 
- - L’utilisateur a accès au projet. Cette vérification est généralement effectuée en s’assurant que l’utilisateur a un rôle de sécurité de **Chef de projet**.
- - L’utilisateur de l’application Microsoft Project existe et est configuré correctement.
+     - L’utilisateur a accès au projet. Vous pouvez le faire en vérifiant que l’utilisateur a le rôle de sécurité **Chef de projet**.
+     - L’utilisateur de l’application Microsoft Project existe et est configuré correctement.
  
-3. Si cet utilisateur n’existe pas, vous pouvez en un enregistrement d’utilisateur. Sélectionnez **Nouveaux utilisateurs**. Remplacez le formulaire de saisie par **Utilisateur de l’application**, puis ajoutez l’**ID d’application**.
+3. Si cet utilisateur n’existe pas, créez un enregistrement d’utilisateur. 
+4. Sélectionnez **Nouveaux utilisateurs**, passez le formulaire de saisie sur **Utilisateur de l’application**, puis ajoutez l’**ID application**.
 
    ![Détails de l’utilisateur de l’application.](media/applicationuserdetails.jpg)
 
-4. Vérifiez que l’utilisateur a reçu la licence correcte et que le service est activé dans les détails des plans de service de la licence.
-5. Vérifiez que l’utilisateur peut ouvrir project.microsoft.com.
-6. Vérifiez à travers les paramètres du projet que le système pointe vers le bon point de terminaison du projet.
-7. Vérifier que l’utilisateur de l’application de projet est créée.
-8. Appliquez les rôles de sécurité suivants à l’utilisateur :
 
-  - Utilisateur de Dataverse
-  - Système de Project Operations
-  - Système de projet
+## <a name="issue-4-changes-arent-saved-when-you-create-update-or-delete-a-task"></a>Problème 4 : les modifications ne sont pas enregistrées si vous créez, mettez à jour ou supprimez une tâche
 
-## <a name="error-when-updating-the-work-breakdown-structure"></a>Erreur lors de la mise à jour de la structure de répartition du travail
+Si vous effectuez une ou plusieurs mises à jour de WBS, les modifications échouent et ne sont pas enregistrées. Une erreur se produit dans la grille de planification avec un message indiquant : « La modification récemment apportée n’a pas pu être enregistrée ».
 
-Lorsqu’une ou plusieurs mises à jour sont apportées à la structure de répartition du travail, les modifications échouent finalement et ne sont pas enregistrées. Une erreur se produit dans la grille de planification indiquant que « La modification récente que vous avez apportée n’a pas pu être enregistrée. »
+### <a name="mitigation-1-validate-the-license-assignment"></a>Atténuation 1 : valider l’attribution de licence
 
-### <a name="workaround"></a>Solution de contournement
-
-1. Vérifiez que l’utilisateur a reçu la licence correcte et que le service est activé dans les détails des plans de service de la licence.
-2. Vérifiez que l’utilisateur peut ouvrir project.microsoft.com.
-3. Vérifiez que le système pointe vers le bon point de terminaison du projet.
-4. Vérifier que l’utilisateur de l’application de projet a été créé.
-5. Appliquez les rôles de sécurité suivants à l’utilisateur :
+1. Vérifiez que l’utilisateur a reçu la licence correcte et que le service est activé dans les détails des plans de service de la licence.  
+2. Vérifiez que l’utilisateur peut ouvrir **project.microsoft.com**.
+    
+### <a name="mitigation-2-validation-configuration-of-the-project-application-user"></a>Atténuation 2 : Validation de la configuration de l’utilisateur de l’application Project
+1. Vérifiez que l’utilisateur de l’application Project est bien créé.
+2. Appliquez les rôles de sécurité suivants à l’utilisateur :
   
   - Utilisateur ou utilisateur de base Dataverse
   - Système de Project Operations
   - Système de projet
-  - Système de double écriture Project Operations (ce rôle est requis si vous déployez le scénario basé sur les ressources/non stocké de Project Operations.)
+  - Systèmes de double écriture de Project Operations. Ce rôle est exigé pour le scénario de déploiement basé sur les ressources/produits non stockés de Project Operations.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

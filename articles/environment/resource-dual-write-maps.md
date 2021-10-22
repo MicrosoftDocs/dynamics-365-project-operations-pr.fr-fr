@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003813"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547106"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versions du mappage à double écriture Project Operations
 
@@ -49,9 +49,9 @@ Les mappages suivants sont requis pour une solution Project Operations. Les vers
 | Table Intégration de Project Operations pour les estimations de matériel (msdyn\_estimatelines) | 1.0.0.0 | Non requis pour l’approvisionnement. |
 | Propositions de facture de projet V2 (factures) | 1.0.0.3 | Non requis pour l’approvisionnement. |
 | Chiffres réels d’intégration Project Operations (msdyn_actuals) | 1.0.0.14 | Non requis pour l’approvisionnement. |
-| Jalons de la ligne de contrat d’intégration de Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Non requis pour l’approvisionnement. |
-| Entité d’intégration de Project Operations pour les estimations de dépenses (msdyn_estimateslines) | 1.0.0.2 | Non requis pour l’approvisionnement. |
-| Entité d’intégration de Project Operations pour les estimations d’heures (msdyn_resourceassignments) | 1.0.0.5 | Non requis pour l’approvisionnement. |
+| Jalons de la ligne de contrat d’intégration Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Non requis pour l’approvisionnement. |
+| Entité d’intégration Project Operations pour les estimations de dépenses (msdyn_estimateslines) | 1.0.0.2 | Non requis pour l’approvisionnement. |
+| Entité d’intégration Project Operations pour les estimations d’heures (msdyn_resourceassignments) | 1.0.0.5 | Non requis pour l’approvisionnement. |
 | Entité d’exportation des catégories de dépenses de projet d’intégration de Project Operations (msdyn_expensecategories) | 1.0.0.1 | Non requis pour l’approvisionnement. |
 | Entité d’exportation des dépenses de projet d’intégration de Project Operations (msdyn_expenses) | 1.0.0.2 | Non requis pour l’approvisionnement. |
 | Entité d’exportation des factures fournisseur de projet d’intégration de Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Non requis pour l’approvisionnement. |

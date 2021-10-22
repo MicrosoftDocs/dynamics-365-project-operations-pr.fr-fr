@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323458"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501368"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés d’août 2021 – Project Operations pour les scénarios basés sur les ressources/hors stock
 
@@ -31,7 +31,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Mises à jour des mappages de double écriture de Project Operations
 
-Cette version ne contient aucune mise à jour pour les mappages de double écriture de Project Operations. 
+Cette version ne contient aucune mise à jour pour les mappages de double écriture de Project Operations.
 
 Pour obtenir une liste actuelle et les versions des mappages de double écriture de Project Operations, consultez [Versions de mappage de double écriture de Project Operations](../environment/resource-dual-write-maps.md).
 

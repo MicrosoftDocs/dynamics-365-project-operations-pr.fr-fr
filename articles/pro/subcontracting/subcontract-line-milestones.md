@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323773"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558499"
 ---
 # <a name="subcontract-line-milestones"></a>Jalons de la ligne du contrat de sous-traitance
 
@@ -50,15 +50,15 @@ Les jalons à prix fixe sur une ligne du contrat de sous-traitance peuvent être
 3. Sur l’onglet **Jalons de la ligne du contrat de sous-traitance**, dans la sous-grille, sélectionnez **+ Nouveau jalon de la ligne du contrat de sous-traitance**.
 4. Sur la page **Nouveau jalon de la ligne du contrat de sous-traitance**, saisissez les informations requises, basées sur le tableau suivant.
 
-    | Champ | Description |
-    | --- | --- |
-    | Nom du jalon | Nom du jalon. |
-    | Description | Une description du jalon.  |
-    | Date du jalon | La date à laquelle le processus de création automatique de facture doit rechercher le statut de ce jalon afin de le prendre en compte pour la facturation. Cette valeur se trouve sur la ligne de facture fournisseur lors de la facturation de ce contrat de sous-traitance. |
-    | Montant | Le montant ou la valeur du jalon qui sera facturé au client. Cette valeur se trouve sur la ligne de facture fournisseur lors de la facturation de ce contrat de sous-traitance. |
-    | Taxes | Le montant de la taxe appliqué sur le jalon. Cette valeur se trouve sur la ligne de facture fournisseur lors de la facturation de ce contrat de sous-traitance. |
-    | Montant après impôts | Ce champ en lecture seule est calculé comme suit : Montant + Taxe. Cette valeur se trouve sur la ligne de facture fournisseur lors de la facturation de ce contrat de sous-traitance. |
-    | Statut de la facture | Lorsque le jalon est créé, ce statut est toujours défini sur **Non prêt pour la facturation**.  Lorsque le statut est **Prêt pour la facturation**, ce jalon est inclus sur la facture fournisseur. |
+    | Champ | Description |Impact fonctionnel|
+    | --- | --- |----------------------|
+    | Nom du jalon | Nom du jalon. |Il apparaît dans la première colonne de toutes les recherches basées sur des jalons de ligne de contrat de sous-traitance. La ligne de facture fournisseur créée en fonction de ce jalon utilise également le nom du jalon de la ligne du contrat de sous-traitance comme nom par défaut de la ligne de facture fournisseur.|
+    | Description | Une description du jalon. |La ligne de facture fournisseur créée en fonction de ce jalon utilise également la description du jalon de la ligne du contrat de sous-traitance comme description par défaut de la ligne de facture fournisseur.|
+    | Date du jalon | La date à laquelle le processus de création automatique de facture doit rechercher le statut de ce jalon afin de le prendre en compte pour la facturation.| Cette valeur est utilisée comme date par défaut de la ligne de facture fournisseur lors de la facturation de cette ligne du contrat de sous-traitance. |
+    | Montant | Le montant ou la valeur du jalon qui sera facturé au client. |Cette valeur est utilisée comme montant par défaut sur la ligne de facture fournisseur lors de la facturation de cette ligne du contrat de sous-traitance. |
+    | Taxes | Le montant de la taxe appliqué sur le jalon.| Cette valeur est utilisée comme montant de taxe par défaut sur la ligne de facture fournisseur lors de la facturation de cette ligne du contrat de sous-traitance. |
+    | Montant après impôts | Ce champ en lecture seule est calculé de la façon suivante : Montant + Taxe.|Cette valeur est utilisée par défaut sur la ligne de facture fournisseur lors de la facturation de cette ligne du contrat de sous-traitance. |
+    | Statut de la facture | Lorsque le jalon est créé, ce statut est toujours défini sur **Non prêt pour la facturation**.|  Lorsque le statut est **Prêt pour la facturation**, ce jalon est inclus sur la facture fournisseur. |
 
 5. Sélectionnez **Enregistrer et fermer**.
 

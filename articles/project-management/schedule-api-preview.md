@@ -2,23 +2,22 @@
 title: Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification
 description: Cette rubrique fournit des informations et des exemples pour utiliser les API de planification de projets.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008763"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487682"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
-> [!IMPORTANT] 
-> Certaines ou toutes les fonctionnalités mentionnées dans cette rubrique sont disponibles dans le cadre d’une version préliminaire. Le contenu et les fonctionnalités sont susceptibles d’être modifiés. 
+
 
 ## <a name="scheduling-entities"></a>Entités de planification
 

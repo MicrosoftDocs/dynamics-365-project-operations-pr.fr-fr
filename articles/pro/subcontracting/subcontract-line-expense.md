@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323818"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506096"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Lignes du contrat de sous-traitance pour les catégories de dépenses
 
@@ -29,23 +29,23 @@ Dans Project Operations, pour créer une ligne pour les catégories de dépense 
 
 Le tableau suivant fournit des informations sur les champs de la page des détails **Ligne du contrat de sous-traitance** et de la page **Création rapide**.
 
-| **Champ** |  **Description** |
-| ----------| ---------------- |
-| Nom | Le nom de la ligne du contrat de sous-traitance. |
-| Description | Une brève description des catégories de services ou de produits qui sont achetés sur la ligne du contrat de sous-traitance. |
-| Type de ligne | Ce champ contient la valeur par défaut **Basé sur la quantité**.  |
-| Mode de facturation | Le mode de facturation de la ligne du contrat de sous-traitance. En fonction du mode de facturation de la ligne, un échéancier de facturation basé sur des jalons est mis à disposition pour le mode de facturation à prix fixe.  |
-| Classe de transaction | Ce champ contient la valeur par défaut **Temps**. Pour créer des lignes de contrat de sous-traitance pour l’achat de produits, définissez le champ **Classe de transaction** sur **Dépense**. Cette valeur de champ indique que la ligne du contrat de sous-traitance est utilisée pour enregistrer un achat d’une catégorie de produits ou de services à utiliser sur des projets. |
-| Catégorie de transaction | Sélectionnez la catégorie de transaction. |
-| Début demandé | La date à laquelle les catégories d’achat doivent être disponibles auprès du fournisseur. Le démarrage demandé permet de choisir un tarif projet parmi ceux rattachés au contrat de sous-traitance. Le coût de la catégorie sur la ligne du contrat de sous-traitance est défini par défaut à partir de ce tarif. |
-| Fin demandée | La date à laquelle les catégories d’achat ne sont plus nécessaires. Un avertissement s’affiche si un chef de projet associe cette ligne du contrat de sous-traitance à des estimations de dépenses spécifiques sur les projets qui sont postérieures à cette date. |
-| Quantité commandée | La quantité d’articles de cette catégorie achetée auprès du fournisseur. Un avertissement s’affiche si un chef de projet dépasse la quantité achetée.  |
-| Groupe d’unités | La valeur par défaut de ce champ est basée sur le groupe d’unités par défaut configuré pour la catégorie sélectionnée. |
-| Unité | La valeur par défaut de ce champ est basée sur l’unité par défaut configurée pour la catégorie sélectionnée. La combinaison entre la catégorie et l’unité permet de calculer le prix unitaire par défaut de la ligne du contrat de sous-traitance. |
-| Prix unitaire | La valeur du champ Prix unitaire provient par défaut de la combinaison entre la catégorie et l’unité des prix de la catégorie associés aux tarifs du projet qui s’applique à la date de début demandée de la ligne du contrat de sous-traitance.  |
-| Sous-total | Il s’agit d’un champ en lecture seule qui est automatiquement calculé comme prix unitaire de quantité, si les valeurs de quantité et de prix unitaire sont saisies. Si l’un des champs ou les deux sont vides, vous pouvez y saisir une valeur manuellement.  |
-| Taxe de ventes | Entrez le montant de la taxe de ventes.  |
-| Montant total | Le montant total de la ligne de sous-traitance, taxes incluses. Ce champ est calculé comme suit : sous-total + taxe de vente.  |
+| **Champ** | **Description** | **Impact fonctionnel** |
+| --- | --- | --- |
+| Nom | Le nom de la ligne du contrat de sous-traitance pour aider à l’identification. | Il apparaît dans la première colonne de toutes les recherches basées sur les lignes du contrat de sous-traitance. |
+| Description | Une brève description des catégories de dépense achetées sur la ligne du contrat de sous-traitance. | Aucun(e) |
+|Type de ligne | Ce champ contient une valeur par défaut **Basé sur la quantité**. |Aucun(e) |
+| Mode de facturation | Ce groupe d’options représente les deux principaux modèles contractuels pris en charge par Project Operations : **Prix fixe** et **Temps et matériel**. | Une planification de facture basée sur des jalons est mise à disposition pour les lignes du contrat de sous-traitance si le mode de facturation à prix fixe est sélectionné. |
+| Classe de transaction | Ce champ contient une valeur par défaut **Temps**. Pour créer des lignes de contrat de sous-traitance pour l’achat de produits, définissez le champ **Classe de transaction** sur **Dépense**.  | Il indique que la ligne du contrat de sous-traitance sert à enregistrer l’achat d’une catégorie de dépenses à utiliser dans les projets. |
+| Catégorie de transaction | Affiche une liste des catégories de transaction actives dans le système. |Aucun(e) |
+| Début demandé | Entrez la date à laquelle les catégories d’achat doivent être disponibles auprès du fournisseur. | Le début demandé permet de choisir un tarif du projet dans les tarifs du projet joints au contrat de sous-traitance. Le coût de la catégorie sur la ligne du contrat de sous-traitance provient de ce tarif. |
+| Fin demandée | Entrez la date à laquelle les catégories d’achat ne seraient plus nécessaires. | Elle permet d’afficher des avertissements si un chef de projet associe cette ligne du contrat de sous-traitance à des estimations de dépense spécifiques sur le projet qui sont nécessaires après cette date. |
+| Quantité commandée | Quantité de la catégorie achetée auprès du fournisseur. | Elle permet d’afficher des avertissements si un chef de projet puise excessivement dans cette quantité.|
+| Groupe d'unités | La valeur par défaut est basée sur le groupe d’unités par défaut configuré pour la catégorie sélectionnée. |Aucun(e) |
+| Unité | La valeur par défaut est basée sur l’unité par défaut configurée pour la catégorie sélectionnée.  | L’association **Catégorie** et **Unité** est utilisée par défaut ou calculée pour le prix unitaire de la ligne du contrat de sous-traitance.  |
+| Prix unitaire | La valeur par défaut utilise l’association **Catégorie** et **Unité** des prix de catégorie associés au tarif du projet qui s’applique au début demandé de la ligne du contrat de sous-traitance. |Aucun(e) |
+| Sous-total | Champ en lecture seule calculé de la façon suivante : Quantité x Prix unitaire, si les valeurs de quantité et de prix unitaire sont entrées. Si un ou les deux champs sont vides, vous pouvez entrer une valeur dans ce champ. |Aucun(e) |
+| Taxe de ventes | Entrez le montant de la taxe de ventes. |Aucun(e) |
+| Montant total | Le montant total de la ligne de sous-traitance, taxes incluses. Ce champ est calculé de la façon suivante : Sous-total + Taxe de vente. |Aucun(e) |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

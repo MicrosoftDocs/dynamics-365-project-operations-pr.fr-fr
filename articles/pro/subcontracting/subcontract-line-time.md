@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323863"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547241"
 ---
 # <a name="subcontract-lines-for-time"></a>Lignes du contrat de sous-traitance pour le temps
 
@@ -30,23 +30,22 @@ Dans Project Operations, pour créer une ligne pour le temps dans le contrat de 
 
   Le tableau suivant fournit des informations sur les champs de la page **Ligne du contrat de sous-traitance** et de la page **Création rapide**.
 
-| **Champ** | **Description** |
-| --- | --- |
-| Nom | Le nom de la ligne du contrat de sous-traitance. |
-| Description | Une brève description des services qui sont achetés sur la ligne du contrat de sous-traitance. | 
-| Type de ligne | Ce champ contient une valeur par défaut.  |
-| Mode de facturation | Sélectionnez la méthode de facturation. En fonction du mode de facturation de la ligne du contrat de sous-traitance référencée, un échéancier de facturation basé sur des jalons est mis à disposition pour le mode de facturation à prix fixe. |
-| Classe de transaction | Ce champ contient une valeur par défaut qui indique si la ligne du contrat de sous-traitance est utilisée pour enregistrer un achat de temps. |
-| Rôle | Le rôle des ressources du contrat de sous-traitance dont le temps est acheté. Le rôle attribué aux ressources du contrat de sous-traitance détermine le coût de l’achat. |
-| Début demandé | La date à laquelle les ressources du contrat de sous-traitance doivent commencer à travailler. Le démarrage demandé permet de choisir un tarif projet parmi ceux rattachés au contrat de sous-traitance. Le coût du rôle sur la ligne du contrat de sous-traitance est alors défini par défaut à partir de ce tarif. |
-| Fin demandée | La date à laquelle l’affectation des ressources de sous-traitance se termine. Cette date est utilisée pour afficher des avertissements lorsqu’un chef de projet puise dans cette capacité pour les besoins en ressources survenant après cette date. |
-| Quantité commandée | Le nombre d’heures de rôle achetées auprès du fournisseur. Cette valeur est utilisée pour afficher des avertissements lorsqu’un chef de projet puise dans cette capacité pour les besoins en ressources. |
-| Groupe d’unités | La valeur de ce champ est définie par défaut sur le groupe d’unités Temps et ne peut pas être modifiée.  |
-| Unité | Ce champ est défini par défaut sur l’unité de base des heures du groupe d’unités Temps. Vous pouvez modifier cette valeur pour acheter n’importe quelle unité du groupe d’unités Temps, comme le jour ou la semaine. La combinaison Rôle et Unité permet de calculer le prix unitaire de la ligne du contrat de sous-traitance. |
-| Prix unitaire | Le prix unitaire provient par défaut de la combinaison Rôle et Unité des tarifs du projet qui s’applique à la date de début demandée de la ligne du contrat de sous-traitance. Lorsque les tarifs du projet applicables sont configurés dans une unité différente de celle sur la ligne du contrat de sous-traitance, le système utilise la conversion d’unité pour calculer le prix unitaire. |
-| Sous-total | Il s’agit d’un champ en lecture seule qui est automatiquement calculé comme **Quantité x Prix unitaire** si les valeurs de quantité et de prix unitaire sont saisies. Si la quantité, le prix unitaire ou les deux sont vides, vous pouvez saisir une valeur dans le champ. |
-| Taxe de ventes |  Entrez le montant de la taxe de ventes. |
-| Montant total | Le montant total de la ligne de sous-traitance, taxes incluses. |
-
+| **Champ** | **Description** | **Impact fonctionnel** |
+| --- | --- | --- |
+| Nom  | Le nom de la ligne du contrat de sous-traitance pour aider à l’identification. | Il apparaît dans la première colonne de toutes les recherches basées sur les lignes du contrat de sous-traitance. |
+| Description | Une brève description des services qui sont achetés sur la ligne du contrat de sous-traitance. |Aucun(e) |
+| Type de ligne |   Ce champ contient la valeur par défaut **Basé sur la quantité**.| Aucun(e) |
+| Mode de facturation | Ce groupe d’options représente les deux principaux modèles contractuels pris en charge par Project Operations : **Prix fixe** et **Temps et matériel**. | En fonction du mode de facturation sélectionné, une planification de facturation basée sur des jalons est mise à disposition pour les lignes du contrat de sous-traitance avec le mode de facturation à prix fixe. |
+| Classe de transaction | La valeur par défaut est **Temps**. | Elle indique que la ligne du contrat de sous-traitance sert à enregistrer un achat de temps de sous-traitant. |
+| Rôle | Sélectionnez le rôle des ressources de sous-traitance dont le temps est acheté. | Le rôle associé aux ressources de sous-traitance détermine le coût de l’achat. |
+| Début demandé | Entrez la date à laquelle les ressources de sous-traitance doivent commencer à travailler. | Elle permet de choisir un tarif du projet dans les tarifs du projet associés au contrat de sous-traitance. Le coût du rôle sur la ligne du contrat de sous-traitance provient de ce tarif. |
+| Fin demandée | Entrez la date de fin de l’affectation de la ressource de sous-traitance. | Elle permet d’afficher des avertissements si un chef de projet puise dans la capacité pour les besoins en ressources après cette date. |
+| Quantité commandée | Entrez le nombre d’heures du rôle acheté auprès du fournisseur. | Il permet d’afficher des avertissements si un chef de projet puise excessivement dans cette capacité pour les besoins en ressources. |
+| Groupe d'unités | La valeur par défaut est le **groupe d’unités Temps**, valeur qui ne peut pas être modifiée. | Aucun(e)|
+| Unité | La valeur par défaut de ce champ est l’unité de base en heures à partir du **groupe d’unités Temps**. Vous pouvez modifier cette valeur pour acheter toute unité du **groupe d’unités Temps**, comme un jour ou une semaine. | L’association **Rôle** et **Unité** est utilisée par défaut ou calculée pour le prix unitaire de la ligne du contrat de sous-traitance. |
+| Prix unitaire | Le prix unitaire par défaut utilise l’association **Rôle** et **Unité** du tarif du projet applicable pour la date **Début demandé** de la ligne du contrat de sous-traitance. | Si le tarif du projet applicable est configuré dans une unité différente de celle sur la ligne du contrat de sous-traitance, le système utilise la conversion d’unité pour calculer le prix unitaire. |
+| Sous-total |    Ce champ en lecture seule est calculé de la façon suivante : Quantité x Prix unitaire, si les valeurs de quantité et de prix unitaire sont entrées. Si la quantité, le prix unitaire ou les deux sont vides, vous pouvez saisir une valeur dans le champ. | Aucun(e)|
+| Taxe de ventes |   Entrez le montant de la taxe de ventes. |Aucun(e) |
+| Montant total | Le montant total de la ligne de sous-traitance, taxes incluses. Ce champ est calculé de la façon suivante : Sous-total + Taxe de vente.|Aucun(e) |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
