@@ -2,16 +2,16 @@
 title: Créer une structure de répartition du travail
 description: Cette rubrique explique comment créer une structure de répartition du travail (WBS) incluant les commandes de base dans la nouvelle interface de planification.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998728"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655414"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Créer une structure de répartition du travail (WBS)
 
@@ -117,5 +117,26 @@ Le mode de tâche n’a aucun impact sur les mises à jour apportées aux dates 
 
 La grille **Planification** est entièrement accessible et peut être utilisée avec des lecteurs d’écran, tels que Narrateur, JAWS ou NVDA. Vous pouvez vous déplacer dans la zone de la grille à l’aide des flèches (comme dans Microsoft Excel), vous pouvez utiliser la touche Tabulation pour avancer dans les éléments d’interface utilisateur interactifs, et vous pouvez utiliser flèche vers le bas, la touche Entrée ou la barre d’espace pour sélectionner et ouvrir les menus déroulants.
 
+## <a name="project-limitations"></a>Limitations de projet 
+Vous devez tenir compte des limitations suivantes si vous utilisez la structure de répartition du travail dans Project Operations. Ces limites s’appliquent aux projets et aux tâches. Pour plus d’informations, consultez [Limites et frontières de Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Champ**                                          |  **Limite**           |
+|----------------------------------------------------|----------------------|
+| Nombre total maximal de tâches pour un projet                  | 500                  |
+| Durée totale maximale d’un projet               | 3 650 jours (10 ans) |
+| Nombre total maximal de ressources pour un projet              | 150                  |
+| Nombre total maximal de liens (successeur uniquement) pour un projet | 600                  |
+| Nombre total maximal de champs personnalisés pour un projet          | 10                   |
+
+**Limitations de tâche**
+
+| **Champ**                               |   **Limite**           |
+|-----------------------------------------|-----------------------|
+| Niveau hiérarchique maximal                 | 10 niveaux             |
+| Nombre maximal de liens (successeur + prédécesseur) | 20                    |
+| Durée maximale d’une tâche feuille           | Plus de 1250 jours             |
+| Durée maximale d’une tâche récapitulative      | 3 650 jours (10 ans)  |
+| Nombre maximal de ressources affectées à une tâche    | 20 ressources          |
+| Plage de dates prise en charge pour une tâche         | 1/1/2000 - 31/12/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
