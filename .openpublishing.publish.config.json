@@ -29,7 +29,7 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft.fr-fr",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
     {
@@ -38,7 +38,7 @@
       "branch": "live",
       "branch_mapping": {
         "live": "live",
-        "master": "master"
+        "main": "main"
       }
     }
   ],
