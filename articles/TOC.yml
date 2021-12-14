@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Nouveautés
       items:
+        - name: "Novembre\_2021\_– Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: "Octobre\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: "Septembre\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Performances de l’API de planification de projets
               href: project-management/project-schedule-api-performance.md
+            - name: Journaux de planification de projets
+              href: project-management/schedule-api-logs.md
     - name: Gestion des ressources
       items:
         - name: Concepts clés
@@ -544,6 +548,8 @@
       items:
         - name: "Nouveautés de l’accès anticipé à la 2e vague du lancement\_2021 - Déploiement simplifié"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Nouveautés de novembre\_2021 – Déploiement léger"
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: "Nouveautés d’octobre\_2021 – Déploiement simplifié"
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: "Nouveautés de septembre\_2021 – Déploiement simplifié"
@@ -952,6 +958,10 @@
   items:
     - name: Nouveautés
       items:
+        - name: "Nouveautés d’octobre\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: "Nouveautés de septembre\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: "Nouveautés de juillet\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: "Nouveautés de mai\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
@@ -1108,6 +1118,8 @@
       items:
         - name: "Calendrier de publication des mises à jour pour Project\_Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_37.5,\_V3"
+          href: psa/whats-new-ur-37-5.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_37,\_V3"
           href: psa/whats-new-ur-37.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_36,\_V3"

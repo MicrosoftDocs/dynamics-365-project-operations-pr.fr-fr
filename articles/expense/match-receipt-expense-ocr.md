@@ -2,7 +2,7 @@
 title: Capturer un reçu à l’aide d’OCR
 description: Cette rubrique fournit des informations sur le traitement de la reconnaissance optique de caractères (OCR) pour les reçus.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007728"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798037"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Capturer un reçu à l’aide d’OCR
 
@@ -85,7 +85,18 @@ Non, Microsoft a créé un modèle général de Machine Learning pour son servic
 
 **Où cette fonctionnalité est-elle disponible et traitée ?**
 
-Actuellement, elle est prise en charge aux États-Unis.
+La disponibilité de cette fonctionnalité dans différentes régions est répertoriée dans le tableau suivant. Si votre région n’est pas actuellement prise en charge, soumettez une demande pour faire passer en priorité la disponibilité du service OCR dans votre région. 
+
+| Région | Prise en charge                         |
+|--------|-----------------------------------|
+| USA    | Oui                               |
+| CAN    | Oui                               |
+| Royaume-Uni     | Oui                               |
+| AUS    | Oui                               |
+| UE     | Partiellement. Reçus en anglais seulement. |
+| Asie   | No                                |
+| Japon  | No                                |
+| Afrique | No                                |
 
 **Où vont mes reçus ?**
 

@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
-ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "7773579"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892172"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Calendrier de publication des mises à jour pour Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7773579"
 
 | Solution  | Version la plus récente |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
+| Automatisation de la gestion de projets    | 3.10.58.130 |
 | Complément de bureau Project Service Automation                | 3.15          |
 
 Pour plus d’informations sur les mises à jour de Project Service, consultez le site [Plans de version Dynamics 365](/dynamics365/release-plans/). 
@@ -55,18 +55,18 @@ Pour plus d’informations sur les mises à jour de Project Service, consultez l
 | | <i>Allemagne</i> | [3.10.58.120](whats-new-ur-37.md) | À définir | 10 décembre 2021
 | | <i>Suisse</i> | [3.10.58.120](whats-new-ur-37.md) | À définir | 10 décembre 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japon</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 novembre 2021
-| | <i>Asie-Pacifique</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 novembre 2021
-| | <i>Grande-Bretagne</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 novembre 2021
-| | <i>Océanie</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 novembre 2021
-| | <i>Émirats Arabes Unis</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 novembre 2021
+| | <i>Japon</i> | [3.10.58.130](whats-new-ur-37-5.md) | À définir | 17 décembre 2021
+| | <i>Asie-Pacifique</i> | [3.10.58.130](whats-new-ur-37-5.md) | À définir | 17 décembre 2021
+| | <i>Grande-Bretagne</i> | [3.10.58.130](whats-new-ur-37-5.md) | À définir | 17 décembre 2021
+| | <i>Océanie</i> | [3.10.58.130](whats-new-ur-37-5.md) | À définir | 17 décembre 2021
+| | <i>Émirats Arabes Unis</i> | [3.10.58.130](whats-new-ur-37-5.md) | À définir | 17 décembre 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19 novembre 2021
+| | <i>Europe</i> | [3.10.58.130](whats-new-ur-37-5.md) | À définir | 07 janvier 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Amérique du Nord</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 décembre 2021
+| | <i>Amérique du Nord</i> | [3.10.58.130](whats-new-ur-37-5.md) | À définir | 14 janvier 2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Cloud de la communauté du secteur public</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 décembre 2021
-| | <i>Groupes d’échelles dédiés</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10 décembre 2021
+| | <i>Cloud de la communauté du secteur public</i> | [3.10.58.130](whats-new-ur-37-5.md) | À définir | 14 janvier 2022
+| | <i>Groupes d’échelles dédiés</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10 décembre 2021
 
 
 
