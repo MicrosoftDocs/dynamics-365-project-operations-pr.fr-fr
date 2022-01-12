@@ -8,7 +8,11 @@
       href: environment/admin-trials.md
     - name: Mises à jour de Project Operations
       href: whats-new/project-operations-updates.md
-- name: "Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+    - name: Fonctionnalités supprimées ou obsolètes
+      items:
+        - name: Fonctionnalités supprimées ou obsolètes dans Project Operations
+          href: whats-new/removed-depreciated-features-project.md
+- name: Project Operations pour les scénarios basés sur les ressources/produits non stockés
   items:
     - name: Prise en main
       items:
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Nouveautés
       items:
+        - name: "Décembre\_2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés"
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: "Novembre\_2021\_– Project\_Operations pour les scénarios selon les ressources/produits non stockés"
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: "Octobre\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Configurer le kilométrage à l’aide des niveaux de taux de kilométrage
               href: expense/set-up-mileage.md
+        - name: Détail des dépenses
+          href: prod-exp/expense-itemization.md
         - name: Dépenses personnelles
           href: expense/personal-expenses-expense-report.md
         - name: Dépenses intersociétés
@@ -530,7 +538,13 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Gérer les estimations de revenus
           href: revenue-recognition/rev-rec-completed-contract-method.md
-- name: "Déploiement simplifié\_–\_Traiter la facturation pro forma"
+    - name: Résolution des problèmes
+      items:
+        - name: Processus de vente du projet
+          items:
+            - name: 'Erreur d’incompatibilité de devise lors de la création d’un projet, contrat, devis ou ressource réservable'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
+- name: "Déploiement simplifié\_-\_Opter pour la facturation pro forma"
   items:
     - name: Prise en main
       items:
@@ -548,6 +562,8 @@
       items:
         - name: "Nouveautés de l’accès anticipé à la 2e vague du lancement\_2021 - Déploiement simplifié"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Nouveautés de décembre\_2021 – Déploiement léger"
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: "Nouveautés de novembre\_2021 – Déploiement léger"
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: "Nouveautés d’octobre\_2021 – Déploiement simplifié"
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Jalons de la ligne du contrat de sous-traitance
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Membres de l’équipe du projet en sous-traitance
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Options de sous-traitance pour les membres de l’équipe du projet
+          href: pro/subcontracting/subcon-options.md
+        - name: Estimation du coût des attributions de ressources de sous-traitance
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configurer le tableau de planification pour afficher les sous-traitants et la capacité de sous-traitance
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Dotation d’un projet en sous-traitants et capacité de sous-traitance
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Enregistrement du temps, des dépenses et de l’utilisation du matériel pour les composants en sous-traitance'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Transitions d’état dans un sous-contrat
+          href: pro/subcontracting/subcon-states.md
     - name: Temps
       items:
         - name: Vue d’ensemble du temps
@@ -1118,6 +1148,8 @@
       items:
         - name: "Calendrier de publication des mises à jour pour Project\_Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Nouveautés ou modifications de la mise à jour de la version\_38,\_V3"
+          href: psa/whats-new-ur-38.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_37.5,\_V3"
           href: psa/whats-new-ur-37-5.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_37,\_V3"
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Guide de création de rapports
           href: psa/implementation-guides/reporting-guide.md
+    - name: Effectuer une mise à niveau de Project Service Automation vers Project Operations - simplifié
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: "Mise à niveau de Project\_Service\_Automation (version\_3.x de l’application)"
       items:
         - name: "Mise à niveau de Project\_Service\_Automation"
