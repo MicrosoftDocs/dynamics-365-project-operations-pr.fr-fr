@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e8560e7c7d6bae1bb2fda389a63bde1c57654bcb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827278"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942928"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Nouveautés de novembre 2021 - Déploiement simplifié de Project Operations
 
@@ -20,7 +20,7 @@ _S’applique à : Déploiement simplifié – Traiter la facturation pro forma
 
 Ce sujet s’applique aux composants et versions suivants de Microsoft Dynamics 365 Project Operations :
 
-- Project Operations dans un environnement Dataverse, version 4.26.0.145, 4.26.0.148 ou 4.26.0.150
+- Project Operations dans un environnement Dataverse, version 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 

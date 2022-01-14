@@ -1,8 +1,8 @@
 ---
-title: Notes de frais réinventées
+title: Notes de frais réinventées (contient une vidéo)
 description: Cette rubrique explique l’expérience reconçue et réinventée pour la saisie de notes de frais.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997828"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941027"
 ---
 # <a name="expense-reports-reimagined"></a>Notes de frais réinventées
 
@@ -58,6 +58,7 @@ Pour activer la nouvelle expérience, utilisez l’espace de travail **Gestion d
 | Enregistrer et ajouter de nouvelles lignes de dépenses | Les boutons **Enregistrer** et **Nouveau** sont disponibles lorsque de nouvelles dépenses sont saisies, pour vous aider à saisir rapidement des lignes de dépenses. |
 | Meilleure visibilité sur les lignes fractionnées et détaillées | Des lignes détaillées et fractionnées sont ajoutées directement à la liste des dépenses pour augmenter la visibilité et vous aider à déterminer facilement s’il y a des erreurs. |
 | Afficher les détails de sous-catégories dans les lignes détaillées | Les lignes ventilées d′une dépense parent affichent les étiquettes de sous-catégorie sur la note de frais. La répartition permet d′examiner les détails granulaires en un coup d′œil.|
+|Détailler rapidement les dépenses récurrentes | L’espace de travail des notes de frais réinventées offre la possibilité de détailler rapidement les dépenses récurrentes en ajoutant la sous-catégorie, la date de début et la quantité. La quantité réfère au nombre de fois que le frais est répété sur une période continue. |
 | Afficher les reçus lors de la répartition | Les reçus peuvent être affichés lors de la répartition. |
 | Sélection de l’avance de trésorerie | Sélectionnez une ou plusieurs avances de trésorerie pour exécuter une seule transaction de dépense. |
 | Solde de l’avance de trésorerie | Vérifiez le solde de l’avance de trésorerie en temps réel lorsque vous créez une entrée de dépenses pour les avances de paiement approuvées et payées. |

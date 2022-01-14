@@ -2,16 +2,16 @@
 title: Créer une structure de répartition du travail
 description: Cette rubrique explique comment créer une structure de répartition du travail (WBS) incluant les commandes de base dans la nouvelle interface de planification.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655414"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928612"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Créer une structure de répartition du travail (WBS)
 
@@ -95,7 +95,7 @@ En tant qu’administrateur, vous pouvez définir des champs personnalisés sur 
 
 ## <a name="staffing-attributes"></a>Attributs de dotation de personnel
 
-Les attributs de dotation en personnel sont accessibles via le champ **Ressources** dans la planification. Vous pouvez rechercher une ressource existante, ou cliquer sur **Créer**, puis dans le volet **Création rapide**, ajoutez un membre de l’équipe du projet comme nouvelle ressource.
+Les attributs de dotation en personnel sont accessibles via le champ **Ressources** dans la planification. Vous pouvez rechercher une ressource existante, ou cliquer sur **Créer**, puis dans le volet **Création rapide**, ajoutez un membre de l’équipe du projet comme nouvelle ressource.  Lorsque vous recherchez une ressource à l’aide du sélecteur de ressources dans la grille des tâches, la vue de tableau ou la vue Gantt, la recherche renvoie soit les membres de l’équipe de projet existants, soit les ressources actives pouvant être réservées.
 
 Les champs **Rôle**, **Unité d’allocation des ressources** et **Nom du poste** sont utilisés pour décrire les exigences en dotation de personnel de la tâche. Ces attributs de dotation en personnel, ainsi que la planification de tâche, sont utilisés pour rechercher les ressources disponibles pour effectuer cette tâche.
 
@@ -127,6 +127,7 @@ Vous devez tenir compte des limitations suivantes si vous utilisez la structure 
 | Nombre total maximal de ressources pour un projet              | 150                  |
 | Nombre total maximal de liens (successeur uniquement) pour un projet | 600                  |
 | Nombre total maximal de champs personnalisés pour un projet          | 10                   |
+| Nombre maximal d’éléments de la liste de contrôle par tâche                   | 20                   |
 
 **Limitations de tâche**
 

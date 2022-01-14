@@ -2,16 +2,16 @@
 title: Valeurs par défaut d’une dimension financière
 description: Cette rubrique fournit des informations sur la configuration des valeurs par défaut des dimensions financières.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005433"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922935"
 ---
 # <a name="financial-dimension-defaults"></a>Valeurs par défaut d’une dimension financière
 
@@ -60,6 +60,15 @@ Les projets sont créés et gérés dans CDS. Les attributs comptables des proje
 4. Définissez les valeurs par défaut des dimensions financières. Notez que les dimensions financières proviennent par défaut du compte client. Si le projet est associé à une ligne de contrat avec plusieurs clients de contrat de projet, le client principal est utilisé pour les dimensions financières par défaut.
 
 Les dimensions financières par défaut du projet permettent de définir les valeurs par défaut des lignes feuille pour les transactions de temps, de dépenses et de frais dans la **Feuille Intégration Project Operations** et sur les lignes de facture de projet associées.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Appliquer des dimensions financières aux entrées de temps de projet
+Pour appliquer des dimensions financières aux entrées de temps de projet, notez que la valeur de dimension par défaut est basée sur l’ordre suivant :
+
+1. Ressource
+2. Project
+3. Source de financement
+
+Par exemple, si la dimension par défaut est spécifiée sur une ressource, elle sera appliquée par-dessus une dimension par défaut spécifiée sur le projet. De même, une dimension de projet par défaut sera appliquée par-dessus la dimension par défaut spécifiée dans la source de financement.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
