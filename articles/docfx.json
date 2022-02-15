@@ -49,7 +49,7 @@
             "**.md": "dynamics-365-project-operations"
         },
         "search.app":{
-            "**.md": "ProjectOperations"
+            "**.*": "ProjectOperations"
         },
         "ms.search.scope":{
             "**.md": "ProjectOperations" 
