@@ -2,16 +2,18 @@
 title: Répondre aux besoins en ressources génériques
 description: Cette rubrique fournit des informations sur le mode de réservation des ressources nommées pour un besoin en ressources générique.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008268"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130304"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Répondre aux besoins en ressources génériques
 
@@ -37,6 +39,3 @@ Il s’agit d’un exemple où plusieurs ressources nommées sont nécessaires p
 La principale différence dans ce scénario est que la ressource générique reste dans l’équipe attribuée à la tâche, et les membres de l’équipe de ressources nommés réservés ne sont pas attribués dans le cadre du poste. Le chef de projet peut affecter le travail si besoin aux ressources nommées. La vue **Rapprochement** peut aider un chef de projet à répartir les réservations entre plusieurs ressources à des affectations de tâche. Cela n’est pas effectué automatiquement, car dans les scénarios plus compliqués que l’exemple simple ci-dessus, comme celui où un groupe de tâches composent le besoin, la façon dont le chef de projet souhaite les affecter, doit être prise en compte par le système. Comme le système ne peut pas comprendre l’intention, les hypothèses seront sans doute différentes de celles prévues et un résultat incorrect ou imprévisible se produira. Le résultat prévisible est que la ressource générique reste affectée jusqu’à ce que le chef de projet crée délibérément des attributions à l’aide de la vue **Rapprochement**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

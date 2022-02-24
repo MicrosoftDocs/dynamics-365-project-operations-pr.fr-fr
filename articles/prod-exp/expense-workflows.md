@@ -2,9 +2,11 @@
 title: Configurer des workflows pour la gestion des dépenses
 description: Vous pouvez configurer un processus de workflow pour examiner et approuver les documents de voyage et de dépenses.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -14,22 +16,22 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97db155a1d8ce77f711ea37bbd537527607f13f212ee59383ea165f5e46b81ba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 36ab1edc4769013684fa9248e6c5eac025637bbd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001248"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271620"
 ---
 # <a name="set-up-expense-management-workflows"></a>Configurer des workflows pour la gestion des dépenses
 
-Vous pouvez configurer un processus de flux de travail utilisé pour examiner et approuver les documents de déplacement et de dépenses. Les documents pour lesquels les workflows peuvent être définis incluent les notes de frais, les demandes de déplacement et les demandes d’avance de fonds.
+Vous pouvez configurer un processus de flux de travail utilisé pour examiner et approuver les documents de déplacement et de dépenses. Les documents pour lesquels les workflows peuvent être définis incluent les notes de frais, les demandes de déplacement et les demandes d'avance de fonds.
 
 Un flux de travail représente un processus métier. Il définit le transfert d’un document dans le système et indique qui doit traiter une tâche ou approuver un document. Il y a plusieurs avantages à utiliser le système de workflow dans votre organisation :
 
 -   **Processus cohérents** — Vous pouvez définir le processus d’approbation pour des documents spécifiques, tels que des demandes d’achat ou des états de dépenses. Le système de workflow permet de s’assurer que les documents sont traités et approuvés de manière cohérente et efficace.
 
--   Visibilité de processus — Vous pouvez suivre le statut, l’historique et les mesures de performance d’une instance de workflow spécifique. Cette approche vous aide à déterminer si des modifications doivent être apportées au workflow pour améliorer l’efficacité.
+-   Visibilité de processus — Vous pouvez suivre le statut, l’historique et les mesures de performance d’une instance de workflow spécifique. Cette approche vous aide à déterminer si des modifications doivent être apportées au workflow pour améliorer l'efficacité.
 
 -   Liste de travail centralisée — Les utilisateurs peuvent afficher une liste de travail centralisée pour afficher les tâches de workflow et les approbations qui leur sont affectées. 
 
@@ -40,7 +42,7 @@ Le tableau ci-dessous répertorie les types de workflows que vous pouvez créer 
 
 |              <strong>Type</strong>              |                   <strong>Utilisez ce type pour ce qui suit</strong>                   |
 |-------------------------------------------------|-----------------------------------------------------------------------|
-|         <strong>Rapport de dépenses</strong>         |            Créez des workflows d’approbation pour les notes de frais.             |
+|         <strong>Rapport de dépenses</strong>         |            Créez des workflows d'approbation pour les notes de frais.             |
 |  <strong>Validation automatique des notes de frais</strong>   |        Créez des workflows de validation automatique pour les notes de frais.        |
 |       <strong>Article de ligne de dépense</strong>        |     Créez des workflows d’approbation pour les articles de ligne sur les notes de frais.      |
 | <strong>Validation automatique des lignes de dépense</strong> | Créez des workflows de validation automatique pour les articles de ligne sur les notes de frais. |

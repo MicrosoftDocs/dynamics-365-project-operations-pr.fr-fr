@@ -2,16 +2,18 @@
 title: Paiements anticipés et contrats basés sur les provisions
 description: Cette rubrique fournit des informations sur les modèles de contrats basés sur les provisions et les paiements anticipés dans Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87e275cb72f1edc5a2a9913b4aa47d461d1f3d3d9bf177bf0ffba8b463f4ce01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e098d25a3e96adf2a1b8e43a19da3a14f446fba9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994408"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272340"
 ---
 # <a name="advances-and-retainer-based-contracts"></a>Paiements anticipés et contrats basés sur un acompte
 

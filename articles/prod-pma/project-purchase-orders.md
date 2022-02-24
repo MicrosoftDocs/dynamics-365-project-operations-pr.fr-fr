@@ -2,9 +2,11 @@
 title: Commandes fournisseur pour un projet
 description: Cet article décrit les différentes méthodes que vous pouvez utiliser pour créer des commandes fournisseur pour un projet. La méthode que vous utilisez dépend de l’objectif de la commande fournisseur et quand les articles achetés sont consommés et, par conséquent, facturés sur un projet.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5de28f3844b802a980c811411cae75549c697538f89e8c3d2495ea171a188524
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bd891aec5bcab66c5801a5d9ca8abbbf632d662d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075728"
 ---
 # <a name="purchase-orders-for-a-project"></a>Commandes fournisseur pour un projet
 
@@ -57,7 +59,7 @@ Vous pouvez utiliser l’une des méthodes suivantes pour créer une commande fo
 <td>Les articles sont consommés lors de la mise à jour de la facture fournisseur.</td>
 </tr>
 <tr class="even">
-<td>Créer une commande achat à partir d’une commande client.</td>
+<td>Créer une commande achat à partir d'une commande client.</td>
 <td>Utilisez cette méthode pour acheter des articles lorsque vous créez une commande client à partir d’un projet.</td>
 <td>Les articles sont consommés lorsque la commande client est facturée au client.</td>
 </tr>
@@ -74,6 +76,3 @@ Vous pouvez utiliser l’une des méthodes suivantes pour créer une commande fo
 
 Pour plus d’informations, consultez [Recevoir les articles sur la commande fournisseur depuis l’exigence d’article](tasks/receive-items-purchase-order-item-requirement.md).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

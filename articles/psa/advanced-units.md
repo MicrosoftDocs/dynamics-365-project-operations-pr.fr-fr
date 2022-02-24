@@ -2,6 +2,8 @@
 title: Groupes d’unités et unités
 description: Cette rubrique fournit des informations sur les groupes d’unités et les unités.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987568"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145580"
 ---
 # <a name="unit-groups-and-units"></a>Groupes d’unités et unités
 
@@ -44,7 +46,7 @@ Par exemple, dans un groupe d’unités **Temps**, si vous configurez **Heure** 
 
 L’image suivante propose un exemple de configuration pour l’unité **Jour**, où le champ **Quantité** affiche le nombre d’heures dans une journée, et **Semaine**, où le champ **Quantité** affiche le nombre de jours dans une semaine.
 
-> ![Groupe d’unités : page d’informations.](media/advanced-2.png)
+> ![Groupe d’unités : Page d’informations](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Utilisation d’unités et de groupes d’unités
 
@@ -86,9 +88,9 @@ L’exemple suivant montre comment PSA utilise le groupe d’unités, les unité
 
 | Rôle      | Groupe d’unités | Unité | Unité d’organisation | Prix   |
 |-----------|------------|------|---------------------|---------|
-| Développeur | Temps       | Jour  | Contoso Royaume-Uni          | 800 GBP |
+| Développeur | Time       | Day  | Contoso UK          | 800 GBP |
 
-### <a name="time-entry"></a>Saisie de l’heure
+### <a name="time-entry"></a>Entrée de temps
 
 Le tableau suivant indique la transaction en résultant côté ventes créée par PSA pour un projet de trois heures.
 
@@ -110,6 +112,3 @@ Non. L’estimation de la planification est actuellement limitée aux heures et 
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Les unités et les groupes d’unités peuvent-ils être édités, supprimés et ajoutés ?
 Oui. À l’exception du groupe d’unités **Heure** et de l’unité **Heure**, toutes les unités peuvent être supprimées ou modifiées, et de nouvelles unités peuvent être ajoutées. Dans PSA, le groupe d’unités **Heure** et l’unité **Heure** ne peuvent pas être supprimés. En revanche, ils peuvent être mis à jour avec un texte traduit pour le champ **Nom**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

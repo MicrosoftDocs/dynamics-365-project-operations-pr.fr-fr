@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: 8e9c94329ae8b1a60909cbe646f7665336be45ac0a13d236b73db7e4f34eed86
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1fafdfea36dc81a5c328233cdf39e84aab07d8a5
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985183"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069543"
 ---
 Microsoft 365

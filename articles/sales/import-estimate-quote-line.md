@@ -2,16 +2,18 @@
 title: Importer des estimations pour un projet vers une ligne de devis de projet
 description: Cette rubrique fournit des informations sur l’importation d’estimations d’un projet sur une ligne de devis de projet.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a9ac27b7694927f9cea88b49310f3106fbc6542cc0f7f1756744b970358c1057
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993508"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858740"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Importer des estimations pour un projet vers une ligne de devis de projet
 

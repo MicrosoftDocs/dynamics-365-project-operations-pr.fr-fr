@@ -2,6 +2,8 @@
 title: Associer les qualifications aux rôles des ressources
 description: Procédure d’association de qualifications aux rôles de ressources dans Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dd3d20593f55feccaaf67eb0af9550d6e3289edfeeaf4001a56fd39dbb1e3c07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8386948d8ea2431385e6aed9165b4018c34bcaf0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998593"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145310"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Associer des qualifications aux rôles de ressources (Project Service)
 
@@ -45,6 +47,3 @@ Lorsque vous ajoutez des rôles de ressources, vous avez probablement déjà ass
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer les ressources](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: Nouveautés de novembre 2020 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 description: Cette rubrique fournit des informations sur les mises à jour qualité disponibles dans la version de novembre 2020 Project Operations pour les scénarios basés sur les ressources/produits non stockés.
 author: sigitac
+manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
+ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007953"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367262"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de novembre 2020 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
 - Version 4.4.0.70 de Project Operations dans l’environnement CDS
 - Version 10.0.14 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
@@ -28,7 +30,7 @@ Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 
 
 | Fonctionnalités                 | Numéro de référence | Mise à jour qualité                                                                                                                                                                    |
 |------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Gestion des opportunités       | 2036993          | La ligne d’estimation et les lignes de contrat d’affectation de ressources sont mises à jour sur les devis gagnants lorsque le type de ligne de devis est **Toutes les tâches**.                                                 |
+|   Gestion des opportunités       | 2036993          | La ligne d’estimation et les lignes de contrat d’affectation de ressources sont mises à jour sur les devis gagnants lorsque le type de ligne de devis est **Toutes les tâches**.                                                 |
 | Facturation et tarification          | 2070392          | Les lignes de contrat de projet sur la facture augmentent à chaque fois que **Actualiser les transactions de facture** est sélectionné.                                                                         |
 | Planification de projet             | 2043336          | Impossible de supprimer un enregistrement de membre de l’équipe de projet.                                                                                                                                  |
 | Planification de projet             | 2046013          | Comportement incohérent des colonnes d’indicateur Estimations pendant le chargement par rapport au changement de type de phase de temps.                                                                                   |
@@ -65,7 +67,4 @@ Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 
 | Comptabilité de projet  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Activer la fonctionnalité Plusieurs lignes de contrat n’est pas possible sans intégration CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Mises à jour réglementaires
-Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.

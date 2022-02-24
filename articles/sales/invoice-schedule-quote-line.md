@@ -2,16 +2,18 @@
 title: Planifications de facture sur une ligne de devis selon les projets
 description: Cette rubrique fournit des informations sur la création de planifications de factures et de jalons pour les lignes de devis.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988603"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180819"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Planifications de facture sur une ligne de devis selon les projets
 
@@ -66,6 +68,3 @@ Ouvrez la ligne de devis à prix fixe où vous devez créer un jalon. Sous l’o
 | Statut de la facture | Création rapide | Lorsqu’un jalon est créé, ce statut est toujours défini sur **Non prêt pour la facturation**. | Ceci est propagé au jalon de la ligne de contrat de projet et à la facture. |
 | Montant de la ligne | Création rapide | Montant ou valeur du jalon qui sera facturé au client. | Ceci est propagé au jalon de la ligne de contrat de projet et à la facture. |
 | Taxes | Création rapide | Montant de taxe qui sera appliqué au jalon. | Ceci est propagé au jalon de la ligne de contrat de projet et à la facture. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

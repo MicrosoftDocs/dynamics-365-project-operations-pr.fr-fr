@@ -2,6 +2,8 @@
 title: Gérer les demandes de ressource.
 description: Procédure de gestion des demandes de ressource dans Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985138"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149855"
 ---
 # <a name="manage-resource-requests-project-service"></a>Gérer les demandes de ressource (Project Service)
 
@@ -43,12 +45,9 @@ Les responsables de compte et les responsables de projet demandent régulièreme
   
    -   Cliquez sur **Filtre** pour afficher le volet **Filtre**, qui vous permet de filtrer vos résultats par unité d’organisation, rôle, compétence, ou d’autres attributs.  
   
-       ![Écran Demande de ressources de Project Service.](../psa/media/project-service-resource-request-screen.png "Écran Demande de ressources de Project Service")  
+       ![Écran Demande de ressources de Project Service](../psa/media/project-service-resource-request-screen.png "Écran Demande de ressources de Project Service")  
   
 3. Dans le calendrier de la ressource que vous souhaitez réserver, sélectionnez la période de réservation de la ressource, puis cliquez sur **Réserver** pour réserver la ressource ou **Proposer une réservation** pour proposer la réservation et demander au demandeur de l’approuver. Lorsque vous réservez une ressource, vous pouvez la réserver fermement ou temporairement.  
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du gestionnaire de ressources](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

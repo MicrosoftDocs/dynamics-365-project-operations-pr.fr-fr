@@ -2,17 +2,19 @@
 title: Lier des chiffres réels à des enregistrements d’origine
 description: Cette rubrique explique comment lier des chiffres réels à des enregistrements d’origine tels qu’une entrée de temps, de dépense ou des journaux d’utilisation du matériel.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991753"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852586"
 ---
 # <a name="link-actuals-to-original-records"></a>Lier des chiffres réels à des enregistrements d’origine
 
@@ -77,7 +79,7 @@ Ensemble, **Origine de la transaction** et **Connexion de la transaction** vous 
 
 L’exemple suivant explique le traitement classique des entrées de temps dans un cycle de vie de projet Project Operations.
 
-> ![Traitement des entrées de temps dans un cycle de vie de Project Service.](media/basic-guide-17.png)
+> ![Traitement des entrées de temps au cours du cycle de vie de Project Service](media/basic-guide-17.png)
  
 1. L’envoi d’une entrée de temps crée deux lignes de journal : une pour le coût et une pour les ventes non facturées.
 2. L’approbation finale de l’entrée de temps crée deux chiffres réels : un chiffre réel pour le coût et un chiffre réel pour les ventes non facturées.
@@ -88,7 +90,7 @@ Chacun de ces événements crée un enregistrement dans les entités **Origine d
 
 Le tableau suivant indique l’enregistrement dans l’entité **Origine de la transaction** pour le workflow.
 
-| Événement                        | Origine                   | Type d’origine                       | Transaction                       | Type de transaction         |
+| Événement                        | Origine                    | Type d’origine                       | Transaction                       | Type de transaction         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
 | Envoi d’entrée de temps        | GUID de l’enregistrement de l’entrée de temps   | Entrée de temps                        | GUID de l’enregistrement de la ligne de journal (coût)   | Ligne de journal             |
 | GUID de l’enregistrement de l’entrée de temps       | Entrée de temps               | GUID de l’enregistrement de la ligne de journal (ventes)  | Ligne de journal                      |                          |

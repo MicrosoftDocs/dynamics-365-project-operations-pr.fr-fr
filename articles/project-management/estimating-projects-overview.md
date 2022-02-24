@@ -2,17 +2,18 @@
 title: Concepts d’estimation financière
 description: Cette rubrique fournit des informations sur les estimations financières de projets dans Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 74b2499cc706e03658cadeb088df154100051cbc7cce386b2e4d50dbdb5c197f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989188"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701733"
 ---
 # <a name="financial-estimation-concepts"></a>Concepts d’estimation financière
 
@@ -28,19 +29,19 @@ Vous pouvez créer une estimation financière pour le travail basé sur un proje
 - La page **Projet**, en utilisant les pages d’onglets **Tâches** ou **Estimations des dépenses**.
 
 ## <a name="use-a-project-quote-to-create-an-estimate"></a>Utiliser un devis de projet pour créer une estimation
-Sur un devis basé sur un projet, vous pouvez utiliser l’entité **Détails de la ligne de devis** pour estimer le travail requis pour fournir un projet. Vous pouvez ensuite communiquer cette estimation au client.
+Sur un devis basé sur un projet, vous pouvez utiliser l’entité **Détails de la ligne de devis** pour estimer le travail requis pour fournir un projet. Vous pouvez ensuite partager cette estimation avec le client.
 
-Les lignes de devis basées sur un projet peuvent avoir de zéro à plusieurs détails de ligne de devis. Les détails de la ligne de devis sont utilisés pour estimer le temps, les dépenses ou les frais. Microsoft Dynamics 365 Project Operations ne permet pas des estimations matérielles sur les détails de la ligne de devis. Elles sont appelées Classes de transaction. Des montants d’estimation des taxes peuvent également être entrés dans une classe des transactions.
+Les lignes de devis basées sur un projet peuvent contenir plusieurs détails ou être vides. Les détails de la ligne de devis sont utilisés pour estimer le temps, les dépenses ou les frais. Microsoft Dynamics 365 Project Operations ne permet pas des estimations matérielles sur les détails de la ligne de devis. Elles sont appelées Classes de transaction. Des montants d’estimation des taxes peuvent également être entrés dans une classe des transactions.
 
-Outre les classes de transactions, les détails de ligne de devis sont associés à un type de transaction. Deux types de transaction sont pris en charge pour les détails de la ligne de devis : **Coût** et **Contrat du projet**.
+Outre les classes de transaction, les détails de la ligne de devis ont un type des transactions. Deux types de transaction sont pris en charge pour les détails de la ligne de devis : **Coût** et **Contrat du projet**.
 
 ## <a name="use-a-project-contract-to-create-an-estimate"></a>Utiliser un contrat de projet pour créer une estimation
 
 Si vous avez utilisé un devis lorsque vous avez créé un contrat basé sur un projet, l’estimation effectuée pour chaque ligne de devis sur le devis est copiée dans le contrat du projet. La structure d’un contrat de projet est semblable à la structure du devis de projet contenant les lignes, les détails de ligne, et les planifications de factures.
 
-Les estimations peuvent être effectuées directement dans un contrat de projet, comme dans un devis de projet. Pour un devis de projet, l’estimation est effectuée à l’aide de lignes de contrat et de détails de la ligne de contrat. Les détails de ligne de contrat peuvent également être générés à partir d’un plan de projet créé à l’aide de l’approche d’estimation ascendante.
+Les estimations peuvent être effectuées directement dans un contrat de projet, comme dans un devis de projet. Pour un devis de projet, l’estimation est effectuée à l’aide de lignes de contrat et de détails de la ligne de contrat. Les détails de la ligne de contrat peuvent également être générés depuis un plan de projet créé à l’aide de l’approche d’estimation ascendante.
 
-Les détails de ligne de contrat permettent d’estimer le temps, les dépenses ou les frais. Les montants de taxe estimés peuvent également être saisis dans un détail de ligne de contrat.
+Les détails de la ligne de contrat peuvent être utilisés pour estimer le temps, les dépenses ou les frais. Des montants d’estimation des taxes peuvent également être entrés dans un détail de la ligne de contrat.
 
 Les estimations matérielles ne sont pas autorisées sur les détails de la ligne de contrat.
 
@@ -48,7 +49,7 @@ Les estimations matérielles ne sont pas autorisées sur les détails de la lign
 
 Vous pouvez évaluer le temps et les dépenses des projets. Project Operations ne prend pas en charge les estimations du matériel ou des frais des projets.
 
-Les estimations de temps sont générées lorsque vous créez une tâche et identifiez les attributs d’une ressource générique qui est obligatoire pour effectuer la tâche. Les estimations du temps sont générées à partir des tâches de planification. Les estimations de temps ne sont pas créées si vous créez des membres d’équipe génériques en dehors du contexte de la planification.
+Les estimations de temps sont générées lorsque vous créez une tâche et identifiez les attributs d’une ressource générique qui est obligatoire pour effectuer la tâche. Les estimations de temps sont générées par les tâches de planification. Les estimations de temps ne sont pas créées si vous créez des membres d’équipe génériques en dehors du contexte de la planification.
 
 Les estimations des dépenses sont entrées dans la grille de la page **Estimations des dépenses**.
 

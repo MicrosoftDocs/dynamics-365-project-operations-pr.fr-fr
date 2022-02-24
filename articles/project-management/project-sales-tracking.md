@@ -2,16 +2,18 @@
 title: Suivi des ventes du projet
 description: Cette rubrique fournit des informations sur la façon dont Project Operations suit la progression par rapport au revenu de la main d’œuvre d’un projet.
 author: rumant
+manager: AnnBe
 ms.date: 03/24/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 78d7bdaf9f5ca1757273cb81a1303befb0357ba547eb354097786fc3c38962b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 438c44dcfaf9677075eb07688c1e65c6e7053755
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995578"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5711043"
 ---
 # <a name="project-sales-tracking"></a>Suivi des ventes du projet
 
@@ -25,7 +27,7 @@ Sur la page **Projets**, sur l’onglet **Suivi**, vous pouvez sélectionner **S
 
 - **Revenu planifié** : Valeurs de ventes estimées de toutes les affectations de ressources sur chaque tâche de nœud terminal
 - **Revenu réel** : Somme de tous les chiffres réels de ventes non facturés pour le temps enregistré sur la tâche
-- **%% de revenu facturable** : Revenu réel ÷ Revenu final estimé
+- **% de revenu facturable** : Revenu réel ÷ Revenu final estimé
 - **Revenu restant** : Revenu final estimé – Revenu réel
 - **Revenu final estimé** : Revenu restant + Revenu réel
 - **Écart de revenu** : Revenu planifié – Revenu final estimé

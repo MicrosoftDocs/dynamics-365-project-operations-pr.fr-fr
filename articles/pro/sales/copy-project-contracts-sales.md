@@ -2,16 +2,18 @@
 title: Copier des contrats de projets – Simplifié
 description: Cette rubrique fournit des informations sur la copie des contrats de projets dans Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006018"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181404"
 ---
 # <a name="copy-project-contracts---lite"></a>Copier des contrats de projets – Simplifié
 
@@ -43,6 +45,3 @@ Les informations suivantes ne sont pas copiées de la **Source** vers le **Contr
   - Informations sur le budget client
 
 Étant donné que ces informations sont spécifiques à chaque contrat, ces champs et enregistrements ne sont pas copiés. Les lignes de contrat pour les projets et les produits, les estimations sur les détails de la ligne de contrats et les valeurs à ne pas dépasser au niveau du contrat sont copiées. Les valeurs par défaut de prix et de taux de coût dépendent de la sélection du champ **Copier la tarification** sur la page de dialogue **Copier les paramètres**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

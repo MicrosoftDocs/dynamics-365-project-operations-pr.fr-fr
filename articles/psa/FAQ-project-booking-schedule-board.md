@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987613"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992963"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Créer une réservation de projet depuis le tableau Planification
 
@@ -43,7 +43,7 @@ Vous pouvez créer une ressource générique et lui attribuer une ou plusieurs t
 
 1.  Dans le tableau de Planification, cette ressource s’affiche sur l’onglet **Ouvrir les besoins**. Vous devrez peut-être utiliser des filtres de colonne sur la grille si vous avez de nombreux besoins ouverts. 
 
-    ![Onglet Ouvrir les besoins dans le tableau de Planification.](media/FAQ-Project-Booking-Schedule-Board-1.png "Capture d’écran du tableau Réservations et attributions")
+    ![Onglet Ouvrir les besoins sur le tableau de planification](media/FAQ-Project-Booking-Schedule-Board-1.png "Capture d’écran du tableau Réservations et attributions")
 
 2. Sélectionnez le besoin. L’onglet **Rechercher la disponibilité** s’affiche en haut de la ligne sélectionnée.
  
@@ -53,7 +53,7 @@ Vous pouvez créer une ressource générique et lui attribuer une ou plusieurs t
 
     Sélectionner **Réserver** réserve la ressource dans l’équipe du projet.
 
-![Volet Créer une réservation de ressources.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Volet Créer une réservation de ressource](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Réserver à partir du besoin principal
@@ -62,7 +62,7 @@ La création d’un projet dans Project Service crée automatiquement un besoin 
 
 1. Pour réserver une ressource avec le besoin principal sur le Tableau de planification, sélectionnez l’onglet **Projet**. Vous pouvez avoir besoin d’utiliser le filtre de colonne sur la colonne **Projet** si vous avez plusieurs projets.
 
-   ![Filtres de colonne dans le tableau de Planification.](media/FAQ-Project-Booking-Schedule-Board-2.png "Capture d’écran du tableau Réservations et attributions")
+   ![Filtres de colonne sur le tableau de planification](media/FAQ-Project-Booking-Schedule-Board-2.png "Capture d’écran du tableau Réservations et attributions")
 
 2. Sélectionnez le besoin qui a uniquement le nom du projet comme nom et une durée de zéro (0).
 

@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: de535cd3592fcc76a7ca87a2bc10e21005f41f9d4d97ea1d1765f9f00a469175
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e721c36cfa227ebe84933632be3e04cb0257e1c3
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984914"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069541"
 ---
 Project Service

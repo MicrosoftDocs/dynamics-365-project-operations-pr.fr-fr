@@ -2,35 +2,37 @@
 title: Vue d’ensemble des structures de répartition du travail
 description: Une structure de répartition du travail est une description du travail qui sera effectué pour un projet. Il s’agit d’une hiérarchie des tâches qui représente la compréhension par l’équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 093f9901aec0db1fa8f920533c0084f877f26445fd07159e8e1ae0cf53849641
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998818"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075715"
 ---
 # <a name="work-breakdown-structures-overview"></a>Vue d’ensemble des structures de répartition du travail
 
 [!include [banner](../includes/banner.md)]
 
-Une structure de répartition du travail est une description du travail qui sera effectué pour un projet. Il s’agit d’une hiérarchie des tâches qui représente la compréhension par l’équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche. Une WBS a trois objectifs principaux :
+Une structure de répartition du travail est une description du travail qui sera effectué pour un projet. Il s’agit d’une hiérarchie des tâches qui représente la compréhension par l’équipe projet de la composition du travail, de son étendue, du coût et de la durée de chaque composant ou tâche. Une structure de répartition du travail a trois objectifs principaux :
 
--   Décrire la répartition ou décomposition du travail en tâches.
--   Planifier le travail à effectuer pour le projet.
+-   Décrire la répartition ou la composition du travail en tâches.
+-   Planifier le travail du projet.
 -   Estimer le coût de chaque tâche.
 
 Le degré des détails dans une structure de répartition du travail dépend du niveau de précision requis dans les estimations et le niveau de suivi requis par rapport à ces estimations. Les projets qui ont une tolérance très basse aux écarts de durée ou de coût nécessitent généralement une structure de répartition du travail plus détaillée, et un suivi diligent de la progression et du coût des travaux par rapport à la structure de répartition du travail. Ce type de projet est courant dans les secteurs de la construction et de l’ingénierie. 
@@ -64,7 +66,7 @@ Pour utiliser toutes les fonctionnalités d’estimation des coûts de la WBS, v
 -   Pour configurer le coût et le prix de vente des catégories de main-d’œuvre, de dépenses et de frais, cliquez sur **Gestion de projet et comptabilité** &gt; **Paramétrage** &gt; **Prix**.
 -   Pour configurer le coût et le prix de vente des articles, utilisez la page **Accords commerciaux** pour chaque élément de la liste **Produits lancés** dans la gestion des informations sur le produit.
 
-## <a name="creating-a-wbs"></a>Création d’un adaptateur WBS
+## <a name="creating-a-wbs"></a>Création d'un adaptateur WBS
 La création d’une WBS implique trois activités :
 
 1.  **Décomposition du travail** : créez une répartition du travail en morceaux ou tâches gérables.
@@ -79,7 +81,7 @@ La création d’une ventilation ou d’une décomposition du travail est géné
 
 **Tâche racine du projet** La tâche racine du projet est la tâche récapitulative de niveau supérieur d’un projet. Toutes les autres tâches du projet sont créées en dessous. La tâche du nœud racine est toujours définie sur le nom du projet. L’effort, les dates et la durée du nœud racine résument les valeurs des tâches sous la tâche racine. Vous ne pouvez pas modifier les propriétés de nœud racine ou supprimer le nœud racine.
 
-**Tâches récapitulatives ou de conteneur** Une tâche récapitulative est une tâche qui comporte des sous-tâches ou des tâches constitutives en dessous d’elle. Une tâche récapitulative n’a pas d’efforts ou coûts de travail qui lui sont propres. Au lieu de cela, l’effort de travail et le coût d’une tâche récapitulative sont la somme de l’effort de travail et du coût de ses tâches constitutives. La date de début des tâches constitutives est utilisée en tant que date de début de la tâche récapitulative, et la date de fin des tâches constitutives est utilisée en tant que date de fin. Vous pouvez modifier le nom d’une tâche récapitulative, mais vous ne pouvez pas modifier les propriétés de planification pour effort, dates et durée. Si vous supprimez une tâche récapitulative, vous supprimez également toutes ses tâches constitutives. 
+**Tâches récapitulatives ou de conteneur** Une tâche récapitulative est une tâche qui comporte des sous-tâches ou des tâches constitutives en dessous d’elle. Une tâche récapitulative n'a pas d'efforts ou coûts de travail qui lui sont propres. Au lieu de cela, l’effort de travail et le coût d’une tâche récapitulative sont la somme de l’effort de travail et du coût de ses tâches constitutives. La date de début des tâches constitutives est utilisée en tant que date de début de la tâche récapitulative, et la date de fin des tâches constitutives est utilisée en tant que date de fin. Vous pouvez modifier le nom d’une tâche récapitulative, mais vous ne pouvez pas modifier les propriétés de planification pour effort, dates et durée. Si vous supprimez une tâche récapitulative, vous supprimez également toutes ses tâches constitutives. 
 
 **Tâches de nœud terminal** Une tâche de nœud terminal représente le lot de travail le plus granulaire du projet. Un nœud terminal possède un effort estimé, un nombre de ressources planifiées, des dates de début et de fin planifiées, et une durée. 
 
@@ -100,8 +102,8 @@ Actuellement, vous ne pouvez pas personnaliser la numérotation WBS.
 
 ### <a name="schedule-estimation"></a>Planifier l’estimation
 
-Planifier l’estimation est généralement la deuxième étape de la création d’une WBS. Une bonne pratique consiste à effectuer l’estimation du calendrier après avoir créé les tâches. La page **Structure de répartition du travail** dans Finance comporte deux sections. Le volet supérieur est destiné à l’estimation du calendrier et le volet inférieur comprend un onglet **Coûts et produit estimés** permettant d’effectuer l’estimation des coûts. 
-**Dépendances de tâches** Dans une WBS, vous pouvez créer une relation de prédécesseur entre les tâches. Lorsque vous affectez des tâches précédentes (ou prédécesseurs) à une tâche, elle ne peut démarrer qu’une fois tous ses prédécesseurs terminés. La date de début prévue de la tâche est automatiquement définie sur la dernière date de fin de tous ses prédécesseurs. 
+Planifier l’estimation est généralement la deuxième étape de la création d’une WBS. En tant que meilleure pratique, vous devez effectuer l’estimation de la planification après avoir créé les tâches. La page **Structure de la répartition du travail** dans Finance a deux sections. Le volet supérieur est destiné à l’estimation de la planification et le volet inférieur comprend un onglet **Coûts et revenus estimés** que vous pouvez utiliser pour l’estimation des coûts. 
+**Dépendances de tâches** Dans une WBS, vous pouvez créer une relation de prédécesseur entre les tâches. Lorsque vous attribuez des tâches de prédécesseur à une tâche, la tâche peut démarrer uniquement une fois toutes les tâches de prédécesseur terminées. La date de début prévue de la tâche est automatiquement définie sur la dernière date de tous ses prédécesseurs. 
 
 **Planification des tâches** Les facteurs suivants déterminent la planification des tâches du nœud feuille :
 
@@ -110,17 +112,17 @@ Planifier l’estimation est généralement la deuxième étape de la création 
 -   Le nombre de ressources
 -   Les dates de début et de fin
 
-La date de début d’une tâche de nœud terminal qui ne dispose pas de prédécesseurs est définie par défaut à la date de début de planification du projet. La durée d’une tâche de nœud terminal correspond toujours au nombre de jours ouvrables entre ses dates de début et de fin. 
+La date de début d’une tâche de nœud terminal qui ne dispose pas de prédécesseurs est définie par défaut à la date de début de planification du projet. La durée d'une tâche de nœud terminal est toujours calculée comme le nombre de jours ouvrables entre ses dates de début et de fin. 
 
 *<strong><em>Règles de planification</em></strong>* Lorsque l’assistance à la planification automatique est activée, les règles suivantes s’appliquent à la planification des tâches pour les tâches du nœud feuille :
 
--   Les dates de début et de fin d’une tâche doivent être des jours ouvrables, selon le calendrier de planification du projet.
--   La date de début d’une tâche ayant des prédécesseurs est automatiquement définie sur la dernière date de fin de tous ses prédécesseurs.
+-   Les dates de début et de fin d’une tâche doivent toujours être des jours ouvrables selon le calendrier de planification du projet.
+-   La date de début d’une tâche qui possède des prédécesseurs est définie automatiquement par défaut à la dernière date de fin de ses prédécesseurs.
 -   L’effort pour une tâche est calculé automatiquement comme suit :
 
 Nombre de personnes × durée × nombre d’heures dans un jour de travail standard du calendrier de projet. 
 
-Dans certains cas, vous souhaiterez peut-être vous écarter de ces règles. Vous pouvez désactiver la planification automatique pour empêcher Finance de définir ou corriger automatiquement les propriétés des tâches de nœud terminal. Lorsque vous entrez des informations pour une tâche qui entraîne une violation de toute règle de planification, une icône d’erreur de planification s’affiche pour la tâche. Si vous ne souhaitez pas que les erreurs de planification s’affichent, cliquez sur **Les erreurs de planification sont affichées** pour désactiver la fonction. 
+Dans certains cas, vous pourriez vouloir dévier de ces règles. Vous pouvez désactiver la planification automatique pour empêcher Finance de définir ou de corriger automatiquement les propriétés des tâches de nœud feuille. Lorsque vous entrez des informations pour une tâche qui entraîne une violation de toute règle de planification, une icône d’erreur de planification s’affiche pour la tâche. Si vous ne souhaitez pas que les erreurs de planification s’affichent, cliquez sur **Les erreurs de planification sont affichées** pour désactiver la fonction. 
 
 > [!NOTE] 
 > Les valeurs d’une tâche récapitulative ou de conteneur continuent d’être calculées comme la somme des valeurs des tâches constituantes, que l’aide à la planification automatique soit activée ou désactivée. 
@@ -143,10 +145,10 @@ Dans certains cas, vous souhaiterez peut-être vous écarter de ces règles. Vou
 Comme mentionné précédemment dans ce document, vous saisissez l’estimation du coût pour chaque tâche de nœud terminal en utilisant l’onglet **Coûts et revenus estimés** dans le volet inférieur de la page **Structure de répartition du travail**. 
 
 > [!NOTE] 
-> Vous ne pouvez pas modifier l’estimation des coûts pour une tâche récapitulative ou conteneur. L’estimation des coûts d’une tâche récapitulative est égale à la somme de l’estimation des coûts de ses tâches de nœud terminal. Le coût total estimé de chaque tâche est égal à la somme des coûts estimés pour les types de transactions suivants :
+> Vous ne pouvez pas modifier l’estimation des coûts pour une tâche récapitulative ou conteneur. L’estimation du coût d’une tâche récapitulative est égale à la somme de l’estimation du coût de ses tâches de nœud terminal. Le coût total estimé de chaque tâche est calculé comme la somme des montants des coûts estimés pour les types de transaction suivants :
 
--   Main-d’œuvre
--   Article ou matériau
+-   Main d’œuvre
+-   Article ou matériel
 -   Dépenses
 
 Une transaction de type **Frais** est utilisée pour estimer les revenus basés sur les frais. Ce type de transaction n’a pas de composant de coût et n’est donc pas pris en compte lors de l’estimation des coûts. 
@@ -155,7 +157,7 @@ Une transaction de type **Sur compte** est utilisée pour enregistrer la valeur 
 
 Lorsque vous estimez les coûts de main-d’œuvre, de matériel et de dépenses pour chaque tâche, vous devez affecter une catégorie de projet au coût estimé. 
 
-**Estimation des coûts de main-d’œuvre** Pour chaque tâche de nœud terminal, vous affectez un effort de travail en heures et une catégorie par défaut. Par conséquent, lorsque vous configurez un calendrier pour une tâche, l’estimation des coûts de main-d’œuvre pour cette tâche est automatiquement ajoutée dans la catégorie par défaut pour la main-d’œuvre. Cette estimation des coûts s’affiche dans l’onglet **Coûts et produit estimés** de la grille **Détails de ligne** pour cette tâche. Si vous avez besoin d’autres estimations des coûts de main-d’œuvre, vous pouvez les ajouter dans cet onglet. Si vous augmentez ou diminuez le nombre d’heures sur l’estimation des coûts de main-d’œuvre, le calendrier de la tâche est automatiquement recalculé. 
+**Estimation des coûts de main-d’œuvre** Pour chaque tâche de nœud terminal, vous affectez un effort de travail en heures et une catégorie par défaut. Par conséquent, lorsque vous configurez un calendrier pour une tâche, l’estimation du coût de la main-d’œuvre pour cette tâche est automatiquement ajoutée dans la catégorie par défaut pour la main-d’œuvre. Ce devis est affiché sur l’onglet **Coûts et revenus estimés** dans la grille **Détails de la ligne** pour cette tâche. Si vous avez besoin de plus d’estimations des coûts de main-d’œuvre, vous pouvez les ajouter dans cet onglet. Si vous augmentez ou diminuez les heures sur l’estimation du coût de la main-d’œuvre, le calendrier de la tâche est automatiquement recalculé. 
 
 **Estimation des dépenses et des coûts matériels** L’onglet **Coûts et revenus estimés** vous permet également d’estimer les dépenses et les coûts matériels d’une tâche, si vous avez besoin d’estimations. 
 
@@ -172,12 +174,12 @@ La vue Planification affiche l’estimation planifiée ou de référence du cale
 
 ### <a name="effort-tracking-view"></a>Vue de suivi des efforts
 
-La vue Suivi des efforts suit la progression des tâches dans la planification. Elle compare les heures d’effort réelles accumulées pour une tâche aux heures d’effort planifiées. Les formules suivantes fournissent les valeurs figurant dans la vue de suivi des efforts :
+La vue Suivi des efforts suit la progression des tâches dans la planification. Elle compare les heures d’effort réelles accumulées pour une tâche aux heures d’effort planifiées. Les formules suivantes fournissent les valeurs dans la vue Suivi des efforts :
 
 -   Pourcentage de progression = Cumul des efforts réels consacrés ÷ Efforts planifiés pour la tâche
 -   Effort restant (également connu sous le nom d’estimation pour terminer \[ETC \]) = Effort planifié - Effort réel à ce jour
 -   Estimation à achèvement (EAA) = Efforts restants + Cumul des efforts réels consacrés
--   Écart d’efforts escomptés = Efforts planifiés – EAA
+-   Écart d'efforts escomptés = Efforts planifiés – EAA
 
 La vue Suivi des efforts affiche une projection de la variance de l’effort pour la tâche, selon que l’EAA est supérieur ou inférieur à l’effort prévu :
 
@@ -195,7 +197,7 @@ Chacune de ces méthode entraîne un nouveau calcul de l’Estimation avant ach�
 
 **Effort modifié sur les tâches récapitulatives** Vous pouvez modifier l’effort sur les tâches récapitulatives ou conteneurs. Que vous modifiiez ces valeurs avec les efforts restants ou le pourcentage de progression sur les tâches récapitulatives, les calculs surviennent automatiquement dans l’ordre suivant :
 
-1.  L’Estimation avant achèvement, l’EAA (Estimé à Achèvement) et le pourcentage de progression sur la tâche sont calculés.
+1.  L'Estimation avant achèvement, l'EAA (Estimé à Achèvement) et le pourcentage de progression sur la tâche sont calculés.
 2.  Le nouvel EAA est distribué aux tâches enfants dans la même proportion que l’EAA d’origine.
 3.  Le nouveau EEA sur chaque tâche de nœud terminal est calculé.
 4.  Les efforts restants et le pourcentage de progression sont recalculés pour toutes les tâches enfants affectées, en fonction de la nouvelle valeur de l’EEA. L’écart de l’effort des tâches est également recalculé.
@@ -205,7 +207,7 @@ Cliquez sur **Développer au niveau** dans la vue Suivi des efforts pour défini
 
 ### <a name="cost-tracking-view"></a>Vue Suivi du coût
 
-La vue Suivi des coûts affiche le suivi de la consommation des coûts pour une tâche. Dans cette vue, le coût réel qui a été dépensé pour une tâche à ce jour est comparé au coût planifié de la tâche. Les formules suivantes fournissent les valeurs figurant dans la vue de suivi des coûts :
+La vue Suivi des coûts affiche le suivi de la consommation des coûts pour une tâche. Dans cette vue, le coût réel qui a été dépensé pour une tâche à ce jour est comparé au coût planifié de la tâche. Les formules suivantes fournissent les valeurs dans la vue Suivi des coûts :
 
 -   Pourcentage des coûts consommés = Cumul des coûts réels consacrés ÷ Coût planifié pour la tâche
 -   Coût pour terminer = Coûts planifiés – Cumul des coûts réels consacrés
@@ -240,13 +242,13 @@ La phase de temps sur le graphique de la valeur acquise est affichée par semain
 
 **Valeur planifiée** La théorie concernant la méthode de la valeur acquise stipule que le tracé de la valeur planifiée représente le taux auquel l’équipe du projet prévoyait de gagner de la valeur sur le projet. 
 
-Finance utilise la règle de gain 0:100 lorsqu’il trace la valeur planifiée. Selon cette règle, la valeur de la tâche est publiée dans la tâche à compter de sa date de fin. Aucune valeur n’est publiée tant que la tâche n’est pas terminée à 100 %%. 
+Finance utilise la règle de gain 0:100 lorsqu’il trace la valeur planifiée. Selon cette règle, la valeur de la tâche est publiée dans la tâche à compter de sa date de fin. Aucune valeur n’est publiée tant que la tâche n’est pas terminée à 100 %. 
 
 Dans Gestion de projets et comptabilité, vous saisissez la date de fin des nœuds terminaux et le coût prévu pour celui-ci. Lorsque le graphique de la valeur planifiée est affiché par semaine, la valeur planifiée est récapitulée par semaine pour toutes les tâches du nœud terminal pendant la durée du projet. 
 
 **Valeur acquise** La théorie concernant la méthode de la valeur acquise stipule que le tracé de la valeur planifiée représente le taux auquel l’équipe du projet est en fait la valeur acquise sur le projet. 
 
-Finance utilise la règle de gain 0:100 lorsqu’il trace la valeur acquise. Selon cette règle, la valeur de la tâche est publiée dans la tâche à compter de sa date de fin. Aucune valeur n’est publiée tant que la tâche n’est pas terminée à 100 %%. 
+Finance utilise la règle de gain 0:100 lorsqu’il trace la valeur acquise. Selon cette règle, la valeur de la tâche est publiée dans la tâche à compter de sa date de fin. Aucune valeur n’est publiée tant que la tâche n’est pas terminée à 100 %. 
 
 Lorsque la valeur acquise est calculée, le pourcentage de progression de chaque tâche est pris en compte. En vertu de la règle de gain de 0:100, seules les tâches qui sont achevées au cours d’une période donnée sont prises en compte pour le calcul de la valeur acquise à la fin de cette période. La valeur acquise sur le projet est calculée pour toutes les tâches qui ont été achevées lors de la création du graphique. 
 
@@ -314,6 +316,3 @@ Vous pouvez également corriger les erreurs de planification individuellement en
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

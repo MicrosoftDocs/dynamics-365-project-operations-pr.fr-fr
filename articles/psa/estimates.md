@@ -2,6 +2,8 @@
 title: Estimations
 description: Cette rubrique fournit des informations sur les estimations dans Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992383"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151430"
 ---
 # <a name="estimates"></a>Estimations
 
@@ -39,15 +41,15 @@ Outre les classes de transaction, les détails de la ligne de devis ont un type 
 
 Si vous avez utilisé un devis PSA lorsque vous avez créé un contrat basé sur un projet, l’estimation effectuée pour chaque ligne de devis sur le devis est copiée dans le contrat du projet. La structure d’un contrat de projet est semblable à la structure du devis de projet contenant les lignes, les détails de ligne, et les planifications de factures.
 
-Les estimations peuvent être effectuées directement dans un contrat de projet, comme dans un devis de projet. Pour un devis de projet, l’estimation est effectuée à l’aide de lignes de contrat et de détails de la ligne de contrat. Les détails de ligne de contrat peuvent également être générés à partir d’un plan de projet créé à l’aide de l’approche d’estimation ascendante.
+Les estimations peuvent être effectuées directement dans un contrat de projet, comme dans un devis de projet. Pour un devis de projet, l’estimation est effectuée à l’aide de lignes de contrat et de détails de la ligne de contrat. Les détails de la ligne de contrat peuvent également être générés depuis un plan de projet créé à l’aide de l’approche d’estimation ascendante.
 
-Les détails de ligne de contrat permettent d’estimer le temps, les dépenses ou les frais. Des montants d’estimation des taxes peuvent également être entrés dans un détail de la ligne de contrat.
+Les détails de la ligne de contrat peuvent être utilisés pour estimer le temps, les dépenses ou les frais. Des montants d’estimation des taxes peuvent également être entrés dans un détail de la ligne de contrat.
 
 PSA ne permet pas des estimations matérielles sur les détails de la ligne de contrat.
 
 Les processus pris en charge sur un contrat de projet sont la création et la confirmation de facture. La création de facture crée un brouillon d’une facture basée sur un projet qui inclut tous les chiffres réels vente non facturés jusqu’à la date du jour.
 
-Le processus de confirmation définit le contrat en lecture seule et modifie son statut en passant de **Provisoire** à **Confirmé**. Une fois que vous prenez cette mesure, vous ne pouvez pas l’annuler. Cette action étant définitive, il est d’usage de conserver le contrat dans un état **Brouillon**.
+La confirmation rend le contrat en lecture seule et remplace le statut **Brouillon** par **Confirmé**. Une fois que vous prenez cette mesure, vous ne pouvez pas l’annuler. Cette action étant définitive, il est d’usage de conserver le contrat dans un état **Brouillon**.
 
 Les uniques différences entre les projets de contrat et les contrats confirmés sont leur statut et le fait que les brouillons de contrat peuvent être modifiés alors que les contrats confirmés ne peuvent pas. La création de facture et le suivi des chiffres réels peuvent être réalisés sur les brouillons de contrats et contrats confirmés.
 
@@ -57,7 +59,7 @@ PSA ne prend pas en charge les ordres de modifications dans les contrats ou les 
 
 Vous pouvez évaluer le temps et les dépenses des projets. PSA ne permet pas les estimations de matériaux ou de frais sur des projets.
 
-Les estimations de temps sont générées lorsque vous créez une tâche et identifiez les attributs d’une ressource générique qui est obligatoire pour effectuer la tâche. Les estimations du temps sont générées à partir des tâches de planification. Les estimations du temps ne sont pas créées si vous créez des membres d’équipe génériques en dehors du contexte de la planification.
+Les estimations de temps sont générées lorsque vous créez une tâche et identifiez les attributs d’une ressource générique qui est obligatoire pour effectuer la tâche. Les estimations de temps sont générées par les tâches de planification. Les estimations de temps ne sont pas créées si vous créez des membres d’équipe génériques en dehors du contexte de la planification.
 
 Les estimations des dépenses sont entrées dans la grille de la page **Estimations**.
 
@@ -83,27 +85,24 @@ Si vous avez ajouté un champ personnalisé sur les détails de la ligne de devi
 1. Ouvrez PluginRegistrationTool et connectez-vous à votre instance en ligne.
 2. Sélectionnez **Rechercher** et recherchez le plug-in à mettre à jour.
 
-    ![Boîte de dialogue Rechercher dans l’arborescence.](media/basic-guide-19.png)
+    ![Boîte de dialogue Rechercher dans l’arborescence](media/basic-guide-19.png)
 
 3. Sélectionnez le plug-in, puis, dans la page principale, sélectionnez **Sélectionner**.
 4. Sélectionnez l’étape du plug-in à mettre à jour, cliquez avec le bouton droit, puis sélectionnez **Mettre à jour**.
 
-    ![Sélectionner une étape dans le plug-in.](media/basic-guide-20.png)
+    ![Sélectionner une étape du plug-in](media/basic-guide-20.png)
 
 5. Dans la boîte de dialogue **Mettre à jour l’étape existante**, dans le champ **Attributs de filtrage**, sélectionnez le bouton de sélection (**...**) :
  
-    ![Boîte de dialogue Mettre à jour l’étape existante.](media/basic-guide-21.png)
+    ![Boîte de dialogue Mettre à jour l’étape existante](media/basic-guide-21.png)
 
 6. Dans la boîte de dialogue **Sélectionner les attributs**, activez les cases à cocher des attributs personnalisés.
 
-    ![Boîte de dialogue Sélectionner les attributs.](media/basic-guide-22.png)
+    ![Boîte de dialogue Sélectionner les attributs](media/basic-guide-22.png)
 
 7. Sélectionnez **OK** pour fermer la boîte de dialogue, puis sélectionnez **Mettre à jour l’étape**.
  
-    ![Bouton Mettre à jour l’étape.](media/basic-guide-23.png)
+    ![Bouton Mettre à jour l’étape](media/basic-guide-23.png)
 
 8. Répétez les étapes 1 à 7 pour le deuxième plug-in.
 9. Fermez PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

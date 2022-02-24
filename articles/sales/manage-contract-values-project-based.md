@@ -2,20 +2,22 @@
 title: Utiliser des lignes de contrat basées sur un projet
 description: Cette rubrique fournit des informations sur les lignes de contrat basées sur un projet.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990043"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181713"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Utiliser des lignes de contrat basées sur un projet
 
-Les lignes de contrat basées sur un projet dans Dynamics 365 Project Operations ont pour vocation de contenir l’estimation et les accords de facturation des composants spécifiques du travail de projet dans un engagement. La structure d’une ligne de contrat basée sur un projet est étendue pour les estimations de projet et les scénarios de facturation avec les concepts suivants :
+Les lignes de contrat basées sur un projet dans Dynamics 365 Project Operations ont pour vocation de contenir l’estimation et les accords de facturation des composants spécifiques du travail de projet dans un engagement. La structure d’une ligne de contrat basée sur un projet est étendue pour les estimations de projet et les scénarios de facturation avec les concepts suivants :
 
 - Mode de facturation
 - Mappage des projets et des tâches
@@ -55,6 +57,3 @@ Règle : un projet et une certaine classe de transaction ne peuvent être inclu
 | C1       | CL2           | P1      | No           | Oui             | No          | Valide           | Le temps et les frais du projet P1 sont inclus sur CL1. Les dépenses du projet P1 sont incluses sur CL2. </br>   Il n’y a pas de chevauchement dans ce qui est inclus sur chaque ligne de contrat et cela est donc valide.  |
 | C1       | CL1           | P1      | Oui          | Oui             | Oui         | Non valide       | Viole la règle. Le temps, les dépenses et les frais du projet P1 sont inclus sur les lignes de deux contrats.                                                                                               |
 | CL2      | CL2           | P1      | Oui          | Oui             | Oui         | Non valide       | Viole la règle. Le temps, les dépenses et les frais du projet P1 sont inclus sur les lignes de deux contrats.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

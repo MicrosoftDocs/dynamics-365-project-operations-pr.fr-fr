@@ -2,22 +2,24 @@
 title: Ajouter des membres de l’équipe depuis la grille des membres de l’équipe
 description: Cette rubrique fournit des informations sur la façon dont vous pouvez gérer les ressources des membres de l’équipe.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008403"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121530"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Ajouter des membres de l’équipe depuis la grille des membres de l’équipe
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Dynamics 365 Project Operations contient un tableau de bord de gestionnaire des ressources qui fournit une vue d’ensemble visuelle de la demande et de l’utilisation de ressources dans toute l’organisation. Vous pouvez utiliser les graphiques de ce tableau de bord pour visualiser les informations suivantes :
+Dynamics 365 Project Operations contient un tableau de bord Resource Manager qui fournit une vue d’ensemble visuelle de la demande et de l’utilisation des ressources dans toute l’organisation. Vous pouvez utiliser les graphiques de ce tableau de bord pour visualiser les informations suivantes :
 
 - **Demande de ressource** : Le graphique **Demande de ressource active** présente les ressources qui ont été envoyés. Les ressources sont regroupées par rôle ou par projet.
 - **Demande de ressource non envoyée** : Le graphique **Demande de ressource non attribuée** affiche tous les besoins en ressources qui n’ont pas été envoyés. Ce graphique permet aux gestionnaires de ressources d’afficher la demande qui n’est pas ferme et peut être transmise via une demande de ressource.
@@ -34,13 +36,13 @@ Les responsables de projet peuvent utiliser le tableau de bord Resource Manager 
 
 Pour ajouter un membre de l’équipe directement au projet, sur le formulaire **Projets**, dans l’onglet **Équipe**, sélectionnez **Nouveau**. La boîte de dialogue **Création rapide : Membre de l’équipe du projet** apparaît. Dans cette boîte de dialogue, vous pouvez effectuer ces tâches :
 
-- **Réserver une ressource nommée** : Dans le champ **Ressource pouvant être réservée**, sélectionnez le nom de la ressource. Sélectionnez ensuite le rôle, définissez la période et sélectionnez une méthode d’allocation. La ressource nommée sélectionnée est ajoutée au projet en utilisant la méthode sélectionnée de répartition et le calendrier de ressources.
-- **Ajouter une ressource générique** : Laissez le champ **Ressource pouvant être réservée** vide, puis sélectionnez le rôle, définissez la période, puis la méthode privilégiée de répartition. Une ressource générique est ajoutée à l’équipe en tant qu’espace réservé. L’espace réservé contient le modèle de demande utilisé pour réserver des ressources nommées dans l’équipe. La demande est effectuée en fonction du calendrier du projet.
+- **Réserver une ressource nommée** : Dans le champ **Ressource pouvant être réservée**, sélectionnez le nom de la ressource. Puis sélectionnez le rôle, définissez la période, puis sélectionnez une méthode de répartition. La ressource nommée sélectionnée est ajoutée au projet en utilisant la méthode sélectionnée de répartition et le calendrier de ressources.
+- **Ajouter une ressource générique** : Laissez le champ **Ressource pouvant être réservée** vide, puis sélectionnez le rôle, définissez la période, puis la méthode privilégiée de répartition. Une ressource générique est ajoutée à l’équipe en tant qu’espace réservé. L’espace réservé contient le modèle de demande utilisé pour réserver des ressources nommées dans l’équipe. Le besoin est créé selon le calendrier de projet.
 - **Ajouter une ressource nommée à l’équipe sans consommer la capacité de ressource** : Dans le champ **Ressource pouvant être réservée**, sélectionnez une ressource. Sélectionnez la période, puis **Aucun** comme méthode de répartition. La ressource est ajoutée à l’équipe, mais la capacité de la ressource n’est pas consommée via une réservation.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Réserver un membre de l’équipe pour satisfaire aux besoins en ressources pour une ressource générique
 
-Dans Project Operations, vous pouvez réserver une ressource générique dans une équipe de projet. Vous pouvez également spécifier le rôle, la capacité requise et la manière dont cette capacité est répartie. Pour les besoins en ressources, vous pouvez spécifier les attributs associés à la ressource générique. Ces attributs incluent les compétences requises, l’unité d’organisation privilégiée, et les ressources préférées.
+Dans Project Operations, vous pouvez réserver une ressource générique dans une équipe de projet. Vous pouvez également spécifier le rôle, la capacité requise et la manière dont cette capacité est répartie. Pour le besoin en ressources, vous pouvez spécifier des attributs associés à la ressource générique. Ces attributs incluent les compétences requises, l’unité d’organisation privilégiée, et les ressources préférées.
 
 Effectuez les étapes suivantes pour spécifier les compétences requises sur une ressource générique pour un développeur.
 
@@ -73,7 +75,7 @@ Effectuez les étapes suivantes pour spécifier les compétences requises sur un
 
 ## <a name="assign-generic-resources-to-tasks-and-generate-resource-requirements"></a>Attribuez des ressources génériques aux tâches et générez des besoins en ressources
 
-Dans Project Operations, vous pouvez créer des tâches puis leur attribuer des ressources génériques. La demande de ressources peut alors être représentée par des espaces réservés pendant que vous estimez votre calendrier et vos données financières. Vous pouvez ensuite générer des besoins en ressources pour les ressources génériques et les mener à bien.
+Dans Project Operations, vous pouvez créer des tâches puis leur attribuer des ressources génériques. La demande de ressource peut ensuite être représentée par des espaces réservés, pendant que vous estimez votre planification et les chiffres financiers. Vous pouvez ensuite générer des besoins en ressources pour les ressources génériques et les mener à bien.
 
 1. Sur le formulaire **Projets**, dans l’onglet **Planification**, sélectionnez **Ajouter** pour créer une tâche.
 2. Dans le champ **Ressources**, sélectionnez le symbole **Sélecteur de ressources**. Le sélecteur de ressources s’affiche et affiche les membres de l’équipe existants du projet.
@@ -178,7 +180,7 @@ ou si vous devez rechercher une ressource, procédez comme suit.
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Rapprocher les réservations et les attributions de membre d’équipe
 
-Pour les membres de l’équipe, les réservations et les attributions sont légèrement couplées. En d’autres termes, les ressources peuvent avoir des attributions mais aucune réservation, ou elles peuvent avoir des réservations mais aucune attribution. Idéalement, certaines réservation et attributions doivent être alignées, de sorte que les ressources aient une capacité engagée à effectuer les affectations des tâches. Cependant, les réservations peuvent être basées sur la disponibilité et les calendriers des tâches peuvent changer à mesure que le projet se poursuit. Par conséquent, le couplage léger des réservations ou des attributions procurent de la flexibilité.
+Pour les membres de l’équipe, les réservations et les attributions sont légèrement couplées. En d’autres termes, les ressources peuvent avoir des attributions mais aucune réservation, ou elles peuvent avoir des réservations mais aucune attribution. Idéalement, certaines réservation et attributions doivent être alignées, de sorte que les ressources aient une capacité engagée à effectuer les affectations des tâches. Toutefois, les réservations peuvent être basées sur la disponibilité, et les horaires des tâches peuvent changer à mesure que le projet avance. Par conséquent, le couplage léger des réservations ou des attributions procurent de la flexibilité.
 
 Project Operations a un onglet **Rapprochement** permettant aux chefs de projet de rapprocher les réservations des membres de l’équipe et leurs attributions pour les équipes de projet.
 
@@ -189,7 +191,7 @@ L’onglet affiche également un total net général pour le projet, conjointeme
 Pour chaque ressource, l’onglet calcule la distinction entre les réservations du membre de l’équipe et un report des affectations des tâches du membre de l’équipe. Idéalement, cette différence doit être de 0 (zéro). En d’autres termes, il ne doit exister aucune différence entre les réservations et les attributions. Les différences sont en couleur et grisées pour attirer l’attention sur deux conditions :
 
 - **Pénurie de réservation** : Se produit lorsque la ressource a plus d’attributions que de réservations. Cette capacité n’ayant pas été réservée, un chef de projet peut également corriger cette condition en étendant les réservations de la ressource pour compenser la pénurie.
-- **Réservations en trop** : Se produit lorsque la ressource a été réservée pour le projet, mais n’a pas été affectée à des tâches. Cet état peut être acceptable dans les cas où la ressource a été réservée dans le projet avant l’affectation de la tâche. En revanche, dans d’autres cas, la ressource n’est pas planifiée pour être affectée à des tâches. Dans ce genre de situation, le chef de projet doit envisager d’annuler les réservations de la ressource, de sorte que la capacité puisse être utilisée pour un autre projet.
+- **Réservations en trop** : Se produit lorsque la ressource a été réservée pour le projet, mais n’a pas été affectée à des tâches. Cette condition peut être acceptable dans les cas où la ressource a été réservée dans le projet avant que l’affectation de tâches se soit produite. En revanche, dans d’autres cas, la ressource n’est pas planifiée pour être affectée à des tâches. Dans ce genre de situation, le chef de projet doit envisager d’annuler les réservations de la ressource, de sorte que la capacité puisse être utilisée pour un autre projet.
 
 Dans certains cas, lorsque vous affichez le temps à un niveau supérieur que le niveau du jour, par exemple, le niveau de mois, vous pouvez voir une différence nette de zéro pour une ressource. En d’autres termes, réservations = attributions. Toutefois, si vous affichez le temps au niveau de la semaine, vous pouvez voir des attributions de zéro heure et des réservations de 40 heures au cours de la première semaine, mais des attributions de 40 heures et des réservations de zéro heure dans la deuxième semaine. Globalement, les réservations et attributions sont rapprochées, mais elles ne correspondent pas d’une semaine à l’autre.
 
@@ -198,6 +200,3 @@ Lorsque vous affichez le temps à des niveaux plus élevés, les cellules de l�
 Si vous avez des affectations de tâches pour une ressource mais aucune réservation, sur le formulaire **Projets**, dans l’onglet **Rapprochement**, sélectionnez la pénurie de réservation, puis sélectionnez **Étendre la réservation**. La boîte de dialogue **Étendre la réservation** s’affiche et affiche la réservation qui est nécessaire pour compenser la pénurie de la ressource. La boîte de dialogue présente également les réservations existantes de la ressource dans tous les projets ou d’autres entités planifiables. Si vous sélectionnez **OK** pour créer la réservation pour la ressource, indépendamment de la disponibilité de cette ressource, vous pouvez entraîner de la surréservation.
 
 Le chef de projet ou le gestionnaire de ressources peut ensuite utiliser le Tableau de planification pour gérer tous les cas où une ressource est réservée en trop au-delà de sa capacité.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

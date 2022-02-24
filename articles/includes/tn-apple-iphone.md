@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: fdd141ef46f6d945dab0c75bdf60708fd10c35b45bc2273a2033505078aef48a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c0183690d7283952c5ce4bcba3dbf216b7604aa9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004852"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069534"
 ---
 Apple iPhone

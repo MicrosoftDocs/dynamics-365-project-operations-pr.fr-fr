@@ -2,9 +2,11 @@
 title: Créer et confirmer des journaux de correction
 description: Cette rubrique donne des informations sur la création et la confirmation d’un journal de correction.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986713"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127745"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Créer et confirmer des journaux de correction
 
@@ -87,6 +89,3 @@ Effectuez les étapes suivantes pour corriger une ou plusieurs entrées de dépe
 8. Dans la page du projet, sur l’onglet **Chiffres réels**, passez en revue **Vue associée Chiffre réel**. Les entrées originales et les entrées corrigées sont répertoriées. Le graphique suivant montre les montants d’entrée des dépenses d’origine et ceux des dépenses corrigées correspondants. 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

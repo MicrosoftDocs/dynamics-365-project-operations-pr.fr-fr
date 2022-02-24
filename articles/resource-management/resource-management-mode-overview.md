@@ -1,52 +1,50 @@
 ---
 title: Vue d’ensemble des modes de gestion des ressources
-description: Cette rubrique fournit des informations sur la fonctionnalité de gestion des ressources dans Dynamics 365 Project Operations.
+description: Cette rubrique fournit des informations sur la fonctionnalité Gestion des ressources dans Dynamics 365 Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008223"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118515"
 ---
 # <a name="resource-management-modes-overview"></a>Vue d’ensemble des modes de gestion des ressources
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
 
-Dynamics 365 Project Operations prend en charge deux modes pour vous permettre d’exécuter le flux de réservations global. Le mode de gestion est défini comme un paramètre de projet et peut être modifié si les besoins de votre entreprise changent.    
+Dynamics 365 Project Operations prend en charge deux modes afin que vous puissiez exécuter le flux de réservation global. Le mode de gestion est défini comme un paramètre de projet et peut être modifié si les besoins de votre entreprise changent.    
 
 ## <a name="central-mode"></a>Mode central
 Pour les organisations qui centralisent l’affectation des ressources aux projets, le mode central permet de s’assurer que les chefs de projet peuvent définir les besoins en ressources au niveau du projet. La satisfaction des besoins en ressources est déléguée à un gestionnaire de ressources. Les chefs de projet peuvent accepter ou refuser les ressources proposées par le gestionnaire de ressources.
 
-![Mode central.](./media/resource-management-central.png)
+![Mode central](./media/resource-management-central.png)
 
 Pour gérer les ressources avec le mode central, voir :
 
-- [Attribuer des ressources génériques pouvant être réservées à une tâche et générer des besoins en ressources](/dynamics365/project-service/assign-generic-bookable-resource)
-- [Réserver des ressources nommées à partir des besoins en ressources](/dynamics365/project-service/book-named-resource)
-- [Envoyer une demande de ressource](/dynamics365/project-service/submit-resource-request)
-- [Répondre à une demande de ressources](/dynamics365/project-service/resource-management-fulfill-requests)
-- [Accepter ou rejeter une ressource de projet proposée à partir d’une demande de ressource](/dynamics365/project-service/accept-reject-proposed-resource)
+- [Attribuer des ressources génériques pouvant être réservées à une tâche et générer des besoins en ressources](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
+- [Réserver des ressources nommées à partir des besoins en ressources](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Envoyer une demande de ressource](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
+- [Répondre à une demande de ressources](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
+- [Accepter ou rejeter une ressource de projet proposée à partir d’une demande de ressource](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Modèle hybride
 Pour les organisations qui ont besoin de flexibilité dans l’allocation des ressources, le mode hybride permet aux chefs de projet et aux gestionnaires de ressources de réserver des ressources.
 
-![Mode hybride.](./media/resource-management-hybrid.png)
+![Mode hybride](./media/resource-management-hybrid.png)
 
 En plus du processus du mode central pris en charge, consultez les rubriques suivantes pour gérer tous les autres flux de réservation pris en charge en mode hybride :
 
 Réserver une ressource directement sur un projet :
-- [Réservation de ressources pouvant être réservées nommées à une équipe de projet et lui attribuer des tâches](/dynamics365/project-service/assign-named-bookable-resource)
+- [Réservation de ressources pouvant être réservées nommées à une équipe de projet et lui attribuer des tâches](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
 
 Réserver une ressource à partir d’un besoins en ressource :
-- [Attribuer des ressources génériques pouvant être réservées à une tâche et générer des besoins en ressources](/dynamics365/project-service/assign-generic-bookable-resource)
-- [Réserver des ressources nommées à partir des besoins en ressources](/dynamics365/project-service/book-named-resource)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Attribuer des ressources génériques pouvant être réservées à une tâche et générer des besoins en ressources](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
+- [Réserver des ressources nommées à partir des besoins en ressources](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)

@@ -1,23 +1,25 @@
 ---
-title: Gérer une facture pro forma pour un projet
-description: Cette rubrique fournit des informations sur l’utilisation des factures de projet pro forma.
+title: Gérer une facture pro forma – Simplifié
+description: Cette rubrique fournit des informations sur l’utilisation des factures pro forma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997423"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181539"
 ---
-# <a name="manage-a-proforma-project-invoice"></a>Gérer une facture pro forma pour un projet 
+# <a name="manage-a-proforma-invoice---lite"></a>Gérer une facture pro forma – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Dans Dynamics 365 Project Operations, les factures pro forma sont créées sous forme d’extension des factures dans Dynamics 365 Sales. Cependant, le processus de facturation présente de nombreuses différences entre Sales et Project Operations. Par exemple, il n’est pas possible de créer une facture à partir de la page de liste **Factures** dans Project Operations, mais il est possible de le faire dans Sales. Ces différences et extensions sont en place pour prendre en charge les processus de facturation pour des projets différents d’une facture typique pour une commande client.
+Dans Dynamics 365 Project Operations, les factures pro forma sont créées comme une extension des factures dans Dynamics 365 Sales. Cependant, il existe de nombreuses différences dans le processus de facturation dans Sales et celui de Project Operations. Par exemple, il n’est pas possible de créer une facture à partir de la page **Liste des factures** dans Project Operations, alors que cela est possible dans Sales. Ces différences et extensions existent pour prendre en charge les processus de facturation pour les projets différents d’une facture typique pour une commande client.
 
 > [!IMPORTANT]
 > En raison de ces différences, n’utilisez pas les factures de manière interchangeable dans Sales et Project Operations.
@@ -28,7 +30,7 @@ Les informations suivantes sont disponibles sur un en-tête de facture pro forma
 
 | Champ | Emplacement | Description | Impact en aval |
 | --- | --- | --- | --- |
-| **ID de facture** | Onglet **Résumé** | La Réf. générée automatiquement lors de la création d’une facture pro forma. Un champ en lecture seule qui verrouillé pour modification. | Ce champ sert de référence pour chaque facture pro forma. |
+| **Ref. facture** | Onglet **Résumé** | La Réf. générée automatiquement lors de la création d’une facture pro forma. Un champ en lecture seule qui verrouillé pour modification. | Ce champ sert de référence pour chaque facture pro forma. |
 | **Nom** | Onglet **Résumé** | Défini sur le nom du contrat de projet par défaut. Ce champ est modifiable par l’utilisateur. | &nbsp;  |
 | **Devise** | Onglet **Résumé** | Défini sur la devise du contrat de projet par défaut. Un champ en lecture seule qui verrouillé pour modification. |&nbsp; |
 | **Tarif** | Onglet **Résumé** | Défini sur les tarifs du contrat de projet par défaut. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
@@ -40,7 +42,7 @@ Les informations suivantes sont disponibles sur un en-tête de facture pro forma
 | **Statut** | Onglet **Résumé** | Définit les options suivantes : **Actif**, **Fermé**, **Payé** et **Annulé**. Modifiable par l’utilisateur. | Les statuts non pris en charge par Project Operations sont **Fermé** et **Annulé**. </br> Le statut est défini sur **Actif** lors de la création de la facture. </br>Le statut doit être défini sur **Payé** seulement après confirmation de la facture. |
 | **Statut de la facture du projet** | Onglet **Résumé** | Définit les options suivantes : **Brouillon**, **En cours de révision** et **Confirmé**. Modifiable par l’utilisateur. | Les factures ayant les statuts **Brouillon** et **En cours de révision** sont modifiables. La facture ne peut pas être modifiée une fois confirmée. |
 | **Montant détaillé** | Onglet **Résumé** | La somme des montants de toutes les lignes de facture après avances et déductions. Un champ en lecture seule qui verrouillé pour modification. | Ce champ est utilisé pour calculer le montant final. |
-| **Remise (%%)** | Onglet **Résumé** | Ce champ est modifiable pour saisir un pourcentage de remise. Ce champ n’est pas pris en charge par la fonctionnalité Project Operations. | Il s’agit d’un champ non pris en charge. |
+| **Remise (%)** | Onglet **Résumé** | Ce champ est modifiable pour saisir un pourcentage de remise. Ce champ n’est pas pris en charge par la fonctionnalité Project Operations. | Il s’agit d’un champ non pris en charge. |
 | **Montant de la remise** | Onglet **Résumé** | Ce champ est modifiable pour saisir le montant de la remise. Ce champ n’est pas pris en charge par la fonctionnalité Project Operations. | Il s’agit d’un champ non pris en charge. |
 | **Montant hors frais de port** | Onglet **Résumé** | Le montant total de la facture après que les remises ont été appliquées. Un champ en lecture seule qui verrouillé pour modification. | Ce champ est utilisé pour calculer le montant final. |
 | **Frais de port** | Onglet **Résumé** | Ce champ est modifiable pour saisir le montant des fais de port. Ce champ n’est pas pris en charge par la fonctionnalité Project Operations. | Il s’agit d’un champ non pris en charge. |
@@ -52,7 +54,7 @@ Dans Project Operations, il y a toujours une ligne de facture pour chaque ligne
 
 | Champ | Emplacement | Description | Impact en aval |
 | --- | --- | --- | --- |
-| **ID de facture** | Onglet **Général** | La référence à la Réf. facture. Un champ en lecture seule qui verrouillé pour modification. | Le lien de Réf. facture peut être utilisé pour revenir à l’en-tête de la facture. |
+| **Réf. de facture** | Onglet **Général** | La référence à la Réf. facture. Un champ en lecture seule qui verrouillé pour modification. | Le lien de Réf. facture peut être utilisé pour revenir à l’en-tête de la facture. |
 | **Nom** | Onglet **Général** | Le nom de la ligne de facture défini par défaut à partir du nom de la ligne de contrat. Ce champ est modifiable par l’utilisateur. | &nbsp; |
 | **Project** | Onglet **Général** | Le projet sur la ligne de contrat de projet associée. Un champ en lecture seule qui verrouillé pour modification. | Le lien du projet peut être utilisé pour accéder au projet. |
 | **Mode de facturation** | Onglet **Général** | Le mode de facturation sur la ligne de contrat de projet associée. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
@@ -67,9 +69,9 @@ Dans Project Operations, il y a toujours une ligne de facture pour chaque ligne
 
 Chaque ligne de facture d’une facture de projet comprend les détails de la ligne de facture. Ces détails de ligne sont associés aux chiffres réels de vente non facturés et aux jalons associés à la ligne de contrat référencée par la ligne de facture. Toutes ces transactions sont marquées **Prêt pour la facturation**.
 
-Pour une ligne **Facture de temps et de matériel**, les détails de la ligne de facture sont regroupés par catégories suivantes : **Facturable**, **Non facturable** et **Gratuit** sur la page **Ligne de facture**. Les détails de **Ligne de facturation facturable** s’ajoutent au total de la ligne de facture. **Gratuit** et **Chiffres réels non facturables** ne correspondent pas au total de la ligne de facture.
+Pour la ligne **Facture de temps et de matériel**, les détails de la ligne de facture sont regroupés dans **Facturable**, **Non facturable** et **Gratuit** sur la page **Ligne de facture**. Les détails de **Ligne de facturation facturable** s’ajoutent au total de la ligne de facture. **Gratuit** et **Chiffres réels non facturables** ne s’ajoutent pas au total de la ligne de facture.
 
-Pour une ligne **Facture à prix fixe**, les détails de la ligne de facture sont créés à partir des jalons marqués comme **Prêt pour la facturation** sur la ligne de contrat correspondante. Une fois le détail de la ligne de facture créé à partir d’un jalon, le statut de facturation du jalon est mis à jour et devient **Facture client créée**.
+Pour la ligne **Facture à prix fixe**, les détails de la ligne de facture sont créés à partir des jalons marqués comme **Prêt pour la facturation** sur la ligne de contrat associée. Une fois le détail de la ligne de facture créé à partir d’un jalon, le statut de facturation du jalon est mis à jour et devient **Facture client créée**.
 
 ### <a name="edit-invoice-line-details"></a>Modifier les détails de ligne de facture
 
@@ -96,12 +98,8 @@ Les champs suivants sont disponibles sur un détail de la ligne de facture assoc
 | **Télécopie** | Défini par défaut à partir d’un chiffre réel source. Le champ est modifiable par l’utilisateur | Le champ peut être modifié par l’utilisateur lors de la création d’un détail de ligne de facture sans chiffres réels associés. |
 | **Total final** | Un champ calculé, calculé comme **Montant + Taxe**. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
 | **Type de facturation** | Défini par défaut à partir d’un chiffre réel source. Le champ est modifiable par l’utilisateur. | Sélectionner **Facturable** ajoute la ligne au total de la ligne de facture. **Gratuit** et **Non facturable** l’exclura du total de la ligne de facture. |
-| **Sélectionner un produit** | Défini par défaut à partir du chiffre réel source, ce champ est en lecture seule. | Lorsque vous créez un nouveau détail de ligne de facture sans chiffre réel de sauvegarde, ce champ peut être modifié. |
-| **Produit** | Défini par défaut à partir du chiffre réel source, ce champ est en lecture seule. | Lorsque vous créez un nouveau détail de ligne de facture sans chiffre réel de sauvegarde, ce champ peut être modifié si le champ **Sélectionner un produit** est défini sur **Produit existant**. |
-| **Nom du produit** | Défini par défaut à partir du chiffre réel source, ce champ est en lecture seule. | Sur un nouveau détail de ligne de facture, où l’ID de produit est sélectionné dans le catalogue, ce champ est défini sur le nom du produit. Pour un produit hors catalogue, le champ est défini sur le nom du produit hors catalogue. |
-| **Description du produit hors catalogue** | Défini par défaut à partir du chiffre réel source, ce champ est en lecture seule. | Lorsque vous créez un nouveau détail de ligne de facture sans chiffre réel de sauvegarde, vous pouvez ajouter une description écrite pour le produit. |
 | **Type de transaction** | Défini par défaut à partir d’un chiffre réel source. Un champ en lecture seule qui verrouillé pour modification. | Défini par défaut sur **Ventes facturées** et verrouillé lors de la création d’un **Détail de la ligne de facture** sans chiffres réels associés.  |
-| **Classe de transaction** | Défini par défaut à partir d’un chiffre réel source. Un champ en lecture seule qui verrouillé pour modification. | Défini par défaut selon que l’utilisateur choisit de créer un détail de la ligne de facture **Temps**, **Dépense**, **Matériel** ou **Frais** tout en créant un nouveau **Détail de la ligne de facture** sans chiffre réel de sauvegarde. Verrouillé pour modification. |
+| **Classe de transaction** | Défini par défaut à partir d’un chiffre réel source. Un champ en lecture seule qui verrouillé pour modification. | Défini par défaut selon que l’utilisateur choisit de créer un détail de ligne de facture de **Temps**, **Dépense** ou **Frais** tout en créant un **Détail de la ligne de facture** sans chiffres réels associés. Verrouillé pour modification. |
 
 Les champs suivants sont disponibles sur un détail de la ligne de facture associé à un jalon :
 
@@ -122,7 +120,7 @@ Les champs suivants sont disponibles sur un détail de la ligne de facture assoc
 | **Tarif** | Défini par défaut à partir du montant du jalon source. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
 | **Devise** | Défini par défaut à partir du jalon source. Un champ en lecture seule qui verrouillé pour modification. |&nbsp; |
 | **Montant** | Défini par défaut à partir du montant du jalon source. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
-| **Télécopie** | Défini par défaut à partir du montant de taxes du jalon source. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
+| **Taxes** | Défini par défaut à partir du montant de taxes du jalon source. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
 | **Total final** | Défini par défaut à partir du montant étendu du jalon source. Le champ est modifiable par l’utilisateur | &nbsp; |
 | **Type de facturation** | Toujours défini par défaut sur **Facturable**. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
 | **Type de transaction** | Défini par défaut à partir du jalon source. Un champ en lecture seule qui verrouillé pour modification. | &nbsp; |
@@ -146,6 +144,3 @@ Si des chiffres réels sont arrivés après la création de la facture, vous pou
 Dans Project Operations, vous pouvez créer des lignes de facture pour des produits qui ne s’appliquent à aucun projet ou pour tous les projets avec des lignes de facture basées sur le projet. Ces lignes de facture sont créées en tant que lignes de contrat basées sur les produits et une fois marquées comme prêtes pour la facturation, elles sont ajoutées en tant que lignes de factures basées sur les produits.
 
 Une fois des lignes de facture basées sur les produits ajoutées, elles ne sont plus modifiables. Elles peuvent, toutefois, être supprimées de la facture pro forma en mode brouillon.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Réserver à un projet
 description: Cette rubrique explique comment réserver une ressource sur un projet.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994903"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131070"
 ---
 # <a name="book-to-a-project"></a>Réserver à un projet
 
@@ -30,7 +32,7 @@ Si votre organisation fonctionne en mode d’allocation des ressources hybride, 
 1. À partir du projet, accédez à la grille des membres de l’équipe et sélectionnez **Nouveau**.
 2. Définissez le nom du poste et le rôle de la ressource.
 3. Sélectionnez la ressource pouvant être réservée dans la recherche disponible.
-4. Après avoir sélectionné la ressource, renseignez les informations de champs suivantes pour réserver la ressource :
+4. Après avoir sélectionné la ressource, définissez les informations de champ suivantes pour réserver la ressource :
 
     - Date de début
     - Date de fin
@@ -64,6 +66,3 @@ En tant que chef de projet, vous devrez peut-être réserver une ressource pour 
 
 > [!NOTE]
 > Cette méthode ne crée aucune réservation pour la ressource. À la place, elle ajoute la ressource à l’équipe. Une fois le membre de l’équipe ajouté au projet, le chef de projet peut utiliser la gestion des réservations ou l’extension des réservations pour ajouter les réservations requises à la ressource.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

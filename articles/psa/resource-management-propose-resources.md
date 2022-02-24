@@ -2,6 +2,8 @@
 title: Proposer des ressources de projet
 description: Cette rubrique explique comment proposer des ressources de projet.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995038"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147515"
 ---
 # <a name="propose-project-resources"></a>Proposer des ressources de projet
 
@@ -32,21 +34,21 @@ Les gestionnaires de ressources peuvent proposer une ressource au chef de projet
 1. Dans la grille de demande ou la demande elle-même, sélectionnez **Rechercher des ressources**.
 2. Dans la page **Assistant Planifier**, sélectionnez la ressource, puis, dans le volet **Créer une réservation de ressource**, dans le champ **Statut de la réservation**, sélectionnez **Réserver**.
 
-    ![Ressource proposée sélectionnée.](media/Resource-Management-image62.png)
+    ![Ressource sélectionnée proposée](media/Resource-Management-image62.png)
 
 Les mises à jour de statut suivantes se produisent :
 
-- Sur la page **Assistant de planification**, les indicateurs de statut sont mis à jour pour indiquer que la réservation est proposée, et non pas réservée fermement.
+- Dans la page **Assistant Planifier**, les indicateurs de statut sont mis à jour pour indiquer que la réservation est proposée, mais pas réservée de manière ferme.
 
-    ![Indicateurs de statut de la réservation proposée sur la page Assistant Planifier.](media/Resource-Management-image63.png)
+    ![Indicateurs de statut des réservations proposées sur la page Assistant Planifier](media/Resource-Management-image63.png)
 
-- Sur la demande de ressource, le statut est changé en **Révision nécessaire**.
+- Dans la demande de ressource, le statut passe à **Révision nécessaire**.
 
-    ![Statut de la demande de ressource défini sur Révision nécessaire.](media/Resource-Management-image64.png)
+    ![Statut de la demande de ressource passé à Révision nécessaire](media/Resource-Management-image64.png)
 
-- Sur l’onglet **Équipe** du projet, la valeur **Statut de la demande** du membre d’équipe générique est remplacée par **Révision nécessaire**.
+- Dans l’onglet **Équipe** du projet, la valeur **Statut de demande** du membre de l’équipe générique passe à **Révision nécessaire**.
 
-    ![Statut de la demande du membre de l’équipe générique défini sur Révision nécessaire sous l’onglet Équipe.](media/Resource-Management-image48.png)
+    ![Statut de demande du membre de l’équipe générique passé à Révision nécessaire sous l’onglet Équipe](media/Resource-Management-image48.png)
 
 Le chef du projet peut accepter ou rejeter la proposition.
 
@@ -59,20 +61,20 @@ Lorsque les gestionnaires de ressources gèrent les demandes de ressources, ils 
 
 ## <a name="billable-utilization"></a>Utilisation facturable
 
-Les ressources peuvent avoir une utilisation facturable cible. Cette utilisation cible est définie comme un attribut dans le rôle par défaut d’une ressource ou sur l’enregistrement de la ressource réservable individuelle. Les calculs de l’utilisation sont basés sur les heures réelles déclarées par des ressources à l’aide d’entrées de temps approuvées.
+Les ressources peuvent avoir une utilisation facturable cible. Cette utilisation cible est définie comme un attribut dans le rôle par défaut d’une ressource ou sur l’enregistrement de la ressource réservable individuelle. Les calculs de l’utilisation sont basés sur les heures réelles que les ressources ont signalées à l’aide des entrées de temps approuvées.
 
 Les formules suivantes sont utilisées pour calculer l’utilisation :
 
 - Utilisation facturable = Heures réelles facturables ÷ Capacité ressource
-- Utilisation non facturable = Temps réel avec ID du type de facturation = Non facturable, Gratuit ou Non disponible ÷ Capacité ressource
+- Utilisation non facturable = Temps réel avec ID type facturation = Capacité non facturable, gratuite ou non disponible ÷ Capacité ressource
 - Interne = Temps réel sans contrat de vente ÷ Capacité ressource
-- Capacité ressource = Heures de travail de la ressource – Absence du bureau – Jours non ouvrables
+- Capacité ressource = Heures de travail d’une ressource – Absence du bureau – Jours non ouvrables
 
-Vous pouvez trouver la vue **Utilisation des ressources** dans le volet **Ressources**.
+Vous trouverez la vue **Utilisation des ressources** dans le volet **Ressources**.
 
-![Vue Utilisation des ressources.](media/Resource-Management-image65.png)
+![Vue Utilisation des ressources](media/Resource-Management-image65.png)
 
-Chaque cellule de la grille représente le pourcentage d’utilisation facturable de la ressource sur une période telle qu’un jour, une semaine ou un mois. Les formules suivantes sont utilisées pour colorer les cellules :
+Chaque cellule dans la grille représente le pourcentage total d’utilisation de la ressource à une période, par exemple un jour, une semaine ou un mois. Les formules suivantes sont utilisées pour colorer les cellules :
 
 - **Vert :** Utilisation facturable \>= Utilisation cible de la ressource
 - **Jaune :** Utilisation cible – 20 \<= Utilisation facturable \< Utilisation cible.
@@ -84,7 +86,7 @@ La grille nécessite que vous définissiez une utilisation cible du rôle ou de 
 
 En outre, un rôle par défaut doit être affecté à chaque ressource réservable. Accédez à **Ressources** \> **Ressources**. Dans l’onglet **Project Service**, vérifiez qu’un rôle de ressource est défini, et que le champ **Est la valeur par défaut** est défini sur **Oui**. Vous pouvez ajouter des rôles supplémentaires où **Est la valeur par défaut = Non**. Le rôle où **Est la valeur par défaut = Oui** est utilisé pour évaluer l’utilisation de la ressource par rapport à la cible de ce rôle.
 
-![Rôle par défaut défini.](media/Resource-Management-image67.png)
+![Rôle par défaut défini](media/Resource-Management-image67.png)
 
 Dans l’onglet **Project Service**, vous pouvez également définir une utilisation cible individuelle pour la ressource. Le calcul de l’utilisation utilise ensuite cette utilisation cible pour évaluer la cible de la ressource au lieu de la cible du rôle par défaut de la ressource.
 
@@ -96,21 +98,18 @@ Il est donc impératif que les gestionnaires de ressources puissent afficher la 
 
 Les heures de travail des ressources sont utilisées comme base pour calculer la disponibilité d’une ressource. Les réservations de ressource consomment la capacité des ressources.
 
-![Tableau de planification.](media/Resource-Management-image68.png)
+![Tableau de planification](media/Resource-Management-image68.png)
 
-Le Tableau de planification utilise des couleurs et de l’ombrage pour afficher les réservations, la disponibilité et les surréservations, ainsi que le statut des réservations. Un paramètre des paramètres du Tableau de planification vous permet d’afficher une légende.
+Le Tableau de planification utilise des couleurs et de l’ombrage pour afficher les réservations,la disponibilité et les surréservations, ainsi que le statut des réservations. Un paramètre des paramètres du Tableau de planification vous permet d’afficher une légende.
 
 Si une flèche pointant vers la droite apparaît en regard d’une ressource réservable individuelle sur le Tableau de planification, la ressource peut être développée pour afficher les détails du travail pour lequel la ressource est réservée.
 
-![Ressource réservable développée sur le Tableau de planification.](media/Resource-Management-image69.png)
+![Ressource réservable développée sur le Tableau de planification](media/Resource-Management-image69.png)
 
 Comme Dynamics 365 Project Service Automation utilise le moteur Universal Resource Scheduling, si vous avez également Dynamics 365 Field Service installé, vous pouvez afficher les détails des réservations de ressource des projets, des ordres de travail, ainsi que les autres entités auxquelles vous avez étendu la planification.
 
-![Détails des réservations de ressource pour les projets et les ordres de travail.](media/Resource-Management-image70.png)
+![Détails des réservations de ressource pour les projets et les ordres de travail](media/Resource-Management-image70.png)
 
 Pour afficher plus de détails sur une ressource spécifique, cliquez dessus avec le bouton droit pour ouvrir la carte de ressource.
 
-![Carte de ressource.](media/Resource-Management-image71.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Carte de ressource](media/Resource-Management-image71.png)

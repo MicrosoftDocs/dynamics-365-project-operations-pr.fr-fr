@@ -2,16 +2,18 @@
 title: Créer des planifications de factures sur une ligne de contrat basée sur un projet – Simplifié
 description: Cette rubrique fournit des informations sur la création de planifications de factures et de jalons de facturation.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dc0cf92ed7af0353baa0f93fc7fb69e02905f805eb04a7b4c7bc99cfe59da62a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006063"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180324"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Créer des planifications de factures sur une ligne de contrat basée sur un projet – Simplifié
 
@@ -72,6 +74,3 @@ Les jalons à prix fixe peuvent être générés manuellement lorsqu’ils ne so
 | Taxes | Création rapide | Le montant de la taxe appliqué sur le jalon. | Ceci est inclus dans le jalon de la ligne de contrat de projet et la facture. |
 
 4. Sélectionnez **Enregistrer et fermer**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Feuilles de temps de projet sur un appareil mobile
 description: Mes feuilles de temps (optimisées pour mobile) permettent aux employés de créer et de soumettre des feuilles de temps de projet pour enregistrer les heures pour un projet spécifique sur un appareil mobile.
 author: abruer
+manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 6b602bf60a451bcb3c489e371f698611678477245581f58f76145a4b846c7b8a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989593"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271125"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Feuilles de temps de projet sur un appareil mobile
 

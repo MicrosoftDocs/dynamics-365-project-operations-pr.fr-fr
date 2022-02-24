@@ -2,6 +2,8 @@
 title: Obtenir les applications Dynamics 365 Project Finder Mobile | MicrosoftDocs
 description: Procédure d’obtention des applications Dynamics 365 Project Finder Mobile
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -15,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: df9842c9a3f148d6a6d902ef8013f7a17bc36b04ab3f98c0c770b6509ea3e25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985688"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947966"
 ---
 # <a name="get-the-apps-project-service"></a>Obtenir les applications (Project Service)
 

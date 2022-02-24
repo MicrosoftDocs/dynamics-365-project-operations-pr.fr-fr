@@ -2,10 +2,12 @@
 title: Ressources Web déconseillées dans Project Service Automation 3.x
 description: Cette rubrique décrit les ressources Web qui ne sont plus utilisées dans Dynamics 365 Project Service Automation 3.0.
 author: makk
+manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,18 +16,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0ec1e01094ad4ec9deebc9bf0e9d3e197c16e2b03e6393f9dda7df97e7f1921
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988918"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148550"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Ressources Web déconseillées dans Project Service Automation 3.x
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-En raison de la nouvelle interface du client et d’autres modifications qui ont été apportées à la solution Dynamics 365 Project Service Automation, certaines ressources Web de la solution ne sont plus utilisées. Par conséquent, elles sont obsolètes (déconseillées) à compter de la version 3.0.
+En raison de la nouvelle interface du client et d'autres modifications qui ont été apportées à la solution Dynamics 365 Project Service Automation, certaines ressources Web de la solution ne sont plus utilisées. Par conséquent, elles sont obsolètes (déconseillées) à compter de la version 3.0.
 
 ## <a name="deprecated-style-sheets"></a>Feuilles de style déconseillées
 
@@ -536,6 +538,3 @@ En raison de la nouvelle interface du client et d’autres modifications qui ont
 - msdyn\_\\Time\\App\\Scripts\\Views\\SubmitDialog.js
 - msdyn\_\\Time\\App\\Scripts\\Views\\TimeEntryView.js
 - msdyn\_\\Time\\Moca\\Scripts\\TimeEntryRibbon.js
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

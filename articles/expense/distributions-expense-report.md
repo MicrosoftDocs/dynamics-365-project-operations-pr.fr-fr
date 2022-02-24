@@ -2,16 +2,18 @@
 title: Distributions sur une note de frais
 description: Lorsque vous saisissez des dépenses sur une note de frais, vous pouvez les répartir entre plusieurs projets, entités juridiques ou comptes de votre organisation.
 author: suvaidya
+manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 396fd201949663d93d90f6609e5b97f646f7942cde002c91482fa7dc26c394ae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c0ee3b9b989c644ab429310d1e7b4ef4b600dc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006243"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120945"
 ---
 # <a name="distributions-on-an-expense-report"></a>Distributions sur une note de frais
 
@@ -28,6 +30,3 @@ Parce que Geneviève a travaillé sur deux projets distincts pendant qu’elle �
 | Billet de train   | DKK 578              | DKK 405                         | DKK 173                         |
 | Hôtel        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Repas        | 346 EUR              | 284 EUR                         | 62 EUR                          |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

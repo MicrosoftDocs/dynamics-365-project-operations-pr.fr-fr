@@ -2,24 +2,26 @@
 title: Préserver les membres de l’équipe
 description: Cette rubrique fournit des informations sur la réservation de ressources nommées dans les équipes de projet et leur attribution de tâches.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997063"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131520"
 ---
 # <a name="maintain-team-members"></a>Préserver les membres de l’équipe
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Vous pouvez ajouter une ressource nommée à votre équipe de projet en la réservant directement pour l’équipe.
+Vous pouvez ajouter une ressource nommée à votre équipe de projet en les réservant directement dans l’équipe.
 
-1. Dans Dynamics 365 Project Operations, accédez à **Projets**, puis sélectionnez le projet ouvert pour lequel vous souhaitez effectuer une réservation.
+1. Dans Dynamics 365 Project Operations, accédez à **Projets**, puis sélectionnez pour ouvrir le projet que réservez.
 2. Dans la page **Projet**, dans l’onglet **Équipe**, sélectionnez **Nouveau**. 
 3. Dans la boîte de dialogue **Création rapide : Membre de l’équipe de projet**, sélectionnez la ressource réservable. Le champ **Rôle** se remplit avec le rôle par défaut de la ressource si elle en a un d’attribué. Vous pouvez changer de rôle. 
 4. Sélectionnez les dates de début et de fin auxquelles la ressource sera nécessaire et sélectionnez la méthode d’allocation de la capacité de la ressource. 
@@ -40,6 +42,3 @@ Une fois que vous effectuez une sélection, la ressource est ajoutée à l’éq
 Vous pouvez utiliser la capacité d’extension de réservation de l’onglet **Rapprochement** ou le **Tableau de planification** pour réserver la capacité de la ressource sur le projet.
 
 Lorsqu’un membre de l’équipe est réservé sur votre projet, vous pouvez **Gérer les réservations** ou utiliser le **Tableau de planification** directement pour gérer ses réservations.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

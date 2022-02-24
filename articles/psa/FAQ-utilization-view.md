@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007143"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992831"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Afficher l’utilisation facturable des ressources
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007143"
  
 La **Vue d’utilisation** sur la page **Utilisation des ressources Project Service** affiche l’utilisation imputable de chaque ressource réservable. Comme la vue est basée sur le tableau de planification, vous trouverez plusieurs fonctions identiques.
 
-> ![Capture d’écran de vue Utilisation.](media/FAQ-utilization-1.png)
+> ![Capture d’écran de vue Utilisation](media/FAQ-utilization-1.png)
  
 
 Le calcul de l’utilisation facturable fonctionne comme suit :
@@ -48,7 +48,7 @@ L’utilisation cible peut être définie sur le rôle par défaut de la ressour
 2. Sélectionnez une ressource pour ouvrir l’enregistrement. 
 3. Dans l’onglet **Project Service**, vous pouvez définir l’utilisation cible de la ressource.
 
-> ![Capture d’écran de l’utilisation de l’onglet Project Service pour définir l’utilisation cible.](media/FAQ-utilization-2.png)
+> ![Capture d’écran de l’utilisation de l’onglet Project Service pour définir l’utilisation cible](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Définir l’utilisation cible sur un rôle
 
@@ -56,7 +56,7 @@ L’utilisation cible peut être définie sur le rôle par défaut de la ressour
 2. Sélectionnez un rôle et ouvrez l’enregistrement. 
 3. Définissez l’utilisation cible du rôle.
 
-> ![Capture d’écran de l’utilisation Rôles des ressources pour définir l’utilisation cible.](media/FAQ-utilization-3.png)
+> ![Capture d’écran de l’utilisation de Rôles de la ressource pour définir l’utilisation cible](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Calculer l’utilisation facturable d’une ressource
 

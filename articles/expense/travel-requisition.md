@@ -2,16 +2,18 @@
 title: Demandes de déplacement
 description: Cette rubrique fournit des informations sur les demandes de déplacement.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: f00b5ca2142c4ba5cb523773f1f6dd8f0a055f6f6d474bc2b8e5f775ca0fc739
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994543"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123735"
 ---
 # <a name="travel-requisitions"></a>Demandes de déplacement
 
@@ -54,6 +56,3 @@ Sélectionnez la demande de déplacement que vous souhaitez approuver, puis sél
 
 > [!NOTE]
 > Lorsque vous mappez une note de frais à une demande de déplacement approuvée, le montant de la transaction ne peut pas être supérieur au montant autorisé. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

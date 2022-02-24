@@ -1,32 +1,32 @@
 ---
-title: Créer et mettre à jour un projet
+title: Mettre à jour un projet
 description: Cette rubrique offre des informations sur la mise à jour des projets dans Project Operations.
 author: ruhercul
-ms.date: 10/20/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678346"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993368"
 ---
-# <a name="create-and-update-a-project"></a>Créer et mettre à jour un projet
+# <a name="update-a-project"></a>Mettre à jour un projet
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-La rubrique suivante est un résumé des champs qui peuvent être mis à jour dans un projet après sa création. Cela inclut également toutes les implications applicables basées sur ces mises à jour.
+Vous trouverez ci-dessous un résumé des champs qui peuvent être mis à jour sur un projet après sa création et toutes les implications applicables des mises à jour.
 
 ## <a name="project-detail-fields"></a>Champs de détail du projet
 
 - **Nom** : Titre du projet.
 - **Description** : Vue d’ensemble du projet.
 - **Client** : L’entreprise à laquelle le projet sera fourni.
-- **Modèle de calendrier** : Heures de travail du projet. Lorsque le champ est modifié, l’intégralité de la planification est recalculée.
-- **Devise** : Devise du projet. La valeur par défaut de ce champ est basée sur la devise définie dans l’unité contractuelle. Lorsque l’unité contractante est mise à jour, le champ est également mis à jour.
-- **Unité contractuelle** : Unité d’organisation qui représente le groupe de sociétés ou la division principalement responsables de remporter la vente et de gérer la prestation du travail et des services au client.  Lorsque l’unité d’organisation du chef de projet n’est pas définie, ce champ prend par défaut la valeur définie dans les paramètres du projet.
+- **Modèle de calendrier** : Heures de travail du projet. Lorsque le champ est modifié, la planification entière est recalculée.
+- **Devise** : Devise du projet. Ce champ est par défaut basé sur la devise définie dans l’unité contractuelle. Lorsque l’unité contractuelle est mise à jour, le champ est également mis à jour.
+- **Unité contractuelle** : Unité d’organisation qui représente le groupe de sociétés ou la division principalement responsables de remporter la vente et de gérer la prestation du travail et des services au client. 
 - **Gestionnaire de projet** : Membre de l’équipe de projet qui a le pouvoir d’examiner et d’approuver les entrées de temps et les dépenses.
 
 ## <a name="estimate-fields"></a>Champs d’estimation

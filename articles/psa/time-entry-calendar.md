@@ -2,6 +2,8 @@
 title: Calendrier des entrées de temps
 description: Cette rubrique donne des informations sur l’utilisation du calendrier des entrées de temps.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 699cfd1d89d90ace092ffe44abb242ab91464d5d8a813ee7964e923abe245d21
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996748"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150170"
 ---
 # <a name="time-entry-calendar"></a>Calendrier des entrées de temps
 
@@ -37,9 +39,6 @@ Dynamics 365 Project Service Automation offre une nouvelle expérience d’entr�
 
 Le calendrier ne prend pas en charge les actions sur les éléments de calendrier individuels, et vous ne pouvez pas sélectionner un ou plusieurs éléments de calendrier à des fins d’envoi ou de suppression. À la place, sélectionnez un élément de calendrier pour ouvrir la page de l’entité **Entrée de temps**, où vous pouvez effectuer les actions nécessaires.
 
-## <a name="extensibility"></a>Extensibilité
+## <a name="extensibility"></a>Extensibilité 
 
 Dans la page **Entrées de temps** contenant la grille d’entrée de temps, vous pouvez ajouter des champs personnalisés, configurer des champs de recherche et créer des vues personnalisées. Vous pouvez également définir une logique métier personnalisée qui est basée sur les valeurs sélectionnées ou entrées dans les champs personnalisés.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Enregistrer l’utilisation du matériel sur les projets et les tâches du projet
 description: Cette rubrique fournit des informations sur la façon de consigner l’utilisation du matériel par rapport aux projets et aux tâches de projet.
 author: rumant
+manager: AnnBe
 ms.date: 03/31/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d8757049953fab0ad8bf6ee1a1d695fcb6df75b1be52641ad4af3b3137d7a0a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ab431ce4c18a4283cd887de9afcba0dd556d2567
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999268"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852850"
 ---
 # <a name="record-material-usage-on-projects-and-project-tasks"></a>Enregistrer l’utilisation du matériel sur les projets et les tâches du projet
 

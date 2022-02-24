@@ -1,24 +1,26 @@
 ---
-title: Confirmer une facture pro forma pour un projet
-description: Cette rubrique fournit des informations sur la confirmation des factures de projet pro forma dans Project Operations.
+title: Confirmer une facture pro forma – Simplifié
+description: Cette rubrique fournit des informations sur la confirmation des factures pro forma dans Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992968"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176518"
 ---
-# <a name="confirm-a-proforma-project-invoice"></a>Confirmer une facture pro forma pour un projet 
+# <a name="confirm-a-proforma-invoice---lite"></a>Confirmer une facture pro forma – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
 
-Une fois la facture pro forma confirmée, le statut de la facture projet est mis à jour sur **Confirmé**. Lorsqu’une facture est confirmée, elle devient en lecture seule. À partir de ce moment-là, la facture ne pourra être corrigée que s’il y a des corrections ou des crédits initiés par le client.
+Une fois la facture pro forma confirmée, le statut de la facture projet est mis à jour sur **Confirmé**. Lorsqu’une facture est confirmée, elle devient en lecture seule. À l’avenir, la facture ne pourra être corrigée que s’il y a des corrections ou des crédits initiés par le client, ou si la facture est marquée comme payée.
 
 Le tableau suivant répertorie les chiffres réels créés par le système. Ces chiffres réels sont créés lorsque certaines opérations sont effectuées sur le projet de facture de projet avant sa confirmation.
 
@@ -229,70 +231,6 @@ Un nouveau réel de ventes non facturé qui est facturable pour la quantité et 
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Facturation d’une transaction de matériel sans aucune modification sur la facture provisoire.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Une contrepassation des ventes non facturées pour la quantité et le montant de l’approbation d’utilisation du matériel d’origine.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un chiffre réel de vente facturée pour la quantité et le montant de l’approbation d’utilisation du matériel d’origine.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Facturation d’une transaction de matériel qui a été modifiée pour réduire la quantité.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Une contrepassation des ventes non facturées pour la quantité et le montant de l’approbation du temps d’origine.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nouveau réel de ventes non facturé qui est facturable pour la quantité et le montant du détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes non facturées et un réel de ventes facturé équivalent.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nouveau réel de ventes non facturé qui n’est pas facturable pour la quantité et le montant restants après déduction des chiffres corrects dans le détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes facturées et un réel de ventes facturé équivalent.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Facturation d’une transaction de matériel qui a été modifiée pour augmenter la quantité.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Une contrepassation des ventes non facturées pour la quantité et le montant de l’approbation d’utilisation du matériel d’origine.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nouveau réel de ventes non facturé qui est facturable pour la quantité et le montant du détail de la ligne de facture modifiée, une contrepassation des chiffres réels des ventes non facturées et un réel de ventes facturé équivalent.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Facturation des frais.
                 </p>
             </td>
@@ -335,6 +273,3 @@ Un chiffre d’affaires facturé réel pour la ligne de produits avec la quantit
         </tr>
     </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

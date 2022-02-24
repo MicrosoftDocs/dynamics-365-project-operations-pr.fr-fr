@@ -2,22 +2,24 @@
 title: Gérer plusieurs clients sur des contrats de projets – Simplifié
 description: Cette rubrique fournit des informations sur la gestion de plusieurs clients sur des contrats de projets.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001743"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181314"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Gérer plusieurs clients sur des contrats de projets – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Les contrats de projet dans Dynamics 365 Project Operations prennent en charge les scénarios dans lesquels un accord contractuel implique plusieurs clients qui financent une transaction. L’onglet **Synthèse** de la page **Contrat du projet** comprend le champ **Client**. Ce champ identifie le client principal de la transaction. D’autres clients de la transaction peuvent être définis sous l’onglet **Clients** de la page **Contrat du projet**.
+Les contrats de projet dans Dynamics 365 Project Operations prennent en charge les scénarios dans lesquels un accord contractuel implique plusieurs clients qui financent une transaction. L’onglet **Synthèse** de la page **Contrat du projet** comprend le champ **Client**. Ce champ identifie le client principal de la transaction. D’autres clients de la transaction peuvent être définis sous l’onglet **Clients** de la page **Contrat du projet**.
 
 Tous les clients du contrat répertoriés sur le contrat de projet sont créés par défaut en tant que clients de ligne de contrat sur toutes les lignes de contrat basées sur un projet créées pour le contrat du projet. Une fois leur enregistrement créé, les lignes de contrat basées un projet existantes n’héritent pas des nouveaux clients de contrat.
 
@@ -47,9 +49,6 @@ Un client de contrat peut être créé, mis à jour ou supprimé depuis l’ongl
 
 ## <a name="edit-billing-split-percentages"></a>Modifier des pourcentages de facturation fractionnée
 
-Les pourcentages de fractionnement de la facturation peuvent être modifiés en utilisant la modification de la grille en ligne. Si le total des pourcentages de fractionnement de la facturation n’est pas égal à 100 %%, vous recevrez un message d’erreur. Après avoir modifié les pourcentages de fractionnement de la facturation, actualisez la page pour annuler l’erreur.
+Les pourcentages de fractionnement de la facturation peuvent être modifiés en utilisant la modification de la grille en ligne. Si le total des pourcentages de fractionnement de la facturation n’est pas égal à 100 %, vous recevrez un message d’erreur. Après avoir modifié les pourcentages de fractionnement de la facturation, actualisez la page pour annuler l’erreur.
 
 Vous pouvez également sélectionner **Répartition homogène** dans la sous-grille **Clients du contrat** pour répartir les fractionnements de la facturation de façon homogène entre tous les clients du contrat. S’il existe une valeur d’arrondi, elle sera ajoutée au client d’arrondi. Un des clients de contrat est toujours identifié comme client d’**arrondi**, ce qui signifie que l’enregistrement de ce client du contrat est marqué de l’indicateur d’arrondi défini sur **Oui**. En règle générale, il s’agit du client principal du contrat, mais cela peut également être modifié.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

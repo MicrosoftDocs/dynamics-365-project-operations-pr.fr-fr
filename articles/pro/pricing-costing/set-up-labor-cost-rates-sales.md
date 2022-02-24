@@ -2,16 +2,18 @@
 title: Configurer les taux de coûts de la main-d’œuvre – Simplifié
 description: Cette rubrique offre des informations sur la configuration des taux de coût de la main-d’œuvre dans Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006108"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180708"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Configurer les taux de coûts de la main-d’œuvre – Simplifié
 
@@ -80,6 +82,3 @@ Dans le tarif des prix de revient de Fabrikam Royaume-Uni - Robotique, les tarif
 | Developer | Fabrikam Royaume-Uni | 115 GBP |
 
 Le tarif des prix de revient peut fournir des taux de main-d’œuvre dans plusieurs devises. Lors de la génération d’une estimation des coûts sur le projet, Project Operations convertira ces taux de coûts dans la devise du projet et les affichera à l’utilisateur. Lorsqu’une entrée de temps est approuvée et que les chiffres réels du coût sont créés, les chiffres réels du coût sont évalués dans la devise de cette ligne de prix de rôle correspondante dans le tarif des prix de revient. Les chiffres réels du coût pour le temps sur un même projet peuvent être enregistrés dans plusieurs devises. Cependant, lors du report ou de la synthèse des chiffres réels des coûts de main-d’œuvre au niveau du projet, Project Operations convertira tous les montants des coûts de main-d’œuvre dans la devise du projet, que l’utilisateur peut afficher.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

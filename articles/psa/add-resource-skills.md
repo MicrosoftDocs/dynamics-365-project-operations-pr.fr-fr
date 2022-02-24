@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 597a2b3ddffae4815092704faa2e17c2e3b6ba0be59bfe73a59a89a4fe506ede
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1e7b37c77c7ba688dc33ed382ec7ef610a5dee2d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995533"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992747"
 ---
 # <a name="add-resource-skills-project-service"></a>Ajouter des qualifications de ressource (Project Service)
 

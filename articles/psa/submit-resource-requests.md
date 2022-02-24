@@ -2,6 +2,8 @@
 title: Soumettre les demandes de ressources
 description: Procédure d’envoi de demandes de ressources dans Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dae9bcddb87324e6614e8663fbfc693c8e994cd3f33839680531cd17269d764b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5b8b136e8d1b8c7acbb8616789ad274c89438e7d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000123"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150215"
 ---
 # <a name="submit-resource-requests-project-service"></a>Soumettre des demandes de ressources (Project Service)
 
@@ -53,6 +55,3 @@ Lorsque vous avez conclu un contrat de projet, vous devez doter votre projet en 
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

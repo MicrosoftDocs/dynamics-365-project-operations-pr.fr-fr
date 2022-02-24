@@ -2,16 +2,18 @@
 title: Copier des opportunités basées sur des projets
 description: Cette rubrique offre des informations sur la copie des devis selon les opportunités dans Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999718"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181636"
 ---
 # <a name="copy-project-based-opportunities"></a>Copier des opportunités basées sur des projets
 
@@ -32,6 +34,3 @@ Les opportunités de projet peuvent facilement être copiées pour créer de nou
     | Copier la tarification | Une valeur Oui/Non qui indique si la tarification de l’opportunité doit être copiée à partir de l’opportunité source. | Si **Oui** est sélectionné, les tarifs sont copiés de la source vers l’opportunité cible. Si **Non** est sélectionné, les tarifs sont définis par défaut sur la base des derniers tarifs configurés. |
 
 3. Cliquez sur **OK**. Le système crée une copie de l’opportunité de projet en fonction des paramètres sélectionnés et la nouvelle opportunité de projet est ouverte.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

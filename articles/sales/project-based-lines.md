@@ -2,16 +2,18 @@
 title: Lignes des opportunités selon les projets
 description: Cette rubrique offre des informations sur l’utilisation des lignes d’opportunités selon les projets.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996343"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181944"
 ---
 # <a name="project-based-opportunity-lines"></a>Lignes des opportunités selon les projets
 
@@ -31,6 +33,3 @@ Vous trouverez ci-dessous les champs d’une ligne d’opportunité selon les pr
 | Nom | Onglet Général | Il s’agit d’un champ de texte modifiable qui peut être utilisé pour donner une courte identité à cet élément de ligne | Cette valeur est reportée sur la ligne de devis lorsque vous créez un devis à partir de cette opportunité |
 | Budget client | Onglet Général | Ce champ de devise modifiable peut être utilisé pour suivre le montant que le client est prêt à dépenser pour cet élément de ligne. | Cette valeur est reportée sur le champ correspondant de la ligne de devis lorsque vous créez un devis à partir de cette opportunité |
 | Mode de facturation | Onglet Général | Ce champ modifiable contient les valeurs suivantes :</br>- Temps et matériel</br>- Prix fixe | Cette valeur est reportée sur le champ correspondant de la ligne de devis lorsque vous créez un devis à partir de cette opportunité. Une fois la ligne de devis créée, le champ est verrouillé et ne peut pas être modifié. Attribuez cette valeur de champ aussi précisément que possible. Si vous devez modifier la valeur de ce champ sur la ligne de devis, supprimez et recréez la ligne de devis. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

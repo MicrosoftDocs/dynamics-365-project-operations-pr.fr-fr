@@ -2,16 +2,18 @@
 title: Gérer des opportunités basées sur des projets
 description: Cette rubrique fournit des informations sur la manière d’utiliser des opportunités liées à des projets.
 author: rumant
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d640bda1f325c283e591eb8d1a100d4e6b09d76ae847833e9664c3631eabd154
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991888"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948372"
 ---
 # <a name="manage-project-based-opportunities"></a>Gérer des opportunités basées sur des projets
 

@@ -2,6 +2,8 @@
 title: Devis et lignes de devis
 description: Cette rubrique fournit des informations sur les devis et les lignes de devis.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995443"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145116"
 ---
 # <a name="quotes-and-quote-lines"></a>Devis et lignes de devis
 
@@ -84,7 +86,7 @@ Les organisations de services professionnels établissement des devis et facture
 
 Une ou plusieurs de ces classifications de transactions peuvent être associées à chaque ligne de devis. Une fois que le devis est remporté, le mappage entre la classification des transactions et la ligne de devis est transmis à la ligne de contrat.
  
-> ![Capture d’écran du mappage des types de transactions à un devis et à des lignes de contrat.](media/basic-guide-5.png)
+> ![Capture d’écran du mappage des types de transactions à un devis et à des lignes de contrat](media/basic-guide-5.png)
   
 Par exemple, un devis peut contenir les deux lignes de devis suivantes : 
 - Travail de conseil qui utilise un mode de facturation Heure et matériel où les classifications de temps et de frais sont applicables. Par exemple, toutes les transactions de temps et de frais pour l’exemple de projet **Mise en œuvre de Dynamics AX** sont appliquées au client selon le temps et le matériel utilisés. 
@@ -129,6 +131,3 @@ Pour une ligne de devis à prix fixe, vous pouvez utiliser la grille **Planifica
 - Pour créer des jalons de facturation divisés à parts égales, sélectionnez une fréquence de facturation, entrez la date de début de facturation sur la ligne de devis, et sélectionnez **Date de fin demandée** pour le devis dans la section **Résumé** de l’en-tête de devis. Ensuite, sélectionnez **Générer des jalons périodiques** afin de créer des jalons fractionnés à parts égales en fonction de la fréquence de facture sélectionnée. 
 - Pour créer un jalon de facturation avec somme forfaitaire, créez un jalon, puis entrez la ligne de valeur du devis en tant que montant de jalon.
 - Pour créer des jalons de facturation basés sur des tâches spécifiques dans le plan du projet, créez un jalon, et mappez-le à l’élément de la planification du projet dans l’interface utilisateur des jalons de facturation.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

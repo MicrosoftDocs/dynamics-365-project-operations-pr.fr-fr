@@ -2,26 +2,28 @@
 title: Vue d‘ensemble de gestion de projets et compatibilité
 description: La fonctionnalité Gestion de projets et comptabilité peut être utilisée dans plusieurs secteurs pour fournir un service, fabriquer un produit ou obtenir un résultat.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007503"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075883"
 ---
 # <a name="project-management-and-accounting-overview"></a>Vue d‘ensemble de gestion de projets et compatibilité
 
@@ -29,19 +31,19 @@ ms.locfileid: "7007503"
 
 La fonctionnalité Gestion de projets et comptabilité peut être utilisée dans plusieurs secteurs pour fournir un service, fabriquer un produit ou obtenir un résultat.  
 
-Un projet est un groupe d’activités conçu pour fournir un service, fabriquer un produit ou atteindre un objectif. Les projets consomment des ressources et génèrent des résultats financiers sous forme de revenus ou d’actifs.
+Un projet est un groupe d'activités conçu pour fournir un service, fabriquer un produit ou atteindre un objectif. Les projets consomment des ressources et génèrent des résultats financiers sous forme de revenus ou d'actifs.
 
 ## <a name="projects-across-industries"></a>Projets dans plusieurs secteurs
-Le module Gestion de projets et comptabilité peut être utilisé dans plusieurs secteurs, comme indiqué dans l’illustration suivante.
+Le module Gestion de projets et comptabilité peut être utilisé dans plusieurs secteurs, comme indiqué dans l'illustration suivante.
 
-[![Projets dans plusieurs secteurs.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projets dans plusieurs secteurs](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Dans un centre d’appels, un ticket peut être utilisé pour décrire l’ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les organisations de conseil en gestion ou de conseil technique ou encore les agences de publicité, font référence à leurs activités comme des projets. En marketing, une campagne représente un ensemble de travaux qui doivent être livrés. Dans la fabrication par projet, un ordre de fabrication fait référence aux tâches variées qui doivent être effectuées pour produire certains produits finis. Quel que soit le nom utilisé pour eux, ces projets impliquent des ressources, des calendriers et des coûts, et le module Gestion de projets et comptabilité permet la planification, l’exécution et l’analyse de ces projets.
+Dans un centre d’appels, un ticket peut être utilisé pour décrire l’ensemble des actions requises pour résoudre un appel. Les sociétés de conseil, telles que les organisations de conseil en gestion ou de conseil technique ou encore les agences de publicité, font référence à leurs activités comme des projets. En marketing, une campagne représente un ensemble de travaux qui doivent être livrés. Dans la fabrication par projet, un ordre de fabrication fait référence aux tâches variées qui doivent être effectuées pour produire certains produits finis. Quel que soit le nom utilisé pour eux, ces projets impliquent des ressources, des calendriers et des coûts, et le module Gestion de projets et comptabilité permet la planification, l'exécution et l'analyse de ces projets.
 
 ## <a name="project-phases"></a>Phases du projet
 Bien que le flux de processus suivant vise les projets externes, ou des projets qui sont exécutés pour un ou plusieurs clients, la fonctionnalité s’applique également aux projets internes, uniquement de coûts. 
 
-![3 phases d’un projet.](./media/3-stages-of-a-project.png) 
+![3 phases d’un projet](./media/3-stages-of-a-project.png) 
 
 Comme le montre l’illustration précédente, la fonctionnalité Gestion de projets et comptabilité peut être divisée en trois phases :
 
@@ -50,13 +52,13 @@ Comme le montre l’illustration précédente, la fonctionnalité Gestion de pro
 3.  Analyser
 
 ## <a name="initiate-the-project"></a>Lancer le projet
-Lors du lancement du projet, plusieurs processus clés se produisent. Vous pouvez utiliser un devis de projet pour communiquer l’estimation de la main-d’œuvre, des dépenses et des matériaux au client. Vous pouvez enregistrer les conditions de facturation, les limites et les accords dans un contrat de projet. Une structure de répartition du travail (WBS) peut être utilisée pour planifier et estimer le travail. Vous pouvez configurer des prévisions et des budgets pour guider l’exécution du projet. L’illustration suivante présente la structure d’un projet.[![structure du projet.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Lors du lancement du projet, plusieurs processus clés se produisent. Vous pouvez utiliser un devis de projet pour communiquer l’estimation de la main-d’œuvre, des dépenses et des matériaux au client. Vous pouvez enregistrer les conditions de facturation, les limites et les accords dans un contrat de projet. Vous pouvez utiliser une structure de répartition du travail pour planifier et estimer le travail. Vous pouvez configurer des prévisions et des budgets pour guider l’exécution du projet. L’illustration suivante présente la structure d’un projet.[![structure du projet](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Créer des devis de projet
 
-Durant la phase de vente initiale d’un projet, un devis de projet permet de proposer à un client une offre sans engagement. Un devis peut inclure des articles, tels que les articles et services proposés, les coordonnées de base, les accords commerciaux spéciaux et les remises, ainsi que les éventuelles taxes et surtaxes.
+Dans la phase de vente initiale d’un projet, un devis de projet vous permet de proposer à un client une offre sans engagement. Un devis peut inclure des articles, tels que les articles et services proposés, les coordonnées de base, les accords commerciaux spéciaux et les remises, ainsi que les éventuelles taxes et surtaxes.
 
-Vous pouvez également émettre une lettre de garantie pour une transaction de devis de projet entre votre organisation et le client. Une fois le devis de projet créé, vous pouvez créer la demande de lettre de garantie pour le client et la soumettre à la banque. Une fois que la banque a approuvé la demande, la lettre de garantie est délivrée au client. 
+Vous pouvez également émettre une lettre de garantie pour une transaction de devis de projet entre votre organisation et le client. Une fois l’offre de projet créée, vous pouvez créer la demande de lettre de garantie pour le client et la soumettre à la banque. Une fois que la banque a approuvé la demande, la lettre de garantie est délivrée au client. 
 
 Pour plus d’informations, voir [Devis du projet](project-quotations.md).
 
@@ -78,7 +80,7 @@ Vous pouvez utiliser les prévisions si votre organisation a une perspective op�
 
 ### <a name="create-projects"></a>Créer des projets
 
-Vous pouvez créer six types de projets dans Finance. Chaque type de projet est configuré différemment pour la constatation des coûts et du produit. Le type de projet que vous choisissez dépend de l’objectif du projet. Le tableau suivant décrit l’utilisation type de chaque type de projet.
+Vous pouvez créer six types de projets dans Finance. Chaque type de projet est configuré différemment pour la comptabilisation des coûts et des revenus. Le type de projet que vous choisissez dépend de l’objectif du projet. Le tableau suivant décrit l’utilisation type de chaque type de projet.
                                                                                                             
 <table>
   <tr>
@@ -91,23 +93,23 @@ Vous pouvez créer six types de projets dans Finance. Chaque type de projet est 
   </tr>
   <tr>
     <td>Prix fixe</td>
-    <td>Dans les projets à prix fixe, les factures se composent de transactions en compte. Un projet à prix fixe est facturé selon un calendrier de facturation basé sur un contrat de projet. Le produit d’un projet à prix fixe peut être calculé et validé tout au long du projet à l’aide de la méthode Pourcentage d’achèvement. Sinon, les revenus peuvent être calculés et comptabilisés à l’issue du projet, via la méthode du contrat exécuté. Les entreprises peuvent souvent tirer profit de l’utilisation de la valeur des travaux en cours pour calculer le degré d’exécution d’un projet ou d’un groupe de projets.</td>
+    <td>Dans les projets à prix fixe, les factures consistent en des transactions de compte. Un projet à prix fixe est facturé selon un calendrier de facturation basé sur un contrat de projet. Les revenus d’un projet à prix fixe peuvent être calculés et comptabilisés tout au long du projet via la méthode du pourcentage atteint. Sinon, les revenus peuvent être calculés et comptabilisés à l’issue du projet, via la méthode du contrat exécuté. Les entreprises peuvent souvent tirer profit de l’utilisation de la valeur des travaux en cours pour calculer le degré d’exécution d’un projet ou d’un groupe de projets.</td>
   </tr>
   <tr>
     <td>Investissement</td>
-    <td>Les projets d’investissement sont des projets qui ne produisent pas de bénéfices immédiats. Ils sont généralement utilisés pour des projets internes à long terme où les coûts doivent être capitalisés. Seuls les coûts associés aux articles, heures et dépenses peuvent être enregistrés pour un projet d’investissement. Les coûts d’un projet d’investissement sont suivis et contrôlés à l’aide de la fonctionnalité d’estimation. Les projets d’investissement peuvent être configurés avec une capitalisation maximale facultative. Au fil de l’avancement d’un projet d’investissement, vous enregistrez ses coûts sur des comptes TEC, où les coûts sont conservés jusqu’à l’achèvement du projet. Une fois le projet éliminé, vous transférez la valeur des travaux en cours vers une immobilisation, un compte général ou un nouveau projet. <br></br> <strong>REMARQUE :</strong> Les transactions sur les projets d’investissement ne sont pas affichées sur la page <strong>Valider les coûts<strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
+    <td>Les projets d’investissement sont des projets qui ne produisent pas de bénéfices immédiats. Ils sont généralement utilisés pour des projets internes à long terme où les coûts doivent être capitalisés. Seuls les coûts d’articles, d’heures et de dépenses peuvent être enregistrés pour un projet d’investissement. Les coûts d’un projet d’investissement sont suivis et contrôlés à l’aide de la fonctionnalité d’estimation. Les projets d’investissement peuvent être mis en place avec une capitalisation maximale optionnelle. Au fur et à mesure qu’un projet d’investissement progresse, vous enregistrez ses coûts dans des comptes de travaux en cours, où les coûts sont conservés jusqu’à ce que le projet soit exécuté. Une fois le projet éliminé, vous transférez la valeur des travaux en cours vers une immobilisation, un compte général ou un nouveau projet. <br></br> <strong>REMARQUE :</strong> Les transactions sur les projets d’investissement ne sont pas affichées sur la page <strong>Valider les coûts<strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
   </tr>
   <tr>
     <td>Projet de coût</td>
-    <td>Comme les projets d’investissement, les projets de coût permettent généralement de suivre les projets internes, et seuls les heures, les dépenses et les articles peuvent être enregistrés pour eux. Cependant, la durée des projets de coût est généralement plus courte que celle des projets d’investissement. De plus, contrairement aux projets d’investissement, les projets de coût ne peuvent pas être capitalisés dans les comptes de bilan. À la place, leurs transactions de projet sont enregistrées uniquement dans les comptes de résultat. <br></br> <strong>REMARQUE :</strong> Les transactions sur les projets Coût ne sont pas affichées sur la page <strong>Valider les coûts</strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>. Comme les projets de coût permettent généralement de suivre les projets internes, ils ne doivent généralement pas être associés à un compte client. Cependant, si votre configuration nécessite que des demandes d’articles soient créées pour des commandes fournisseur, vous devez associer le projet de coût concerné à un client. Cette association est obligatoire, car les demandes d’articles sont gérées en tant que lignes commande client et le système exige qu’un client soit spécifié. Cependant, cette configuration n’entraîne pas la création automatique des demandes d’articles à partir d’une commande fournisseur. Pour les projets Coût, le paramètre <strong>Créer une demande d’article</strong> est ignoré. Si vous avez besoin d’une demande d’article dans un projet de coût, vous pouvez la créer manuellement, à condition qu’un client soit associé au projet.</td>
+    <td>Tout comme les projets Investissement, les projets Coût sont généralement utilisés pour suivre les projets internes, et seuls les heures, les dépenses et les articles peuvent être enregistrés dans ce cadre. Cependant, les projets Coût sont généralement de durée plus courte que les projets Investissement. De plus, contrairement aux projets Investissement, les projets Coût ne peuvent pas être capitalisés dans les comptes de bilan. À la place, leurs transactions de projet sont enregistrées uniquement dans les comptes de résultat. <br></br> <strong>REMARQUE :</strong> Les transactions sur les projets Coût ne sont pas affichées sur la page <strong>Valider les coûts</strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>. Puisque les projets Coût sont généralement utilisés pour suivre les projets internes, ils ne doivent généralement pas être associés à un compte client. Cependant, si votre configuration nécessite que des demandes d’article soient créées pour les commandes achat, vous devez associer le projet Coût à un client. Cette association est obligatoire, car les besoins en articles sont gérés comme des lignes de commande client et le système exige qu’un client soit spécifié. Cependant, cette configuration n’entraînera pas la création automatique des demandes d’article à partir d’une commande achat. Pour les projets Coût, le paramètre <strong>Créer une demande d’article</strong> est ignoré. Si vous avez besoin d’une demande d’article dans un projet Coût, vous pouvez la créer manuellement, à condition qu’un client soit associé au projet.</td>
   </tr>
   <tr>
     <td>Interne</td>
-    <td>Les projets internes permettent de suivre les coûts d’un projet interne pour votre organisation. Les projets internes peuvent fournir un outil de planification pour gérer la consommation des ressources. <br></br><strong>REMARQUE :<strong> Les transactions sur les projets internes ne sont pas affichées sur la page <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
+    <td>Les projets internes sont utilisés pour suivre les coûts d’un projet interne à votre organisation. Les projets internes peuvent fournir un outil de planification pour gérer la consommation des ressources. <br></br><strong>REMARQUE :<strong> Les transactions sur les projets internes ne sont pas affichées sur la page <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
   </tr>
   <tr>
-    <td>Temps</td>
-    <td>Les projets de temps permettent de suivre la durée associé à des activités non facturables et non productives, comme un projet de suivi des congés de maladie des collaborateurs. Les transactions des projets de temps ne sont pas validées dans la comptabilité. À la place, elles sont incluses dans les états sur l’utilisation des collaborateurs. Seules les transactions d’heures peuvent être enregistrées pour les projets de temps. Vous utilisez un journal d’heures ou une feuille de temps pour enregistrer ces heures dans le projet. Une fois les heures enregistrées, elles apparaissent comme des transactions de projet, mais n’ont pas de transactions de bons correspondants. <br></br><strong>REMARQUE :</strong> Les transactions sur les projets Temps ne sont pas affichées sur la page <strong>Valider les coûts</strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
+    <td>Time</td>
+    <td>Les projets Temps sont utilisés pour suivre le temps associé à des activités non facturables et non productives, comme un projet pour suivre les congés maladie des employés. Les transactions des projets Temps ne sont pas validées en comptabilité. À la place, elles sont incluses dans les rapports d’utilisation des employés. Seules les transactions horaires peuvent être enregistrées dans les projets Temps. Vous utilisez un journal d’heures ou une feuille de temps pour enregistrer ces heures dans le projet. Une fois les heures enregistrées, elles apparaissent comme des transactions de projet, mais n’ont pas de transactions de bons correspondants. <br></br><strong>REMARQUE :</strong> Les transactions sur les projets Temps ne sont pas affichées sur la page <strong>Valider les coûts</strong>, <strong>Provisionner le produit</strong> ou <strong>Créer des propositions de facture</strong>.</td>
   </tr>
 </table>
 
@@ -116,13 +118,13 @@ Vous pouvez créer six types de projets dans Finance. Chaque type de projet est 
 
 Vous pouvez planifier les ressources de travail en fonction des exigences et du calendrier d’un projet ou des compétences et de la disponibilité des employés. En utilisant les fonctionnalités de planification des ressources, vous pouvez déployer les employés de votre organisation de manière efficace et efficiente. Vous pouvez rapidement trouver les employés les plus qualifiés disponibles pour travailler sur votre projet. Vous pouvez également voir facilement comment ces employés pourraient être utilisés plus efficacement au cours du projet. 
 
-Voici des moyens d’utiliser la fonctionnalité de planification des ressources :
+Voici quelques-unes des façons dont vous pouvez utiliser la fonctionnalité de planification des ressources :
 
 -   Utilisez des informations sur les caractéristiques d’un employé, telles que l’éducation, les compétences, les certifications et l’expérience du projet, pour faire correspondre l’employé aux besoins d’un projet.
 -   Utilisez les informations sur le calendrier et la disponibilité d’un employé pour faire correspondre le calendrier de l’employé au calendrier du projet.
--   Examinez la capacité de chaque collaborateur et déterminez comment cette capacité est utilisée. Par exemple, si un employé est sous-utilisé, il peut être affecté à un projet qui correspond à sa disponibilité et à ses attributs.
+-   Vérifiez la capacité de chaque employé et déterminez comment cette capacité est actuellement utilisée. Par exemple, si un employé est sous-utilisé, il peut être affecté à un projet qui correspond à sa disponibilité et à ses attributs.
 -   Vérifiez la disponibilité d’un employé pour vous assurer qu’il n’y a pas de conflit de calendrier avec les affectations de l’employé.
--   Consultez les informations sur l’utilisation des collaborateurs dans une vue récapitulative (par exemple, par service ou par collaborateur) ou dans une vue détaillée (par exemple, par collaborateur d’un service ou par détail hebdomadaire pour chaque collaborateur).
+-   Passez en revue les informations sur l’utilisation des employés dans une vue récapitulative (par exemple, par service ou par employé) ou dans une vue détaillée (par exemple, par employés d’un service ou par détail hebdomadaire pour chaque employé).
 -   Modifiez les affectations de ressources pour différentes unités de temps, telles que le jour, la semaine ou le mois, afin d’optimiser l’utilisation des employés.
 
 ## <a name="execute-the-project"></a>Exécuter le projet
@@ -146,10 +148,10 @@ Un ordre de fabrication lié au projet peut être lié à une commande client ou
 
 Selon les combinaisons de ces facteurs, utilisez l’une des méthodes suivantes :
 
-- **Article fini/lien vers la commande** : associez le projet à une commande client ou à une demande d’article. Lorsque vous utilisez cette méthode, les coûts réels du projet sont validés lorsque la commande client est facturée ou lorsque le bon de livraison est mis à jour pour la demande d’articles. Le coût est validé en tant qu’article fini.
-- **Article fini/Sans lien avec la commande** : les coûts réels ne peuvent pas être validés tant que le cycle de production d’un article n’a pas le statut **Terminé**. Le coût de l’article fini est validé comme une seule transaction.
-- **Article consommé/lier à la commande** : lie le projet à une demande d’articles. En utilisant cette méthode, vous pouvez afficher les coûts réels du projet lorsque la production a un statut **Commencé** ou est signalée comme étant terminée. Les coûts sont validés sous la forme de plusieurs transactions d’articles de projet pour les matières premières et les heures consommées pour la production. Lorsque le bon de livraison est mis à jour pour la demande d’articles, aucun coût de projet n’est validé. Vous pouvez également définir le niveau dans la hiérarchie de nomenclature (BOM) auquel les projets de la production sont suivis.
-- *<strong><em>Article consommé/Aucun lien vers la commande</em></strong>*  : associez le projet à une demande d’article. En utilisant cette méthode, vous pouvez afficher les coûts réels du projet lorsque la production est définie sur le statut <strong>Commencée</strong> ou est signalée comme terminée. Les coûts sont validés sous la forme de plusieurs transactions d’articles de projet pour les matières premières et les heures consommées pour la production. Vous pouvez également définir le niveau dans la hiérarchie de nomenclature auquel les projets de la production sont suivis.
+- **Article fini/lien vers la commande** : associez le projet à une commande client ou à une demande d’article. Lorsque vous utilisez cette méthode, les coûts réels du projet sont validés lorsque la commande client est facturée ou lorsque le bordereau de livraison est mis à jour pour la demande d’article. Le coût est validé en tant qu’article fini.
+- **Article fini/Aucun lien vers la commande** : les coûts réels ne peuvent pas être enregistrés tant que le cycle de production d’un article n’a pas le statut **Terminé**. Le coût de l’article fini est comptabilisé en une seule transaction.
+- **Article consommé/Lien vers la commande** : associez le projet à une demande d’article. En utilisant cette méthode, vous pouvez afficher les coûts réels du projet lorsque la production est définie sur le statut **Commencée** ou est signalée comme terminée. Les coûts sont comptabilisés en tant que plusieurs transactions d’articles de projet pour les matières premières et les heures consommées pour la production. Lorsque le bordereau de livraison est mis à jour pour la demande d’article, aucun coût de projet n’est enregistré. Vous pouvez également définir le niveau dans la hiérarchie de nomenclature auquel les projets de la production sont suivis.
+- *<strong><em>Article consommé/Aucun lien vers la commande</em></strong>*  : associez le projet à une demande d’article. En utilisant cette méthode, vous pouvez afficher les coûts réels du projet lorsque la production est définie sur le statut <strong>Commencée</strong> ou est signalée comme terminée. Les coûts sont comptabilisés en tant que plusieurs transactions d’articles de projet pour les matières premières et les heures consommées pour la production. Vous pouvez également définir le niveau dans la hiérarchie de nomenclature auquel les projets de la production sont suivis.
 
 ### <a name="procure-products-and-services"></a>Acheter des produits et des services
 
@@ -175,21 +177,21 @@ Le but de la commande achat détermine quand la commande achat est consommée et
 <tbody>
 <tr class="odd">
 <td>Créez une commande achat directement.</td>
-<td>Achetez des articles auprès d’un fournisseur externe pour les consommer sur un projet. Vous pouvez créer la commande fournisseur des manières suivantes :
+<td>Achetez des articles auprès d’un fournisseur externe pour les consommer sur un projet. Vous pouvez créer la commande achat de l’une des méthodes suivantes :
 <ul>
-<li>Depuis le projet lui-même. Dans ce cas, le projet est déjà défini pour la commande fournisseur.</li>
-<li>En accédant à la commande fournisseur du projet. Vous devez sélectionner à la fois le fournisseur et le projet pour lesquels créer la commande fournisseur.</li>
+<li>À partir du projet lui-même. Dans ce cas, le projet est déjà défini pour la commande fournisseur.</li>
+<li>En accédant à la commande fournisseur du projet. Vous devez sélectionner à la fois le fournisseur et le projet pour lesquels créer la commande achat.</li>
 </ul></td>
-<td>Les articles sont consommés lorsque la facture fournisseur est mise à jour.</td>
+<td>Les articles sont consommés lors de la mise à jour de la facture fournisseur.</td>
 </tr>
 <tr class="even">
-<td>Créez une commande fournisseur à partir d’une commande client.</td>
-<td>Achetez des articles lorsque vous créez une commande client à partir d’un projet.</td>
+<td>Créer une commande achat à partir d'une commande client.</td>
+<td>Achetez des articles lorsque vous créez une commande achat à partir d’un projet.</td>
 <td>Les articles sont consommés lorsque la commande client est facturée au client.</td>
 </tr>
 <tr class="odd">
-<td>Créez une commande fournisseur à partir d’une demande d’articles.</td>
-<td>Achetez des articles lorsque vous créez une demande d’articles à partir d’un projet.</td>
+<td>Créez une commande fournisseur à partir d’une exigence d’article.</td>
+<td>Achetez des articles lorsque vous créez une demande d’article à partir d’un projet.</td>
 <td>Les articles sont consommés lorsque le bon de livraison de l’exigence d’article est mis à jour.</td>
 </tr>
 </tbody>
@@ -203,20 +205,20 @@ Vous pouvez commander des articles de l’inventaire de l’entreprise pour la c
 
 La façon dont vous commandez les articles dépend de l’endroit où vous les commandez :
 
--   Pour commander des articles à partir de l’inventaire de la société, vous devez saisir la commande comme une demande d’article. Si vous utilisez la page **Demandes d’article**, vous pouvez configurer la demande de sorte à recevoir les articles sous forme de livraisons partielles. Par conséquent, vous pouvez reporter la consommation d’une quantité d’articles jusqu’à ce que les articles soient nécessaires.
+-   Pour commander des articles à partir de l’inventaire de la société, vous devez saisir la commande comme une demande d’article. Si vous utilisez la page **Demandes d’article**, vous pouvez configurer la demande de sorte à recevoir les articles sous forme de livraisons partielles. Par conséquent, vous pouvez reporter la consommation d’une quantité d’articles jusqu’à ce que les articles soient nécessaires.
 -   Pour commander des articles auprès d’un fournisseur externe, vous devez créer la commande en tant que commande d’achat sur la page **Commande achat**.
 
 > [!NOTE] 
 > Le bordereau de livraison d’une commande client liée à un projet ne peut pas être annulé si les articles ont déjà été marqués pour emballage. 
 
-Le tableau suivant répertorie les méthodes de commande d’articles et décrit la manière dont ceux-ci sont consommés.
+Le tableau suivant répertorie les méthodes de commande d’articles et décrit la manière dont les articles sont consommés.
 
 | Méthode            | Objectif                                                                                                                                                        | Consommation de transactions d’articles                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Commande client       | Saisissez une transaction directement sur un projet Temps et matériel.                                                                                                   | Les transactions d’article sont consommées lorsque la facture client est validée.                                                                               |
-| Feuille stock | Saisissez et gérez rapidement les enregistrements d’articles. Si, par exemple, vous souhaitez saisir une demande d’articles basée sur une liste imprimée, la feuille stock peut être appliquée. | Les transactions d’articles sont consommées lorsque la feuille est validée.                                                                                        |
-| Demande d’articles  | Saisissez des articles qui ne vont pas être consommés immédiatement. Cette méthode vous permet de suivre le nombre d’articles qui ont été consommés dans un seul enregistrement de demande d’articles.    | Les transactions d’articles sont consommées lorsque le bon de livraison est mis à jour. En d’autres termes, la demande d’articles est créée lorsque le bon de livraison est validé. |
-| Commandes fournisseur   | Saisissez les transactions dans l’un des trois emplacements, selon la méthode d’achat.                                                                              | Les transactions d’article sont consommées lorsque le bordereau de livraison est mis à jour ou lorsque le client ou le fournisseur est facturé.                                      |
+| Journal d’inventaire | Saisissez et gérez rapidement les enregistrements d’articles. Si, par exemple, vous souhaitez saisir une demande d’article à partir d’une liste imprimée, le journal d’inventaire peut être appliqué. | Les transactions d’article sont consommées lorsque le journal est validé.                                                                                        |
+| Besoin d’article  | Saisissez les articles qui ne seront pas consommés immédiatement. Cette méthode vous permet de suivre le nombre d’articles qui ont été consommés dans un seul enregistrement de demande d’article.    | Les transactions d’article sont consommées lorsque le bordereau de livraison est mis à jour. En d’autres termes, la demande d’article est créée lorsque le bordereau de livraison est enregistré. |
+| Bons de commande   | Saisissez les transactions dans l’un des trois emplacements, selon la méthode d’achat.                                                                              | Les transactions d’article sont consommées lorsque le bordereau de livraison est mis à jour ou lorsque le client ou le fournisseur est facturé.                                      |
 
 ### <a name="process-project-invoices"></a>Traiter les factures du projet
 
@@ -225,7 +227,7 @@ Le type de projet détermine la procédure de facturation à appliquer. Seuls le
 Avant de créer une facture client pour un projet, vous pouvez créer une facture préliminaire ou une proposition de facture. Dans une proposition de facture, vous pouvez sélectionner des transactions de projet à inclure dans une facture de projet. Vous pouvez ensuite consulter les détails de la facture avant de valider la facture du projet et de l’envoyer au client ou à une autre source de financement. 
 
 
-Pour plus d’informations sur le traitement des factures d’un projet, consultez [Facturation du projet](/dynamics365/finance/accounts-payable/project-invoicing).
+Pour plus d’informations sur le traitement des factures d’un projet, consultez [Facturation du projet](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calculer le coût pour terminer un projet
@@ -271,7 +273,7 @@ Finance ne diminue pas automatiquement les estimations prévues. Par conséquent
 </tr>
 <tr class="odd">
 <td>Définir le coût pour terminer à zéro</td>
-<td>En règle générale, cette méthode est utilisée avant l’élimination du projet d’estimation. Cette méthode fait correspondre les estimations totales avec les transactions réelles qui ont été validées et efface la colonne <strong>Coût pour terminer</strong>. Le pourcentage d’achèvement qui en résulte est toujours égal à 100 %%. Le champ <strong>Prévision</strong> n’est pas sélectionné pour chaque ligne de coût que vous créez et l’estimation totale est copiée à partir de l’estimation de coût précédente. La consommation réelle pour la période estimée est déduite du coût de réalisation du projet. Cette méthode ne nécessite pas de modèle de prévision.</td>
+<td>En règle générale, cette méthode est utilisée avant l’élimination du projet d’estimation. Cette méthode fait correspondre les estimations totales avec les transactions réelles qui ont été validées et efface la colonne <strong>Coût pour terminer</strong>. Le pourcentage d’achèvement qui en résulte est toujours égal à 100 %. Le champ <strong>Prévision</strong> n’est pas sélectionné pour chaque ligne de coût que vous créez et l’estimation totale est copiée à partir de l’estimation de coût précédente. La consommation réelle pour la période estimée est déduite du coût de réalisation du projet. Cette méthode ne nécessite pas de modèle de prévision.</td>
 </tr>
 <tr class="even">
 <td>À partir du modèle de coût</td>
@@ -283,11 +285,11 @@ Finance ne diminue pas automatiquement les estimations prévues. Par conséquent
 ## <a name="analyze-the-project"></a>Analyser le projet
 À son niveau le plus élémentaire, un projet est utilisé pour regrouper les transactions qui enregistrent les coûts, puis les enregistrer en comptabilité. 
 
-En général, ces transactions résultent de documents commerciaux, tels que des feuilles de temps, des notes de frais, des factures fournisseurs ou des mouvements de stock. Le cycle de vie d’un projet commence généralement par des estimations, des prévisions et des budgets qui permettent de planifier et d’anticiper les travaux et l’impact financier du projet. Lorsque vous analysez un projet, vous pouvez évaluer non seulement les transactions qui se sont produites au cours du projet, mais également l’exactitude de vos estimations et prévisions, les taux d’utilisation des membres de l’équipe de projet et le succès global du projet.
+En général, ces transactions résultent de documents commerciaux, tels que des feuilles de temps, des notes de frais, des factures fournisseurs ou des transactions d’inventaire. Le cycle de vie d’un projet commence généralement par des estimations, des prévisions et des budgets qui aident à planifier et à anticiper les travaux et l’impact financier du projet. Lorsque vous analysez un projet, vous pouvez évaluer non seulement les transactions qui se sont produites au cours du projet, mais également l’exactitude de vos estimations et prévisions, les taux d’utilisation des membres de l’équipe de projet et le succès global du projet.
 
 ### <a name="analyze-cash-flow"></a>Analyser les flux de trésorerie
 
-Utilisez la surveillance des flux de trésorerie pour examiner à la fois les flux de trésorerie prévus et les flux de trésorerie réels d’un projet. Vous pouvez consulter les trésoreries pendant qu’un projet est en cours, ou vous pouvez afficher les trésoreries d’un projet terminé. 
+Utilisez la surveillance des flux de trésorerie pour examiner à la fois les flux de trésorerie prévus et les flux de trésorerie réels d’un projet. Vous pouvez consulter les flux de trésorerie pendant qu’un projet est en cours, ou vous pouvez afficher les flux de trésorerie d’un projet terminé. 
 
 En surveillant les flux de trésorerie, vous pouvez évaluer un seul projet, utiliser les rapports pour afficher plusieurs projets et transférer les flux de trésorerie du projet vers les prévisions de flux de trésorerie en comptabilité.
 
@@ -298,7 +300,7 @@ En fonction de votre configuration, vous pouvez prévoir les flux entrants de tr
 -   **Date du projet :** 5 mars 2012.
 -   **Date de facture :** 31 mars 2012. Cette date est déterminée en fonction de la fréquence de facturation. Pour cet exemple, vous définissez la fréquence de facturation sur le mois en cours. Par conséquent, toutes les transactions validées au mois de mars sont facturées le dernier jour du mois.
 -   **Date d’échéance :** 14 avril 2012. Cette date est déterminée en fonction des conditions de paiement qui ont été fixées pour le projet. Pour cet exemple, vous avez sélectionné des conditions de paiement de 14 jours. Par conséquent, 14 jours sont ajoutés à la date de facturation pour arriver à une date d’échéance du 14 avril 2012.
--   **Date prévue de règlement des ventes :** 27 avril 2012. Cette date est calculée en ajoutant le nombre de jours dans le champ **Jours tampons généraux** sur la page **Gestion de projets et comptabilité** au nombre de jours dans le champ **Jours tampons individuels** sur la page **Contrats de projet**, puis en ajoutant le total au nombre de jours dans le champ **Date d’échéance**. Pour cet exemple, vous avez saisi **3** dans le champ **Jours tampons généraux** et **10** dans le champ **Jours tampons individuels**. Par conséquent, 13 jours sont ajoutés à la date d’échéance pour arriver à une date de paiement des ventes attendu du 27 avril 2012.
+-   **Date prévue de règlement des ventes :** 27 avril 2012. Cette date est calculée en ajoutant le nombre de jours dans le champ **Jours tampons généraux** sur la page **Gestion de projets et comptabilité** au nombre de jours dans le champ **Jours tampons individuels** sur la page **Contrats de projet**, puis en ajoutant le total au nombre de jours dans le champ **Date d’échéance**. Pour cet exemple, vous avez saisi **3** dans le champ **Jours tampons généraux** et **10** dans le champ **Jours tampons individuels**. Par conséquent, 13 jours sont ajoutés à la date d’échéance pour arriver à une date de paiement des ventes attendu du 27 avril 2012.
 
 Les jours tampons généraux peuvent remplacer les jours tampons individuels ou être ajoutés aux jours tampons individuels :
 
@@ -355,7 +357,7 @@ Lorsque toutes les factures de vente et de fournisseur sont terminées, vous pou
 
 ### <a name="review-costs"></a>Examiner les coûts
 
-Vous pouvez surveiller les coûts encourus par votre organisation pendant un projet sur la page **Contrôle des coûts**. En comparant les coûts budgétés d’origine pour le projet avec les coûts réels actuels et les coûts engagés, vous pouvez déterminer si le projet est sur la bonne voie, en dépassement de budget ou en deçà du budget. 
+Vous pouvez surveiller les coûts encourus par votre organisation pendant un projet sur la page **Contrôle des coûts**. En comparant les coûts budgétés d’origine pour le projet avec les coûts réels actuels et les coûts engagés, vous pouvez déterminer si le projet est sur la bonne voie, sur le budget ou sous le budget. 
 
 > [!NOTE] 
 > Lorsque vous utilisez la page **Contrôle des coûts** pour afficher l’état actuel des coûts du projet, utilisez les modèles de prévision sélectionnés pour le budget d’origine et le budget restant. Si vous sélectionnez d’autres modèles de prévision lors du calcul des coûts, les résultats du calcul ne seront pas précis.
@@ -364,32 +366,32 @@ Vous pouvez surveiller les coûts encourus par votre organisation pendant un pro
 
 Si **Budget restant** est sélectionné comme méthode de contrôle des coûts sur la page **Paramètres de gestion de projets et de comptabilité**, la page **Contrôle des coûts** calcule les coûts qui n’ont pas été validés comme réels ou marqués comme engagés. Plus précisément, les montants sur l’onglet **Général** dans le volet inférieur de la page **Contrôle des coûts** sont calculés comme suit :
 
--   **Coûts réels** : le montant total qui a été dépensé sur le projet pour la ligne de coût sélectionnée. Le montant réel du coût est calculé sur la page **Mises à jour de la comptabilité**.
--   **Coût engagé** : le montant supplémentaire des dépenses que l’entité juridique s’est engagée à payer. Les montants des coûts engagés spécifiques sont calculés sur la page **Coûts engagés**.
--   **Budget restant** : le montant du montant initialement budgété qui est encore disponible pour la ligne de coût sélectionnée. Le montant budgété restant est calculé sur la page **Aperçu de la comptabilité**.
+-   **Coûts réels** : le montant total qui a été dépensé sur le projet pour la ligne de coût sélectionnée. Le montant réel du coût est calculé sur la page **Mises à jour du registre**.
+-   **Coût engagé** : le montant supplémentaire des dépenses que la personne morale s’est engagée à payer. Les montants des coûts engagés spécifiques sont calculés sur la page **Coûts engagés**.
+-   **Budget restant** : le montant du montant budgété d’origine qui est encore disponible pour la ligne de coût sélectionnée. Le montant du budget restant est calculé sur la page **Aperçu de la comptabilité**.
 -   **Coût total** : la somme du coût réel, du coût engagé et des montants budgétaires restants.
 
-Sur la page **Contrôle des coûts**, sur l’onglet **Écart**, vous pouvez afficher une comparaison du coût total prévu avec le budget d’origine. Cette comparaison montre toutes les différences entre ces montants. Vous pouvez donc voir où les données ne correspondent pas. Les montants d’écart sont calculés de la manière suivante :
+Sur la page **Contrôle des coûts**, sur l’onglet **Écart**, vous pouvez afficher une comparaison du coût total prévu avec le budget d’origine. Cette comparaison montre toute différence entre ces montants. Par conséquent, vous pouvez voir où les données ne correspondent pas. Les montants d’écart sont calculés de la manière suivante :
 
--   **Budget d’origine** : le montant initialement budgété pour la ligne de coût sélectionnée. Le montant budgété d’origine est calculé sur la page **Aperçu de la comptabilité**.
--   **Coût total** : la somme du coût réel, du coût engagé et des montants budgétaires restants, comme indiqué sur l’onglet **Général**.
+-   **Budget d’origine** : le montant initialement budgété pour la ligne de coût sélectionnée. Le montant du budget d’origine est calculé sur la page **Aperçu de la comptabilité**.
+-   **Coût total** : la somme du coût réel, du coût engagé et des montants budgétaires restants, comme signalé sur l’onglet **Général**.
 -   **Écart** : la différence entre le coût total et le budget initial.
 -   **Écart basé sur la quantité** : la différence totale entre la prévision d’origine et la prévision totale. Cette différence peut être exprimée mathématiquement par (Quantité totale prévue) × (Prix moyen d’origine - Prix moyen total). Ce calcul s’applique uniquement aux heures du projet.
 -   **Écart basé sur le prix** : la différence totale entre la prévision d’origine et la prévision totale. Cette différence peut être exprimée mathématiquement par (Prix de prévision d’origine) × (Quantité de prévision d’origine - Quantité de prévision totale). Ce calcul s’applique uniquement aux heures du projet.
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Affichage des montants budgétés totaux
 
-Si **Budget total** est sélectionné comme méthode de contrôle des coûts sur la page **Gestion de projets et comptabilité**, la page **Contrôle des coûts** calcule les coûts réels et les coûts totaux du projet pour vous aider à détecter toute différence entre les deux. Plus précisément, sur la page **Contrôle des coûts**, les montants dans les colonnes du volet inférieur de l’onglet **Général** sont calculés de la manière suivante :
+Si **Budget total** est sélectionné comme méthode de contrôle des coûts sur la page **Gestion de projets et comptabilité**, la page **Contrôle des coûts** calcule les coûts réels et les coûts totaux du projet pour vous aider à détecter toute différence entre les deux. Plus précisément, sur la page **Contrôle des coûts**, les montants des colonnes dans le volet inférieur sur l’onglet **Général** sont calculés de la manière suivante :
 
 -   **Coût total budgété** : le montant total budgété pour la ligne de coût sélectionnée.
--   **Coût réel** : le montant total des coûts engagés sur le projet à ce jour pour les lignes de coût sélectionnées.
--   **Coût engagé** : le montant total qui a été engagé sur le projet pour la ligne de coût sélectionnée.
+-   **Coûts réels** : le montant total des coûts qui ont été dépensés sur le projet à ce jour pour les lignes de coût sélectionnées.
+-   **Coût engagé** : le montant total qui a été engagé pour la ligne de coût sélectionnée.
 -   **Écart** : la différence entre la somme des coûts réels et engagés et le coût total. L’écart indique si des coûts supplémentaires doivent être spécifiés pour le budget total.
 
 Sur la page **Contrôle des coûts**, sur l’onglet **Écart**, vous pouvez voir la différence entre le budget total et le budget d’origine en consultant les champs suivants :
 
 -   **Budget d’origine** : le montant initialement budgété pour la ligne de coût. Le budget d’origine est calculé sur la page **Aperçu de la comptabilité**.
--   **Coût total budgété** : le coût total initialement budgété pour la ligne de coût sélectionnée. Le coût total budgété est calculé sur la page **Aperçu de la comptabilité**.
+-   **Coût budgété total** : le coût total initialement budgété pour la ligne de coût. Le coût budgété total est calculé sur la page **Aperçu de la comptabilité**.
 -   **Écart** : l’écart pour la ligne de coût. Ce montant est calculé en soustrayant le coût total du budget d’origine.
 -   **Écart basé sur la quantité** : la différence totale entre le budget d’origine et le budget total. Ce montant est calculé en soustrayant le total des heures budgétaires des heures budgétaires d’origine, puis en multipliant la différence par le prix de revient budgété d’origine. Cette différence peut être exprimée mathématiquement par (Prix de revient budgété d’origine) × (Heures budgétaires d’origine - Heures budgétaires totales). Ce calcul s’applique uniquement aux heures du projet.
 -   **Écart basé sur le prix** : ce montant est calculé en soustrayant le total des heures budgétaires des heures budgétaires d’origine, puis en multipliant la différence par le nombre total d’heures consommées. Cette différence peut être exprimée mathématiquement par (Heures totales consommées) × (Heures budgétaires d’origine - Heures budgétaires totales). Ce calcul s’applique uniquement aux heures du projet.
@@ -398,46 +400,43 @@ Sur la page **Contrôle des coûts**, sur l’onglet **Écart**, vous pouvez voi
 
 Le taux d’utilisation est le pourcentage de temps pendant lequel un employé effectue un travail facturable ou productif pendant une période de travail spécifique. Les heures facturables sont les heures de l’employé qui peuvent être facturées à un client spécifique. 
 
-Le taux d’utilisation d’un employé est calculé en divisant le nombre d’heures facturables par le nombre d’heures de travail dans une période donnée. Par exemple, si un collaborateur dispose de 30 heures facturables dans une période et que le nombre d’heures de travail dans la même période est de 40, son taux d’utilisation est de 75 %%. 
+Le taux d’utilisation d’un employé est calculé en divisant le nombre d’heures facturables par le nombre d’heures de travail dans une période donnée. Par exemple, si un employé a 30 heures facturables dans une période et si le nombre d’heures de travail dans la même période est de 40, le taux d’utilisation de l’employé est de 75 %. 
 
-Lorsque vous calculez le taux d’utilisation d’un collaborateur, vous pouvez calculer soit le taux facturable, soit le taux d’efficacité :
+Lorsque vous calculez le taux d’utilisation d’un employé, vous pouvez calculer soit le taux facturable, soit le taux d’efficacité :
 
--   **Taux facturable** : la différence entre les heures facturables et les heures non facturables ou les heures normales.
--   **Taux d’efficacité** : la différence entre les heures productives et les heures non productives ou les heures normales. Les heures productives sont les heures que le collaborateur consacre à un projet spécifique. Les heures productives sont généralement facturées aux clients, sauf dans le cas de projets internes. Les heures non productives ne sont jamais facturées à un client.
+-   **Tarif facturable** : la différence entre les heures facturables et les heures non facturables ou les heures normales.
+-   **Taux d’efficacité** : la différence entre les heures productives et les heures non productives ou les heures normales. Les heures productives sont les heures que l’employé consacre à un projet spécifique. Les heures productives sont généralement facturées aux clients, sauf dans le cas de projets internes. Les heures non productives ne sont jamais facturées à un client.
 
 Vous calculez les taux d’utilisation sur la page **Utilisation horaire**. Les calculs sont basés sur les préférences par défaut. Ces préférences précisent également comment les heures sont calculées en attribuant **Utilisation** ou **Charges** à chaque type de projet. Cela s’applique aux calculs de taux facturables et aux calculs de taux d’efficacité.
 
 -   **Utilisation** : les heures déclarées pour le type de projet sélectionné sont toujours prises en compte pour une utilisation facturable ou efficace.
--   **Charge** : les heures déclarées pour le type de projet sélectionné sont toujours prises en compte pour une utilisation non facturable ou non efficace.
--   **Selon la propriété de la ligne** : les propriétés de ligne d’une transaction d’heure particulière déterminent si les heures sont prises en compte pour une utilisation facturable ou efficace.
+-   **Charges** : les heures déclarées pour le type de projet sélectionné sont toujours prises en compte pour une utilisation non-facturable ou non-efficace.
+-   **Selon la propriété de ligne** : les propriétés de ligne d’une transaction d’heure particulière déterminent si les heures sont prises en compte pour une utilisation facturable ou efficace.
 -   **Non incluses** : les heures ne sont pas prises en compte dans le calcul de l’utilisation facturable ou de l’efficacité.
 
 Sur la page **Utilisation horaire**, outre le pourcentage du taux d’utilisation global pour un employé ou un projet, vous pouvez afficher le nombre d’heures qui ont été utilisées pour les calculs du taux d’utilisation pour chacun des types d’heures suivants :
 
 -   **Heures non incluses** : ces heures ne sont pas incluses dans le taux d’utilisation horaire.
--   **Heures incluses** : ces heures sont calculées en additionnant les heures d’utilisation et les heures de charge. Ces heures sont incluses dans le taux d’utilisation.
--   **Heures de charge** : si vous calculez un taux facturable, ces heures sont identiques aux heures non facturables. Si vous calculez un taux d’efficacité, ces heures sont identiques aux heures non productives.
--   **Heures d’utilisation** : si vous calculez un taux facturable, ces heures sont identiques aux heures facturables. Si vous calculez un taux d’efficacité, ces heures sont identiques aux heures productives.
+-   **Heures incluses** : ces heures sont calculées en additionnant les heures d’utilisation et les heures de charges. Ces heures sont incluses dans le taux d’utilisation.
+-   **Heures de charges** : si vous calculez un tarif facturable, ces heures sont les mêmes que les heures non facturables. Si vous calculez un taux d’efficacité, ces heures sont les mêmes que les heures non productives.
+-   **Horaires d’utilisation** : si vous calculez un tarif facturable, ces heures sont les mêmes que les heures facturables. Si vous calculez un taux d’efficacité, ces heures sont les mêmes que les heures productives.
 
-Lorsque vous calculez le taux d’utilisation d’un collaborateur, vous pouvez utiliser les heures normales ou les heures incluses. Si vous utilisez des heures incluses, vous devez vous assurer que les collaborateurs enregistrent tout leur temps de travail pour les périodes de la feuille de temps, car le calcul est exprimé en pourcentage des heures saisies. Lorsque vous calculez le taux d’utilisation horaire pour un projet, un contrat de projet, un enregistrement client ou une catégorie, vous devez utiliser les heures incluses pour votre calcul.
+Lorsque vous calculez le taux d’utilisation d’un employé, vous pouvez utiliser les heures normales ou les heures incluses. Si vous utilisez des heures incluses, vous devez vous assurer que les employés enregistrent tout leur temps de travail pour les périodes de la feuille de temps, car le calcul est exprimé en pourcentage des heures saisies. Lorsque vous calculez le taux d’utilisation horaire pour un projet, un contrat de projet, un enregistrement client ou une catégorie, vous devez utiliser les heures incluses pour votre calcul.
 
 ### <a name="review-project-statements"></a>Vérifier les instructions de projet
 
 Vous pouvez créer une instruction de projet pour afficher un instantané rapide de la progression d’un projet. Lorsque vous exécutez une instruction de projet, vous pouvez spécifier les critères utilisés pour calculer l’instruction en effectuant des sélections sur l’onglet **Général** sur la page **Instructions du projet**. Vous pouvez choisir d’inclure ou d’exclure les informations suivantes :
 
--   Types de projets
+-   Types de projet
 -   Types de transactions
 -   Date du projet/Date comptable
 -   Données
 
-Une fois le relevé calculé, vous pouvez afficher les informations suivantes dans les différents onglets de la page **Relevés de projet** :
+Une fois l’instruction calculée, vous pouvez afficher les informations suivantes dans les différents onglets de la page **Instructions du projet** :
 
--   **Général** : informations générales sur la structure de base du résultat du projet.
+-   **Général** : les informations générales sur la structure de résultats du projet.
 -   **Résultats** : les informations sur le produit provisionné.
 -   **TEC** : informations sur les soldes de compte des travaux en cours.
 -   **Consommation** : les informations sur la consommation d’heures, d’articles, de dépenses et de transactions de paie.
--   **Facture** : informations sur les factures et la facturation en compte.
--   **Taux horaire** : taux horaires des heures imputées sur les comptes de produit et de coût.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+-   **Facture** : les informations sur les factures et la facturation en compte.
+-   **Taux horaire** : les taux horaires des heures qui sont imputés aux comptes de revenus et de coûts.

@@ -2,27 +2,28 @@
 title: Vue d’ensemble du processus de vente
 description: Cette rubrique fournit des informations sur les processus de vente de base.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991843"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177598"
 ---
 # <a name="sales-process-overview"></a>Vue d’ensemble du processus de vente
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Les processus de vente utilisés dans une organisation basée sur un projet diffèrent des processus de vente utilisés dans une organisation basée sur un produit. En effet, plusieurs cycles de vente pour les organisations basées sur un projet sont longs et requièrent des techniques personnalisées d’estimation pour analyser et créer des devis pour chaque transaction. Dynamics 365 Project Operations utilise certaines des fonctionnalités suivantes qui sont utilisées dans un processus de vente :
+Les processus de vente utilisés dans une organisation basée sur un projet diffèrent des processus de vente utilisés dans une organisation basée sur un produit. En effet, plusieurs cycles de vente pour les organisations basées sur un projet sont longs et requièrent des techniques personnalisées d’estimation pour analyser et créer des devis pour chaque transaction. Dynamics 365 Project Operations utilise une partie de la même fonctionnalité qui est utilisée dans le processus de vente :
 
 - Un enregistrement de prospect permet de suivre le processus de vente.
 - Les prospects en cours de qualification sont suivis en tant qu’opportunités.
-- Tous les artefacts associés à une opportunité sont accessibles. Ces artefacts incluent l’équipe de vente, les parties prenantes, la probabilité, l’évaluation, les phases de vente et les processus d’entreprise.
+- Il est possible d’accéder à tous les artefacts associés à une opportunité. Ces artefacts comprennent l’équipe des ventes, les parties prenantes, la probabilité, l’évaluation, les phases de vente et les processus d’entreprise.
 - Plusieurs devis sont créés pour une opportunité.
 - Un devis a le statut **Fermé et conclu** pour créer une commande client. Dans Project Operations, la commande client est personnalisée et est appelée un contrat de projet.
 
@@ -62,6 +63,3 @@ Dans Project Operations, vous ne pouvez pas suivre les modifications apportées 
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Suivre des commentaires et des approbations de devis et de contrats de projet
 Vous pouvez gérer la révision et l’approbation des devis et des contrats de projet à l’aide du mur d’enregistrement et des publications. Votre organisation peut créer des workflows et des plug-ins personnalisés pour attribuer, rediriger, réaffecter et gérer les notifications de révision et d’approbation des éléments de travail.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

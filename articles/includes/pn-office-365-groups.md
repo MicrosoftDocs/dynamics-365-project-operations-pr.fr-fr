@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: 59a4a57fbfa92b693d54d07f7efc65f6ebafd6afc999751bd29082d4cab3620e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d592cccbf2ca56626f5fd6e6c7c8d4064416a0d
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004668"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069549"
 ---
 Groupes Microsoft 365

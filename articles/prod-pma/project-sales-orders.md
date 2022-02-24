@@ -2,9 +2,11 @@
 title: Projeter les commandes client pour les projets temps et matériels
 description: Cette rubrique explique comment créer des commandes client basées sur des projets pour des projets de temps et matériels.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992833"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075725"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projeter les commandes client pour les projets temps et matériels
 
@@ -39,6 +41,3 @@ Vous pouvez créer des commandes client basées sur un projet de deux manières�
 - Accédez au projet lui-même. Dans le volet Actions, sélectionnez **Gérer > Tâches d’article > Commande client**. Les informations sur le projet seront par défaut la commande client du projet. Si le contrat de projet a plus d’une source de financement, vous devrez sélectionner la source de financement pour définir le client pour la commande client. S’il n’y a qu’une seule source de financement pour le projet, le client sera automatiquement défini.
 - Accédez à la page de la liste **Toute commande client** et créez une nouvelle commande client. Vous devrez sélectionner le projet pour la commande client. Une fois le projet sélectionné, le client sera défini à partir de la source de financement ou vous devrez sélectionner la source de financement si le contrat de projet comporte plusieurs sources de financement.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

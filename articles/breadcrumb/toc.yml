@@ -1,7 +1,3 @@
-- name: "Dynamics\_365"
-  tocHref: /dynamics365/
-  topicHref: /dynamics365/index
-  items:
-    - name: Dynamics 365 Project Operations
-      tocHref: /dynamics365/project-operations/
-      topicHref: /dynamics365/project-operations/index
+- name: Documents
+  tocHref: /
+  topicHref: /

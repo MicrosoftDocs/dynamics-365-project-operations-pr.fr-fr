@@ -1,6 +1,8 @@
 ---
 title: Considérations relatives à la mise à niveau de la structure de répartition du travail
 description: Cette rubrique donne des informations sur la mise à niveau de la structure de répartition du travail de Project Service Automation version 2.x vers la version 3.x.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992338"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149540"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Considérations relatives à la mise à niveau de la structure de répartition du travail
 
@@ -32,20 +34,20 @@ Cette rubrique donne des informations sur la mise à niveau de la structure de r
 ## <a name="key-entities"></a>Entités clés
 Pour une structure de répartition du travail précise qui est déjà chargée avec des ressources, les entités suivantes sont nécessaires :
 
-- [Projet](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Équipe du projet](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Tâche du projet](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Affectations de ressources](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Dépendance de la tâche du projet](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Ressources réservables](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projet](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Équipe du projet](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Tâche du projet](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Affectations de ressources](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Dépendance de la tâche du projet](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Ressources réservables](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Pour définir une structure de répartition du travail chargée avec des ressources, vous devez effectuer les étapes suivantes :
 
-1. Créer un projet. Pour plus d’informations sur la création d’un projet, consultez [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Créer une ou plusieurs tâches. Pour plus d’informations sur la création d’une tâche, consultez [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Définir les dépendances de tâche. Pour plus d’informations, voir [Dépendance des tâches du projet](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Affecter les membres de l’équipe du projet au projet. Pour plus d’informations, consultez [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Affecter les membres de l’équipe du projet aux tâches. Pour plus d’informations, consultez [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Créer un projet. Pour plus d’informations sur la création d’un projet, consultez [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Créer une ou plusieurs tâches. Pour plus d’informations sur la création d’une tâche, consultez [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Définir les dépendances de tâche. Pour plus d’informations, voir [Dépendance des tâches du projet](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Affecter les membres de l’équipe du projet au projet. Pour plus d’informations, consultez [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Affecter les membres de l’équipe du projet aux tâches. Pour plus d’informations, consultez [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Relations entre les membres de l’équipe du projet
 
@@ -94,6 +96,3 @@ Pour garantir une mise à niveau réussie, les relations suivantes doivent être
 
 - Toutes les dépendances de tâche du projet doivent être associées au même projet.
 - Une tâche ne peut pas avoir la même dépendance référencée plusieurs fois.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

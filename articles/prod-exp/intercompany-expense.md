@@ -1,31 +1,33 @@
 ---
 title: Dépenses intersociétés
-description: Cette rubrique fournit des informations sur l’utilisation des dépenses intersociétés pour affecter les dépenses du collaborateur à l’entité juridique pour laquelle le travail a été effectué.
-author: Surya Vaidyanathan
-ms.date: 07/08/2021
+description: Cette rubrique fournit des informations sur l'utilisation des dépenses intersociétés pour affecter les dépenses du collaborateur à l’entité juridique pour laquelle le travail a été effectué.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: suvaidya
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d908a1c062f5b7f01cf340dcd6f7f24714a992bf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001203"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271530"
 ---
 # <a name="intercompany-expenses"></a>Dépenses intersociétés
 
-Un collaborateur employé par une entité juridique d’une organisation peut effectuer du travail pour une autre entité juridique de la même organisation. Vous pouvez utiliser les dépenses intersociétés pour affecter les dépenses du collaborateur à l’entité juridique pour laquelle le travail a été effectué. L’entité juridique qui emploie le travailleur s’appelle l’entité juridique prêteuse. L’entité juridique pour laquelle le travailleur engage des dépenses est appelée l’entité juridique emprunteuse. 
+Un collaborateur employé par une entité juridique d’une organisation peut effectuer du travail pour une autre entité juridique de la même organisation. Vous pouvez utiliser les dépenses intersociétés pour affecter les dépenses du collaborateur à l’entité juridique pour laquelle le travail a été effectué. L'entité juridique qui emploie le travailleur s'appelle l'entité juridique prêteuse. L'entité juridique pour laquelle le travailleur engage des dépenses est appelée l'entité juridique emprunteuse. 
 
-Avant qu’un collaborateur puisse créer et soumettre des dépenses intersociétés, vous devez activer les lignes de dépenses intersociétés. Dans l’entité juridique prêteuse, sur la page **Paramètres de gestion des dépenses**, sélectionnez **Autoriser les lignes de dépenses intersociétés**. 
+Avant qu'un collaborateur puisse créer et soumettre des dépenses intersociétés, vous devez activer les lignes de dépenses intersociétés. Dans l'entité juridique prêteuse, sur la page **Paramètres de gestion des dépenses**, sélectionnez **Autoriser les lignes de dépenses intersociétés**. 
 
 ## <a name="tax-posting-for-intercompany-expenses"></a>Écriture fiscale pour les dépenses intersociétés
 
@@ -34,17 +36,5 @@ Avant qu’un collaborateur puisse créer et soumettre des dépenses intersocié
 Avant de pouvoir utiliser des groupes taxe associés à l’entité juridique (source) prêteuse au lieu de l’entité juridique (destination) emprunteuse dans votre note de frais, vous devez activer la fonctionnalité dans le Paramètres de taxe comptabilité. Lorsque le paramètre **Entité juridique pour la validation des taxes intersociétés** est défini sur **Source** et que le champ **Appliquer les règles de taxe** est défini sur **Non**, la combinaison fiscale de l’entité juridique prêteuse est utilisée. Lorsque le même paramètre est défini sur **Destination**, la combinaison fiscale pour la personne morale emprunteuse sera utilisée. Pour les personnes morales aux États-Unis, lorsque le paramètre est défini sur **Source**, le champ **Taxe déductible** doit également être configuré sur la page **Groupes de validations dans la comptabilité**. Le moteur de comptabilité utilisera les informations de ce champ pour la saisie comptable liée aux taxes.   
 Le comportement est cohérent pour les lignes de dépenses validées avec ou sans projet.  
 
-## <a name="new-expense-expression-builder"></a>Nouveau générateur d′expressions des dépenses
-
-Le nouveau générateur d′expressions des dépenses résout les problèmes liés aux scénarios de dépenses intersociétés qui utilisent des projets. Cette fonctionnalité garantit que, lorsque vous créez une dépense intersociétés, la stratégie de dépenses est correctement validée par rapport au projet sélectionné sur la ligne de dépenses, et la note de frais peut être soumise avec succès.
-
-Pour que la fonctionnalité de générateur d′expressions des dépenses fonctionne, elle doit être activée. De plus, la stratégie de dépenses qui a un ID de projet doit être configurée.
-
-Si vous avez déjà configuré des stratégies qui valident l′ID de projet sur la ligne de dépense, elles doivent être supprimées. Vous pouvez ensuite activer la fonctionnalité et reconfigurer les stratégies.
-
-Pour activer cette fonctionnalité, suivez les étapes ci-après.
-
-1. Accédez à **Espaces de travail** \> **Gestion des fonctionnalités**.
-2. Dans la liste, sélectionnez le **nouveau générateur d′expressions des dépenses qui résout les problèmes liés aux scénarios de dépenses intersociétés qui utilisent des projets**. Sélectionnez ensuite **Activer maintenant**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,30 +1,28 @@
 ---
 title: Vue d’ensemble de la gestion des projets
-description: Cette rubrique fournit des informations sur la gestion des projets dans Dynamics 365 Project Operations.
+description: Cette rubrique fournit des informations sur la fonctionnalité Gestion de projets dans Dynamics 365 Project Operations.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990988"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127560"
 ---
 # <a name="project-management-overview"></a>Vue d’ensemble de la gestion des projets
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Les outils de gestion des projets dans Dynamics 365 Project Operations vous aident à exécuter facilement des projets. Les outils de planification aident les chefs de projet et les équipes à rester productifs. Certaines des tâches que les outils aident à réaliser sont les suivantes :
+Les outils de gestion de projet dans Dynamics 365 Project Operations vous permettent d’exécuter facilement des projets. Les outils de planification permettent aux chefs de projet et aux équipes de rester productifs. Certaines des tâches avec lesquelles les outils vous aident incluent :
 
-- Planification de projets en utilisant un planning de travail et des estimations.
-- Estimation et suivi des coûts et des revenus du projet.
-- Utilisation des estimations de projet pendant le processus de vente.
-- prévoir les besoins en ressources pour les projets dans le pipeline ;
+- Planifier des projets à l’aide d’estimations et d’une planification du travail
+- Estimer et suivre les coûts et le revenu d’un projet.
+- Utiliser les estimations de projets lors du processus de vente.
+- Prévoir les besoins en ressources pour les projets dans le pipeline.
 - Livrer des projets en suivant la progression et la consommation des coûts.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

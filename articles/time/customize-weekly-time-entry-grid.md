@@ -2,22 +2,24 @@
 title: Développement des entrées de temps
 description: Cette rubrique fournit des informations sur la façon dont les développeurs peuvent étendre le contrôle de saisie de l’heure.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993328"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124635"
 ---
 # <a name="extending-time-entries"></a>Développement des entrées de temps
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Dynamics 365 Project Operations comprend un contrôle personnalisé d’entrée de temps extensible. Ce contrôle comprend les fonctionnalités suivantes :
+Dynamics 365 Project Operations comprend un contrôle personnalisé d’entrée de temps extensible. Ce contrôle comprend les fonctionnalités suivantes :
 
 - Saisir l’heure horizontalement sur une semaine
 - Totaux par jour, ligne ou semaine
@@ -37,7 +39,7 @@ Les entrées de temps sont une entité principale utilisée dans plusieurs scén
 ### <a name="time-source-entity"></a>Entité source de temps
 | Champ | Description | 
 |-------|------------|
-| Nom  | Nom de l’entrée de source de temps utilisée comme valeur de sélection lors de la création des entrées de temps. |
+| Nom   | Nom de l’entrée de source de temps utilisée comme valeur de sélection lors de la création des entrées de temps. |
 | Source de temps par défaut [Source de temps : isdefault] | Par défaut, une seule source de temps peut être marquée par défaut. Cela permet aux entrées de se définir par défaut sur une source de temps si aucune n’est spécifiée. |
 |Type de source de temps [Source de temps : sourcetype] | Le type de source est une option (Type de source d’entrée de temps) qui permet l’association de la source de temps à une application. Microsoft réserve des valeurs supérieures à 190 000 000.|
 
@@ -142,6 +144,3 @@ Utilisez les validations de plug-in pour les validations nécessitant plus de co
 
 ### <a name="copying-time-entries"></a>Copie des entrées des temps
 Utilisez la vue **Copier les colonnes de saisie de l’heure** pour définir la liste des champs à copier lors de la saisie de l’heure. **Date** et **Durée** sont des champs obligatoires et ne doivent pas être supprimés de la vue.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

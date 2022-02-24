@@ -1,10 +1,12 @@
 ---
 title: Créer une équipe de projet
-description: Cette rubrique donne des informations sur la création et la gestion d’équipes de projet.
+description: Cette rubrique donne des informations sur la création et la gestion d'équipes de projet.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005793"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270855"
 ---
 # <a name="create-a-project-team"></a>Créer une équipe de projet
 
@@ -33,9 +35,9 @@ Les paramètres d’affichage peuvent également être personnalisés pour offri
 
 Le chef de projet peut sélectionner un rôle sur la page, puis, s’il existe une ressource disponible qui répond à l’exigence, choisir de réserver une ressource pour remplir le rôle. Notez que les ressources ne doivent pas être réservées à ce stade de la phase de planification. Lorsque vous créez une structure de répartition du travail, vous pouvez remplacer les rôles par des ressources en personnel pour le projet. Si les rôles sont remplacés par des ressources dotées de personnel dans la structure de répartition du travail, la configuration des ressources met automatiquement à jour la liste et la planification de l’équipe de projet.
 
-[![Liste des équipes de projet qui comprend à la fois les rôles et les ressources réelles.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Liste des équipes de projet qui comprend à la fois les rôles et les ressources réelles](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-Le chef de projet dispose de différentes options pour réserver une ressource pour un projet, telles que **Capacité restante**, **Capacité maximale**, **Pourcentage de la capacité** et **Spécifier les heures**. Ces options de réservation peuvent être annulées à tout moment si les affectations de ressources changent. Deux types de réservations sont pris en charge :
+Le chef de projet dispose de différentes options pour réserver une ressource pour un projet, telles que **Capacité restante**, **Capacité complète**, **Pourcentage de capacité** et **Préciser les heures**. Ces options de réservation peuvent être annulées à tout moment si les affectations de ressources changent. Deux types de réservations sont pris en charge :
 
 - **Réservation ferme** : la réservation des ressources a été approuvée et confirmée pour travailler sur l’engagement pour la durée spécifiée.
 - **Réservation temporaire** : les réservations de ressources était provisoirement défini pour travailler sur l’engagement pour la durée spécifiée.

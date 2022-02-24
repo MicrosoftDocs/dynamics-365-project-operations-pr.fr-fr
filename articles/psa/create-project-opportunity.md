@@ -2,6 +2,8 @@
 title: Créer une opportunité de projet
 description: Procédure de création d’une opportunité de projet dans Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fc24b0f3f6091f1a81b83d5bea61dfd2fd5a4ff6e4fdc6ec206f15460f364db1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002688"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948191"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Créer une opportunité de projet (Project Service)
 
@@ -37,7 +39,7 @@ Les opportunités sont des prospects intéressés de clients souhaitant s’offr
   
 3.  Dans la zone **Résumé**, entrez l’opportunité de votre société et d’autres données.  
   
-4.  Ajoutez d’éventuelles notes et activités (par exemple, des appels téléphoniques ou des messages électroniques) associées à ce prospect. Pour en savoir plus sur l’ajout de notes et d’activités, voir [Conserver un suivi des notes, tâches, appels, ou messages électronique avec les activités](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Ajoutez d’éventuelles notes et activités (par exemple, des appels téléphoniques ou des messages électroniques) associées à ce prospect. Pour en savoir plus sur l'ajout de notes et d'activités, voir [Conserver un suivi des notes, tâches, appels, ou messages électronique avec les activités](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Pour ajouter des parties prenantes, dans la zone **Parties prenantes**, cliquez sur **+**.  
   

@@ -2,6 +2,8 @@
 title: Revenu et coûts du projet
 description: Cette rubrique fournit des informations sur l’évaluation des coûts et des revenus du projet.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002553"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148325"
 ---
 # <a name="project-costs-and-revenue"></a>Revenu et coûts du projet
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002553"
 
 Les estimations du projet fournissent une vue financière de la tâche qui est prévue et planifiée dans la planification du projet. L’onglet **Estimations** sur la page **Projets** affiche l’impact du coût et du revenu du travail que vous envisagez. Il fournit également des informations sur de nombreuses dimensions prédéfinies. 
 
-> ![Onglet Estimations.](media/project-5.png)
+> ![Onglet Estimations](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Valeurs de coût et de vente du projet
 
@@ -66,13 +68,13 @@ Si le système ne trouve pas de prix pour le rôle, le prix de ventes sur la lig
 
 L’onglet **Estimations** offre une vue de grille montrant les lignes d’estimation. La grille contient des colonnes pour l’unité, le prix de revient total et le prix de ventes total, comme présenté dans l’illustration qui suit. 
 
-> ![Vue de grille sur l’onglet Estimations.](media/project-6.png)
+> ![Vue de grille de l’onglet Estimations](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Vue par phases de temps des estimations du projet
 
 La vue par phases de temps des estimations du projet affiche les estimations de données de la vue de grille entre la chronologie, à une échelle de temps que vous sélectionnez. Par défaut, les données d’estimation sont pivotées sur la dimension **Rôle**.
 
-> ![Vue par phases de temps pour les estimations du projet.](media/project-7.png)
+> ![Vue par phases de temps pour les estimations du projet](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Allocation de l’effort estimé basée sur le mode de tâche
 
@@ -95,6 +97,3 @@ Dans la vue de grille et la vue par phases de temps, vous pouvez sélectionner l
 ## <a name="expense-estimates"></a>Estimations de dépenses
 
 Le bouton **Ajouter une nouvelle estimation de dépense** dans la vue de grille vous permet d’enregistrer toutes les dépenses encourues par le projet, mais qui ne sont pas directement liées au travail. Vous pouvez enregistrer les estimations des dépenses pour une tâche spécifique ou le projet entier. Sélectionnez les catégories de dépenses et la date envisagée où supporter les dépenses. Si la liste des prix de revient et le tarif de ventes associés ont des prix par défaut (ou des pourcentages de majoration définis pour les catégories de dépenses), ceux-ci sont entrés automatiquement sur la ligne d’estimation lorsque l’association a lieu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

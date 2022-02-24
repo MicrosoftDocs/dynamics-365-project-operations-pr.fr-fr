@@ -2,16 +2,18 @@
 title: Comportement de l’interface utilisateur de saisie de temps
 description: Cette rubrique donne des informations sur le comportement de l’interface utilisateur de saisie de temps.
 author: stsporen
+manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999448"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499611"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportement de l’interface utilisateur de saisie de temps
 
@@ -28,7 +30,7 @@ La grille **Entrée de temps hebdomadaire** est un contrôle personnalisé qui c
 | Modifier l’entrée    | Alt + Maj + e           |
 | Modifier la ligne      | Alt + Maj + Ctrl + e    |
 | Ouvrir l’entrée    | Alt + Maj + o           |
-| Soumettre        | Alt + Maj + s           |
+| Envoyer        | Alt + Maj + s           |
 | Rappeler        | Alt + Maj + r           |
 | Suppr        | Alt + Maj + d           |
 | Copier la semaine     | Alt + Maj + w           |
@@ -54,9 +56,9 @@ La section Durée affiche les jours de la semaine sous forme d’en-têtes de co
 3. Entrez les données pour les dimensions **Projet**, **Tâche de projet**, **Rôle**, et **Durée**. Ces informations doivent être ajoutées en minutes, heures ou jours en tapant **h**, **m** ou **j** avec le nombre. 
 4. Entrez une description pour la saisie et des commentaires qui peuvent être partagés en externe concernant l’entrée de temps. 
 
-Lorsque vous enregistrez l’entrée, les valeurs saisies s’affichent dans la section **Dimensions**. Les informations saisies dans le champ **Durée** s’affichent à la date de création de l’entrée de temps.
+Lorsque vous enregistrez l’entrée, les valeurs saisies apparaissent dans la section **Dimensions**. Les informations entrées dans le champ **Durée** s’affichent à la date pour laquelle l’entrée de temps a été créée.
 
-Les champs de recherche sont soutenus par des vues système. Par exemple, après qu’un utilisateur a saisi un projet, le champ **Tâche du projet** est défini sur la vue **Copie** par défaut. Pour créer des entrées de temps pour les tâches qui ne sont pas affectées à un utilisateur, sélectionnez **Modifier la vue** dans la boîte de dialogue de recherche, puis sélectionnez la vue **Toutes les tâches du projet actives**.
+Les champs de recherche sont étayées par des vues système. Par exemple, une fois qu’un utilisateur active un projet, le champ **Tâche du projet** est défini sur la vue **Copier** par défaut. Pour créer des entrées de temps pour les tâches qui ne sont pas affectées à un utilisateur, sélectionnez **Modifier la vue** dans la boîte de dialogue de recherche, puis sélectionnez la vue **Toutes les tâches du projet actives**.
 
 ## <a name="edit-a-time-entry"></a>Modifier une entrée de temps 
 Les détails de certains champs de la page d’entrée de temps, comme **Description** et **Commentaires externes**, ne sont pas affichés dans la grille d’entrée de temps hebdomadaire. À la place, un petit indicateur triangulaire apparaît dans les cellules **Durée** contenant ces détails supplémentaires. 

@@ -2,16 +2,18 @@
 title: Contrats de projet – Concepts clés – Simplifié
 description: Cette rubrique fournit des informations sur les concepts clés des contrats de projet.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 75c4b90e47c0b90ed3fea8dce1533057aa6137b9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991438"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663771"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Concepts uniques aux contrats de projet
 

@@ -2,28 +2,30 @@
 title: Estimations financières pour le matériel des projets
 description: Cette sujet fournit des informations sur la définition ou l’estimation du matériel basé sur le projet.
 author: rumant
+manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 98e3611b2b3948aab09a3eadeac7b95b893812e9
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992608"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788851"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Estimations financières pour le matériel des projets
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Dynamics 365 Project Operations permet aux chefs de projet de définir des coûts de matériel basés sur un projet pour chaque projet ou tâche. Chaque estimation de matériaux peut être associée à une tâche de projet spécifique. Les dépenses sont classées en différentes catégories de dépenses définies au niveau organisationnel. La tarification et l’évaluation des coûts pour chaque catégorie de dépense sont définis dans la liste de prix. 
+Dynamics 365 Project Operations permet aux chefs de projet de définir des coûts de matériel basés sur un projet pour chaque projet ou tâche. Chaque estimation de matériel peut être associée à une tâche de projet spécifique. Les dépenses sont classées en différentes catégories de dépenses, qui sont définies au niveau de l’organisation. La tarification et le calcul des coûts pour chaque catégorie de dépenses sont définis dans le tarif. 
 
-Pour afficher, ajouter ou supprimer une estimation de matériaux de projet, procédez comme suit :
+Procédez comme suit pour afficher, ajouter ou supprimer une estimation de matériel de projet.
 
-1. Accédez à **Projets**, puis sélectionnez le projet que vous souhaitez mettre à jour.
-2. Dans l’onglet **Estimations des matériaux**, affichez la liste des estimations des matériaux de projet.
-3. Cliquez sur **Nouvelle estimation de matériaux** pour créer une estimation de matériaux. Ou sélectionnez une estimation de matériel à supprimer, puis sélectionnez **Supprimer l’estimation de matériel**.
+1. Accédez à **Projets** et sélectionnez le projet que vous souhaitez mettre à jour.
+2. Sur l’onglet **Estimations du matériel**, affichez la liste des estimations du matériel du projet.
+3. Sélectionnez **Nouvelle estimation de matériel** pour créer une nouvelle estimation de matériel. Ou sélectionnez une estimation de matériel à supprimer, puis sélectionnez **Supprimer l’estimation de matériel**.
 
 Le tableau suivant fournit des informations sur les champs de la **Ligne d’estimation de matériel** sur un projet. 
 

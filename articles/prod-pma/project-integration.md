@@ -2,9 +2,11 @@
 title: Intégration de Microsoft Project Client
 description: La planification et la gestion d’un calendrier de projet peuvent être complexes, les chefs de projet doivent donc utiliser des outils qui les aident à gérer cette tâche. L’intégration à Microsoft Project Client permet d’ouvrir et de gérer une structure de répartition du travail de projet.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988018"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075801"
 ---
 # <a name="microsoft-project-client-integration"></a>Intégration de Microsoft Project Client
 
@@ -125,13 +127,3 @@ Pour créer une nouvelle structure de répartition du travail à l’aide de Mic
 8.  Sélectionnez le **Calendrier** à utiliser pour l’allocation des ressources.
 
 11. Cliquez sur **OK**.
-
-> [!NOTE]
-> Le complément Project Client ne prend pas en charge les caractères suivants au format d’ID de projet :
-> 
->   - Underscore
->   - Point
->   - Espace
->   - Barre oblique
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

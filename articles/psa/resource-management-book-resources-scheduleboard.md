@@ -2,6 +2,8 @@
 title: Utiliser le Tableau de planification pour réserver des ressources de projet
 description: Cette rubrique fournit des informations sur la façon de réserver les ressources.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998233"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144410"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Utiliser le Tableau de planification pour réserver des ressources de projet
 
@@ -34,23 +36,20 @@ Avant de pouvoir réserver depuis le Tableau de planification, vous devez créer
 1. Si le volet **Besoins en réservations** en bas de la page est réduit, sélectionnez le contrôle de développement pour le développer.
 2. Dans le volet **Besoins en réservations**, dans l’onglet **Projet**, sélectionnez le besoin à réserver.
 
-    ![Besoin sélectionné dans l’onglet Projet.](media/Resource-Management-image73.png)
+    ![Besoin sélectionné sur l’onglet Projet](media/Resource-Management-image73.png)
 
 3. Sélectionnez **Rechercher la disponibilité** pour filtrer les ressources pouvant être réservées et afficher les ressources disponibles. 
 4. Sélectionnez une ou plusieurs ressources du Tableau de planification. 
 5. Dans le volet **Créer la réservation de ressource** sur le côté droit de la page, entrez les informations de réservation, puis sélectionnez **Réserver et quitter**.
 
-    ![Volet Créer la réservation de ressource pour la ressource réservable sélectionnée.](media/Resource-Management-image74.png)
+    ![Volet Créer la réservation de ressource pour la ressource réservable sélectionnée](media/Resource-Management-image74.png)
 
 6. Si le besoin est sélectionné dans le volet **Créer la réservation de la ressource**, sélectionnez une ou plusieurs cellules d’une ressource pour créer la réservation.
 
-    ![Plusieurs cellules sélectionnées pour une ressource.](media/Resource-Management-image75.png)
+    ![Plusieurs cellules sélectionnées pour une ressource](media/Resource-Management-image75.png)
 
 7. Sélectionnez **Réserver**.
 
 Le besoin est satisfait à l’aide de la ressource sélectionnée. Dans le volet **Besoins en réservations**, notez que le besoin a été actualisé, et que la ressource apparaît comme réservée sur le projet.
 
-![Ressource réservée sur le projet.](media/Resource-Management-image76.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Ressource réservée sur le projet](media/Resource-Management-image76.png)

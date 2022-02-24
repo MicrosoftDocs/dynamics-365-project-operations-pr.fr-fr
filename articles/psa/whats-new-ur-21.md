@@ -2,6 +2,8 @@
 title: Nouveautés ou modifications de la mise à jour (version 21) de Project Service Automation (correctif logiciel), V3
 description: Cette rubrique répertorie les fonctionnalités et les correctifs disponibles pour la mise à jour (version 21) de Project Service Automation, V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e7bf9d5c85d2fab0d17c435bdd96057c0c80be8f41b16f94afe6b1f554e7a9fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b1194c1cf1997b68030fe88360c6ebb756c715fd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984734"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147020"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Mise à jour (version 21) de Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Nous sommes heureux d’annoncer la dernière mise à jour de l’application Project Service Automation pour Dynamics 365. Cette version comprend des améliorations importantes de la qualité, des performances et de l’utilisation. Cette version est compatible avec Dynamics 365 9.x. Pour effectuer une mise à jour vers cette version, visitez la page des solutions du centre d’administration de Dynamics 365 online pour installer la mise à jour. Pour plus d’informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](/power-platform/admin/install-remove-preferred-solution).
+Nous sommes heureux d’annoncer la dernière mise à jour de l’application Project Service Automation pour Dynamics 365. Cette version comprend des améliorations importantes de la qualité, des performances et de l’utilisation. Cette version est compatible avec Dynamics 365 9.x. Pour effectuer une mise à jour vers cette version, visitez la page des solutions du centre d’administration de Dynamics 365 online pour installer la mise à jour. Pour plus d’informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour (version 21) de Project Service Automation V3. Cette version a le numéro de build V 3.10.32.50 et est généralement disponible via une mise à jour automatique en juin 2020.
 
@@ -75,6 +77,3 @@ Les problèmes suivants ont été résolus :
 - La logique **Résolution des tarifs de vente** gère de manière incorrecte les fuseaux horaires, ce qui entraîne la sélection incorrecte des tarifs.
 - Le **Coût réel total** d’un projet peut diminuer d’un montant fractionnaire après l’approbation d’une entrée de temps unique.
 - La logique **Résolution du prix** ne fournit pas de message d’erreur convivial si **Prix du rôle récupéré** n’a pas de valeurs dans les champs **Unité principale** et **Prix dans l’unité principale**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Application mobile Project Timesheet
 description: Cette rubrique offre des informations sur l’application mobile Microsoft Dynamics 365 Project Timesheet. L’application mobile Project Timesheet permet aux utilisateurs d’envoyer et d’approuver les feuilles de temps pour les projets sur leur appareil mobile.
 author: abruer
+manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997198"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075913"
 ---
 # <a name="project-timesheet-mobile-application"></a>Application mobile Project Timesheet
 
@@ -31,7 +33,7 @@ ms.locfileid: "6997198"
 
 L’application mobile Microsoft Dynamics 365 Project Timesheet permet aux utilisateurs d’envoyer et d’approuver les feuilles de temps pour les projets sur leur appareil mobile (iPhone ou Android). Cette application mobile affiche la fonctionnalité de feuille de temps qui réside dans la zone Gestion de projet et comptabilité de Dynamics 365 Finance, améliorant la productivité et l’efficacité des utilisateurs, ainsi que la saisie et l’approbation rapides des feuilles de temps des projets.
 
-## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
+## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
 
 Téléchargez et installez l’application mobile Microsoft Dynamics 365 Project Timesheet pour Android ou iPhone depuis la plateforme mobile de votre appareil.
 
@@ -41,11 +43,11 @@ Dans Finance, l’application mobile Project Timesheet doit être activée. Pou
 
 ## <a name="sign-in-to-the-app"></a>Se connecter à l’application
 
-1.  Démarrez l’application sur votre appareil mobile.
+1.  Démarrez l'application sur votre appareil mobile.
 
 2.  Entrez votre URL Finance.
 
-3.  La première fois que vous vous connectez, vous êtes invité à saisir votre nom d’utilisateur et votre mot de passe. Entrez vos informations d’identification.
+3.  La première fois que vous vous connectez, vous êtes invité à saisir votre nom d’utilisateur et votre mot de passe. Entrez vos informations d'identification.
 
 4.  Vous serez connecté à votre entreprise par défaut.
 
@@ -94,6 +96,3 @@ Cliquez sur **Soumettre** pour envoyer la feuille de temps au workflow d’appro
 ## <a name="review-timesheets"></a>Consulter les feuilles de temps
 
 Une liste des feuilles de temps à consulter est disponible dans le menu. Cette option n’est disponible que si vous avez été désigné comme approbateur de workflow. Les approbations d’en-tête et de ligne sont prises en charge. L’approbation au niveau de la ligne offre la possibilité de marquer une ou plusieurs lignes pour approbation. Après avoir examiné les informations de la feuille de temps, cliquez sur **Approuver**, **Déléguer** ou **Retour** pour continuer le workflow.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

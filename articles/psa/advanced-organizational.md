@@ -2,6 +2,8 @@
 title: Unités d’organisation
 description: Cette rubrique fournit des informations sur les unités d’organisation dans Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005073"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145626"
 ---
 # <a name="organizational-units"></a>Unités d’organisation 
 
@@ -53,7 +55,7 @@ L’unité d’organisation joue deux rôles dans PSA :
 - **Unité contractuelle** – Unité d’organisation qui représente le groupe de sociétés ou la division principalement responsables de remporter la vente et de gérer la prestation du travail et des services au client. L’unité contractuelle est identifiée par le champ **Unité contractuelle** dans la section d’en-tête des pages **Opportunité**, **Devis**, **Contrat du projet** et **Projet**.
 - **Unité d’allocation des ressources** – Unité d’organisation à laquelle une ressource appartient ou est attribuée. Cette unité d’organisation peut offrir ses ressources à certains rôles sur les énoncés des travaux et les projets qui appartiennent à l’unité contractuelle.
 
-> ![Unités contractuelles et unités d’allocation des ressources.](media/advanced-1.png)
+> ![Unités contractuelles et unités d’allocation des ressources](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>FAQ de l’unité d’organisation
 
@@ -77,7 +79,7 @@ Lorsque vous implémentez Dynamics 365, optimisez l’autorisation de sécurit�
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Exemple d’unités d’organisation et de divisions
 
-Contoso, Ltd a une pratique prospère en matière de technologie Microsoft. Jérôme et Bernadette sont tous les deux développeurs C\#, mais Bernadette est aux États-Unis, alors que Jérôme est en Inde. La plupart des engagements à un projet nécessitent des ressources Contoso Inde et Contoso US, et Jérôme et Bernadette ont besoin du même niveau d’accès de sécurité aux projets dans ce domaine de pratique. Toutefois, le coût des développeurs Contoso Inde diffère considérablement du coût des développeurs Contoso US.
+Contoso, Ltd a une pratique prospère en matière de technologie Microsoft. Jérôme et Bernadette sont tous les deux développeurs C\#, mais Bernadette est aux États-Unis, alors que Jérôme est en Inde. La plupart des engagements à un projet nécessitent des ressources Contoso Inde et Contoso US, et Jérôme et Bernadette nécessitent le même niveau d’accès de sécurité aux projets dans ce domaine de pratique. Toutefois, le coût des développeurs Contoso Inde diffère de manière conséquente du coût des développeurs Contoso US.
 
 Voici une manière optimale de concevoir ce scénario à l’aide de Dynamics 365 et PSA.
 
@@ -94,11 +96,11 @@ Une unité d’organisation est un groupe ou une division interne à la sociét�
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Exemple d’unités d’organisation et de secteurs de vente
 
-Contoso, Ltd. dispose de deux centres de développement : Contoso US et Contoso Inde. Les coûts des ressources diffèrent considérablement entre ces deux centres de développement.
+Contoso, Ltd a deux centres de développement : Contoso US et Contoso Inde. Les coûts des ressources diffèrent considérablement entre ces deux centres de développement.
 
 Contoso vend ses services informatiques sur de nombreux marchés internationaux, par exemple en Amérique latine, en Amérique du Nord, en Asie Pacifique, en Europe de l’ouest et au Moyen-Orient. Les taux de factures pour les mêmes rôles de projet peuvent varier considérablement selon les marchés.
 
-Contoso US et Contoso Inde doivent être configurés en tant qu’unités d’organisation, et chaque unité d’organisation doit avoir ses propres listes de prix de revient. L’Asie Pacifique, l’Amérique latine, l’Amérique du Nord, l’Europe de l’ouest et le Moyen-Orient doivent être configurés en tant que secteurs de vente, et chaque secteur de vente doit avoir ses propres tarifs de vente.
+Contoso US et Contoso Inde doivent être configurés en tant qu’unités d’organisation, et chaque unité d’organisation doit avoir ses propres listes de prix de revient. L’Asie Pacifique, l’Amérique latine, l’Amérique du Nord, l’Europe de l’ouest et le Moyen-Orient doivent être configurés en tant que secteurs de vente, et chaque secteur de vente doit avoir ses propres tarifs de vente.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Pourquoi existe-t-il une restriction sur l’association des tarifs aux unités d’organisation ? 
 
@@ -122,24 +124,24 @@ Non. Dans la version actuelle de PSA, les unités d’organisation ne sont pas h
 Lorsque vous disposez d’une hiérarchie complexe de centres de coût, divisions, bureaux de facturation, etc., configurer les nœuds terminaux de cette hiérarchie en tant qu’unités d’organisation différentes.
 L’exemple suivant affiche une hiérarchie typique :
 
-**ContosoInde**
+**Contoso Inde**
 
   - Pratique SAP 
 
     - Consultants techniques 
-    - Consultants fonctionnels 
+    - Consultants opérationnels 
     
   - Pratique technologique Microsoft 
 
     - Consultants techniques
-    - Consultants fonctionnels 
+    - Consultants opérationnels 
     
-**Contoso US**
+**Contoso US**
 
  - Pratique SAP 
 
     - Consultants techniques 
-    - Consultants fonctionnels 
+    - Consultants opérationnels 
     
  - Pratique technologique Microsoft 
 
@@ -165,6 +167,3 @@ Si votre entreprise fonctionne comme une unité unique qui contient la liste des
 Lorsqu’un projet est créé seul, l’unité contractuelle par défaut du projet dépend de l’utilisateur qui le crée. Cet utilisateur est également le responsable de projet par défaut. Si le projet est mappé à une entité de vente, par exemple un devis ou un contrat du projet, l’unité contractuelle du projet dépend plutôt de l’entité de vente. Dans ce cas, des estimations de projet peuvent être recalculées, car la liste de prix de revient est utilisée pour calculer les modifications d’estimation du coût si l’unité contractuelle est modifiée. La liste de prix de vente est utilisée pour calculer les estimations de ventes qui seront automatiquement modifiées pour qu’elles soient synchronisées sur les tarifs du projet sur le devis.
 
 Les champs **Unité contractuelle** et **Devise** du projet sont verrouillés pour modification, car ils doivent être synchronisés sur les valeurs de l’entité commerciale (devis ou contrat du projet) auxquelles le projet est mappé.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

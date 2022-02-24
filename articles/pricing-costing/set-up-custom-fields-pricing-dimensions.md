@@ -2,9 +2,11 @@
 title: Configurer des champs personnalisés comme dimensions de tarification
 description: Cette rubrique donne des informations sur la configuration de dimensions de tarification à l’aide de champs personnalisés.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003588"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650204"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurer des champs personnalisés comme dimensions de tarification
 
@@ -42,11 +44,11 @@ Pour qu’un champ devienne une dimension de tarification, il doit être :
 
 - Créé en tant que ligne dans la table **Dimension de tarification**. Par exemple, ajoutez des lignes de dimension de tarification, comme illustré dans le graphique suivant. 
 
-![Lignes de dimension de tarification basées sur le montant.](media/Amt-based-PD.png)
+![Lignes de dimension de tarification basées sur le montant](media/Amt-based-PD.png)
 
 Les heures de travail de la ressource (**msdyn_resourceworkhours**) ont été ajoutée comme dimension basée sur la majoration et ajoutée à la grille de l’onglet **Dimension de tarification basée sur la majoration**.
 
-![Lignes de dimension de tarification basées sur la majoration.](media/Markup-based-PD.png)
+![Lignes de dimension de tarification basées sur la majoration](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -73,12 +75,12 @@ Il existe deux types de dimensions de tarification :
   
 | Rôle        | Unité d’organisation    |Emplacement de travail      |Titre standard      |Heures de travail de la ressource      |  Majoration|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Inde|Sur site            |                    |Heures supplémentaires                 |15     |
-|             | Contoso Inde|Local             |                    |Heures supplémentaires                 |10     |
-|             | Contoso US   |Local             |                    |Heures supplémentaires                 |20     |
+|             | Contoso Inde|Sur site            |                    |Heures supplémentaires                 |15     |
+|             | Contoso Inde|Local             |                    |Heures supplémentaires                 |10     |
+|             | Contoso US   |Local             |                    |Heures supplémentaires                 |20     |
 
 
-Si une ressource de Contoso Inde dont le taux de base est 100 USD travaille sur site, et elle consigne 8 heures de travail normales et 2 heures supplémentaires dans l’entrée de temps, le moteur de tarification utilise le taux de base de 100 USD pour les 8 heures pour obtenir 800 USD. Pour les 2 heures supplémentaires, une majoration de 15 %% est appliquée au taux de base de 100 USD pour obtenir un prix unitaire de 115 USD et un coût total de 230 USD.
+Si une ressource de Contoso Inde dont le taux de base est 100 USD travaille sur site, et si elle consigne 8 heures de travail normales et 2 heures supplémentaires dans l’entrée de temps, le moteur de tarification utilise le taux de base de 100 USD pour les 8 heures pour obtenir 800 USD. Pour les 2 heures supplémentaires, une majoration de 15 % est appliquée au taux de base de 100 USD pour obtenir un prix unitaire de 115 USD et un coût total de 230 USD.
 
 ### <a name="applicable-to-cost"></a>Applicable aux coûts 
 Si ce paramètre est défini sur **Oui**, cela indique que la valeur de dimension dans le contexte d’entrée doit être utilisée pour la mise en correspondance avec les champs **Prix du rôle** et **Majoration du prix du rôle** lors de la récupération des taux de coût et de majoration.
@@ -94,6 +96,3 @@ La définition de la priorité de la dimension aide à produire un prix même lo
 
 - **Priorité des coûts** : la valeur de la priorité des coûts d’une dimension indique le poids de cette dimension lors de la mise en correspondance avec la configuration des prix de revient. La valeur de **Priorité des coûts** doit être unique dans les dimensions **applicables aux coûts**.
 - **Priorité des ventes** : la valeur de la priorité des ventes d’une dimension indique le poids de cette dimension lors de la mise en correspondance avec la configuration des prix de vente ou des taux de facturation. La valeur de **Priorité des ventes** doit être unique dans les dimensions **applicables aux ventes**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

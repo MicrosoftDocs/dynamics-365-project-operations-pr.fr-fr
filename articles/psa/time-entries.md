@@ -2,6 +2,8 @@
 title: Créer des entrées de temps
 description: Cette rubrique donne des informations sur la création d’entrées de temps.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990403"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149675"
 ---
 # <a name="create-time-entries"></a>Créer des entrées de temps
 
@@ -68,6 +70,3 @@ Vous pouvez importer des données à partir des réservations et des affectation
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Fonctionnalités de regroupement, de tri, de recherche et de filtrage
 
 Vous pouvez regrouper et filtrer des entrées de temps en fonction des dimensions spécifiées dans les colonnes. Dans le champ **Regrouper par**, sélectionnez la dimension à utiliser pour filtrer des entrées de temps. Vous pouvez également trier les enregistrements d’entrée de temps dans l’ordre croissant ou décroissant à l’aide de la flèche de tri des en-têtes de colonne. En outre, vous pouvez afficher ou masquer les entrées en sélectionnant le bouton **Filtrer** sur les en-têtes de colonne, puis, dans la zone **Rechercher**, entrez le texte à utiliser pour rechercher des entrées de temps par nom de projet, tâche de projet, entrée de temps ou ressource.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Scénarios à plusieurs devises (version 3.x)
 description: Cette rubrique fournit des informations sur les scénarios à plusieurs devises.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005118"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145670"
 ---
 # <a name="multiple-currency-scenarios"></a>Scénarios à plusieurs devises
 
@@ -34,7 +36,7 @@ Microsoft Dynamics 365 a deux concepts de devises :
 - **Devise de transaction** - Devise dans laquelle une transaction est effectuée. 
 - **Devise de base** - Devise de l’instance de Dynamics 365. Cette devise est configurée lorsqu’une instance de Dynamics 365 est mise en service. Elle ne peut pas être modifiée.
 
-Par exemple, Contoso US a vendu 100 teeshirts à un client au Royaume-Uni pour 15 livres sterling (GBP) pièce. Le tableau suivant montre comment cette transaction est enregistrée dans l’entité Produit de la commande.
+Par exemple, Contoso US a vendu 100 teeshirts à un client au R.-U. pour 15 livres sterling (GBP) pièce. Le tableau suivant montre comment cette transaction est enregistrée dans l’entité Produit de la commande.
 
 | Produit | Quantité | Prix unitaire | Devise | Amount | Taux de change | Prix unitaire (devise de base)| Montant (devise de base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -66,14 +68,14 @@ PSA étend le concept de devise de transaction au coût et aux ventes des maniè
 
 ## <a name="multiple-currency-scenario"></a>Scénario à plusieurs devises
 
-Cette section propose l’exemple d’un projet que Contoso UK fournit pour un client nommé Fabrikam, au Japon. Voici comment le scénario a été configuré :
+Cette section propose l’exemple d’un projet que Contoso UK fournit pour un client intitulé Fabrikam, au Japon. Voici comment le scénario a été configuré :
 
 1. La GBP et le yen japonais (JPY) sont configurés sous **Paramètres** \> **Gestion d’entreprise** \> **Devises**. 
 2. Un compte client nommé **Fabrikam - Japon** est configuré, et le JPY est sélectionné comme devise sur le compte.
-3. Une unité d’organisation nommée **Contoso UK** est configurée, et la GBP est sélectionnée comme devise.
-4. Un contrat de projet est créé, où **Contoso UK** est spécifié comme unité contractuelle et **Fabrikam – Japon** est spécifié comme client.
+3. Une unité d’organisation nommée **Contoso UK** est configurée, et la GBP est sélectionnée comme devise.
+4. Un contrat de projet est créé, où **Contoso UK** est spécifiée comme unité contractuelle et **Fabrikam – Japon** est spécifiée comme client.
 5. Des lignes de contrat de projet sont créées, selon les agencements de facturation des différentes classes de transactions dans le projet, comme la facturation pour le temps et la facturation pour les dépenses.
-6. Un projet est créé où **Contoso UK** est désigné comme unité contractuelle. Ce projet est créé et mappé aux lignes de contrat du projet.
+6. Un projet est créé où **Contoso UK** est désignée comme unité contractuelle. Ce projet est créé et mappé aux lignes de contrat du projet.
 
 
 Pendant l’estimation qui utilise les détails de la ligne du devis, les détails de la ligne du devis du projet, ou sur la ligne d’estimation de la planification, deux enregistrements sont toujours créés dans l’entité. Un enregistrement est pour le coût, tandis que l’autre est pour les ventes.
@@ -103,6 +105,3 @@ Dynamics 365 gère automatiquement les reports des montants dans différentes d
 | Dépenses           | Ventes non facturées   | 17 juin | Jérôme  | Location de voiture           | 1 chaque     | 150 EUR      | 150 EUR     | 0,94          | 159,57 USD     |
 
 Pour exprimer la valeur totale des ventes non facturées sur le projet, vous pouvez créer un champ de report pour le champ **Montant** sur tous les chiffres réels de ventes non facturés associés. Le champ de report est une construction de Dynamics 365 qui autorise les formules rapide sur des enregistrements associés.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

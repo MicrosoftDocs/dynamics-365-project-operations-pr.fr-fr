@@ -2,6 +2,8 @@
 title: Réviser l’arriéré de facturation sur les projets et les contrats de projet
 description: Cette rubrique explique comment vérifier les arriérés de temps, de dépenses, et de produits, et comment les marquer comme prêts pour la facturation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006963"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150485"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Réviser l’arriéré de facturation sur les projets et les contrats de projet
 
@@ -40,7 +42,7 @@ Les chiffres réels de ventes non facturées représentent l’arriéré de fact
 
 Pour vérifier les arriérés de facturation pour le temps et les matériaux, accédez à **Ventes** \> **Facturation** \> **Arriéré de facturation de temps et de matériaux**. Sélectionnez tous les chiffres réels de ventes non facturés prêts à être facturés, puis sélectionnez **Prêt pour la facturation**. Le statut de facturation de ces chiffres réels passe à **Prêt pour la facturation**.
 
-![Arriéré de facturation de temps et de matériaux.](media/TMBacklog.png)
+![Arriérés de facturation pour le temps et le matériel](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Vérifier l’arriéré de facturation pour les produits
 
@@ -48,7 +50,7 @@ Dans PSA, lorsqu’un contrat de projet contient des lignes de contrat basées s
 
 Pour vérifier les arriérés de facturation pour les produits, accédez à **Ventes** \> **Facturation** \> **Arriéré de facturation de produit**. Sélectionnez toutes les lignes de contrat basées sur des produits prêtes à être facturées, puis sélectionnez **Prêt pour la facturation**. Le statut de facturation de ces lignes passe à **Prêt pour la facturation**.
 
-![Arriéré de facturation de produit.](media/ProductBacklog.png)
+![Arriéré de facturation pour les produits](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Vérifiez les jalons de facturation sur les contrats à prix fixe
 
@@ -56,7 +58,4 @@ Chaque ligne de contrat de projet avec une méthode de facturation à prix fixe 
 
 Pour vérifier les jalons de facturation, accédez à **Ventes** \> **Facturation** \> **Jalons de forfait**. Sélectionnez les jalons prêts à être facturés, puis sélectionnez **Prêt pour la facturation**. Le statut de facturation de ces jalons passe à **Prêt pour la facturation**.
 
-![Jalons de forfait.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Jalons à prix fixe](media/FPBacklog.png)

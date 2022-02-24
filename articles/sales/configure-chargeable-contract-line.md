@@ -2,16 +2,18 @@
 title: Configurer les composants facturables d’une ligne de contrat de projet
 description: Cette rubrique fournit des informations sur la configuration de composants inclus, payants et non facturables sur les lignes de contrat.
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 51151089df67e2d164fc6315c1291f880917f43f1fba189304cb305ea973cecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 60a2792f7783053a288303e1dcc01a986e948300
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004038"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858335"
 ---
 # <a name="configure-chargeable-components-of-a-project-contract-line"></a>Configurer les composants facturables d’une ligne de contrat de projet
 
@@ -47,7 +49,7 @@ Une estimation ou un réel créé pour le temps ne sera considéré comme factur
 
 Une estimation ou un réel créé pour la dépense ne sera considéré comme facturable que si la dépense est incluse dans la ligne de contrat, et si la catégorie de transaction est configurée comme facturable sur la ligne de contrat.
 
-| Inclut le temps | Inclut la dépense | Rôle | Catégorie | Tâche |
+| Inclut le temps | Inclut la dépense | Rôle | Catégorie  | Tâche |
 | --- | --- | --- | --- | --- |
 | Oui | Oui | Facturable | Facturable | Facturation à l’heure actuelle : Facturable </br>Type de facturation sur une dépense réelle : facturable |
 | Oui | Oui | Non facturable | Facturable | Facturation à l’heure actuelle : Non facturable </br>Type de facturation sur une dépense réelle : facturable |
