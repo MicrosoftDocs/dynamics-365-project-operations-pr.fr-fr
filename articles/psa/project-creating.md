@@ -2,8 +2,6 @@
 title: Planifications de projets
 description: Cette rubrique donne des informations sur la création d’une planification.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148415"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998413"
 ---
 # <a name="project-schedules"></a>Planifications de projets 
 
@@ -96,7 +94,7 @@ La grille **Planification** est entièrement accessible et peut être utilisée 
 
 Un nom de tâche décrit le travail devant être effectué. Dans PSA, les attributs associés à une tâche décrivent la planification de la tâche et de ses exigences en dotation de personnel.
 
-> ![Attributs de tâche](media/project-2.png)
+> ![Attributs de tâche.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Attributs de planification
 
@@ -149,3 +147,6 @@ Par défaut, si une tâche de nœud terminal ne dispose pas de prédécesseurs, 
 ### <a name="manual-scheduling"></a>Planification manuelle
 
 Si les règles de la planification automatique ne répondent pas aux exigences, vous pouvez définir le mode de tâche sur la tâche **Planification manuelle**. Ce paramètre arrête le moteur de planification de calculer les valeurs d’autres attributs de planification. Quel que soit le mode de tâche, si vous définissez les prédécesseurs sur des tâches, vous affectez toujours la date de début de la tâche dépendante.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

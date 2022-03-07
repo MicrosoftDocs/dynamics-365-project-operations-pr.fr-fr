@@ -2,11 +2,9 @@
 title: Performances de la planification de ressources projet
 description: Cette rubrique fournit des informations sur la manière d’améliorer les performances de la planification des ressources pour un grand nombre de projets.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075723"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007278"
 ---
 # <a name="project-resource-scheduling-performance"></a>Performances de la planification de ressources projet
 
@@ -69,3 +67,6 @@ Pour activer l’amélioration des performances de planification des ressources,
 
 > [!NOTE]
 > Cela distribuera des données générales à la table **ResRollup** dans toutes les entreprises de votre environnement, de sorte que le traitement par lots ne doive être exécuté que dans une seule entité juridique. Ce traitement par lots est nécessaire pour toutes les vues **Disponibilité des ressources**. Si ce traitement par lots n’est pas exécuté, les données **ResRollup** seront générées à la volée, ce qui peut prendre du temps.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

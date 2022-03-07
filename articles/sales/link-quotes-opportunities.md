@@ -2,18 +2,16 @@
 title: Créer des devis de projet à partir d’opportunités
 description: Cette rubrique fournit des informations sur la création d’un devis de projet à partir d’une opportunité.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118110"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999628"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Créer des devis de projet à partir d’opportunités
 
@@ -56,3 +54,6 @@ Un devis existant peut être lié à une opportunité. Effectuez les étapes sui
    Lorsque vous déplacez une opportunité vers cette phase, vous pouvez sélectionner ce devis dans une liste de devis associés à cette opportunité. La sélection de ce devis indique que vous poursuivez.
 
    Tous les autres devis associés à l’opportunité seront toujours disponibles et actifs jusqu’à ce que l’un d’eux soit remporté. Vous pouvez ramener le processus de vente à la phase précédente **Qualifier**, et choisir un autre devis pour avancer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

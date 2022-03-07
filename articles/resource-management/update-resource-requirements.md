@@ -2,18 +2,16 @@
 title: Modifier un besoin en ressources
 description: Cette rubrique fournit des informations sur la mise à jour des informations sur les besoins en ressources.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128775"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999763"
 ---
 # <a name="edit-a-resource-requirement"></a>Modifier un besoin en ressources
 
@@ -34,6 +32,8 @@ En tant que chef de projet, procédez comme suit pour modifier les besoins en re
 - Unité d’organisation privilégiée
 - Société d’allocation de ressources
 
-## <a name="edit-resource-assignment-contours"></a>Modifier les contours d’affectation de ressources
+## <a name="edit-resource-assignment-contours"></a>Modifier les contours d’affectation des ressources
 
 En plus de modifier les détails des besoins en ressources, un chef de projet peut mettre à jour les contours individuels des besoins en ressources à l’aide de la fonctionnalité **Spécifier le modèle**. Quand **Spécifier le modèle** est sélectionné, une page s’ouvre et vous pouvez afficher les contours à l’échelle du jour, de la semaine ou du mois. Chaque contour peut être ajusté pour l’heure de début, l’heure de fin et l’effort total dans une période donnée.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Allouer un budget de projet ou une révision budgétaire sur plusieurs périodes
 description: Cette procédure montre comment allouer les montants budgétaires de projet sur plusieurs périodes.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b332be67ffdab0156997eb223d8a31af6ced3ef
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 33ea8489af5fd77980d6de376327f263a46d99c9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075798"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996473"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Allouer un budget de projet ou une révision budgétaire sur plusieurs périodes
 
@@ -44,3 +42,6 @@ Une fois qu’un budget ou qu’une révision budgétaire a été alloué, vous 
 10. Lorsque l’allocation correspond à vos attentes, cliquez sur Soumettre sur la page Budget du projet pour envoyer le budget ou les révisions budgétaires au workflow d’approbation.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

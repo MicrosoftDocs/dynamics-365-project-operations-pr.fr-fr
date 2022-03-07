@@ -2,10 +2,9 @@
 title: Page d’accueil de la planification de projet
 description: Cette rubrique fournit des informations sur la planification de projet.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148235"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990583"
 ---
 # <a name="project-planning-home-page"></a>Page d’accueil de la planification de projet
 
@@ -40,7 +39,7 @@ Les outils de gestion de projet dans PSA vous permettent d’exécuter facilemen
 - Planifier des projets à l’aide d’estimations et d’une planification du travail
 - Estimer et suivre les coûts et le revenu d’un projet.
 - Utilisation des estimations de projet pendant le processus de vente.
-- Prévoir les besoins en ressources pour les projets dans le pipeline.
+- prévoir les besoins en ressources pour les projets dans le pipeline ;
 - Livrer des projets en suivant la progression et la consommation des coûts.
 
 Les rubriques suivantes fournissent des informations qui aideront les chefs de projet à évaluer le travail, estimer les coûts du projet et prévoir les besoins en ressources à l’aide de les outils pris en charge par PSA :
@@ -52,3 +51,6 @@ Les rubriques suivantes fournissent des informations qui aideront les chefs de p
 - [Modèles de projet](project-templates.md)
 - [Phases du projet](project-stages.md)
 - [Paramètres du projet](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

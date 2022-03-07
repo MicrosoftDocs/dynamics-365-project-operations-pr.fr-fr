@@ -2,18 +2,16 @@
 title: Importer une estimation vers une ligne de contrat basée sur un projet – Simplifié
 description: Cette rubrique fournit des informations sur l’importation des estimations financières à partir d’un projet vers une ligne de contrat.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177463"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997243"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importer une estimation vers une ligne de contrat basée sur un projet – Simplifié
 
@@ -34,7 +32,7 @@ Lorsque plusieurs options de synthèse sont sélectionnées, le système tente d
 
 Par exemple, si le projet comporte les lignes d’estimation suivantes pour les dépenses :
 
-| Tâche | Catégorie  | Date | Quantité | Prix unitaire | Montant |
+| Tâche | Catégorie | Date | Quantité | Prix unitaire | Montant |
 | --- | --- | --- | --- | --- | --- |
 | Tâche A | Billets d’avion | 10/1/2020 | 4 | 400 | 1600 |
 | Tâche B | Hôtel | 10/1/2020 | 4 | 200 | 800 |
@@ -42,21 +40,24 @@ Par exemple, si le projet comporte les lignes d’estimation suivantes pour les 
 
 Lorsque l’utilisateur choisit de synthétiser par **classe de transaction**, les informations suivantes sont importées :
 
-| Tâche | Catégorie  | Date | Quantité | Prix unitaire | Montant |
+| Tâche | Catégorie | Date | Quantité | Prix unitaire | Montant |
 | --- | --- | --- | --- | --- | --- |
 | &nbsp; | &nbsp; | 10/1/2020 | 3.34 | 840 | 2800 |
 
 Lorsque l’utilisateur choisit de synthétiser par **classe de transaction** et **catégorie**, les informations suivantes sont importées :
 
-| Tâche | Catégorie  | Date | Quantité | Prix unitaire | Montant |
+| Tâche | Catégorie | Date | Quantité | Prix unitaire | Montant |
 | --- | --- | --- | --- | --- | --- |
 | Tâche A | Billets d’avion | 10/1/2020 | 4 | 400 | 1600 |
 | &nbsp;| Hôtel | 10/1/2020 | 6 | 200 | 1200 |
 
 Lorsque l’utilisateur choisit de synthétiser par **classe de transaction**, **catégorie** et **tâche de nœud terminal**, les informations suivantes sont importées. Notez que ce résultat est le même que ce qui est sur le projet :
 
-| Tâche | Catégorie  | Date | Quantité | Prix unitaire | Montant |
+| Tâche | Catégorie | Date | Quantité | Prix unitaire | Montant |
 | --- | --- | --- | --- | --- | --- |
 | Tâche A | Billets d’avion | 10/1/2020 | 4 | 400 | 1600 |
 | Tâche B | Hôtel | 10/1/2020 | 4 | 200 | 800 |
 | Tâche C | Hôtel | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

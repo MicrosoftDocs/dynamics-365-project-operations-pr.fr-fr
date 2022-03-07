@@ -2,18 +2,16 @@
 title: Créer une structure de répartition du travail
 description: Cette rubrique explique comment créer une structure de répartition du travail (WBS) incluant les commandes de base dans la nouvelle interface de planification.
 author: ruhercul
-manager: tfehr
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841334"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928612"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Créer une structure de répartition du travail (WBS)
 
@@ -36,7 +34,7 @@ La première étape de création d’un calendrier de projet consiste de répart
 
 ### <a name="summary-tasks"></a>Tâches récapitulatives
 
-Les tâches récapitulatives peuvent stocker d'autres tâches récapitulatives ou des tâches de nœud feuille. Elles n’ont pas elles-mêmes d’effort ou coût de travail. Au lieu de cela, les efforts de travail et de coût sont un report de l’effort de travail et du coût de leur tâches de conteneur. La date de début de la tâche récapitulative est la date de début des tâches de conteneur, et la date de fin est la date de fin des tâches de conteneur. Le nom d’une tâche récapitulative peut être modifié, mais les propriétés de planification, notamment effort, dates et durée, ne peuvent pas être modifiées. Si vous supprimez une tâche récapitulative, vous supprimez également toutes ses tâches de conteneur.
+Les tâches récapitulatives peuvent stocker d’autres tâches récapitulatives ou des tâches de nœud feuille. Elles n’ont pas elles-mêmes d’effort ou coût de travail. Au lieu de cela, les efforts de travail et de coût sont un report de l’effort de travail et du coût de leur tâches de conteneur. La date de début de la tâche récapitulative est la date de début des tâches de conteneur, et la date de fin est la date de fin des tâches de conteneur. Le nom d’une tâche récapitulative peut être modifié, mais les propriétés de planification, notamment effort, dates et durée, ne peuvent pas être modifiées. Si vous supprimez une tâche récapitulative, vous supprimez également toutes ses tâches de conteneur.
 
 ### <a name="leaf-node-tasks"></a>Tâches de nœud terminal
 
@@ -48,26 +46,26 @@ Les tâches de nœud terminal représentent le travail le plus granulaire du pro
 
 Pour ajouter une ou plusieurs tâches, procédez comme suit.
 
-1. Aller à **Projets** et sélectionnez et ouvrez l'enregistrement de projet pour lequel vous souhaitez créer une planification. 
-2. Cliquez sur l'onglet **Tâches**. 
+1. Aller à **Projets** et sélectionnez et ouvrez l’enregistrement de projet pour lequel vous souhaitez créer une planification. 
+2. Cliquez sur l’onglet **Tâches**. 
 3. Sélectionnez **Ajouter une nouvelle tâche**, entrez un nom pour la tâche, puis appuyez sur Entrée.
-2. Entrez un autre nom de tâche et appuyez à nouveau sur Entrée jusqu'à ce que vous ayez une liste complète des tâches.
+2. Entrez un autre nom de tâche et appuyez à nouveau sur Entrée jusqu’à ce que vous ayez une liste complète des tâches.
 
-### <a name="manage-hierarchy-of-a-task"></a>Gestion de la hiérarchie d'une tâche
+### <a name="manage-hierarchy-of-a-task"></a>Gestion de la hiérarchie d’une tâche
 
 Lorsqu’une tâche est mise en retrait, elle devient rapidement un enfant de la tâche directement supérieure à celle-ci. L’ID de planification de la tâche est alors recalculé de sorte qu’il soit basé sur l’ID de planification de son nouveau parent et suive le schéma de numérotation d’ensemble. La tâche parent est désormais une tâche récapitulative. Par conséquent, elle devient un report de ses tâches enfants. Lorsqu’une tâche est promue, ce n’est plus un enfant de la tâche qui était son parent. L’ID de planification est alors recalculé afin qu’il reflète le degré mis à jour de la tâche et sa place dans la hiérarchie. L’effort, le coût et les dates de la tâche parente précédente sont recalculés afin qu’ils n’incluent pas cette tâche.
 
 Pour ajouter mettre en retrait ou promouvoir une tâche, procédez comme suit.
 
-1. Sur la page **Projet**, sous l'onglet **Tâches** sous les **tâches récapitulatives**, sélectionnez les trois points verticaux à côté du nom de la tâche, puis sélectionnez **Créer une sous-tâche**. 
+1. Sur la page **Projet**, sous l’onglet **Tâches** sous les **tâches récapitulatives**, sélectionnez les trois points verticaux à côté du nom de la tâche, puis sélectionnez **Créer une sous-tâche**. 
 2. Sélectionnez la tâche à mettre en retrait ou à promouvoir. Pour sélectionner plusieurs tâches, sélectionnez une tâche, maintenez la touche Ctrl enfoncée, puis sélectionnez des tâches supplémentaires.
 2. Choisissez **Mettre en retrait** ou **Promouvoir la sous-tâche** pour déplacer vers le haut ou vers le bas des tâches récapitulatives.
 
 ### <a name="move-tasks-up-and-down"></a>Monter et Descendre des tâches
 
-Les tâches peuvent être déplacées à n'importe quel niveau de la structure de répartition du travail de l'une des deux manières suivantes :
+Les tâches peuvent être déplacées à n’importe quel niveau de la structure de répartition du travail de l’une des deux manières suivantes :
 
-- Sélectionnez une ou plusieurs tâches et faites-les glisser vers l'emplacement souhaité.
+- Sélectionnez une ou plusieurs tâches et faites-les glisser vers l’emplacement souhaité.
 - Sélectionnez une ou plusieurs tâches, faites un clic droit et sélectionnez **Couper**, sélectionnez la cellule de destination dans la planification, puis cliquez avec le bouton droit et sélectionnez **Coller**.
 
 ## <a name="task-attributes"></a>Attributs de tâche
@@ -80,22 +78,24 @@ Les attributs **Effort**, **Date de début**, **Date de fin** et **Durée** déf
 
 Le tableau suivant présente des attributs de planification supplémentaires.
 
-| **Nom d'affichage final** | **Description finale** |
+| **Nom d’affichage final** | **Description finale** |
 | --- | --- |
 | Effort réalisé (en heures) | Travail terminé pour la tâche en heures. |
 | Durée | Affiche la durée de la tâche en jours. |
 | Effort total | Travail total pour la tâche en heures. |
 | Terminer | Date et heure de fin. |
-| % terminé | Pourcentage de réalisation de la tâche. |
+| %% terminé | Pourcentage de réalisation de la tâche. |
 | Compartiment du projet | Le tableau des tâches peut être regroupé par compartiment afin que chaque compartiment ait sa propre colonne. |
 | Effort restant (en heures) | Travail restant pour la tâche en heures. |
 | Démarrer | Date et heure de début. |
 | Nom | Nom de la tâche. |
 | ID | ID de la tâche dans la structure de répartition du travail. |
 
+En tant qu’administrateur, vous pouvez définir des champs personnalisés sur l’entité de tâche. Cependant, les champs ne peuvent pas être affichés sur la grille de planification. Pour voir vos champs personnalisés, ajoutez-les à la page de détails **Tâche du projet**.
+
 ## <a name="staffing-attributes"></a>Attributs de dotation de personnel
 
-Les attributs de dotation en personnel sont accessibles via le champ **Ressources** dans la planification. Vous pouvez rechercher une ressource existante, ou cliquer sur **Créer**, puis dans le volet **Création rapide**, ajoutez un membre de l’équipe du projet comme nouvelle ressource.
+Les attributs de dotation en personnel sont accessibles via le champ **Ressources** dans la planification. Vous pouvez rechercher une ressource existante, ou cliquer sur **Créer**, puis dans le volet **Création rapide**, ajoutez un membre de l’équipe du projet comme nouvelle ressource.  Lorsque vous recherchez une ressource à l’aide du sélecteur de ressources dans la grille des tâches, la vue de tableau ou la vue Gantt, la recherche renvoie soit les membres de l’équipe de projet existants, soit les ressources actives pouvant être réservées.
 
 Les champs **Rôle**, **Unité d’allocation des ressources** et **Nom du poste** sont utilisés pour décrire les exigences en dotation de personnel de la tâche. Ces attributs de dotation en personnel, ainsi que la planification de tâche, sont utilisés pour rechercher les ressources disponibles pour effectuer cette tâche.
 
@@ -116,3 +116,28 @@ Le mode de tâche n’a aucun impact sur les mises à jour apportées aux dates 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Raccourcis clavier et accessibilité
 
 La grille **Planification** est entièrement accessible et peut être utilisée avec des lecteurs d’écran, tels que Narrateur, JAWS ou NVDA. Vous pouvez vous déplacer dans la zone de la grille à l’aide des flèches (comme dans Microsoft Excel), vous pouvez utiliser la touche Tabulation pour avancer dans les éléments d’interface utilisateur interactifs, et vous pouvez utiliser flèche vers le bas, la touche Entrée ou la barre d’espace pour sélectionner et ouvrir les menus déroulants.
+
+## <a name="project-limitations"></a>Limitations de projet 
+Vous devez tenir compte des limitations suivantes si vous utilisez la structure de répartition du travail dans Project Operations. Ces limites s’appliquent aux projets et aux tâches. Pour plus d’informations, consultez [Limites et frontières de Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Champ**                                          |  **Limite**           |
+|----------------------------------------------------|----------------------|
+| Nombre total maximal de tâches pour un projet                  | 500                  |
+| Durée totale maximale d’un projet               | 3 650 jours (10 ans) |
+| Nombre total maximal de ressources pour un projet              | 150                  |
+| Nombre total maximal de liens (successeur uniquement) pour un projet | 600                  |
+| Nombre total maximal de champs personnalisés pour un projet          | 10                   |
+| Nombre maximal d’éléments de la liste de contrôle par tâche                   | 20                   |
+
+**Limitations de tâche**
+
+| **Champ**                               |   **Limite**           |
+|-----------------------------------------|-----------------------|
+| Niveau hiérarchique maximal                 | 10 niveaux             |
+| Nombre maximal de liens (successeur + prédécesseur) | 20                    |
+| Durée maximale d’une tâche feuille           | Plus de 1250 jours             |
+| Durée maximale d’une tâche récapitulative      | 3 650 jours (10 ans)  |
+| Nombre maximal de ressources affectées à une tâche    | 20 ressources          |
+| Plage de dates prise en charge pour une tâche         | 1/1/2000 - 31/12/2149 |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

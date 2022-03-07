@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e19f3a710191e3a5b41ffb89b289e357e574207f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149855"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284220"
 ---
 # <a name="manage-resource-requests-project-service"></a>Gérer les demandes de ressource (Project Service)
 
@@ -51,3 +51,6 @@ Les responsables de compte et les responsables de projet demandent régulièreme
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du gestionnaire de ressources](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

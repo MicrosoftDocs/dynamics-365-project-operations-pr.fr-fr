@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a7eb9101352afd27b527bf6b8acc6f92198f44ea
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270855"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075905"
 ---
 # <a name="create-a-project-team"></a>Créer une équipe de projet
 
@@ -37,9 +37,9 @@ Le chef de projet peut sélectionner un rôle sur la page, puis, s’il existe u
 
 [![Liste des équipes de projet qui comprend à la fois les rôles et les ressources réelles](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-Le chef de projet dispose de différentes options pour réserver une ressource pour un projet, telles que **Capacité restante**, **Capacité complète**, **Pourcentage de capacité** et **Préciser les heures**. Ces options de réservation peuvent être annulées à tout moment si les affectations de ressources changent. Deux types de réservations sont pris en charge :
+Le chef de projet dispose de différentes options pour réserver une ressource pour un projet, telles que **Capacité restante**, **Capacité complète**, **Pourcentage de capacité** et **Préciser les heures**. Ces options de réservation peuvent être annulées à tout moment si les affectations de ressources changent. Deux types de réservation sont pris en charge :
 
-- **Réservation ferme** : la réservation des ressources a été approuvée et confirmée pour travailler sur l’engagement pour la durée spécifiée.
+- **Réservation ferme** : la réservation de ressources a été approuvée et confirmée pour travailler sur l’engagement pour la durée spécifiée.
 - **Réservation temporaire** : les réservations de ressources était provisoirement défini pour travailler sur l’engagement pour la durée spécifiée.
 
 La procédure suivante explique comment créer une équipe de projet.
@@ -62,6 +62,3 @@ La procédure suivante explique comment créer une équipe de projet.
 ## <a name="monitor-project-teams"></a>Surveiller les équipes de projet
 1. Sur la page **Tous les projets**, sélectionnez l’**ID de projet** pour le projet **Mise à niveau XYZ Phase 2**.
 2. Sur le raccourci **Équipe de projet et planification**, vérifiez que les ressources de projet répertoriées sont correctes.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

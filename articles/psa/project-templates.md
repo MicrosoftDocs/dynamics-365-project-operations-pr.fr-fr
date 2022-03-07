@@ -2,8 +2,6 @@
 title: Modèles de projet
 description: Cette rubrique fournit des informations sur l’utilisation des modèles de projet pour un paramétrage rapide de projet.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148055"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002508"
 ---
 # <a name="project-templates"></a>Modèles de projet 
 
@@ -49,7 +47,7 @@ Il existe plusieurs manières de créer un projet à partir d’un modèle de pr
 
 - Lorsque vous créez un projet à partir d’un devis, vous pouvez sélectionner un modèle de projet dans la boîte de dialogue **Création rapide : Projet**.
 
-> ![Boîte de dialogue Création rapide : Projet](media/project-11.png)
+> ![Boîte de dialogue Création rapide : Projet.](media/project-11.png)
 
 - Lorsque vous créez un projet en sélectionnant **Nouveau projet**, la page **Projet** s’affiche avant l’enregistrement. Dans le champ **Choisir un modèle**, sélectionnez l’un des modèles de projet prédéfinis dans l’organisation.
 - Utilisez **Créer un projet à partir d’un modèle** sur la page **Entité Modèle**.
@@ -69,3 +67,6 @@ Lorsque vous copiez dans les lignes d’estimation du projet, les tarifs sont mi
 ### <a name="copying-a-project-team"></a>Copie d’une équipe de projet
 
 Lorsque vous copiez une équipe de projet à partir du modèle d’un projet, les ressources génériques sont copiées, avec toutes les aptitudes et compétences définies dans le modèle. Les affectations de ressources génériques sont également gérées comme elles l’étaient dans le modèle du projet. Les ressources nommées ne sont pas prises en charge dans les modèles de projet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

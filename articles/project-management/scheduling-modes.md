@@ -2,18 +2,16 @@
 title: Modes de planification
 description: Cette rubrique fournit des informations sur les modes de planification.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981432"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987748"
 ---
 # <a name="scheduling-modes"></a>Modes de planification
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations permet aux organisations de définir la manière
 Il existe trois modes de planification disponibles dans Project Operations :
 
   - Durée fixe (mode par défaut)
-  - Travail fixe
+  - Effort fixe (*Travail*)
   - Unités fixes
 
 Les valeurs impactées par la définition d’un mode de planification spécifique sont déterminées par la formule suivante :
 
-  Effort (*Travail*) = Durée x Unités
+  Effort = Durée x Unités
 
 Lorsque vous définissez le mode de planification d’un projet, vous définissez l’une de ces valeurs, qui ne peut alors pas être modifiée. Le fait de conserver cette valeur en tant que constante donne la priorité à cette valeur, ce qui avertit le système de ne pas la modifier lorsque les deux autres valeurs changent. Le tableau suivant fournit des informations sur les impacts liés à la sélection d’un mode spécifique.
 

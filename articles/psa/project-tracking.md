@@ -2,8 +2,6 @@
 title: Progression d’un projet et consommation des coûts
 description: Cette rubrique propose des informations sur le suivi de la progression d’un projet et de la consommation des coûts.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148010"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987163"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Progression d’un projet et consommation des coûts
 
@@ -52,16 +50,16 @@ Il arrive souvent qu’un chef de projet modifie les estimations initiales d’u
 
 Il existe deux méthodes de nouvelle projection des efforts sur les tâches que peut utiliser un chef de projet :
 
-- Remplacez l’Estimation avant achèvement par défaut par une nouvelle évaluation des efforts restants réels pour la tâche. 
+- Remplacer l’estimation avant achèvement par défaut par une nouvelle estimation de l’effort restant réel pour la tâche. 
 - Remplacez le pourcentage de progression par défaut par une nouvelle évaluation de la progression réelle pour la tâche.
 
 Chacune de ces méthode entraîne un nouveau calcul de l’Estimation avant achèvement, de l’EAA (Estimé à Achèvement) et du pourcentage de progression de la tâche et de l’écart d’efforts escomptés pour une tâche. L’Estimation avant achèvement, l’EAA (Estimé à Achèvement) et le pourcentage de progression sur les tâches récapitulatives sont également recalculés, et produisent une nouvelle projection de l’écart d’efforts.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Nouvelle projection des efforts sur les tâches récapitulatives
 
-Les efforts sur les tâches récapitulatives ou les tâches de conteneur peuvent être de nouveau projetés. Que l’utilisateur refasse une projection à l’aide des efforts restants ou du pourcentage de progression sur les tâches récapitulatives, l’ensemble de calculs suivant commence :
+L’effort pour les tâches récapitulatives ou conteneur peut être faire l’objet d’une nouvelle projection. Que l’utilisateur effectue une nouvelle projection à l’aide de l’effort restant ou du pourcentage d’avancement pour les tâches récapitulatives, la série de calculs suivante commence :
 
-- L’Estimation avant achèvement, l’EAA (Estimé à Achèvement) et le pourcentage de progression sur la tâche sont calculés.
+- L’estimation de l’effort final, l’estimation avant achèvement et le pourcentage d’avancement pour la tâche sont calculés.
 - Le nouvel EAA est distribué aux tâches enfants dans la même proportion que l’EAA d’origine sur la tâche.
 - Le nouvel EAA sur chacune des tâches individuelles jusqu’aux tâches de nœud terminal est calculé. 
 - Les tâches enfants affectées jusqu’aux nœuds terminaux ont leur Estimation avant achèvement et pourcentage de progression recalculés selon la valeur de l’EAA. Cela entraîne une nouvelle projection pour l’écart d’efforts de la tâche. 
@@ -91,10 +89,13 @@ Lorsque l’effort est de nouveau projeté, les coûts avant achèvement, l’es
 
 ## <a name="project-status-summary"></a>Résumé du statut du projet
 
-Le suivi des données dans les vues **Suivi d’effort** et **Suivi du coût** affiche la progression et la consommation des coûts au niveau du nœud racine du projet, des tâches récapitulatives et des tâches de nœud terminal. La section **Statut** sur la page **Entité de projet** affiche un résumé du statut au niveau du projet.
+Le suivi des données dans les vues **Suivi des efforts** et **Suivi des coûts** affiche l’avancement et la consommation des coûts au niveau du nœud racine du projet, des tâches récapitulatives et des tâches de nœud terminal. La section **Statut** sur la page **Entité de projet** affiche un résumé du statut au niveau du projet.
 
 ## <a name="status-summary-fields"></a>Champs récapitulatifs du statut
 
 Le champ **Statut du projet global** est un champ modifiable qui affiche le statut du projet global. Il utilise le codage de couleurs, par exemple le vert, le jaune et le rouge pour indiquer un risque croissant. Le champ **Commentaires** permet au chef de projet d’entrer des commentaires spécifiques relatifs au statut. Le champ **Statut mis à jour le** n’est pas modifiable et la valeur est un horodatage qui indique quand le statut a été mis à jour en dernier.
 
-Les champs **Performance de planification** et **Performances des coûts** sont définis à partir de la date de suivi. Lorsque l’écart de planification et des coûts du nœud racine dans la vue **Suivi des efforts** est positif, vous pouvez définir ces champs sur **En avance**. Lorsque l’écart de planification et des coûts du nœud racine est négatif, vous pouvez les définir sur **En retard**.
+Les champs **Performance de planification** et **Performances des coûts** sont définis à partir de la date de suivi. Lorsque l’écart de planification et des coûts du nœud racine dans la vue **Suivi des efforts** est positif, vous pouvez définir ces champs sur **En avance**. Lorsque l’écart de planification et l’écart de coût pour le nœud racine sont négatifs, vous pouvez les définir sur **En retard**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

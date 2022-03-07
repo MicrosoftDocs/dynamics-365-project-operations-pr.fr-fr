@@ -2,18 +2,16 @@
 title: les membres de l’équipe du projet ;
 description: Cette rubrique fournit des informations sur la façon de travailler avec les informations, les attributs et la planification des membres de l’équipe de projet.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 273736219aff9c2ed4ffa8cf616d6ea656bd7294
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127425"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010918"
 ---
 # <a name="project-team-members"></a>les membres de l’équipe du projet ;
 
@@ -60,3 +58,6 @@ Le tableau suivant répertorie les attributs clés d’un membre de l’équipe 
 
 - **Nouveau** : Outre l’ajout de ressources directement à partir de la planification, les chefs de projet peuvent ajouter de nouveaux membres nommés ou génériques de l’équipe à partir de la grille des membres de l’équipe.
 - **Supprimer** : En sélectionnant un ou plusieurs membres de l’équipe, le chef de projet peut supprimer des ressources qui ne participeront plus au projet. La suppression d’un membre de l’équipe supprimera également toutes les affectations de ressources associées et annulera toutes les réservations existantes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

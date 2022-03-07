@@ -2,18 +2,16 @@
 title: Configurer les paramètres de gestion des dépenses
 description: Cette rubrique décrit les paramètres qui contrôlent le comportement général dans la gestion des dépenses.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121035"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007773"
 ---
 # <a name="configure-expense-management-parameters"></a>Configurer les paramètres de gestion des dépenses
 
@@ -61,9 +59,9 @@ Cette rubrique décrit les paramètres qui contrôlent le comportement général
 | Pourcentage de repas                          | Entrez le pourcentage par défaut de l’indemnité journalière pour les repas qui est utilisé le premier et le dernier jour de la dépense liée au voyage lorsque le champ **Calculer la réduction de repas par** est défini sur **Type de repas par jour** ou **Nombre de repas par jour**. La journée de travail du premier et du dernier jour peut être plus courte qu’une journée de travail standard. Par conséquent, le montant de l’indemnité journalière de ces jours peut différer du montant standard. Si le pourcentage est défini sur **0** (zéro), les déductions pour le premier et le dernier jour seront de 0,00. |
 | Pourcentage de l’hôtel                         | Entrez le pourcentage par défaut de l’indemnité journalière pour les hôtels qui est utilisé le premier et le dernier jour des dépenses liées au voyage. La journée de travail du premier et du dernier jour peut être plus courte qu’une journée de travail standard. Par conséquent, le montant de l’indemnité journalière de ces jours peut différer du montant standard. Si le pourcentage est défini sur **0** (zéro), les déductions pour le premier et le dernier jour seront de 0,00. |
 | Autre pourcentage                         | Entrez le pourcentage par défaut de l’indemnité journalière pour les frais divers qui est utilisé le premier et le dernier jour des dépenses liées au voyage. La journée de travail du premier et du dernier jour peut être plus courte qu’une journée de travail standard. Par conséquent, le montant de l’indemnité journalière de ces jours peut différer du montant standard. Si le pourcentage est défini sur **0** (zéro), les déductions pour le premier et le dernier jour seront de 0,00. |
-| Réduction en pourcentage pour le petit déjeuner | Saisissez le montant de la réduction de l’indemnité journalière pour le petit-déjeuner. Par exemple, si un employé reçoit un petit-déjeuner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 10 %. |
-| Réduction en pourcentage pour le déjeuner     | Saisissez le montant de la réduction de l’indemnité journalière pour le déjeuner. Par exemple, si un employé reçoit un déjeuner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 15 %. |
-| Réduction en pourcentage pour le dîner    | Saisissez le montant de la réduction de l’indemnité journalière pour le dîner. Par exemple, si un employé reçoit un dîner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 25 %. |
+| Réduction en pourcentage pour le petit déjeuner | Saisissez le montant de la réduction de l’indemnité journalière pour le petit-déjeuner. Par exemple, si un employé reçoit un petit-déjeuner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 10 %%. |
+| Réduction en pourcentage pour le déjeuner     | Saisissez le montant de la réduction de l’indemnité journalière pour le déjeuner. Par exemple, si un employé reçoit un déjeuner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 15 %%. |
+| Réduction en pourcentage pour le dîner    | Saisissez le montant de la réduction de l’indemnité journalière pour le dîner. Par exemple, si un employé reçoit un dîner gratuit, vous souhaiterez peut-être réduire le montant de l’indemnité journalière de 25 %%. |
 | Calculer la réduction de repas par           | Spécifiez comment le système doit calculer la réduction de repas par jour, en sélectionnant si la réduction est basée sur le type de repas par trajet ou par jour, ou si elle est basée sur le nombre de repas autorisés par jour. |
 | Arrondi des indemnités journalières                     | Sélectionnez le type d’arrondi utilisé pour les dépenses journalières. Si vous sélectionnez l’arrondi normal, toute dépense journalière d’un montant de 0,50 est arrondie à 1,00, et toute dépense journalière dont le montant est inférieur à 0,50 est arrondie à 0,00. |
 | Calcul des indemnités journalières de base sur          | Indiquez si le montant de l’indemnité journalière est basé sur un jour civil ou une période de 24 heures. |
@@ -83,3 +81,6 @@ Cette rubrique décrit les paramètres qui contrôlent le comportement général
 | Afficher l’attestation anti-corruption   | Sélectionnez cette option pour afficher le texte anti-corruption lors de la création d’une note de frais. Des catégories de dépenses spécifiques peuvent alors être activées, ce qui nécessitera que l’attestation anti-corruption soit sélectionnée sur la note de frais. Par exemple, une catégorie de cadeau liée à une dépense officielle du gouvernement peut exiger que l’employé confirme que la dépense respecte la politique de l’entreprise relative aux fonctionnaires. |
 | Message anti-corruption pour l’expéditeur | Saisissez le texte qui doit être présenté à un employé qui crée une note de frais. Pour saisir un texte spécifique à la langue qui sera affiché, en fonction de la langue de l’utilisateur, sélectionnez **Traductions**. |
 | Message anti-corruption pour l’approbateur  | Saisissez le texte qui doit être présenté à l’approbateur lorsqu’une note de frais est créée. Pour saisir un texte spécifique à la langue qui sera affiché, en fonction de la langue de l’utilisateur, sélectionnez **Traductions**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

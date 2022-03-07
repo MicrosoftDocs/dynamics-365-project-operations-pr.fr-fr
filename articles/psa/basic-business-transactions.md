@@ -2,8 +2,6 @@
 title: Transactions commerciales
 description: Cette rubrique fournit des informations sur les transactions commerciales.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149900"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987523"
 ---
 # <a name="business-transactions"></a>Transactions commerciales
 
@@ -90,7 +88,7 @@ Ensemble, Origine de la transaction et Connexion de la transaction vous permette
 
 L’exemple suivant explique le traitement classique des entrées de temps dans un cycle de vie de projet PSA.
 
-> ![Traitement des entrées de temps au cours du cycle de vie de Project Service](media/basic-guide-17.png)
+> ![Traitement des entrées de temps dans un cycle de vie de Project Service.](media/basic-guide-17.png)
  
 1. L’envoi d’une entrée de temps entraîne la création de deux lignes de journal : une pour le coût et une pour les ventes non facturées.
 2. L’approbation finale de l’entrée de temps entraîne la création de deux chiffres réels : une pour le coût et une pour les ventes non facturées.
@@ -101,7 +99,7 @@ Chacun de ces événements déclenche la création d’enregistrements dans les 
 
 Le tableau suivant indique l’enregistrement dans l’entité Origine de la transaction pour le workflow précédent.
 
-| Événement                        | Origine                    | Type d’origine                       | Transaction                       | Type de transaction         |
+| Événement                        | Origine                   | Type d’origine                       | Transaction                       | Type de transaction         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
 | Envoi d’entrée de temps        | GUID de l’enregistrement de l’entrée de temps   | Entrée de temps                        | GUID de l’enregistrement de la ligne de journal (coût)   | Ligne de journal             |
 | GUID de l’enregistrement de l’entrée de temps       | Entrée de temps               | GUID de l’enregistrement de la ligne de journal (ventes)  | Ligne de journal                      |                          |
@@ -149,3 +147,6 @@ Le tableau suivant indique l’enregistrement dans l’entité Connexion de la t
 | Correction de facture en mode Brouillon       | GUID de la transaction de ligne de facture | Remplacement          | msdyn_invoicelinetransaction | GUID des ventes facturées            | D’origine           | msdyn_actual       |
 | Confirmer la correction de la facture     | GUID de contrepassation des ventes facturées    | Contrepassation          | msdyn_actual                 | GUID des ventes facturées            | D’origine           | msdyn_actual       |
 | Nouveau GUID du chiffre réel des ventes non facturées | Remplacement                     | msdyn_actual       | GUID des ventes facturées            | D’origine                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

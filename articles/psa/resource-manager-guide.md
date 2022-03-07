@@ -2,8 +2,6 @@
 title: Guide du gestionnaire de ressources
 description: Guide de gestion de ressources dans Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 543be23d95b1b821fcdca628612d03c343fd5b06
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: cdfac15c45a1c7b40c05c94da9e523f000218977
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147335"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997868"
 ---
 # <a name="resource-manager-guide-project-service"></a>Guide du gestionnaire de ressources (Project Service)
 
@@ -73,3 +71,6 @@ Les fonctionnalités [!INCLUDE[pn_project_service_auto](../includes/pn-project-s
  [Guide du responsable de projet](../psa/account-manager-guide.md)   
  [Guide du responsable de projet](../psa/project-manager-guide.md)   
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

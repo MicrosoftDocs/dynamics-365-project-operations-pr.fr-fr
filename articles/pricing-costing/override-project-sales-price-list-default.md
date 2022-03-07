@@ -2,19 +2,17 @@
 title: Remplacer les tarifs de vente des projets
 description: Cette rubrique fournit des informations sur la création de listes de prix de vente personnalisées.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672228"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009573"
 ---
 # <a name="override-project-sales-price-lists"></a>Remplacer les tarifs de vente des projets
 
@@ -52,3 +50,6 @@ Vous pouvez utiliser chacun de ces tarifs et faire des mises à jour des prix de
 Dans un contrat de projet, la tarification du projet est toujours définie par défaut comme un tarif personnalisé avec le nom du contrat et la date et l’heure de création ajoutées au nom. Cela est vrai, que le contrat ait été créé lorsque le devis a été remporté ou que le contrat ait été créé à partir de zéro. Si nécessaire, vous pouvez supprimer cette association au tarif personnalisé et associer un tarif standard au contrat de projet à la place.
 
 Lorsque vous associez un tarif standard à des tarifs du projet sur un devis ou un contrat, toute modification apportée aux prix dans le tarif aura un impact sur tous les devis et contrats qui utilisent le tarif.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

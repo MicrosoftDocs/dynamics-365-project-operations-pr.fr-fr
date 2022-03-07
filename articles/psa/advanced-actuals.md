@@ -2,8 +2,6 @@
 title: Enregistrement des chiffres réels
 description: Cette rubrique fournit des informations sur la façon dont les chiffres réels sont enregistrés.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e417a24d5291fa88dee6583f11439eac0a44a574
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145715"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000753"
 ---
 # <a name="recording-actuals"></a>Enregistrement des chiffres réels 
 
@@ -33,4 +31,7 @@ ms.locfileid: "5145715"
 
 Toutes les transactions financières qui se produisent pendant un projet sont enregistrées. Ces transactions sont enregistrées comme **chiffres réels**. Le tableau suivant illustre les différents types de chiffres réels qui sont créés, selon qu’il s’agit d’un projet basé sur la durée et les matériaux, d’un projet à prix fixe ou d’un projet interne, ou s’il se trouve dans la phase préalable à la vente.
 
-> ![Tableau affichant l’enregistrement des chiffres réels](media/advanced-table2.png)
+> ![Tableau affichant l’enregistrement des chiffres réels.](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

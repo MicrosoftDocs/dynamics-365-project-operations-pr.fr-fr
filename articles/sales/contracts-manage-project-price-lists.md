@@ -3,17 +3,17 @@ title: Gérer les tarifs des projets sur les contrats de projet
 description: Cette rubrique fournit des informations sur la gestion des tarifs de projet sur les contrats de projet.
 author: rumant
 manager: Annbe
-ms.date: 03/30/2021
+ms.date: 10/27/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858560"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278595"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Gérer les tarifs des projets sur les contrats de projet
 
@@ -21,13 +21,13 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 Les contrats de projet dans Dynamics 365 Project Operations sont conçus pour prendre en charge plusieurs tarifs de vente à date effective sur un contrat. Dans Project Operations, il existe une nouvelle entité associée appelée **Tarifs du projet**. Cette entité a une relation un-à-plusieurs avec un contrat de projet.
 
-Les tarifs des projets sont utilisés pour fixer le prix des transactions de temps, de matériel et de dépenses sur un projet. Lorsqu’un contrat comporte un ou plusieurs tarifs de projet, ces tarifs sont utilisés pour fixer le prix des estimations de temps, de matériel, de dépenses ainsi que les chiffres réels sur les projets associés au contrat via la ligne de contrat.
+Les tarifs de projet sont utilisés pour évaluer les transactions de temps et de dépenses sur un projet. Lorsqu’un contrat comporte un ou plusieurs tarif(s) de projet, ces derniers sont utilisées pour tarifier les estimations de temps et de dépenses et les chiffres réels des projets associés au contrat via la ligne de contrat.
 
-Lorsqu’il n’y a pas de tarif de projet sur un contrat de projet, vous verrez un message d’avertissement indiquant qu’il n’y a pas de tarif de projet et vos estimations, le travail réel du projet, le matériel et les dépenses consignés ne seront pas tarifés. Les valeurs de vente ne comporteront pas de prix.
+en cas d’absence de tarifs de projet pour un contrat de projet, un message d’avertissement s’affiche indiquant qu’il n’y a pas de tarif de projet et vos estimations, travaux de projet réels et dépenses ne seront pas tarifés. Les valeurs de vente ne comporteront pas de prix.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Associer ou dissocier un tarif de projet sur un contrat de projet
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Créer ou associer un tarif spécifique pour estimer le travail, le matériel et les dépenses basés sur un projet
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Créer ou associer un tarif spécifique pour estimer le travail et les dépenses basés sur un projet
 
 1. Dans le contrat de projet, accédez à l’onglet **Tarifs du projet**.
 2. Dans la sous-grille, sélectionnez **+ Ajouter de nouveaux tarifs de projet**.
@@ -52,7 +52,7 @@ Lorsqu’il n’y a pas de tarif de projet sur un contrat de projet, vous verrez
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Configurer la valeur par défaut automatique des tarifs de projet sur un contrat
 
-Un tarif de projet peut être défini comme le tarif de projet par défaut. Cette configuration garantit que tous les contrats de votre organisation commencent toujours avec un tarif de projet standard pour cette période tarifaire.
+Un tarif de projet peut être configuré comme le tarif par défaut sur un contrat de projet. Cette configuration permet de garantir que tous les contrats de votre organisation commencent toujours par un tarif standard pour cette période tarifaire.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Configurer la valeur par défaut de l’organisation des tarifs de projet
 

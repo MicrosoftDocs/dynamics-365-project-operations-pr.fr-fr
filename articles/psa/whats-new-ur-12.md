@@ -2,8 +2,6 @@
 title: Nouveautés ou modifications de la mise à jour (version 12) de Project Service Automation (correctif logiciel), V3
 description: Cette rubrique donne des informations sur les nouveautés de la mise à jour (version 12) de Project Service Automation, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: daf0e6c7a4b1b953cb808cfefab74475c47d3996
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f29eaf7c471104ad3e319d8f4e1cbc70e44fc1ca
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143825"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000343"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Mise à jour (version 12) de Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Nous sommes heureux d’annoncer la dernière mise à jour de l’application Dynamics 365 Project Service Automation (PSA). Cette version comprend des améliorations importantes de la qualité, des performances et de l’utilisation. Cette version est compatible avec Dynamics 365 9.x. Pour effectuer une mise à jour vers cette version, visitez le centre d’administration de Dynamics 365 Online et accédez à la page des solutions pour installer la mise à jour. Pour plus d’informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Nous sommes heureux d’annoncer la dernière mise à jour de l’application Dynamics 365 Project Service Automation (PSA). Cette version comprend des améliorations importantes de la qualité, des performances et de l’utilisation. Cette version est compatible avec Dynamics 365 9.x. Pour effectuer une mise à jour vers cette version, visitez le centre d’administration de Dynamics 365 Online et accédez à la page des solutions pour installer la mise à jour. Pour plus d’informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](/power-platform/admin/install-remove-preferred-solution).
 
 Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour (version 12) de Project Service Automation V3. Cette version a le numéro de build V3.10.2.34 et est généralement disponible par mise à jour automatique en octobre 2019.
 
@@ -61,3 +59,6 @@ Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou mo
     - Correction : ID d’objet en double trouvés sur le formulaire principal **Contrat**.
     - Correction : la logique a été mise à jour pour rendre l’onglet **Analyse du devis** visible afin d’afficher la configuration des métadonnées de l’onglet.
     - Correction : la date comptable de l’enregistrement réel provient désormais de la date de l’entrée de temps/dépenses au lieu de la date de l’approbation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

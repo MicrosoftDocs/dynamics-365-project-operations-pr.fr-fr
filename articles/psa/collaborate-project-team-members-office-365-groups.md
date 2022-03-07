@@ -2,8 +2,6 @@
 title: Collaborer avec les membres de l’équipe du projet avec Office 365 Groups
 description: Procédure de collaboration avec les membres de l’équipe Project Service via Office 365 Groups
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68816b00b752249023f053836994a083bba5362d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 94e781e527dcc8077c5123b68d9695bbf707f86444f2a5e119c7594ee54e0da7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150890"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007053"
 ---
 # <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a>Collaborer avec les membres de l’équipe du projet avec Office 365 Groups (Project Service)
 
@@ -43,3 +41,6 @@ Avec [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], vous pouvez co
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

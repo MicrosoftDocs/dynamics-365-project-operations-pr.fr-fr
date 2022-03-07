@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b8b136e8d1b8c7acbb8616789ad274c89438e7d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 82789d20abfe92f125678a589f5b7e2a54c0b19e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150215"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282195"
 ---
 # <a name="submit-resource-requests-project-service"></a>Soumettre des demandes de ressources (Project Service)
 
@@ -55,3 +55,6 @@ Lorsque vous avez conclu un contrat de projet, vous devez doter votre projet en 
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

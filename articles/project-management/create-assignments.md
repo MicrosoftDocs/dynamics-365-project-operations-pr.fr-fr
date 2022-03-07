@@ -2,18 +2,16 @@
 title: Créer des attributions de ressources
 description: Cette rubrique fournit des informations sur la création d’affectations de ressources génériques et nommées.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 610d9f7abbe7bc2eea8cc9a238dd7cfa1c626787
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131745"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006958"
 ---
 # <a name="create-resource-assignments"></a>Créer des attributions de ressources
 
@@ -42,3 +40,6 @@ Vous pouvez utiliser la zone de recherche dans le **Sélecteur de ressource** af
 1. À partir de la grille des tâches, du tableau ou de la chronologie, accédez à la cellule **Affecté à**.
 2. Dans la zone de recherche, commencez à saisir un nom. Les résultats de la recherche sur le nom s’affichent dans le **Sélecteur de ressource** sous **Autres ressources**.
 3. Sélectionnez la ressource que vous souhaitez affecter à la tâche ou sélectionnez le nom de la ressource sous **Autres ressources d’équipe**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

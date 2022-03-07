@@ -2,8 +2,6 @@
 title: Concepts clés
 description: Cette rubrique fournit des informations sur les concepts clés de la gestion des ressources dans Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147740"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995083"
 ---
 # <a name="key-concepts"></a>Concepts clés
 
@@ -48,3 +46,6 @@ Le tableau suivant définit les concepts clés utilisés dans l’application Dy
 | Profil                    | Tâche, besoin, ou heures d’attribution, car elles sont décomposés en répartition quotidienne. Par exemple, une tâche de cinq jours, 40 heures, peut être profilée en huit heures par jour pendant cinq jours. |
 | Vue Rapprochement        | Vue qui affiche les réservations et les affectations pour chaque membre de l’équipe du projet. Cette vue permet au chef de projet de rechercher une différence entre les réservations ou les attributions, et de prendre des mesures correctives si une différence se produit. |
 | Heures de travail                 | Entité qui est utilisée pour identifier la capacité de la ressource, et les heures chômées et non chômées. Cette entité est également appelée le calendrier de ressources. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

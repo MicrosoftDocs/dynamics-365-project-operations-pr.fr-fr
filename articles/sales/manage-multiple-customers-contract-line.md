@@ -2,18 +2,16 @@
 title: Gérer plusieurs clients sur les lignes de contrat basées sur un projet
 description: Cette rubrique fournit des informations sur l’utilisation des lignes de contrat et des contrats comprenant plusieurs clients.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181899"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992113"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Gérer plusieurs clients sur les lignes de contrat basées sur un projet
 
@@ -27,7 +25,7 @@ Tous les clients du contrat figurant sur l’onglet **Clients** du contrat de pr
 
 ## <a name="create-update-or-delete-a-contract-line-customer-record"></a>Créer, mettre à jour ou supprimer un enregistrement de client de ligne de contrat
 
-Vous pouvez créer, mettre à jour ou supprimer un client de ligne de contrat sous l’onglet **Clients de la ligne de contrat** sur la page **Ligne de contrat basée sur un projet**. Lorsqu’un nouveau client est ajouté à la ligne de contrat basée sur un projet, il est également ajouté au contrat d’ensemble en tant que client de contrat avec un pourcentage de fractionnement de facturation par défaut de 0 %. Le pourcentage de fractionnement de la facturation sur le contrat d’ensemble est copié dans les nouvelles lignes de contrat et dans le contrat de projet éventuel. Cependant, lors de la facturation à partir du contrat, c’est le pourcentage de fractionnement de la facturation au niveau de la ligne de contrat qui est utilisé et non celui au niveau du contrat d’ensemble. 
+Vous pouvez créer, mettre à jour ou supprimer un client de ligne de contrat sous l’onglet **Clients de la ligne de contrat** sur la page **Ligne de contrat basée sur un projet**. Lorsqu’un nouveau client est ajouté à la ligne de contrat basée sur un projet, il est également ajouté au contrat d’ensemble en tant que client de contrat avec un pourcentage de fractionnement de facturation par défaut de 0 %%. Le pourcentage de fractionnement de la facturation sur le contrat d’ensemble est copié dans les nouvelles lignes de contrat et dans le contrat de projet éventuel. Cependant, lors de la facturation à partir du contrat, c’est le pourcentage de fractionnement de la facturation au niveau de la ligne de contrat qui est utilisé et non celui au niveau du contrat d’ensemble. 
 
 Vous trouverez ci-dessous les champs de l’enregistrement de client de la ligne de contrat d’une ligne de contrat basée sur un projet à prendre en considération lorsque vous travaillez avec :
 
@@ -41,6 +39,9 @@ Vous trouverez ci-dessous les champs de l’enregistrement de client de la ligne
 
 ## <a name="edit-billing-split-percentages"></a>Modifier des pourcentages de facturation fractionnée
 
-Les pourcentages de fractionnement de facturation peuvent être modifiés dans la grille. Si le total des pourcentages de fractionnement de la facturation n’est pas égal à 100 %, une erreur se produit. Après avoir modifié les pourcentages de fractionnement de la facturation, actualisez la page pour supprimer l’erreur.
+Les pourcentages de fractionnement de facturation peuvent être modifiés dans la grille. Si le total des pourcentages de fractionnement de la facturation n’est pas égal à 100 %%, une erreur se produit. Après avoir modifié les pourcentages de fractionnement de la facturation, actualisez la page pour supprimer l’erreur.
 
 Vous pouvez également essayer de sélectionner **Répartition homogène** dans la sous-grille du client de la ligne de contrat. Cette action répartit les fractionnements de la facturation de façon homogène entre tous les clients de la ligne de contrat. S’il existe une valeur d’arrondi, elle sera ajoutée au client d’arrondi. Un client de ligne de contrat est toujours identifié comme client d’**Arrondi** avec l’indicateur d’**Arrondi** défini sur **Oui**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

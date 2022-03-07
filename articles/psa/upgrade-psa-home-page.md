@@ -19,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 838eecb1229ea20106c7d5487dc37a81e8df501b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150080"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281700"
 ---
 # <a name="upgrade-home-page"></a>Mettre à niveau la page d’accueil
 
@@ -65,3 +65,6 @@ Une fois que vous avez examiné les rubriques précédemment mentionnées et que
 
 > [!NOTE]
 > Pour optimiser l’expérience lorsque vous utilisez les anciennes versions des applications Field Service et PSA, accédez à la page **Paramètres système** et pour le champ, **Utiliser uniquement la nouvelle Unified Interface (recommandé)**, sélectionnez **Non**, car ces versions ne sont pas conçues pour être chargées correctement dans UCI. Après avoir désactivé UCI, vous pouvez ouvrir et exécuter ces versions de Field Service et de PSA en utilisant l’ancien client Web. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

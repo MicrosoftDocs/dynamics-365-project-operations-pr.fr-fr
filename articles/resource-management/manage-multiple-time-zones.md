@@ -2,18 +2,16 @@
 title: Gérer les fuseaux horaires
 description: Lorsqu’un projet est créé, son fuseau horaire est basé sur le fuseau horaire défini dans le modèle d’heures de travail appliqué.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119820"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988693"
 ---
 # <a name="manage-time-zones"></a>Gérer les fuseaux horaires
 
@@ -34,13 +32,13 @@ Pour des résultats précis et prévisibles lors de l’utilisation de **Prolong
 
 - L’utilisateur doit configurer le fuseau horaire de son appareil pour qu’il corresponde au fuseau horaire défini dans les **Paramètres de personnalisation** du système.
  
-  ![Paramètres de fuseau horaire dans Windows 10](media/reconcile-assignments-03.png)
+  ![Paramètres de fuseau horaire dans Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Paramètres de fuseau horaire dans les paramètres de personnalisation](media/reconcile-assignments-04.png)
+  ![Paramètres de fuseau horaire dans les paramètres de personnalisation.](media/reconcile-assignments-04.png)
  
 - La ressource réservable doit avoir au moins une minute de temps de travail qui se chevauche avec les profils utilisés pour définir l’extension demandée. Par exemple, les ressources suivantes avec des heures de travail comprises entre 9 h 00 et 19 h 00. 
 
-  ![Comparaison de profils de ressource](media/reconcile-assignments-05.png)
+  ![Comparaison de profils de ressource.](media/reconcile-assignments-05.png)
 
 Le tableau suivant présente :
 
@@ -49,22 +47,25 @@ Le tableau suivant présente :
 - Ressource B : Cette ressource est située dans un fuseau horaire différent de celui du projet et commence à 7 h 00 dans leur fuseau horaire. Cependant, les réservations commenceront à 9h00, car il s’agit de l’heure de début la plus proche du profil d’affectation.
 - Ressources C et D : Les ressources sont situées dans des fuseaux horaires différents, tous deux différents les uns des autres et du projet, et leurs réservations ne commencent pas avant leurs heures de début disponibles respectives.
 
-|Entité  |Calendrier  |
+|Entity  |Calendrier  |
 |-|-|
-|Modèle de calendrier de projet   | ![calendrier du projet](media/reconcile-assignments-06.png) |
-|Ressource A  | ![Calendrier de la ressource A](media/reconcile-assignments-06.png) |
-|Ressource B  |  ![Calendrier de la ressource B](media/reconcile-assignments-07.png) |
-|Ressource C  |  ![Calendrier de la ressource C](media/reconcile-assignments-08.png) |
-|Ressource D  | ![Calendrier de la ressource D](media/reconcile-assignments-09.png)  |
+|Modèle de calendrier de projet   | ![calendrier du projet.](media/reconcile-assignments-06.png) |
+|Ressource A  | ![Calendrier de la ressource A.](media/reconcile-assignments-06.png) |
+|Ressource B  |  ![Calendrier de la ressource B.](media/reconcile-assignments-07.png) |
+|Ressource C  |  ![Calendrier de la ressource C.](media/reconcile-assignments-08.png) |
+|Ressource D  | ![Calendrier de la ressource D.](media/reconcile-assignments-09.png)  |
  
 Lorsque vous accédez à la vue **Rapprochement**, les affectations de ressources et les pénuries de réservation associées sont affichées.
 
-![Vue Rapprochement avant l’extension](media/reconcile-assignments-10.png)
+![Vue Rapprochement avant l’extension.](media/reconcile-assignments-10.png)
 
 Une fois que la fonctionnalité d’extension de réservation a été utilisée pour chaque ressource, les réservations sont prolongées avec succès pour chaque ressource, car les heures de travail de chaque ressource chevauchent les contours de la pénurie.
 
-![Vue Rapprochement après l’extension de la réservation](media/reconcile-assignments-11.png) 
+![Vue Rapprochement après l’extension de la réservation.](media/reconcile-assignments-11.png) 
 
 Notez qu’un examen plus approfondi des détails des réservations montre des différences dans l’heure de début des réservations. Les réservations commencent au plus tôt à l’heure de début du contour d’affectation et au plus tôt à l’heure de début disponible de la ressource.
 
-![Nouvelles réservations des ressources dans le tableau de planification](media/reconcile-assignments-12.png)
+![Nouvelles réservations des ressources dans le tableau de planification.](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

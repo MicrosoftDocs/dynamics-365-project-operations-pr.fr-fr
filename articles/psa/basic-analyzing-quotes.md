@@ -2,8 +2,6 @@
 title: Analyse des devis de projet
 description: Cette rubrique fournit des informations sur l’analyse des devis de projet.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145220"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002823"
 ---
 # <a name="analysis-of-project-quotes"></a>Analyse des devis de projet
 
@@ -60,3 +58,6 @@ Vous pouvez analyser les devis et générer des graphiques pour les exigences cl
 L’analyse des exigences client sur la planification est effectuée en comparant la dernière date de fin de la ligne de détails du devis à la date de livraison demandée dans toutes les lignes de devis du devis.
 
 L’analyse des exigences client sur le budget est effectuée en comparant la somme du budget total du client au montant du devis dans toutes les lignes de devis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Configurer l’intégration des cartes de crédit
 description: Cette rubrique explique comment utiliser les transactions par carte de crédit liées aux dépenses.
 author: suvaidya
-manager: AnnBe
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866680"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826253"
 ---
 # <a name="set-up-credit-card-integration"></a>Configurer l’intégration des cartes de crédit
 
@@ -32,13 +30,13 @@ Les transactions par carte de crédit liées aux dépenses peuvent être configu
 
 Pour importer des transactions par carte de crédit, procédez comme suit :
 
-1. Sur la page **Transactions par carte de crédit**, sélectionnez **Importer des transactions**. Si vous ouvrez la gestion des données pour la première fois, le système doit mettre à jour la liste des entités de données avant de pouvoir continuer.
+1. Sur la page **Transactions par carte de crédit**, sélectionnez **Importer des transactions**. Si vous ouvrez l’espace de travail Gestion des données pour la première fois, le système doit mettre à jour la liste des entités de données avant de pouvoir continuer.
 2. Dans le champ **Nom**, entrez une description unique pour la tâche d’importation.
 3. Dans le champ **Format des données source**, sélectionnez le format du fichier contenant les transactions par carte de crédit à importer.
-4. Sélectionnez **Télécharger**, puis recherchez et sélectionnez le fichier à importer.
-5. Une fois le fichier téléchargé, validez le mappage du fichier de transaction par carte de crédit et les colonnes de l’entité de données de transactions par carte de crédit en sélectionnant le lien **Afficher la mise en correspondance** sur la vignette. S’il y a des erreurs de mappage ou si vous devez modifier le mappage, effectuez les changements de mappage à partir de l’onglet **Visualisation cartographique** ou de l’onglet **Détails de la mise en correspondance**.
-6. Pour automatiser les transactions par carte de crédit, sélectionnez **Créer une tâche de données répétitive**. Vous pouvez ensuite définir la récurrence qui définit la fréquence à laquelle les transactions par carte de crédit doivent être importées. Lorsque vous avez terminé, cliquez sur **OK**.
-7. Pour importer le fichier sélectionné à présent, sélectionnez **Importer**.
+4. Cliquez sur **Charger**, puis recherchez et sélectionnez le fichier à importer.
+5. Une fois le fichier téléchargé, validez le mappage du fichier de transaction par carte de crédit et les colonnes de l’entité de données de transactions par carte de crédit en sélectionnant le lien **Afficher la mise en correspondance** sur la vignette. S’il existe des erreurs de mappage ou si vous devez modifier le mappage, apportez les changements nécessaires à partir de l’onglet **Visualisation du mappage** ou **Détails du mappage**.
+6. Pour automatiser l’importation des transactions par carte de crédit, cliquez sur **Créer une tâche de données répétitive**. Vous pouvez ensuite définir la périodicité correspondante, à savoir la fréquence d’importation des transactions par carte de crédit. Lorsque vous avez terminé, cliquez sur **OK**.
+7. Pour importer le fichier sélectionné maintenant, cliquez sur **Importer**.
 8. Si des erreurs se produisent lors de l’importation, vous pouvez afficher le journal d’exécution ou les données intermédiaires pour voir les erreurs que vous devez corriger pour garantir une importation réussie.
 
 > [!NOTE]
@@ -46,16 +44,24 @@ Pour importer des transactions par carte de crédit, procédez comme suit :
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Réaffecter les transactions par carte de crédit pour les employés licenciés
 
-Lorsqu’un employé est licencié, son compte Services de domaine Active Directory (AD DS) est désactivé. Cependant, il peut y avoir des transactions par carte de crédit actives qui doivent encore être passées en charges et remboursées. Sur la page **Transactions par carte de crédit**, vous pouvez réaffecter l’employé pour toute transaction par carte de crédit pour laquelle l’employé associé ne fait plus partie de la société.
+Lorsqu’un employé est licencié, son compte Active Directory Domain Services (AD DS) est désactivé. Cependant, il peut y avoir des transactions par carte de crédit actives qui doivent encore être passées en charges et remboursées. Sur la page **Transactions par carte de crédit**, vous pouvez réaffecter l’employé pour toute transaction par carte de crédit pour laquelle l’employé associé ne fait plus partie de la société.
 
 Sélectionnez une ou plusieurs transactions par carte de crédit, puis sélectionnez **Réaffecter les transactions**. Vous pouvez ensuite sélectionner un autre employé auquel affecter les transactions par carte de crédit. Une fois que les transactions par carte de crédit ont été réaffectées, elles peuvent être sélectionnées pour une note de frais et payées selon le processus habituel de remboursement des notes de frais.
 
 ## <a name="delete-credit-card-transactions"></a>Supprimer les transactions par carte de crédit 
 
-Parfois, après l’importation de transactions par carte de crédit, certaines transactions peuvent devoir être supprimées. Cela peut être dû au fait que des transactions sont en double ou que les données peuvent ne pas être exactes. Les administrateurs peuvent utiliser la fonctionnalité **Supprimer les transactions par carte de crédit** pour sélectionner et supprimer les transactions par carte de crédit **qui ne sont pas attachées** à une note de frais. 
+Parfois, après l’importation de transactions par carte de crédit, certaines transactions peuvent devoir être supprimées. Cela peut être dû au fait que les transactions sont des doublons ou que les données ne sont pas exactes. Les administrateurs peuvent utiliser la fonctionnalité **Supprimer les transactions par carte de crédit** pour sélectionner et supprimer les transactions par carte de crédit **qui ne sont pas attachées** à une note de frais. 
 
 1. Accédez à **Tâches périodiques** > **Supprimer les transactions par carte de crédit**.
 2. Sélectionnez **Filtrer** et fournissez des informations pour identifier les enregistrements à inclure.
 3. Sélectionnez **OK** pour supprimer les enregistrements. 
+
+## <a name="storing-credit-card-numbers"></a>Stockage des numéros de carte de crédit
+
+Trois options sont disponibles pour stocker les numéros de carte de crédit. Les numéros de carte de crédit sont enregistrés sur la page **Paramètres de gestion des dépenses**.
+
+- **Empêcher la saisie du numéro de carte** : les numéros de carte de crédit ne sont pas enregistrés.
+- **Hacher les numéros de carte (stocker les quatre derniers chiffres)**  : les quatre derniers chiffres des numéros de carte de crédit sont stockés dans un format chiffré.
+- **Stocker les numéros de carte** : les numéros de carte de crédit sont stockés dans un format non chiffré. Cette option n’est pas conforme à la norme de sécurité des données (DSS) de l’industrie des cartes de paiement (PCI). Par conséquent, pour maintenir leur organisation conforme aux réglementations PCI DSS, les administrateurs de l’organisation doivent choisir de ne pas stocker les numéros de carte de crédit ou de stocker les numéros de carte hachés.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

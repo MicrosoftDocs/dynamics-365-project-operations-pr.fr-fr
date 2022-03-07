@@ -2,11 +2,9 @@
 title: Produits
 description: Cette rubrique fournit des informations sur le catalogue de produits que vous pouvez utiliser pour fournir des informations aux clients sur les produits et les prix proposés par votre organisation.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 44f85982aa5c8e32ccde0dc32c3c9cd4339c4552
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121260"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011233"
 ---
 # <a name="products"></a>Produits
 
@@ -124,3 +122,6 @@ Par exemple, s’il existe les propriétés suivantes :
 - **SKU produit** 
 
 Les propriétés **Nombre d’utilisateurs** et **Nombre de mois** peuvent être marquées comme facteurs de quantité en modifiant les propriétés de la ligne de produit. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Collaboration avec les groupes Office
 description: Les groupes Office vous permettent de partager un projet avec d’autres membres de l’équipe dans Common Data Service.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 6b39d370eade27ebb256a6fbaa24ca9f268eca2c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642495"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007048"
 ---
 # <a name="collaboration-with-office-groups"></a>Collaboration avec les groupes Office
 
@@ -26,3 +24,6 @@ Les groupes Office vous permettent de partager un projet avec d’autres membres
 > [!NOTE] 
 > Les utilisateurs ne sont ajoutés au groupe uniquement si vous appuyez sur **Groupes** et que vous les ajoutez. Ceci est différent du comportement de Projet pour le web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

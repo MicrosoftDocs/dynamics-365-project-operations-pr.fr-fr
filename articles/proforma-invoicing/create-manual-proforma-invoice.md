@@ -1,66 +1,49 @@
 ---
-title: Créer une facture pro forma manuelle
-description: Cette rubrique offre des informations sur la création d’une facture pro forma.
+title: Factures pro forma
+description: Cette rubrique fournit des informations sur les factures pro forma dans Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128055"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995623"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Créer une facture pro forma manuelle
+# <a name="proforma-invoices"></a>Factures pro forma
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-La facturation offre aux chefs de projet un deuxième niveau d’approbation avant qu’ils créent des factures pour les clients. Le premier niveau de l’approbation est terminé lorsque les entrées de temps et de dépenses que les membres de l’équipe du projet envoient sont approuvées.
+La facturation pro forma offre aux chefs de projet un deuxième niveau d’approbation avant de créer des factures pour les clients. Le premier niveau de l’approbation est terminé lorsque les entrées de temps, de dépenses et de matériel que les membres de l’équipe du projet envoient sont approuvées. Les factures pro forma confirmées sont disponibles dans le module Comptabilité de projet de Project Operations. Les comptables de projet peuvent effectuer des mises à jour supplémentaires telles que la taxe de vente, la comptabilité et la mise en page des factures.
 
-Dynamics 365 Project Operations n’est pas conçu pour générer des factures client, pour les raisons suivantes :
-
-- Il ne contient pas de renseignements fiscaux.
-- Il ne peut pas convertir d’autres devises dans la devise de facturation à l’aide de taux de change correctement configurés.
-- Il ne peut pas correctement mettre en page des factures pour les imprimer.
-
-Vous pouvez en revanche utiliser un système financier ou de comptabilité pour créer des factures client qui exploitent les informations des propositions de facture générées.
 
 ## <a name="creating-project-invoices"></a>Création de factures de projet
 
-Les factures de projet peuvent être créées une à la fois ou en bloc. Vous pouvez les créer manuellement, ou elles peuvent être configurées pour qu’elles soient générées lors d’exécutions automatisées.
+Les factures de projet peuvent être créées une à la fois ou en bloc. Vous pouvez les créer manuellement ou les configurer de sorte qu’elles soient générées dans le cadre d’exécutions automatisées.
 
 ### <a name="manually-create-project-invoices"></a>Créer manuellement des factures de projet 
 
 Dans la page de liste **Contrats de projets**, vous pouvez créer des factures de projet séparément pour chaque contrat de projet, ou vous pouvez créer des factures en bloc pour les contrats de plusieurs projets.
 
-Suivez cette étape pour créer une facture pour un contrat de projet spécifique.
+Pour créer une facture pour un contrat de projet spécifique, procédez comme suit :
 
-- Dans la page de liste **Contrats de projets**, ouvrez un contrat de projet, puis sélectionnez **Créer une facture**.
+- Sur la page de liste **Contrats de projet**, ouvrez un contrat de projet, puis cliquez sur **Créer une facture**.
 
-    Une facture est générée pour toutes les transactions du contrat de projet sélectionné ayant le statut **Prêt pour la facturation**. Ces transactions contiennent le temps, les dépenses, les jalons et les lignes de contrat basées sur un produit.
+    Une facture est générée pour toutes les transactions du contrat de projet sélectionné ayant le statut **Prêt pour la facturation**. Ces transactions comprennent le temps, les dépenses, les matériaux, les jalons et d’autres lignes de journal des ventes non facturées.
 
 Suivez les étapes ci-dessous pour créer des factures en bloc.
 
 1. Dans la page de liste **Contrats de projets**, sélectionnez un ou plusieurs contrats de projets pour lesquels créer une facture, puis sélectionnez **Créer des factures de projet**.
 
-    Un message d’avertissement vous informe que cela peut entraîner un retard avant la création des factures. Le processus est également affiché.
+    Un message d’avertissement vous informe qu’un délai peut s’écouler avant la création des factures. Le processus est également affiché.
 
-2. Sélectionnez **OK** pour fermer la zone de message.
+2. Cliquez sur **OK** pour fermer la zone de message.
 
-    Une facture est générée pour toutes les transactions d’une ligne de contrat ayant le statut **Prêt pour la facturation**. Ces transactions contiennent le temps, les dépenses, les jalons et les lignes de contrat basées sur un produit.
+    Une facture est générée pour toutes les transactions d’une ligne de contrat ayant le statut **Prêt pour la facturation**. Ces transactions comprennent le temps, les dépenses, les matériaux, les jalons et d’autres lignes de journal des ventes non facturées.
 
 3. Pour afficher les factures qui sont générées, accédez à **Ventes** \> **Facturation** \> **Factures**. Vous verrez une facture pour chaque contrat de projet.
 
@@ -71,33 +54,32 @@ Procédez comme suit pour configurer l’exécution d’une facture automatique.
 1. Accédez à **Paramètres** \> **Traitements par lots**.
 2. Créez un traitement par lots, et nommez-le **Créer des factures dans Project Operations**. Le nom du traitement par lots doit inclure le terme « Créer des factures ».
 3. Dans le champ **Type de tâche**, sélectionnez **Aucun**. Par défaut, les options **Fréquence quotidienne** et **Est actif** sont définies sur **Oui**.
-4. Sélectionnez **Exécuter le flux de travail**. Dans la boîte de dialogue **Rechercher un enregistrement**, vous verrez trois workflows :
+4. Cliquez sur **Exécuter le flux de travail**. Dans la boîte de dialogue **Rechercher un enregistrement**, les trois flux de travail suivants s’affichent :
 
     - ProcessRunCaller
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. Sélectionnez **ProcessRunCaller**, puis **Ajouter**.
-6. Dans la boîte de dialogue suivante, sélectionnez **OK**. Un workflow **Veille** est suivi d’un workflow **Processus**.
+5. Sélectionnez **ProcessRunCaller**, puis cliquez sur **Ajouter**.
+6. Dans la boîte de dialogue suivante, cliquez sur **OK**. Un flux de travail **Sleep** est suivi d’un flux de travail **Process**.
 
     Vous pouvez également sélectionner **ProcessRunner** à l’étape 5. Ensuite, lorsque vous sélectionnez **OK**, un workflow **Processus** est suivi d’un workflow **Veille**.
 
-Les workflows **ProcessRunCaller** et **ProcessRunner** créent des factures. **ProcessRunCaller** appelle **ProcessRunner**. **ProcessRunner** est le workflow qui crée en fait les factures. Il traverse toutes les lignes de contrat pour lesquelles des factures doivent être créées, et crée des factures pour ces lignes. Pour déterminer les lignes de contrat pour lesquelles des factures doivent être créées, la tâche recherche les dates d’exécution de factures des lignes de contrat. Si des lignes de contrat qui appartiennent à un contrat disposent de la même date d’exécution de factures, les transactions sont combinées en une seule facture avec deux lignes de facture. S’il n’existe pas de transaction pour créer des factures, la tâche ignore la création de facture.
+Les workflows **ProcessRunCaller** et **ProcessRunner** créent des factures. **ProcessRunCaller** appelle **ProcessRunner**. **ProcessRunner** est le workflow qui crée en fait les factures. Il traverse toutes les lignes de contrat pour lesquelles des factures doivent être créées, et crée des factures pour ces lignes. Pour déterminer les lignes de contrat pour lesquelles des factures doivent être créées, le traitement par lots examine les dates d’exécution des factures pour les lignes de contrat. Si des lignes de contrat appartenant à un contrat sont associées à la même date d’exécution de la facture, les transactions sont combinées en une seule facture comportant deux lignes de facture. Si aucune transaction ne nécessite la création d’une facture, le traitement par lots ne procède à aucune création.
 
-Une fois que **ProcessRunner** a fini de s’exécuter, il appelle **ProcessRunCaller**, fournit l’heure de fin, et est fermé. **ProcessRunCaller** lance alors une minuterie qui s’exécute pendant 24 heures à partir de l’heure de fin spécifiée. À la fin de la minuterie, **ProcessRunCaller** est fermé.
+Une fois **ProcessRunner** exécuté, il appelle **ProcessRunCaller**, fournit l’heure de fin, puis est fermé. **ProcessRunCaller** démarre alors un minuteur qui s’exécute pendant 24 heures à compter de l’heure de fin spécifiée. À la fin du minuteur, **ProcessRunCaller** est fermé.
 
-La tâche de traitement par lots pour la création de factures est une tâche périodique. Si ce traitement par lots est exécuté de nombreuses fois, plusieurs instances de la tâche sont créées et entraînent des erreurs. Par conséquent, vous devez démarrer le traitement par lots une seule fois, et vous devez le redémarrer uniquement s’il cesse de s’exécuter.
+Le processus de traitement par lots pour la création de factures est une tâche récurrente. Si ce processus de traitement par lots est exécuté plusieurs fois, plusieurs instances de la tâche sont créées et provoquent des erreurs. Par conséquent, vous devez démarrer le traitement par lots une seule fois, et vous devez le redémarrer uniquement s’il cesse de s’exécuter.
 
 > [!NOTE]
 > La facturation par lots ne s’exécute que pour les lignes de contrat de projet qui sont configurées par des calendriers de facturation. Une ligne de contrat avec une méthode de facturation à prix fixe doit avoir des jalons configurés. Une ligne de contrat de projet avec une méthode de facturation en régie nécessite la configuration d’un calendrier de facturation basé sur la date. Il en va de même pour une ligne de contrat basée sur un projet.      
  
 ### <a name="edit-a-draft-invoice"></a>Modifier un brouillon de facture
 
-Lorsque vous créez un brouillon de facture de projet, toutes les transactions commerciales non facturées créées lors de l’approbation des entrées de temps et de dépenses sont extraites sur la facture. Vous pouvez apporter les modifications suivantes lorsque la facture est toujours dans une phase de brouillon :
+Lorsque vous créez un brouillon de facture de projet, toutes les transactions commerciales non facturées créées lors de l’approbation des entrées de temps, de dépenses et d’utilisation du matériel sont extraites sur la facture. Vous pouvez apporter les modifications suivantes lorsque la facture est toujours dans une phase de brouillon :
 
 - Supprimer ou modifier les détails de la ligne de facture.
 - Modifier et ajuster la quantité et le type de facturation.
-- Ajouter directement le temps, les dépenses et les frais comme transactions sur la facture. Vous pouvez utiliser cette fonctionnalité si la ligne de facture est mappée à une ligne de contrat qui permet ces classes de transactions.
 
 Sélectionnez **Confirmer** pour confirmer une facture. L’action Confirmer est une action irréversible. Lorsque vous sélectionnez **Confirmer**, le système rend la facture en lecture seule et crée des chiffres réels de vente facturés à partir de chaque détail de ligne de facture pour chaque ligne de facture. Si le détail de ligne de facture fait référence à un chiffre réel de vente non facturé, le système contrepasse également le chiffre réel non facturé. (Tout détail de ligne de facture créé à partir d’une entrée de temps ou de dépenses fera référence à un chiffre réel de vente non facturé.) Les systèmes d’intégration comptables peuvent utiliser cette contrepassation pour contrepasser le travail en cours du projet à des fins comptables.
 
@@ -111,3 +93,6 @@ Lorsque vous confirmez une facture corrective, le chiffre réel facturé d’ori
 
 - Un chiffre réel de vente facturée de six heures.
 - Un chiffre réel de ventes non facturées de deux heures restantes. Cette transaction peut être facturée ultérieurement ou marquée comme non facturable, selon les négociations avec le client.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

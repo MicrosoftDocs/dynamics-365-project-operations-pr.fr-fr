@@ -2,8 +2,6 @@
 title: Guide de l’utilisateur du Centre des ressources de projet
 description: Guide de l’utilisateur final du Centre des ressources de projet pour Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948136"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987253"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Guide de l’utilisateur du Centre des ressources de projet
 
@@ -51,31 +49,31 @@ Avant de pouvoir commencer à utiliser l’application du Centre des ressources 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installer Dynamics 365 pour téléphones et tablettes](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Navigation de base
-1.  Lorsque vous vous connectez à l’application mobile, vous voyez la page MyApps avec une liste des applications auxquelles vous accédez. 
+1.  Lorsque vous vous connectez à l’application mobile, vous affichez la page MyApps qui contient une liste des applications auxquelles vous accédez. 
 2.  Sélectionnez **Centre des ressources du projet**.
 
-![Choisir une application](media/chooseApp_1.png "Choisir une application")
+![Choisissez une application.](media/chooseApp_1.png "Choisir une application")
 
 **La barre de navigation**
 
-Utilisez la barre de navigation pour accéder à votre espace de travail, créer un enregistrement, effectuer des recherches ou d’autres tâches. Pour accéder à plus de commandes, appuyez sur le ![bouton Plus](media/MoreButton.png "Bouton Plus").
+Utilisez la barre de navigation pour accéder à votre espace de travail, créer un enregistrement, rechercher, ou effectuer d’autres tâches. Pour accéder à plus de commandes, appuyez sur le ![bouton Plus.](media/MoreButton.png "Bouton Plus")
 
-![Barre de navigation](media/NavBar_2.png "Barre de navigation")
+![Barre de navigation.](media/NavBar_2.png "Barre de navigation")
 
 **Favoris et Derniers enregistrements utilisés**
 
 Les sections Favoris et Récemment utilisés offrent un accès rapide aux enregistrements, aux vues et aux tableaux de bord. 
 
-- Pour accéder à ces sections, cliquez sur le **Menu** ![Bouton du menu](media/MenuButton.png "Bouton de menu") sur la barre de navigation, puis appuyez sur **Favoris et Derniers enregistrements utilisés** ![Bouton Favoris](media/FavButton.png "Bouton Fav").
+- Pour accéder à ces sections, appuyez sur le bouton **Menu** ![Bouton Menu.](media/MenuButton.png "Bouton de menu") dans la barre de navigation, puis appuyez sur le bouton **Favoris et Récents** ![Bouton Favoris et Récents](media/FavButton.png "Bouton Fav").
 
 - Pour épingler un élément comme favori, dans la liste d’éléments **Derniers enregistrements utilisés**, appuyez sur l’épingle. Cela épinglera et déplacer l’élément dans Favoris.
 
-  ![Éléments Favoris et Récents](media/Favs_3.png "Éléments Favoris et Récents")
+  ![Éléments Favoris et Récents.](media/Favs_3.png "Éléments Favoris et Récents")
  
 ## <a name="enter-time"></a>Entrer le temps
 Entrez vos heures au moins une fois par semaine - ou à la fréquence demandée par votre responsable - pour vous assurer que vos clients sont facturés et que vous êtes crédité correctement.
 
-1. Appuyez sur le ![bouton Menu](media/MenuButton.png "Bouton de menu"), puis sur **Entrées des temps**. Votre calendrier s’affiche.
+1. Appuyez sur le bouton Menu ![Bouton Menu.](media/MenuButton.png "Bouton de menu") , puis appuyez sur **Entrées de temps**. Votre calendrier s’affiche.
 
 2. Cliquez sur le bouton **Précédent** ou **Suivant** pour afficher votre calendrier pour la semaine précédente ou suivante. Cliquez sur **Aujourd’hui** pour revenir à la semaine en cours.
 

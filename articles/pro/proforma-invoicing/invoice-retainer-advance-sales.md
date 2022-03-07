@@ -2,18 +2,16 @@
 title: Facturer une provision ou une avance
 description: Cette rubrique fournit des informations sur la facturation d’une provision ou d’une avance dans Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596189"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997468"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Facturer une provision ou une avance
 
@@ -51,3 +49,6 @@ Cela peut être vu dans la grille **Provisions et avances appliquées** sur la p
 | Montant utilisé | La grille **Provisions et avances appliquées** sur la page **Facture de projet**.  | Ce champ en lecture seule fournit la valeur calculée qui récapitule la quantité de provision ou d’avance qui a été utilisée. | Ce champ peut être affiché au client sur la facture imprimée pour indiquer le montant de la provision ou de l’avance ayant déjà été utilisée. |
 | Total final | La grille **Provisions et avances appliquées** sur la page **Facture de projet**.  | Ce champ modifiable fournit le montant de la provision ou de l’avance en cours d’utilisation sur cette facture de projet. Ce montant ne peut pas être supérieur à ce qui est disponible sur l’avance. Le système calcule automatiquement cela comme la différence entre les champs **Montant** et **Montant utilisé** sur la grille. Vous pouvez diminuer ce montant pour utiliser moins que ce qui est disponible, mais vous ne pouvez pas augmenter le montant pour utiliser plus que ce qui est disponible. | Ce champ peut être affiché au client sur la facture imprimée pour indiquer le montant de la provision ou de l’avance en cours d’utilisation sur la facture. |
 | Montant du solde de la provision. | La grille **Provisions et avances appliquées** sur la page **Facture de projet**.  | Ce champ en lecture seule indique la valeur du montant de la provision ou de l’avance qui restera après la confirmation de la facture. | Ce champ peut être affiché au client sur la facture imprimée pour indiquer le montant qui restera de cette provision ou avance une fois la facture confirmée et payée. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

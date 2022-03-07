@@ -2,21 +2,22 @@
 title: Statuts de réservation
 description: Cette rubrique fournit un lien vers des informations sur la façon de configurer des statuts de réservation pour Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4e14f55e05a20990394f7645d0f276ea99deb626
-ms.sourcegitcommit: 454b0ec941cca06852236771bc77dc1651f94e48
+ms.openlocfilehash: 635d76c55358b27ce6ff3babd9e69041d99f5005c140fca0c0bc28d7210ad168
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514519"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004083"
 ---
 # <a name="booking-statuses"></a>Statuts de réservation
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Vous pouvez utiliser la fonctionnalité fournie dans Universal Resource Scheduling pour Dynamics 365 Field Service pour configurer des statuts de réservation pour votre organisation. Pour plus d'informations sur la façon de terminer cette configuration, voir [Configurer des statuts de réservation](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+Vous pouvez utiliser la fonctionnalité fournie dans Universal Resource Scheduling pour Dynamics 365 Field Service pour configurer des statuts de réservation pour votre organisation. Pour plus d’informations sur la façon de terminer cette configuration, voir [Configurer des statuts de réservation](/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

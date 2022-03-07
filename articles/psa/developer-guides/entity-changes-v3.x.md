@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48062eda1f524dd3ca0d5feccf11fd5577521275
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fa80f459260f30360e78a1e7bcc00706dbc0b5a4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148730"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284895"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Modifications d'entité, de contrôle et d'interface utilisateur (Project Service Automation 3.x)
 
@@ -84,3 +84,6 @@ Les ressources web suivantes ont été rendues obsolètes :
 > Pour obtenir la liste complète des ressources obsolètes, consultez [Ressources web obsolètes dans Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,17 +3,17 @@ title: Créer des transactions intersociétés
 description: Cette rubrique fournit des informations sur la manière de créer des transactions intersociétés.
 author: sigitac
 manager: tfehr
-ms.date: 04/12/2021
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 0a9d34d69ff59f0cb470bb852d8a80ecaedf6544
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880445"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595465"
 ---
 # <a name="create-intercompany-transactions"></a>Créer des transactions intersociétés
 
@@ -62,7 +62,7 @@ Molly Clark, développeuse employée chez GBPM enregistre 10 heures de travail 
     4. Définissez la devise sur **USD**.
     5. Enregistrez l’enregistrement.
 3. Accédez à **Ventes** > **Contrats de projet** et créez un nouveau contrat de projet pour Adventure Works.
-    1. Définir la société propriétaire sur **USPM** et l’unité contractuelle sur **Contoso Robotics États-Unis**.
+    1. Définissez la société propriétaire sur **USPM** et l'unité contractante sur **Contoso Robotics US**.
     2. Sélectionnez Adventure Works comme client.
     3. Sélectionnez des tarifs de produit et enregistrez l'enregistrement.
     4. Sur l'onglet **Lignes de contrat**, créez une nouvelle ligne de contrat. Définissez n'importe quel nom et sélectionnez **Temps et matériaux** comme méthode de facturation.
@@ -94,7 +94,7 @@ Molly Clark, développeuse employée chez GBPM enregistre 10 heures de travail 
     Cette vente non facturée est maintenant prête pour la facturation. La facture du client Adventure Works peut être validée financièrement en cas de besoin.
 
 10. Connectez-vous en tant que comptable **GBPM**. Ouvrez l'instance Finance de Project Operations et ouvrez la société **GBPM**. 
-11. Accédez à **Gestion de projet et comptabilité** > **Périodique** > **Intégration Project Operations** > **Importer depuis la table intermédiaire** et exécutez le processus périodique pour remplir la feuille intégration de Project Operations.
+11. Accédez à **Gestion et comptabilité des projets** > **Périodique** > **Project Operations sur Customer Engagement** > **Importer depuis la table intermédiaire** et exécutez le processus périodique à remplir dans Project Operations.
 12. Accédez à **Gestion et comptabilité des projets** > **Journaux** > **Journal d'intégration de Project Operations** et passez en revue les lignes. Le système crée les lignes suivantes.
 
     | **Type de transaction** | **Tarif** | **Devise de transaction** | **Montant** |
@@ -113,6 +113,3 @@ Molly Clark, développeuse employée chez GBPM enregistre 10 heures de travail 
     - Crédit : Projet - Produit à recevoir 120 USD
 
     Le système est maintenant prêt à créer une facture client intersociétés.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: FAQ sur la gestion des ressources.
 description: Cette rubrique apporte des réponses aux questions les plus fréquemment posées sur la gestion des ressources.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144365"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002373"
 ---
 # <a name="resource-management-faq"></a>FAQ sur la gestion des ressources.
 
@@ -54,3 +52,6 @@ Une fois les ressources réservées, sélectionnez **Gérer les réservations** 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Quelle est la différence entre une attribution et une réservation ?
 
 Les attributions sont l’attribution de ressources aux tâches d’un projet dans la planification du projet. Les ressources peuvent être des ressources réelles ou des ressources génériques. Les réservations sont l’allocation ferme ou provisoire des ressources sur un projet. Les réservations fermes consomment la capacité d’une ressource. Idéalement, pour les ressources réelles, les réservations et les affectations doivent correspondre, car elles ne peuvent pas différer. Toutefois, PSA n’applique pas cette mise en correspondance. La vue Rapprochement affiche à un chef de projet des emplacements où les réservations et les affectations d’une ressource ne correspondent pas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

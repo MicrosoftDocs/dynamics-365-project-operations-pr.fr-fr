@@ -2,18 +2,16 @@
 title: Gérer plusieurs clients sur un devis de projet
 description: Cette rubrique fournit des informations sur le travail sur les devis qui comprend plusieurs clients qui financeront le projet.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181989"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991978"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Gérer plusieurs clients sur un devis de projet
 
@@ -23,7 +21,7 @@ Les devis de projet prennent en charge le scénario où la proposition implique 
 
 Tous les clients du devis sur l’onglet **Clients** du devis de projet par défaut en tant que clients de la ligne de devis sur toutes les **nouvelles** lignes de devis selon le projet créées pour le devis. Les lignes de devis existantes selon un projet n’hériteront pas des enregistrements client de devis créés après elles.
 
-Les clients de devis et les clients de ligne de devis peuvent être ajoutés, mis à jour ou supprimés à tout moment avant que le devis ne soit conclu. Un client valide sur le devis doit être configuré en tant que client dans la société propriétaire ou l’entité juridique sur la page **Clients**. Les entités juridiques sont créées dans le module **Gestion de projet et comptabilité** de Dynamics 365 Project Operations et sont disponibles en tant que sociétés dans les modules **Vente et livraison de projets** de Project Operations.
+Les clients de devis et les clients de ligne de devis peuvent être ajoutés, mis à jour ou supprimés à tout moment avant que le devis ne soit conclu. Un client valide sur le devis doit être configuré en tant que client dans la société propriétaire ou l’entité juridique sur la page **Clients**. Les entités juridiques sont créées dans le module **Gestion et comptabilité des projets** de Dynamics 365 Project Operations et sont disponibles en tant que sociétés dans les modules **Ventes de projets et Livraison** de Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Concept de client principal
 
@@ -48,6 +46,9 @@ Un client de devis peut être créé, mis à jour ou supprimé de l’onglet **C
 
 ## <a name="editing-billing-split-percentages"></a>Modification des pourcentages de facturation fractionnée
 
-Vous pouvez modifier les pourcentages de facturation fractionnée à l’aide de l’expérience de modification de grille en ligne. Lorsque les pourcentages de facturation fractionnée ne totalisent pas 100 %, une erreur se produit. Après avoir mis à jour les pourcentages de facturation fractionnée, actualisez la page pour supprimer l’erreur.
+Vous pouvez modifier les pourcentages de facturation fractionnée à l’aide de l’expérience de modification de grille en ligne. Lorsque les pourcentages de facturation fractionnée ne totalisent pas 100 %%, une erreur se produit. Après avoir mis à jour les pourcentages de facturation fractionnée, actualisez la page pour supprimer l’erreur.
 
 Vous pouvez également essayer de sélectionner **Répartition homogène** dans la sous-grille des clients de devis. Cette action attribue des fractionnements de facturation à tous les clients de devis. S’il y a un facteur d’arrondi, il sera ajouté au client d’arrondi. L’un des clients du devis est toujours identifié comme le client arrondi. cela signifie que l’enregistrement client du devis a l’indicateur **Arrondi** défini sur **Oui**. Il s’agit généralement du client principal du devis, mais cela peut être modifié.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

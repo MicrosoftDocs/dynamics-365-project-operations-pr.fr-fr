@@ -5,14 +5,15 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c347f14f3a479eb4aec951cfe4094c5581bce32
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986578"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955745"
 ---
 # <a name="expense-management-integration"></a>Intégration de la gestion des dépenses
 
@@ -28,7 +29,7 @@ Dans un déploiement de type Dépenses complètes, les catégories de dépenses 
 2. Dans Finance, accédez à **Gestion des dépenses** > **Configurer** > **Catégories partagées** et sélectionnez une catégorie partagée avec une classe de transaction **Dépense**. Définissez le paramètre **Peut être utilisé dans les dépenses** sur **Vrai** et définissez le type de dépense à utiliser.
 3. À l’aide de cet enregistrement de catégorie partagée, créez une catégorie de dépenses en accédant à **Gestion des dépenses** > **Configurer** > **Catégories de dépenses** et en sélectionnant **Nouveau**. Lorsque l’enregistrement est enregistré, la double écriture utilise le mappage de table, l’**entité d’exportation des catégories de dépenses de projet d’intégration de Project Operations (msdyn\_expensecategories)** pour synchroniser cet enregistrement avec Dataverse.
 
-  ![Intégration des catégories de dépenses.](./media/DW6ExpenseCategories.png)
+  ![Intégration des catégories de dépenses](./media/DW6ExpenseCategories.png)
 
 Les catégories de dépenses dans les applications Finance and Operations sont spécifiques à l’entreprise ou à l’entité juridique. Il existe des enregistrements distincts, correspondants et spécifiques à l’entité juridique dans Dataverse. Lorsqu’un chef de projet estime les dépenses, il ne peut pas sélectionner de catégories de dépenses qui ont été créées pour un projet appartenant à une entreprise différente de celle qui possède le projet sur lequel il travaille. 
 
@@ -40,7 +41,7 @@ Les notes de frais sont créées et approuvées dans les applications Finance an
   - La double écriture est synchronisée avec Dataverse à l’aide du mappage de table **Entité d’exportation des dépenses de projet d’intégration de Project Operations (msdyn\_expenses)**.
   - Le livre auxiliaire fiscal, le livre auxiliaire fournisseur et les autres écritures financières sont enregistrés, en fonction de la situation, au moment de la comptabilisation des notes de frais.
 
-  ![Intégration des notes de frais.](./media/DW6ExpenseReports.png)
+  ![Intégration des notes de frais](./media/DW6ExpenseReports.png)
 
 Lorsqu’un enregistrement est écrit sur l’entité **Dépense** dans Dataverse, le système déclenche le processus d’approbation automatisé de l’enregistrement. Si nécessaire, le statut du processus d’approbation automatisé peut être révisé dans Dataverse en accédant à **Réglages avancés** > **Système** > **Tâches système**. Une fois l’approbation terminée, les enregistrements de classe de transaction de dépense sont créés dans l’entité **Chiffres réels**.
 

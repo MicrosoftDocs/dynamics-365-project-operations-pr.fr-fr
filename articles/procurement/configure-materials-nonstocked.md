@@ -2,17 +2,17 @@
 title: Configurer le matériel non stocké et les factures fournisseur en attente
 description: Cette rubrique explique comment activer le matériel non stocké et les factures fournisseur en attente.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993908"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003228"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurer le matériel non stocké et les factures fournisseur en attente
 
@@ -59,11 +59,11 @@ Si vous utilisez des données de démonstration standard, vous devrez peut-être
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Activer le flux de travail pour créer des comptes basés sur l’entité du fournisseur
 
-La solution d’orchestration à double écriture fournit l’[intégration principale des fournisseurs ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Comme condition préalable à cette fonctionnalité, les données fournisseur doivent être créées dans l’entité **Comptes**. Activez un modèle de processus de flux de travail pour créer des fournisseurs dans la table **Comptes**, comme décrit dans [Basculer entre les conceptions des fournisseurs](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+La solution d’orchestration à double écriture fournit l’[intégration principale des fournisseurs ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Comme condition préalable à cette fonctionnalité, les données fournisseur doivent être créées dans l’entité **Comptes**. Activez un modèle de processus de flux de travail pour créer des fournisseurs dans la table **Comptes**, comme décrit dans [Basculer entre les conceptions des fournisseurs](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Définir les produits à créer comme actifs
 
-Le matériel non stocké doit être configuré comme **Produits lancés** dans Finance. La solution d’orchestration à double écriture fournit une solution prête à l’emploi [Intégration des produits lancés dans le catalogue des produits Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Par défaut, les produits de Finance sont synchronisés avec Dataverse à l’état de brouillon. Pour synchroniser le produit à un état actif afin qu’il puisse être directement utilisé dans les documents d’utilisation du matériel ou les factures fournisseur en attente, accédez à **Système** > **Administration** > **Administration système** > **Paramètres du système**, puis, sur l’onglet **Ventes**, définissez **Créer des produits à l’état actif** sur **Oui**.
+Le matériel non stocké doit être configuré comme **Produits lancés** dans Finance. La solution d’orchestration à double écriture fournit une solution prête à l’emploi [Intégration des produits lancés dans le catalogue des produits Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Par défaut, les produits de Finance sont synchronisés avec Dataverse à l’état de brouillon. Pour synchroniser le produit à un état actif afin qu’il puisse être directement utilisé dans les documents d’utilisation du matériel ou les factures fournisseur en attente, accédez à **Système** > **Administration** > **Administration système** > **Paramètres du système**, puis, sur l’onglet **Ventes**, définissez **Créer des produits à l’état actif** sur **Oui**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Configurer les conditions préalables dans Finance
 
@@ -88,7 +88,7 @@ Dans Project Operations, vous pouvez enregistrer les estimations et l’utilisat
 2. Dans le champ **Type de produit**, sélectionnez **Article** et dans le champ **Sous-type de produit**, sélectionnez **Produit**.
 3. Entrez le numéro de produit (WRITEIN) et le nom de produit (produit hors catalogue).
 4. Sélectionnez le groupe de modèles d’article. Assurez-vous que le champ **Stratégie de stock Produit stocké** du groupe de modèles d’article que vous sélectionnez est défini sur **Faux**.
-5. Sélectionnez des valeurs dans les champs **Groupe d’articles**, **Groupe de dimensions de stockage** et **Groupe de dimensions de suivi**. Utilisez **Dimension de stockage** pour **Site** uniquement et ne définissez aucune dimension de suivi.
+5. Sélectionnez des valeurs dans les champs **Groupe d’articles**, **Groupe de dimensions de stockage** et **Groupe de dimensions de suivi**. Utilisez la **Dimensions de stockage** pour **Site** uniquement et, dans le champ **Dimensions de suivi**, sélectionnez **Aucun**.
 6. Sélectionnez des valeurs dans les champs **Unité de stock**, **Unité d’achat** et **Unité de vente**, puis enregistrez vos modifications.
 7. Dans l’onglet **Planifier**, définissez les paramètres de commande par défaut et sur l’onglet **Stock**, définissez le site et l’entrepôt par défaut.
 8. Accédez à **Gestion et comptabilité des projets** > **Configurer** > **Paramètres de gestion et comptabilité des projets** et ouvrez **Project Operations sur Dynamics 365 Dataverse**. 

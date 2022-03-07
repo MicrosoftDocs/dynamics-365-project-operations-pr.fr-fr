@@ -2,8 +2,6 @@
 title: Gérer les projets et les réservations dans votre calendrier Office 365
 description: Comment gérer les projets et les réservations dans votre calendrier Office 365
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144455"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985319"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Gérer les projets et les réservations dans votre calendrier (Project Service)
 
@@ -52,7 +50,7 @@ Afficher les rendez-vous personnels, les réservations de tâche de projet et le
   
 - Vous devez disposer des informations d’identification de l’administrateur global ou de l’administrateur système [!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- Votre administrateur doit configurer le profil du serveur de messagerie et chaque utilisateur doit configurer sa boîte aux lettres. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurer le traitement des messages électroniques via la synchronisation côté serveur](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Votre administrateur doit configurer le profil du serveur de messagerie et chaque utilisateur doit configurer sa boîte aux lettres. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurer le traitement des messages électroniques via la synchronisation côté serveur](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Activer la synchronisation de votre organisation (tâche d’administrateur)  
   
@@ -91,3 +89,6 @@ Afficher les rendez-vous personnels, les réservations de tâche de projet et le
   
 ### <a name="see-also"></a>Voir aussi  
  [Guide sur le temps, les dépenses et la collaboration](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

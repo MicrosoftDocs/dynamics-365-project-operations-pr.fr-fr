@@ -2,11 +2,9 @@
 title: Contrats de projet
 description: Cette rubrique offre des exemples des contrats de projet que vous pouvez créer pour différents types de projets et sources de financement et comment vous pouvez gérer les contrats et facturer les clients du projet.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075871"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001023"
 ---
 # <a name="project-contracts"></a>Contrats de projet
 
@@ -33,23 +31,23 @@ Cet article offre des exemples des contrats de projet que vous pouvez créer pou
 
 Le type de projet que vous créez pour un contrat de projet détermine la méthode utilisée pour facturer les clients du projet. Vous pouvez modifier un contrat de projet et le projet associé, mais vous ne pouvez pas modifier le type de projet. 
 
-En utilisant un contrat de projet, vous pouvez facturer un ou plusieurs projets en même temps. Le contrat de projet permet également de garantir une procédure de facturation cohérente pour chaque sous-projet d'une structure de projet. 
+En utilisant un contrat de projet, vous pouvez facturer un ou plusieurs projets simultanément. Le contrat de projet permet également de garantir une procédure de facturation homogène pour chaque sous-projet d’une structure de projet. 
 
-Chaque projet qui sera facturé doit être associé à un contrat de projet. Les paramètres d'un contrat de projet s'appliquent à tous les projets et sous-projets associés à ce contrat de projet. 
+Chaque projet facturé doit être associé à un contrat de projet. Les paramètres d’un contrat de projet s’appliquent à tous les projets et sous-projets associés à ce contrat de projet. 
 
 Un contrat de projet peut spécifier une ou plusieurs sources de financement. Par conséquent, vous pouvez répartir la facturation entre plusieurs bailleurs, définir des limites de financement afin que les sources de financement ne soient pas facturées plus qu’un montant spécifié et configurer des règles de financement pour la facturation des dépenses.
 
 ## <a name="funding-for-project-contracts"></a>Financement des contrats de projet
-Certains contrats de projet précisent que plusieurs parties partagent la responsabilité de financer les coûts du projet. En voici quelques exemples :
+Certains contrats de projet précisent que plusieurs parties partagent la responsabilité du financement des coûts du projet. En voici quelques exemples :
 
 -   Un gros client avec plusieurs divisions demande que le financement d’un projet soit réparti par division.
 -   Votre entreprise partage les coûts d’un grand projet avec une organisation externe.
 -   Un projet routier est cofinancé par deux municipalités.
--   Un projet de pont est financé par une subvention du gouvernement et une société privée.
+-   Un projet de pont est financé par une subvention publique et une société privée.
 
-Dans Dynamics 365 Finance, vous pouvez répartir la facturation d’une seule transaction ou d’un projet entier entre plusieurs clients, subventions ou organisations. 
+Dans Dynamics 365 Finance, vous pouvez répartir la facturation d’une seule transaction ou de l’ensemble d’un projet entre plusieurs clients, subventions ou organisations. 
 
-Dans les projets qui ont plusieurs bailleurs, toutes les parties qui contribuent au financement d’un projet de financement avancé sont appelées sources de financement. Une fois qu’un client, une organisation ou une subvention est défini comme source de financement, il peut être affecté à une ou plusieurs règles de financement. Les règles de financement contiennent les critères qui déterminent la façon dont les frais sont répartis entre les différentes sources de financement d’un projet. 
+Dans les projets associés à plusieurs bailleurs de fonds, toutes les parties qui contribuent au financement d’un projet de financement avancé sont appelées sources de financement. Une fois qu’un client, une organisation ou une subvention est défini(e) comme source de financement, il/elle peut être affecté(e) à une ou plusieurs règles de financement. Les règles de financement contiennent les critères qui déterminent la répartition des frais entre les différentes sources de financement d’un projet. 
 
 Étant donné que les articles en stock, tels que ceux qui apparaissent sur les demandes d’achat et les bons de commande, ne peuvent pas être répartis, le montant du coût ne peut pas être réparti entre plusieurs sources de financement au moment de la distribution. Par conséquent, la valeur de la source de financement reste 0 (zéro) jusqu’à ce que la sortie de stock soit validée. Lorsque la sortie de stock est validée, le montant du coût est réparti selon les règles de répartition des comptes du projet.
 
@@ -57,16 +55,16 @@ Voici quelques étapes que vous pouvez suivre pour faciliter la répartition de 
 
 -   Spécifiez que toutes les transactions saisies pour un projet utilisent la même devise de vente que le contrat de projet.
 -   Définissez des limites de financement, de sorte qu’une source de financement ne soit pas facturée plus qu’un montant spécifié pour un projet.
--   Configurez les règles de financement et les limites de financement pour chaque employé, article, catégorie, groupe de catégories et type de transaction (ou pour tous les types de transaction).
+-   Configurez des règles de financement et des limites de financement pour chaque collaborateur, article, catégorie, groupe de catégories et type de transaction (ou pour tous les types de transaction).
 -   Sélectionnez des dates de début et de fin facultatives pour définir la période pendant laquelle chaque règle de financement est valide.
 -   Précisez le pourcentage dont chaque source de financement est responsable.
 -   Spécifiez quelle source de financement est responsable des différences d’arrondi causées par les calculs d’allocation de financement.
 -   Définissez des règles qui déterminent la manière dont les coûts du projet sont facturés aux clients externes et facturés aux organisations internes.
 -   Enregistrez les transactions dans un compte de financement en attente jusqu’à ce qu’un financement supplémentaire puisse être obtenu, ou jusqu’à ce que vous décidiez de supporter les coûts en interne.
 
-Pour déterminer le groupe de taxes à associer à une transaction, le projet est recherché pour une affectation de groupe de taxes. Si aucune affectation de groupe de taxe n’a été effectuée au niveau du projet, le contrat de projet est recherché.
+Pour déterminer le groupe de taxes à associer à une transaction, le projet est recherché pour une affectation de groupe de taxes. Si aucune affectation de groupe de taxes n’a été effectuée au niveau du projet, le contrat de projet est recherché.
 
-### <a name="example-multiple-funding-sources-simple"></a>Exemple : plusieurs sources de financement (simple)
+### <a name="example-multiple-funding-sources-simple"></a>Exemple : plusieurs sources de financement (scénario simple)
 
 Le tableau suivant présente des scénarios de gestion de la répartition du financement entre plusieurs sources de financement. Ces scénarios reposent sur les hypothèses suivantes :
 
@@ -95,9 +93,9 @@ Le tableau suivant présente des scénarios de gestion de la répartition du fin
 <li>Source de financement 3</li>
 </ul></td>
 <td><ul>
-<li>100%</li>
-<li>100%</li>
-<li>100%</li>
+<li>100%%</li>
+<li>100%%</li>
+<li>100%%</li>
 </ul></td>
 <td><ul>
 <li>1</li>
@@ -106,16 +104,16 @@ Le tableau suivant présente des scénarios de gestion de la répartition du fin
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Vous souhaitez affecter 75 % des coûts à une source de financement et 25 % à une deuxième source de financement. Lorsque l’une de ces sources de financement est épuisée, vous voulez payer les coûts restants à partir d’une troisième source de financement.</td>
+<td>Vous souhaitez affecter 75 %% des coûts à une source de financement et 25 %% à une deuxième source de financement. Lorsque l’une de ces sources de financement est épuisée, vous voulez payer les coûts restants à partir d’une troisième source de financement.</td>
 <td><ul>
 <li>Source de financement 1</li>
 <li>Source de financement 2</li>
 <li>Source de financement 3</li>
 </ul></td>
 <td><ul>
-<li>75 %</li>
-<li>25 %</li>
-<li>100%</li>
+<li>75 %%</li>
+<li>25 %%</li>
+<li>100%%</li>
 </ul></td>
 <td><ul>
 <li>1</li>
@@ -124,7 +122,7 @@ Le tableau suivant présente des scénarios de gestion de la répartition du fin
 </ul></td>
 </tr>
 <tr class="even">
-<td>Vous souhaitez affecter 75 % des coûts à une source de financement et 25 % à une deuxième source de financement. Lorsque l’une de ces sources de financement est épuisée, vous voulez répartir les coûts restants entre une troisième source de financement et une quatrième source de financement.</td>
+<td>Vous souhaitez affecter 75 %% des coûts à une source de financement et 25 %% à une deuxième source de financement. Lorsque l’une de ces sources de financement est épuisée, vous voulez répartir les coûts restants entre une troisième source de financement et une quatrième source de financement.</td>
 <td><ul>
 <li>Source de financement 1</li>
 <li>Source de financement 2</li>
@@ -132,10 +130,10 @@ Le tableau suivant présente des scénarios de gestion de la répartition du fin
 <li>Source de financement 4</li>
 </ul></td>
 <td><ul>
-<li>75 %</li>
-<li>25 %</li>
-<li>50 %</li>
-<li>50 %</li>
+<li>75 %%</li>
+<li>25 %%</li>
+<li>50 %%</li>
+<li>50 %%</li>
 </ul></td>
 <td><ul>
 <li>1</li>
@@ -145,14 +143,14 @@ Le tableau suivant présente des scénarios de gestion de la répartition du fin
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Vous souhaitez affecter les premiers 25 % des coûts à une source de financement et le reste à une deuxième source de financement.</td>
+<td>Vous souhaitez affecter les premiers 25 %% des coûts à une source de financement et le reste à une deuxième source de financement.</td>
 <td><ul>
 <li>Source de financement 1</li>
 <li>Source de financement 2</li>
 </ul></td>
 <td><ul>
-<li>25 %</li>
-<li>100%</li>
+<li>25 %%</li>
+<li>100%%</li>
 </ul></td>
 <td><ul>
 <li>1</li>
@@ -166,25 +164,25 @@ Le tableau suivant présente des scénarios de gestion de la répartition du fin
 
 Vous disposez de trois sources de financement que vous souhaitez utiliser dans l’ordre suivant :
 
-1.  Utilisez la source de financement 2 et la source de financement 3 de manière égale jusqu’à ce que la source de financement 2 soit épuisée.
-2.  Continuez à utiliser la source de financement 3 jusqu’à ce qu’elle soit épuisée.
-3.  Utilisez la source de financement 1 une fois la source de financement 3 épuisée.
+1.  Utiliser à parts égales la source de financement 2 et la source de financement 3 jusqu’à ce que la source de financement 2 soit épuisée.
+2.  Continuer à utiliser la source de financement 3 jusqu’à ce qu’elle soit épuisée.
+3.  Utiliser la source de financement 1 après avoir épuisé la source de financement 3.
 
-Pour atteindre cet objectif, vous devez d’abord procéder comme suit :
+Pour atteindre cet objectif, procédez comme suit :
 
--   Fixez des limites de financement pour la source de financement 2 et la source de financement 3, pour leurs montants respectifs.
+-   Fixez des limites de financement pour la source de financement 2 et la source de financement 3, pour leurs montants respectifs.
 -   Créez les règles de financement suivantes :
-    -   Règle 1 (priorité 1) : attribuez 50 % des transactions à la source de financement 2 et 50 % à la source de financement 3.
-    -   Règle 2 (priorité 2) : attribuez 100 % des transactions à la source de financement 3.
-    -   Règle 3 (priorité 3) : attribuez 100 % des transactions à la source de financement 1.
+    -   Règle 1 (priorité 1) : imputez 50 %% des transactions à la source de financement 2 et 50 %% à la source de financement 3.
+    -   Règle 2 (priorité 2) : imputez 100 %% des transactions à la source de financement 3.
+    -   Règle 3 (priorité 3) : imputez 100 %% des transactions à la source de financement 1.
 
-Cette configuration fonctionne, car les transactions sont vérifiées par rapport aux règles et aux limites pour déterminer si l’une d’entre elles s’applique à la transaction. Si aucune règle ou limite spécifique ne s’applique à la transaction, la règle Toutes les transactions s’applique. La règle Toutes les transactions correspond à toutes les transactions. 
+Cette configuration fonctionne, car les transactions sont vérifiées par rapport aux règles et aux limites pour déterminer si l’une d’entre elles s’applique à la transaction concernée. Si aucune règle ou limite spécifique ne s’applique à la transaction, la règle Toutes les transactions s’applique. La règle Toutes les transactions correspond à toutes les transactions. 
 
 Si une règle correspond à une transaction, le pourcentage qui a été alloué dans cette règle est appliqué en premier, mais uniquement une fois que les correspondances ont été vérifiées par rapport aux limites définies. Si une limite a été atteinte et si les fonds d’une source de financement sont épuisés, la règle de financement associée à la limite de financement n’est pas respectée et le programme vérifie la règle suivante qui s’applique. 
 
-Dans certains cas, seule une partie d’une transaction peut être allouée selon une règle. Cela peut se produire, car une limite est atteinte lorsque la transaction est allouée. Dans ce cas, seul un certain montant est alloué selon cette règle, par exemple 50 pour cent à chaque source de financement. C’est le cas de la règle 1, qui est décrite plus haut dans cette section. Le reste est alloué selon la règle suivante de la séquence. 
+Dans certains cas, seule une partie d’une transaction peut être imputée en vertu d’une règle, car une limite est atteinte lorsque la transaction est imputée. Dans ce cas, seul un certain montant est imputé selon cette règle, par exemple 50 %% à chaque source de financement, comme indiqué dans la règle 1 susmentionnée. Le reste est imputé selon la règle suivante de la séquence. 
 
-Le tableau suivant examine ce scénario en détail.
+Le tableau suivant décrit ce scénario en détail :
 
 <table>
 <colgroup>
@@ -199,45 +197,45 @@ Le tableau suivant examine ce scénario en détail.
 <tr class="even">
 <td>Règles de financement</td>
 <td><ul>
-<li>Règle 1 (priorité 1) : toutes les transactions. Allouez la source de financement 2 à 50 % et la source de financement 3 à 50 %.</li>
-<li>Règle 2 (priorité 2) : toutes les transactions. Allouez la source de financement 3 à 100 %.</li>
-<li>Règle 3 (priorité 2) : toutes les transactions. Allouez la source de financement 1 à 100 %.</li>
+<li>Règle 1 (priorité 1) : Toutes les transactions. Imputez 50 %% à la source de financement 2 et 50 %% à la source de financement 3.</li>
+<li>Règle 2 (priorité 2) : Toutes les transactions. Imputez 100 %% à la source de financement 3.</li>
+<li>Règle 3 (priorité 2) : Toutes les transactions. Imputez 100 %% à la source de financement 1.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Limites de financement</td>
 <td><ul>
-<li>Limite de la source de financement 1 = 10 000</li>
-<li>Limite de la source de financement 2 = 500</li>
-<li>Limite de la source de financement 3 = 750</li>
+<li>Limite de la source de financement 1 = 10 000,00</li>
+<li>Limite de la source de financement 2 = 500,00</li>
+<li>Limite de la source de financement 3 = 750,00</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Transaction 1</td>
-<td><strong>Montant de la transaction :</strong>100<strong>Financement :</strong> la transaction est payée selon la règle 1 uniquement, car la transaction est entièrement payée après l’application de la règle 1. La transaction est financée à parts égales entre la source de financement 2 et la source de financement 3.
+<td><strong>Montant de la transaction :</strong>100<strong>Financement :</strong> la transaction est payée selon la règle 1 uniquement, car la transaction est entièrement payée après l’application de la règle 1. La transaction est financée à parts égales entre la source de financement 2 et la source de financement 3.
 <ul>
-<li>Source de financement 2 : 50</li>
-<li>Source de financement 3 : 50</li>
+<li>Source de financement 2 : 50,00</li>
+<li>Source de financement 3 : 50,00</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Transaction 2</td>
 <td><strong>Montant de la transaction :</strong>5 000<strong>Financement :</strong> la transaction est payée selon les trois règles. <strong>Règle 1</strong>
 <ul>
-<li>Source de financement 2 : 450</li>
-<li>Source de financement 3 : 450</li>
+<li>Source de financement 2 : 450,00</li>
+<li>Source de financement 3 : 450,00</li>
 </ul>
 <strong>Règle 2</strong>
 <ul>
-<li>Source de financement 3 : 250 (= 750 - 50 - 450)</li>
+<li>Source de financement 3 : 250,00 (= 750,00 - 50,00 - 450,00)</li>
 </ul>
 <strong>Règle 3</strong>
 <ul>
-<li>Source de financement 1 : 3 850 (= 5 000 - 450 - 450 - 250)</li>
+<li>Source de financement 1 : 3 850,00 (= 5 000,00 - 450,00 - 450,00 - 250,00)</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Total des fonds distribués pour chaque source de financement</td>
+<td>Total des fonds imputés à chaque source de financement</td>
 <td><ul>
 <li>Source de financement 1 : 3 850</li>
 <li>Source de financement 2 : 500</li>
@@ -248,19 +246,19 @@ Le tableau suivant examine ce scénario en détail.
 </table>
 
 ## <a name="billing-rules"></a>Règles de facturation
-Lorsque vous négociez un contrat de projet avec un client, vous définissez comment et quand vous pouvez facturer le client pour le travail sur un projet. Après avoir configuré le contrat de projet et le projet, vous pouvez définir des règles de facturation pour le projet. Les règles de facturation sont basées sur les conditions du projet qui sont spécifiées dans le contrat de projet. Les règles de facturation que vous pouvez créer dépendent des conditions du contrat de projet et du type de projet, tel que Temps et matériel ou Prix fixe, que vous associez à la règle de facturation. Vous pouvez créer plusieurs règles de facturation pour un contrat de projet. Vous pouvez également affecter une règle de facturation à plusieurs projets associés au même contrat de projet et ayant des conditions de facturation similaires. 
+Lorsque vous négociez un contrat de projet avec un client, vous définissez comment et quand vous pouvez facturer le client pour le travail sur un projet. Après avoir configuré le contrat de projet et le projet, vous pouvez définir des règles de facturation pour le projet. Les règles de facturation sont basées sur les conditions du projet spécifiées dans le contrat de projet. Les règles de facturation que vous pouvez créer dépendent des conditions du contrat de projet et du type de projet, par exemple Régie ou Prix fixe, que vous associez à la règle de facturation. Vous pouvez créer plusieurs règles de facturation pour un contrat de projet. Vous pouvez également affecter une règle de facturation à plusieurs projets associés au même contrat de projet et dont les conditions de facturation sont similaires. 
 
 Vous pouvez configurer les types de règles de facturation suivants :
 
--   **Unité de livraison** : facturer un client lorsque vous complétez une unité de livraison. Vous définissez les unités de livraison dans le contrat.
--   **Progression** : facturer un client lorsque vous terminez un pourcentage spécifié du projet. Vous pouvez configurer une règle de facturation pour calculer automatiquement le pourcentage de travail achevé, ou vous pouvez calculer manuellement le pourcentage de travail achevé et le montant à facturer au client.
--   **Jalon** : facturer un client pour le montant total d’un jalon de projet lorsque le jalon est atteint.
+-   **Unité de livraison** : facturez un client lorsque vous achevez une unité de livraison. Vous définissez les unités de livraison dans le contrat.
+-   **Avancement** : facturez un client lorsque vous achevez un pourcentage spécifié du projet. Vous pouvez soit configurer une règle de facturation pour calculer automatiquement le pourcentage de travail achevé, soit calculer manuellement le pourcentage de travail achevé et le montant à facturer au client.
+-   **Jalon** : facturez à un client le montant total d’un jalon de projet lorsque le jalon est atteint.
 -   **Frais** : facturez un client pour vos services plus des frais de gestion, qui correspondent généralement à un pourcentage du coût des services.
--   **Temps et matériel** : facturez un client pour la valeur du temps et des matériaux utilisés sur un projet.
+-   **Régie** : facturez à un client la valeur du temps et des matériaux utilisés sur un projet.
 
-Pour tous les types de règles de facturation, vous pouvez spécifier un pourcentage de rétention qui est déduit des factures client jusqu’à ce qu’un projet atteigne une étape convenue. Le pourcentage de rétention de paiement est spécifié dans le contrat de projet. Le montant est calculé en fonction de la valeur totale des lignes d’une facture client et soustrait de celle-ci. 
+Pour tous les types de règles de facturation, vous pouvez spécifier un pourcentage de rétention déduit des factures client jusqu’à ce qu’un projet atteigne une phase convenue. Le pourcentage de rétention de paiement est spécifié dans le contrat de projet. Le montant est calculé en fonction de la valeur totale des lignes d’une facture client et soustrait de celle-ci. 
 
-Pour les règles de facturation **Temps et matériel** et **Progression**, vous pouvez attribuer des catégories facturables. Les catégories facturables indiquent les transactions à inclure dans les factures des clients. 
+Pour les règles de facturation **Régie** et **Avancement**, vous pouvez affecter des catégories facturables. Les catégories facturables indiquent les transactions à inclure dans les factures client. 
 
 Lorsque vous êtes prêt à facturer le client, le montant à facturer pour le projet est calculé en fonction des règles de facturation et une proposition de facture de projet est générée. 
 
@@ -282,7 +280,7 @@ Lorsque vous avez terminé une session de formation, vous pouvez créer une fact
 
 Votre organisation, une société de conseil en logiciels, conclut un accord avec un client pour développer une partie d’un produit que le client développe. Votre organisation s’engage à livrer le code logiciel sur une période de six mois. Le client s’engage à payer à votre organisation un total de 100 000 pour les travaux. Vous créez une règle de facturation pour facturer le client en fonction du pourcentage de travail achevé sur le projet, comme spécifié dans le contrat.
 
--   À la fin du premier mois, vous rencontrez le client pour déterminer le pourcentage de travail réalisé. Une fois que vous et le client avez examiné le projet, vous décidez que le projet est achevé à 15 %.
+-   À la fin du premier mois, vous rencontrez le client pour déterminer le pourcentage de travail réalisé. Une fois que vous et le client avez examiné le projet, vous décidez que le projet est achevé à 15 %%.
 -   Vous créez une facture pour 15 000 (15 pour cent de 100 000) et l’envoyez au client.
 
 ### <a name="example-create-a-billing-rule-that-is-based-on-a-specified-percentage-of-project-completion-automatic-calculation"></a>Exemple : créer une règle de facturation basée sur un pourcentage spécifié d’achèvement du projet (calcul automatique)
@@ -294,8 +292,8 @@ Votre organisation, une entreprise de développement de logiciels, accepte de d�
 
 Lorsque vous créez une facture client pour la première fois, le montant de la facture est automatiquement calculé en fonction des informations suivantes :
 
--   Après un mois, l’employé du projet soumet une feuille de temps pour le projet. Le coût des heures d’employé est de 5 000 heures pour le développement et 1 000 pour l’installation. Les travaux de développement sont terminés à 33 % (5 000 coûts réels / 15 000 coûts budgétaires) et les travaux d’installation sont terminés à 20 % (1 000 coûts réels / 5 000 coûts budgétaires).
--   Le montant de la facture de 8 667 est calculé automatiquement (33 % de 20 000 + 20 % de 10 000).
+-   Après un mois, l’employé du projet soumet une feuille de temps pour le projet. Le coût des heures d’employé est de 5 000 heures pour le développement et 1 000 pour l’installation. Les travaux de développement sont terminés à 33 %% (5 000 coûts réels / 15 000 coûts budgétaires) et les travaux d’installation sont terminés à 20 %% (1 000 coûts réels / 5 000 coûts budgétaires).
+-   Le montant de la facture de 8 667 est calculé automatiquement (33 %% de 20 000 + 20 %% de 10 000).
 -   Vous créez une facture pour 8 667 et l’envoyez au client.
 
 ### <a name="example-create-a-billing-rule-that-is-based-on-agreed-upon-milestones"></a>Exemple : créer une règle de facturation basée sur des jalon convenus
@@ -317,11 +315,11 @@ Lorsque le premier jalon est atteint le 31 mars, vous le marquer comme atteint,
 
 ### <a name="example-create-a-billing-rule-that-is-based-on-services-plus-a-management-fee"></a>Exemple : Créer une règle de facturation basée sur des services plus des frais de gestion
 
-Votre organisation, une société de conseil en gestion, accepte de mener des études de marché pour évaluer la viabilité d’un produit que le client, une entreprise de vente au détail, développe. Les termes de l’accord précisent que vous fournirez les services de vos trois principaux consultants en gestion, qui mèneront la recherche en fonction du temps et des matériaux. Le client accepte de payer 100 par heure, plus des frais de gestion de 10 % pour les heures de consultation qui sont facturées au projet. 
+Votre organisation, une société de conseil en gestion, accepte de mener des études de marché pour évaluer la viabilité d’un produit que le client, une entreprise de vente au détail, développe. Les termes de l’accord précisent que vous fournirez les services de vos trois principaux consultants en gestion, qui mèneront la recherche en fonction du temps et des matériaux. Le client accepte de payer 100 par heure, plus des frais de gestion de 10 %% pour les heures de consultation qui sont facturées au projet. 
 
-Lorsque vous configurez le contrat de projet, créez une règle de facturation pour ajouter des frais de gestion de 10 % aux heures de consultation facturées au projet. 
+Lorsque vous configurez le contrat de projet, créez une règle de facturation pour ajouter des frais de gestion de 10 %% aux heures de consultation facturées au projet. 
 
-Lorsque vous créez une facture pour le client, le client reçoit des frais de gestion de 10 % plus le coût des heures de consultation. Par exemple, si les trois consultants ont travaillé un total de 200 heures sur le projet, une facture de 22 000 est créée sur la base du calcul suivant :
+Lorsque vous créez une facture pour le client, le client reçoit des frais de gestion de 10 %% plus le coût des heures de consultation. Par exemple, si les trois consultants ont travaillé un total de 200 heures sur le projet, une facture de 22 000 est créée sur la base du calcul suivant :
 
 -   200 heures à 100 par heure = 20 000
 -   10 pour cent de frais de gestion = 2000
@@ -344,3 +342,6 @@ Au cours du premier mois, un total de 800 heures est enregistré par les consul
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

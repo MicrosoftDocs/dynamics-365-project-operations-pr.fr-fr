@@ -2,8 +2,6 @@
 title: Processus de vente
 description: Cette rubrique fournit des informations sur les processus de vente de base.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145175"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000528"
 ---
 # <a name="sales-processes"></a>Processus de vente
 
@@ -41,7 +39,7 @@ Les processus de vente utilisés dans une organisation basée sur un projet diff
 
 L’illustration suivante montre un processus de vente habituel dans une organisation basée sur un projet.
 
-> ![Processus de vente dans une organisation basée sur un projet](media/basic-guide-1.png)
+> ![Processus de vente dans une organisation basée sur un projet.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Estimation d’une vente
 La valeur d’une vente peut être estimée sur la base de projets précédemment livrés et la complexité des projets. Pour les projets impliquant des extensions de projets précédents, ou des projets où l’expertise du fournisseur est élevée et des modèles de travail réputés sont utilisés, vous pouvez utiliser un processus plus simple d’estimation. Les projets plus complexes ont généralement un processus d’achat plus long. Par conséquent, il existe plus de phases dans le processus d’évaluation de ventes. Au début du processus, l’équipe de vente utilise l’entrée des responsables de compte et d’experts spécialisés pour commencer à créer une estimation générale de chaque composant distinct de travail qui est cité. Ces composants de travail sont représentés par des lignes de devis. 
@@ -52,7 +50,7 @@ Vous pouvez créer plusieurs devis pour un projet et les regrouper sous un type 
 
 Vous pouvez également créer des devis alternatifs sous un type d’entité Opportunité ou configurer le système pour qu’un contrat de projet soit créé lorsqu’un devis est conclu. Dans ce cas, vous pouvez joindre un document Word qui représente l’énoncé des travaux à l’enregistrement de contrat du projet.
 
-![Fermeture d’un devis pour créer un contrat de projet](media/basic-guide-2.png)
+![Fermeture d’un devis pour créer un contrat de projet.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Configuration du processus de vente
 Vous pouvez utiliser des flux des processus d’entreprise dans Microsoft Dynamics 365 pour configurer votre processus de vente. Les flux des processus d’entreprise donnent à votre force de vente une interface visuelle guidée qu’ils peuvent utiliser pour transférer la transaction dans les différentes phases courantes dans votre entreprise.
@@ -68,7 +66,7 @@ Par exemple, votre société peut comporter les six étapes suivantes dans le pr
 
 Ces six étapes sont représentés par des chevrons (\>) que vous sélectionnez pour les développer dans chaque type d’entité Opportunité que vous créez.
 
-![Configuration du processus d’entreprise dans Dynamics 365](media/basic-guide-3.png)
+![Configuration du processus d’entreprise dans Dynamics 365.](media/basic-guide-3.png)
  
 Votre organisation peut utiliser différentes entités pour représenter la même transaction à mesure qu’elle évolue. Au début du processus de vente, une transaction est représentée par l’entité Opportunité. Au fil du temps et à mesure que des informations émergent, vous pouvez utiliser des estimations générales pour créer un ou plusieurs devis. Si l’un de ces devis est examiné par les parties prenantes internes et du client, l’entité Devis représente la transaction. Une fois que le client accepte le devis, un contrat du projet ou un énoncé des travaux représente la transaction. Pour soutenir ce comportement, des flux des processus d’entreprise sont structurés afin que chaque phase du processus soit liée à une table de base de données différente.
 
@@ -79,7 +77,7 @@ Lorsque vous déplacez les transactions via les phases, vous êtes invité à cr
 > [!NOTE]
 > PSA contient des pages spécifiques pour les entités Opportunité, Devis, Commande, et Facture. Vous devez créer des opportunités, des devis, des commandes et des factures de service de projet à l’aide des pages d’informations de projet de celles-ci. Si vous utilisez une autre page pour créer un enregistrement, vous ne pourrez pas ouvrir l’enregistrement à partir de la page **Informations sur le projet**. Si vous souhaitez ouvrir un enregistrement à partir de la page **Informations sur le projet**, vous devez supprimer l’enregistrement et le recréer à l’aide de la page **Informations sur le projet**. Sur la page **Informations sur le projet**, une logique métier pour chacun de ces types d’entités garantit que le champ **Type** de l’enregistrement est correctement défini, et que tous les concepts obligatoires sont correctement initialisés.
 
-> ![Informations sur le projet pour une nouvelle commande](media/basic-guide-4.png)
+> ![Informations sur le projet pour une nouvelle commande.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Différences entre Project Service Automation et Sales
 Bien que le processus de vente dans PSA utilise les fonctionnalités de base du processus de vente de Sales, il présente des différences clés en raison des variations dans les pratiques commerciales des organisations basées sur un projet. Voici quelques exemples :
@@ -93,3 +91,6 @@ Dans PSA, vous ne pouvez pas suivre les modifications apportées à un devis. À
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Suivi des commentaires et des approbations de devis et de contrats de projet
 Vous pouvez gérer la révision et l’approbation des devis et des contrats de projet à l’aide du mur d’enregistrement et des publications. Votre organisation peut créer des workflows et des plug-ins personnalisés pour attribuer, rediriger, réaffecter et gérer les notifications de révision et d’approbation des éléments de travail.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

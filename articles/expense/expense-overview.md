@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: c4e2f441e1c4b1bcba5bca292b8075b4334a004d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764906"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276570"
 ---
 # <a name="expense-home-page"></a>Page d’accueil des dépenses
 
@@ -44,3 +44,6 @@ Pour plus d’informations, consultez [Saisie des dépenses (simplifiée)](basic
 
 ## <a name="determine-your-expense-deployment"></a>Déterminer votre déploiement de dépenses
 Pour déterminer si vous exécutez le déploiement de la gestion des dépenses de base, vérifiez que l’URL de l’adresse se termine par **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Listes de prix par défaut
 description: Cette rubrique fournit des informations sur les ventes par défaut et les listes de prix de revient dans Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130935"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989863"
 ---
 # <a name="default-price-lists"></a>Listes de prix par défaut
 
@@ -21,7 +19,7 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 ## <a name="sales-price-lists"></a>Tarifs de vente
 
-Chaque devis et contrat de projet dans Dynamics 365 Project Operations contient un tarif de vente par défaut. 
+Chaque devis et contrat de projet dans Dynamics 365 Project Operations contient une liste de prix de vente par défaut. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Liste de prix par défaut sur les devis de projet
 Le système effectue le processus suivant pour déterminer le tarif par défaut sur un devis de projet :
@@ -57,3 +55,6 @@ Les listes de prix de revient n’utilisent par défaut aucune entité dans Proj
 5. Ensuite, le système examine la date de validité des listes de prix qui correspondent à la date du devis entrant ou de la ligne réelle. 
 6. S’il existe plusieurs listes de prix valables pour la date de l’estimation entrante ou réelle, le tarif créée le plus récemment est sélectionnée.
 7. Si aucun tarif de revient associée aux paramètres du projet ne correspond à la devise et à la date de validité, le système définit par défaut le taux de coût sur zéro (0) sur le devis entrant ou la ligne réelle.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

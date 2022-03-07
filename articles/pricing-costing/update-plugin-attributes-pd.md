@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 7999c003a0cf670d586ebf4445901e106fbee39f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643215"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274680"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Mettre à jour les attributs de plug-in avec de nouvelles dimensions de tarification
 
@@ -52,3 +52,6 @@ Effectuez les étapes suivantes pour mettre à jour et réenregistrer les plug-i
 7. Cliquez sur **OK** pour fermer la page, puis sélectionnez **Mettre à jour l’étape**.
 8. Répétez les étapes 2 à 7 pour le deuxième plug-in, **PreOperationQuoteLineDetail**. Pour ce plug-in, vous devez mettre à jour l'étape **Update of msdyn_quotelinetransaction**.
 9. Fermez **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Suivre le statut d’un projet
 description: Procédure de suivi du statut d’un projet dans Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e9c8b594d468016264d0b4d9745597a35f55e50e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149585"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996703"
 ---
 # <a name="track-a-projects-status-project-service"></a>Suivre le statut d’un projet (Project Service)
 
@@ -41,7 +39,7 @@ Utilisez le [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-pr
 |   **Nouveau**    | Lorsque vous créez un projet, la phase est définie sur **Nouveau**. Si vous créez le projet à partir d’un modèle, à cette phase le projet peut avoir un calendrier, des estimations et les données d’équipe. Sinon, celui-ci sera le plan du projet et vous devez entrer manuellement le reste des composants du projet. |
 |  **devis**   |      Lorsque vous associez un projet à un devis ou le créez depuis un devis, la phase de projet est définie sur **Devis**, et les dates de début et de fin estimée sont également mises à jour. Lorsque le projet est dans la phase de devis, les informations sur le devis s’affichent sous l’onglet **Sales** dans la page **Projet**.      |
 |   **Planifier**   |                                     Lorsque vous ayez conclu un devis associé à un projet, et lorsque l’engagement progresse vers la phase de contrat, la phase de projet est mise à jour sur **Planifier**. Les détails de contrat s’affichent sous l’onglet **Sales** dans la page **Projet**.                                      |
-| **Fin** |                    Lorsque la tâche de projet est terminée, vous pouvez revenir vers la phase **Terminé**. Lorsque la phase de projet est définie sur terminée, la tâche est terminée à 100 % mais le projet est maintenu ouvert en attendant l’enregistrement du temps ou des dépenses.                     |
+| **Fin** |                    Lorsque la tâche de projet est terminée, vous pouvez revenir vers la phase **Terminé**. Lorsque la phase de projet est définie sur terminée, la tâche est terminée à 100 %% mais le projet est maintenu ouvert en attendant l’enregistrement du temps ou des dépenses.                     |
 |  **Fermer**   |           Lorsque toutes les transactions ont été enregistrées sur le projet et que vous ne prévoyez plus de saisir de données, vous pouvez manuellement définir la phase sur **Fermer**. Lorsque le contrat est défini sur **Fermer**, vous ne pouvez plus enregistrer de transactions sur le projet et le projet est en lecture seule.           |
 
 ## <a name="to-track-a-projects-status"></a>Pour suivre le statut d’un projet  
@@ -58,3 +56,6 @@ Utilisez le [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-pr
 
 ### <a name="see-also"></a>Voir aussi  
  [Guide du responsable de projet](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

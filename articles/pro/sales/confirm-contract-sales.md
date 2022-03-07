@@ -2,18 +2,16 @@
 title: Confirmer un contrat de projet
 description: Cette rubrique fournit des informations sur le mode de confirmation d’un contrat dans Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128280"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989818"
 ---
 # <a name="confirm-a-project-contract"></a>Confirmer un contrat de projet
 
@@ -23,7 +21,7 @@ Un contrat de projet dans Dynamics 365 Project Operations peut être actif avec 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Impact financier de la confirmation d’un contrat de projet
 
-Une fois qu’un contrat de projet est confirmé, l’application recalcule les coûts en inversant les anciens chiffres réels de coûts et en créant les chiffres réels de coûts. Les nouveaux coûts réels sont ensuite traités en fonction de la méthode de facturation de la ligne de contrat de projet associée. Si les coûts réels font référence à une ligne de contrat Temps et matériel, l’application recrée automatiquement les chiffres réels des ventes non facturées correspondants. Si les coûts réels font référence à une ligne de contrat à prix fixe, l’application arrête de retraiter les coûts réels.
+Après la confirmation d’un contrat de projet, l’application recalcule les coûts en contrepassant les anciens chiffres réels des coûts et en créant des chiffres réels des coûts. Les nouveaux chiffres réels des coûts sont ensuite traités en fonction du mode de facturation de la ligne de contrat de projet associée. Si les coûts réels font référence à une ligne de contrat Temps et matériel, l’application recrée automatiquement les chiffres réels des ventes non facturées correspondants. Si les coûts réels font référence à une ligne de contrat à prix fixe, l’application arrête de retraiter les coûts réels.
 
 Les limites à ne pas dépasser, la configuration de la chargeabilité, la tarification et le calcul des coûts réels sont évalués puis mis à jour dans le cadre du processus de confirmation.
 
@@ -34,4 +32,7 @@ Lorsque vous fermez un contrat de projet considéré perdu, le statut du contrat
 Si le contrat de projet qui est fermé parce que considéré perdu fait référence à un projet sur ses lignes, ce projet est également marqué comme fermé. Toutes les réservations de ressources à partir de ce jour sont annulées. Les ventes réelles non facturées sur le contrat de projet qui ne figurent pas déjà sur une facture seront annulées.
 
 > [!NOTE]
-> Dans Dynamics 365 Project Operations, la clôture d’un contrat de projet comme perdu n’aura pas d’impact sur ce statut de l’opportunité associée. L’opportunité restera ouverte et doit être fermée manuellement.
+> Dans Dynamics 365 Project Operations, la fermeture d’un contrat de projet comme perdu n’affectera le statut de l’opportunité associée. L’opportunité restera ouverte et doit être fermée manuellement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

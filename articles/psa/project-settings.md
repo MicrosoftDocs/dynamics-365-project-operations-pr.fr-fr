@@ -2,8 +2,6 @@
 title: Paramètres du projet
 description: Cette rubrique fournit des informations sur les paramètres de gestion du projet.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148145"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996928"
 ---
 # <a name="project-settings"></a>Paramètres du projet
 
@@ -49,7 +47,7 @@ Pour créer une planification de projet, créez un modèle de calendrier de proj
   - Planification des tâches sur un jour
   - Absence
 
-> ![Groupe d’options](media/project-13.png)
+> ![Configurez des options.](media/project-13.png)
 
 4. Sélectionnez **Nouvelle planification hebdomadaire**, puis définissez les options de cette planification de ressource. Vous pouvez définir une planification hebdomadaire récurrente, des paramètres d’heure quotidiens, des fermetures de bureaux, et plus encore.
 5. Définissez la plage de dates, la sélectionnez **Enregistrer**, puis cliquez sur **Fermer**. 
@@ -68,3 +66,6 @@ Chaque organisation doit configurer ces rôles sur la page **Catégories de ress
 ## <a name="price-lists"></a>Tarifs
 
 Les tarifs vous permettent de définir le coût et les prix de vente des rôles de ressources, des catégories de dépenses, des produits et d’autres éléments dans votre organisation. Avant de définir des estimations financières pour le travail à fournir pour un projet, vous devez créer un coût de support et des tarifs de vente. Dans la section des paramètres, vous devez configurer un coût et des tarifs de vente par défaut qui s’appliquent à tous les projets créés dans l’organisation. Dans la page **Paramètres du projet actifs**, vérifiez que vous configurez un coût et des tarifs de vente par défaut.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

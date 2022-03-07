@@ -2,18 +2,16 @@
 title: Gérer plusieurs clients sur les lignes de devis selon les projets
 description: Cette rubrique fournit des informations sur la manière de gérer plusieurs clients sur des lignes de devis basées sur des projets.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118560"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992023"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Gérer plusieurs clients sur les lignes de devis selon les projets
 
@@ -27,7 +25,7 @@ Tous les clients du devis sur l’onglet **Clients** du devis de projet par déf
 
 ## <a name="create-update-or-delete-a-quote-line-customer-record"></a>Créer, mettre à jour ou supprimer un enregistrement client de ligne de devis
 
-Vous pouvez créer, mettre à jour ou supprimer un client de ligne de devis sur l’onglet **Clients de la ligne de devis** sur la page **Ligne de devis basée sur le projet**. Lorsque vous ajoutez un nouveau client sur la ligne de devis basée sur le projet, le client est également ajouté au devis global en tant que client du devis, avec un pourcentage de répartition de facturation par défaut sur le devis global de 0 %. Le pourcentage de facturation fractionnée sur le devis global est copié dans les nouvelles lignes de devis et dans l’éventuel contrat de projet. Cependant, lorsque vous facturez à partir du contrat, le pourcentage de facturation fractionnée au niveau de la ligne de devis est utilisé, et non le pourcentage de facturation fractionnée au niveau du contrat global. 
+Vous pouvez créer, mettre à jour ou supprimer un client de ligne de devis sur l’onglet **Clients de la ligne de devis** sur la page **Ligne de devis basée sur le projet**. Lorsque vous ajoutez un nouveau client sur la ligne de devis basée sur le projet, le client est également ajouté au devis global en tant que client du devis, avec un pourcentage de répartition de facturation par défaut sur le devis global de 0 %%. Le pourcentage de facturation fractionnée sur le devis global est copié dans les nouvelles lignes de devis et dans l’éventuel contrat de projet. Cependant, lorsque vous facturez à partir du contrat, le pourcentage de facturation fractionnée au niveau de la ligne de devis est utilisé, et non le pourcentage de facturation fractionnée au niveau du contrat global. 
 
 Le tableau suivant affiche les champs sur l’enregistrement de client de la ligne de devis d’une ligne de devis selon un projet.
 
@@ -41,6 +39,9 @@ Le tableau suivant affiche les champs sur l’enregistrement de client de la lig
 
 ## <a name="edit-billing-split-percentages"></a>Modifier des pourcentages de facturation fractionnée
 
-Vous pouvez modifier les pourcentages de facturation fractionnée en ligne. Lorsque les pourcentages de facturation fractionnée ne totalisent pas 100 %, une erreur se produit. Après avoir modifié les pourcentages de facturation fractionnée, actualisez la page de ligne de devis pour supprimer l’erreur.
+Vous pouvez modifier les pourcentages de facturation fractionnée en ligne. Lorsque les pourcentages de facturation fractionnée ne totalisent pas 100 %%, une erreur se produit. Après avoir modifié les pourcentages de facturation fractionnée, actualisez la page de ligne de devis pour supprimer l’erreur.
 
 Utilisez l’action de répartition homogène sur la sous-grille des clients de la ligne de devis pour attribuer des facturations fractionnées à tous les clients de la ligne de devis. S’il y a un facteur d’arrondi, il sera ajouté au client d’arrondi. L’un des clients de la ligne de devis est toujours marqué comme client d’arrondi, ce qui signifie que l’enregistrement de client de la ligne de devis a l’indicateur d’arrondi défini sur **Oui**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

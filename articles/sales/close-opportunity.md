@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 59a4cd96a4fd24987179f0ab17f1379efc22bbbe
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8698663fc35c9ae0eb54c2f1cf1fbbaaf29230d7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128722"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278775"
 ---
 # <a name="close-an-opportunity"></a>Fermer une opportunité
 
@@ -24,3 +24,6 @@ Les opportunités de projet peuvent être fermées comme « conclues » ou »
 Vous ne serez pas autorisé à fermer l’opportunité si des devis actifs y sont associés. Vous pouvez fermer tous les devis actifs et en projet associés à une opportunité en même temps. Ensuite, vous serez autorisé à fermer l’opportunité.
 
 Pour plus d’informations générales sur la fermeture des opportunités, voir [Fermer des opportunités comme conclues ou perdues](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

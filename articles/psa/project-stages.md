@@ -2,8 +2,6 @@
 title: Types de phase du projet
 description: Cette rubrique fournit des informations sur les phases du projet.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148100"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996883"
 ---
 # <a name="project-stage-types"></a>Types de phase du projet 
 
@@ -65,3 +63,6 @@ Lorsque le travail du projet est terminé, le chef de projet peut mettre à jour
 ## <a name="close"></a>Fermer
 
 Lorsque toutes les transactions sont enregistrées pour le projet, le chef de projet peut mettre à jour la phase sur **Fermer**. À ce stade, aucune transaction ne peut être enregistrée, et le projet passe en lecture seule.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

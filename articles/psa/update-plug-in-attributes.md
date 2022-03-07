@@ -2,11 +2,9 @@
 title: Mettre à jour les attributs de plug-in pour inclure de nouvelles dimensions de tarification
 description: Cette rubrique donne des informations sur la mise à jour des attributs de plug-in pour les dimensions de tarification.
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147065"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988783"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Mettre à jour les attributs de plug-in pour inclure de nouvelles dimensions de tarification
 
@@ -44,27 +42,30 @@ Les étapes suivantes vous guident tout au long du processus d’enregistrement 
 1. Ouvrez **PluginRegistrationTool** et connectez-vous à votre instance en ligne.
 2. Cliquez sur **Rechercher** et recherchez le plug-in à mettre à jour.
 
- ![Capture d’écran de l’arborescence de recherche](media/PRT-1.png)
+ ![Capture d’écran de l’arborescence de recherche.](media/PRT-1.png)
 
 3. Une fois le plug-in trouvé, sélectionnez-le, puis cliquez sur **Sélectionner sur le formulaire principal**.
 
 4. Sélectionnez l’étape du plug-in à mettre à jour, cliquez avec le bouton droit, puis sélectionnez **Mettre à jour**.
 
- ![Capture d’écran du plug-in à mettre à jour](media/PRT-2.png)
+ ![Capture d’écran du plug-in à mettre à jour.](media/PRT-2.png)
  
 5. Dans la fenêtre de mise à jour, cliquez sur le bouton de sélection (**...**) dans les attributs de filtrage.
 
- ![Capture d’écran de la mise à jour les informations de configuration de l’étape existantes](media/PRT-3.png)
+ ![Capture d’écran de la mise à jour des informations de configuration de l’étape existante.](media/PRT-3.png)
  
 6. Activez les cases à cocher des attributs de tarification.
 
- ![Capture d’écran illustrant l’activation des cases à cocher des attributs de tarification](media/PRT-4.png)
+ ![Capture d’écran illustrant les cases à cocher activées pour les attributs de tarification.](media/PRT-4.png)
 
 7. Cliquez sur **OK** pour fermer la page, puis sélectionnez **Mettre à jour l’étape**.
 
- ![Capture d’écran illustrant le bouton « Mettre à jour l’étape »](media/PRT-5.png)
+ ![Capture d’écran illustrant le bouton Mettre à jour l’étape.](media/PRT-5.png)
  
 8. Répétez cette procédure pour le deuxième plug-in, **PreOperationQuoteLineDetail - Mise à jour de msdyn_quotelinetransaction**.
 
 9. Fermez Plug-in Registration Tool.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

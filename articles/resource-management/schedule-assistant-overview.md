@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075596"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279225"
 ---
 # <a name="schedule-assistant-overview"></a>Vue d’ensemble de l’Assistant Planifier
 
@@ -25,7 +25,7 @@ Une fois les ressources appropriées identifiées, le gestionnaire de ressources
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-L’Assistant Planifier fait partie de la solution Universal Resource Scheduling. Cette solution est incluse et installée avec Dynamics 365 Project Operations, Dynamics 365 Field Service et Dynamics 365 Customer Service.
+L’Assistant Planifier fait partie de la solution Universal Resource Scheduling. Cette solution est incluse et installée avec Dynamics 365 Project Operations, Dynamics 365 Field Service et Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Besoin de mise en correspondance et ressources
 
@@ -57,3 +57,6 @@ Le volet de filtre affiche les options liées au travail, notamment :
 -   Société d’allocation de ressources
 -   Types de ressources
 -   Ressources privilégiées
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

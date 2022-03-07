@@ -2,18 +2,16 @@
 title: Créer une planification de factures sur une ligne de contrat basée sur un projet
 description: Cette rubrique fournit des informations sur le mode de création de planifications de factures et de jalons pour les lignes de contrat.
 author: rumant
-manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999673"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Créer une planification de factures sur une ligne de contrat basée sur un projet 
 
@@ -21,15 +19,15 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 Vous pouvez créer une planification de factures sur une ligne de contrat basée sur un projet. La facturation n’est autorisée qu’après l’obtention du contrat et la création d’un contrat de projet. Une planification de facture permet de créer automatiquement des ébauches de factures pour une ligne de contrat basée sur un projet. Si toutefois vous ne créez que manuellement des factures, vous pouvez ignorer la création de planifications de factures sur les lignes de contrat.
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Créer une planification de facture de temps et de matériel pour une ligne de contrat
+## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Créer un calendrier de facturation en régie pour une ligne de contrat
 
-Lorsqu’une ligne de contrat basée sur un projet a une méthode de facturation du temps et des articles, vous pouvez créer une planification de facture basée sur la date. Pour générer automatiquement une planification de facture basée sur la date, procédez comme suit.
+Lorsqu’une ligne de contrat basée sur un projet est associée au mode de facturation en régie, vous pouvez créer un calendrier de facturation basé sur la date. Pour générer automatiquement une planification de facture basée sur la date, procédez comme suit.
 
 1. Accédez à **Paramètres** > **Fréquences de facturation** et configurez une fréquence de facturation.
 2. Accédez à l’enregistrement du contrat de projet et à l’onglet **Résumé**, dans le champ **Date de livraison requise**, sélectionnez une date.
-3. Ouvrez le contrat **Temps et matériel** pour lequel vous créez une planification de facture basée sur la date. 
-4. Sur l’onglet **Planification de facture**, sélectionnez la date de début de facturation et la fréquence de facturation.
-5. Sur la sous-grille, sélectionnez **Générer une planification de facture**. La planification de facture est générée avec les champs **Date d’exécution de la facture**, **Date limite de transaction** et **Statut d’exécution** définis de la manière suivante :
+3. Ouvrez la ligne de contrat en **Régie** pour laquelle vous créez le calendrier de facturation basé sur la date. 
+4. Dans l’onglet **Calendrier de facturation**, sélectionnez la date de début de facturation et la fréquence de facturation.
+5. Dans la sous-grille, cliquez sur **Générer un calendrier de facturation**. La planification de facture est générée avec les champs **Date d’exécution de la facture**, **Date limite de transaction** et **Statut d’exécution** définis de la manière suivante :
 
     - **Date d’exécution de la facture** : Cette date est dictée en fonction de la fréquence de facturation.
     - **Date limite de transaction** : Veille de la date d’exécution de la facture.
@@ -46,8 +44,8 @@ Effectuez les étapes suivantes pour générer une planification de facture bas�
 
 1. Accédez à **Paramètres** > **Fréquences de facturation** et configurez une fréquence de facturation.
 2. Accédez à l’enregistrement du contrat de projet et à l’onglet **Résumé**, dans le champ **Date de livraison requise**, sélectionnez une date.
-3. Ouvrez la ligne de contrat à **prix fixe** pour laquelle vous créez la planification de jalon. Sur l’onglet **Facturation des jalons**, sélectionnez la date de début de facturation et la fréquence de facturation. 
-4. Sur la sous-grille, sélectionnez **Générer des jalons périodiques**. La planification de facture est générée avec les champs **Nom du jalon**, **Date de jalon** et **Montant du jalon** définis comme suit :
+3. Ouvrez la ligne de contrat à **Prix fixe** pour laquelle vous créez le calendrier de jalons. Dans l’onglet **Jalons de facturation**, sélectionnez la date de début de facturation et la fréquence de facturation. 
+4. Dans la sous-grille, cliquez sur **Générer des jalons périodiques**. La planification de facture est générée avec les champs **Nom du jalon**, **Date de jalon** et **Montant du jalon** définis comme suit :
 
     - **Nom du jalon** : ce nom est dicté par la fréquence de facturation.
     - **Date du jalon** : Cette date est dictée en fonction de la fréquence de facturation.
@@ -74,3 +72,6 @@ Vous pouvez générer des jalons à prix fixe manuellement lorsqu’ils ne sont 
 | Taxes | Création rapide | Le montant de la taxe appliqué sur le jalon. | Ceci est propagé au jalon de la ligne de contrat de projet et la facture. |
 
 3. Sélectionnez **Enregistrer et fermer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

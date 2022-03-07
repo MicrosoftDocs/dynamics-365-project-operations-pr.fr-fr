@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006288"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000028"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Intégration des estimations et des chiffres réels de projet
 
@@ -30,7 +30,7 @@ La création d’estimations nécessite une configuration comptable valide pour 
 
 Les estimations de main-d’œuvre sont créées par le gestionnaire de projet ou le gestionnaire de ressources qui affecte également une ressource générique ou nommée à la tâche de projet. Les enregistrements d’affectations de ressources peuvent être consultés sur l’onglet **Affectations de ressources**, sur la page **Détails du projet** dans Dataverse. Les enregistrements d’affectations de ressources dans Dataverse créent des enregistrements de prévisions en heures dans les applications Finance and Operations à l’aide de l’**entité d’intégration Project Operations pour les estimations d’heures (msdyn\_resourceassignments)**.
 
-   ![Intégration des estimations de main-d’œuvre.](./Media/DW4LaborEstimates.png)
+   ![Intégration des estimations de main-d’œuvre](./Media/DW4LaborEstimates.png)
 
 La double écriture synchronise les enregistrements d’affectations de ressources avec la table intermédiaire (**ProjCDSEstimateHoursImport**), puis utilise la logique métier pour créer et mettre à jour les enregistrements de prévisions en heures (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Le comptable de projet examine les enregistrements d’heures prévues créés d
 
 Les estimations de dépenses sont créées par le gestionnaire de projet sur l’onglet **Estimations des dépenses**, sur la page **Détails du projet** dans Dataverse. Les enregistrements d’estimations des dépenses sont stockés dans l’entité **Ligne d’estimation** dans Dataverse. Ces enregistrements d’estimations ont une classe de transaction, **Dépense** et sont synchronisés avec les enregistrements de prévisions de dépenses dans les applications Finance and Operations à l’aide de l’**entité d’intégration de Project Operations pour les estimations de dépenses (msdyn\_estimatelines)**.
 
-   ![Intégration des estimations de dépenses.](./Media/DW4ExpenseEstimates.png)
+   ![Intégration des estimations de dépenses](./Media/DW4ExpenseEstimates.png)
 
 La double écriture synchronise les enregistrements d’estimations des dépenses avec la table intermédiaire (**ProjCDSEstimateExpenseImport**), puis utilise la logique métier pour créer et mettre à jour les enregistrements de prévisions des dépenses (**ProjForecastCost**). Les lignes d’estimations stockent les enregistrements d’estimation des ventes et d’estimation des coûts séparément. La logique métier dans les applications Finance and Operations remplit un seul enregistrement de prévisions des dépenses en utilisant ce détail dans la table intermédiaire.
 
@@ -50,7 +50,7 @@ Le comptable de projet peut examiner les enregistrements de prévisions des dép
 
 Les estimations du matériel sont créées par le gestionnaire de projet sur l’onglet **Estimations du matériel**, sur la page **Détails du projet** dans Dataverse. Les enregistrements d’estimation du matériel sont stockés dans l’entité **Ligne d’estimation** dans Dataverse. Ces enregistrements d’estimation ont une classe de transaction, **Matériel** et sont synchronisés avec les enregistrements de prévisions d’articles dans les applications Finance and Operations à l’aide de la **table d’intégration de Project Operations pour les estimations du matériel (msdyn\_estimatelines)**.
 
-   ![Intégration des estimations du matériel.](./Media/DW4MaterialEstimates.png)
+   ![Intégration des estimations du matériel](./Media/DW4MaterialEstimates.png)
 
 La double écriture synchronise les enregistrements d’estimations du matériel avec la table intermédiaire (**ProjForecastSalesImpor**), puis utilise la logique métier pour créer et mettre à jour les enregistrements de prévisions d’articles (**ForecastSales**). Les lignes d’estimations stockent les enregistrements d’estimation des ventes et d’estimation des coûts séparément. La logique métier dans les applications Finance and Operations remplit un seul enregistrement de prévisions d’articles en utilisant ce détail dans la table intermédiaire.
 
@@ -60,7 +60,7 @@ Le comptable de projet peut examiner les enregistrements de prévisions d’arti
 
 Les chiffres réels du projet sont créés dans Dataverse, en fonction du temps, des dépenses, du matériel et de l’activité de facturation. Tous les attributs opérationnels de ces transactions, y compris la quantité, le prix de revient, le prix de vente et le projet, sont capturés dans cette entité Dataverse. Pour plus d’informations, voir [Chiffres réels](../actuals/actuals-overview.md). Les enregistrements des chiffres réels sont synchronisés avec les applications Finance and Operations à l’aide du mappage de table à double écriture **Chiffres réels d’intégration de Project Operations (msdyn\_actuals)** pour la comptabilité en aval.
 
-   ![Intégration des chiffres réels.](./Media/DW4Actuals.png)
+   ![Intégration des chiffres réels](./Media/DW4Actuals.png)
 
 Le mappage de table **Chiffres réels d’intégration de Project Operations** synchronise tous les enregistrements de l’entité **Chiffres réels** dans Dataverse, avec l’attribut **Ignorer la synchronisation (usage interne uniquement)** défini sur **Faux**. Cette valeur d’attribut est définie dans Dataverse automatiquement lors de la création de l’enregistrement. Voici des exemples où cet attribut est défini sur **Vrai** :
 

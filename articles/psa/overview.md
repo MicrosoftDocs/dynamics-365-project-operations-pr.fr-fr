@@ -2,8 +2,6 @@
 title: Qu’est-ce que Dynamics 365 Project Service Automation ?
 description: Introduction et vue d’ensemble de Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/23/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 537fa056fd0103e1a4fa05c8e66d408286ee101c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150530"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998543"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Qu’est-ce que Dynamics 365 Project Service Automation ?
 
@@ -47,10 +45,10 @@ En outre, pour vous aider à surveiller et contrôler les coûts pour votre trav
 ## <a name="whats-new-in-psa"></a>Nouveautés de PSA
 L’équipe est ravie d’annoncer nos mises à jour les plus récentes ! Des améliorations ont été apportées à l’interface utilisateur, des bogues ont été corrigés et de nouvelles fonctionnalités et capacités importantes ont été ajoutées. Vous avez demandé et nous vous avons écouté.
 
-Consultez les [notes de publication d’octobre 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) pour connaître nos améliorations et ajouts les plus récents.
+Consultez les [notes de publication d’octobre 2019](/dynamics365-release-plan/2019wave2/index) pour connaître nos améliorations et ajouts les plus récents.
 
 ### <a name="in-development"></a>En développement
-Pour savoir ce que nous avons prévu dans un futur proche, consultez [Dynamics 365 : Plan de la 1ère partie du lancement 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Pour savoir ce que nous avons prévu dans un futur proche, consultez [Dynamics 365 : Plan de la 1re vague de lancement 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Obtenir de l’aide avec PSA version 3.x
 Vous recherchez des ressources pour vous aider à planifier votre implémentation ? Consultez les guides téléchargeables suivants.
@@ -86,3 +84,6 @@ Vous recherchez des ressources pour vous aider à planifier votre implémentatio
  <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

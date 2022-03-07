@@ -1,12 +1,10 @@
 ---
 title: Créer des contrats avancés pour la facturation selon la progression
-description: Cette rubrique explique comment créer des contrats de projet afin que vous puissiez générer des factures pour les clients, en fonction d'un pourcentage du travail terminé.
+description: Cette rubrique explique comment créer des contrats de projet afin que vous puissiez générer des factures pour les clients, en fonction d’un pourcentage du travail terminé.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,17 +16,17 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075869"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000978"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Créer des contrats avancés pour la facturation selon la progression
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment créer des contrats de projet afin que vous puissiez créer des factures pour les clients, en fonction d'un pourcentage du travail terminé. Les montants des factures sont automatiquement calculés pour les catégories de budget de travail que vous définissez pour un projet. Le délai de facturation est défini lorsque vous négociez le contrat de projet avec le client.
+Cette rubrique explique comment créer des contrats de projet afin que vous puissiez créer des factures pour les clients, en fonction d’un pourcentage du travail terminé. Les montants des factures sont automatiquement calculés pour les catégories de budget de travail que vous définissez pour un projet. Le délai de facturation est défini lorsque vous négociez le contrat de projet avec le client.
 
 Utilisez les procédures de cette rubrique pour configurer un contrat, un projet associé et les règles de facturation qui calculent les montants de facture pour les catégories de budget de travail que vous définissez pour le projet.
 
@@ -51,7 +49,7 @@ Le responsable du budget crée un budget pour les catégories de projet. La quan
 Avant de créer un projet qui utilise des règles de facturation, vous devez configurer les séquences de numéros pour les règles de facturation et un journal des frais qui est utilisé pour valider les facturations en fonction de la progression.
 
 1. Accédez à **Gestion et comptabilité des projets** \> **Configuration** \> **Paramètres de gestion et comptabilité des projets**.
-2. Sur la page **Paramètres de gestion et comptabilité des projets**, dans l'onglet **Séquences de numéros**, définissez la séquence de numéros à utiliser lors de la création des règles de facturation.
+2. Sur la page **Paramètres de gestion et comptabilité des projets**, dans l’onglet **Séquences de numéros**, définissez la séquence de numéros à utiliser lors de la création des règles de facturation.
 3. Accédez à **Gestion de projet et comptabilité** \> **Journaux** \> **Frais**.
 4. Sur la page **Journal des frais**, sélectionnez **Nouveau** et entrez le nom du journal.
 
@@ -68,7 +66,7 @@ Utilisez cette procédure pour créer un contrat de projet pour un projet à pri
     - **Source de financement**
     - **Devise de vente** - Par défaut, cette devise est utilisée pour les factures des clients associées au contrat de projet. Cependant, vous pouvez modifier la devise de vente sur une facture client spécifique.
 
-4. Cliquez sur **OK**. Les informations sont copiées dans l'en-tête de la page **Contrats de projet**.
+4. Cliquez sur **OK**. Les informations sont copiées dans l’en-tête de la page **Contrats de projet**.
 5. Sur la page **Contrats de projet**, remplissez le reste des informations requises pour le projet.
 
 ## <a name="create-a-project-for-progress-billings"></a>Créer un projet pour la facturation en fonction de la progression
@@ -80,7 +78,7 @@ Suivez ces étapes pour créer un projet et tous les sous-projets associés à u
 3. Dans la boîte de dialogue **Nouveau projet**, dans le champ **Type de projet**, sélectionnez **Temps et matériel**.
 4. Sélectionnez un groupe de projets. Un groupe de projets définit les informations de validation pour les projets affectés au groupe.
 5. Sélectionnez **Créer un projet**.
-6. Une fois le projet créé, définissez l'étape du projet sur **En cours**.
+6. Une fois le projet créé, définissez l’étape du projet sur **En cours**.
 
 ## <a name="create-a-budget-for-a-project"></a>Créer un budget pour un projet
 
@@ -103,3 +101,6 @@ Les catégories de budget sont utilisées pour calculer automatiquement les mont
 8. Facultatif : affectez la règle de facturation à des projets supplémentaires. Sur le raccourci **Projet**, dans la section **Projets disponibles**, sélectionnez un projet, puis sélectionnez le bouton flèche droite pour ajouter le projet à la section **Projets sélectionnés**.
 9. Facultatif : calculez le pourcentage que le client retient des paiements sur une facture. Sur le raccourci **Conditions de rétention des paiements**, sélectionnez la source de financement, puis, dans le champ **Pourcentage de rétention**, entrez le pourcentage de rétention.
 10. Répétez ces étapes pour créer des règles de facturation supplémentaires pour le contrat de projet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

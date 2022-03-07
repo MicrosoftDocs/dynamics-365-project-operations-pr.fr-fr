@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bdeeb100614cda78d0ba536310bb6b411c863b71
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150485"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282780"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Réviser l’arriéré de facturation sur les projets et les contrats de projet
 
@@ -59,3 +59,6 @@ Chaque ligne de contrat de projet avec une méthode de facturation à prix fixe 
 Pour vérifier les jalons de facturation, accédez à **Ventes** \> **Facturation** \> **Jalons de forfait**. Sélectionnez les jalons prêts à être facturés, puis sélectionnez **Prêt pour la facturation**. Le statut de facturation de ces jalons passe à **Prêt pour la facturation**.
 
 ![Jalons à prix fixe](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

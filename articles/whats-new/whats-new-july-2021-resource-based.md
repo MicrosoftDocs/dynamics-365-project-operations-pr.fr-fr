@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008043"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433515"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de juillet 2021 – Project Operations pour les scénarios basés sur les ressources/hors stock
 
@@ -20,7 +20,7 @@ ms.locfileid: "7008043"
 
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
-   - Project Operations dans l’environnement Microsoft Dataverse, version 4.12.0.148 ou 4.12.0.152.
+   - Project Operations dans l’environnement Microsoft Dataverse, version 4.12.0.148.
    - Gestion et comptabilité de projets dans l’environnement Dynamics 365 Finance, version 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
@@ -79,7 +79,7 @@ Si vous rencontrez un problème au démarrage du mappage, suivez les instruction
 | GÉNÉRAL                       | 2296857              | Suivi de la progression pour les tâches de longue durée.                                                                                                                                                                        |
 | GÉNÉRAL                       | 2253682              | La solution de double écriture de Project Operations ne doit pas être installée lorsque le noyau de double écriture est installée dans un environnement sans la solution d’orchestration de la double écriture.                                                |
 | GÉNÉRAL                       | 2316420              | La mise en service du noyau de Project Service échoue si la division de l’utilisateur de l’application est modifiée.                                                                                                                     |
-| GÉNÉRAL                       | 2376405              | Correction d′un problème de mise à jour piloté par l′éditeur (la mise à jour de qualité est disponible dans la version 4.12.0.152)                                                                                                                     |
+
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestion de projets et comptabilité dans Dynamics 365 Finance
 
 | Fonctionnalités                      | Numéro de référence | Mise à jour qualité                                                                                                                                                                                                                                                                                                                |

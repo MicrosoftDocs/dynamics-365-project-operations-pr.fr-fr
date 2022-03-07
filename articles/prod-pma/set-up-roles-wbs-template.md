@@ -2,11 +2,9 @@
 title: Configurer des rôles sur des modèles de structure de répartition du travail
 description: Cette rubrique fournit des informations sur la configuration des informations de rôle sur les modèles de structure de répartition du travail.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075720"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008898"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurer des rôles sur des modèles de structure de répartition du travail
 
@@ -91,7 +89,7 @@ Des options supplémentaires ont été ajoutées dans la structure de répartiti
 
 4. Réglez les dates et les efforts (heures), comme indiqué dans l’illustration suivante.
 
-    [![Fixer les dates et les efforts](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Définir les dates et les efforts.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Sélectionnez la ligne de tâche **Initier**, puis, dans le champ **Rôle**, sélectionnez **Chef de projet senior**.
 6. Cliquez sur **Publier**.
@@ -107,3 +105,6 @@ Des options supplémentaires ont été ajoutées dans la structure de répartiti
     > Vous ne recevez pas d’avertissement indiquant que la ressource spécifiée est désormais 2, car le nombre de ressources reste 1.
 
 14. Sur la page **Structure de répartition du travail**, validez l’affectation de ressource sur la structure de répartition du travail, puis sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

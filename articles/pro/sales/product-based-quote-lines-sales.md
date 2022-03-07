@@ -2,18 +2,16 @@
 title: Vue d’ensemble des lignes du devis basées sur les produits – Simplifié
 description: Cette rubrique fournit des informations pour travailler avec des lignes de devis basées sur les produits.
 author: rumant
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 29d82637c6c8bb5b5cde7707d181d5b3d3b235c4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5cc3a97194e01b14de054a93a6268c1f0c24bc25
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272565"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994448"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Vue d’ensemble des lignes du devis basées sur les produits – Simplifié
 

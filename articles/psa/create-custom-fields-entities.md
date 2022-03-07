@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c58745a46e84a40b90fbb3cbf89b10e293588fc3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144860"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290528"
 ---
 # <a name="create-custom-fields-and-entities"></a>Créer des champs et des entités personnalisés 
 
@@ -73,3 +73,6 @@ Vous pouvez créer des données pour les dimensions basées sur une entité manu
 > ![Exemple de données pour l'entité Titre standard ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

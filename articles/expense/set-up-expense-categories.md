@@ -2,18 +2,16 @@
 title: Configurer les catégories de dépense
 description: Cette rubrique fournit des informations sur la configuration des catégories de dépenses et des catégories partagées pour les notes de frais.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123780"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993103"
 ---
 # <a name="set-up-expense-categories"></a>Configurer les catégories de dépense
 
@@ -44,9 +42,9 @@ Avant de pouvoir commencer le processus de configuration, les décisions suivant
         - Revenu facturé
         - Revenus accumulés-valeur des ventes
         - TEC-valeur des ventes
-        - Revenus accumulés-production
-        - TEC-production
-        - Revenus accumulés-marge
+        - Produit à recevoir – production
+        - Travaux en cours – production
+        - Produit à recevoir – profit
         - TEC-marge
         - Revenus accumulés-abonnement
         - TEC-abonnement
@@ -61,3 +59,6 @@ Avant de pouvoir commencer le processus de configuration, les décisions suivant
 
     - Certaines des sous-catégories sont-elles exclues du recouvrement fiscal ?
     - Quel est le groupe de taxe d’article des sous-catégories ?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

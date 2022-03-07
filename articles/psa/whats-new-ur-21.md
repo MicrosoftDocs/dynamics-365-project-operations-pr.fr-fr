@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b1194c1cf1997b68030fe88360c6ebb756c715fd
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 69b592db7456bf11c2e933256569d726056d1a32
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147020"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280620"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Mise à jour (version 21) de Project Service Automation, V3
 
@@ -77,3 +77,6 @@ Les problèmes suivants ont été résolus :
 - La logique **Résolution des tarifs de vente** gère de manière incorrecte les fuseaux horaires, ce qui entraîne la sélection incorrecte des tarifs.
 - Le **Coût réel total** d’un projet peut diminuer d’un montant fractionnaire après l’approbation d’une entrée de temps unique.
 - La logique **Résolution du prix** ne fournit pas de message d’erreur convivial si **Prix du rôle récupéré** n’a pas de valeurs dans les champs **Unité principale** et **Prix dans l’unité principale**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

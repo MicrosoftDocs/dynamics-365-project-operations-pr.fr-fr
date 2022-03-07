@@ -1,6 +1,6 @@
 ---
 title: Créer un modèle d’heures de travail
-description: Cette rubrique décrit la procédure de création d’un modèle d’heures de travail dans Project Service.
+description: Procédure de création d’un modèle d’heures de travail dans Project Service
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,48 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981252"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133050"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Créer un modèle d’heures de travail (Project Service)
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
-
-Pour créer et gérer un projet, vous devez appliquer un modèle de calendrier au projet. Le modèle de calendrier définit les attributs de projet suivants :
-
-- Heures de travail, y compris l’heure de début et l’heure de fin
-- Jours de travail
-- Exceptions de calendrier, par exemple les jours non ouvrés
-
-Le modèle de calendrier appliqué à un projet est une copie du modèle de calendrier défini dans les paramètres de votre organisation.
-
-> [!NOTE]
-> Si vous modifiez le modèle de calendrier, ces modifications ne se propagent pas aux heures de travail du projet. Pour modifier les heures de travail du projet, un nouveau modèle doit être appliqué.
-
-Pour créer un modèle de calendrier pour votre organisation, il existe deux exigences clés :
-
-- Définissez les heures de travail souhaitées du modèle à l’aide d’une ressource réservable nouvelle ou existante.
-- Créez un nouveau modèle de calendrier et associez le modèle à la ressource réservable.
-
-**Définir les heures de travail du modèle**
-
-1. Accédez à **Ressources** \> **Ressources**.
-2. Créez une nouvelle ressource à référencer dans le modèle de calendrier ou sélectionnez une ressource existante.
-3. Sélectionnez l’onglet **Heures de travail** de la ressource et suivez les instructions dans [Définition des heures de travail pour une ressource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) pour configurer les règles du calendrier.
-
-**Créer un modèle de calendrier**
-
-1. Accédez à **Paramètres** \> **Modèle de calendrier**.
-2. Sélectionnez **Nouveau** et entrez un nom, une description et une ressource de modèle.
-
-
-> [!NOTE]
-> Lorsqu’une ressource est référencée dans un modèle de calendrier, une copie du calendrier de la ressource est associée au modèle de calendrier. Si vous modifiez les heures de travail du modèle de calendrier, ces modifications ne se propagent pas au modèle de calendrier.
-
-
+Avant de pouvoir créer des programmes de projet, vous devez configurer un calendrier de projet qui définit le nombre d’heures de travail par jour dans le programme et les heures de fermeture. Pour ce faire utilisez un modèle d’heures de travail, qui contient les détails relatifs aux heures de travail par jour, jours de congé, et autres heures de fermeture.  
+  
+ Lorsque vous créez un projet, vous associez un modèle de travail au calendrier de projet pour appliquer la planification du projet.  
+  
+ Il existe deux manières de créer un modèle d’heures de travail :  
+  
+-   Créez un modèle d’heures de travail en fonction d’un calendrier de ressource.  
+  
+-   Créez un nouveau modèle d’heures de travail.  
+  
+#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Pour créer un modèle d’heures de travail en fonction d’un calendrier de ressource  
+  
+1.  Accédez à **Project Service > Ressources**.  
+  
+2.  Sélectionnez la ressource sur laquelle vous souhaitez baser vos heures de travail.  
+  
+3.  Cliquez sur **Enregistrer le calendrier sous**, tapez le nom du modèle d’heures de travail, puis cliquez sur **Enregistrer**.  
+  
+4.  Lorsque vous avez terminé de modifier les options, cliquez sur **Enregistrer et fermer**.  
+  
+5.  Cliquez sur le bouton **Enregistrer** dans le coin inférieur droit de l’écran.  
+  
+#### <a name="to-create-a-new-work-hours-template"></a>Pur créer un nouveau modèle d’heures de travail  
+  
+1.  Accédez à **Project Service > Modèles d’heures de travail**.  
+  
+2.  Cliquez sur **Nouveau**.  
+  
+3.  Entrez un nom pour le modèle d’heures de travail.  
+  
+4.  Sélectionnez une ressource sur laquelle baser les heures de travail, puis cliquez sur **Enregistrer**.  
+  
 ### <a name="see-also"></a>Voir aussi  
- [Configurer des ressources](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ [Configurer les ressources](../psa/set-up-resources.md)

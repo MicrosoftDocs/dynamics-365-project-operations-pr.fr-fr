@@ -2,8 +2,6 @@
 title: Planifier des ressources pour un projet
 description: Procédure de planification de ressources pour un projet dans Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150440"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998143"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planifier des ressources pour un projet (Project Service)
 
@@ -35,7 +33,7 @@ Vous pouvez afficher la disponibilité des ressources afin d’avoir une vue glo
   
 Le tableau de planification affiche la liste des ressources et leurs disponibilités. Sélectionnez un mode d’affichage pour afficher la disponibilité par **Heure**, **Jour**, **Semaine** ou **Mois**.  
   
-Avant d’utiliser le tableau de planification, il est important de le configurer. Pour plus d’informations, consultez [Configurer le tableau de planification (Field Service, Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Avant d’utiliser le tableau de planification, il est important de le configurer. Pour plus d’informations, consultez [Configurer le tableau de planification (Field Service, Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Si vous utilisez une nouvelle version, pour la disponibilité des ressources, consultez [Afficher la disponibilité des ressources](../psa/view-resource-availability.md).  
 
@@ -83,3 +81,6 @@ Si vous utilisez une nouvelle version, pour la disponibilité des ressources, co
   
 ### <a name="additional-resources"></a>Ressources complémentaires  
  [Guide du gestionnaire de ressources](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

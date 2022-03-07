@@ -2,8 +2,6 @@
 title: Annuler les entrées de temps et de dépenses précédemment approuvées
 description: Cette rubrique explique comment annuler une transaction de temps et de dépenses de projet approuvée.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150575"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987433"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Annuler les entrées de temps ou de dépenses précédemment approuvées
 
@@ -62,3 +60,6 @@ Un projet est également affecté financièrement lorsqu’une approbation est a
 Ensuite, des entrées de contrepassation sont créées dans la table Chiffres réels. Pour créer des entrées de contrepassation, le système copie sur les valeurs de champ les chiffres réels initiaux. Les seules valeurs qui ne sont pas copiées sont les valeurs de quantité. Ces valeurs sont contrepassées à la place. Les chiffres réels contrepassés sont définis pour les chiffres réels **Coût** et **Ventes non facturées**. Le champ **Statut de l’ajustement** sur les chiffres réels contrepassés est défini sur **Non ajustable**, et le statut de facturation sur **Annulé**.
 
 Une fois ces modifications effectuées, le montant enregistré comme dépensé dans le projet et l’arriéré de revenu du projet ne compteront plus dans les montants que ces chiffres réels représentent.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

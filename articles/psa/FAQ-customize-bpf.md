@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993143"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002958"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Comment personnaliser le flux des processus d’entreprise des phases du projet ?
 
@@ -60,11 +60,11 @@ Si la mise à niveau n’est pas une option, vous pouvez personnaliser le flux d
 1. Ajoutez des étapes supplémentaires à la configuration par défaut, tout en conservant les noms de phase en anglais pour **Quote**, **Plan**, and **Close**.
 
 
-![Capture d’écran de l’ajout d’étapes à la configuration par défaut](media/FAQ-Customize-BPF-1.png)
+![Capture d’écran de l’ajout d’étapes à la configuration par défaut.](media/FAQ-Customize-BPF-1.png)
  
 2. Créez votre propre flux des processus d’entreprise et faites-en le flux des processus d’entreprise principal de l’entité de projet, ce qui vous permet d’avoir tous les noms de phase de votre choix. Toutefois, si vous souhaitez utiliser les mêmes étapes de projet standard **Quote**, **Plan**, and **Close**, vous devez effectuer certaines personnalisations qui sont exclues des noms de phase personnalisés. La logique la plus complexe consiste à fermer le projet, que vous pouvez toujours déclencher en désactivant simplement l’enregistrement de projet.
 
-![Personnalisation de BPF](media/FAQ-Customize-BPF-2.png)
+![Personnalisation du flux des processus d′entreprise](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Considérations supplémentaires pour la version 2.4.4.30 de l’application Project Service ou version antérieure sur la plateforme 9.0
 
@@ -80,11 +80,11 @@ Pour créer votre propre flux des processus d’entreprise pour l’entité de p
 
 1. Accédez à **Paramètres** > **Centre de traitement**. Ne copiez pas le flux des processus d’entreprise des phases du projet, car cela copie également la logique métier Project Service.
 
-  ![Créer un processus](media/FAQ-Customize-BPF-3.png)
+  ![Créez un processus.](media/FAQ-Customize-BPF-3.png)
 
 2. Utilisez le concepteur de processus pour créer les noms de phase de votre choix. Si vous souhaitez la même fonctionnalité que les phases par défaut pour **Quote**, **Plan**, and **Close**, vous devrez créer cela en fonction des noms de phase de votre flux des processus d’entreprise personnalisé.
 
-   ![Capture d’écran du concepteur de processus utilisé pour personnaliser le flkux des processus d’entreprise](media/FAQ-Customize-BPF-4.png) 
+   ![Capture d’écran du concepteur de processus utilisé pour personnaliser le flux des processus d′entreprise.](media/FAQ-Customize-BPF-4.png) 
 
 3. Dans le concepteur de processus, cliquez sur **Ordre des flux des processus** pour faire du flux des processus d’entreprise personnalisé le flux des processus d’entreprise principal pour l’entité de projet en le plaçant au-dessus du flux des processus d’entreprise des phases du projet au haut de la liste.
 
@@ -95,15 +95,15 @@ Pour créer votre propre flux des processus d’entreprise pour l’entité de p
 
 4. Ajoutez un nouveau champ personnalisé à l’entité de projet pour capturer les phases personnalisées de votre flux des processus d’entreprise personnalisé. Vous devez ajouter une logique métier (plug-in/workflow) pour mettre à jour ce champ lorsque la phase du flux des processus d’entreprise personnalisé est mise à jour.
 
-   ![Capture d’écran de la personnalisation de l’entité de projet](media/FAQ-Customize-BPF-6-720.png)
+   ![Capture d’écran de la personnalisation de l’entité de projet.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Modifiez le graphique **Projet par phase** pour utiliser votre nouveau champ personnalisé pour les étapes.
 
-   ![Capture d’écran de l’utilisation du graphique Projet par phase](media/FAQ-Customize-BPF-7-720.png)
+   ![Capture d’écran de l’utilisation du graphique Projet par phase.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Modifiez les vues de l’entité de projet pour inclure votre nouveau champ personnalisé pour les étapes.
 
-   ![Capture d’écran de la modification des vues sur l’entité du projet](media/FAQ-Customize-BPF-8-720.png)
+   ![Capture d’écran de la modification des vues sur l’entité du projet.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

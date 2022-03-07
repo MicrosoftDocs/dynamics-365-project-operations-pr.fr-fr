@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ccdbdce6b7d006adc9be2b5f3573dd8e79dd2b8d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122880"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276975"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurer l’intégration de Project Operations par entité juridique 
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Cette rubrique vous explique comment configurer Dynamics 365 Project Operations par entité juridique.
+Cette rubrique vous guide tout au long des étapes nécessaires pour configurer Dynamics 365 Project Operations par entité juridique.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Activer les clés de fonctionnalités dans Dynamics 365 Finance
 
@@ -51,3 +51,6 @@ Chaque entité juridique utilisant Project Operations sur Dynamics 365 Customer 
   - **Valeurs par défaut du type de facturation** : Project Operations utilise un ensemble fixe de valeurs par défaut du type de facturation qui doivent être mappées aux propriétés de ligne Finance. Créez un enregistrement pour chaque type de facturation : **Non spécifié**, **Facturable**, **Non facturable**, **Gratuit** et **Non disponible**.
   - **Valeurs par défaut de la catégorie de projet** : sélectionnez les catégories de projet par défaut à utiliser pour chaque type de transaction. Ces valeurs par défaut seront utilisées dans le **Journal d’intégration de Project Operations** et dans les estimations où aucune catégorie de transaction n’est spécifiée pour les chiffres réels du projet.
   - **Prévisions** : sélectionnez le modèle de prévision à utiliser pour les estimations de temps et de dépenses.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

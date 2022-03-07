@@ -2,11 +2,9 @@
 title: Gérer la délégation
 description: Cette rubrique fournit des informations sur la façon dont un délégué aux dépenses peut créer et gérer les notes de frais d’un autre employé.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122700"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997783"
 ---
 # <a name="manage-delegation"></a>Gérer la délégation
 Un délégué aux dépenses peut créer et gérer des notes de frais pour un autre employé.
@@ -36,6 +34,9 @@ Pour configurer un utilisateur en tant que délégué aux dépenses, procédez c
 
 Si la clé de gestion des fonctionnalités **Activer la page de liste des délégués aux frais** est activée, la page de liste **Dépenses qui me sont déléguées** sera disponible. Accédez à **Gestion des dépenses** > **Mes dépenses** > **Dépenses qui me sont déléguées**.
 
-Un délégué peut rapidement filtrer et rechercher sur les notes de frais existantes qui lui ont été déléguées. Le délégué peut également créer rapidement une note de frais pour les autres utilisateurs en sélectionnant **Nouvelle note de frais**.
+Un délégué peut rapidement filtrer et rechercher sur les notes de frais existantes qui lui ont été déléguées. En outre, le délégué peut créer rapidement une note de frais pour d’autres utilisateurs en cliquant sur **Nouvelle note de frais**.
 
 Les délégués peuvent créer et gérer des notes de frais pour d’autres employés en accédant à **Gestion des dépenses** > **Mes dépenses** > **Notes de frais** et en sélectionnant **Ouvrir les dépenses des autres utilisateurs**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009213"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433650"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Nouveautés de juillet 2021 - Déploiement simplifié de Project Operations
 
@@ -20,7 +20,7 @@ _S’applique à : Déploiement simplifié – Traiter la facturation pro forma
 
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
-  - Project Operations dans l’environnement Dataverse, version 4.12.0.148 ou 4.12.0.152.
+  - Version 4.12.0.148 de Project Operations dans l’environnement Dataverse.
 
 ## <a name="quality-updates"></a>Mises à jour qualité
 | **Fonctionnalités**              | **Numéro de référence** | **Mise à jour qualité**                                                                                                                                                                                             |
@@ -59,4 +59,3 @@ Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 
 | GÉNÉRAL                       | 2296857              | Suivi de la progression pour les tâches de longue durée.                                                                                                                                                                        |
 | GÉNÉRAL                       | 2253682              | La solution de double écriture de Project Operations ne doit pas être installée lorsque le noyau de double écriture est installée dans un environnement sans la solution d’orchestration de la double écriture.                                                |
 | GÉNÉRAL                       | 2316420              | La mise en service du noyau de Project Service échoue si la division de l’utilisateur de l’application est modifiée.                                                                                                                     |
-| GÉNÉRAL                       | 2376405              | Correction d′un problème de mise à jour piloté par l′éditeur (la mise à jour de qualité est disponible dans la version 4.12.0.152)                                                                                                                     |

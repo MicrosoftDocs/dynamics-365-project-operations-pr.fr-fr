@@ -2,11 +2,9 @@
 title: Importer et gérer les transactions par carte de crédit
 description: Cette rubrique explique comment importer et gérer les transactions par carte de crédit liées aux dépenses. Ces transactions peuvent être configurées de manière à être automatiquement importées selon un calendrier récurrent, ou elles peuvent être importées manuellement si nécessaire.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -18,28 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271575"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995848"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importer et gérer les transactions par carte de crédit
 
-Les transactions par carte de crédit liées aux dépenses peuvent être configurées afin d'être automatiquement importées selon un calendrier récurrent. Les transactions peuvent également être importées manuellement selon les besoins. Les transactions par carte de crédit sont importées via l'entité de données Transactions par carte de crédit.
+Les transactions par carte de crédit liées aux dépenses peuvent être configurées afin d’être automatiquement importées selon un calendrier récurrent. Les transactions peuvent également être importées manuellement, le cas échéant. Les transactions par carte de crédit sont importées via l’entité de données Transactions par carte de crédit.
 
-Pour plus d'informations sur les entités de données, voir [Entités de données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Pour plus d’informations sur les entités de données, voir [Entités de données](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Importer des transactions par carte de crédit
 
-1. Sur la page **Transactions par carte de crédit**, sélectionnez **Importer des transactions**. Si vous ouvrez la gestion des données pour la première fois, le système doit mettre à jour la liste des entités de données avant de pouvoir continuer.
-2. Dans le champ **Nom**, entrez une description unique de la tâche d’importation.
+1. Sur la page **Transactions par carte de crédit**, sélectionnez **Importer des transactions**. Si vous ouvrez l’espace de travail Gestion des données pour la première fois, le système doit mettre à jour la liste des entités de données avant de pouvoir continuer.
+2. Dans le champ **Nom**, saisissez une description unique pour la tâche d’importation.
 3. Dans le champ **Format des données source**, sélectionnez le format du fichier contenant les transactions par carte de crédit à importer.
-4. Sélectionnez **Télécharger**, puis recherchez et sélectionnez le fichier à importer.
-5. Une fois le fichier téléchargé, validez le mappage du fichier de transaction par carte de crédit et les colonnes de l’entité de données Transactions par carte de crédit en sélectionnant le lien **Afficher la mise en correspondance** sur la vignette. S’il y a des erreurs de mappage ou si vous devez modifier le mappage, effectuez les changements de mappage à partir de l’onglet **Visualisation cartographique** ou de l’onglet **Détails de la mise en correspondance**.
-6. Pour automatiser les transactions par carte de crédit, sélectionnez **Créer une tâche de données répétitive**. Vous pouvez ensuite définir la récurrence qui définit la fréquence à laquelle les transactions par carte de crédit doivent être importées. Lorsque vous avez terminé, cliquez sur **OK**.
-7. Pour importer le fichier sélectionné à présent, sélectionnez **Importer**.
+4. Cliquez sur **Charger**, puis recherchez et sélectionnez le fichier à importer.
+5. Une fois le fichier téléchargé, validez le mappage du fichier de transaction par carte de crédit et les colonnes de l’entité de données Transactions par carte de crédit en sélectionnant le lien **Afficher la mise en correspondance** sur la vignette. S’il existe des erreurs de mappage ou si vous devez modifier le mappage, apportez les changements nécessaires à partir de l’onglet **Visualisation du mappage** ou **Détails du mappage**.
+6. Pour automatiser l’importation des transactions par carte de crédit, cliquez sur **Créer une tâche de données répétitive**. Vous pouvez ensuite définir la périodicité correspondante, à savoir la fréquence d’importation des transactions par carte de crédit. Ensuite, cliquez sur **OK**.
+7. Pour importer le fichier sélectionné maintenant, cliquez sur **Importer**.
 8. Si des erreurs se produisent lors de l’importation, vous pouvez afficher le journal d’exécution ou les données de préparation pour voir les erreurs que vous devez corriger pour garantir la réussite de l’importation.
 
 > [!NOTE]

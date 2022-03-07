@@ -3,7 +3,6 @@ title: Installation d’un exemple de données
 description: Cette rubrique fournit des informations sur l’installation d’exemples de données dans Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144500"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985543"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installation d’exemples de données pour l’application Project Service
 
@@ -87,7 +86,7 @@ Vous devez prévoir que l’ordinateur reste connecté à un réseau, et pour qu
 L’ordinateur doit avoir la fonction d’économiseur d’écran désactivée. Sinon, les informations d’identification de session pour l’installation peuvent être perdues lorsque l’économiseur d’écran s’active (sauf si vous conservez une session active tout du long).
 
 > [!div class="mx-imgBorder"]
-> ![Capture d’écran des paramètres de l’économiseur d’écran, avec l’économiseur d’écran désactivé](media/sample-data-1.png)
+> ![Capture d’écran des paramètres de l’économiseur d’écran, avec l’économiseur d’écran désactivé.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Téléchargez et décompresser
 
@@ -143,13 +142,13 @@ Le package de données de démonstration nécessite six utilisateurs. Pour que l
 3. Ouvrez **PkgFolder** puis recherchez et ouvrez **ImportUserMapFile.xml**. Mettez à jour les champs **New=** avec les adresses de messagerie des utilisateurs correspondants dans votre système.
 
    > [!div class="mx-imgBorder"]
-   > ![Capture d’écran de UserMapFile](media/sample-data-7.png)
+   > ![Capture d’écran de UserMapFile.](media/sample-data-7.png)
 
 4. Si votre utilisateur avec le nom complet « Spencer Low » a ID utilisateur autre que **« spencerl »**, vous devez mettre à jour un fichier supplémentaire. Ouvrez **DemoDataPreImportConfig.xml** et rechercher la balise **userstocreateandconfigure**. Mettez à jour la balise **\<login\>** avec le loginId (sensible à la casse). 
 
 5. Le calendrier du premier utilisateur (dans la balise **userstocreateandconfigure**) est utilisé pour exécuter les heures de travail de toutes les ressources pouvant être réservées à l’importation des données de démonstration. Accédez à **Paramètres** > **Sécurité** > **Utilisateurs**, recherchez votre utilisateur « Spencer Low », puis ouvrez l’option « Heures de travail ». Modifiez les heures de travail existantes, sélectionnez l’option **Planification hebdomadaire récurrente complète du début à la fin**. Assurez-vous que **Les heures de travail sont définies de 8 h 00 à 17 h 00 (9 heures), du lundi au vendredi et que le fuseau horaire est défini sur l’heure du Pacifique (É.-U. et Canada)**. Ceci est indispensable pour que la projet et le tableau de planification s’affichent comme prévu.
 
-**Recommandation :** Envisagez de créer une sauvegarde de votre organisation maintenant, au cas où vous auriez à revenir à votre point de départ si une opération se passe mal pendant l’installation des exemples de données. Pour plus d’informations, voir [Sauvegarder et restaurer les instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recommandation :** Envisagez de créer une sauvegarde de votre organisation maintenant, au cas où vous auriez à revenir à votre point de départ si une opération se passe mal pendant l’installation des exemples de données. Pour plus d’informations, voir [Sauvegarder et restaurer les instances](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Exécuter l’Package Deployer
 
@@ -173,7 +172,7 @@ Le package de données de démonstration nécessite six utilisateurs. Pour que l
 5. Sélectionnez **Suivant** jusqu’à ce que la boîte de dialogue **Paramétrage de données de démonstration** s’affiche.
 
    > [!div class="mx-imgBorder"]
-   > ![Capture d’écran de la fenêtre du statut du programme d’installation des données de démonstration](media/sample-data-3.png)
+   > ![Capture d’écran de la fenêtre du statut du programme d’installation des données de démonstration.](media/sample-data-3.png)
 
 6. Avant de continuer, notez que l’installation des exemples de données peut prendre jusqu’à une heure (normalement ~10 minutes). Vous devrez vous assurer que l’ordinateur reste activé et connecté à un réseau tout au long du processus d’installation, et que votre session reste active.   
 
@@ -192,10 +191,10 @@ Une fois les exemples de données complètement chargées, connectez-vous comme 
 - Si l’application Field Service est installée, accédez à **Project Service** > **Paramètres** > **Tarifs**. Vérifiez que vos taux de factures et de coûts existent. Accédez à **Field Service** > **Paramètres** > **Tarifs** et vérifiez que vos taux de factures et de coûts existent, avec la devise appropriée, pour chaque pays/région dans le jeu de données.
 
   > [!div class="mx-imgBorder"]
-  > ![Capture d’écran des tarifs actifs](media/sample-data-4.png)
+  > ![Capture d’écran des tarifs actifs.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Capture d’écran des unités d’organisation actives](media/sample-data-5.png)
+  > ![Capture d’écran des unités d’organisation actives.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Notes techniques
 
@@ -296,4 +295,7 @@ Si vous devez modifier les heures de travail pour des exemples de ressources pou
 Sélectionnez un utilisateur (par exemple, Spencer Low) et modifiez les heures de travail de Spencer avec les heures que vous souhaitez appliquer à plusieurs utilisateurs. Accédez à **Universal Resource Scheduling** > **Paramètres** > **Modèles d’heures de travail** et modifiez l’enregistrement **Modèle de travail par défaut**. Dans le champ **Modèle de ressource**, sélectionnez un utilisateur avec les heures de travail à appliquer à d’autres ressources. Accédez à **Universal Resource Scheduling** > **Planification** > **Ressources** > **Ressources pouvant être réservées actives**. Sélectionnez les ressources à modifier, puis sélectionnez **Définir le calendrier**. Dans la liste déroulante **Modèle d’emploi**, sélectionnez le modèle **Heure de travail par défaut** ou un autre modèle avec la ressource de création de modèles correcte. Lorsque vous accédez au tableau de planification, vous devriez voir maintenant que les ressources ont mis à jour les heures de travail.
 
 > [!div class="mx-imgBorder"]
-> ![Capture d’écran de ressources pouvant être réservées actives](media/sample-data-6.png)
+> ![Capture d’écran de ressources pouvant être réservées actives.](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

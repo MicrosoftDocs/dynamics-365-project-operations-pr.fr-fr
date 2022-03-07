@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 4960792358194d071ba7a34c87b74fe2ce4457fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841333"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279630"
 ---
 # <a name="edit-bookings"></a>Modifier les réservations
 
@@ -33,3 +33,6 @@ Dans la grille **Membre de l'équipe**, un chef de projet peut mettre en éviden
 ## <a name="schedule-board"></a>Tableau de planification
 
 Dans **Tableau de planification**, le gestionnaire de ressources a une vue du portefeuille de toutes les réservations au sein d'une organisation. À partir de cette vue, le gestionnaire de ressources peut prolonger, raccourcir ou déplacer des réservations existantes similaires aux fonctionnalités offertes dans **Gérer les réservations**. Le gestionnaire de ressources peut également remplacer les ressources existantes allouées à une réservation spécifique en cliquant avec le bouton droit sur la réservation et en sélectionnant **Ressource de remplacement**. Les gestionnaires de ressources peuvent également modifier les contours des réservations existantes en cliquant avec le bouton droit sur la réservation et en sélectionnant **Modifier**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

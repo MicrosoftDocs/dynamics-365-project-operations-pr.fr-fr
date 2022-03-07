@@ -2,11 +2,9 @@
 title: Renommer ou modifier une étape de projet
 description: Cette tâche montre comment renommer ou modifier une étape de projet.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/07/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac9f18a62b21af930005b1c4a60428696ea470e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 664c1044c1ff23e892d7f90d255517b22cfa1a5656670efa1bf15339c5ae2112
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075919"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998908"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Renommer ou modifier une étape de projet
 
@@ -35,3 +33,6 @@ Les étapes du projet peuvent servir de guide pour le cycle de vie du projet. Vo
 4. Dans la liste, sélectionnez l’étape définie par l’utilisateur ou prédéfinie que vous souhaitez modifier. 
 5. Dans le champ Étape de projet, saisissez le nouveau nom.
 6. Cliquez sur Enregistrer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

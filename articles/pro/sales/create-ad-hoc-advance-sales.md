@@ -2,18 +2,16 @@
 title: Créer une avance ad hoc sur un contrat
 description: Cette rubrique fournit des informations sur la création d’une avance sur un contrat, le cas échéant.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4595963"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999133"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Créer une avance ad hoc sur un contrat
 
@@ -39,3 +37,6 @@ Effectuez les étapes suivantes pour facturer une avance au client.
     | **Statut de la facture** | Il s’agit d’un paramètre d’option qui indique si cette avance est ajoutée à une facture en mode brouillon pour ce client. Les valeurs possibles sont :</br>- **Non prêt(e) pour la facturation**</br>- **Prêt(e) pour la facturation** | Lorsqu’une avance ou un acompte est marqué comme **Prêt à facturer**, il est ajouté comme ligne Temps sur une facture en mode brouillon. Seule une avance entièrement facturée peut être utilisée pour effectuer un rapprochement avec les coûts du projet pour la période de facturation suivante. |
 
 4. Sélectionnez **Enregistrer et fermer** dans la boîte de dialogue Création rapide pour enregistrer l’avance ou l’acompte.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

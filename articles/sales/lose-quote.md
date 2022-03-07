@@ -2,18 +2,16 @@
 title: Copier les devis selon les projets
 description: Cette rubrique offre des informations sur la copie des devis selon les projets dans Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181809"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992158"
 ---
 # <a name="copy-project-based-quotes"></a>Copier les devis selon les projets
 
@@ -45,3 +43,6 @@ Lorsque vous sélectionnez **OK** sur la page de dialogue, le système crée une
 > - Référence du projet sur le projet – lignes de devis basées sur les informations budgétaires client
 >
 >Étant donné que ces informations sont très spécifiques à chaque devis, ces champs et enregistrements ne sont pas copiés. Les lignes de devis pour les projets et les produits, les estimations sur les détails de la ligne de devis et les valeurs à ne pas dépasser au niveau du devis sont copiées. Les valeurs par défaut de prix et de taux de coût dépendent de l’option **Copier la tarification** sélectionnée sur la page de dialogue **Copier les paramètres**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
