@@ -1,23 +1,21 @@
 ---
-title: Configurer les composants facturables d’une ligne de contrat basée sur un projet – Simplifié
+title: Configurer les composants facturables d’une ligne de contrat basée sur un projet
 description: Cette rubrique fournit des informations sur l’ajout de composants facturables aux lignes de contrat dans Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d18e56f29457151e07636b67ff8d9b184bf5014ef0ceeef9bb9d322672be4335
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177148"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003453"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Configurer les composants facturables d’une ligne de contrat basée sur un projet – Simplifié
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurer les composants facturables d’une ligne de contrat basée sur un projet
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma, Project Operations pour les scénarios basés sur les ressources/produits non stockés_
 
 Une ligne de contrat basée sur un projet a les composants *inclus* et *payant*.
 
@@ -62,20 +60,582 @@ Le type de facturation d’une transaction peut être configuré dans l’onglet
 
 ### <a name="resolve-chargeability"></a>Résoudre la chargeabilité
 
-Une estimation ou un réel créé pour le temps ne sera considéré comme facturable que si **Temps** est inclus dans la ligne de contrat, et si **Tâche** et **Rôle** sont configurés comme facturables sur la ligne de contrat.
+Une estimation ou un chiffre réel créé pour le temps n’est considéré comme facturable que si :
 
-Une estimation ou un réel créé pour la dépense ne sera considéré comme facturable que si la **dépense** est incluse dans la ligne de contrat, et si les catégories de transaction **Tâche** et **Transaction** sont configurées comme facturables sur la ligne de contrat.
+   - **Temps** est inclus dans la ligne de contrat.
+   - **Rôle** est configuré comme facturable sur la ligne de contrat.
+   - **Tâches incluses** est défini sur **Tâches sélectionnées** sur la ligne de contrat.
+ 
+ Si ces trois éléments sont vrais, la tâche est configurée comme facturable. 
+
+Une estimation ou un chiffre réel créé pour une dépense n’est considéré comme facturable que si :
+
+   - **Dépense** est inclus dans la ligne de contrat
+   - **Catégorie de transaction** est configuré comme facturable sur la ligne de contrat
+   - **Tâches incluses** est défini sur **Tâche sélectionnée** sur la ligne de contrat
+  
+ Si ces trois éléments sont vrais, la **Tâche** est configurée comme facturable. 
+
+Une estimation ou un chiffre réel créé pour du matériel n’est considéré comme facturable que si :
+
+   - **Matériel** est inclus dans la ligne de contrat
+   - **Tâches incluses** est défini sur **Tâches sélectionnées** sur la ligne de contrat
+
+Si ces deux éléments sont vrais, la **Tâche** est configurée comme facturable. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Inclut le temps</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Inclut la dépense</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Inclut le matériel</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Tâches incluses</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Rôle</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Catégorie</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tâche</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Impact sur le fait que l’élément soit facturable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projet entier </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Impossible à définir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à partir du chiffre réel de temps : <strong>Facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de dépenses : <strong>Facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : <strong>Facturable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tâches sélectionnées uniquement </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à partir du chiffre réel de temps : <strong>Facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de dépenses : <strong>Facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : <strong>Facturable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tâches sélectionnées uniquement </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non facturable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à partir du chiffre réel de temps : <strong>Non facturable</strong>
+                </p>
+                <p>
+Type de facturation sur les dépenses réelles : facturable </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : Facturable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tâches sélectionnées uniquement </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non facturable</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à partir du chiffre réel de temps : <strong>Non facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de dépenses : <strong>Non facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : <strong>Non facturable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tâches sélectionnées uniquement </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non facturable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non facturable</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à partir du chiffre réel de temps : <strong>Non facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de dépenses : <strong>Non facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : <strong>Non facturable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tâches sélectionnées uniquement </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non facturable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Non facturable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à partir du chiffre réel de temps : <strong>Non facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de dépenses : <strong>Non facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : Facturable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projet entier </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Impossible à définir </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Facturable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Impossible à définir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à partir du chiffre réel de temps : <strong>Non disponible</strong>
+                </p>
+                <p>
+Type de facturation sur les dépenses réelles : facturable </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : Facturable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projet entier </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Impossible à définir </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Non facturable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Impossible à définir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à partir du chiffre réel de temps : <strong>Non disponible</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de dépenses : <strong>Non facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : Facturable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projet entier </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Impossible à définir </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Impossible à définir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à l’heure actuelle : Facturable </p>
+                <p>
+Type de facturation à partir du chiffre réel de dépenses : <strong>Non disponible</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : Facturable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projet entier </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non facturable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Impossible à définir </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Impossible à définir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à partir du chiffre réel de temps : <strong>Non facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de dépenses : <strong>Non disponible</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : Facturable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projet entier </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Facturable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Impossible à définir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à l’heure actuelle : Facturable </p>
+                <p>
+Type de facturation sur les dépenses réelles : facturable </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : <strong>Non disponible</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Oui </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projet entier </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non facturable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Non facturable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Impossible à définir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturation à partir du chiffre réel de temps : <strong>Non facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de dépenses : <strong>Non facturable</strong>
+                </p>
+                <p>
+Type de facturation à partir du chiffre réel de matériel : <strong>Non disponible</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Inclut le temps | Inclut la dépense | Inclut les tâches | Rôle           | Catégorie        | Tâche                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Oui           | Oui              | Projet entier | Facturable     | Facturable     | Facturation à l’heure actuelle: **Facturable** </br> Type de facturation sur les dépenses réelles : **Facturable**           |
-| Oui           | Oui              | Tâches sélectionnées | Facturable     | Facturable     | Facturation à l’heure actuelle: **Facturable** </br> Type de facturation sur les dépenses réelles : **Facturable**           |
-| Oui           | Oui              | Tâches sélectionnées | Non facturable | Facturable     | Facturation à l’heure actuelle: **Non facturable** </br> Type de facturation sur les dépenses réelles : **Facturable**       |
-| Oui           | Oui              | Tâches sélectionnées | Facturable     | Facturable     | Facturation à l’heure actuelle: **Non facturable** </br> Type de facturation sur les dépenses réelles :   **Non facturable** |
-| Oui           | Oui              | Tâches sélectionnées | Non facturable | Facturable     | Facturation à l’heure actuelle: **Non facturable** </br> Type de facturation sur les dépenses réelles :   **Non facturable** |
-| Oui           | Oui              | Tâches sélectionnées | Non facturable | Non facturable | Facturation à l’heure actuelle: **Non facturable** </br> Type de facturation sur les dépenses réelles :   **Non facturable** |
-| No            | Oui              | Projet entier | Impossible à définir   | Facturable     | Facturation à l’heure actuelle: **Non disponible**</br>Type de facturation sur les dépenses réelles : **Facturable**          |
-| No            | Oui              | Projet entier | Impossible à définir   | Non facturable | Facturation à l’heure actuelle: **Non disponible**</br> Type de facturation sur les dépenses réelles : **Non facturable**     |
-| Oui           | No               | Projet entier | Facturable     | Impossible à définir   | Facturation à l’heure actuelle: **Facturable** </br> Type de facturation sur les dépenses réelles : **Non disponible**        |
-| Oui           | No               | Projet entier | Non facturable | Impossible à définir   | Facturation à l’heure actuelle: **Non facturable** </br>Type de facturation sur les dépenses réelles : **Non disponible**   |
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

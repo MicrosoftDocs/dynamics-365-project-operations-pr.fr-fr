@@ -2,18 +2,17 @@
 title: Suivi des efforts de projet
 description: Cette rubrique propose des informations sur le suivi de l’effort d’un projet et de la progression du travail.
 author: ruhercul
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
-ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
+ms.custom: intro-internal
+ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "5710937"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993958"
 ---
 # <a name="project-effort-tracking"></a>Suivi des efforts de projet
 
@@ -28,17 +27,17 @@ La vue **Suivi de l’effort** suit la progression des tâches dans le calendrie
 - **Pourcentage de progression** : Cumul des efforts réels consacrés ÷ Estimation à l’achèvement 
 - **Effort restant** : Effort à achèvement estimé – Cumul des efforts réels consacrés 
 - **Estimation à l’achèvement** : Efforts restants + Cumul des efforts réels consacrés 
-- **Écart d’efforts escomptés** : Efforts planifiés – EAA
+- **Écart par rapport à l’effort projeté** : Effort planifié - Estimation de l’effort final
 
-Project Operations affiche une projection de l’écart d’efforts de la tâche. Si l’EAA excède les efforts planifiés, la tâche est prévue de prendre plus de temps qu’initialement planifié, et est en retard. Si l’EAA est inférieur aux efforts planifiés, la tâche est prévue de prendre moins de temps qu’initialement planifié, et est en avance.
+Project Operations affiche une projection de l’écart d’effort pour la tâche. Si l’estimation de l’effort final est supérieure à l’effort planifié, la tâche devrait prendre plus de temps que prévu initialement et est en retard sur le calendrier. Si l’EAA est inférieur aux efforts planifiés, la tâche est prévue de prendre moins de temps qu’initialement planifié, et est en avance.
 
 ## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Reprojection de l’effort sur les tâches de nœud terminal
 
-Les chefs de projet modifient souvent les estimations initiales d’une tâche. Les nouvelles projections de projet sont une perception des estimations du chef de projet, vu l’état actuel de projet. Cependant, nous ne recommandons pas aux chefs de projet de modifier les chiffres de l’effort planifié. En effet, l’effort planifié du projet représente la source fiable établie pour la planification du projet et l’estimation des coûts, et toutes les parties prenantes du projet l’ont accepté.
+Les chefs de projet modifient souvent les estimations initiales d’une tâche. Les nouvelles projections de projet sont la perception d’un chef de projet des estimations, compte tenu de l’état actuel d’un projet. Cependant, nous ne recommandons pas aux chefs de projet de modifier les chiffres de l’effort planifié. En effet, l’effort planifié du projet représente la source fiable établie pour la planification du projet et l’estimation des coûts, et toutes les parties prenantes du projet l’ont accepté.
 
-Un chef de projet peut reprojeter l’effort sur les tâches en mettant à jour l’**effort restant** par défaut avec une nouvelle estimation sur la tâche. Cette mise à jour entraîne un recalcul de l’estimation finale de la tâche, du pourcentage de progression et de l’écart de l’effort projeté sur une tâche. L’Estimation avant achèvement, l’EAA (Estimé à Achèvement) et le pourcentage de progression sur les tâches récapitulatives sont également recalculés, et produisent une nouvelle projection de l’écart d’efforts.
+Un chef de projet peut reprojeter l’effort sur les tâches en mettant à jour l’**effort restant** par défaut avec une nouvelle estimation sur la tâche. Cette mise à jour entraîne un recalcul de l’estimation finale de la tâche, du pourcentage de progression et de l’écart de l’effort projeté sur une tâche. L’estimation de l’effort final, l’estimation avant achèvement et le pourcentage d’avancement pour les tâches récapitulatives sont également recalculés et produisent une nouvelle projection de l’écart d’effort.
 
-## <a name="reprojection-of-effort-on-summary-tasks"></a>Nouvelle projection des efforts sur les tâches récapitulatives
+## <a name="reprojection-of-effort-on-summary-tasks"></a>Nouvelle projection de l’effort pour les tâches récapitulatives
 
 Les efforts sur les tâches récapitulatives ou les tâches de conteneur peuvent être de nouveau projetés. Les chefs de projet peuvent mettre à jour l’effort restant sur les tâches récapitulatives. La mise à jour de l’effort restant déclenche l’ensemble de calculs suivant dans l’application :
 
@@ -57,7 +56,7 @@ Le suivi des données dans les vues **Suivi d’effort** et **Suivi du coût** a
 
 Le champ **Statut du projet global** est un champ modifiable qui affiche le statut du projet global. Il utilise le codage de couleurs, par exemple le vert, le jaune et le rouge pour indiquer un risque croissant. Le champ **Commentaires** permet au chef de projet d’entrer des commentaires spécifiques relatifs au statut. Le champ **Statut mis à jour le** n’est pas modifiable et la valeur est un horodatage qui indique quand le statut a été mis à jour en dernier.
 
-Les champs **Performance de planification** et **Performances des coûts** sont définis à partir de la date de suivi. Lorsque l’écart de planification et des coûts du nœud racine dans la vue **Suivi des efforts** est positif, vous pouvez définir ces champs sur **En avance**. Lorsque l’écart de planification et des coûts du nœud racine est négatif, vous pouvez les définir sur **En retard**.
+Les champs **Performance de planification** et **Performances des coûts** sont définis à partir de la date de suivi. Lorsque l’écart de planification et des coûts du nœud racine dans la vue **Suivi des efforts** est positif, vous pouvez définir ces champs sur **En avance**. Lorsque l’écart de planification et l’écart de coût pour le nœud racine sont négatifs, vous pouvez les définir sur **En retard**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

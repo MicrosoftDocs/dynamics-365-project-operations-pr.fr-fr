@@ -2,8 +2,6 @@
 title: Configurer des modèles de compétences
 description: Procédure de configuration de modèles de compétences dans Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f8eca6fc162c4bae2b5e8e977b2a504a75f0535c36c58f376a7948e619f15fa2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122970"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006873"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Configurer des modèles de compétences (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -39,7 +39,7 @@ Maintenant que vous avez ajouté des qualifications pour les projets de vos clie
   
      Par exemple, si vous affichez ou modifiez le modèle d’évaluation par défaut, vous verrez les niveaux de compétences suivants dans **Évaluer les valeurs**.  
   
-    |Nom |Valeur|  
+    |Nom|Valeur|  
     |----------|-----------|  
     |Familier|1|  
     |Bon|2|  
@@ -51,3 +51,6 @@ Maintenant que vous avez ajouté des qualifications pour les projets de vos clie
   
 ### <a name="see-also"></a>Voir aussi  
  [Configurer les ressources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

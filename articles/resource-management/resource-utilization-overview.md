@@ -2,31 +2,30 @@
 title: Vue d’ensemble de l’utilisation des ressources
 description: Cette rubrique fournit des informations sur l’utilisation des ressources dans Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.custom: intro-internal
+ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401373"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002058"
 ---
 # <a name="resource-utilization-overview"></a>Vue d’ensemble de l’utilisation des ressources
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Les ressources peuvent avoir une utilisation facturable cible. Cette utilisation cible est définie soit comme un attribut dans le rôle par défaut d’une ressource, soit sur l’enregistrement de la ressource réservable individuelle. Les calculs de l’utilisation sont basés sur les heures réelles que les ressources ont signalées à l’aide des entrées de temps approuvées.
+Les ressources peuvent avoir une utilisation facturable cible. Cette utilisation cible est définie soit comme un attribut dans le rôle par défaut d’une ressource, soit sur l’enregistrement de la ressource réservable individuelle. Les calculs de l’utilisation sont basés sur les heures réelles déclarées par des ressources à l’aide d’entrées de temps approuvées.
 
 Les formules suivantes sont utilisées pour calculer l’utilisation :
 
   - Utilisation facturable = Heures réelles facturables ÷ Capacité ressource
-  - Utilisation non facturable = Temps réel avec ID type facturation = Capacité non facturable, gratuite ou non disponible ÷ Capacité ressource
+  - Utilisation non facturable = Temps réel avec ID du type de facturation = Non facturable, Gratuit ou Non disponible ÷ Capacité ressource
   - Interne = Temps réel sans contrat de vente ÷ Capacité ressource
-  - Capacité ressource = Heures de travail d’une ressource – Absence du bureau – Jours non ouvrables
+  - Capacité ressource = Heures de travail de la ressource – Absence du bureau – Jours non ouvrables
 
 Vous trouverez la vue **Utilisation des ressources** dans le volet **Ressources**.
 
@@ -45,3 +44,6 @@ En outre, un rôle par défaut doit être affecté à chaque ressource réservab
 Dans l’onglet **Project Service**, vous pouvez également définir une utilisation cible individuelle pour la ressource. Le calcul de l’utilisation utilise ensuite cette utilisation cible pour évaluer la cible de la ressource au lieu de la cible du rôle par défaut de la ressource.
 
 L’utilisation s’affiche uniquement pour une ressource si cette ressource est approuvée, temps facturable pendant la période affichée dans la grille.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

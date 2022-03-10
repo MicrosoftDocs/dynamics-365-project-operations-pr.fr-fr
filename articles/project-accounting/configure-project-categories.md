@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995168"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997108"
 ---
 # <a name="configure-project-categories"></a>Configurer les catégories de projets
 
@@ -23,7 +23,7 @@ Le diagramme suivant illustre la corrélation entre les catégories de transacti
 
 Les catégories de transaction constituent le regroupement de base des transactions de projet. Au sein de ce regroupement se trouve un ensemble de catégories qui peuvent être partagées sur l’ensemble des applications et des modules. Pour aller encore plus loin dans les détails, les catégories de projets sont le niveau de catégories le plus granulaire. Les catégories de projet sont spécifiques à l’entité juridique, au module et à l’application.
 
-![Corrélation entre les catégories de transaction, les catégories partagées et les catégories de projet](media/project-categories.png)
+![Corrélation entre les catégories de transaction, les catégories partagées et les catégories de projet.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Catégories de transactions
 

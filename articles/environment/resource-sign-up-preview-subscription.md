@@ -1,81 +1,59 @@
 ---
-title: Inscrivez-vous aux abonnements aux versions préliminaires de Project Operations pour les scénarios de ressources/non stockés
-description: Cette rubrique fournit des informations sur la façon de s’abonner et de déployer des scénarios basés sur les ressource/non-stockés Project Operations.
+title: Souscrire des abonnements à la version préliminaire de Project Operations pour les scénarios de ressources/hors stock
+description: Cette rubrique fournit des informations sur la façon de souscrire un abonnement et de déployer des scénarios basés sur les ressources/hors stock Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075626"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323413"
 ---
-# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Inscrivez-vous aux abonnements aux versions préliminaires de Project Operations pour les scénarios de ressources/non stockés
+# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Souscrire des abonnements à la version préliminaire de Project Operations pour les scénarios de ressources/hors stock
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Cette rubrique explique comment souscrire à l’offre de version préliminaire/partenaire et déployer l’environnement Project Operations pour les scénarios basés sur les ressources/non stockés.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Cette rubrique explique comment souscrire à l’offre d’évaluation et déployer l’environnement Project Operations pour les scénarios basés sur des ressources/hors stock.
 
 ## <a name="prerequisites"></a>Conditions préalables
-
-- Vous recevrez un e-mail vous invitant à participer à la version préliminaire. Vous pouvez demander une version préliminaire sur le [site web de Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- L’utilisateur qui déploie la version préliminaire doit disposer des droits administrateur général du client Azure.
-- Le déploiement d’un environnement Finance nécessite un abonnement Azure valide qui sera facturé par environnement. Vous pouvez utiliser l’abonnement existant de votre organisation ou utiliser un [Essai Azure](https://azure.microsoft.com/en-us/free/) pour commencer. L’environnement CDS sera fourni gratuitement pendant une période limitée de 30 jours.
-
-## <a name="subscribe"></a>S'abonner
-
-Lorsque vous recevez une approbation à votre [demande de version préliminaire](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), vous recevez trois offres de Microsoft par e-mail. Ces offres vous permettent de déployer la version préliminaire de Project Operations :
-
-- Dynamics 365 Project Operations (CRM) – Version d’essai
-- Office 365 Project Operations - Version d'essai
-- Dynamics 365 Finance - Version d’essai
+- L’utilisateur qui déploie la version préliminaire doit disposer des droits administrateur général du client Azure. Vous pouvez créer un client pendant la première acceptation de l’offre. 
+- Le déploiement d’un environnement Finance nécessite un abonnement Azure valide qui sera facturé par environnement. Vous pouvez utiliser l’abonnement existant de votre organisation ou utiliser un [Essai Azure](https://azure.microsoft.com/free/) pour commencer. L’environnement CDS sera fourni gratuitement pendant une période limitée de 30 jours.
 
 > [!IMPORTANT]
 > Une seule personne, l’administrateur du client, dans une organisation doit effectuer cette tâche. Si vous n’êtes pas abonné à cette version, attendez que votre organisation soit inscrite et que vous ayez reçu vos informations d’identification utilisateur.
+> 
+> Les évaluations sont à usage unique dans le client. Vous ne pouvez exécuter une évaluation qu’une seule fois. Nous vous recommandons de créer un nouveau client pour les besoins de l’évaluation.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Version d’essai 
 
-Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur avec le compte de travail de l'utilisateur dans le client où vous souhaitez la version préliminaire de Project Operations.
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) - Essai en version préliminaire 
 
-1. Utilisez le premier code promotionnel **Dynamics 365 Project Operations (CRM) - Version d'essai** en le collant dans l'URL du navigateur.
+Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur avec le compte de travail de l’utilisateur dans le client où vous souhaitez la version préliminaire de Project Operations.
 
-![Accepter l’offre](./media/16RedeemFirstOfferNew.png)
-
+1. Acceptez le premier code de l’offre, **Dynamics 365 Project Operations** ici [Évaluation de Project Operations](https://aka.ms/try-po).
 2. Confirmez votre commande.
 
-![Confirmer la commande](./media/17ConfirmOrderNew.png)
+  Vous verrez la confirmation que l’offre a été utilisée avec succès.
 
-Vous verrez la confirmation que l'offre a été utilisée avec succès.
+### <a name="dynamics-365-finance-preview-trial"></a>Essai en version préliminaire de Dynamics 365 Finance
 
-![Confirmation](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Version d'essai
-
-Répétez les mêmes étapes que pour le premier code d'offre. Assurez-vous d'ajouter le deuxième code d'offre en utilisant le même compte d'utilisateur que celui utilisé avec le premier code d'offre.
-
-### <a name="dynamics-365-finance-preview-trial"></a>Version d’essai Dynamics 365 Finance
-
-Répétez les mêmes étapes avec la dernière offre de l'e-mail de bienvenue.
+Accédez à [Essai en version préliminaire de Dynamics 365 for Finance](https://aka.ms/trypoche) et répétez les étapes de la section précédente avec l’offre, S’inscrire pour accéder à l’environnement hébergé dans le cloud.  
 
 ## <a name="assign-licenses"></a>Attribuer des licences
 
 > [!IMPORTANT]
-> Vous aurez besoin d'un accès administratif au portail Microsoft 365 de votre organisation pour terminer les étapes suivantes.
+> Vous aurez besoin d’un accès administratif au portail Microsoft 365 de votre organisation pour terminer les étapes suivantes.
 
 1. Accédez au [Centre d’administration Microsoft 365](https://portal.office.com/) pour attribuer les licences à vos utilisateurs.
 
-![Page d’accueil du centre d’administration](./media/14AdminPortal.png)
-
 2. Sur la page **Utilisateurs actifs**, sélectionnez les utilisateurs auxquels vous souhaitez attribuer une licence.
 
-![Attribuer des licences](./media/15AssignLicenses.png)
-
-3. Vérifiez que les licences **Dynamics 365 Project Operations (CRM) - Version préliminaire** et **Office 365 Project Operations - Version préliminaire** ont été sélectionnées et sélectionnez **Enregistrer les modifications**.
+3. Vérifiez que la licence **Dynamics 365 Project Operations** a été sélectionnée et sélectionnez **Enregistrer les modifications**.
 
 > [!NOTE]
 > L’offre d’essai Finance n’a pas besoin d’être attribuée à un utilisateur.
@@ -88,11 +66,14 @@ Créez un projet LCS comme décrit dans la rubrique, [Démarrer un nouveau proje
 
 Pour terminer cette tâche, suivez les étapes du sujet, [Ajouter un abonnement Azure au projet LCS](resource-add-azure-subscription-lcs-project.md).
 
-## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Déployer l’environnement de démonstration Finance avec Project Operations pour les scénarios basés sur des ressources/non stockés
+## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Déployer l’environnement de démonstration Finance avec Project Operations pour les scénarios basés sur des ressources/hors stock
 
-Suivez les instructions de la rubrique [Mettre en service un nouvel environnement](resource-provision-new-environment.md) pour terminer le déploiement. Utilisez le type de déploiement [d’environnement de démonstration](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pour la version préliminaire. 
+Suivez les instructions de la rubrique [Mettre en service un nouvel environnement](resource-provision-new-environment.md) pour terminer le déploiement. Utilisez le type de déploiement [d’environnement de démonstration](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pour la version préliminaire. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Installer la configuration de la démonstration et les données de configuration CDS
 
 Installez les données d’installation et de configuration CDS comme décrit dans la rubrique [Configurer et appliquer les données de configuration dans Common Data Service](resource-apply-pro-setup-config-data.md).
-Effectuez cette étape uniquement après le déploiement de l'environnement de démonstration Finance et une fois que les données de démonstration dans FO sont prêtes.
+N’effectuez cette étape qu’une fois que l’environnement de démonstration de Finance est déployé et que les données de démonstration sont prêtes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

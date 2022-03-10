@@ -2,18 +2,16 @@
 title: Indemnités quotidiennes
 description: Cette rubrique fournit des informations sur les règles d’indemnités journalières utilisées dans la gestion des dépenses.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 70e26a5e0f9a06730a2166318006429195335d4d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276300"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986398"
 ---
 # <a name="per-diems"></a>Indemnités quotidiennes
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: 8464eefbce9ba266360e10039e2a0be78982d8fa
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 79b4f6355afb7472f843eda06bf33a3fe732274d6f2566bd23000aa11cbfdce1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369733"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007548"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Vue d’ensemble des lignes de contrat basées sur un projet – Simplifié
 

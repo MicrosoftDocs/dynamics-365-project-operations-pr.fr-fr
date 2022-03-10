@@ -6,12 +6,12 @@ ms.date: 10/10/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 6e3e5faf6a0a4553ef19ded1e0a8cda386a51061
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 396fd201949663d93d90f6609e5b97f646f7942cde002c91482fa7dc26c394ae
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002098"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006243"
 ---
 # <a name="distributions-on-an-expense-report"></a>Distributions sur une note de frais
 

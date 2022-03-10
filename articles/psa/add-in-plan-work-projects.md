@@ -2,8 +2,6 @@
 title: Planifiez votre travail dans Microsoft Project avec le module complémentaire Project Service
 description: Cette rubrique fournit des informations à suivre pour utiliser le module complémentaire Microsoft Project pour Microsoft Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 01/07/2021
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145940"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993868"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Planifiez votre travail dans Microsoft Project avec le module complémentaire Project Service
 
@@ -141,7 +139,7 @@ Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 2. Sélectionnez **Vers les documets du projet Project Service Automation**.  
 
-3. Dans la boîte de dialogue **Activer l'ouverture de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** sélectionnez **Oui** ou **Non**.  
+3. Dans la boîte de dialogue **Activer l’ouverture de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** sélectionnez **Oui** ou **Non**.  
 
    - Si vous cliquez sur **Oui**, vous pourrez sélectionner **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dans Project Service Automation et lancer [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et charger le fichier Project depuis la bibliothèque de documents SharePoint.  
 
@@ -155,7 +153,7 @@ Le projet est importé dans [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 2. Sélectionnez **Vers les documets du projet Project Service Automation**.  
 
-3. Dans la boîte de dialogue **Activer l'ouverture de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** sélectionnez **Oui** ou **Non**.  
+3. Dans la boîte de dialogue **Activer l’ouverture de [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** sélectionnez **Oui** ou **Non**.  
 
    - Si vous cliquez sur **Oui**, vous pourrez sélectionner **Ouvrir dans [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dans Project Service Automation et lancer [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] et charger le fichier Project depuis la bibliothèque de documents SharePoint.  
 
@@ -178,14 +176,14 @@ L’association du fichier de projet à [!INCLUDE[pn_project_service_auto](../in
 
 ## <a name="read-a-resource-loaded-schedule"></a>Lire une planification chargée avec des ressources
 
-Lors de la lecture d'un projet à partir de Project Service Automation, le calendrier de la ressource n'est pas synchronisé avec le client de bureau. S'il existe des différences dans la durée, l'effort ou la fin des tâches, c'est probablement parce que les ressources et le client de bureau n'ont pas le même calendrier de modèle d'heures de travail appliqué au projet.
+Lors de la lecture d’un projet à partir de Project Service Automation, le calendrier de la ressource n’est pas synchronisé avec le client de bureau. S’il existe des différences dans la durée, l’effort ou la fin des tâches, c’est probablement parce que les ressources et le client de bureau n’ont pas le même calendrier de modèle d’heures de travail appliqué au projet.
 
 
 ## <a name="data-synchronization"></a>Synchronisation des données
-Les tableaux de cette section fournissent des informations sur la synchronisation des données d'entité entre Project Service Automation et le complément de bureau Microsoft Project.
+Les tableaux de cette section fournissent des informations sur la synchronisation des données d’entité entre Project Service Automation et le complément de bureau Microsoft Project.
 
-### <a name="project-task-entity-table"></a>Table d'entité de tâche de projet
-Le tableau suivant décrit comment les données de l'entité Tâche de projet sont synchronisées entre Project Service Automation et le complément de bureau Microsoft Project.
+### <a name="project-task-entity-table"></a>Table d’entité de tâche de projet
+Le tableau suivant décrit comment les données de l’entité Tâche de projet sont synchronisées entre Project Service Automation et le complément de bureau Microsoft Project.
 
 | **Entité** | **Champ** | **Microsoft Project à Project Service Automation** | **Project Service Automation à Microsoft Project** |
 | --- | --- | --- | --- |
@@ -196,26 +194,26 @@ Le tableau suivant décrit comment les données de l'entité Tâche de projet so
 | Tâche du projet | Project | Synchronisé | Non synchronisé |
 | Tâche du projet | Tâche du projet | Synchronisé | Non synchronisé |
 | Tâche du projet | Nom de la tâche du projet | Synchronisé | Non synchronisé |
-| Tâche du projet | Unité d'allocation des ressources (obsolète dans la version 3.0) | Synchronisé | Non synchronisé |
+| Tâche du projet | Unité d’allocation des ressources (obsolète dans la version 3.0) | Synchronisé | Non synchronisé |
 | Tâche du projet | Durée planifiée | Synchronisé | Non synchronisé |
 | Tâche du projet | Date de début | Synchronisé | Non synchronisé |
 | Tâche du projet | ID WBS | Synchronisé | Non synchronisé |
 
-### <a name="team-member-entity-table"></a>Table d'entité Membre de l'équipe
-Le tableau suivant décrit comment les données de l'entité Membre de l'équipe sont synchronisées entre Project Service Automation et le Micros
+### <a name="team-member-entity-table"></a>Table d’entité Membre de l’équipe
+Le tableau suivant décrit comment les données de l’entité Membre de l’équipe sont synchronisées entre Project Service Automation et le Micros
 
 | **Entité** | **Champ** | **Microsoft Project à Project Service Automation** | **Project Service Automation à Microsoft Project** |
 | --- | --- | --- | --- |
-| Membre d'équipe | ID du client MS Project | Synchronisé | Non synchronisé |
-| Membre d'équipe | Nom du poste | Synchronisé | Non synchronisé |
-| Membre d'équipe | projet | Synchronisé | Synchronisé |
-| Membre d'équipe | Équipe du projet | Synchronisé | Synchronisé |
-| Membre d'équipe | Unité d’allocation des ressources | Non synchronisé | Synchronisé |
-| Membre d'équipe | Rôle | Non synchronisé | Synchronisé |
-| Membre d'équipe | Heures de travail | Non synchronisé | Non synchronisé |
+| Membre d’équipe | ID du client MS Project | Synchronisé | Non synchronisé |
+| Membre d’équipe | Nom du poste | Synchronisé | Non synchronisé |
+| Membre d’équipe | projet | Synchronisé | Synchronisé |
+| Membre d’équipe | Équipe du projet | Synchronisé | Synchronisé |
+| Membre d’équipe | Unité d’allocation des ressources | Non synchronisé | Synchronisé |
+| Membre d’équipe | Rôle | Non synchronisé | Synchronisé |
+| Membre d’équipe | Heures de travail | Non synchronisé | Non synchronisé |
 
-### <a name="resource-assignment-entity-table"></a>Table d'entité Affectation de ressources
-Le tableau suivant décrit comment les données de l'entité Affectation des ressources sont synchronisées entre Project Service Automation et le Micros
+### <a name="resource-assignment-entity-table"></a>Table d’entité Affectation de ressources
+Le tableau suivant décrit comment les données de l’entité Affectation des ressources sont synchronisées entre Project Service Automation et le Micros
 
 | **Entité** | **Champ** | **Microsoft Project à Project Service Automation** | **Project Service Automation à Microsoft Project** |
 | --- | --- | --- | --- |
@@ -229,8 +227,8 @@ Le tableau suivant décrit comment les données de l'entité Affectation des res
 | Attribution de ressource | Tâche | Synchronisé | Non synchronisé |
 | Attribution de ressource | Date de fin | Synchronisé | Non synchronisé |
 
-### <a name="project-task-dependencies-entity-table"></a>Table d'entité Dépendances de tâche de projet
-Le tableau suivant décrit comment les données de l'entité Dépendances de tâche de projet sont synchronisées entre Project Service Automation et le Micros
+### <a name="project-task-dependencies-entity-table"></a>Table d’entité Dépendances de tâche de projet
+Le tableau suivant décrit comment les données de l’entité Dépendances de tâche de projet sont synchronisées entre Project Service Automation et le Micros
 
 | **Entité** | **Champ** | **Microsoft Project à Project Service Automation** | **Project Service Automation à Microsoft Project** |
 | --- | --- | --- | --- |
@@ -242,3 +240,6 @@ Le tableau suivant décrit comment les données de l'entité Dépendances de tâ
 
 ### <a name="additional-resources"></a>Ressources complémentaires
  [Guide du responsable de projet](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368878"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998458"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Page d’accueil Dimensions de tarification et des coûts
 
@@ -41,7 +41,7 @@ Les dimensions utilisées pour définir la tarification et le coût de la main-d
 
 Expéditions PSA avec un ensemble par défaut de dimensions de tarification. Vous pouvez consulter ces derniers en accédant à **Project Service** > **Paramètres**. Dans l’enregistrement du paramètre, dans l’onglet **Dimensions de tarification basées sur un montant**, vérifiez que le rôle, **msdyn_resourcecategory** et l’unité d’organisation d’allocation des ressources, **msdyn_organizationalunit**, contiennent les champs **Applicable aux ventes** et **Applicable aux coûts** définis sur **Oui**. Vous pourrez ainsi configurer le prix et le coût de chaque combinaison de rôle et d’unité d’organisation.
 
-![Capture d’écran des paramètres de Project Service avec « Applicable aux ventes » en surbrillance](media/PS-OOB-parameters.png)
+![Capture d’écran des paramètres de Project Service avec « Applicable aux ventes » en surbrillance.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Si vous avez utilisé les champs prédéfinis du rôle et de l’unité d’organisation comme dimensions de tarification avant la version 3 de PSA, il n’existera pas de modification observable. Vous pouvez continuer à utiliser Project Service comme d’habitude. 

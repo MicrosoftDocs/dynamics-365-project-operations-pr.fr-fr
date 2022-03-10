@@ -6,12 +6,12 @@ ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: adb5a7f113b15abd2fe7364fa9b592d2c02db389
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 84283ac055aea802fadbd6814ea65a6d3dc01d29e1e3c6290ef11f72f6a75692
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000703"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003948"
 ---
 # <a name="estimate-a-project-quote-line"></a>Estimer une ligne de devis de projet
 

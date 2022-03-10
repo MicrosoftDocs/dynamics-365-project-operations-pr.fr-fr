@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 434be93cedb4772616b1e6d5cbe15fc715eed19a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d60a3586fd1f0f688bcd2626d039ebc1aa6b0925c90d676f0e716400d8e8d6dd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993098"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002868"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>Pourquoi ne parviens-je pas à supprimer d’enregistrements de l’entité Chiffres réels ?
 

@@ -6,12 +6,13 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 32337b05f09ef7c5b84fdff9870744d6367e2693
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 2f2d38c7fb3bc3ec26cf64525ef8275adecafd7fc48e97d6daef595d341c045d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994853"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001563"
 ---
 # <a name="project-based-quote-lines-overview"></a>Présentation de lignes du devis basées sur un projet 
 

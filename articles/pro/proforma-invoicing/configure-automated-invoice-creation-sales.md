@@ -1,29 +1,25 @@
 ---
-title: Configurer une création de facture automatisée – Simplifié
-description: Cette rubrique fournit des informations sur la configuration de la création automatique de factures pro forma.
+title: Configurer la création automatique de factures
+description: Cette rubrique fournit des informations sur le paramétrage et la configuration de la création automatique de factures pro forma.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274320"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997513"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Configurer une création de facture automatisée – Simplifié
+# <a name="set-up-automatic-invoice-creation"></a>Configurer la création automatique de factures 
  
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma, Project Operations pour les scénarios basés sur les ressources/produits non stockés_
 
 Vous pouvez configurer la création automatique de factures dans Dynamics 365 Project Operations. Le système crée une facture pro forma provisoire selon le calendrier de facturation pour chaque contrat de projet et chaque ligne de contrat. Les calendriers de facturation sont configurés au niveau de la ligne de contrat. Chaque ligne d’un contrat peut présenter un calendrier de facturation distinct, ou le même calendrier de facturation peut être inclus sur toutes les lignes du contrat.
 
-Lorsque vous créez une facture, le système crée toujours au moins une facture par contrat de projet. Dans certains cas, plusieurs factures peuvent être créées.
-
-Par exemple, si le contrat a plusieurs clients, le même nombre de factures que le nombre de clients qui ont des transactions facturables à facturer sera créé sur ce contrat de projet.
+Lorsque vous créez une facture, le système crée toujours au moins une facture par contrat de projet. Dans certains cas, plusieurs factures peuvent être créées. Par exemple, si le contrat a plusieurs clients, le même nombre de factures que le nombre de clients qui ont des transactions facturables à facturer sera créé sur ce contrat de projet.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Comprendre comment les transactions sont incluses sur une facture 
 
@@ -77,17 +73,17 @@ Procédez comme suit pour configurer l’exécution d’une facture automatique.
 - ProcessRunner
 - UpdateRoleUtilization
 
-5. Sélectionnez **ProcessRunCaller**, puis **Ajouter**.
-6. Dans la boîte de dialogue suivante, sélectionnez **OK**. Un workflow **Veille** est suivi d’un workflow **Processus**. 
+5. Sélectionnez **ProcessRunCaller**, puis cliquez sur **Ajouter**.
+6. Dans la boîte de dialogue suivante, cliquez sur **OK**. Un flux de travail **Sleep** est suivi d’un flux de travail **Process**. 
 
 > [!NOTE]
 > Vous pouvez également sélectionner **ProcessRunner** à l’étape 5. Ensuite, lorsque vous sélectionnez **OK**, un workflow **Processus** est suivi d’un workflow **Veille**.
 
-Les workflows **ProcessRunCaller** et **ProcessRunner** créent des factures. **ProcessRunCaller** appelle **ProcessRunner**. **ProcessRunner** est le workflow qui crée en fait les factures. Le workflow traverse toutes les lignes de contrat pour lesquelles des factures doivent être créées, et crée des factures pour ces lignes. Pour déterminer les lignes de contrat pour lesquelles des factures doivent être créées, la tâche recherche les dates d’exécution de factures des lignes de contrat. Si des lignes de contrat qui appartiennent à un contrat disposent de la même date d’exécution de factures, les transactions sont combinées en une seule facture avec deux lignes de facture. S’il n’existe pas de transaction pour créer des factures, la tâche ignore la création de facture.
+Les workflows **ProcessRunCaller** et **ProcessRunner** créent des factures. **ProcessRunCaller** appelle **ProcessRunner**. **ProcessRunner** est le workflow qui crée en fait les factures. Le workflow traverse toutes les lignes de contrat pour lesquelles des factures doivent être créées, et crée des factures pour ces lignes. Pour déterminer les lignes de contrat pour lesquelles des factures doivent être créées, la tâche recherche les dates d’exécution de factures des lignes de contrat. Si des lignes de contrat appartenant à un contrat sont associées à la même date d’exécution de la facture, les transactions sont combinées en une seule facture comportant deux lignes de facture. S’il n’existe pas de transaction pour créer des factures, la tâche ignore la création de facture.
 
 Une fois que **ProcessRunner** a fini de s’exécuter, il appelle **ProcessRunCaller**, fournit l’heure de fin, et est fermé. **ProcessRunCaller** lance alors une minuterie qui s’exécute pendant 24 heures à partir de l’heure de fin spécifiée. À la fin de la minuterie, **ProcessRunCaller** est fermé.
 
-La tâche de traitement par lots pour la création de factures est une tâche périodique. Si ce traitement par lots est exécuté de nombreuses fois, plusieurs instances de la tâche sont créées et entraînent des erreurs. Par conséquent, vous devez démarrer le traitement par lots une seule fois, et redémarrer uniquement s’il cesse de s’exécuter.
+Le processus de traitement par lots pour la création de factures est une tâche récurrente. Si ce traitement par lots est exécuté de nombreuses fois, plusieurs instances de la tâche sont créées et entraînent des erreurs. Par conséquent, vous devez démarrer le traitement par lots une seule fois, et redémarrer uniquement s’il cesse de s’exécuter.
 
 > [!NOTE]
 > La facturation par lots dans Project Operations ne s’exécute que pour les lignes de contrat de projet qui sont configurées par des planifications de facture. Une ligne de contrat avec une méthode de facturation à prix fixe doit avoir des jalons configurés. Une ligne de contrat de projet avec une méthode de facturation en régie nécessite la configuration d’un calendrier de facturation basé sur la date.

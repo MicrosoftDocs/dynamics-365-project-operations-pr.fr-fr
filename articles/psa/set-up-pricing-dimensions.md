@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008308"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002328"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuration des champs personnalisés comme dimensions de tarification 
 
@@ -41,11 +41,11 @@ Pour qu’un champ devienne une dimension de tarification, il doit être :
 - Créé en tant que champ dans les entités **Prix du rôle** et **Majoration du prix du rôle**. Pour plus d’informations sur cette procédure, consultez [Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles](field-references.md).
 - Créé en tant que ligne dans la table **Dimension de tarification**. Par exemple, ajoutez des lignes de dimension de tarification, comme illustré dans le graphique suivant. 
 
-![Lignes de dimension de tarification basées sur le montant](media/Amt-based-PD.png)
+![Lignes de dimension de tarification basées sur le montant.](media/Amt-based-PD.png)
 
 Notez que la ligne Heures de travail de la ressource (**msdyn_resourceworkhours**) a été ajoutée comme dimension basée sur la majoration et ajoutée à la grille de l’onglet **Dimension de tarification basée sur la majoration**.
 
-![Lignes de dimension de tarification basées sur la majoration](media/Markup-based-PD.png)
+![Lignes de dimension de tarification basées sur la majoration.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Toute modification des données de dimension de tarification contenues dans ce tableau, existantes ou nouvelles, est propagée à la logique métier de tarification de Project Service uniquement après actualisation du cache. L’actualisation du cache peut prendre jusqu’à 10 minutes. En attendant, vous pouvez voir les modifications de la logique de prix par défaut qui doivent résulter des modifications des données de dimension de tarification.

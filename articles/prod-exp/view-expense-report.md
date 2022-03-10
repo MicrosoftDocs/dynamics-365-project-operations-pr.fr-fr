@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0f64b1135c94f8f6daf0ee59dd1743e689093e7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8d660d372bf4421da21b42889cfc62cd62df7366414af7e1a6efe4747033a29b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005968"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003408"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Afficher une note de frais à partir de la comptabilité ou de Achats et approvisionnement
 

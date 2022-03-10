@@ -2,8 +2,6 @@
 title: Utilisation des modèles de données Project Service Automation
 description: Cette rubrique fournit des informations sur la façon d’utiliser le modèle de données.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9bceb96153f0e9f5c0d40478baf691220de95f27
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642675"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002418"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Utilisation des modèles de données Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
@@ -53,7 +53,7 @@ PSA ajoute également de nouvelles entités liées au devis au modèle de donné
 
 D’autres entités que PSA ajoute aux devis sont **Tarifs du projet de la ligne de devis**, **Catégorie de ressource de ligne de devis**, **Catégorie de transaction de ligne de devis**.
 
-![Graphique affichant le devis, la ligne de devis et les relations du projet](media/PS-Reporting-image2.png "Graphique affichant le devis, la ligne de devis et les relations du projet")
+![Graphique affichant le devis, la ligne de devis et les relations du projet.](media/PS-Reporting-image2.png "Graphique affichant le devis, la ligne de devis et les relations du projet")
 
 ## <a name="reporting-on-project-contracts"></a>Génération de rapports sur les contrats de projet
 
@@ -69,7 +69,7 @@ PSA ajoute également de nouvelles entités conçues pour les contrats de projet
 
 D’autres entités que PSA ajoute aux contrats sont **Tarifs du projet de la ligne de contrat de projet**, **Catégorie de ressource de ligne de contrat de projet**, **Catégorie de transaction de ligne de contrat de projet**.
 
-![Graphique affichant la commande, la ligne de commande et les relations du projet](media/PS-Reporting-image3.png "Graphique affichant la commande, la ligne de commande et les relations du projet")
+![Graphique affichant la commande, la ligne de commande et les relations du projet.](media/PS-Reporting-image3.png "Graphique affichant la commande, la ligne de commande et les relations du projet")
 
 ## <a name="reporting-on-projects"></a>Génération de rapports sur les projets
 
@@ -81,18 +81,18 @@ L’entité **Projets** et ses entités associées sont exclusives à PSA. **Pro
 - **Besoin en ressources** : cette entité contient les besoins de tous les membres de l’équipe de ressources génériques.
 - **Estimation** et **Ligne d’estimation** : ces entités ont une relation en-tête/ligne et contiennent des estimations des dépenses pour le projet. Les estimations de tâches sont stockées sur l’entité **Estimation des ressources**.
 
-![Graphique affichant le besoin en ressources et les relations du projet](media/PS-Reporting-image4.png "Graphique affichant le besoin en ressources et les relations du projet")
+![Graphique affichant le besoin en ressources et les relations du projet.](media/PS-Reporting-image4.png "Graphique affichant le besoin en ressources et les relations du projet")
 
 ## <a name="reporting-on-resources"></a>Génération de rapports sur les ressources
 
-Les ressources du projet utilisent les entités **Ressource pouvant être réservée** de Universal Resource Scheduling (URS) qui sont partagées avec d’autres applications, telles que Microsoft Dynamics 365 Field Service. Voici la liste des entités que vous devrez utiliser lorsque vous générerez des rapports sur les ressources de projet :
+Les ressources du projet utilisent les entités **Ressource réservable** de Universal Resource Scheduling (URS) qui sont partagées avec d’autres applications, telles que Microsoft Dynamics 365 Field Service. Voici la liste des entités que vous devrez utiliser lorsque vous générerez des rapports sur les ressources de projet :
 
 - **Ressource pouvant être réservée** : cette entité représente l’utilisateur, le contact, la ressource générique, le compte, le groupe ou les équipements utilisés par l’équipe du projet.
 - **Caractéristiques des ressources pouvant être réservées** : cette entité comprend les compétences, les certifications ou les études de la ressource. Les caractéristiques peuvent avoir des valeurs d’évaluation définies par le modèle d’évaluation.
 - **Catégorie de ressources pouvant être réservées** : cette entité représente le rôle de la ressources réservables.
 - **Réservations des ressources réservables** : cette entité représente le temps qui est réservé sur les projets pour la ressource. Chaque réservation a une entité d’en-tête et des entités de ligne, et chaque ligne possède un statut qui représente le statut de la réservation.
 
-![Diagramme affichant les relations des caractéristiques des ressources réservables](media/PS-Reporting-image5.png "Diagramme affichant les relations des caractéristiques des ressources réservables")
+![Graphique affichant les relations des caractéristiques des ressources réservables.](media/PS-Reporting-image5.png "Diagramme affichant les relations des caractéristiques des ressources réservables")
 
 ## <a name="reporting-on-actual-transactions"></a>Génération de rapports sur les transactions réelles
 
@@ -120,4 +120,7 @@ Lorsque vous utilisez l’entité **Chiffre réel**, il est important de bien co
 
 L’entité **Origine de la transaction** enregistre l’origine de l’enregistrement **Chiffre réel**, et l’entité **Connexion de la transaction** enregistre les enregistrements associés de l’enregistrement **Chiffre réel**. En outre, l’enregistrement **Chiffre réel** contient des références au projet, au contrat du projet (commande), aux ressources réservables, et au client.
 
-![Diagramme affichant la connexion, l’origine et les relations réelles de la transaction](media/PS-Reporting-image6.png "Diagramme affichant la connexion, l’origine et les relations réelles de la transaction")
+![Graphique affichant la connexion de la transaction, les relation d'origine et réelles.](media/PS-Reporting-image6.png "Diagramme affichant la connexion, l’origine et les relations réelles de la transaction")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

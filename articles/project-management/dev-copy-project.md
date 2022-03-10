@@ -2,18 +2,16 @@
 title: Développer des modèles de projet avec Copier le projet
 description: Cette rubrique fournit des informations sur la création de modèles de projet à l’aide de l’action personnalisée Copier le projet.
 author: stsporen
-manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 27847575e2d6ec9af77d24f756b13d3aeb0efea7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286920"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989247"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Développer des modèles de projet avec Copier le projet
 
@@ -44,14 +42,14 @@ Il existe trois paramètres de saisie :
 - **{"clearTeamsAndAssignments":true}**  : Trois comportements par défaut de Project pour le Web et suppression de toutes les affectations et des membres de l’équipe.
 - **{"removeNamedResources":true}** Le comportement par défaut pour Project Operations et rétablira les affectations aux ressources génériques.
 
-Pour plus de valeurs par défaut sur les actions, voir [Utiliser des actions API web](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Pour plus de valeurs par défaut sur les actions, voir [Utiliser des actions API web](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Spécifier les champs à copier 
 Lorsque l’action est appelée **Copier le projet** regardera la vue du projet **Copier les colonnes du projet** pour déterminer les champs à copier lorsque le projet est copié.
 
 
 ### <a name="example"></a>Exemple
-L'exemple suivant montre comment appeler l'action personnalisée **CopyProject** avec le jeu de paramètres **removeNamedResources**.
+L’exemple suivant montre comment appeler l’action personnalisée **CopyProject** avec le jeu de paramètres **removeNamedResources**.
 ```C#
 {
     using System;

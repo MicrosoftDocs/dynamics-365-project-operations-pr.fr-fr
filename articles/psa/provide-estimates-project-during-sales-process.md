@@ -2,8 +2,6 @@
 title: Fournir des estimations de travail pour un projet pendant le processus de vente
 description: Procédure de fourniture des estimations de travail pour un projet pendant le processus de vente dans Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49ea8327ae34a69eba1585f1b1b4e557fd4eac93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: acb1e5f598e3e057be78a70bc4f5c66c510053a08f4efb0a1595cf4853171662
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283545"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002463"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>Fournir des estimations de travail pour un projet pendant le processus de vente (Project Service)
 

@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: aabee6415bd457c005ad9082f6a95c776e15adce
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b38ee3f66f962a1c7120b16686d7e4b6a324883312afb4f0bc7a87cad1344975
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4069554"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987208"
 ---
 Dynamics 365 Project Service Automation

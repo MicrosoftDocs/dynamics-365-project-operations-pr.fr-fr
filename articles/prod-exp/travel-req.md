@@ -10,16 +10,17 @@ ms.search.form: TrvRequisitionList
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fbd2afc7d32e1824925af6dc4c6d088d4f6ccf9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9e6f7f92101b79db7145ca7f3e44aa22e5f21bddfc5fe3d5adfa765fe37b8fd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006013"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988153"
 ---
 # <a name="travel-requisitions-overview"></a>Présentation des demandes de déplacement
 

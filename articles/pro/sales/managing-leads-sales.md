@@ -2,18 +2,16 @@
 title: Gérer les prospects– Simplifié
 description: Cette rubrique fournit des informations sur la gestion des prospects selon le projet (pro).
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e51920e3a95e89fe923d59ecd2498ba243f895f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949721"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991393"
 ---
 # <a name="manage-leads---lite"></a>Gérer les prospects– Simplifié
 
@@ -23,13 +21,13 @@ Les prospects selon le projet peuvent être gérés et qualifiés dans Project O
 
 ## <a name="list-of-project-sales-leads"></a>Liste des prospects selon le projet
 
-Dans la section **Ventes**, dans le volet de navigation de gauche, ouvrez la page de liste **Prospects** pour afficher une liste de tous les enregistrements de prospects dans le système. Les prospects de la liste sont basés sur le travail et d'autres types de prospects qui peuvent être créés si vous disposez également des applications Dynamics 365 Sales ou Dynamics 365 Field Service.
+Dans la section **Ventes**, dans le volet de navigation de gauche, ouvrez la page de liste **Prospects** pour afficher une liste de tous les enregistrements de prospects dans le système. Les prospects de la liste sont basés sur le travail et d’autres types de prospects qui peuvent être créés si vous disposez également des applications Dynamics 365 Sales ou Dynamics 365 Field Service.
 
-Vous pouvez créer un vue filtrée pour afficher uniquement les prospects selon un projet en créant un filtre sur la valeur **Type**. Par exemple, vous pouvez choisir d’afficher uniquement les prospects selon le travail.
+Vous pouvez créer une vue filtrée pour afficher uniquement les prospects basés sur des projets en créant un filtre sur la valeur **Type**. Par exemple, vous pouvez choisir d’afficher uniquement les prospects selon le travail.
 
 ## <a name="creating-a-new-lead-for-a-project-based-deal"></a>Création d’un prospect pour une transaction basée sur un projet
 
-Lorsqu’un prospect selon un projet est qualifié, une opportunité et un compte sont créés. Une opportunité selon un projet est le point de départ des activités de poursuite des ventes dans la phase Opportunité. Les opportunités basées sur des projets possèdent des fonctionnalités uniques nécessaires pour vendre le travail de projet. Ces capacités incluent :
+Lorsqu’un prospect selon un projet est qualifié, une opportunité et un compte sont créés. Une opportunité basée sur un projet est le point de départ des activités de vente dans la phase Opportunité. Les opportunités basées sur des projets possèdent des fonctionnalités uniques nécessaires pour vendre le travail de projet. Ces capacités incluent :
 
 - Modes de facturation pour le temps et les matières et à prix fixes
 - Tarifs en vigueur à plusieurs dates pour les ressources humaines, les dépenses et le matériel engagés sur les projets.

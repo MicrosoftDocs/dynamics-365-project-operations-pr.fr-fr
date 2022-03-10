@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e888d55b93c40e08e51bd4480853fec37f2b6333
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: bc293e7686b7fd7d50d232cb8b26bfc03eb29c8911b52536d2b0a3a4929730c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007813"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000303"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Modifications de la gestion des ressources (Project Service Automation 3.x)
 
@@ -61,7 +61,7 @@ L’exemple suivant explique comment une tâche nommée « Tâche de ligne » 
 Dans PSA 3.x, une attribution non attribuée est une attribution attribuée à un membre de l’équipe **NULL** et à une ressource **NULL**. Les attributions non attribuées peuvent se produire dans certains scénarios suivants :
 
 - Si une tâche a été créée, mais qu’elle n’a pas encore été attribuée à un membre de l’équipe, une attribution non attribuée est toujours créée. 
-- Si tous les cessionnaires d’une tâche sont supprimés, une attribution non attribuée est recréée pour cette tâche.
+- Si tous les cessionnaires d'une tâche sont supprimés, une attribution non attribuée est recréée pour cette tâche.
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Champs de planification de l’entité Tâche du projet
 

@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: 56e68c72a93e219563b440798b1f44e4b68f6f51
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 77c469e2f2cb715b2540acef797419481afa0ea0dc8827db032357dfbaf717e4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4069546"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990628"
 ---
 Customer Engagement

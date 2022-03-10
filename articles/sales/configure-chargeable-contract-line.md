@@ -1,21 +1,19 @@
 ---
-title: Configurer les composants facturables d’une ligne de contrat basée sur un projet
+title: Configurer les composants facturables d’une ligne de contrat de projet
 description: Cette rubrique fournit des informations sur la configuration de composants inclus, payants et non facturables sur les lignes de contrat.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 51151089df67e2d164fc6315c1291f880917f43f1fba189304cb305ea973cecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075677"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004038"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurer les composants facturables d’une ligne de contrat basée sur un projet
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Configurer les composants facturables d’une ligne de contrat de projet
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
@@ -27,21 +25,21 @@ Un sous-ensemble des composants inclus peut être marqué comme payant en mettan
 
 Les composants payants peuvent être définis sur les rôles et les catégories de transaction.
 
-Pour une ligne de contrat de projet, la tarification définie sur un rôle s'applique uniquement à la classe de transaction **Temps**. Si **Inclure le temps** est défini sur **Non** dans une ligne de contrat de projet, l'onglet **Rôles facturables** n'est pas disponible.
+Pour une ligne de contrat de projet, la tarification définie sur un rôle s’applique uniquement à la classe de transaction **Temps**. Si **Inclure le temps** est défini sur **Non** dans une ligne de contrat de projet, l’onglet **Rôles facturables** n’est pas disponible.
 
-La tarification est définie sur les catégories de transaction pour une ligne de contrat de projet et s'applique uniquement à la classe de transaction **Dépense**. Si **Inclure les dépenses** est défini sur **Non** dans une ligne de contrat de projet, l'onglet **Catégories facturables** n'est pas disponible.
+La tarification est définie sur les catégories de transaction pour une ligne de contrat de projet et s’applique uniquement à la classe de transaction **Dépense**. Si **Inclure les dépenses** est défini sur **Non** dans une ligne de contrat de projet, l’onglet **Catégories facturables** n’est pas disponible.
 
-### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Mettre à jour un rôle pour qu'il soit facturable ou non facturable
+### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Mettre à jour un rôle pour qu’il soit facturable ou non facturable
 
 Un rôle peut être facturable ou non facturable sur une ligne de contrat basée sur un projet spécifique.
 
-Dans l'onglet **Rôles facturables** d'une ligne de contrat basée sur un projet, dans la sous-grille **Catégories facturables**, dans le champ **Type de facturation**, mettez à jour le type de facturation pour un rôle.
+Sous l’onglet **Rôles facturables** de la ligne de contrat basée sur un projet, dans la sous-grille **Catégories facturables**, dans le champ **Type de facturation**, mettez à jour le type de facturation d’un rôle.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Mettre à jour une catégorie de transaction comme facturable ou non facturable
 
 Une catégorie de transaction peut être facturable ou non facturable sur une ligne de contrat basée sur un projet spécifique.
 
-Dans l'onglet **Catégories facturables** d'une ligne de contrat basée sur un projet, dans la sous-grille **Catégories facturables**, dans le champ **Type de facturation**, mettez à jour le type de facturation pour une transaction.
+Sous l’onglet **Catégories facturables** de la ligne de contrat basée sur un projet, dans la sous-grille **Catégories facturables**, dans le champ **Type de facturation**, mettez à jour le type de facturation d’une transaction.
 
 ### <a name="resolve-chargeability"></a>Résoudre la chargeabilité
 
@@ -49,12 +47,15 @@ Une estimation ou un réel créé pour le temps ne sera considéré comme factur
 
 Une estimation ou un réel créé pour la dépense ne sera considéré comme facturable que si la dépense est incluse dans la ligne de contrat, et si la catégorie de transaction est configurée comme facturable sur la ligne de contrat.
 
-| Inclut le temps | Inclut la dépense | Rôle | Catégorie  | Tâche |
+| Inclut le temps | Inclut la dépense | Rôle | Catégorie | Tâche |
 | --- | --- | --- | --- | --- |
-| Oui | Oui | Facturable | Facturable | Facturation à l'heure actuelle : Facturable </br>Type de facturation sur une dépense réelle : facturable |
-| Oui | Oui | Non facturable | Facturable | Facturation à l'heure actuelle : Non facturable </br>Type de facturation sur une dépense réelle : facturable |
-| Oui | Oui | Non facturable | Non facturable | Facturation à l'heure actuelle : Non facturable </br>Type de facturation sur une dépense réelle : non facturable |
-| No | Oui | Impossible à définir | Facturable | Facturation à l'heure actuelle : Non disponible </br>Type de facturation sur une dépense réelle : Facturable |
-| No | Oui | Impossible à définir | Non facturable | Facturation à l'heure actuelle : Non disponible </br>Type de facturation sur une dépense réelle : Non facturable |
-| Oui | No | Facturable | Impossible à définir | Facturation à l'heure actuelle : Facturable </br>Type de facturation sur une dépense réelle : non disponible |
-| Oui | No | Non facturable | Impossible à définir | Facturation à l'heure actuelle : Non facturable </br> Type de facturation sur une dépense réelle : non disponible |
+| Oui | Oui | Facturable | Facturable | Facturation à l’heure actuelle : Facturable </br>Type de facturation sur une dépense réelle : facturable |
+| Oui | Oui | Non facturable | Facturable | Facturation à l’heure actuelle : Non facturable </br>Type de facturation sur une dépense réelle : facturable |
+| Oui | Oui | Non facturable | Non facturable | Facturation à l’heure actuelle : Non facturable </br>Type de facturation sur une dépense réelle : non facturable |
+| No | Oui | Impossible à définir | Facturable | Facturation à l’heure actuelle : Non disponible </br>Type de facturation sur une dépense réelle : Facturable |
+| No | Oui | Impossible à définir | Non facturable | Facturation à l’heure actuelle : Non disponible </br>Type de facturation sur une dépense réelle : Non facturable |
+| Oui | No | Facturable | Impossible à définir | Facturation à l’heure actuelle : Facturable </br>Type de facturation sur une dépense réelle : non disponible |
+| Oui | No | Non facturable | Impossible à définir | Facturation à l’heure actuelle : Non facturable </br> Type de facturation sur une dépense réelle : non disponible |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

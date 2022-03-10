@@ -2,18 +2,16 @@
 title: Définir les calendriers de ressources
 description: Cette rubrique fournit des informations sur la définition des calendriers d’heures de travail pour les ressources dans Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a7b7c45ad2116519b0369bfd3d7cf6743704f4e1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279810"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990313"
 ---
 # <a name="define-resource-calendars"></a>Définir les calendriers de ressources
 

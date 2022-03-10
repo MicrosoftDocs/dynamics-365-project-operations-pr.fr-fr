@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
-ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6269832"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988018"
 ---
 # <a name="microsoft-project-client-integration"></a>Intégration de Microsoft Project Client
 

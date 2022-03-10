@@ -1,33 +1,32 @@
 ---
 title: Copier un projet
-description: Cette rubrique fournit des informations sur la copie des projets dans Dynamics 365 Project Operations.
+description: Cette rubrique donne des informations sur la copie de projets dans Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131790"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007188"
 ---
 # <a name="copy-a-project"></a>Copier un projet
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Avec Dynamics 365 Project Operations, vous pouvez créer rapidement des projets en sélectionnant **Copier un projet** sur le formulaire **Projets**. Pour copier un projet, ouvrez le projet que vous souhaitez copier, puis sélectionnez **Copier le projet**. L’action copiera :
+Avec Dynamics 365 Project Operations, vous pouvez rapidement créer de nouveaux projets en sélectionnant **Copier le projet** dans le formulaire **Projets**. Pour copier un projet, ouvrez le projet que vous souhaitez copier, puis sélectionnez **Copier le projet**. L’action copiera les éléments suivants :
 
-- les propriétés du projet ;
-- la structure de répartition du travail ;
-- les membres de l’équipe du projet ;
-- les estimations de projets ;
+- les propriétés du projet ; 
+- Structure de répartition du travail
+- Membres de l’équipe du projet
+- Estimations de projets
 - les estimations de dépense du projet.
+- Estimations du matériel du projet
 
-## <a name="project-properties"></a>Propriétés du projet
+## <a name="project-properties"></a>les propriétés du projet ;
 
 Lorsque le projet est copié, les valeurs des champs suivants sont copiées :
 
@@ -42,11 +41,15 @@ Lorsque le projet est copié, les valeurs des champs suivants sont copiées :
 - Statut du projet global
 - Commentaires
 - Estimations
-- Date de début estimée
-- Date de fin
+- Date de début estimée : il s’agit de la date à laquelle le projet est créé à partir de la copie.
+- Date de fin estimée : cette date est ajustée en fonction de la date de début du nouveau projet créé à partir de la copie.
 - Effort (en heures)
-- Coût estimé de la main d’œuvre
-- Coût estimé des dépenses
+- Coût de main d’œuvre estimé
+- Coût des dépenses estimé
+- Coût matière estimé
+
+> [!NOTE]
+> La copie d’un projet est une opération de longue haleine. Les enregistrements de projet, leurs attributs pertinents et de nombreuses entités associées sont également copiés. En raison de la longueur de l’opération, une fois la copie commencée, la page du projet cible est verrouillée pour modification jusqu’à ce que l’opération de copie soit terminée.
 
 ## <a name="work-breakdown-structure"></a>Structure de répartition du travail
 
@@ -58,6 +61,9 @@ Lorsqu’une équipe de projet est copiée à partir du projet source, les resso
 
 ## <a name="estimates"></a>Estimations
 
-Lorsque le projet est copié, les lignes d’estimation des ressources et des dépenses sont copiées à partir du projet source. 
+Lorsque le projet est copié, les lignes d’estimation des ressources, des dépenses et du matériel sont copiées à partir du projet source. 
 
 Pour plus d’informations sur l’accès par programme à Copier le projet, voir [Développer des modèles de projet avec Copier le projet](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

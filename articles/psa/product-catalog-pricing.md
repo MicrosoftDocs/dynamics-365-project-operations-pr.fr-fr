@@ -2,8 +2,6 @@
 title: Tarification du catalogue de produits
 description: Cette rubrique fournit des informations sur la manière dont la tarification du catalogue de produits fonctionne dans Dynamics 365 Project Service Automation (PSA).
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151205"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000168"
 ---
 # <a name="product-catalog-pricing"></a>Tarification du catalogue de produits 
 
@@ -46,7 +44,7 @@ Vous pouvez ajouter des produits d’un catalogue de produits à plusieurs tarif
 
 PSA prend en charge diverses options d’arrondi si les prix sont configurés en fonction du tarif, du coût standard, ou du coût actuel. En plus de bénéficier de plusieurs modes de tarification et d’options d’arrondis, vous pouvez associer des types de remises aux éléments tarifaires. 
 
-> ![Ajout de produits d’un catalogue à différents tarifs](media/basic-guide-16.png)
+> ![Ajout de produits d’un catalogue à différents tarifs.](media/basic-guide-16.png)
 
 Lorsque vous créez des tarifs personnalisés pour un devis en sélectionnant **Créer une tarification personnalisée** sur la page **Devis du projet**, PSA crée une copie des tarifs, et le champ **Entité** sur l’en-tête des nouveaux tarifs est défini sur **Entité des ventes**. Le nom des nouveaux tarifs est ajouté au nom du devis avec un horodatage. Vous pouvez également utiliser le nom des nouveaux tarifs et le nom du devis dans les workflows personnalisés pour déclencher une révision et des approbations supplémentaires pour les devis qui utilisent la tarification personnalisée.
 
@@ -64,3 +62,6 @@ Les entités Opportunité, Devis et Contrat de projet utilisent l’ordre suivan
 Par défaut, le champ **Produit** sur la ligne de devis liste tous les produits actifs dans les tarifs de produits du devis. Si un produit a été désactivé, ou s’il s’agit d’un brouillon de produit, il n’est pas répertorié, même s’il est dans les tarifs. 
 
 Les lignes du catalogue de produits sont ajoutées en tant que lignes de facture dans la première facture créée pour un contrat de projet. Dans un brouillon de facture, ces lignes de facture peuvent être supprimées. Dans ce cas, les lignes s’afficheront sur une facture suivante jusqu’à ce qu’elles soient facturées, ou jusqu’à ce que la facture soit envoyée au client. Dans PSA, vous ne pouvez pas facturer une quantité partielle d’une ligne de facture de produit. Lorsque les lignes de produits du contrat du projet sont facturées, les chiffres réels sont créés. Toutefois, ces chiffres réels ne sont pas liés à l’entité de projet associée. En d’autres termes, les lignes du contrat du projet basé sur un produit sont indépendantes de toute utilisation basée sur un projet. PSA n’effectue pas le suivi de consommation de matériaux sur les projets.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

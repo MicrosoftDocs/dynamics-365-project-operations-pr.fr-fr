@@ -2,18 +2,17 @@
 title: Vue d’ensemble de l’Assistant Planifier
 description: Cette rubrique fournit des informations sur l’utilisation de l’Assistant Planifier pour réserver des ressources.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279225"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990223"
 ---
 # <a name="schedule-assistant-overview"></a>Vue d’ensemble de l’Assistant Planifier
 

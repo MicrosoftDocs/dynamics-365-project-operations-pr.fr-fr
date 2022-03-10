@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000613"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986668"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Ajouter un abonnement Azure à un projet LCS
 
@@ -23,35 +23,35 @@ Les environnements hébergés dans le cloud doivent être déployés à l’aide
 
 1. Dans votre projet LCS, dans la section **Environnements**, sélectionnez **Paramètres Microsoft Azure**.
 
-![Paramètres de l’application Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Paramètres Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. Sur la page **Paramètres du projet**, sur l’onglet **Connecteurs Azure**, sélectionnez **Autoriser**. Cela permet aux environnements d’être déployés dans ce projet.
 
-![Connecteurs Azure](./media/2AzureConnectors.png)
+![Connecteurs Azure.](./media/2AzureConnectors.png)
 
 3. Sélectionnez **Autoriser** à nouveau pour donner le consentement de l’administrateur.
 
-![Accorder un consentement d’administrateur](./media/3GrantAdminConsent.png)
+![Donnez le consentement de l’administrateur.](./media/3GrantAdminConsent.png)
 
 4. Acceptez la demande d’autorisation.
 
-![Accepter la demande d’autorisation](./media/4AcceptPermissionRequest.png)
+![Acceptez la demande d’autorisation.](./media/4AcceptPermissionRequest.png)
 
 L’autorisation est maintenant terminée. 
 
-![Autorisation réussie](./media/5AuthorizationComplete.png)
+![Autorisation réussie.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Fournissez l’accès à Dynamics Deployment Services à votre abonnement Azure
 
 1. Accédez à [Facturation Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) et sélectionnez votre abonnement. Dynamics Deployment Services doit accéder à cet abonnement pour pouvoir déployer des environnements.
 
-![Détails de l’abonnement Azure](./media/6AzureSubscription.png)
+![Détails de l’abonnement Azure.](./media/6AzureSubscription.png)
 
 2. Sélectionnez **Contrôle d’accès (IAM)** dans le volet de navigation, puis sélectionnez **Ajouter une attribution de rôle**.
 3. Dans le curseur sur le côté droit, sélectionnez **Rôle Contributeur**, et dans la liste fournie, recherchez et sélectionnez **Dynamics Deployment Services**. 
 4. Sélectionnez **Enregistrer**.
 
-![Accès à l’abonnement](./media/7SubscriptionAccess.png)
+![Accès à l’abonnement.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Ajouter un connecteur d’abonnement à un projet LCS
 

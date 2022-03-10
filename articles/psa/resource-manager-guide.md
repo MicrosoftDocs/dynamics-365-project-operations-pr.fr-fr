@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cdfac15c45a1c7b40c05c94da9e523f000218977
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 0ad7d792450303c25fdac9f1191c809006d41541763b4f565b55abfa6da58a0a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997868"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984970"
 ---
 # <a name="resource-manager-guide-project-service"></a>Guide du gestionnaire de ressources (Project Service)
 

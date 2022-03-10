@@ -1,8 +1,8 @@
 ---
-title: Application mobile Dépenses
+title: Application mobile Gestion des dépenses
 description: Cette rubrique donne des informations sur l’espace de travail mobile Gestion des dépenses.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,14 +13,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2f274a5f0dfcfdbe8c6771fff7a636c6e93eeea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001963"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818180"
 ---
-# <a name="mobile-expense-app"></a>Application mobile Dépenses
+# <a name="mobile-expense-app"></a>Application mobile Gestion des dépenses
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -47,42 +47,9 @@ Vous pouvez également utiliser ces fonctionnalités :
 - Soumettez un rapport de dépenses pour approbation et remboursement.
 - Approuvez ou rejetez les notes de frais pour lesquelles vous êtes un approbateur désigné.
 
-## <a name="prerequisites"></a>Conditions préalables
-Les conditions préalables varient en fonction de la version qui a été déployée pour votre organisation.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prérequis si vous utilisez Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prérequis si vous utilisez Dynamics 365 Finance 
 Si Finance a été déployé pour votre organisation, l’administrateur système doit publier l’espace de travail mobile **Gestion des dépenses**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Conditions préalables si vous utilisez la version 1611 avec la mise à jour de la plateforme 3 (ou version ultérieure)
-Si la version 1611 avec la mise à jour de la plateforme 3 (ou version ultérieure) a été déployée pour votre organisation, l’administrateur système doit remplir les conditions préalables suivantes. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Éléments requis</th>
-<th>Rôle</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Implémentez KB 4019015.</td>
-<td>Administrateur système</td>
-<td>KB 4019015 est une mise à jour X++ ou un correctif de métadonnées qui contient l’espace de travail mobile <strong>Gestion des dépenses</strong>. Pour implémenter KB 4019015, votre administrateur système doit procéder comme suit.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Télécharger les mises à jour de Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installez le correctif des métadonnées</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Créez un package déployable</a> qui contient les modèles <strong>ApplicationSuite</strong> et <strong>ExpenseMobile</strong>, puis téléchargez le package déployable sur LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Appliquez le package déployable</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Publiez l’espace de travail mobile <strong>Gestion des dépenses</strong>.</td>
-<td>Administrateur système</td>
-<td>Voir <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publier un espace de travail mobile</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Téléchargez et installez l’application mobile Dynamics 365 Unified Ops
 Téléchargez et installez l’application mobile Dynamics 365 Unified Ops :
@@ -103,11 +70,11 @@ Téléchargez et installez l’application mobile Dynamics 365 Unified Ops :
 3. Sélectionnez **Prendre une photo** ou **Choisir une image**.
 4. Suivez l’une de ces étapes :
 
-   - Si vous avez sélectionné **Prendre une photo**, suivez ces étapes :
+    - Si vous avez sélectionné **Prendre une photo**, suivez ces étapes :
 
-      1. Vous êtes dirigé vers l’appareil photo de votre appareil mobile, afin de pouvoir prendre une photo du reçu. 
-      2. Lorsque vous avez terminé de prendre la photo, cliquez sur **OK** pour accepter la photo.
-      3. Facultatif : Saisissez un nom pour la photo et saisissez des notes.
+        1. Vous êtes dirigé vers l’appareil photo de votre appareil mobile, afin de pouvoir prendre une photo du reçu. 
+        2. Lorsque vous avez terminé de prendre la photo, cliquez sur **OK** pour accepter la photo.
+        3. Facultatif : Saisissez un nom pour la photo et saisissez des notes.
 
     - Si vous avez sélectionné **Choisir une image**, suivez ces étapes :
 
@@ -133,20 +100,20 @@ Téléchargez et installez l’application mobile Dynamics 365 Unified Ops :
 
 10. Cliquez sur **Terminé**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Approuver une note de frais à l’aide de l’espace de travail mobile Gestion des dépenses (si vous utilisez la mise à jour de juillet 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Approbation d’une note de frais à l’aide de l’espace de travail mobile Gestion des dépenses
 
 1. Sur votre appareil mobile, ouvrez l’espace de travail **Gestion des dépenses**.
 2. **Approbations de dépenses** indique le nombre de notes de frais qui vous sont attribuées pour approbation. Ce nombre est mis à jour environ toutes les 30 minutes. Sélectionnez **Approbations de dépenses**.
 
     La liste des notes de frais qui vous sont attribuées pour approbation s’affiche.
-    
+
 3. Sélectionnez une note de frais pour afficher les détails des dépenses.
 4. Sélectionnez une dépense pour en afficher les détails. Les informations affichées pour une dépense incluent tous les détails de ticket de caisse, d’invité et de justificatif.
 5. De retour sur la page **État de dépenses**, choisissez d’approuver ou de rejeter la note de frais.
 6. Saisissez des commentaires pour l’action d’approbation.
 7. Cliquez sur **Terminé**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Créez une note de frais et soumettez-la pour approbation à l’aide de l’espace de travail mobile Gestion des dépenses (si vous utilisez la mise à jour de juillet 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Créez un état de dépenses et soumettez-le pour approbation à l’aide de l’espace de travail mobile Gestion des dépenses
 
 1. Sur votre appareil mobile, ouvrez l’espace de travail **Gestion des dépenses**.
 2. Sélectionnez **Entrée de dépense**.
@@ -184,12 +151,12 @@ Téléchargez et installez l’application mobile Dynamics 365 Unified Ops :
                     1. Sélectionnez une image dans la liste.
                     2. Facultatif : Saisissez un nom pour l’image et saisissez des notes.
 
-            3.  Cliquez sur **Terminé**.
+            3. Cliquez sur **Terminé**.
 
         - Si vous avez sélectionné **Joindre le reçu**, suivez ces étapes :
 
-            1.  Sélectionnez une ou plusieurs images dans la liste.
-            2.  Cliquez sur **Terminé**.
+            1. Sélectionnez une ou plusieurs images dans la liste.
+            2. Cliquez sur **Terminé**.
 
     3. Cliquez sur le bouton **Précédent** pour revenir aux détails des dépenses.
 
@@ -231,9 +198,34 @@ Téléchargez et installez l’application mobile Dynamics 365 Unified Ops :
 
 20. Cliquez sur le bouton **Précédent** pour revenir à la page **État de dépenses**.
 21. Répétez les étapes précédentes jusqu’à ce que vous ayez fini d’ajouter toutes les dépenses.
-22. Sélectionnez **Soumettre**.
+22. Cliquez sur **Envoyer**.
 23. Saisissez des commentaires pour l’approbateur.
 24. Cliquez sur **Terminé**.
 
+## <a name="frequently-asked-questions"></a>Questions fréquentes
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Pourquoi l’application mobile Gestion des dépenses n’entre-t-elle pas dans le mode de paiement par défaut ?
+
+Les organisations peuvent personnaliser le paramètre **Mode de paiement par défaut** pour chaque catégorie de dépenses au fur et à mesure de leur création. De plus, lorsque vous configurez des modes de paiement, vous pouvez définir le champ **Mode de paiement par défaut** sur **Importation uniquement**.
+
+Lorsque l’option **Importation uniquement** est activée pour un mode de paiement, le mode de paiement n’est pas renseigné par défaut. Il sera vierge dans les catégories de dépenses où ce mode de paiement est configuré. Ce comportement est cohérent à la fois dans l’expérience Web et l’expérience mobile.
+    
+Lorsque l’option **Importation uniquement** n’est pas activée pour un mode de paiement, la valeur définie est saisie par défaut pour les catégories de dépenses où ce mode de paiement est configuré. Cependant, il existe un problème connu où la valeur par défaut n’est pas entrée dans l’application mobile Gestion des dépenses. Pour contourner ce problème, sélectionnez manuellement un mode de paiement avant d’enregistrer la note de frais. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Pourquoi ne puis-je pas ajouter ou modifier de dimensions financières dans l’application mobile Gestion des dépenses ?
+
+La saisie de dimensions et de distributions n’est pas prise en charge. Pour contourner cette limitation, vous pouvez définir ces champs par défaut dans l’application mobile en configurant les dimensions financières par défaut par projet ou employé.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Pourquoi est-ce que je vois parfois une erreur de synchronisation dans l’application mobile Gestion des dépenses ?
+
+Si les lignes de dépense ne répondent pas aux exigences de la politique et que l’utilisateur soumet la note de frais sans répondre à l’avertissement de la politique, les données mobiles ne sont pas synchronisées avec le serveur et un échec de synchronisation se produit. Toutes les notes de frais soumises après un échec de synchronisation resteront dans un état d’échec et provoqueront davantage d’échecs de synchronisation. La seule façon de corriger cette situation est de supprimer manuellement les notifications de synchronisation. Ce problème a été résolu en arrêtant la soumission des notes de frais lorsque les avertissements de la politique n’ont pas reçu de réponse, afin d’éviter les erreurs de synchronisation.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Pourquoi la validation de projet et de catégorie n’est-elle pas correctement reflétée dans l’application mobile Gestion des dépenses ?
+
+Cette validation n’est pas actuellement prise en charge. Elle pourrait cependant être ajoutée à l’avenir. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Quels types de documents sont pris en charge dans l’application mobile Gestion des dépenses ?
+
+L’application mobile Gestion des dépenses prend en charge que les images. Elle ne prend actuellement pas en charge les PDF ou autres documents.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

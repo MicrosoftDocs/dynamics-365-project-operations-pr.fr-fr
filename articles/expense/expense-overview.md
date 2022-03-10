@@ -2,19 +2,18 @@
 title: Vue d’ensemble des dépenses
 description: Cette rubrique offre des informations sur la fonctionnalité Dépenses dans Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c4e2f441e1c4b1bcba5bca292b8075b4334a004d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276570"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988468"
 ---
 # <a name="expense-home-page"></a>Page d’accueil des dépenses
 

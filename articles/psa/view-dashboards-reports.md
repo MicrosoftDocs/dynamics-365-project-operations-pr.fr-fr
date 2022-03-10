@@ -2,8 +2,6 @@
 title: Afficher les tableaux de bord et les rapports
 description: Procédure d’affichage des tableaux de bord et des rapports dans Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 294fb2bf81aaf07f62937e69ad07f6ddbc72dc80
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: de1c83730b9c45f6a38e4bd4538b6f9cb5cee44f701db0bd395069cf8336d080
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281475"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987118"
 ---
 # <a name="view-dashboards-and-reports-project-service"></a>Afficher les tableaux de bord et les rapports (Project Service)
 

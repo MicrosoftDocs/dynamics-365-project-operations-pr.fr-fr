@@ -2,24 +2,23 @@
 title: Vue d’ensemble de Project Operations pour le déploiement de scénarios selon les ressources/produits non stockés
 description: Cette rubrique fournit des informations sur le type de déploiement de Project Operations pour les scénarios basés sur les ressources/produits non stockés.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365461"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009708"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Vue d’ensemble de Project Operations pour le déploiement de scénarios selon les ressources/produits non stockés
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Le type de déploiement, Dynamics 365 Project Operations pour les scénarios selon les ressources/produits non stockés a les fonctionnalités suivantes pour les entreprises basées sur des projets :
+Le type de déploiement, Dynamics 365 Project Operations pour les scénarios basés sur les ressources/produits non stockés fournit les capacités suivantes pour les entreprises basées sur des projets :
 
 - Planification de projet à l’aide de Microsoft Project pour le web
 - Tarification multidimensionnelle et évaluation des coûts des ressources de main-d’œuvre
@@ -43,3 +42,6 @@ Ce déploiement doit être choisi si Project Operations doit être utilisé dan
 - Nécessite un moteur de taxe de vente et de taux de change complet et professionnel pour générer des factures destinées aux clients pour les projets.
 - Un système de comptabilité de projet et de constatation du produit conforme aux Normes de comptabilité IFRS (International Financial Reporting Standards).
 - Applications Finance ou Supply Chain Management et intégration de transactions basées sur des projets.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

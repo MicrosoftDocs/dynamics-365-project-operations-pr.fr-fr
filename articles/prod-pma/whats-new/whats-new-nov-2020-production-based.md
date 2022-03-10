@@ -2,18 +2,16 @@
 title: Nouveautés de novembre 2020 – Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication
 description: Cette rubrique fournit des informations sur les mises à jour qualité disponibles dans la version de novembre 2020 Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication.
 author: sigitac
-manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365463"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003183"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Nouveautés de novembre 2020 – Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication
 
@@ -25,4 +23,7 @@ Pour plus d’informations sur les correctifs inclus dans cette mise à jour, co
 
 ## <a name="regulatory-updates"></a>Mises à jour réglementaires
 
-Pour plus d’informations sur les mises à jour réglementaires pour les applications Dynamics 365 Finance and Operations, consultez [Mises à jour réglementaires](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+Pour plus d’informations sur les mises à jour réglementaires pour les applications Dynamics 365 Finance and Operations, consultez [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

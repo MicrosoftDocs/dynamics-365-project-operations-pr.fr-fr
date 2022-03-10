@@ -2,31 +2,30 @@
 title: Vue d’ensemble de Project Service Automation
 description: Cette rubrique offre des informations sur Dynamics 365 Project Service Automation vers la solution d’intégration Dynamics 365 Finance.
 author: ruhercul
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075881"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005883"
 ---
 # <a name="project-service-automation-overview"></a>Vue d’ensemble de Project Service Automation
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 La solution d’intégration Project Service Automation vers Finance utilise la fonction d’intégration de données pour synchroniser les données entre les instances de Dynamics 365 Finance et Dynamics 365 Project Service Automation via Common Data Service. Les modèles d’intégration disponibles avec la fonctionnalité d’intégration de données permettent le flux de projets, les contrats de projet, les projets, les lignes de contrat de projet, les tâches de projets, les catégories de transaction de dépenses, les estimations d’heures et les estimations de dépense depuis Project Service Automation vers Finance.
 
@@ -57,7 +56,7 @@ L’illustration suivante montre comment les données sont synchronisées dans l
 > [!NOTE]
 > Tous les modèles ne sont pas actuellement disponibles. Les modèles seront publiés au fur et à mesure qu’ils seront terminés.
 
-[![Intégration de Project Service Automation avec Finance](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Intégration de Project Service Automation avec Finance.](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Configuration requise pour Finance
 
@@ -74,3 +73,6 @@ Pour utiliser la solution d’intégration Project Service Automation vers Fin
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Installer la solution d’intégration Project Service Automation vers Finance dans votre instance Project Service Automation
 
 Téléchargez la solution d’intégration Project Service Automation vers Finance à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=57016) et suivez les instructions fournies avec la solution.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

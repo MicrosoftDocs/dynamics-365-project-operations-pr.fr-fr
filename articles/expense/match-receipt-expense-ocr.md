@@ -1,12 +1,10 @@
 ---
-title: Faire correspondre un reçu à une dépense via OCR
+title: Capturer un reçu à l’aide d’OCR
 description: Cette rubrique fournit des informations sur le traitement de la reconnaissance optique de caractères (OCR) pour les reçus.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,14 +13,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124320"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798037"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>Faire correspondre un reçu à une dépense via OCR
+# <a name="capture-a-receipt-using-ocr"></a>Capturer un reçu à l’aide d’OCR
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
@@ -87,10 +85,24 @@ Non, Microsoft a créé un modèle général de Machine Learning pour son servic
 
 **Où cette fonctionnalité est-elle disponible et traitée ?**
 
-Actuellement, elle est prise en charge aux États-Unis.
+La disponibilité de cette fonctionnalité dans différentes régions est répertoriée dans le tableau suivant. Si votre région n’est pas actuellement prise en charge, soumettez une demande pour faire passer en priorité la disponibilité du service OCR dans votre région. 
+
+| Région | Prise en charge                         |
+|--------|-----------------------------------|
+| USA    | Oui                               |
+| CAN    | Oui                               |
+| Royaume-Uni     | Oui                               |
+| AUS    | Oui                               |
+| UE     | Partiellement. Reçus en anglais seulement. |
+| Asie   | No                                |
+| Japon  | No                                |
+| Afrique | No                                |
 
 **Où vont mes reçus ?**
 
 Finance contactera Cognitive Services pour extraire des données du champ. Cognitive Services conservera une copie de votre reçu pendant 24 heures maximum pendant le traitement. Une fois le traitement terminé, Cognitive Services supprimera le reçu. Les reçus sont toujours stockés dans Finance.
 
 Pour plus d’informations, consultez [Activer la compréhension des reçus avec la nouvelle fonctionnalité de Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

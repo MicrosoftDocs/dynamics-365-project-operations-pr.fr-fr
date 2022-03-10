@@ -1,17 +1,17 @@
 ---
 title: S’inscrire aux versions d’essai de Project Operations
-description: Cette rubrique donne des informations sur le déploiement d’une version d’essai de Dynamics 365 Project Operations.
+description: Cette rubrique fournit des informations sur le déploiement d’une version d’essai de Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418454"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901614"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>S’inscrire aux versions d’essai de Project Operations 
 
@@ -85,18 +85,13 @@ Avant de commencer, connectez-vous à un navigateur avec le compte professionnel
 
    Une fois l’approvisionnement démarré, vous êtes redirigé vers la liste des environnements dans le Centre d’administration Power Platform. Pendant l’approvisionnement, l’état de votre environnement est **Préparation de l’instance**.
  
-  Une fois l’approvisionnement terminé, l’état de votre environnement est **Prêt**.
+  Une fois l’approvisionnement terminé, votre environnement est défini sur **Prêt**. L’approvisionnement de l’environnement inclut le déploiement des données de démonstration.
  
-4.  Une fois l’approvisionnement terminé, sélectionnez l’URL Microsoft Dataverse et les URL des applications Finance and Operations respectives pour valider le déploiement.
-
-## <a name="demo-data-installation"></a>Installation des données de démonstration
-
-Utilisez les liens suivants pour accéder aux packages de données de démonstration pour les matériaux hors stock et les scénarios de déploiement simplifié. 
-- [Données de démonstration des matériaux hors stock](resource-apply-pro-setup-config-data.md)
-- [Données de démonstration simplifiée](lite-apply-demo-setup-config-data.md)
+4.  Sélectionnez l’URL de l’environnement Microsoft Dataverse respectif et les URL des applications Finance and Operations pour valider le déploiement.
 
 ## <a name="configuring-dual-write"></a>Configuration de la double écriture
-Pour les déploiements de matériaux hors stock uniquement, configurez vos mappages à double écriture. Pour plus d’informations, consultez [Versions du mappage à double écriture Project Operations](resource-dual-write-maps.md).
+- Pour configurer les rôles de sécurité pour la double écriture, voir [Mettre à jour les paramètres de sécurité de Project Operations dans Dataverse](resource-provision-new-environment.md).
+- Pour configurer les mappages à double écriture, voir [Exécuter des mappages à double écriture Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Affecter des licences
 

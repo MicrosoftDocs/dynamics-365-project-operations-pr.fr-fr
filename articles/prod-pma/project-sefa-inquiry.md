@@ -18,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: a16b0fb097124e26da09e220a1239cd6df303f98
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010063"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007233"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Demande de Programme des dépenses des subventions fédérales
 

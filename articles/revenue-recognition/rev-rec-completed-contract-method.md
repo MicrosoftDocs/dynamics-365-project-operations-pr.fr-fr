@@ -6,12 +6,12 @@ ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e3cbaff18d8bd4d6f6a7577bba25b3e843b1757e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013844"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996523"
 ---
 # <a name="manage-revenue-estimates"></a>Gérer les estimations de revenus
 

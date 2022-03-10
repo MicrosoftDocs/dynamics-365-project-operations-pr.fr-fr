@@ -15,12 +15,12 @@ ms.search.industry: Professional Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d5d6cf6b4b097c08edca5a3235ed1b438a0eae2d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: aca58eed2a0ee5e108d40636529802a7feec5b8dd060ba6c0eabc6d0b92b2e2f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001333"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997648"
 ---
 # <a name="deactivate-price-lists"></a>Désactiver les tarifs 
 
