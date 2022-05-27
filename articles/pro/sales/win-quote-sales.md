@@ -5,14 +5,14 @@ author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8ae5e14220ffecab5bcfa016d8d18e6ccfbc5b04be9a4e66cee26f8885125d31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bde4794c19dd69b6dd77abf5483c674cd7503d23
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994318"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574703"
 ---
 # <a name="close-a-quote---lite"></a>Fermer un devis – Simplifié
 

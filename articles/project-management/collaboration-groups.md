@@ -4,20 +4,20 @@ description: Les groupes Office vous permettent de partager un projet avec d’a
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2ad284bb3eb461e254292fcf78ea135c9b978deeded30927c3c442afc2ec0b7e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76a5b94780c4467c5e423bb6048e91d9efcde6d6
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003138"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574473"
 ---
 # <a name="collaboration-with-office-groups"></a>Collaboration avec les groupes Office
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Les groupes Office vous permettent de partager un projet avec d’autres membres de l’équipe dans Common Data Service. Lorsque vous ajoutez des utilisateurs au groupe, la propriété du projet est transférée au groupe. Tous les utilisateurs auront l’autorisation de modification sur le projet. Les utilisateurs peuvent également consulter le projet si les privilèges ont été accordés par l’administrateur. Ces utilisateurs ne seront pas affichés dans le groupe.
 

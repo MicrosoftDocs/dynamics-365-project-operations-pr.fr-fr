@@ -3,16 +3,15 @@ title: Vue d’ensemble du processus de vente
 description: Cette rubrique fournit des informations sur les processus de vente de base.
 author: rumant
 ms.date: 10/29/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e99035798f775de5cd59724a9fe0d7ea6de40034
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991843"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578475"
 ---
 # <a name="sales-process-overview"></a>Vue d’ensemble du processus de vente
 

@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986848"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574091"
 ---
 # <a name="products"></a>Produits
 
@@ -30,7 +30,7 @@ Les produits sont la colonne vertébrale de votre entreprise. Le catalogue de pr
 
 ## <a name="add-a-product"></a>Ajouter un produit
 
-1.  Assurez-vous de disposer du rôle de gestionnaire de Sales Professional ou d’Administrateur système pour pouvoir ajouter des produits à Dynamics 365 Sales Professional.
+1.  Assurez-vous de disposer du rôle de gestionnaire de Sales Professional ou d'Administrateur système pour pouvoir ajouter des produits à Dynamics 365 Sales Professional.
 2.  Sur le plan de site, sous **Configuration**, sélectionnez **Produits**.
 3.  Sélectionnez **Ajouter un produit** et renseignez les informations suivantes :
 

@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur les modèles de contrat
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87e275cb72f1edc5a2a9913b4aa47d461d1f3d3d9bf177bf0ffba8b463f4ce01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fcee7b818097c10f8f861c4de4898daacef60e4f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994408"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574795"
 ---
 # <a name="advances-and-retainer-based-contracts"></a>Paiements anticipés et contrats basés sur un acompte
 

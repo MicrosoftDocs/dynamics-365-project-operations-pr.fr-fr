@@ -4,22 +4,22 @@ description: Cette rubrique fournit des informations sur la configuration des va
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922935"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579487"
 ---
 # <a name="financial-dimension-defaults"></a>Valeurs par défaut d’une dimension financière
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations utilise la structure [Dimensions financières](/dynamics365/finance/general-ledger/financial-dimensions) dans Dynamics 365 Finance pour fournir des informations supplémentaires sur les transactions comptables et auxiliaires.
+
+Dynamics 365 Project Operations utilise la structure [Dimensions financières](/dynamics365/finance/general-ledger/financial-dimensions) dans Dynamics 365 Finance pour fournir des informations supplémentaires sur les transactions de comptabilité auxiliaire de projet et de comptabilité.
 
 Les dimensions financières par défaut peuvent être définies selon un client, une source de financement de projet, un jalon, une ligne de contrat de projet ou un projet.
 
@@ -60,15 +60,5 @@ Les projets sont créés et gérés dans CDS. Les attributs comptables des proje
 4. Définissez les valeurs par défaut des dimensions financières. Notez que les dimensions financières proviennent par défaut du compte client. Si le projet est associé à une ligne de contrat avec plusieurs clients de contrat de projet, le client principal est utilisé pour les dimensions financières par défaut.
 
 Les dimensions financières par défaut du projet permettent de définir les valeurs par défaut des lignes feuille pour les transactions de temps, de dépenses et de frais dans la **Feuille Intégration Project Operations** et sur les lignes de facture de projet associées.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Appliquer des dimensions financières aux entrées de temps de projet
-Pour appliquer des dimensions financières aux entrées de temps de projet, notez que la valeur de dimension par défaut est basée sur l’ordre suivant :
-
-1. Ressource
-2. Project
-3. Source de financement
-
-Par exemple, si la dimension par défaut est spécifiée sur une ressource, elle sera appliquée par-dessus une dimension par défaut spécifiée sur le projet. De même, une dimension de projet par défaut sera appliquée par-dessus la dimension par défaut spécifiée dans la source de financement.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

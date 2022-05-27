@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur les règles d’indemni
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e537d6c6112eb4baf38229e3e40897eacdf21983
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986398"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578291"
 ---
 # <a name="per-diems"></a>Indemnités quotidiennes
 

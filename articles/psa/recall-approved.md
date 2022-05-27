@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 457aebb00851a1db3e4aa1068f6a825759b8f2e3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998323"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578797"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Rappeler les entrées de temps ou de dépenses approuvées
 

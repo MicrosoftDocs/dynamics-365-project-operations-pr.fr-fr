@@ -4,14 +4,14 @@ description: Cette rubrique explique comment enregistrer des lignes du contrat d
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
-ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
+ms.openlocfilehash: 71e4a48c3d29d7ea5b015f6c6797da60001fccff
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7558544"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579070"
 ---
 # <a name="subcontract-lines-for-products"></a>Lignes du contrat de sous-traitance pour les produits
 

@@ -3,24 +3,23 @@ title: Vue d’ensemble du rapprochement des ressources
 description: Cette rubrique fournit des informations qui vous aideront à vous assurer que les réservations de ressources et les affectations pour les projets sont alignées.
 author: ruhercul
 ms.date: 01/08/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0574a0402bc6b34ab82bbc223aeb3a0ffcc9df9c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994768"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580039"
 ---
 # <a name="resource-reconciliation-overview"></a>Vue d’ensemble du rapprochement des ressources
 

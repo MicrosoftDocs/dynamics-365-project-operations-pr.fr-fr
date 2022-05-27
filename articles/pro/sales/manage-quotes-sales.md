@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur les devis de projet.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001518"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579579"
 ---
 # <a name="manage-project-quotes"></a>Gérer des devis de projet
 
@@ -31,6 +31,9 @@ Une liste de tous les devis de projet peut être consultée sur la page de liste
 2. Utilisez le **Commutateur de vue** pour sélectionner d’autres vues filtrées de devis. À l’aide de critères de filtre personnalisés, vous pouvez configurer vos propres vues et options de navigation.
 
 Les devis peuvent être créés ou supprimés à partir de cette page de liste ou des pages de détails.
+
+ > [!NOTE]
+ > Les devis auxquels sont associés des projets, des tâches, des estimations, des journaux et/ou des chiffres réels ne peuvent pas être supprimés. De plus, lorsqu’un devis est clos comme gagné ou perdu, il ne peut plus être supprimé ou modifié. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,16 @@
 title: Configurer les taux de coûts et de vente pour le matériel
 description: Cette rubrique fournit des informations sur la configuration des tarifs de coût et de vente pour le matériel utilisé dans les projets.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999178"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576865"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Configurer les taux de coûts et de vente pour le matériel
 
@@ -25,6 +25,9 @@ Pour configurer les taux de coûts et de vente des produits, procédez comme sui
 2. Sur **Éléments tarifaires**, dans le menu de la sous-grille, sélectionnez **Nouvel élément tarifaire**. 
 3. Sur la page **Création rapide**, entrez le produit et l’unité pour lesquels vous créez le nouveau prix.
 
-Pour plus d’informations sur la définition des prix des articles de catalogue, voir [Configurer la tarification des produits](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) et [Précision décimale pour la devise et la tarification](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Pour plus d’informations sur la définition des prix des articles du catalogue, voir [Définir la tarification des produits avec des listes de prix et des éléments de liste de prix](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) et [Précision décimale dans la devise et les prix](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations ne prend pas en charge tous les modes de tarification pour les produits comme Dynamics 365 Sales. Le seul mode de tarification pris en charge pour les produits à utiliser sur des projets est *Montant en devise*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

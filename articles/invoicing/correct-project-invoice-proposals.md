@@ -2,16 +2,16 @@
 title: Corriger la comptabilité dans les propositions de facture de projet provisoires
 description: Cette rubrique explique comment ajuster les informations comptables dans une proposition de facture provisoire.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999313"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575071"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Corriger la comptabilité dans les propositions de facture de projet provisoires
 
@@ -27,12 +27,21 @@ Les groupes de taxe de facturation et les groupes de taxe d’article par défau
 
 ## <a name="adjust-financial-dimensions"></a>Ajuster les dimensions financières
 
+### <a name="header-dimensions"></a>Dimensions de l’en-tête
+
+Par défaut, les dimensions financières de la facture sont dérivées des enregistrements de transactions de projet non facturées qui sont en cours de facturation. Toutefois, les paramètres système vous permettent d’utiliser des dimensions financières dans l’en-tête des propositions de facture de projet pour publier les soldes des clients. Pour activer cette fonctionnalité, sélectionnez **Autoriser les mises à jour des dimensions du projet pour la comptabilité client** sur l’onglet **Finances** de la page **Paramètres de gestion et comptabilité des projets**.
+
+Les dimensions financières des en-têtes de facture peuvent être modifiées avant la publication d’une facture. Sur la page **Proposition de facture de projet**, passez à la vue **En-tête**, puis modifiez les valeurs sur l’onglet **Dimensions financières**.
+
+La vue **En-tête** n’est disponible qu’après que l’administrateur système a activé la fonctionnalité **Utiliser les formulaires de proposition de facture et de journal des factures de projet avec la vue En-tête et Lignes** dans l’espace de travail **Gestion des fonctionnalités**. Cette fonctionnalité nécessite la mise à jour Finance 10.0.25 ou ultérieure.
+
+### <a name="line-dimensions"></a>Dimensions de ligne
+
 Les dimensions financières ne peuvent pas être modifiées directement sur une ligne de proposition de facture de projet. À la place, suivez ces étapes pour ajuster les dimensions financières dans une proposition de facture de projet.
 
 1. Dans la proposition de facture du projet, sélectionnez **Supprimer tout** pour supprimer les lignes de proposition de facture du projet.
 
-    > [!NOTE]
-    > Le bouton **Supprimer tout** n’est disponible que lorsque l’administrateur système a activé la fonctionnalité **Supprimer les lignes de proposition de facture lors de l’utilisation de Project Operations pour les scénarios basés sur des ressources/hors stock** dans l’espace de travail **Gestion des fonctionnalités**.
+    Le bouton **Supprimer tout** n’est disponible que lorsque l’administrateur système a activé la fonctionnalité **Supprimer les lignes de proposition de facture lors de l’utilisation de Project Operations pour les scénarios basés sur des ressources/hors stock** dans l’espace de travail **Gestion des fonctionnalités**.
 
 2. Ajustez les dimensions financières :
 

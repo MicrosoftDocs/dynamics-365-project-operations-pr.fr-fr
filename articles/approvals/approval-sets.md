@@ -2,18 +2,16 @@
 title: Ensembles d’approbations
 description: Cette rubrique explique comment utiliser les ensembles d’approbation, les demandes et les sous-ensembles de ces opérations.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323233"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576221"
 ---
 # <a name="approval-sets"></a>Ensembles d’approbations
 
@@ -27,6 +25,18 @@ Les ensembles d’approbation indiquent l’état de traitement global de leurs 
 Les approbations mises en file d’attente pour traitement sont visibles dans la vue **Approbations en cours de traitement**. Le système traite toutes les entrées plusieurs fois de manière asynchrone, y compris en retentant une approbation si les tentatives précédentes ont échoué.
 
 Le champ **Durée de vie de l’ensemble d’approbations** consigne le nombre de tentatives restantes pour traiter l’ensemble avant qu’il ne soit marqué comme ayant échoué.
+
+Les ensembles d’approbations sont traités via l’activation périodique basée sur un **Flux de cloud** nommé **Project Service - Planifier de manière récurrente les ensembles d’approbations du projet**. Cela se trouve dans la **Solution** intitulée **Project Operations**. 
+
+Veillez à ce que le flux soit activé en exécutant la procédure suivante.
+
+1. En tant qu’administrateur, connectez-vous à [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Dans l’angle supérieur droit, basculez vers l’environnement que vous utilisez pour Dynamics 365 Project Operations.
+3. Sélectionnez **Solutions** pour répertorier les solutions installées dans l‘environnement.
+4. Dans la liste de solutions, sélectionnez **Project Operations**.
+5. Remplacez le filtre **Tout** par **Flux de cloud**.
+6. Vérifiez que le flux **Project Service – Planifier de manière récurrente les ensembles d’approbations du projet** est défini sur **Activé**. Si ce n’est pas le cas, sélectionnez le flux, puis **Activer**.
+7. Vérifiez que le traitement a lieu toutes les cinq minutes en passant en revue la liste **Tâches système** dans la zone **Paramètrs** dans votre environnement Project Operations Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Approbations et ensembles d’approbations ayant échoué
 La vue **Approbations ayant échoué** répertorie toutes les approbations qui nécessitent une intervention de l’utilisateur. Ouvrez les journaux d’ensemble d’approbations associés pour identifier la cause de l’échec.

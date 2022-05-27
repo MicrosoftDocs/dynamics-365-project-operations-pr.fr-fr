@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984868"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579855"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de décembre 2020 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
@@ -21,7 +21,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
 - Version 4.5.0.134 de Project Operations dans l’environnement Dataverse
-- Version 10.0.15 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
+- Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.15
 
 Pour plus d’informations sur la mise à jour vers cette version, consultez [Mettre à jour Project Operations dans votre environnement Finance](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 | Planification et suivi de projets | 2057197          | La copie de ligne d’estimation avec référence de tâche n’est pas prise en charge                                                                                                     |
 | Planification et suivi de projets | 2060687          | L’avertissement de fuseau horaire disparaît désormais au terme d’une durée spécifique                                                                                                      |
 | Gestion des ressources           | 1832887          | L’ID de catégorie de ressource par défaut doit être statique pour garantir des charges de données répétables pour les environnements Dataverse et Finance                                                 |
-| Temps et dépenses              | 2081793          | **Nom de la catégorie de dépenses** doit être mappé au champ **Description de la catégorie de dépenses** dans les champ dans les applications Finance and Operations                                                  |
+| Temps et dépenses              | 2081793          | **Nom de la catégorie de dépenses** doit être mappé au champ **Description de la catégorie de dépenses** dans les applications de finances et d’opérations                                                  |
 | Temps et dépenses              | 2034882          | Le bouton **Nouveau** s’affiche deux fois sur la barre de commande pour les entrées de temps lorsque Dynamics 365 Field Service est installé                                          |
 | Temps et dépenses              | 2056028          | Mettrez à jour la page **Modifier l’heure** pour inclure la chronologie                                                                                                              |
 | Temps et dépenses              | 1983747          | Le graphique d’entrées de temps affiche des données supplémentaires                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestion du projet et comptabilité dans Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Vue d’ensemble de la gestion et comptabilité des projets dans Dynamics 365 Finance
 
 | Fonctionnalités                        | Numéro de référence | Mise à jour qualité                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 | Déplacement et dépenses                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Le flux de travail de validation automatique des rapports de dépenses est terminé mais la facture n’est pas validée                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Mises à jour réglementaires
-Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+Pour plus d’informations sur les mises à jour réglementaires pour les applications de finances et d’opérations, voir [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

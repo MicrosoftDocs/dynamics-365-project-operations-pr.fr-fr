@@ -4,20 +4,20 @@ description: Cette rubrique fournit des informations sur la façon de souscrire 
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323413"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575807"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Souscrire des abonnements à la version préliminaire de Project Operations pour les scénarios de ressources/hors stock
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique explique comment souscrire à l’offre d’évaluation et déployer l’environnement Project Operations pour les scénarios basés sur des ressources/hors stock.
 
@@ -40,7 +40,7 @@ Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur av
 
   Vous verrez la confirmation que l’offre a été utilisée avec succès.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Essai en version préliminaire de Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Version d’évaluation de Dynamics 365 Finance
 
 Accédez à [Essai en version préliminaire de Dynamics 365 for Finance](https://aka.ms/trypoche) et répétez les étapes de la section précédente avec l’offre, S’inscrire pour accéder à l’environnement hébergé dans le cloud.  
 
@@ -49,7 +49,7 @@ Accédez à [Essai en version préliminaire de Dynamics 365 for Finance](https:/
 > [!IMPORTANT]
 > Vous aurez besoin d’un accès administratif au portail Microsoft 365 de votre organisation pour terminer les étapes suivantes.
 
-1. Accédez au [Centre d’administration Microsoft 365](https://portal.office.com/) pour attribuer les licences à vos utilisateurs.
+1. Accédez au [Centre d’administration Microsoft 365](https://portal.office.com/) pour attribuer les licences à vos utilisateurs.
 
 2. Sur la page **Utilisateurs actifs**, sélectionnez les utilisateurs auxquels vous souhaitez attribuer une licence.
 

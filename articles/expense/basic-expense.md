@@ -4,20 +4,20 @@ description: Cette rubrique fournit des informations sur la façon d’utiliser 
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 48bf86a5cee475708f93462dc154e21b36240023f0a94cf31c49e9a096951736
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 774bf2f8f54d2e314740fbad40ea15ce83d38297
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007818"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578337"
 ---
 # <a name="expense-entry-lite"></a>Entrée de dépense (simplifiée)
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-La gestion de base ou simplifiée des dépenses est la capacité d’enregistrer des dépenses simples. Vous pouvez enregistrer les dépenses associées à un projet, puis l’approbateur de projet les examinera et les approuvera.
+La gestion de base ou simplifiée des dépenses est la capacité d’enregistrer des dépenses simples. Vous pouvez enregistrer les dépenses par rapport à un projet, puis l’approbateur de projet les examinera et les approuvera.
 
 Pour plus d’informations sur les fonctionnalités de dépenses dans Dynamics 365 Project Operations, voir [Vue d’ensemble des dépenses](expense-overview.md).
 

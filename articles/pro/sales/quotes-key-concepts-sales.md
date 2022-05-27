@@ -4,14 +4,14 @@ description: Cette rubrique offre des informations sur l’utilisation des devis
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 279e7dd47d3d61b02227b307a5833ca0bac66f4a774b5ff23cb69aac417e2f0e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6cc1b38644557370d2447b65d2bba2925dc134a5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009438"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574841"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Concepts propres aux devis de projet
 

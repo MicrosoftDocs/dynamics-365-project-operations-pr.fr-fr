@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la création d’un dev
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 908e89264f789d6ebb9e8a1e18c55151ba3677a8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999628"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8573967"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Créer des devis de projet à partir d’opportunités
 

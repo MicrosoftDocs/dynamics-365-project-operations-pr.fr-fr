@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943020"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579809"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de décembre 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
@@ -20,7 +20,7 @@ ms.locfileid: "7943020"
 
 Ce sujet s’applique aux composants et versions suivants de Microsoft Dynamics 365 Project Operations :
 
-- Project Operations dans un environnement Dataverse, version 4.27.0.195, 4.27.0.242
+- Project Operations dans un environnement Dataverse, version 4.27.0.195, 4.27.0.242, 4.27.0.244
 - Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.23
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
@@ -48,7 +48,7 @@ Si vous rencontrez un problème lors du démarrage du mappage, suivez les instru
 | Temps et dépenses | 2468188 | Correction du problème avec le texte du journal dépassant la longueur maximale dans l’attribut **notetext** de l’entité **Annotation**. |
 | Facturation et tarification | 2488698 | Message d’erreur mis à jour qui est produit lorsqu’il manque dans la configuration de l’environnement des enregistrements de l’entité Comptabilité remplis à partir de Finance. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestion de projets et comptabilité dans Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vue d’ensemble de la gestion et comptabilité des projets sur Dynamics 365 Finance
 
 | **Fonctionnalités** | **Numéro de référence** | **Mise à jour qualité** |
 | --- | --- | --- |

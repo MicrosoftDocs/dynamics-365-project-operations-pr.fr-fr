@@ -4,14 +4,14 @@ description: Cette rubrique explique comment spécifier les ressources dédiées
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4a929b985a51ab49d3e34ce4a5c277af4c05c216
-ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
+ms.openlocfilehash: 96bce2d6797c124331ce0174b16804ff8dfec993
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7558454"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576083"
 ---
 # <a name="subcontract-line-resources"></a>Ressources de la ligne du contrat de sous-traitance
 

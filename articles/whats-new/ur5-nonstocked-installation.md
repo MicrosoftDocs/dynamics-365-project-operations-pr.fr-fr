@@ -1,25 +1,25 @@
 ---
 title: Mettre à jour Project Operations dans votre environnement Finance
-description: Cette rubrique fournit des informations sur la façon de mettre à jour Project Operations dans votre environnement Dynamics 365 Finance.
+description: Cette rubrique fournit des informations sur la mise à jour de Project Operations dans votre environnement Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986758"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579929"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Mettre à jour Project Operations dans votre environnement Finance
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
 
-Cette rubrique fournit des informations sur la façon de mettre à jour Dynamics 365 Project Operations dans votre environnement Dynamics 365 Finance. Trois procédures sont nécessaires pour mettre à jour Project Operations vers la mise à jour 5 (UR5) :
+Cette rubrique fournit des informations sur la mise à jour de Dynamics 365 Project Operations dans votre environnement Dynamics 365 Finance. Trois procédures sont nécessaires pour mettre à jour Project Operations vers la mise à jour 5 (UR5) :
 
 - [Importez le package dans votre projet de prévisualisation](#import)
 - [Appliquez la mise à jour](#apply)
@@ -119,7 +119,7 @@ Les mises à jour suivantes des privilèges de sécurité pour les entités sont
 4. Sur la page **Version carte de table**, appliquez une nouvelle version de la carte à chacune des trois entités.
 5. Sur la page **Double écriture**, sélectionnez Exécuter pour redémarrer les cartes.
 6. Dans la liste des cartes, sélectionnez la carte **Registre (msdyn_ledgers)** avec tous les prérequis et cocher la case **Synchronisation initiale**. 
-7. Dans le champ **Maître pour la synchronisation initiale**, sélectionnez **Applications Finance and Operations** puis sélectionnez **Exécuter**.
+7. Dans le champ **Sélection principale pour la synchronisation initiale**, sélectionnez **Applications de finances et d’opérations**, puis sélectionnez **Exécuter**.
  
  ![Synchronisation du mappage du registre.](media/DW6.png)
  

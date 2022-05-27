@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94deab811a304026dd663a88e869013a3b88fb29674b35fa0b40fa68f8c5ea62
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 953d7ca1995eae823fd29d0a9e85ff6a2a2eb59b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003083"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575476"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Réservations des ressources et leur relation aux affectations de tâches
 

@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la création d’affect
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987883"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576543"
 ---
 # <a name="create-resource-assignments"></a>Créer des attributions de ressources
 

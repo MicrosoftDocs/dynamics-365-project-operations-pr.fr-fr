@@ -3,17 +3,16 @@ title: Vue d’ensemble des dimensions de tarification
 description: Cette rubrique donne des informations sur les dimensions de tarification dans Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001968"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579257"
 ---
 # <a name="pricing-dimensions-overview"></a>Vue d’ensemble des dimensions de tarification
 
@@ -60,16 +59,16 @@ L’exemple suivant présente des taux de factures configurés en fonction du r�
 
 | Rôle        | Unité d’organisation    |Unité      |Prix      |Devise  |
 | ------------|-------------|----------|----------:|----------|
-| Développeur   | Contoso US  |heure | 200|USD     |
-| Développeur   | Contoso Inde |heure|   112|USD     |
+| Développeur   | Contoso US  |Hour | 200|USD     |
+| Développeur   | Contoso Inde |Hour|   112|USD     |
 
 
 **Exemple de taux de coûts**
 
 | Bande de salaire     | Unité d’organisation    |Unité      |Prix      |Devise  |
 | ----------------|-------------|----------|----------:|----------|
-| Ma société_Band1 | Contoso US  |heure | 145|USD     |
-| Ma société_Band2 | Contoso Inde |heure|   67|USD     |
+| Ma société_Band1 | Contoso US  |Hour | 145|USD     |
+| Ma société_Band2 | Contoso Inde |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,14 +4,14 @@ description: Cette rubrique explique certains concepts clés qui s′appliquent 
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 01d2e57b99015c346be15e3504440c14cb9a54e24215c0b1c052c5112f4b940a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 159eeca3aa9ed0c490be5ce3a8f46c7d7206aebe
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994273"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578108"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Concepts clés de la sous-traitance
 

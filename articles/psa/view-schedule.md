@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 447d21ee7c88733cd4552fa02c74a72a6e0b54970c74d6a065a9b3fe93bbb266
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: a1d786eb7d2d38e1e8a1ff05c9b6d2dd22c4aa7d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999853"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578660"
 ---
 # <a name="view-your-schedule-project-service"></a>Afficher votre planning (Project Service)
 
