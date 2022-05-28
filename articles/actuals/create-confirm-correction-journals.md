@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986713"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582800"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Créer et confirmer des journaux de correction
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
-Il peut arriver qu’une entrée de temps ou de dépense soit mal saisie. Un consultant peut par exemple sélectionner la mauvaise date lors de la création d’une entrée de temps ou transposer les chiffres lors de la saisie d’une dépense. Si un consultant ne peut pas mettre à jour les entrées soumises, un administrateur peut directement corriger l’entrée pour un projet.
-
-Pour effectuer les procédures de cette rubrique, vous aurez besoin des autorisations Administrateur.
+Parfois, une entrée de temps ou de dépense peut être saisie de manière incorrecte. Par exemple, un consultant peut sélectionner la mauvaise date lorsqu’il crée une entrée de temps, ou il peut sélectionner le mauvais projet lorsqu’il saisit une dépense. Si un consultant ne peut pas mettre à jour les entrées envoyées, un administrateur principal peut corriger directement les chiffres réels d’un projet.
 
 ## <a name="correct-approved-time-entries"></a>Corriger les entrées d’heure approuvées     
 
@@ -46,8 +42,8 @@ Effectuez les étapes suivantes pour corriger des entrées de temps individuelle
 
 6. Sélectionnez **Aperçu**. Sélectionnez **OK** dans la boîte de dialogue. Sur l’onglet **Lignes de journal**, vous pouvez afficher la liste des valeurs réelles d’origine liées aux entrées de temps sélectionnées qui ont été annulées et les lignes correspondantes corrigées qui ont été créées. Si des corrections supplémentaires doivent être apportées, répétez les étapes 5 et 6. 
 
-> [!NOTE]
-> Tous les chiffres réels corrigés auront les mêmes valeurs que celles sélectionnées dans la section **Nouvelles valeurs pour les entrées des temps**.
+    > [!NOTE]
+    > Tous les chiffres réels corrigés auront les mêmes valeurs que celles sélectionnées dans la section **Nouvelles valeurs pour les entrées des temps**.
 
 7. Si les corrections sont correctes, sélectionnez **Confirmer**. Sélectionnez **OK** dans la boîte de dialogue.
 
@@ -55,12 +51,10 @@ Effectuez les étapes suivantes pour corriger des entrées de temps individuelle
 
 9. Sur la page **Projets**, dans l’onglet **Chiffres réels**, affichez les modifications que vous avez apportées. 
 
-> [!NOTE]
-> Si l’onglet **Chiffres réels** n’est pas visible, sélectionnez **Association** > **Chiffres réels**.  
+    > [!NOTE]
+    > Si l’onglet **Chiffres réels** n’est pas visible, sélectionnez **Association** > **Chiffres réels**.  
 
 10. Dans la liste **Vue associée Chiffre réel**, vous pouvez voir que les entrées d’heure d’origine qui ont été annulées sont toujours répertoriées, tout comme les entrées d’heure corrigées correspondantes. 
-
-Par exemple, dans le graphique suivant, deux éléments de ligne dont la quantité est 8,00 ont des débits répertoriés dans la colonne Montant. En outre, deux éléments de ligne dont la quantité est -8,00 indiquent des montants crédités dans la colonne Montant. Ces corrections ramènent la quantité à zéro.
 
  
 ## <a name="correct-approved-expense-entries"></a>Corriger les entrées de dépense approuvées
@@ -79,14 +73,30 @@ Effectuez les étapes suivantes pour corriger une ou plusieurs entrées de dépe
 
 6. Si les corrections sont correctes, sélectionnez **Confirmer**. Sélectionnez **OK** dans la boîte de dialogue. Si les valeurs ne s’affichent pas comme prévu, sélectionnez **Annuler** pour revenir à la liste **Dépenses approuvées**. Répétez les étapes 2 et 5. 
 
-> [!NOTE]
-> Les chiffres réels corrigés auront les mêmes valeurs que celles sélectionnées dans la section **Nouvelles valeurs pour les dépenses**.
+7. Après avoir confirmé le journal de correction, revenez au projet ou aux projets que vous avez mis à jour pour afficher vos modifications.
 
-7. Après avoir confirmé le journal de correction, revenez au projet ou aux projets que vous avez mis à jour pour afficher vos modifications.  
-
-8. Dans la page du projet, sur l’onglet **Chiffres réels**, passez en revue **Vue associée Chiffre réel**. Les entrées originales et les entrées corrigées sont répertoriées. Le graphique suivant montre les montants d’entrée des dépenses d’origine et ceux des dépenses corrigées correspondants. 
+8. Sur la page du projet, sur l’onglet **Chiffres réels**, passez en revue la liste **Vue associée Chiffre réel**. Les entrées originales et les entrées corrigées sont répertoriées.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Corriger les journaux d’utilisation du matériel approuvés
+
+Procédez comme suit pour corriger une ou plusieurs entrées du journal d’utilisation du matériel.
+
+1. Dans la zone **Ventes**, dans le volet de navigation de gauche, sous **Transactions**, sélectionner **Chiffres réels**.
+
+2. Dans la liste **Chiffres réels**, utilisez des filtres de colonne pour sélectionner la classe de transaction **Matériel**, de sorte que seuls les chiffres réels des matériaux sont affichés. Utilisez d’autres filtres de colonne pour limiter davantage les chiffres réels affichés. Une fois que vous avez trouvé l’ensemble des chiffres réels souhaité, sélectionnez les valeurs réelles, puis **Corriger les entrées**. Un nouveau journal de correction est automatiquement créé, et le type **Correction du matériel** est attribué.
+
+3. Sur la page **Nouveau journal**, dans le champ **Description**, vous pouvez saisir une description pour la correction. Ensuite, sur l’onglet **Correction du matériel**, dans la section **Nouvelles valeurs pour le matériel**, sélectionnez les champs de données à corriger pour les lignes de matériel sélectionnées. Par exemple, vous pouvez affecter le matériel à un autre projet ou corriger le produit, la date du matériel ou le contrat de sous-traitance.
+
+4. Cliquez sur **Aperçu**. Puis, dans la boîte de dialogue suivante, cliquez sur **OK**.
+
+5. Sur l’onglet **Lignes de journal**, vérifiez les corrections. Vous pouvez afficher une liste des chiffres réels d’origine associés aux écritures de matériel sélectionnées qui ont été contrepassées et les lignes correspondantes corrigées qui ont été créées.
+
+6. Si les corrections sont correctes, sélectionnez **Confirmer**. Puis, dans la boîte de dialogue suivante, cliquez sur **OK**. Si les valeurs ne sont pas celles attendues, sélectionnez **Annuler** pour revenir à la liste **Chiffres réels**. Puis répétez les étapes 2 à 5.
+
+7. Après avoir confirmé le journal de correction, revenez au projet ou aux projets que vous avez mis à jour pour afficher vos modifications.
+
+8. Sur la page du projet, sur l’onglet **Chiffres réels**, passez en revue la liste **Vue associée Chiffre réel**. Les entrées originales et les entrées corrigées sont répertoriées.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

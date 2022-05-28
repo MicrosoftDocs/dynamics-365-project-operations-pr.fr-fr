@@ -4,16 +4,16 @@ description: Cette rubrique fournit des informations sur les avances de fonds.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988513"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585697"
 ---
 # <a name="cash-advance"></a>Paiement en avance
 
@@ -66,7 +66,7 @@ Avant de soumettre une note de frais, vous pouvez sélectionner l’avance de di
  
  Lorsque ces fonctionnalités sont activées :
  
-  - Vous pouvez ajouter une ou plusieurs avances de disponibilités pour chaque ligne de dépenses.
+  - Vous pouvez ajouter une ou plusieurs avances de fonds pour chaque ligne de dépense.
   - Le solde disponible d’une avance de disponibilités est visible en temps réel lors de la sauvegarde d’une note de frais. Cela vous permet de traiter des transactions de dépenses et de remboursements en espèces en même temps.
   - Vous pouvez sélectionner plusieurs avances de disponibilités pour une transaction de dépenses.
   - Les données de rapprochement des avances de disponibilités sont disponibles à l’aide d’une requête. 

@@ -4,14 +4,14 @@ description: Cette rubrique fournit un lien vers des informations sur la façon 
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 635d76c55358b27ce6ff3babd9e69041d99f5005c140fca0c0bc28d7210ad168
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b894c55d7e47031ddf77000c954cd8c1769cb1ca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004083"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581465"
 ---
 # <a name="booking-statuses"></a>Statuts de réservation
 

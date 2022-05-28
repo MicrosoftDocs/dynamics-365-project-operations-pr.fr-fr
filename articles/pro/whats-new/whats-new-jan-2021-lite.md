@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d275bacd13b2ec896a40cafab3434200dca537d7d108cfc46370b01b67c98aa2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 17accd33a6126918e02e90b67636d95342efdd65
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009258"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583995"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Nouveautés de janvier 2021 – Déploiement léger de Project Operations
 

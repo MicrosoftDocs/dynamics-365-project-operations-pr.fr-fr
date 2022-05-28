@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la création d’un pro
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 842ccaeed53f8829b7520a420972c2e31ebf4821
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989953"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584179"
 ---
 # <a name="start-a-new-lcs-project"></a>Commencer un nouveau projet LCS
 
@@ -27,7 +27,7 @@ Utilisez Lifecycle Services (LCS) pour gérer vos environnements Dynamics 365 Pr
   ![Sélectionnez le type de projet LCS.](./media/create-lcs-1.png)
 
 5. Nom du projet. 
-6. Sélectionnez **Finance and Operations** comme nom du produit et sélectionnez le secteur et la méthodologie. 
+6. Sélectionnez **Finance and Operations** comme nom de produit, puis sélectionnez le secteur et le mode. 
 7. Cliquez sur **Créer**.
 
 ![Créez un projet LCS.](./media/create-lcs-2.png)

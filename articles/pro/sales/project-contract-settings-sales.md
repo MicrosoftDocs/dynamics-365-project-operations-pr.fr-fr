@@ -2,16 +2,16 @@
 title: Paramètres de contrat de projet – Simplifié
 description: Cette rubrique fournit des informations sur les champs qui ont un impact sur les lignes de contrat et les informations sur le contrat qui sont résumées sur tous les éléments de ligne.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995938"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586387"
 ---
 # <a name="header-details-for-project-contracts"></a>Détails d’en-tête pour les contrats de projet
 
@@ -32,12 +32,15 @@ Le tableau suivant répertorie les champs d’un contrat de projet qui sont prop
 | Limite à ne pas dépasser | Onglet **Résumé** | Ce champ indique le plafond négocié sur la valeur finale que le client a accepté pour cette transaction. | Le plafond est évalué lors de l’exécution et s’applique à tous les éléments de ligne et projets associés à cette transaction. |
 | Date de livraison demandée | Onglet **Résumé** | Lorsqu’un contrat est créé à partir d’un devis de projet, ce champ est copié à partir du champ correspondant sur le devis de projet. | Cette date est utilisée comme date de fin pour générer des planifications de facture. |
 
-Les indicateurs suivants sont disponibles dans l’onglet **Performance du contrat** d’un contrat de projet.
+Les indicateurs suivants sont disponibles dans l’onglet **Performance du contrat** d’un contrat de projet. 
+
+>[!NOTE]
+>Tous les montants de l’onglet **Performance du contrat** sont exprimés dans la devise par défaut de l’environnement.
 
 | Champ | Emplacement | Description |
 | --- | --- | --- |
-| Valeur du contrat | Contrat d’ensemble | Valeur totale du contrat de projet. |
-| Montant facturé | Contrat d’ensemble | Somme des montants sur l’ensemble des factures correspondant à ce contrat. |
+| Valeur du contrat | Contrat d’ensemble | Valeur totale du contrat de projet.|
+| Montant facturé | Contrat d’ensemble | Somme des montants sur l’ensemble des factures correspondant à ce contrat.|
 | Coût engagé | Contrat d’ensemble | Somme de tous les chiffres réels de coût enregistrés sur l’ensemble des projets mappés au contrat. |
 | Marge brute | Contrat d’ensemble | Montant facturé - Coût engagé à ce jour / Montant facturé |
 | Marge prévue | Contrat d’ensemble | (Valeur du contrat - Coûts estimés) / Valeur du contrat Coûts estimés = Somme de tous les coûts estimés pour l’ensemble des projets associés au contrat.|

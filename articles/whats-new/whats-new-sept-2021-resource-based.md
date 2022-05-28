@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547151"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582891"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de septembre 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547151"
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
    - Project Operations dans l’environnement Microsoft Dataverse, version 4.14.0.99.
-   - Gestion et comptabilité de projets dans l’environnement Dynamics 365 Finance, version 10.0.20.
+   - Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Mises à jour des mappages de double écriture de Project Operations
 
@@ -45,7 +45,7 @@ Si vous rencontrez un problème lors du démarrage du mappage, suivez les instru
 | Facturation et tarification | 2385802 | Correction de l’erreur qui se produit avec des heures réelles négatives lorsque les totaux du projet sont actualisés. |
 | Facturation et tarification | 2389675 | Amélioration du comportement de confirmation de la facture pro forma. L’entité des tâches durables doit prendre en compte l’activité requise pour écrire les résultats de confirmation pour la comptabilité. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestion du projet et comptabilité dans Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Vue d’ensemble de la gestion et comptabilité des projets dans Dynamics 365 Finance
 
 | Fonctionnalités | Numéro de référence | Mise à jour qualité |
 | --- | --- | --- |

@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la gestion des prospect
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2ac6d03e8e070b62a2ffe689cccfc19bad1ee2bdc88dd65902f663b2d19ba655
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fc5bcab39d4f83010d43fe5cc8b40f208ce0d62
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008178"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581328"
 ---
 # <a name="manage-leads"></a>Gérer les prospects
 

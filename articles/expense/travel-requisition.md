@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur les demandes de déplac
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: f00b5ca2142c4ba5cb523773f1f6dd8f0a055f6f6d474bc2b8e5f775ca0fc739
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 45d303d482f6c034cad2c3423c3e505fc62950a4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994543"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585651"
 ---
 # <a name="travel-requisitions"></a>Demandes de déplacement
 

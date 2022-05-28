@@ -5,14 +5,14 @@ author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d35bf6960bb60e2ad4184e1b5f188695a3525be0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993148"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586525"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Utiliser les dépenses personnelles sur une note de frais
 

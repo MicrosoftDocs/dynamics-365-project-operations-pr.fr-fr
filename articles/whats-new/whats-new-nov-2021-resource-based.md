@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942882"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584869"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de novembre 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 

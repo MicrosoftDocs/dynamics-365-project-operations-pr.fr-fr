@@ -4,14 +4,14 @@ description: Cette sujet fournit un lien vers des informations sur la manière d
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e1f2be2f0b8ed8fc332a575b165ec23c4e8ab1fc9c50d998da3459c05dbcead1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 081ea142cbc5257679ab78caa4b32e4d22c33c31
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008358"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581419"
 ---
 # <a name="create-resources"></a>Créer des ressources
 

@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 38de99680f4ba67b8eb593ec575c2a796fcfb59436fea5323dd1d86d7cf3d797
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5d1bdde3c376a74952d54a1e7fade1f48e675d2f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002598"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580223"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Déterminer les estimations de coût et de revenu du projet 
 

@@ -3,16 +3,15 @@ title: Vue d’ensemble de la facturation intersociétés
 description: Cette rubrique fournit des informations et des exemples sur la facturation intersociétés pour les projets.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005388"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586249"
 ---
 # <a name="intercompany-invoicing-overview"></a>Vue d’ensemble de la facturation intersociétés
 
@@ -20,7 +19,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 Votre organisation peut avoir plusieurs divisions, filiales et autres entités juridiques qui se transfèrent des produits et des services pour des projets. L’entité juridique qui fournit le service ou le produit est appelée *entité juridique prêteuse*. L’entité juridique qui reçoit le service ou le produit est appelée *entité juridique emprunteuse*.
 
-L’illustration suivante présente un scénario typique dans lequel deux entités juridiques, Contoso Robotics USA (l’entité juridique emprunteuse) et Contoso Robotics UK (l’entité juridique prêteuse) partagent des ressources pour livrer un projet au client, Adventure works. Pour ce scénario, Contoso Robotics USA est engagé pour livrer le travail à Adventure Works.
+L'illustration suivante montre un scénario typique dans lequel deux entités juridiques, Contoso Robotics USA (l'entité juridique emprunteuse) et Contoso Robotics UK (l'entité juridique prêteuse) partagent des ressources pour livrer un projet pour le client, Adventure works. Pour ce scénario, Contoso Robotics USA est chargé de livrer le travail à Adventure Works.
 
 ![Facturation intersociétés.](./media/IntercompanyScenario.png) 
 

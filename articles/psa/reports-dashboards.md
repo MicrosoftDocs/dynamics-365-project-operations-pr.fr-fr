@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 975f88b671f1ce46888731cc2aef4ea07228a71abe8e7c520d4c4a6e7be3b537
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2474318dd720550d08d30945e534afba3cb86a64
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990538"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580269"
 ---
 # <a name="dashboards"></a>Tableaux de bord
 

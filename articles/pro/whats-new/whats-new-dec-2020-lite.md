@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 81a5556e98d333fa86d73b1c7f03245a23a454372168f8bd7c79fc4425387734
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009348"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585421"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nouveautés de décembre 2020 – Déploiement simplifié de Project Operations – Traiter la facturation pro forma
 

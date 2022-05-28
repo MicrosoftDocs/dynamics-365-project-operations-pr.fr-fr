@@ -5,14 +5,14 @@ author: rumant
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 16c2b53283b8aa2a243b55a0b887bb5bb461a5fb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009573"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585559"
 ---
 # <a name="override-project-sales-price-lists"></a>Remplacer les tarifs de vente des projets
 

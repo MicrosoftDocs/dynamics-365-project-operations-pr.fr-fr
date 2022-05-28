@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur l’utilisation des lig
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f1efa9e5b5ad432e1564fb3d8db0405134a4dc73
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992113"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584915"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Gérer plusieurs clients sur les lignes de contrat basées sur un projet
 

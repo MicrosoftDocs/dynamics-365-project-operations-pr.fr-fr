@@ -4,14 +4,14 @@ description: Cette rubrique fournit des détails sur le traitement des factures 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989908"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585605"
 ---
 # <a name="manage-project-invoice-proposals"></a>Gérer des propositions de facture pour un projet
 
@@ -22,7 +22,7 @@ Les propositions de facture de projet peuvent être traitées par votre service 
   - Le chef de projet confirme la facture pro forma dans Microsoft Dataverse.
   - Toutes les transactions de vente non facturées de temps et de matières qui sont incluses dans la facture pro forma sont validées à l’aide de la feuille **Intégration de Project Operations** de Dynamics 365.
 
-Suivez les étapes suivantes pour terminer une proposition de facture de projet dans Dynamics 365 Finance.
+Utilisez les étapes suivantes pour terminer une proposition de facture de projet dans Dynamics 365 Finance.
 
 1. Consultez les informations de facturation pour les transactions de temps et de matières et enregistrez la feuille **Intégration Project Operations**.
 2. Consultez les informations de facturation pour les jalons de facturation à prix fixe.

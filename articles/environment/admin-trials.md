@@ -2,22 +2,22 @@
 title: S’inscrire aux versions d’essai de Project Operations
 description: Cette rubrique fournit des informations sur le déploiement d’une version d’essai de Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901614"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584271"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>S’inscrire aux versions d’essai de Project Operations 
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock, le déploiement simplifié – Traiter la facturation pro forma, Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique explique comment souscrire à l’offre partenaire en version préliminaire et déployer un environnement Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ Le tableau suivant présente les détails de la nouvelle offre d’essai.
 | Utilisation de l’offre                    | Une fois par client                          |
 | Durée de l’offre               | 30 jours civils                             |
 | Rachats par client       | 1                                            |
-| Nombre d’utilisateurs              | 25                                           |
 | Extension                    | 1 extension, 30 jours civils               |
 | Nombre d’environnements d’évaluation | 3                                            |
 
@@ -87,7 +86,7 @@ Avant de commencer, connectez-vous à un navigateur avec le compte professionnel
  
   Une fois l’approvisionnement terminé, votre environnement est défini sur **Prêt**. L’approvisionnement de l’environnement inclut le déploiement des données de démonstration.
  
-4.  Sélectionnez l’URL de l’environnement Microsoft Dataverse respectif et les URL des applications Finance and Operations pour valider le déploiement.
+4.  Sélectionnez l’URL de l’environnement Microsoft Dataverse respectif et les URL des applications de finances et d’opérations pour valider le déploiement.
 
 ## <a name="configuring-dual-write"></a>Configuration de la double écriture
 - Pour configurer les rôles de sécurité pour la double écriture, voir [Mettre à jour les paramètres de sécurité de Project Operations dans Dataverse](resource-provision-new-environment.md).
@@ -117,7 +116,7 @@ Les ressources suivantes fournissent des conseils utiles lorsque vous commencez 
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Que faire si j’ai besoin d’ALM ou d’ELM pour mon environnement d’applications Finance and Operations ?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Que se passe-t-il si j’ai besoin d’ALM ou d’ELM pour mon environnement d’applications de finances et d’opérations ?
 
 - Pour les partenaires qui ont besoin de fonctionnalités complètes de gestion du cycle de vie de l’environnement, voir [Demande de licence de bac à sable partenaire](https://experience.dynamics.com/requestlicense) pour consulter l’offre du nouveau partenaire. 
 - Pour les partenaires cherchant plus d’informations sur les droits d’utilisation interne, voir [Avantages du cloud et du logiciel des droits d’utilisation internes (microsoft.com)](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Les ressources suivantes fournissent des conseils utiles lorsque vous commencez 
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Puis-je prolonger mon essai au-delà de 30 jours ?
 Pour prolonger votre essai, procédez comme suit.
 
-1. Dans le **Centre d’administration Microsoft 365**, accédez à **Facturation** > **Vos produits**.
+1. Dans le **centre d’administration Microsoft 365**, accédez à **Facturation** > **Vos produits**.
 2. Sélectionnez **Dynamics 365 Project Operations (CE) - Essai en version préliminaire**.
 3. Sous **Date d’expiration**, sélectionnez **Prolonger le délai**.
 

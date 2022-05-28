@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: de95d7b271d876285ac5f4ecbc595390141d9e126ce101779652828581c1f613
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: bf7c529260200330b43077833f2b7a2d2fc9c3e4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998548"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586127"
 ---
 # <a name="configure-project-service"></a>Configurer Project Service
 

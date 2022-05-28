@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 03/26/2019
-ms.topic: article
+ms.topic: overview
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c76faeecf252f0ae70594e7dfbb28c1aac2423a37f6cd12b53103dd7a493306e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 86bfe8e5103bfcac89a2966b99f15b7c34a213fb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987298"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582316"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Page d’accueil de développement (Project Service Automation 3.x)
 

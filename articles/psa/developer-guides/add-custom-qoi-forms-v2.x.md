@@ -14,12 +14,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: ffc702bbe9cedb2a0cc8da8d8f58e48005950127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995218"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584317"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Ajouter de nouveaux formulaires d’entité personnalisée (Project Service Automation 2.x)
 

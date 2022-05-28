@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991123"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586295"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Nouveautés ou modifications dans Project Operations de mai 2021 pour les scénarios basés sur le stock/la production
 
@@ -20,7 +20,7 @@ _ **S’applique à :** Project Operations pour les scénarios basés sur le st
 
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
-- Version 10.0.19 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
+- Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.19
  
 ### <a name="quality-updates"></a>Mises à jour qualité
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 
 | Déplacement et dépenses                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Des problèmes de synchronisation se produisent avec l’application mobile Dépenses. 
 
 ### <a name="regulatory-updates"></a>Mises à jour réglementaires
-Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à Lifecycle Services (LCS) et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche de problèmes. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+Pour plus d’informations sur les mises à jour réglementaires pour les applications de finances et d’opérations, voir [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à Lifecycle Services (LCS) et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche de problèmes. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2642e56fc3df44b5c7583d0b996765f5a22f6be1fc46738d02462d928f833048
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1f3874dfc106ef2fb511863a11a2d1f22c9c6d78
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000708"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582293"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Autoriser un autre utilisateur à effectuer vos saisies de temps ou de dépenses (Project Service)
 

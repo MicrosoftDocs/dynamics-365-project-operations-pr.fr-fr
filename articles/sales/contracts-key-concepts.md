@@ -4,26 +4,26 @@ description: Cette rubrique fournit des informations sur les concepts clés des 
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986938"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582937"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Concepts uniques aux contrats basés sur des projets
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cette rubrique fournit les concepts clés à connaître avant de commencer à utiliser des contrats de projet dans Dynamics 365 Project Operations :
 
 ## <a name="owning-company"></a>Société propriétaire
 
-La société propriétaire équivaut au concept d’entité juridique du module **Gestion de projet et comptabilité** de Project Operations à partir de Dynamics 365 Finance. La société propriétaire représente l’entité juridique qui comptabilisera les coûts et les revenus générés par une transaction.
+La société propriétaire est l’entité juridique du module **Gestion de projet et comptabilité** pour Project Operations à partir de Dynamics 365 Finance. La société propriétaire représente l’entité juridique qui comptabilisera les coûts et les revenus générés par une transaction.
 
 ## <a name="contracting-unit"></a>Unité contractuelle
 

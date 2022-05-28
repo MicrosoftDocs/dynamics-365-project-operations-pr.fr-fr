@@ -4,14 +4,14 @@ description: Cette rubrique offre des informations vous permettant de détermine
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994633"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584133"
 ---
 # <a name="determine-your-deployment-type"></a>Déterminer votre type de déploiement
 
@@ -25,7 +25,7 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clients Dynamics existants utilisant Dynamics 365 Project Service Automation
 Project Operations inclut les fonctionnalités fournies avec Project Service Automation. Une mise à niveau sera publiée pour ces clients dans la vague de lancement de 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clients Dynamics 365 Finance existants utilisant Gestion de projets et comptabilité 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clients existants de Dynamics 365 Finance utilisant la gestion de projet et la comptabilité 
 
 Les clients existants de Finance qui utilisent la fonctionnalité Gestion du projet et comptabilité peuvent continuer à l’utiliser tel qu’il est. Voir [Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication](#pma).
 
@@ -42,7 +42,7 @@ Notre [Questionnaire de déploiement](https://aka.ms/provisionprojectoperations)
 - [Project Operations pour les scénarios basés sur les ressources/produits non stockés](#integrated)
 - [Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication](#pma)
 
-Project Operations prend en charge les scénarios stockés/d’ordre de fabrication et les scénarios non stockés/basés sur les ressources dans le même environnement par le biais des configurations au niveau de l’entité juridique. Par example, Contoso peut utiliser les fonctionnalités produits stockés/ordres de fabrication dans l’usine de fabrication aux États-Unis (entité juridique = Contoso Manufacturing United States). Contoso peut utiliser les fonctionnalités produits non stockés/basées sur les ressources dans l’installation de service pour bras robotisés Contoso au Royaume-Uni (entité juridique = Contoso Robotics United Kingdom).
+Project Operations prend en charge les scénarios stockés/d’ordre de fabrication et les scénarios non stockés/basés sur les ressources dans le même environnement par le biais des configurations au niveau de l’entité juridique. Par exemple, Contoso peut utiliser les fonctionnalités stockées/ordre de fabrication dans son usine de fabrication aux États-Unis (entité juridique = Contoso Manufacturing, États-Unis). Contoso peut utiliser les fonctionnalités non stockées / basées sur les ressources dans son installation de maintenance Contoso Robotics Arms au Royaume-Uni (entité juridique = Contoso Robotics, Royaume-Uni).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Déploiement simplifié – Traiter la facturation pro forma
 

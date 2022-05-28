@@ -6,7 +6,7 @@ ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: intro-internal
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6de50faa1041b76ea64414d505594e22f05f56e47b73289e1239f9de3f180ec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3873c4e4c10179dcc522ed3f3b6732b5ee58765c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006468"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585007"
 ---
 # <a name="resource-management-overview"></a>Vue d’ensemble de la gestion des ressources
 

@@ -3,23 +3,22 @@ title: Intégration à double écriture Project Operations
 description: Cette rubrique offre une vue d’ensemble de l’intégration à double écriture Project Operations.
 author: sigitac
 ms.date: 04/28/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b57b8bab9a6821e71a16b191804af21ae5d0b5a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007908"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582753"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Vue d’ensemble Intégration à double écriture Project Operations
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Project Operations utilise des [fonctionnalités de double écriture](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) pour synchroniser les données sur Microsoft Dataverse et Dynamics 365 Finance.
+Project Operations utilise les [fonctionnalités en double écriture](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) pour synchroniser les données à travers Microsoft Dataverse et Dynamics 365 Finance.
 
 L’illustration suivante montre comment les données sont synchronisées dans le cadre de cette intégration entre Dataverse et Finance.
 

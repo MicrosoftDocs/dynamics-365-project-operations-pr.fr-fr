@@ -5,15 +5,14 @@ author: stsporen
 manager: tfehr
 ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 9a7a9efbd8615f4923c6795a16c9cf98a40362b6
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0783441d3bf7ed80192a3890a2e297fea05fe425
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323548"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583305"
 ---
 # <a name="approval-sets-in-project-service-automation"></a>Ensembles d’approbations dans Project Service Automation
 
