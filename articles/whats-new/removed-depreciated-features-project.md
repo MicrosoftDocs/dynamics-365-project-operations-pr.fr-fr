@@ -2,17 +2,17 @@
 title: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Project Operations
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 12/09/2021
+ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7aa2888b2752641e99087031a85177cb1171363d
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903411"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601567"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Project Operations
 
@@ -26,7 +26,49 @@ Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est p
 Cette liste est destinée à vous aider à prendre en compte ces suppressions et obsolescences pour votre propre planification.
 
 > [!NOTE]
-> Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [**États de référence technique**](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+> Des informations détaillées sur les objets dans les applications de finances et d’opérations peuvent être consultés dans les [**États de référence technique**](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications de finances et d’opérations.
+
+## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Fonctionnalités supprimées ou obsolètes dans la version de mars 2022 de Project Operations
+
+### <a name="project-management-and-accounting-always-create-adjustment-transaction-parameter"></a>Gestion et comptabilité des projets Paramètre « Toujours créer une transaction de régularisation »
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Raison de l’abandon/suppression** | Les transactions d’ajustement sont nécessaires à des fins de vérification. Après l’obsolescence, ce paramètre sera masqué. Le système créera toujours des transactions d’ajustement, comme il le fait actuellement lorsque le paramètre est défini sur **Oui**. |
+| **Remplacée par une autre fonctionnalité ?** | No |
+| **Zones produit concernées** | Application |
+| **Option de déploiement** | Project Operations pour les scénarios basés sur les produits stockés/fabriqués |
+| **Statut** | Obsolète : d’ici le 1er mars 2023, nous masquerons le paramètre et modifierons le comportement du système afin que les transactions d’ajustement soient toujours créées. |
+
+### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Gestion et comptabilité des projets Paramètre « Utiliser la date d’ajustement comme nouvelle date de projet »
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Raison de l’abandon/suppression** | Ce paramètre était à l’origine utilisé pour permettre des ajustements lorsqu’un période fiscale était fermée. Cependant, ce n’est plus nécessaire, car la date comptable de la transaction peut être modifiée à la première date de la période ouverte, si elle est configurée. La date du projet ne doit pas être modifiée, car elle représente la date à laquelle la transaction a eu lieu. |
+| **Remplacée par une autre fonctionnalité ?** | No |
+| **Zones produit concernées** | Application |
+| **Option de déploiement** | Project Operations pour les scénarios basés sur les produits stockés/fabriqués |
+| **Statut** | Obsolète : d’ici le 1er mars 2023, nous masquerons le paramètre et modifierons le comportement du système afin que la date du projet ne soit jamais changée lors des ajustements. |
+
+### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Workflow de demande de ressource dans Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Raison de l’abandon/suppression** | Obsolète en raison d’une faible utilisation et des limitations du volume de transactions. |
+| **Remplacée par une autre fonctionnalité ?** | No |
+| **Zones produit concernées** | Application |
+| **Option de déploiement** | Project Operations pour les scénarios basés sur les produits stockés/fabriqués |
+| **Statut** | Obsolète : d’ici le 1er mars 2023, nous désactiverons l’option permettant de demander des ressources pour le projet à l’aide du workflow. |
+
+### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Page de proposition de facture de projet sans vues En-tête et Lignes
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Raison de l’abandon/suppression** | Obsolète en raison des améliorations apportées à la page qui a été introduite avec la clé de fonctionnalité **Utiliser les formulaires de proposition de facture de projet et de journal des factures avec la vue En-tête et lignes**. |
+| **Remplacée par une autre fonctionnalité ?** | Oui |
+| **Zones produit concernées** | Application |
+| **Option de déploiement** | Project Operations pour les scénarios basés sur les produits stockés/fabriqués ; Project Operations pour les scénarios basés sur les ressources/produits non stockés |
+| **Statut** | Obsolète : d’ici le 1er mars 2023, nous désactiverons la page précédente (ancienne) et activerons la fonctionnalité clé **Utiliser les formulaires de proposition de facture et de journal des factures de projet avec la vue En-tête et lignes** par défaut. |
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Fonctionnalités supprimées ou obsolètes dans la version de décembre 2021 de Project Operations
 
@@ -36,8 +78,8 @@ Cette liste est destinée à vous aider à prendre en compte ces suppressions et
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Motif de l’abandon/de la suppression** | Abandonné en raison d’une faible utilisation. Les clients utilisant Project Operations pour des scénarios basés sur les ressources/produits non stockés peuvent tirer parti de la [Collaboration avec les groupes Office](../project-management/collaboration-groups.md). |
-| **Remplacé par d’autres fonctionnalités ?** | No |
+| **Raison de l’abandon/suppression** | Abandonné en raison d’une faible utilisation. Les clients utilisant Project Operations pour des scénarios basés sur les ressources/produits non stockés peuvent tirer parti de la [Collaboration avec les groupes Office](../project-management/collaboration-groups.md). |
+| **Remplacée par une autre fonctionnalité ?** | No |
 | **Zones produit concernées** | Application  |
 | **Option de déploiement** | Project Operations pour les scénarios basés sur les produits stockés/fabriqués |
 | **Statut** | Obsolète : d’ici le 1er décembre 2022, nous prévoyons de ne plus prendre en charge les espaces de travail de collaboration. |

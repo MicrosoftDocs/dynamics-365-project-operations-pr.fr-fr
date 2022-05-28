@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994678"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723765"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de mai 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
@@ -21,7 +21,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
 - Project Operations sous environnement Dynamics 365 Dataverse version 4.10.0.186
-- Gestion de projet et comptabilité dans les environnements d’application Finance and Operations version 10.0.18
+- Gestion de projet et comptabilité dans les environnements d’applications de finances et d’opérations version 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
@@ -41,9 +41,9 @@ La liste suivante répertorie les mappages à double écriture qui ont été mod
 | Entité d’exportation des lignes de facture fournisseur de projet d’intégration de Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Mises à jour qualité |
 | Projets V2 (msdyn\_projects) | 1.0.0.2 | Mises à jour qualité |
 
-Exécutez toujours la dernière version du mappage dans votre environnement et activez tous les mappages de table associés lorsque vous mettez à jour votre solution Dataverse Project Operations et la version de la solution d’applications Finance and Operations. Certaines fonctionnalités et capacités peuvent ne pas fonctionner correctement si la dernière version du mappage n’est pas activée. Vous pouvez voir la version active du mappage dans la colonne **Version** de la page **Double écriture**. Pour activer une nouvelle version du mappage, sélectionnez **Versions du mappage de table**, sélectionnez la dernière version, puis enregistrez la version sélectionnée. Si vous avez personnalisé un mappage de table prêt à l’emploi, réappliquez les modifications. Pour en savoir plus, voir [Cycle de vie de l’application](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+Exécutez toujours la version la plus récente du mappage dans votre environnement, et activez tous les mappages de table associés lorsque vous mettez à jour la version de la solution Project Operations Dataverse et de la solution des applications de finances et d’opérations. Certaines fonctionnalités et capacités peuvent ne pas fonctionner correctement si la dernière version du mappage n’est pas activée. Vous pouvez voir la version active du mappage dans la colonne **Version** de la page **Double écriture**. Pour activer une nouvelle version du mappage, sélectionnez **Versions du mappage de table**, sélectionnez la dernière version, puis enregistrez la version sélectionnée. Si vous avez personnalisé un mappage de table prêt à l’emploi, réappliquez les modifications. Pour en savoir plus, voir [Cycle de vie de l’application](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Si vous rencontrez un problème lors du démarrage du mappage, suivez les instructions de la section [Problème de colonnes de table manquantes sur les mappages](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) du guide de dépannage consacré à la double écriture.
+Si vous rencontrez un problème lors du démarrage du mappage, suivez les instructions de la section [Problème de colonnes de table manquantes sur les mappages](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) du guide de dépannage consacré à la double écriture.
 
 ## <a name="quality-updates"></a>Mises à jour qualité
 
@@ -67,7 +67,7 @@ Si vous rencontrez un problème lors du démarrage du mappage, suivez les instru
 | Saisie de l’heure | 2202476 | La page **Entrée de temps** utilise désormais le contrôle de grille réactif et corrige des problèmes tels que le mauvais alignement de la grille. |
 | Saisie de l’heure | 2223377 | La saisie du temps est masquée dans la section **Connexe** de la page **Ressource réservable** pour éviter toute confusion avec l’utilisation. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestion du projet et comptabilité dans Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Vue d’ensemble de la gestion et comptabilité des projets dans Dynamics 365 Finance
 
 | Fonctionnalités | Numéro de référence | Mise à jour qualité |
 | --- | --- | --- |

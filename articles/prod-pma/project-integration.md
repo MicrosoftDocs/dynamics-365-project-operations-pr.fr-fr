@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988018"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684961"
 ---
 # <a name="microsoft-project-client-integration"></a>Intégration de Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-La planification et la gestion d’un calendrier de projet peuvent être complexes, les chefs de projet doivent donc utiliser des outils qui les aident à gérer cette tâche. L’intégration à Microsoft Project Client permet d’ouvrir et de gérer une structure de répartition du travail de projet. Le chef de projet peut publier tout changement dans la structure de répartition du travail du projet Dynamics 365 Finance.
+La planification et la gestion d’un calendrier de projet peuvent être complexes, les chefs de projet doivent donc utiliser des outils qui les aident à gérer cette tâche. L’intégration à Microsoft Project Client permet d’ouvrir et de gérer une structure de répartition du travail de projet. Le gestionnaire de projets peut publier les modifications dans la structure de répartition du travail de Dynamics 365 Finance.
 
 > [!NOTE]
 > Si vous utilisez la mise à jour de juillet (version 10.0.4), vous devez installer KB 4054797 et 4055884.
@@ -40,7 +39,7 @@ Pour activer l’intégration avec Microsoft Project Client, un complément Mi
 • Cliquez sur **Ouvrir**, puis cliquez sur **Exécuter** à l’invite.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Ouvrir et modifier un brouillon de structure de répartition du travail existant dans Microsoft Project Client
-Si un projet dans Dynamics 365 Finance a déjà créé une structure de répartition du travail, la structure de répartition du travail peut être ouverte dans l’application Microsoft Project Client si la structure de répartition du travail est à l’état de brouillon. Pour ouvrir depuis la page **Projet**, cliquez sur le lien **Ouvrir dans Microsoft Project** depuis l’onglet **Plan**. Cette page peut également être ouverte à partir de l’application Microsoft Project Client en cliquant sur **Ouvrir** dans l’onglet **Microsoft Dynamics 365**. Sélectionnez l’**Entité juridique** et **Projet** depuis la liste.
+Si un projet dans Dynamics 365 Finance a déjà créé une structure de répartition du travail, celle-ci peut être ouverte dans l’application Microsoft Project Client si son statut est Brouillon. Pour ouvrir depuis la page **Projet**, cliquez sur le lien **Ouvrir dans Microsoft Project** depuis l’onglet **Plan**. Cette page peut également être ouverte à partir de l’application Microsoft Project Client en cliquant sur **Ouvrir** dans l’onglet **Microsoft Dynamics 365**. Sélectionnez l’**Entité juridique** et **Projet** depuis la liste.
 
 > [!NOTE]
 > Si vous utilisez Internet Explorer comme navigateur, vous devrez cliquer sur **Enregistrer** pour ouvrir manuellement à partir de l’emplacement de téléchargement du fichier. Ou cliquez sur **Enregistrer et ouvrir** pour ouvrir le fichier dans Microsoft Project Client. Ne renommez pas le nom du fichier lors de l’enregistrement.

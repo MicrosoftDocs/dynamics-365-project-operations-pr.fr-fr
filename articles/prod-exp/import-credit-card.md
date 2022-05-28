@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bd7ca997e18bf3c11fa188b603c899cc470df035
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995848"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683765"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importer et gérer les transactions par carte de crédit
 

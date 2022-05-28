@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur les mises à jour quali
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007953"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600371"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de novembre 2020 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
@@ -20,7 +20,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
 - Version 4.4.0.70 de Project Operations dans l’environnement CDS
-- Version 10.0.14 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
+- Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Mises à jour vers Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
@@ -42,7 +42,7 @@ Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 
 | Temps et entrée rapide de dépenses | 2059859          | Une fenêtre contextuelle inattendue s’ouvre lors de la création d’une entrée de dépense.                                                                                                                         |
 | Autres                        | 2044181          | (Désinstallation du bon de commande) Lorsque vous essayez de désinstaller msdyn_ProjectServiceCore_Patch et les solutions principales du service de projet msdyn, l’erreur « Enregistrement non disponible » se produit.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestion du projet et comptabilité dans Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Vue d’ensemble de la gestion et comptabilité des projets dans Dynamics 365 Finance
 
 | Fonctionnalités        | Numéro de référence | Mise à jour qualité                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 
 | Comptabilité de projet  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Activer la fonctionnalité Plusieurs lignes de contrat n’est pas possible sans intégration CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Mises à jour réglementaires
-Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+Pour plus d’informations sur les mises à jour réglementaires pour les applications de finances et d’opérations, voir [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

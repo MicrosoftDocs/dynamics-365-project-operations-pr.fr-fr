@@ -7,18 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a00ea4337e59e5412bd885db9e80c82a34e4eb638a7482c98a4946c44c4d734e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2173247f38c032965dc99ce298e5bce21ef00895
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001338"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684777"
 ---
 # <a name="expense-report-distributions"></a>Répartition de notes de frais
 

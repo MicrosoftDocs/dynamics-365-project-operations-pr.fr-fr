@@ -1,32 +1,31 @@
 ---
-title: Synchroniser les catégories de dépenses de projet entre Finance and Operations et Project Service Automation
-description: Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les catégories de dépense du projet entre Microsoft Dynamics 365 Finance et Dynamics 365 Project Service Automation.
+title: Synchroniser les catégories de dépense de projet entre Finance and Operations et Project Service Automation
+description: Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les catégories de dépense du projet entre Microsoft Microsoft Dynamics 365 Finance et Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001113"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685467"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchroniser les catégories de dépenses de projet entre Finance and Operations et Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchroniser les catégories de dépense de projet entre Finance and Operations et Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les catégories de dépense du projet entre Dynamics 365 Finance et Dynamics 365 Project Service Automation.
+Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les catégories de dépense du projet entre Microsoft Dynamics 365 Finance et Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - L’intégration des tâches de projet, les catégories de transactions de dépenses, les estimations d’heures, les estimations de dépenses et le verrouillage des fonctionnalités sont disponibles dans la version 8.0.
@@ -81,10 +80,10 @@ Les catégories de dépense du projet sont gérées dans Finance, et elles sont 
 
 ### <a name="power-query"></a>Power Query
 
-Lorsque vous synchronisez avec Project Service Automation, vous devez utiliser Microsoft Power Query pour Excel pour définir le type de facturation sur la catégorie de transaction. Le modèle de catégories de transaction de dépenses du projet (Fin and Ops vers PSA) fournit une colonne et un mappage par défaut. Si vous créez votre propre modèle, vous devez ajouter une colonne conditionnelle dans Power Query. Procédez comme suit.
+Lors de la synchronisation avec Project Service Automation, vous devez utiliser Microsoft Power Query pour Excel pour définir le type de facturation sur la catégorie de transaction. Le modèle de catégories de transaction de dépenses du projet (Fin and Ops vers PSA) fournit une colonne et un mappage par défaut. Si vous créez votre propre modèle, vous devez ajouter une colonne conditionnelle dans Power Query. Procédez comme suit.
 
 1. Cliquez sur la flèche pour ouvrir le mappage de la tâche des catégories de dépenses du projet dans le modèle Catégories de transaction de dépenses du projet (Fin and Ops vers PSA).
-2. Cliquez sur le lien **Requête et filtrage avancés** pour ouvrir Power Query.
+2. Cliquez sur le lien **Requête et filtrage avancés** pour ouvrir Power Query.
 2. Sélectionnez **Ajouter une colonne conditionnelle**.
 3. Entrez un nom pour la nouvelle colonne, tel que **BillingType**.
 4. Entrez la condition suivante : **si CATEGORYID n’est pas égal à null alors 19235001, sinon null**.

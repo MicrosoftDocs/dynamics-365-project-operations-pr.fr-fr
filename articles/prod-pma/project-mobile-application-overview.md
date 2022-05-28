@@ -3,25 +3,23 @@ title: Vue d’ensemble des applications mobiles du projet
 description: Cette rubrique fournit des informations générales sur les applications liées au temps du projet pour Microsoft Dynamics 365 Project Timesheet, Saisie des heures de projet et Mes feuilles de temps/Feuilles de temps disponibles sur un appareil mobile.
 author: Yowelle
 ms.date: 05/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005658"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685405"
 ---
 # <a name="project-mobile-applications-overview"></a>Vue d’ensemble des applications mobiles du projet
 
@@ -31,11 +29,11 @@ Trois applications mobiles liées à la durée du projet sont disponibles pour M
 
 ## <a name="project-timesheet-mobile-app"></a>Application mobile Project Timesheet
 
-L’application mobile Dynamics 365 Project Timesheet permet aux utilisateurs de soumettre et d’approuver des feuilles de temps pour des projets sur leur appareil mobile. Cette application mobile affiche la fonctionnalité de feuille de temps dans la zone Gestion de projet et comptabilité de Dynamics 365 Finance. Elle contribue à améliorer la productivité et l’efficacité des utilisateurs et contribue également à la saisie et à l’approbation en temps opportun des feuilles de temps des projets.
+L’application mobile Dynamics 365 Project Timesheet permet aux utilisateurs de soumettre et d’approuver des feuilles de temps pour des projets sur leur appareil mobile. Cette application mobile permet d’exploiter la fonctionnalité de feuille de temps qui réside dans la zone Gestion de projet et comptabilité de Dynamics 365 Finance. Elle contribue à améliorer la productivité et l’efficacité des utilisateurs et contribue également à la saisie et à l’approbation en temps opportun des feuilles de temps des projets.
 
 ## <a name="project-time-entry-workspace"></a>Espace de travail Saisie des heures de projet
 
-L’espace de travail Saisie des heures de projet permet aux utilisateurs de saisir les heures d’un projet et de gagner du temps dans le cadre de ce projet. Cependant, il ne permet pas aux utilisateurs de soumettre ou d’approuver les feuilles de temps des projets. Il ne peut être utilisé que pour la saisie du temps. Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Finance and Operations.
+L’espace de travail Saisie des heures de projet permet aux utilisateurs de saisir les heures d’un projet et de gagner du temps dans le cadre de ce projet. Cependant, il ne permet pas aux utilisateurs de soumettre ou d’approuver les feuilles de temps des projets. Il ne peut être utilisé que pour la saisie du temps. Cet espace de travail mobile est destiné à être utilisé conjointement avec l’application mobile Finance and Operations.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Mes feuilles de temps/Feuilles de temps pour ma révision
 

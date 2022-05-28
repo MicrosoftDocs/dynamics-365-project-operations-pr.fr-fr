@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee576561e9d360c198a57f5885c27aa782267fd1
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985948"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685053"
 ---
 # <a name="create-a-new-project"></a>Créer un projet
 
@@ -53,7 +52,7 @@ Un chef de projet peut utiliser la fonctionnalité de ressources de projet pour 
 
 [![Exemple de rôle.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scénario :** Contoso a été engagé pour mener à bien un projet en régie qui comporte une charte de projet approuvée. Le chef de projet junior est toujours en train de compléter la portée du projet. Le responsable des ressources identifie actuellement des ressources spécifiques qui seront réservées pour travailler sur le nouveau projet. En raison de la nature critique du projet, le commanditaire a demandé le chef de projet senior comme l’un des rôles. Le responsable des ressources doit acquérir la nouvelle ressource et définir le rôle dans le système au cas où le chef de projet junior aurait besoin des informations sur la ressource lors de la planification du projet.
+**Scénario :** Contoso a été recruté pour mener à bien un projet Temps et matériel avec une charte de projet approuvée. Le chef de projet junior est toujours en train de compléter la portée du projet. Le responsable des ressources identifie actuellement des ressources spécifiques qui seront réservées pour travailler sur le nouveau projet. En raison de la nature critique du projet, le commanditaire a demandé le chef de projet senior comme l’un des rôles. Le responsable des ressources doit acquérir la nouvelle ressource et définir le rôle dans le système au cas où le chef de projet junior aurait besoin des informations sur la ressource lors de la planification du projet.
 
 Les étapes suivantes montrent comment le responsable des ressources peut configurer le rôle de chef de projet principal et y associer des caractéristiques de ressource. Plus tard, le rôle peut être utilisé pour rechercher des ressources disponibles qui correspondent aux compétences de ressources requises.
 

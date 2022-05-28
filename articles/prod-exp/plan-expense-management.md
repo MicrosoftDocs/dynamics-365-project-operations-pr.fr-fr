@@ -1,6 +1,6 @@
 ---
 title: Configurer la gestion des dépenses
-description: Cet article décrit les considérations et les décisions que vous devez prendre pendant le processus de planification avant de configurer la gestion des dépenses dans Microsoft Dynamics 365 Finance.
+description: Cet article décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de configurer la gestion des dépenses dans Microsoft Dynamics 365 Finance.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23001
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eca4362b0ff5d37b131e1d96e311aa48ac20397618314936944ba66e458dbdc2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
+ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007458"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8709977"
 ---
 # <a name="configure-expense-management"></a>Configurer la gestion des dépenses
 

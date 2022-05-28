@@ -7,25 +7,24 @@ ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 664c1044c1ff23e892d7f90d255517b22cfa1a5656670efa1bf15339c5ae2112
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 62229d8565a594a75970a8e769443541c2b4cb19
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998908"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683857"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Renommer ou modifier une étape de projet
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes du projet peuvent servir de guide pour le cycle de vie du projet. Vous pouvez définir les étapes de projet que vous souhaitez inclure dans vos projets dans la zone Étape de projet de la page Paramètres de gestion de projet et de comptabilité. Dynamics 365 Finance fournit cinq étapes de projet prédéfinies et trois étapes définies par l’utilisateur. Vous pouvez mettre à jour le nom d’une étape de projet que vous utilisez pour suivre la progression des projets. Vous pouvez également fournir des noms pour les noms de statut définis par l’utilisateur. Cette tâche montre comment renommer ou modifier une étape de projet et utilise le jeu de données USSI.
+Les étapes du projet peuvent servir de guide pour le cycle de vie du projet. Vous pouvez définir les étapes de projet que vous souhaitez inclure dans vos projets dans la zone Étape de projet de la page Paramètres de gestion de projet et de comptabilité. Dynamics 365 Finance propose cinq stades de projet prédéfinis et trois stades définis par l’utilisateur. Vous pouvez mettre à jour le nom d’une étape de projet que vous utilisez pour suivre la progression des projets. Vous pouvez également fournir des noms pour les noms de statut définis par l’utilisateur. Cette tâche montre comment renommer ou modifier une étape de projet et utilise le jeu de données USSI.
 
 1. Accédez à Gestion et comptabilité des projets > Configuration > Paramètres de gestion et comptabilité des projets.
 2. Cliquez sur l’onglet Étape du projet.

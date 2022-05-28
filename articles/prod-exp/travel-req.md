@@ -3,24 +3,22 @@ title: Présentation des demandes de déplacement
 description: Cette rubrique fournit des informations sur les demandes de déplacement. Une demande de déplacement documente les dépenses de déplacement prévues.
 author: saraschi2
 ms.date: 02/23/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvRequisitionList
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e6f7f92101b79db7145ca7f3e44aa22e5f21bddfc5fe3d5adfa765fe37b8fd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd4502459214f010a800dece74285b721642cd8e
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988153"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685546"
 ---
 # <a name="travel-requisitions-overview"></a>Présentation des demandes de déplacement
 

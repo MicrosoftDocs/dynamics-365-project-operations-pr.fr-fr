@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679206"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600785"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de juin 2021 – Project Operations pour les scénarios basés sur les ressources/hors stock
 
@@ -21,7 +21,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
 - Project Operations dans l’environnement Dynamics 365 Dataverse, version 4.11.0.156 ou 4.11.0.164.
-- Gestion et comptabilité de projets dans les environnements des applications Finance and Operations, version 10.0.19.
+- Gestion de projet et comptabilité dans les environnements d’applications de finances et d’opérations version 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
@@ -38,7 +38,7 @@ Cette version ne contient aucune mise à jour pour les mappages de double écrit
 
 Pour obtenir une liste actuelle et les versions des mappages de double écriture de Project Operations, consultez [Versions de mappage de double écriture de Project Operations](../environment/resource-dual-write-maps.md).
 
-Exécutez toujours la dernière version du mappage dans votre environnement et activez tous les mappages de table associés lorsque vous mettez à jour votre solution Dataverse Project Operations et la version de la solution d’applications Finance and Operations. Certaines fonctionnalités et capacités peuvent ne pas fonctionner correctement si la dernière version du mappage n’est pas activée. Vous pouvez voir la version active du mappage dans la page **Double écriture** dans la colonne **Version**. Activez une nouvelle version du mappage en sélectionnant **Versions de mappage de table**, en sélectionnant la version la plus récente, puis en enregistrant la version sélectionnée. Si vous avez personnalisé un mappage de table prêt à l’emploi, réappliquez les modifications. Pour en savoir plus, voir [Cycle de vie de l’application](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Exécutez toujours la version la plus récente du mappage dans votre environnement, et activez tous les mappages de table associés lorsque vous mettez à jour la version de la solution Project Operations Dataverse et de la solution des applications de finances et d’opérations. Certaines fonctionnalités et capacités peuvent ne pas fonctionner correctement si la dernière version du mappage n’est pas activée. Vous pouvez voir la version active du mappage dans la page **Double écriture** dans la colonne **Version**. Activez une nouvelle version du mappage en sélectionnant **Versions de mappage de table**, en sélectionnant la version la plus récente, puis en enregistrant la version sélectionnée. Si vous avez personnalisé un mappage de table prêt à l’emploi, réappliquez les modifications. Pour en savoir plus, voir [Cycle de vie de l’application](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Si vous rencontrez un problème au démarrage du mappage, suivez les instructions de la section [Problème de colonnes de table manquantes dans les mappages](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) du Guide de dépannage de la double écriture.
 
@@ -62,7 +62,7 @@ Si vous rencontrez un problème au démarrage du mappage, suivez les instruction
 | Temps et dépenses | 2194431 | La grille **Entrée de temps** doit respecter le début de la semaine comme défini dans les **Paramètres du système**. |
 | Temps et dépenses | 2277311 | Une fois que vous supprimez la valeur dans une cellule de la grille **Entrée de temps**, le curseur reste dans la grille. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestion de projets et comptabilité dans Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vue d’ensemble de la gestion et comptabilité des projets sur Dynamics 365 Finance
 
 | Fonctionnalités | Numéro de référence | Mise à jour qualité |
 | --- | --- | --- |

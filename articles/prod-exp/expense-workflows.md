@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97db155a1d8ce77f711ea37bbd537527607f13f212ee59383ea165f5e46b81ba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dd5c56fff62b737e1277e491b07f0139075444fc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001248"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685237"
 ---
 # <a name="set-up-expense-management-workflows"></a>Configurer des workflows pour la gestion des dépenses
 

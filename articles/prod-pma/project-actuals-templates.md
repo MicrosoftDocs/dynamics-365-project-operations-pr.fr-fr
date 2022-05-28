@@ -1,32 +1,31 @@
 ---
-title: Synchronisez les données réelles du projet directement depuis Project Service Automation vers le journal d’intégration de projet pour les enregistrer dans Finance and Operations
-description: Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les données réelles du projet directement à partir de Microsoft Dynamics 365 Project Service Automation vers Finance and Operations.
+title: Synchroniser les transactions réelles du projet directement dans Project Service Automation avec le journal d’intégration des projets pour la validation dans Finance and Operations
+description: Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les contrats de projet et les projets directement depuis Microsoft Dynamics 365 Project Service Automation vers Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988108"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683535"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronisez les données réelles du projet directement depuis Project Service Automation vers le journal d’intégration de projet pour les enregistrer dans Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchroniser les transactions réelles du projet directement dans Project Service Automation avec le journal d’intégration des projets pour la validation dans Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les données réelles du projet directement à partir de Dynamics 365 Project Service Automation vers Dynamics 365 Finance.
+Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les contrats de projet et les projets directement depuis Dynamics 365 Project Service Automation vers Dynamics 365 Finance.
 
 Le modèle synchronise les transactions de Project Service Automation dans une table intermédiaire dans Finance. Une fois la synchronisation terminée, vous **devez** importer les données de la table intermédiaire dans le journal d’intégration.
 
@@ -42,7 +41,7 @@ La solution d’intégration Project Service Automation vers Finance utilise l
 
 L’illustration suivante montre comment les données sont synchronisées entre Project Service Automation et Finance.
 
-[![Flux de données pour l’intégration de Project Service Automation avec Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Flux de données pour l’intégration de Project Service Automation avec Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Chiffres réels du projet depuis Project Service Automation
 
@@ -75,7 +74,7 @@ Avant que la synchronisation des chiffres réels puisse avoir lieu, vous devez c
 
 ### <a name="power-query"></a>Power Query
 
-Dans le modèle de projets réels, vous devez utiliser Microsoft Power Query pour Excel pour effectuer ces tâches :
+Dans le modèle Mise à jour des transactions réelles du projet, vous devez utiliser Microsoft Power Query pour Excel pour effectuer ces tâches :
 
 - Transformez le type de transaction dans Project Service Automation en le bon type de transaction dans Finance. Cette transformation est déjà définie dans le modèle Chiffres réels du projet (PSA vers Fin and Ops).
 - Transformez le type de facturation dans Project Service Automation en le bon type de facturation dans Finance. Cette transformation est déjà définie dans le modèle Chiffres réels du projet (PSA vers Fin and Ops). Le type de facturation est ensuite mappé à la propriété de ligne, en fonction de la configuration sur la page **Paramètres d’intégration de Project Service Automation**.
@@ -84,9 +83,9 @@ Dans le modèle de projets réels, vous devez utiliser Microsoft Power Query 
 - Si le temps intersociétés ou les dépenses réelles intersociétés ne sont pas synchronisés avec Finance, vous devez supprimer la dernière colonne conditionnelle insérée de votre modèle. Sinon, une erreur d’intégration peut se produire ou des transactions réelles incorrectes peuvent être importées dans Finance.
 
 #### <a name="contract-organizational-unit"></a>Unité organisationnelle de contrat
-Pour mettre à jour la colonne conditionnelle insérée dans le modèle, cliquez sur la flèche **Carte** pour ouvrir le mappage. Sélectionnez le lien **Requête et filtrage avancés** pour ouvrir Power Query.
+Pour mettre à jour la colonne conditionnelle insérée dans le modèle, cliquez sur la flèche **Carte** pour ouvrir le mappage. Sélectionnez le lien **Requête et filtrage avancés** pour ouvrir Power Query.
 
-- Si vous utilisez le modèle par défaut Chiffres réels du projet (PSA vers Fin and Ops), dans Power Query, sélectionnez la dernière **Condition insérée** de la section **Étapes appliquées**. Dans l’entrée **Fonction**, remplacez **USSI** avec le nom de l’entité juridique qui doit être utilisée avec l’intégration. Ajoutez des conditions supplémentaires à l’entrée **Fonction** comme vous le souhaitez et mettez à jour la condition **autre** depuis **USMF** vers l’entité juridique appropriée.
+- Si vous utilisez le modèle Transactions réelles Project par défaut (PSA vers Fin and Ops) dans Power Query, sélectionnez la dernière **Condition insérée** de la section **Étapes appliquées**. Dans l’entrée **Fonction**, remplacez **USSI** avec le nom de l’entité juridique qui doit être utilisée avec l’intégration. Ajoutez des conditions supplémentaires à l’entrée **Fonction** comme vous le souhaitez et mettez à jour la condition **autre** depuis **USMF** vers l’entité juridique appropriée.
 - Si vous créez un modèle, vous devez ajouter la colonne pour prendre en charge le temps et les dépenses intersociétés. Sélectionnez **Ajouter une colonne conditionnelle** et entrez un nom pour la colonne, tel que **EntitéJuridique**. Entrez une condition pour la colonne, où, si **msdyn\_contractorganizationalunitid.msdyn\_name** est \<organizational unit\>, alors \<enter the legal entity\> ; sinon nul.
 
 ### <a name="template-mapping-in-data-integration"></a>Mappage de modèles dans l’intégration de données
@@ -126,7 +125,7 @@ Les données réelles du projet sont gérées dans Project Service Automation 
 
 ### <a name="power-query"></a>Power Query
 
-Dans le modèle de mise à jour des chiffres réels du projet, vous devez utiliser Power Query pour effectuer ces tâches :
+Dans le modèle Mise à jour des transactions réelles du projet, vous devez utiliser Power Query pour effectuer ces tâches :
 
 - Transformez le type de transaction dans Finance en le bon type de transaction dans Project Service Automation. Cette transformation est déjà définie dans le modèle de mise à jour des chiffres réels du projet (Fin and Ops vers PSA).
 - Transformez le type de facturation dans Finance en le bon type de facturation dans Project Service Automation. Cette transformation est déjà définie dans le modèle de mise à jour des chiffres réels du projet (Fin and Ops vers PSA).

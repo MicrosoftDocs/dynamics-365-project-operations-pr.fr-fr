@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323908"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723673"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Nouveautés de l’accès anticipé à la 2e vague de lancement 2021 de Project Operations - Déploiement simplifié de Project Operations
 
@@ -26,7 +26,7 @@ La version n’est appliquée que lorsqu’un environnement est [activé en acc�
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-[Gestion de la sous-traitance](../subcontracting/subcontracting_EA_scope.md) - Cette fonctionnalité offre une meilleure visibilité et un meilleur contrôle sur tous les aspects du travail sur un projet. La gestion de la sous-traitance en version préliminaire comprend les fonctionnalités suivantes :
+[Gestion de la sous-traitance](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - Cette fonctionnalité offre une meilleure visibilité et un meilleur contrôle sur tous les aspects du travail sur un projet. La gestion de la sous-traitance en version préliminaire comprend les fonctionnalités suivantes :
 
   - Un chef de projet peut créer un contrat de sous-traitance avec un fournisseur. Par défaut, les tarifs joints à l′enregistrement fournisseur sont utilisés pour le contrat de sous-traitance. Le compte fournisseur a un type de relation **Vendeur** ou **Fournisseur**.
   - Un chef de projet peut ventiler tous les achats sous forme d’éléments de ligne dans le contrat de sous-traitance. Les lignes du contrat de sous-traitance peuvent concerner le temps, les dépenses ou les produits. La classe de transaction de la ligne du contrat de sous-traitance détermine l’objet de la ligne.

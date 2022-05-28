@@ -7,19 +7,18 @@ ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e35330d1cbddea41dac7e215350252470b610a52bb05b245d7794a37415dcd3c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: acf7f03562e167ee8dbbc953486b2081e6f0e7a4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989368"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684363"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Allouer un budget de projet ou une révision budgétaire sur plusieurs périodes
 

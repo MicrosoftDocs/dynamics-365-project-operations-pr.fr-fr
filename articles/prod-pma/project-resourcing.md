@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007323"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684869"
 ---
 # <a name="project-resourcing-home-page"></a>Page d’accueil Ressources du projet
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007323"
 
 Cette rubrique fournit des informations sur les ressources de projet.
 
-Un défi auquel sont confrontés les chefs de projet et les responsables des ressources au cours de la phase de planification de projet n’est autre que l’allocation des ressources, au cours de laquelle ils doivent déterminer et réserver la bonne ressource pour travailler sur un projet. Dans Dynamics 365 Finance, les fonctionnalités d’allocation des ressources pour les projets vous permettent de définir des rôles qui sont traités comme des ressources temporaires pouvant être réservées pour un engagement spécifique ou une partie d’un engagement. Ce type de ressources permet aux chefs de projet et aux gestionnaires de ressources d’effectuer les tâches suivantes :
+Un défi auquel sont confrontés les chefs de projet et les responsables des ressources au cours de la phase de planification de projet n’est autre que l’allocation des ressources, au cours de laquelle ils doivent déterminer et réserver la bonne ressource pour travailler sur un projet. Dans Dynamics 365 Finance, les fonctionnalités d’allocation des ressources pour les projets vous permettent de définir des rôles qui sont traités comme des ressources temporaires pouvant être réservées pour un engagement spécifique ou une partie d’un engagement. Ce type de ressources permet aux chefs de projet et aux gestionnaires de ressources d’effectuer les tâches suivantes :
 
 - Définir un rôle qui possède les compétences requises, afin qu’il soit facile de faire correspondre des ressources.
 - Utiliser des rôles pour définir un calendrier d’engagement initial basé sur des ressources réservées.

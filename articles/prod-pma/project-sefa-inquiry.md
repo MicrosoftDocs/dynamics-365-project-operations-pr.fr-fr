@@ -9,8 +9,7 @@ ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.tgt_pltfrm: ''
 ms.custom: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b88c97f3dcb1020ccf17788256990485580f6964
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007233"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684455"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Demande de Programme des dépenses des subventions fédérales
 

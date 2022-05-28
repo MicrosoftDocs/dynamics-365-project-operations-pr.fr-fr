@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991168"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723719"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Nouveautés ou modifications de Project Operations, mars 2021, pour les scénarios basés sur les produits stockés/ordres de fabrication
 
@@ -20,7 +20,7 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les p
 
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
-- Version 10.0.17 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
+- Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 Les fonctionnalités suivantes sont incluses dans cette version :
@@ -121,7 +121,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 | Gestion et comptabilité des projets | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | La méthode de classe de la structure de répartition du travail héritée, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder**, est obsolète.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Mises à jour réglementaires
-Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates.md). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+Pour plus d’informations sur les mises à jour réglementaires pour les applications de finances et d’opérations, voir [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

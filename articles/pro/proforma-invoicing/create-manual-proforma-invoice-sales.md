@@ -5,16 +5,16 @@ author: rumant
 ms.date: 04/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3d02728ce682781eb8816e0c2239cf62f88adfa8c5d2a0aab280be053c2a5ae6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f2ce672a412f7ad73b072854590cd423a3499fc1
+ms.sourcegitcommit: 650a84add65588defdd2ac2c4524806baab070e0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992923"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8628851"
 ---
-# <a name="proforma-project-pnvoices"></a>Factures de projet pro forma
+# <a name="proforma-project-invoices"></a>Factures de projet pro forma
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 

@@ -1,32 +1,31 @@
 ---
-title: Synchronisez les estimations de projet directement depuis Project Service Automation vers Finance and Operations
-description: Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les estimations d’heures du projet et les estimations de dépense du projet directement à partir de Microsoft Dynamics 365 Project Service Automation vers Dynamics 365 Finance.
+title: Synchroniser les estimations de projet directement de Project Service Automation vers Finance and Operations
+description: Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les estimations d’heure projet et les estimations de dépense projet directement depuis Microsoft Dynamics 365 Project Service Automation vers Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988198"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684593"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronisez les estimations de projet directement depuis Project Service Automation vers Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchroniser les estimations de projet directement de Project Service Automation vers Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Cette rubrique décrit les modèles et les tâches sous-jacentes qui sont utilisés pour synchroniser les estimations d’heures du projet et les estimations de dépense du projet directement à partir de Dynamics 365 Project Service Automation vers Dynamics 365 Finance.
+Cette rubrique décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les estimations d’heure projet et les estimations de dépense projet directement depuis Dynamics 365 Project Service Automation vers Dynamics 365 Finance.
 
 > [!NOTE]
 > - L’intégration des tâches de projet, les catégories de transactions de dépenses, les estimations d’heures, les estimations de dépenses et le verrouillage des fonctionnalités sont disponibles dans la version 8.0.
@@ -70,7 +69,7 @@ Avant que la synchronisation des estimations des heures de projet puisse avoir l
 
 ### <a name="power-query"></a>Power Query
 
-Dans le modèle d’estimations d’heures de projet, vous devez utiliser Microsoft Power Query pour Excel pour effectuer ces tâches :
+Dans le modèle Estimations des heures du projet, vous devez utiliser Microsoft Power Query pour Excel pour effectuer ces tâches :
 
 - Définissez l’ID de modèle de prévision par défaut qui sera utilisé lorsque l’intégration crée de nouvelles prévisions horaires.
 - Filtrez tous les enregistrements spécifiques aux ressources de la tâche qui échoueront l’intégration dans les prévisions horaires.
@@ -81,7 +80,7 @@ Dans le modèle d’estimations d’heures de projet, vous devez utiliser Micros
 Pour mettre à jour l’ID de modèle de prévision par défaut dans le modèle, cliquez sur la flèche **Carte** pour ouvrir le mappage. Puis, sélectionnez le lien **Requête et filtrage avancés**.
 
 - Si vous utilisez le modèle par défaut Estimations des heures de projet (PSA vers Fin and Ops), dans Power Query, sélectionnez la dernière **Condition insérée** dans la liste des **Étapes appliquées**. Dans l’entrée **Fonction**, remplacez **O\_prévision** avec le nom de l’ID du modèle de prévision qui doit être utilisé avec l’intégration. Le modèle par défaut a un ID de modèle de prévision issu des données de démonstration.
-- Si vous créez un nouveau modèle, vous devez ajouter cette colonne. Dans Power Query, sélectionnez **Ajouter une colonne conditionnelle** et entrez un nom pour la nouvelle colonne, tel que **IDModèle**. Entrez la condition pour la colonne, où, si la tâche du projet n’est pas nulle, alors \<enter the forecast model ID\> ; sinon nul.
+- Si vous créez un nouveau modèle, vous devez ajouter cette colonne. Dans Power Query, sélectionnez **Ajouter une colonne conditionnelle** et entrez un nom pour la nouvelle colonne, par exemple **ModelID**. Entrez la condition pour la colonne, où, si la tâche du projet n’est pas nulle, alors \<enter the forecast model ID\> ; sinon nul.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrer les enregistrements spécifiques aux ressources
 
@@ -126,7 +125,7 @@ Avant que la synchronisation des estimations des dépenses du projet puisse avoi
 
 ### <a name="power-query"></a>Power Query
 
-Dans le modèle d’estimations des dépenses du projet, vous devez utiliser Power Query pour effectuer les tâches suivantes :
+Dans le modèle d’estimation des dépenses du projet, vous devez utiliser Power Query pour effectuer les tâches suivantes :
 
 - Filtrez pour inclure uniquement les enregistrements de ligne d’estimation des dépenses.
 - Définissez l’ID de modèle de prévision par défaut qui sera utilisé lorsque l’intégration crée de nouvelles prévisions horaires.
@@ -141,8 +140,8 @@ Le modèle Estimations des dépenses du projet (PSA vers Fin et Ops) a un filtre
 
 Pour mettre à jour l’ID de modèle de prévision par défaut dans le modèle, sélectionnez la tâche **Estimations des dépenses**, puis cliquez sur la flèche **Carte** pour ouvrir le mappage. Sélectionnez le lien **Requête et filtrage avancés**.
 
-- Si vous utilisez le modèle par défaut Estimations des dépenses (PSA vers Fin and Ops), dans Power Query, sélectionnez la première **Condition insérée** de la section **Étapes appliquées**. Dans l’entrée **Fonction**, remplacez **O\_prévision** avec le nom de l’ID du modèle de prévision qui doit être utilisé avec l’intégration. Le modèle par défaut a un ID de modèle de prévision issu des données de démonstration.
-- Si vous créez un nouveau modèle, vous devez ajouter cette colonne. Dans Power Query, sélectionnez **Ajouter une colonne conditionnelle** et entrez un nom pour la nouvelle colonne, tel que **IDModèle**. Entrez la condition pour la colonne, où, si l’ID de ligne d’estimation n’est pas nulle, alors \<enter the forecast model ID\> ; sinon nul.
+- Si vous utilisez le modèle Estimations des dépenses du projet par défaut (PSA vers Fin and Ops) dans Power Query, sélectionnez la première **Condition insérée** de la section **Étapes appliquées**. Dans l’entrée **Fonction**, remplacez **O\_prévision** avec le nom de l’ID du modèle de prévision qui doit être utilisé avec l’intégration. Le modèle par défaut a un ID de modèle de prévision issu des données de démonstration.
+- Si vous créez un nouveau modèle, vous devez ajouter cette colonne. Dans Power Query, sélectionnez **Ajouter une colonne conditionnelle** et entrez un nom pour la nouvelle colonne, par exemple **ModelID**. Entrez la condition pour la colonne, où, si l’ID de ligne d’estimation n’est pas nulle, alors \<enter the forecast model ID\> ; sinon nul.
 
 #### <a name="transform-the-billing-types"></a>Transformer les types de facturation
 

@@ -1,24 +1,23 @@
 ---
 title: Traitement des reçus de dépenses
-description: Cette rubrique fournit des informations sur le traitement de la reconnaissance optique de caractères (OCR) pour les reçus. Cette fonctionnalité est conçue pour améliorer l’expérience utilisateur lors de la création de notes de frais dans Microsoft Dynamics 365 Finance.
+description: Cette rubrique fournit des informations sur le traitement de la reconnaissance optique de caractères (OCR) pour les reçus. Cette fonctionnalité est conçue pour améliorer l’expérience utilisateur lors de la création de notes de frais dans Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001383"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684317"
 ---
 # <a name="expense-receipt-processing"></a>Traitement des reçus de dépenses
 
@@ -51,7 +50,7 @@ Pour créer une dépense ou faire correspondre une dépense à partir d’un re�
 
 Cette fonction fonctionne en combinaison avec la fonction **Rapports de dépenses repensés** pour aider à simplifier l’expérience de dépenses. Cette fonctionnalité n’est disponible que pour les environnements de niveau 2+, qui sont Sandbox et Production.
 
-Pour utiliser ces fonctionnalités avancées de gestion des dépenses, installez le complément Service de gestion des dépenses pour Microsoft Dynamics 365 Finance et activez les fonctionnalités dans votre instance. Vous pouvez accéder au complément depuis votre projet dans Microsoft Dynamics Lifecycle Services (LCS).
+Pour utiliser ces capacités de dépenses avancées, installez le complément Expense Management Service pour Microsoft Microsoft Dynamics 365 Finance et activez les fonctionnalités dans votre instance. Vous pouvez accéder au complément depuis votre projet dans Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Connectez-vous à LCS et ouvrez l’environnement souhaité.
 2. Accédez à **Télécharger avec informations détaillées**.

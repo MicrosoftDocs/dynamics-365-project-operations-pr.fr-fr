@@ -3,7 +3,7 @@ title: Effectuer une mise à niveau de Project Service Automation vers Project O
 description: Cette rubrique fournit une vue d’ensemble du processus de mise à niveau de Microsoft Dynamics 365 Project Service Automation vers Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9363fd5a06b6b1ba023961b03228e13a53a82002
-ms.sourcegitcommit: 5789766efae1e0cb513ea533e4f9ac1e553158a5
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
+ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952838"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626713"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Effectuer une mise à niveau de Project Service Automation vers Project Operations
 
@@ -28,7 +29,7 @@ Nous sommes ravis d’annoncer la première des trois phases de mise à niveau d
 
 Le programme de livraison de la mise à niveau sera divisé en trois phases.
 
-| Livraison de la mise à niveau | Phase 1 (janvier 2022) | Phase 2 (Vague d’avril 2022) | Phase 3 (Vague d’avril 2022) |
+| Livraison de la mise à niveau | Phase 1 (janvier 2022) | Phase 2 (Vague d’avril 2022) | Phase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Aucune dépendance vis-à-vis de la structure de répartition du travail (WBS) pour les projets | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | La WBS dans les limites actuellement prises en charge par Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -38,11 +39,11 @@ Le programme de livraison de la mise à niveau sera divisé en trois phases.
 
 Dans le cadre du processus de mise à niveau, nous avons ajouté des journaux de mise à niveau au plan du site, afin que les administrateurs puissent diagnostiquer plus facilement les échecs. En plus de la nouvelle interface, de nouvelles règles de validation seront ajoutées pour garantir l’intégrité des données après une mise à niveau. Les validations suivantes seront ajoutées au processus de mise à niveau.
 
-| Contrôles | Phase 1 (janvier 2022) | Phase 2 (Vague d’avril 2022) | Phase 3 (Vague d’avril 2022) |
+| Contrôles | Phase 1 (janvier 2022) | Phase 2 (Vague d’avril 2022) | Phase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | La WBS sera validée par rapport aux violations courantes de l’intégrité des données (par exemple, les affectations de ressources associées à la même tâche parent mais ayant des projets parents différents). | | :heavy_check_mark: | :heavy_check_mark: |
 | La WBS sera validée par rapport aux [limites connues de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
-| La WBS sera validée par rapport aux limites connues de Project Desktop Client. | | :heavy_check_mark: | :heavy_check_mark: |
+| La WBS sera validée par rapport aux limites connues de Project Desktop Client. | |  | :heavy_check_mark: |
 | Les ressources réservables et les calendriers de projet seront évalués par rapport aux exceptions communes aux règles de calendrier incompatibles. | | :heavy_check_mark: | :heavy_check_mark: |
 
 Au cours de la phase 2, les clients qui passent à Project Operations verront leurs projets existants mis à niveau vers une expérience en lecture seule pour la planification de projet. Dans cette expérience en lecture seule, la WBS complète sera visible dans la grille de suivi. Pour modifier la WBS, les chefs de projet peuvent sélectionner **Convertir** sur la page principale **Projets**. Un processus d’arrière-plan mettra ensuite à jour le projet afin qu’il prenne en charge la nouvelle expérience de planification de projet à partir de Project for the Web. Cette phase est destinée aux clients qui ont des projets qui s’inscrivent dans les [limites connues de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
@@ -56,7 +57,7 @@ Pour être éligible à la phase 1 de la mise à niveau, un client doit répond
 - L’environnement cible ne doit contenir aucun enregistrement dans l’entité **msdyn_projecttask**.
 - Des licences Project Operations valides doivent être attribuées à tous les utilisateurs actifs du client. 
 - Le client doit valider le processus de mise à niveau dans au moins un environnement hors production avec un jeu de données représentatif des données de production.
-- L’environnement cible doit être mis à jour à la version 38 ou ultérieure de Project Service Automation.
+- L’environnement cible doit être mis à jour à la version 41 ou ultérieure de Project Service Automation (3.10.62.162).
 
 Les conditions requises pour les phases 2 et 3 actualisées à l’approche des dates de la disponibilité générale.
 
@@ -77,9 +78,9 @@ Voici quelques points à surveiller :
 
 Après avoir mis à jour vos personnalisations pour importer proprement Project Operations, passez aux étapes suivantes.
 
-## <a name="end-to-end-testing-in-lower-environments"></a>Tests de bout en bout dans les environnements inférieurs
+## <a name="end-to-end-testing-in-development-environments"></a>Tests de bout en bout dans les environnements de développement
 
-### <a name="run-the-upgrade-in-production"></a>Exécuter la mise à niveau en production
+### <a name="initiate-upgrade"></a>Lancer la mise à niveau 
 
 1. Dans le centre d’administration de Power Platform, recherchez et sélectionnez votre environnement. Ensuite, dans les applications, recherchez et sélectionnez **Dynamics 365 Project Operations**.
 2. Sélectionnez **Installer** démarrer la mise à niveau. Le centre d’administration de Power Platform présentera cette installation comme une nouvelle installation. Cependant, la présence d’une version antérieure de Project Service Automation sera détectée et l’installation existante sera mise à niveau.
@@ -93,6 +94,10 @@ Après avoir mis à jour vos personnalisations pour importer proprement Project 
 4. Accédez à **Paramètres** \> **Solutions**, et sélectionnez pour désinstaller la solution **Composants obsolètes de Project Operations**.
 
     Cette solution est une solution temporaire qui contient le modèle de données existant et les composants présents lors de la mise à niveau. En supprimant cette solution, vous supprimez tous les champs et composants qui ne sont plus utilisés. De cette façon, vous contribuez à simplifier l’interface et à faciliter l’intégration et l’extension.
+    
+### <a name="validate-common-scenarios"></a>Valider les scénarios courants
+
+Lorsque vous validez vos personnalisations spécifiques, nous vous recommandons d’examiner également les processus métier pris en charge dans les applications. Ces processus métier incluent, mais sans s’y limiter, la création d’entités de vente telles que des devis et des contrats, et la création de projets qui incluent des WBS et l’approbation des chiffres réels.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Changements majeurs entre Project Service Automation et Project Operations
 
@@ -119,7 +124,7 @@ Dans le cadre de l’investissement continu dans Project Operations, plusieurs n
 | Valeur                                                 | Cible                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
 | Automatisation de la gestion de projets                             | Déploiement simplifié de Project Operations                        | Prise en charge               |
-| Gestion et comptabilité des projets Dynamics 365 Finance | Déploiement simplifié de Project Operations                        | Actuellement non pris en charge |
+| Gestion et comptabilité des projets dans Dynamics 365 Finance | Déploiement simplifié de Project Operations                        | Actuellement non pris en charge |
 | Gestion et comptabilité des projets dans Finance              | Project Operations pour les scénarios basés sur les ressources/produits non stockés     | Actuellement non pris en charge |
 | Gestion et comptabilité des projets dans Finance              | Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication | Actuellement non pris en charge |
 | Project Service Automation 3.x                         | Project Operations pour les scénarios basés sur les ressources/produits non stockés     | Actuellement non pris en charge |

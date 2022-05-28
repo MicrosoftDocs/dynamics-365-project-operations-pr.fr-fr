@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001473"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682799"
 ---
 # <a name="expense-management-mobile-workspace"></a>Espace de travail mobile de gestion des dépenses
 
@@ -35,7 +34,7 @@ De nombreuses organisations exigent qu’une copie d’un reçu soit jointe à u
 
 L’espace de travail mobile **Gestion des dépenses** en particulier permet aux utilisateurs d’effectuer ces tâches :
 
-- Prenez une photo d’un reçu et téléchargez-le sur Dynamics 365 Finance. Vous pouvez joindre cette photo à une note de frais ultérieurement.
+- Prenez la photo d’un reçu et téléchargez-la vers Dynamics 365 Finance. Vous pouvez joindre cette photo à une note de frais ultérieurement.
 - Télécharger un fichier en tant que reçu capturé. Vous pouvez joindre ce fichier à une note de frais ultérieurement.
 - Créez une nouvelle ligne de dépense en utilisant un reçu joint. Vous pouvez ensuite ajouter l’élément de ligne à une note de frais ultérieurement et le soumettre pour approbation et remboursement.
 
@@ -53,7 +52,7 @@ Vous pouvez également utiliser ces fonctionnalités :
 ## <a name="prerequisites"></a>Conditions préalables
 Les conditions préalables varient en fonction de la version qui a été déployée pour votre organisation.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prérequis si vous utilisez Dynamics 365 Finance 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Conditions préalables si vous utilisez Dynamics 365 Finance 
 Si Finance a été déployé pour votre organisation, l’administrateur système doit publier l’espace de travail mobile **Gestion des dépenses**. Pour obtenir des instructions, consultez [Publiez les espaces de travail mobiles](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Conditions préalables si vous utilisez la version 1611 avec la mise à jour de la plateforme 3 (ou version ultérieure)

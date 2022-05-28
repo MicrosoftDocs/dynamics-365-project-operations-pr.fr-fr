@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la mise à jour des inf
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 821f2d774c95085cebc5bd08d312c740f735f120
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999763"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601705"
 ---
 # <a name="edit-a-resource-requirement"></a>Modifier un besoin en ressources
 
