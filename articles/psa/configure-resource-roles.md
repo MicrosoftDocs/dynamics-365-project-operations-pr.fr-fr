@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d57f843b681760c214d1f66fb4e3c748d0c8b659ab844189f24c682f42d309f0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: d30bfa466f2be481b93e4bd6fcbfa20d17f27c8f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002778"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590021"
 ---
 # <a name="configure-resource-roles-project-service"></a>Configurer des rôles de ressources (Project Service)
 

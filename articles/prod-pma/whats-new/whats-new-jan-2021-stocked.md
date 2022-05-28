@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992743"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592643"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Nouveautés ou modifications de janvier 2021 – Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication
 
@@ -20,7 +20,7 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les p
 
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
-- Version 10.0.16 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
+- Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.16
 
 
 ### <a name="quality-updates"></a>Mises à jour qualité
@@ -142,7 +142,7 @@ Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 
 | Déplacement et dépenses                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | Dans Project Operations, le temps passé avec les tâches intersociétés dans Dataverse ne peut pas être créé ou approuvé.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Mises à jour réglementaires
-Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+Pour plus d’informations sur les mises à jour réglementaires pour les applications de finances et d’opérations, voir [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

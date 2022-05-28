@@ -4,20 +4,20 @@ description: Cette rubrique fournit des informations sur l’application de la c
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ecb5da3bccf35f8ed7e2246f68dd4da2b145c6be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993283"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586985"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Appliquer la configuration de la démonstration et les données de configuration pour Project Operations – Simplifié 
 
 _**Déploiement simplifié – traiter la facturation pro forma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -32,7 +32,7 @@ Avant de commencer la configuration, vous devez disposer d’un environnement Co
 
     ![Migration de la configuration.](./media/1ConfigurationMigration.png)
 
-4. Sur la page 2 de l’Assistant CMT, sélectionnez **Microsoft 365** comme **Type de déploiement**.
+4. Sur la page 2 de l’Assistant CMT, sélectionnez **Microsoft 365** comme le **Type de déploiement**.
 5. Cochez les cases **Afficher une liste des organisations disponibles** et **Afficher les paramètres avancés**.
 6. Sélectionnez la région de votre client, entrez vos informations d’identification, puis sélectionnez **Connexion**.
 

@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations et des exemples sur la conf
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994048"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591585"
 ---
 # <a name="configure-intercompany-invoicing"></a>Configurer la facturation intersociétés
 
@@ -21,11 +21,11 @@ Effectuez les étapes suivantes pour configurer la facturation intersociétés p
 
 ## <a name="example-configure-intercompany-invoicing"></a>Exemple : Configurer la facturation intersociétés
 
-Dans l’exemple suivant, Contoso Robotics États-Unis (USPM) est l’entité juridique emprunteuse et Contoso Robotics Royaume-Uni (GBPM) est l’entité juridique prêteuse. 
+Dans l'exemple suivant, Contoso Robotics USA (USPM) est l'entité juridique emprunteuse et Contoso Robotics UK (GBPM) est l'entité juridique prêteuse. 
 
 1. **Configurer la comptabilité intersociétés entre des entités juridiques**. Chaque paire d’entités juridiques emprunteuses et prêteuses doit être configurée dans la page Comptabilité [Comptabilité intersociétés](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. Dans Dynamics 365 Finance, accédez à **Comptabilité** > **Paramétrage de la validation** > **Comptabilité intersociétés**. Créez un enregistrement contenant les informations suivantes :
+    1. Dans Dynamics 365 Finance, accédez à **Comptabilité** > **Paramétrage de la validation** > **Comptabilité intersociétés**. Créez un enregistrement contenant les informations suivantes :
 
         - **Société d’origine** = **GBPM**
         - **Société de destination** = **USPM**
@@ -35,14 +35,14 @@ Dans l’exemple suivant, Contoso Robotics États-Unis (USPM) est l’entité ju
      1. Dans Finance, sélectionnez l’entité juridique **GBPM**.
      2. Accédez à **Comptabilité client** > **Client** > **Tous les clients**. Créez un nouvel enregistrement pour l’entité juridiques, **USPM**.
      3. Développez **Nom**, filtrez les enregistrements par **Type** et sélectionnez **Entités juridiques**. 
-     4. Recherchez et sélectionnez l’enregistrement client pour **Contoso Robotics États-Unis (USPM)**.
+     4. Recherchez et sélectionnez l'enregistrement client pour **Contoso Robotics USA (USPM)**.
      5. Cliquez sur **Utiliser une correspondance**. 
      6. Sélectionnez le groupe de clients **50 - Clients intersociétés**, puis enregistrez l’enregistrement.
      7. Sélectionnez l’entité juridique **USPM**.
      8. Accédez à **Comptabilité fournisseur** > **Fournisseurs** > **Tous les fournisseurs**. Créez un nouvel enregistrement pour l’entité juridique, **GBPM**.
      9. Développez **Nom**, filtrez les enregistrements par **Type** et sélectionnez **Entités juridiques**. 
-     10. Recherchez et sélectionnez l’enregistrement client pour **Contoso Robotics Royaume-Uni (GBPM)**.
-     11. Sélectionnez **Utiliser une correspondance**, sélectionnez le groupe de fournisseurs, puis enregistrez l’enregistrement.
+     10. Recherchez et sélectionnez l'enregistrement client pour **Contoso Robotics UK (GBPM)**.
+     11. Sélectionnez **Utiliser une correspondance**, sélectionnez le groupe de fournisseurs, puis enregistrez l'enregistrement.
      12. Dans l’enregistrement du fournisseur, sélectionnez **Général** > **Installer** > **Intersociétés**.
      13. Sur l’onglet **Relation commerciale**, définissez **Actif** sur **Oui**.
      14. Définissez le champ **Société du client** sur **GBPM** et dans **Mon enregistrement de compte**, sélectionnez l’enregistrement de client que vous avez créé précédemment dans la procédure.
@@ -80,23 +80,23 @@ Dans l’exemple suivant, Contoso Robotics États-Unis (USPM) est l’entité ju
 
 5. **Configurez la tarification de transfert pour la main-d’œuvre**. La tarification de transfert intersociétés est configurée dans Project Operations sur Dataverse. Configurez les [taux de coûts de la main-d’œuvre](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) et les [taux de facturation de la main-d’œuvre](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) pour la facturation intersociétés. La tarification de transfert n’est pas prise en charge pour les transactions de dépenses intersociétés. Le prix de vente unitaire inter-organisationnel sera toujours fixé à la même valeur que le prix de revient unitaire de ressourcement.
 
-      Le coût des ressources du développeur dans Contoso Robotics Royaume-Uni est de 88 livres sterling (GBP) par heure. Contoso Robotics Royaume-Uni facturera Contoso Robotics États-Unis 120 USD pour chaque heure que cette ressource a travaillé sur des projets américains. Contoso Robotics États-Unis facturera le client Adventure Works 200 USD pour le travail effectué par la ressource développeur Contoso Robotics Royaume-Uni.
+      Le coût des ressources de développeur dans Contoso Robotics UK est de 88 GBP par heure. Contoso Robotics UK facturera Contoso Robotics USA 120 USD pour chaque heure de travail de cette ressource sur des projets américains. Contoso Robotics USA facturera le client Adventure Works 200 USD pour le travail effectué par la ressource développeur de Contoso Robotics UK.
 
-      1. Dans Project Operations sur Dataverse, accédez à **Vente** > **Listes de prix**. Créez une nouvelle liste de prix de revient appelée **Taux de coûts Contoso Robotics Royaume-Uni.** 
+      1. Dans Project Operations sur Dataverse, accédez à **Vente** > **Listes de prix**. Créez une nouvelle liste de prix de revient appelée **Tarifs de Contoso Robotics UK.** 
       2. Dans la liste des prix de revient, créez un enregistrement avec les informations suivantes :
          - **Rôle** = **Développeur**
          - **Coût** = **88 GBP**
-      3. Accédez à **Paramètres** > **Unités d’organisation** et joignez cette liste de prix de revient à l’unité d’organisation **Contoso Robotics Royaume-Uni**.
-      4. Accédez à **Ventes** > **Listes de prix**. Créez une liste de prix de revient appelée **Taux de coûts Contoso Robotics États-Unis**. 
+      3. Accédez à **Paramètres** > **Unités d'organisation** et joignez cette liste de prix de revient à l'unité d’organisation **Contoso Robotics UK**.
+      4. Accédez à **Ventes** > **Listes de prix**. Créez une liste de prix de revient appelée **Tarifs de Contoso Robotics USA**. 
       5. Dans la liste des prix de revient, créez un enregistrement avec les informations suivantes :
           - **Rôle** = **Développeur**
-          - **Société d’allocation de ressources** = **Contoso Robotics Royaume-Uni**
+          - **Société d’allocation de ressources** = **Contoso Robotics UK**
           - **Coût** = **120 USD**
-      6. Accédez à **Paramètres** > **Unités d’organisation** et joignez la liste des prix de revient **Taux de coûts Contoso Robotics États-Unis** à l’unité d’organisation **Contoso Robotics États-Unis**.
+      6. Accédez à **Paramètres** > **Unités d'organisation** et joignez cette liste de prix de revient **Tarifs de Contoso Robotics USA** à l'unité d’organisation **Contoso Robotics USA**.
       7. Accédez à **Ventes** > **Listes de prix**. Créez une liste de prix de vente appelée **Taux de facturation Adventure Works**. 
       8. Dans la liste des prix de vente, créez un enregistrement avec les informations suivantes :
           - **Rôle** = **Développeur**
-          - **Société d’allocation de ressources** = **Contoso Robotics Royaume-Uni**
+          - **Société d’allocation de ressources** = **Contoso Robotics UK**
           - **Taux de facturation** = **200 USD**
       9. Accédez à **Ventes** > **Contrats de projet** et joignez la liste de prix **Taux de facturation Adventure Works** à la liste de prix du projet Adventure Works du contrat de projet.
 

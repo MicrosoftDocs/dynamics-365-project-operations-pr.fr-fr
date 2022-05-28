@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe8a8e1776b10fff0dc137e329c58eb530591a6e6adde0ac58ca83d323c5da4f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 9a48748ad207c08a922d534481becf98af5c6845
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992293"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593425"
 ---
 # <a name="track-project-progress-and-cost-project-service"></a>Suivre la progression et les coûts du projet (Project Service)
 

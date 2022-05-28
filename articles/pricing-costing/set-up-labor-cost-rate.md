@@ -4,14 +4,14 @@ description: Cette rubrique offre des informations sur la configuration des taux
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 96c74195209641f31e84af9159241123559fab17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986173"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588503"
 ---
 # <a name="set-up-labor-cost-rates"></a>Configurer les taux de coûts de la main-d’œuvre
 

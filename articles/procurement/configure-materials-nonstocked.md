@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003228"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592965"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurer le matériel non stocké et les factures fournisseur en attente
 
@@ -27,7 +27,7 @@ Solutions Dynamics 365 Dataverse :
 - Project Operations – 4.9.0.221 ou version ultérieure
 - Solution d’orchestration d’application à double écriture - 2.2.2.23 ou version ultérieure
 
-Dynamics 365 Finance :
+Dynamics 365 Finance :
 - 10.0.18 (10.0.793.52) ou version ultérieure. Assurez-vous que votre environnement Finance est à jour et que toutes les mises à jour de qualité sont appliquées pour répondre aux exigences minimales de version.
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Exécuter des mappages à double écriture pour le matériel non stocké et l’intégration des factures fournisseur

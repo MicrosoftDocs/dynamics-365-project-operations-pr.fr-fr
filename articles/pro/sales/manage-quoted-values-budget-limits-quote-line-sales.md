@@ -3,16 +3,15 @@ title: Vue d’ensemble de lignes du devis basées sur un projet
 description: Cette rubrique fournit des informations sur l’utilisation des lignes de devis basées sur un projet pour le travail du projet.
 author: rumant
 ms.date: 03/30/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 2f2d38c7fb3bc3ec26cf64525ef8275adecafd7fc48e97d6daef595d341c045d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a9661d9b91ffeece4c66b129846632b30ebebc8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001563"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591079"
 ---
 # <a name="project-based-quote-lines-overview"></a>Présentation de lignes du devis basées sur un projet 
 

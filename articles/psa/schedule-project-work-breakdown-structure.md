@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996793"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587353"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Planifier un projet avec une structure de répartition du travail (Project Service)
 
@@ -63,7 +64,7 @@ Un calendrier de projet communique le travail à effectuer, quelles ressources e
 ## <a name="task-types"></a>Types de tâche  
 Vous utiliserez les types de tâches suivantes lors de la création de votre structure de répartition du travail :  
 
-| | | 
+| Task | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Nœud racine du projet**. | La tâche récapitulative de niveau supérieur du projet. Toutes les autres tâches du projet sont créées en dessous. Le nom de la tâche racine est le nom du projet. L’effort, les dates, et la durée du nœud racine sont basés sur les valeurs dans la hiérarchie en dessous. Vous ne pouvez pas modifier les propriétés de nœud racine ou supprimer le nœud racine. | 
 | **Tâches récapitulatives ou de conteneur** | Une tâche récapitulative est une tâche qui a des sous-tâches. Une tâche récapitulative n’a pas d’efforts ou coûts de travail qui lui sont propres. Ses efforts et coûts de travail sont un cumul de ses sous-tâches. Vous pouvez modifier le nom d’une tâche récapitulative, mais vous ne pouvez pas modifier l’effort, les dates, ou la durée, car ils sont automatiquement calculés. La suppression d’une tâche récapitulative entraîne la suppression de la tâche et toutes ses sous-tâches.|  

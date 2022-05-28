@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 52e33ad3728e1a393e8c7e3ca4e0a4b506d0b774
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 5bb54a121f0dc22f1c0ea88ada9c922c1d4c6544
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903415"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589745"
 ---
 # <a name="currency-mismatch-error"></a>Erreur de non-concordance des devises 
 

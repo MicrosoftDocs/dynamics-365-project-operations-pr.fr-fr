@@ -4,14 +4,14 @@ description: Cette rubrique explique comment enregistrer des lignes du contrat d
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
-ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
+ms.openlocfilehash: 9eba8b70aeb98389515ee679e4bfb1426736ee2c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "7506096"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591677"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Lignes du contrat de sous-traitance pour les catégories de dépenses
 
@@ -31,7 +31,7 @@ Le tableau suivant fournit des informations sur les champs de la page des détai
 
 | **Champ** | **Description** | **Impact fonctionnel** |
 | --- | --- | --- |
-| Nom | Le nom de la ligne du contrat de sous-traitance pour aider à l’identification. | Il apparaît dans la première colonne de toutes les recherches basées sur les lignes du contrat de sous-traitance. |
+| Nom  | Le nom de la ligne du contrat de sous-traitance pour aider à l’identification. | Il apparaît dans la première colonne de toutes les recherches basées sur les lignes du contrat de sous-traitance. |
 | Description | Une brève description des catégories de dépense achetées sur la ligne du contrat de sous-traitance. | Aucun(e) |
 |Type de ligne | Ce champ contient une valeur par défaut **Basé sur la quantité**. |Aucun(e) |
 | Mode de facturation | Ce groupe d’options représente les deux principaux modèles contractuels pris en charge par Project Operations : **Prix fixe** et **Temps et matériel**. | Une planification de facture basée sur des jalons est mise à disposition pour les lignes du contrat de sous-traitance si le mode de facturation à prix fixe est sélectionné. |

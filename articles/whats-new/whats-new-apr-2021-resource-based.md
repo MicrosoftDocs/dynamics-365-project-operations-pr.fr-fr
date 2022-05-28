@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008133"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589101"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés d’avril 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
@@ -21,7 +21,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
 - Version 4.9.0.221 de Project Operations dans l’environnement Dataverse
-- Version 10.0.17 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
+- Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
@@ -42,13 +42,13 @@ La liste suivante répertorie les mappages à double écriture qui ont été mod
 | **Mappage d’entité** | **Version mise à jour** | **Commentaires** |
 | --- | --- | --- |
 | Chiffres réels d’intégration Project Operations (msdyn\_actuals) | 1.0.0.14 | Mappage modifié pour synchroniser les chiffres réels du projet de matériel. |
-| Entité d’intégration de Project Operations pour les estimations de dépenses (msdyn\_estimateslines) | 1.0.0.2 | Ajout de la synchronisation des lignes de contrat de projet avec les applications Finance and Operations pour un support de facturation basé sur les tâches. |
-| Entité d’intégration de Project Operations pour les estimations d’heures (msdyn\_resourceassignments) | 1.0.0.5 | Ajout de la synchronisation des lignes de contrat de projet avec les applications Finance and Operations pour un support de facturation basé sur les tâches. |
-| Table Intégration de Project Operations pour les estimations de matériel (msdyn\_estimatelines) | 1.0.0.0 | Nouveau mappage de table pour synchroniser les estimations de matériel de Dataverse avec les applications Finance and Operations. |
-| Entité d’exportation des factures fournisseur de projet d’intégration de Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nouveau mappage de table pour synchroniser les en-têtes de facture fournisseur des applications Finance and Operations avec Dataverse. |
-| Entité d’exportation des lignes de facture fournisseur de projet d’intégration de Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nouveau mappage de table pour synchroniser les lignes de facture fournisseur des applications Finance and Operations avec Dataverse. |
+| Entité d’intégration de Project Operations pour les estimations de dépenses (msdyn\_estimateslines) | 1.0.0.2 | Ajout de la synchronisation des lignes de contrat de projet aux applications de finances et d’opérations pour la prise en charge de la facturation basée sur les tâches. |
+| Entité d’intégration de Project Operations pour les estimations d’heures (msdyn\_resourceassignments) | 1.0.0.5 | Ajout de la synchronisation des lignes de contrat de projet aux applications de finances et d’opérations pour la prise en charge de la facturation basée sur les tâches. |
+| Table Intégration de Project Operations pour les estimations de matériel (msdyn\_estimatelines) | 1.0.0.0 | Nouvelle carte de table pour synchroniser les estimations de matériaux de Dataverse aux applications de finances et d’opérations. |
+| Entité d’exportation des factures fournisseur de projet d’intégration de Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nouvelle carte de table pour synchroniser les en-têtes de facture de fournisseur des applications de finances et d’opérations à Dataverse. |
+| Entité d’exportation des lignes de facture fournisseur de projet d’intégration de Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nouvelle carte de table pour synchroniser les lignes de facture de fournisseur des applications de finances et d’opérations à Dataverse. |
 
-Vous devez toujours exécuter la dernière version du mappage dans votre environnement et activer tous les mappages de table associés lorsque vous mettez à jour votre solution Dataverse Project Operations et la version de la solution Finance and Operations. Certaines fonctionnalités et capacités peuvent ne pas fonctionner correctement si la dernière version du mappage n’est pas activée. Vous pouvez voir la version active du mappage dans la colonne **Version** de la page **Double écriture**. Vous pouvez activer une nouvelle version du mappage en sélectionnant **Versions du mappage de table**, en sélectionnant la dernière version, puis en enregistrant la version sélectionnée. Si vous avez personnalisé un mappage de table prêt à l’emploi, réappliquez les modifications. Pour en savoir plus, voir [Cycle de vie de l’application](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Vous devez toujours exécuter la version la plus récente du mappage dans votre environnement, et activez tous les mappages de table associés lorsque vous mettez à jour la version de la solution Project Operations Dataverse et de la solution Finance and Operations. Certaines fonctionnalités et capacités peuvent ne pas fonctionner correctement si la dernière version du mappage n’est pas activée. Vous pouvez voir la version active du mappage dans la colonne **Version** de la page **Double écriture**. Vous pouvez activer une nouvelle version du mappage en sélectionnant **Versions du mappage de table**, en sélectionnant la dernière version, puis en enregistrant la version sélectionnée. Si vous avez personnalisé un mappage de table prêt à l’emploi, réappliquez les modifications. Pour en savoir plus, voir [Cycle de vie de l’application](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Si vous rencontrez un problème lors du démarrage du mappage, suivez les instructions de la section [Problème de colonnes de table manquantes sur les mappages](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) du guide de dépannage consacré à la double écriture.
 
@@ -79,7 +79,7 @@ Si vous rencontrez un problème lors du démarrage du mappage, suivez les instru
 | Temps et dépenses | 2204377 | Les feuilles de temps copiées doivent s’afficher automatiquement lorsque vous sélectionnez **Copier la semaine** lors de l’entrée de temps. |
 | Temps et dépenses | 2209059 | Le champ **Statut** peut être modifié pour les entrées de temps Dynamics 365 Field Service. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestion du projet et comptabilité dans Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Vue d’ensemble de la gestion et comptabilité des projets dans Dynamics 365 Finance
 
 | **Fonctionnalités** | **Numéro de référence** | **Mise à jour qualité** |
 | --- | --- | --- |

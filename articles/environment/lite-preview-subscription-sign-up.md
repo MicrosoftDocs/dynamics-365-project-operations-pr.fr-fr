@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la façon de souscrire 
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991528"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587997"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Souscrire un abonnement à la version préliminaire – Simplifié 
 
@@ -43,7 +43,7 @@ Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur av
 > Vous aurez besoin d’un accès administratif au portail Microsoft 365 de votre organisation pour terminer les étapes suivantes.
 
 
-1. Accédez au [Centre d’administration Microsoft 365](https://portal.office.com/) pour attribuer les licences à vos utilisateurs.
+1. Accédez au [Centre d’administration Microsoft 365](https://portal.office.com/) pour attribuer les licences à vos utilisateurs.
 2. Sur la page **Utilisateurs actifs**, sélectionnez les utilisateurs auxquels vous souhaitez attribuer une licence.
 3. Vérifiez que la licence **Dynamics 365 Project Operations** est sélectionnée. 
 4. Sélectionnez **Enregistrer les modifications**.

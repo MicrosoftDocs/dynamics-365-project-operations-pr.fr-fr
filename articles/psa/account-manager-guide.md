@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4792d3438216a850b0b4afdb38f26b85adb81960c5984217c76c9954ca36b884
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 22050d5fcdf1fd2e95da0c341d103c58a2bb1bb1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985813"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592459"
 ---
 # <a name="account-manager-guide-project-service"></a>Guide du gestionnaire de compte (Project Service)
 

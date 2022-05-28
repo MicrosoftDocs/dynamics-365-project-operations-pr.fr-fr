@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a20b4518954cce755555b95cc7fd9e6efb1a7322
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999583"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591815"
 ---
 # <a name="currency"></a>Devise
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Les devises déterminent les prix des produits dans le catalogue de produits et le coût des transactions, telles que les bons de commande. Si vos clients sont répartis dans différentes zones géographiques, ajoutez leurs devises pour gérer vos transactions. Ajoutez les devises les plus adaptées aux besoins actuels et futurs de votre entreprise.  
 
@@ -48,8 +48,8 @@ Avant de commencer cette procédure, vérifiez que votre rôle de sécurité inc
    |    **Type de devise**    | - **Système** : sélectionnez cette option si vous souhaitez utiliser les devises disponibles dans les applications pilotées par modèle dans Dynamics 365. Sélectionnez le bouton **Recherche** pour rechercher une devise. Lorsque vous sélectionnez un code devise, **Nom de la devise** et **Symbole monétaire** sont automatiquement ajoutés pour la devise sélectionnée.<br />- **Personnalisé** : sélectionnez cette option si vous souhaitez ajouter une devise qui n’est pas disponible dans les applications pilotées par modèle dans Dynamics 365. Dans ce cas, vous devez entrer manuellement les valeurs pour **Code devise**, **Précision de la devise**, **Nom de la devise**, **Symbole de la devise** et **Conversion monétaire**. |
    |    **Code devise**    |                                                                                                                                                                                                                                                                                                                                            Forme abrégée de la devise. Par exemple, **USD** pour dollar américain.                                                                                                                                                                                                                                                                                                                                            |
    | **Précision de la devise**  |                                                                                                                                                                                  Tapez le nombre de décimales que vous souhaitez utiliser pour la devise.  Vous pouvez ajouter une valeur comprise entre 0 et 4. **Remarque :** si vous avez défini une valeur de précision dans la boîte de dialogue **Paramètres du système**, cette valeur s’affiche ici.                                                                                                                                                                                  |
-   |    **Nom de la devise**    |                                                                                                                                                                                                                                         Si vous avez sélectionné un code devise dans la liste des devises disponibles dans les applications pilotées par modèle dans Dynamics 365, le nom de la devise pour le code sélectionné s’affiche ici. Si vous avez sélectionné **Personnalisé** comme type de devise, tapez le nom de la devise.                                                                                                                                                                                                                                          |
-   |   **Symbole monétaire**   |                                                                                                                                                                                                                                                                      Si vous avez sélectionné un code devise dans la liste des devises disponibles, le symbole de la devise sélectionnée s’affiche ici. Si vous avez sélectionné **Personnalisé** comme type de devise, tapez le symbole pour la nouvelle devise.                                                                                                                                                                                                                                                                       |
+   |    **Nom de la devise**    |                                                                                                                                                                                                                                         Si vous avez sélectionné un code devise dans la liste des devises disponibles dans les applications pilotées par modèle dans Dynamics 365, le nom de la devise pour le code sélectionné s’affiche ici. Si vous avez sélectionné **Personnalisé** comme type de devise, saisissez le nom de la devise.                                                                                                                                                                                                                                          |
+   |   **Symbole monétaire**   |                                                                                                                                                                                                                                                                      Si vous avez sélectionné un code devise dans la liste des devises disponibles, le symbole de la devise sélectionnée s’affiche ici. Si vous avez sélectionné **Personnalisé** comme type de devise, saisissez le symbole pour la nouvelle devise.                                                                                                                                                                                                                                                                       |
    | **Conversion de devise** |                                                                                                                                                                                                                                     Tapez la valeur de la devise sélectionnée sous la forme d’un dollar américain. Il s’agit du taux de conversion de la devise sélectionnée dans la devise de base. **Important :** assurez-vous de mettre à jour cette valeur aussi souvent que nécessaire pour éviter des calculs inexacts dans vos transactions.                                                                                                                                                                                                                                      |
 
 

@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur l’ajout de composants
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d18e56f29457151e07636b67ff8d9b184bf5014ef0ceeef9bb9d322672be4335
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c02228c5b75afdc825ffbf0ada9ca57001a173ac
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003453"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593195"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurer les composants facturables d’une ligne de contrat basée sur un projet
 

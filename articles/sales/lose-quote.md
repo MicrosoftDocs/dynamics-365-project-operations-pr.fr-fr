@@ -4,14 +4,14 @@ description: Cette rubrique offre des informations sur la copie des devis selon 
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1e8611f34a23d6d87317cc785148c1a3f9c26dca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992158"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588043"
 ---
 # <a name="copy-project-based-quotes"></a>Copier les devis selon les projets
 

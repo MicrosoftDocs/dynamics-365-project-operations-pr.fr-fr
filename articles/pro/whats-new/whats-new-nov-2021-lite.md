@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 3f3a19cddd1b91fc76c852153526fb7197a9f92c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942928"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587767"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Nouveautés de novembre 2021 - Déploiement simplifié de Project Operations
 

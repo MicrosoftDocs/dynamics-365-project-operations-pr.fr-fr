@@ -18,12 +18,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006738"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591385"
 ---
 # <a name="upgrade-home-page"></a>Mettre à niveau la page d’accueil
 

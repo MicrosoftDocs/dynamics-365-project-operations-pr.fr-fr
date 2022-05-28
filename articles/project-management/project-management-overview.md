@@ -3,16 +3,15 @@ title: Vue d’ensemble de la gestion des projets
 description: Cette rubrique fournit des informations sur la gestion des projets dans Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e23c6d5290a89fe599273a985962477215bf00b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990988"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590849"
 ---
 # <a name="project-management-overview"></a>Vue d’ensemble de la gestion des projets
 

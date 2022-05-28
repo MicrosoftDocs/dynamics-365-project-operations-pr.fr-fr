@@ -4,14 +4,14 @@ description: Cette rubrique explique comment déployer manuellement l’applicat
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986443"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591217"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Déployer manuellement l’application Project Operations Dataverse avec prise en charge de la double écriture
 
@@ -37,7 +37,7 @@ Pour effectuer cette procédure, vous devez vous connecter en tant qu’administ
 3. Sélectionnez le type d’environnement. Si vous avez souscrit à l’offre d’évaluation, sélectionnez **Évaluation (basée sur l’abonnement)**.
 4. Confirmez la région de déploiement.
 5. Activez l’option **Créer une base de données pour cet environnement**. 
-6. Confirmez la langue, puis confirmez que la devise correspond à celle de vos applications Finance and Operations.
+6. Confirmez la langue, puis confirmez que la devise correspond à la devise de vos applications de finances et d’opérations.
 7. Activez l’option **Applications Dynamics 365** et confirmez que le champ **Déployer automatiquement ces applications** est défini sur **Aucun**.
 8. Ajoutez un groupe de sécurité, si cela est nécessaire.
 9. Sélectionnez **Enregistrer** pour créer l’environnement.
@@ -62,4 +62,4 @@ Vous pouvez effectuer cette procédure uniquement si vous avez effectué les pro
 
 ## <a name="link-your-environments"></a><a name="link"></a>Lier vos environnements
 
-Une fois l’environnement Dataverse déployé, vous pouvez configurer le lien dans vos applications Finance and Operations. Suivez les étapes décrites dans [Utiliser l’Assistant de double écriture pour lier vos environnements](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Une fois l’environnement Dataverse déployé, vous pouvez configurer le lien dans vos applications de finances et d’opérations. Suivez les étapes décrites dans [Utiliser l’Assistant de double écriture pour lier vos environnements](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

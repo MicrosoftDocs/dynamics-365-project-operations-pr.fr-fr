@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7941027"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586939"
 ---
 # <a name="expense-reports-reimagined"></a>Notes de frais réinventées
 

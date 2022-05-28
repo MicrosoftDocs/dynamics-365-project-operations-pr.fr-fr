@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c363b712fceda93c45e58eea4d5e711ef8405252e252061022590bdc506691c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: fcb4216f53c30089fdc2c7cb8cb15ed9ba61fd44
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008718"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591953"
 ---
 # <a name="configure-expense-categories-project-service"></a>Configurer les catégories de dépenses (Project Service)
 

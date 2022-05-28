@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la facturation d’une 
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aa659ebfa6d848f312caa1d197404d77b1f6ee21
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997468"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590573"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Facturer une provision ou une avance
 

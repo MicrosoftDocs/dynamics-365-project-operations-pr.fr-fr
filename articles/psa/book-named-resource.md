@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 92a61012beb9aa200f4ea65b777acb0fae04e7e6
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000483"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590067"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Réserver des ressources nommées à partir des besoins en ressources.
 

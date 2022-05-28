@@ -3,15 +3,15 @@ title: Gestion de la sous-traitance dans Project Operations
 description: Cette rubrique présente le processus de gestion de la sous-traitance de bout en bout courant pour les organisations basées sur des projets.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323593"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593011"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Gestion de la sous-traitance dans Project Operations
 
@@ -46,7 +46,7 @@ Une ligne du contrat de sous-traitance peut être basée sur la quantité ou sur
 
 Lorsqu’une ligne du contrat de sous-traitance est **basée sur la quantité**, la quantité achetée sur la ligne du contrat de sous-traitance pour le temps, les dépenses ou le matériel peut être utilisée sur n’importe quel projet.
 
-Lorsqu’une ligne du contrat de sous-traitance est **basée sur le travail**, la ligne du contrat de sous-traitance correspond à un ensemble de travaux représenté par un nœud dans le plan de projet. La valeur de la ligne du contrat de sous-traitance est la somme de tous les composants nécessaires à la livraison de cet ensemble de travaux. Ils sont modélisés comme des détails de la ligne du contrat de sous-traitance et il peut s’agir d’un ensemble d’heures, de dépense ou de matériel. S’il s’agit d’une ligne du contrat de sous-traitance basée sur le travail, elle est en outre dédiée à un seul projet.
+Lorsqu’une ligne du contrat de sous-traitance est **basée sur le travail**, la ligne du contrat de sous-traitance correspond à un ensemble de travaux représenté par un nœud dans le plan de projet. La valeur de la ligne du contrat de sous-traitance est la somme de tous les composants nécessaires à la livraison de cet ensemble de travaux. Ils sont modélisés comme des détails de la ligne du contrat de sous-traitance et il peut s’agir d’un ensemble d’heures, de dépense ou de matériel. S’il s’agit d’une ligne du contrat de sous-traitance basée sur le travail, elle est en outre dédiée à un seul projet. Ces types de sous-contrats ne sont actuellement pas pris en charge par Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

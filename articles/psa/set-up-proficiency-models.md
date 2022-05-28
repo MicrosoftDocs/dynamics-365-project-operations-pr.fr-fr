@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8eca6fc162c4bae2b5e8e977b2a504a75f0535c36c58f376a7948e619f15fa2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f4d7285ef203619f38740a18a1e7271deba41d3b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006873"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589331"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Configurer des modèles de compétences (Project Service)
 

@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur les modes de planificat
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987748"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588411"
 ---
 # <a name="scheduling-modes"></a>Modes de planification
 

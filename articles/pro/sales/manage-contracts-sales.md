@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur l’affichage de contra
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001833"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590481"
 ---
 # <a name="manage-project-contracts"></a>Gérer les contrats de projets
 
@@ -31,6 +31,9 @@ Une liste de tous les contrats de projet peut être consultée sur la page de li
 2. Sélectionnez le **Commutateur de vue** (la flèche déroulante à côté du nom de la vue) pour sélectionner d’autres vues filtrées. Vous pouvez créer vos propres vues à l’aide de critères de filtre personnalisés.
 
 Les contrats peuvent être créés ou supprimés à partir de cette page de liste ou des pages de détails.
+
+> [!NOTE]
+> Les contrats auxquels sont associés des projets, des tâches, des estimations, des journaux et/ou des chiffres réels ne peuvent pas être supprimés. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

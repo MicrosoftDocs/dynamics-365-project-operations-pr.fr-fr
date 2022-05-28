@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996703"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593379"
 ---
 # <a name="track-a-projects-status-project-service"></a>Suivre le statut d’un projet (Project Service)
 
@@ -33,14 +34,13 @@ Utilisez le [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-pr
 
 À mesure que l’engagement progresse, les phases du projet sont mises à jour pour refléter la phase de l’engagement :  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Nouveau**    | Lorsque vous créez un projet, la phase est définie sur **Nouveau**. Si vous créez le projet à partir d’un modèle, à cette phase le projet peut avoir un calendrier, des estimations et les données d’équipe. Sinon, celui-ci sera le plan du projet et vous devez entrer manuellement le reste des composants du projet. |
-|  **devis**   |      Lorsque vous associez un projet à un devis ou le créez depuis un devis, la phase de projet est définie sur **Devis**, et les dates de début et de fin estimée sont également mises à jour. Lorsque le projet est dans la phase de devis, les informations sur le devis s’affichent sous l’onglet **Sales** dans la page **Projet**.      |
-|   **Planifier**   |                                     Lorsque vous ayez conclu un devis associé à un projet, et lorsque l’engagement progresse vers la phase de contrat, la phase de projet est mise à jour sur **Planifier**. Les détails de contrat s’affichent sous l’onglet **Sales** dans la page **Projet**.                                      |
-| **Fin** |                    Lorsque la tâche de projet est terminée, vous pouvez revenir vers la phase **Terminé**. Lorsque la phase de projet est définie sur terminée, la tâche est terminée à 100 %% mais le projet est maintenu ouvert en attendant l’enregistrement du temps ou des dépenses.                     |
-|  **Fermer**   |           Lorsque toutes les transactions ont été enregistrées sur le projet et que vous ne prévoyez plus de saisir de données, vous pouvez manuellement définir la phase sur **Fermer**. Lorsque le contrat est défini sur **Fermer**, vous ne pouvez plus enregistrer de transactions sur le projet et le projet est en lecture seule.           |
+| Task | Description | 
+|------------|----------|
+| **New** | Lorsque vous créez un projet, la phase est définie sur **Nouveau**. Si vous créez le projet à partir d’un modèle, à cette phase le projet peut avoir un calendrier, des estimations et les données d’équipe. Sinon, celui-ci sera le plan du projet et vous devez entrer manuellement le reste des composants du projet. |
+| **devis** |  Lorsque vous associez un projet à un devis ou le créez depuis un devis, la phase de projet est définie sur **Devis**, et les dates de début et de fin estimées sont également mises à jour. Lorsque le projet est dans la phase de devis, les informations sur le devis s’affichent sous l’onglet **Sales** dans la page **Projet**. |
+| **Planifier** |  Lorsque vous ayez conclu un devis associé à un projet, et lorsque l’engagement progresse vers la phase de contrat, la phase de projet est mise à jour sur **Planifier**. Les détails de contrat s’affichent sous l’onglet **Sales** dans la page **Projet**. |
+| **Fin** | Lorsque la tâche de projet est terminée, vous pouvez revenir vers la phase **Terminé**. Lorsque la phase de projet est définie sur terminée, la tâche est terminée à 100 %% mais le projet est maintenu ouvert en attendant l’enregistrement du temps ou des dépenses. |
+| **Fermer** | Lorsque toutes les transactions ont été enregistrées sur le projet et que vous ne prévoyez plus de saisir de données, vous pouvez manuellement définir la phase sur **Fermer**. Lorsque le contrat est défini sur **Fermer**, vous ne pouvez plus enregistrer de transactions sur le projet et le projet est en lecture seule. |
 
 ## <a name="to-track-a-projects-status"></a>Pour suivre le statut d’un projet  
 

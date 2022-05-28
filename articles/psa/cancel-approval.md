@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 9e3bc94b626b88a2167e3a61472b768e2fb5c731
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987433"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590757"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Annuler les entrées de temps ou de dépenses précédemment approuvées
 

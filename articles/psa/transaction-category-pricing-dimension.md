@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988852"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593333"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utiliser une catégorie de transaction comme dimension de tarification
 

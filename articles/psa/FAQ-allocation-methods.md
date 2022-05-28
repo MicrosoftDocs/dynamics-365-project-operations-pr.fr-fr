@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a770a51c2bf05e227367efc834dbff2832a316f617ae4fe22a43572940f43cbe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000843"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590113"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Méthodes d’allocation des réservations dans Project Service Automation
 

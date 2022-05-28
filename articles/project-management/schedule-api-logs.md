@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations et des exemples qui vous ai
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1c5632a880fa30d1b863c326b22e3d930c9564dc
-ms.sourcegitcommit: 844ec8eacd0fc10d1659b437cc5cbb4480ec9e1e
+ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7877628"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589515"
 ---
 # <a name="project-scheduling-logs"></a>Journaux de planification de projet
 
