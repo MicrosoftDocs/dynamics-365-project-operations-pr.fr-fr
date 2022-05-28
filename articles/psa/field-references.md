@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3ca48b8d5d55b1b2178f9bd84e19d9599f057aa296a728cca57577c18fdaf307
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985768"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596921"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles 
 

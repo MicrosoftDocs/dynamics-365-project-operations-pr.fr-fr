@@ -5,14 +5,14 @@ author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 132bfa8418e255cf65c247e55cd45fbaf58d243cb34368fd07bc4ade11bb243e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c669f8154225c5c456de3e3bb84e361aff05bd9b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989683"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595771"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>Lignes des opportunités basées sur les produits – Simplifié
 

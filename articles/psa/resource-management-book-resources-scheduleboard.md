@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 01b6b5f5c688ee4e1a1f0da52b39532d06e5362a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998233"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593563"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Utiliser le Tableau de planification pour réserver des ressources de projet
 

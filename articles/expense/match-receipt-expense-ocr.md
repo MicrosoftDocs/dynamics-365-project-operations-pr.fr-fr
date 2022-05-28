@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798037"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596277"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Capturer un reçu à l’aide d’OCR
 
@@ -52,7 +52,7 @@ Pour créer une dépense ou faire correspondre une dépense à partir d’un re�
 
 ## <a name="installation"></a>Installation
 
-Pour utiliser ces fonctionnalités avancées de gestion des dépenses, installez le complément Service de gestion des dépenses pour Microsoft Dynamics 365 Finance et activez les fonctionnalités dans votre instance. Vous pouvez accéder au complément depuis votre projet dans Microsoft Dynamics Lifecycle Services (LCS).
+Pour utiliser ces capacités de dépenses avancées, installez le complément Expense Management Service pour Microsoft Microsoft Dynamics 365 Finance et activez les fonctionnalités dans votre instance. Vous pouvez accéder au complément depuis votre projet dans Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Connectez-vous à LCS et ouvrez l’environnement souhaité.
 2. Accédez à **Télécharger avec informations détaillées**.

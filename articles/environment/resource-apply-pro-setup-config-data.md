@@ -4,26 +4,26 @@ description: Cette rubrique fournit des informations sur la configuration et l�
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986623"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594713"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configurer et appliquer les données de configuration dans Common Data Service 
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Conditions préalables
 
 Avant de commencer à configurer les données dans Common Data Service (CDS), les conditions préalables suivantes doivent être remplies :
 
-1.  Configurer un environnement CDS et un environnement Dynamics 365 Finance pour Project Operations.
+1.  Provisionnez un environnement CDS et un environnement Dynamics 365 Finance pour Project Operations.
 2.  Les informations sur l’entité juridique de Dynamics 365 Finance sont partagées avec l’environnement CDS. Cela signifie que l’entité **Société** dans CDS possède les enregistrement de société suivants :
   - THPM
   - USPM
@@ -37,7 +37,7 @@ Avant de commencer à configurer les données dans Common Data Service (CDS), le
 
 ![Migration de la configuration.](./media/1ConfigurationMigration.png)
 
-4. Sur la page 2 de l’Assistant CMT, sélectionnez **Microsoft 365** comme **Type de déploiement**.
+4. Sur la page 2 de l’Assistant CMT, sélectionnez **Microsoft 365** comme le **Type de déploiement**.
 5. Cochez les cases **Afficher une liste des organisations disponibles** et **Afficher les paramètres avancés**.
 6. Sélectionnez la région de votre client, entrez vos informations d’identification et sélectionnez **Connexion**.
 

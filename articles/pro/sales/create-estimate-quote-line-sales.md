@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la façon de créer des
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8e2b56b4a97ce184fc36145fffe63db8772bdef8bb89f9b60ddaf43db0c1ba4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a29cf20fe95ee5bfb189defded4f06aadb75a841
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997288"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598347"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimation d’une ligne de devis selon les projets
 

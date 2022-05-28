@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la façon de créer et 
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993553"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594207"
 ---
 # <a name="set-up-cost-templates"></a>Configurer des modèles de coût
 
@@ -56,7 +56,7 @@ Le choix de l’approche à adopter pour créer un modèle de coût peut dépend
 ## <a name="create-cost-templates"></a>Créer des modèles de coût
 Pour créer des modèles de coût, procédez comme suit :
 
-1. Pour accéder aux modèles de coût, dans l’environnement Dynamics 365 Finance, accédez à **Gestion et comptabilité des projets** > **Configurer** > **Estimations** > **Modèle de coût**.
+1. Pour accéder aux modèles de coûts, dans l’environnement Dynamics 365 Finance, accédez à **Gestion de projet et comptabilité** > **Configuration** > **Estimations** > **Modèle de coût**.
 2. Sélectionnez **Nouveau** pour créer un modèle de coût. Entrez un nom et une description.
 3. Indiquez l’ID de ligne de coût pour chaque type de transaction.
 4. Sélectionnez une méthode d’achèvement par défaut :

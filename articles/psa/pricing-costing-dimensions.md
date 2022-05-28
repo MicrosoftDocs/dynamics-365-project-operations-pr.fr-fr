@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998458"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593609"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Page d’accueil Dimensions de tarification et des coûts
 
@@ -66,16 +67,16 @@ L’exemple suivant présente des taux de factures configurés en fonction du r�
 
 | Rôle        | Unité d’organisation    |Unité      |Prix      |Devise  |
 | ------------|-------------|----------|----------:|----------|
-| Développeur   | Contoso US  |heure | 200|USD     |
-| Développeur   | Contoso Inde |heure|   112|USD     |
+| Développeur   | Contoso US  |Hour | 200|USD     |
+| Développeur   | Contoso Inde |Hour|   112|USD     |
 
 
 **Exemple de taux de coûts**
 
 | Bande de salaire     | Unité d’organisation    |Unité      |Prix      |Devise  |
 | ----------------|-------------|----------|----------:|----------|
-| Ma société_Band1 | Contoso US  |heure | 145|USD     |
-| Ma société_Band2 | Contoso Inde |heure|   67|USD     |
+| Ma société_Band1 | Contoso US  |Hour | 145|USD     |
+| Ma société_Band2 | Contoso Inde |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

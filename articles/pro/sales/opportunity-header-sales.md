@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur les transactions basée
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6a9a1ea9dacdb3aa2dbc8a0500481b204ff14eddfc1138e3db43ff568d7cd48b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f40154fed5790083e3a4d3264cc9f8cc23ae18bc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994453"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596829"
 ---
 # <a name="header-details-for-project-opportunities"></a>Détails d’en-tête pour les opportunités de projet
 

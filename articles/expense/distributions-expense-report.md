@@ -4,14 +4,14 @@ description: Lorsque vous saisissez des dépenses sur une note de frais, vous po
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 396fd201949663d93d90f6609e5b97f646f7942cde002c91482fa7dc26c394ae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8bd3f9c836fd67bd5c0fee0d3b80652d6ba33204
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006243"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595817"
 ---
 # <a name="distributions-on-an-expense-report"></a>Distributions sur une note de frais
 

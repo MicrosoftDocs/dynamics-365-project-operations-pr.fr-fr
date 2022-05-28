@@ -4,14 +4,14 @@ description: Cette sujet fournit un lien vers des informations sur la configurat
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 926346fc3b522c79ec2108d68b8be9314eb1751396a9f26b172f01bad87f5f40
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4e8c965a1a977ba9c92d80f61b73ccab98635ec4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992248"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596231"
 ---
 # <a name="define-roles"></a>Définir les rôles
 

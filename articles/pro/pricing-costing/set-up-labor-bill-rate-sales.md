@@ -4,14 +4,14 @@ description: Cette rubrique offre des informations sur la configuration des taux
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3bce867df2e01178876a891e267676036ac8bd7c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007593"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599359"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Configurer les taux de facturation de la main-d’œuvre – Simplifié
 

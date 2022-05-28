@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 8337ed19764e62cf2e095ec2f51d325caf92e6fb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992518"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599129"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Acceptez ou rejeter une ressource de projet proposée
 

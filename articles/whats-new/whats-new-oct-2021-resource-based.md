@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753289"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598485"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés d’octobre 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753289"
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
    - Project Operations dans l’environnement Microsoft Dataverse, version 4.25.0.91
-   - Version 10.0.21 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
+   - Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
@@ -49,7 +49,7 @@ Si vous rencontrez un problème lors du démarrage du mappage, suivez les instru
 | Facturation et tarification | 2338357 | La devise du journal d’utilisation des matériaux doit être par défaut la devise du projet à la sélection du projet. |
 | Temps et dépenses | 2414777 | Il doit être possible d’annuler une approbation si une entrée de dépense ou une entrée de temps est associée à plusieurs approbations du projet. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestion de projets et comptabilité dans Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vue d’ensemble de la gestion et comptabilité des projets sur Dynamics 365 Finance
 
 | Fonctionnalités | Numéro de référence | Mise à jour qualité |
 | --- | --- | --- |

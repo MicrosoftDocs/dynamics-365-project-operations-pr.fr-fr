@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la manière de gérer l
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996523"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595863"
 ---
 # <a name="manage-revenue-estimates"></a>Gérer les estimations de revenus
 

@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur l’utilisation de tari
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7fcc7feaa9fc8d53046f54576e20989318dc3ec939569ea3844b18097512a24b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3d9c13568921540f4cc2e1e5e58d01803631a339
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001608"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598255"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Gérer les tarifs des projets sur les devis de projet 
 

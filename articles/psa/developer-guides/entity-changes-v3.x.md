@@ -14,12 +14,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 86b51e58189a62f15a5ded039e9265733a0d9d4a7c7bf8d18ac46aadf1d2a931
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987343"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597565"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Modifications d’entité, de contrôle et d’interface utilisateur (Project Service Automation 3.x)
 

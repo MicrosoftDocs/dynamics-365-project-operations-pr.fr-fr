@@ -4,14 +4,14 @@ description: Cette rubrique offre des informations sur la conclusion des devis d
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 25f5a515769b97e963b2a2ac8738884b3f0db2fb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993418"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598577"
 ---
 # <a name="close-a-quote"></a>Fermer un devis
 

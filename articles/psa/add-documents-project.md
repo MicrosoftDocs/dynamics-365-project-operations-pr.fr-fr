@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 874174a14d3973bf8aae6c329caf58b90d671ad2be26105ecd721825b92c0f7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: e36524ca53df6dec7d3d177f5db10f1827b6cf4c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989008"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597657"
 ---
 # <a name="add-documents-to-a-project-project-service"></a>Ajouter des documents à un projet (Project Service)
 

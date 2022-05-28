@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006333"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599451"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de mars 2021 – Project Operations pour les scénarios selon les ressources/produits non stockés
 
@@ -21,7 +21,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
 - Version 4.8.0.91 de Project Operations dans l’environnement Dataverse 
-- Gestion de projets et comptabilité dans l’environnement Dynamics 365 Finance version 10.0.16 
+- Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.16 
 
 ## <a name="quality-updates"></a>Mises à jour qualité
 
@@ -42,13 +42,13 @@ Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 
 | Temps et dépenses | 2148910 | Résolution du problème d’affichage de la page **Modifier l’entrée** dans la grillle **Entrée de temps**. |
 | Temps et dépenses | 2159798 | Contrôles plus stricts pour garantir que les entrées de dépenses approuvées ne peuvent pas être modifiées. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestion de projets et comptabilité dans Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Vue d’ensemble de la gestion et comptabilité des projets sur Dynamics 365 Finance
 
 Pour plus d’informations, voir [Nouveautés de janvier 2021 – Project Operations pour les scénarios selon les ressources/produits non stockés](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Mises à jour réglementaires
 
-Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Une autre façon d’en savoir plus sur les mises à jour réglementaires consiste à vous connecter à LCS et à afficher les mises à jour réglementaires prévues à l’aide de l’outil de recherche de problèmes. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+Pour plus d’informations sur les mises à jour réglementaires pour les applications de finances et d’opérations, voir [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Une autre façon d’en savoir plus sur les mises à jour réglementaires consiste à vous connecter à LCS et à afficher les mises à jour réglementaires prévues à l’aide de l’outil de recherche de problèmes. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

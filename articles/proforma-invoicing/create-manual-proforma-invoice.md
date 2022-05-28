@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995623"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600049"
 ---
 # <a name="proforma-invoices"></a>Factures pro forma
 
@@ -82,6 +82,9 @@ Lorsque vous créez un brouillon de facture de projet, toutes les transactions c
 - Modifier et ajuster la quantité et le type de facturation.
 
 Sélectionnez **Confirmer** pour confirmer une facture. L’action Confirmer est une action irréversible. Lorsque vous sélectionnez **Confirmer**, le système rend la facture en lecture seule et crée des chiffres réels de vente facturés à partir de chaque détail de ligne de facture pour chaque ligne de facture. Si le détail de ligne de facture fait référence à un chiffre réel de vente non facturé, le système contrepasse également le chiffre réel non facturé. (Tout détail de ligne de facture créé à partir d’une entrée de temps ou de dépenses fera référence à un chiffre réel de vente non facturé.) Les systèmes d’intégration comptables peuvent utiliser cette contrepassation pour contrepasser le travail en cours du projet à des fins comptables.
+
+> [!NOTE]
+> Les factures proforma confirmées et les enregistrements associés tels que les lignes de facture et les détails des lignes de facture ne peuvent pas être modifiés ou supprimés. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Corriger une facture confirmée
 

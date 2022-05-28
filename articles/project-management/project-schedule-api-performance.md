@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur les benchmarks de perfo
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a1abadbae044ccbd40077c6937262f0f17387bad
-ms.sourcegitcommit: 5c536cf05e2cbfc1d15982e4695d726064a074da
+ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7750599"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593839"
 ---
 # <a name="project-schedule-api-performance"></a>Performances de l’API de planification de projets
 

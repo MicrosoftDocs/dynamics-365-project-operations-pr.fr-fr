@@ -2,17 +2,16 @@
 title: Suivi des efforts de projet
 description: Cette rubrique propose des informations sur le suivi de l’effort d’un projet et de la progression du travail.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993958"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593793"
 ---
 # <a name="project-effort-tracking"></a>Suivi des efforts de projet
 
@@ -46,11 +45,12 @@ Les efforts sur les tâches récapitulatives ou les tâches de conteneur peuvent
 - Le nouvel EAA sur chacune des tâches individuelles jusqu’aux tâches de nœud terminal est calculé. 
 - Les tâches enfants affectées jusqu’aux nœuds terminaux voient leur effort restant et leur pourcentage de progression recalculés selon la valeur EAA. Cela entraîne une nouvelle projection pour l’écart d’efforts de la tâche. 
 - Les EAA des tâches récapitulatives entièrement jusqu’au nœud racine sont recalculés.
-
+- L’effort approuvé sur une tâche récapitulative est la somme de l’effort approuvé sur toutes les tâches enfants plus l’effort approuvé sur la tâche récapitulative.
+- L’effort restant sur la tâche récapitulative est la somme de l’effort restant sur toutes les tâches enfants moins l’effort approuvé sur la tâche récapitulative.
 
 ## <a name="project-status-summary"></a>Résumé du statut du projet
 
-Le suivi des données dans les vues **Suivi d’effort** et **Suivi du coût** affiche la progression et la consommation des coûts au niveau du nœud racine du projet, des tâches récapitulatives et des tâches de nœud terminal. La section **Statut** sur la page **Entité de projet** affiche un résumé du statut au niveau du projet.
+Le suivi des données dans les vues **Suivi des efforts** et **Suivi des coûts** affiche l’avancement et la consommation des coûts au niveau du nœud racine du projet, des tâches récapitulatives et des tâches de nœud terminal. La section **Statut** sur la page **Entité de projet** affiche un résumé du statut au niveau du projet.
 
 ## <a name="status-summary-fields"></a>Champs récapitulatifs du statut
 

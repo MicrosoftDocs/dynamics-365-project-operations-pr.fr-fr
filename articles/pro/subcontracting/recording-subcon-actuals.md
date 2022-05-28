@@ -4,14 +4,14 @@ description: Cette rubrique explique comment le temps, les dépenses et l’util
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 04c78dd48367c3720b8f5ad5d924ed106da6a128
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903408"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599221"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Enregistrement du temps, des dépenses et de l’utilisation du matériel sur les projets pour les composants en sous-traitance
 

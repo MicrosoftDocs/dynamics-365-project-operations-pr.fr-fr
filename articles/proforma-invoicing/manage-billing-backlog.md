@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la façon d’afficher 
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e839c1f32248fff6d97271796666b5031f66490ccd98574045b770100bf379f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9837af0d3c0b2476edab35a53092cf95a44e5244
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991078"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599981"
 ---
 # <a name="manage-billing-backlog"></a>Gérer la réplication de facturation
 

@@ -2,17 +2,17 @@
 title: Résolution des problèmes lors de l’utilisation de la grille des tâches
 description: Cette rubrique fournit les informations de dépannage nécessaires lorsque vous travaillez dans la grille des tâches.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547196"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596415"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Résolution des problèmes lors de l’utilisation de la grille des tâches 
 
@@ -70,6 +70,9 @@ Project Operations requiert qu’un paramètre de projet fasse référence au po
       | Project Operations                   | type=2             |
 
 4. Supprimez le champ de la page **Paramètres du projet**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Atténuation 3 : Se connecter à project.microsoft.com
+Dans votre navigateur Microsoft Edge, ouvrez un nouvel onglet, accédez à project.microsoft.com et connectez-vous en utilisant le rôle d’utilisateur que vous utilisez pour accéder à Project Operations.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problème : le projet ne se charge pas et l’interface utilisateur est bloquée sur le compteur
 

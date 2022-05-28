@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7efbb19161878e13a1b0d33bc1bc4e06521445c0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002958"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596967"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Comment personnaliser le flux des processus d’entreprise des phases du projet ?
 

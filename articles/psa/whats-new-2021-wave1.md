@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9439aefda275e9c6256215fa6e82e13f693e61a0dd9b2c68b8e5273eeac4d64b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: ed2d497146d711fe7e2af06e7ba37c5045aa63e9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999808"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598807"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Nouveautés ou modifications dans Project Service Automation, 1re vague du lancement 2021 en accès anticipé, V3
 

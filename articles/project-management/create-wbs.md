@@ -4,14 +4,14 @@ description: Cette rubrique explique comment créer une structure de répartitio
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928612"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597795"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Créer une structure de répartition du travail (WBS)
 
@@ -124,7 +124,7 @@ Vous devez tenir compte des limitations suivantes si vous utilisez la structure 
 |----------------------------------------------------|----------------------|
 | Nombre total maximal de tâches pour un projet                  | 500                  |
 | Durée totale maximale d’un projet               | 3 650 jours (10 ans) |
-| Nombre total maximal de ressources pour un projet              | 150                  |
+| Nombre total maximal de ressources pour un projet              | 300                  |
 | Nombre total maximal de liens (successeur uniquement) pour un projet | 600                  |
 | Nombre total maximal de champs personnalisés pour un projet          | 10                   |
 | Nombre maximal d’éléments de la liste de contrôle par tâche                   | 20                   |

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008088"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599543"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de janvier 2021 – Project Operations pour les scénarios selon les ressources/produits non stockés
 
@@ -22,7 +22,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
   - Version 4.6.0.154 de Project Operations dans l’environnement Dataverse
-  - Version 10.0.16 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
+  - Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.16
 
 ## <a name="quality-updates"></a>Mises à jour qualité
 
@@ -43,7 +43,7 @@ Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 
 | **Planification et suivi de projets** | 2090202 | Les règles métier marquées qui ne sont plus utilisées comme **Obsolètes**. |
 | **Temps et dépenses** | 2091249 | Des contrôles renforcés afin que les utilisateurs ne puissent pas modifier la tâche sur une entrée de temps approuvée ou soumise. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestion du projet et comptabilité dans Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Vue d’ensemble de la gestion et comptabilité des projets dans Dynamics 365 Finance
 
 | **Zone Fonctionnalités** | **Numéro de référence** | **Mise à jour qualité** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 
 
 ## <a name="regulatory-updates"></a>Mises à jour réglementaires
 
-Pour plus d’informations sur les mises à jour réglementaires pour les applications Finance and Operations, consultez [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
+Pour plus d’informations sur les mises à jour réglementaires pour les applications de finances et d’opérations, voir [Mises à jour réglementaires](/dynamics365/finance/localizations/regulatory-updates). Vous pouvez également vous connecter à LCS et afficher les mises à jour réglementaires planifiées à l’aide de l’outil de recherche d’incidents. La recherche d’incidents vous permet d’effectuer une recherche par pays, type de fonctionnalité et version.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

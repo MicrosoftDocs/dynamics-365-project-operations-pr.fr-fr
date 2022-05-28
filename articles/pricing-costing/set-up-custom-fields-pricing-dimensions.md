@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003588"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599405"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurer des champs personnalisés comme dimensions de tarification
 
@@ -73,12 +73,12 @@ Il existe deux types de dimensions de tarification :
   
 | Rôle        | Unité d’organisation    |Emplacement de travail      |Titre standard      |Heures de travail de la ressource      |  Majoration|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Inde|Sur site            |                    |Heures supplémentaires                 |15     |
-|             | Contoso Inde|Local             |                    |Heures supplémentaires                 |10     |
-|             | Contoso US   |Local             |                    |Heures supplémentaires                 |20     |
+|             | Contoso Inde|Sur site            |                    |Heures supplémentaires                 |15     |
+|             | Contoso Inde|Local             |                    |Heures supplémentaires                 |10     |
+|             | Contoso US   |Local             |                    |Heures supplémentaires                 |20     |
 
 
-Si une ressource de Contoso Inde dont le taux de base est 100 USD travaille sur site, et elle consigne 8 heures de travail normales et 2 heures supplémentaires dans l’entrée de temps, le moteur de tarification utilise le taux de base de 100 USD pour les 8 heures pour obtenir 800 USD. Pour les 2 heures supplémentaires, une majoration de 15 %% est appliquée au taux de base de 100 USD pour obtenir un prix unitaire de 115 USD et un coût total de 230 USD.
+Si une ressource de Contoso Inde dont le taux de base est 100 USD travaille sur site, et si elle consigne 8 heures de travail normales et 2 heures supplémentaires dans l’entrée de temps, le moteur de tarification utilise le taux de base de 100 USD pour les 8 heures pour obtenir 800 USD. Pour les 2 heures supplémentaires, une majoration de 15 %% est appliquée au taux de base de 100 USD pour obtenir un prix unitaire de 115 USD et un coût total de 230 USD.
 
 ### <a name="applicable-to-cost"></a>Applicable aux coûts 
 Si ce paramètre est défini sur **Oui**, cela indique que la valeur de dimension dans le contexte d’entrée doit être utilisée pour la mise en correspondance avec les champs **Prix du rôle** et **Majoration du prix du rôle** lors de la récupération des taux de coût et de majoration.

@@ -5,14 +5,14 @@ author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008808"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594943"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nouveautés ou modifications de décembre 2020 – Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication
 
@@ -20,7 +20,7 @@ _S’applique à : Project Operations pour les scénarios basés sur les produ
 
 Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
 
-  - Version 10.0.15 de gestion de projet et comptabilité dans l’environnement de Dynamics 365 Finance
+  - Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.15
 
 ## <a name="quality-updates"></a>Mises à jour qualité
 

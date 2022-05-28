@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: cf51333179d2d972af84de7adb4b718b6e17d038
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985319"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598899"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Gérer les projets et les réservations dans votre calendrier (Project Service)
 

@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: df9842c9a3f148d6a6d902ef8013f7a17bc36b04ab3f98c0c770b6509ea3e25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: bde204255058e69d32b96d03a98d5bc690fa0107
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985688"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597519"
 ---
 # <a name="get-the-apps-project-service"></a>Obtenir les applications (Project Service)
 

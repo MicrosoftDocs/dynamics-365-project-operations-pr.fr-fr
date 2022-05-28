@@ -14,12 +14,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bc293e7686b7fd7d50d232cb8b26bfc03eb29c8911b52536d2b0a3a4929730c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000303"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595495"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Modifications de la gestion des ressources (Project Service Automation 3.x)
 

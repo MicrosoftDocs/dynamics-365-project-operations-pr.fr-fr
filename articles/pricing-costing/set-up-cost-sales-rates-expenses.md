@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la configuration des ta
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0c5e7b1ab03a170ca95a005985a13aaff7494f95ca15cf1ce726674ae9a14222
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de7f95f9dcb1dff866d165dba9aaaedb480c1ad5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986218"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598439"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurer les taux de coûts et de vente pour les dépenses
 

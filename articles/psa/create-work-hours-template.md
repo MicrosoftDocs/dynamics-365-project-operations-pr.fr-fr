@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987388"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598945"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Créer un modèle d’heures de travail (Project Service)
 
@@ -49,7 +50,7 @@ Pour créer un modèle de calendrier pour votre organisation, il existe deux exi
 
 1. Accédez à **Ressources** \> **Ressources**.
 2. Créez une nouvelle ressource à référencer dans le modèle de calendrier ou sélectionnez une ressource existante.
-3. Sélectionnez l’onglet **Heures de travail** de la ressource et suivez les instructions dans [Définition des heures de travail pour une ressource](/dynamics365/field-service/set-work-hours-resource.md) pour configurer les règles du calendrier.
+3. Sélectionnez l’onglet **Heures de travail** de la ressource et suivez les instructions dans [Définition des heures de travail pour une ressource](/dynamics365/field-service/set-work-hours-resource) pour configurer les règles du calendrier.
 
 **Créer un modèle de calendrier**
 

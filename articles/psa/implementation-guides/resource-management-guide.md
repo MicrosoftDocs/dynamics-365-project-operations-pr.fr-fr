@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b78d6771807b77e2f314cb297fd3563e235bbf53756673fc480df09e9b84dbbf
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985229"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595449"
 ---
 # <a name="resource-management-guide"></a>Guide de gestion des ressources
 

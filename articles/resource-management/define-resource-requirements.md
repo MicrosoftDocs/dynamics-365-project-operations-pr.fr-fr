@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la définition des info
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0fe030610424e84c823ae454542f2609a0b206033ab549619865e2c649cce113
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6f1b69269203a9b05dbda9d3ac8d9fbb57d917c5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990268"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594391"
 ---
 # <a name="define-resource-requirements"></a>Définir des besoins en ressources
 

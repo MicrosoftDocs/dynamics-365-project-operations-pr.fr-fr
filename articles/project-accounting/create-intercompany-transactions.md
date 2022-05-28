@@ -4,14 +4,14 @@ description: Cette rubrique fournit des informations sur la manière de créer d
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005478"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599963"
 ---
 # <a name="create-intercompany-transactions"></a>Créer des transactions intersociétés
 
@@ -37,7 +37,7 @@ Le système crée le coût unitaire des ressources et les chiffres réels des ve
   - Lorsque l’unité de ressources diffère de l’unité contractante
   - Lorsque la société de ressources diffère de la société contractante
 
-Cependant, seules les transactions qui ont une société de ressources différente de la société contractante seront transférées vers l’environnement Dynamics 365 Finance pour une comptabilité supplémentaire.
+Cependant, seules les transactions qui ont une société d’allocation de ressources différente de la société contractante seront transférées vers l’environnement Dynamics 365 Finance pour une comptabilité supplémentaire.
 
 La comptabilité des chiffres réels du projet est enregistrée dans le journal d’intégration Project Operations de Finance. Le système crée les lignes de journal suivantes.
 
@@ -60,9 +60,9 @@ Molly Clark, développeuse employée chez GBPM enregistre 10 heures de travail 
     4. Définissez la devise sur **USD**.
     5. Enregistrez l’enregistrement.
 3. Accédez à **Ventes** > **Contrats de projet** et créez un nouveau contrat de projet pour Adventure Works.
-    1. Définir la société propriétaire sur **USPM** et l’unité contractuelle sur **Contoso Robotics États-Unis**.
+    1. Définissez la société propriétaire sur **USPM** et l'unité contractante sur **Contoso Robotics US**.
     2. Sélectionnez Adventure Works comme client.
-    3. Sélectionnez des tarifs de produit et enregistrez l’enregistrement.
+    3. Sélectionnez des tarifs de produit et enregistrez l'enregistrement.
     4. Sur l’onglet **Lignes de contrat**, créez une nouvelle ligne de contrat. Définissez n’importe quel nom et sélectionnez **Temps et matériaux** comme méthode de facturation.
     5. Créez un nouveau projet et associez-le à cette ligne de contrat.
 4. Connectez-vous en tant que ressource, **Molly Clark**. Accédez à **Projets** > **Entrées de temps** et créez une entrée de temps pour le projet Adventure Works.

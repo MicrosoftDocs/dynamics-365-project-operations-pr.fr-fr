@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cba1f9915087f7910a9aa93378cb861983ca36ab
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994498"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600325"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Désactiver une dimension de tarification
 
@@ -38,8 +38,8 @@ Ce message d’erreur indique que des enregistrements de prix ont été précéd
 
 | Titre standard         | Unité d’organisation    |Unité   |Prix  |Devise  |
 | -----------------------|-------------|-------|-------|----------|
-| Ingénieur système|Contoso US|heure| 100|USD|
-| Ingénieur senior système|Contoso US|heure| 150| USD|
+| Ingénieur système|Contoso US|Hour| 100|USD|
+| Ingénieur senior système|Contoso US|Hour| 150| USD|
 
 
 Lorsque vous désactivez la valeur **Titre standard** comme dimension de tarification et que le moteur de tarification recherche un prix, il utilise uniquement la valeur **Unité d’organisation** dans le contexte d’entrée. Si la valeur **Unité d’organisation** du contexte d’entrée est « Contoso US », le résultat n’est pas déterministe car les deux lignes correspondent. Pour éviter ce scénario, lorsque vous créez des enregistrements **Prix du rôle**, le système valide le fait que la combinaison de dimensions est unique. Si la dimension est désactivée après la création des enregistrements **Prix du rôle**, cette contrainte peut être enfreinte. Par conséquent, avant de désactiver une dimension, il est nécessaire de supprimer toutes les lignes **Prix du rôle** et **Majoration du prix du rôle** pour lesquelles cette valeur de dimension est renseignée.
