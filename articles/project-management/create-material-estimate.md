@@ -4,20 +4,20 @@ description: Cette sujet fournit des informations sur la définition ou l’esti
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992608"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737299"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Estimations financières pour le matériel des projets
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Dynamics 365 Project Operations permet aux chefs de projet de définir des coûts de matériel basés sur un projet pour chaque projet ou tâche. Chaque estimation de matériaux peut être associée à une tâche de projet spécifique. Les dépenses sont classées en différentes catégories de dépenses définies au niveau organisationnel. La tarification et l’évaluation des coûts pour chaque catégorie de dépense sont définis dans la liste de prix. 
+Dynamics 365 Project Operations permet aux chefs de projet de définir des coûts de matériel basés sur un projet pour chaque projet ou tâche. Chaque estimation de matériaux peut être associée à une tâche de projet spécifique. Les matériaux utilisés sur les projets peuvent être des produits écrits ou des produits du catalogue de produits. Pour chaque combinaison d’un produit et d’une unité, un prix peut être défini dans les tarifs du projet pour les ventes et dans les tarifs du projet pour le coût.  
 
 Pour afficher, ajouter ou supprimer une estimation de matériaux de projet, procédez comme suit :
 
