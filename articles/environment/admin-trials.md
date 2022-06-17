@@ -1,17 +1,17 @@
 ---
 title: S’inscrire aux versions d’essai de Project Operations
-description: Cette rubrique fournit des informations sur le déploiement d’une version d’essai de Dynamics 365 Project Operations.
+description: cet article fournit des informations sur la façon de déployer un essai de Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584271"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959428"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>S’inscrire aux versions d’essai de Project Operations 
 
@@ -19,9 +19,9 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 
 
-Cette rubrique explique comment souscrire à l’offre partenaire en version préliminaire et déployer un environnement Dynamics 365 Project Operations.
+Cet article explique comment souscrire à l’offre partenaire en avant-première et déployer un environnement Dynamics 365 Project Operations.
 
-Avec la nouvelle version d’essai de Project Operations, vous pouvez déployer automatiquement l’un des trois scénarios de déploiement pris en charge en remplissant un questionnaire qui recommande la meilleure approche de déploiement. Cette rubrique fournit des informations sur ce qui suit :
+Avec la nouvelle version d’essai de Project Operations, vous pouvez déployer automatiquement l’un des trois scénarios de déploiement pris en charge en remplissant un questionnaire qui recommande la meilleure approche de déploiement. Cet article fournit des informations sur :
 
 - Utiliser votre offre d’essai.
 - Lancer l’approvisionnement.
@@ -89,7 +89,8 @@ Avant de commencer, connectez-vous à un navigateur avec le compte professionnel
 4.  Sélectionnez l’URL de l’environnement Microsoft Dataverse respectif et les URL des applications de finances et d’opérations pour valider le déploiement.
 
 ## <a name="configuring-dual-write"></a>Configuration de la double écriture
-- Pour configurer les rôles de sécurité pour la double écriture, voir [Mettre à jour les paramètres de sécurité de Project Operations dans Dataverse](resource-provision-new-environment.md).
+- Pour configurer les rôles de sécurité pour la double écriture, voir [Mettre à jour les paramètres de sécurité de Project Operations dans Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Pour accéder à la configuration à double écriture, accédez à l’instance de Finance and Operations, puis accédez à **Gestion de données** > **Double écriture**.
 - Pour configurer les mappages à double écriture, voir [Exécuter des mappages à double écriture Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Affecter des licences

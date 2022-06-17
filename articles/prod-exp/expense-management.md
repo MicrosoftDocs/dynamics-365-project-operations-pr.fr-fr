@@ -1,6 +1,6 @@
 ---
 title: Présentation de la fonctionnalité de gestion des dépenses
-description: Cette rubrique fournit des informations générales sur la gestion des dépenses et des liens vers des ressources supplémentaires. Vous pouvez utiliser la gestion des dépenses pour créer un flux de travail intégré dans lequel vous pouvez stocker des informations sur le mode de paiement, importer des transactions par carte de crédit et suivre l’argent que les employés dépensent lorsqu’ils engagent des dépenses pour votre entreprise.
+description: Cet article fournit des informations générales sur la Gestion des dépenses, et renvoie vers des ressources supplémentaires. Vous pouvez utiliser la gestion des dépenses pour créer un flux de travail intégré dans lequel vous pouvez stocker des informations sur le mode de paiement, importer des transactions par carte de crédit et suivre l’argent que les employés dépensent lorsqu’ils engagent des dépenses pour votre entreprise.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934041"
 ---
 # <a name="expense-management-overview"></a>Présentation de la fonctionnalité de gestion des dépenses
 

@@ -1,17 +1,17 @@
 ---
 title: Gérer des opportunités basées sur des projets
-description: Cette rubrique fournit des informations sur la manière d’utiliser des opportunités liées à des projets.
+description: Cet article fournit des informations sur l’utilisation des opportunités liées aux projets.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933213"
 ---
 # <a name="manage-project-based-opportunities"></a>Gérer des opportunités basées sur des projets
 
@@ -19,7 +19,7 @@ _**S’applique à :** Project Operations pour les scénarios basés sur les r
 
 Pour les entreprises basées sur des projets, leurs opérations de livraison sont généralement réparties dans plusieurs pays et zones géographiques. Le coût de l’exécution et de la livraison du projet peut varier en fonction de la zone géographique ou de la division qui gère la livraison. De plus, cela peut avoir un impact sur les marges de la transaction. La livraison de services basés sur des projets implique généralement de grandes quantités de temps de ressources humaines, des dépenses considérables pour les déplacements, les frais de matériel et d’autres dépenses.
 
-Les opportunités basées sur des projets dans Dynamics 365 Project Operations sont conçues avec les extensions de Dynamics 365 Sales. La rubrique fournit des détails sur les différents champs et la logique métier inclus dans les fonctionnalités supplémentaires requises par les entreprises basées sur des projets pour gérer les opportunités basées sur des projets.
+Les opportunités basées sur des projets dans Dynamics 365 Project Operations sont conçues avec les extensions de Dynamics 365 Sales. Cet article fournit des détails sur les différents champs et la logique métier inclus dans les fonctionnalités supplémentaires requises par les entreprises basées sur des projets pour gérer les opportunités basées sur des projets.
 
 ## <a name="view-all-project-based-opportunities"></a>Afficher toutes les opportunités basées sur des projets
 

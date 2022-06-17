@@ -1,24 +1,24 @@
 ---
 title: Créer des attributions de ressources
-description: Cette rubrique fournit des informations sur la création d’affectations de ressources génériques et nommées.
+description: Cet article fournit des informations sur la création d’affectations de ressources génériques et nommées.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576543"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933489"
 ---
 # <a name="create-resource-assignments"></a>Créer des attributions de ressources
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
 
-Une affectation de ressource est l’association directe d’un membre de l’équipe de projet à une tâche de nœud terminal. Cette rubrique fournit des informations sur les différentes façons d’attribuer des ressources.
+Une affectation de ressource est l’association directe d’un membre de l’équipe de projet à une tâche de nœud terminal. Cet article fournit des informations sur les différentes moyens d’affecter des ressources.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Créer un membre de l’équipe générique via l’attribution de tâche
 

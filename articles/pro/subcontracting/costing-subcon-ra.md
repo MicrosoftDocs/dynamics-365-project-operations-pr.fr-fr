@@ -1,17 +1,17 @@
 ---
 title: Estimation du coût des attributions de ressources de sous-traitance
-description: Cette rubrique explique comment Microsoft Dynamics 365 Project Operations calcule l’estimation de coût des affectations de ressources sous-traitées.
+description: Cet article explique comment Microsoft Dynamics 365 Project Operations calcule l’estimation de coût des affectations de ressources sous-traitées.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f276e12713261538d1e7520dac17243e578db433
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 40603c1d2dfdd49909d9a4bf5085f43201e8f6bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932339"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Estimation du coût des attributions de ressources de sous-traitance
 

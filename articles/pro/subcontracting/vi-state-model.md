@@ -1,17 +1,17 @@
 ---
 title: Transitions d’état sur une facture fournisseur
-description: Cette rubrique explique les transitions d’état sur une facture fournisseur dans Microsoft Dynamics 365 Project Operations.
+description: Cet article explique les transitions d’état sur une facture fournisseur dans Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7efb52621ee325d5025dfad0b45218d1fe20a063
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 58b07322fb6480fdeb07eb867a7aabc0eff7b955
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584685"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934317"
 ---
 # <a name="state-transitions-on-a-vendor-invoice"></a>Transitions d’état sur une facture fournisseur
 
@@ -19,7 +19,7 @@ ms.locfileid: "8584685"
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Cette rubrique explique les transitions d’état sur une facture fournisseur dans Microsoft Dynamics 365 Project Operations. Les états suivants sont utilisés : **Brouillon**, **En cours de révision**, **Confirmé**, **En attente** et **Annulé**.
+Cet article explique les transitions d’état sur une facture fournisseur dans Microsoft Dynamics 365 Project Operations. Les états suivants sont utilisés : **Brouillon**, **En cours de révision**, **Confirmé**, **En attente** et **Annulé**.
 
 Les illustrations suivantes présentent les transitions d’état.
 

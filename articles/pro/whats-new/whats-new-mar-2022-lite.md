@@ -1,24 +1,24 @@
 ---
 title: Nouveautés de mars 2022 – Déploiement simplifié de Project Operations
-description: Cette rubrique fournit des informations sur les mises à jour de qualité disponibles dans la version de mars 2022 du déploiement simplifié de Project Operations.
+description: Cet article fournit des informations sur les mises à jour de qualité disponibles dans la version de mars 2022 du déploiement simplifié de Project Operations.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934225"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Nouveautés de mars 2022 – Déploiement simplifié de Project Operations
 
 _S’applique à : Déploiement simplifié – Traiter la facturation pro forma_
 
-Ce sujet s’applique aux composants et versions suivants de Microsoft Dynamics 365 Project Operations :
+Cet article s’applique aux composants et versions suivants de Microsoft Dynamics 365 Project Operations :
 
 - Project Operations dans un environnement Dataverse, version 4.30.0.99
 
@@ -51,9 +51,9 @@ Ce sujet s’applique aux composants et versions suivants de Microsoft Dynamics 
 
 ## <a name="removed-and-deprecated-features"></a>Fonctionnalités supprimées et obsolètes
 
-La rubrique [Fonctionnalités supprimées ou obsolètes dans Project Operations](../../whats-new/removed-depreciated-features-project.md) décrit les fonctionnalités qui ont été supprimées ou obsolètes pour Dynamics 365 Project Operations.
+L’article [Fonctionnalités supprimées ou obsolètes dans Project Operations](../../whats-new/removed-depreciated-features-project.md) décrit les fonctionnalités qui ont été supprimées ou obsolètes pour Dynamics 365 Project Operations.
 
 - Une fonctionnalité supprimée n’est plus disponible dans le produit.
 - Une fonction déconseillée n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
-Une annonce d’obsolescence apparaît dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 mois avant le retrait.
+Une annonce d’obsolescence apparaît dans l’article [Fonctionnalités supprimées ou obsolètes dans Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 mois avant le retrait.

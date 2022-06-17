@@ -1,6 +1,6 @@
 ---
 title: Planification et de suivi de projets
-description: Cette rubrique fournit un lien vers des informations sur la planification et le suivi dans Project Service Automation.
+description: Cet article fournit un lien vers des informations sur la planification et le suivi dans Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933259"
 ---
 # <a name="project-planning-and-tracking"></a>Planification et de suivi de projets
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589883"
 
 L’application Project Service aide les organisation à identifier des opportunités, envoyer des offres, conclure des contrats contractuels, gérer des ressources, suivre le temps et les dépenses, facturer des clients et à fournir des projets en respectant les délais et le budget. 
 
-Le lien PDF précédemment dans cette rubrique a été supprimé et le contenu a été déplacé vers les rubriques suivantes :
+Le lien PDF précédemment dans cet article a été supprimé et le contenu a été déplacé vers les articles suivantes :
 
 - [Planifications de projets](../project-creating.md)
 - [Revenu et coûts du projet](../project-estimating.md)
@@ -43,7 +43,7 @@ Le lien PDF précédemment dans cette rubrique a été supprimé et le contenu a
 - [Paramètres du projet](../project-settings.md)
 
 > [!NOTE]
-> Cette rubrique sera supprimée dans une future mise à jour de documentation. 
+> Cet article sera supprimé dans une future mise à jour de documentation. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

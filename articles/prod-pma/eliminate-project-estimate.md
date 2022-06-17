@@ -1,6 +1,6 @@
 ---
 title: Éliminer une estimation de projet
-description: Cette rubrique fournit des informations sur l’élimination d’une estimation de projet une fois qu’elle est terminée.
+description: Cet article fournit des informations sur l’élimination d’une estimation de projet une fois celle-ci terminée.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 267b5ffab7ef3a6776c31100deea81fb523752b6
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: de54659f9e69daf1566f86bec16436c19eeacf49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684087"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932201"
 ---
 # <a name="eliminate-a-project-estimate"></a>Éliminer une estimation de projet
 

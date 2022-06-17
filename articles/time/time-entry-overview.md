@@ -1,17 +1,17 @@
 ---
 title: Vue d’ensemble du temps
-description: Cette rubrique donne des informations sur la fonctionnalité de temps dans Dynamics 365 Project Operations.
+description: Cet article fournit des informations sur la fonctionnalité de temps dans Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 138c339cff7b68ad5dd0d54d5f9be3418cb29fa6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ac1e20e930a23aeb77bf667c23ee9c064d8f769e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931787"
 ---
 # <a name="time-overview"></a>Vue d’ensemble du temps
 

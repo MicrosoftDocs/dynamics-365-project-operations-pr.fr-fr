@@ -1,25 +1,25 @@
 ---
 title: Nouveautés de janvier 2021 – Déploiement léger de Project Operations
-description: Cette rubrique fournit des informations sur les mises à jour qualité disponibles dans la version de janvier 2021 du déploiement simplifié de Project Operations.
+description: Cet article fournit des informations sur les mises à jour de qualité disponibles dans la version de janvier 2021 du déploiement simplifié de Project Operations.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 17accd33a6126918e02e90b67636d95342efdd65
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47932fb89cdd9481988d00f2f3be094b68110cbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934271"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Nouveautés de janvier 2021 – Déploiement léger de Project Operations
 
 
 _S’applique à : Déploiement simplifié – Traiter la facturation pro forma_
 
-Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cet article s’applique aux composants et versions de Microsoft Dynamics 365 Project Operations suivants :
 
   - Version 4.6.0.154 de Project Operations dans l’environnement Dataverse.
   

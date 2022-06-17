@@ -1,17 +1,17 @@
 ---
 title: Versions du mappage à double écriture Project Operations
-description: Cette rubrique fournit la liste des mappages à double écriture requis pour Dynamics 365 Project Operations.
+description: Cet article fournit la liste des cartes à double écriture requises pour Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612747"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959409"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versions du mappage à double écriture Project Operations
 
@@ -54,7 +54,7 @@ Les mappages suivants sont requis pour une solution Project Operations. Les vers
 | Entité d’intégration Project Operations pour les estimations d’heures (msdyn_resourceassignments) | 1.0.0.5 | Non requis pour l’approvisionnement. ||
 | Entité d’exportation des catégories de dépenses de projet d’intégration de Project Operations (msdyn_expensecategories) | 1.0.0.1 | Non requis pour l’approvisionnement. ||
 | Entité d’exportation des dépenses de projet d’intégration de Project Operations (msdyn_expenses) | 1.0.0.3 | Non requis pour l’approvisionnement. ||
-| Entité d’exportation des factures fournisseur de projet d’intégration de Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Non requis pour l’approvisionnement. ||
+| Entité d’exportation des factures fournisseur de projet d’intégration de Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Non requis pour l’approvisionnement. |10.0.26 ou version ultérieure|
 | Entité d’exportation des lignes de facture fournisseur de projet d’intégration de Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Non requis pour l’approvisionnement. | 10.0.26 ou version ultérieure |
 | Rôles des ressources de projet pour toutes les entreprises (bookableresourcecategories) | 1.0.0.1 | Nécessite une synchronisation initiale afin que le mappage de table synchronise les rôles de ressources de gestionnaire de projet et de membre d’équipe qui sont renseignés dans l’environnement Dynamics 365 Dataverse pendant l’approvisionnement. Dataverse est la source principale de la synchronisation initiale. ||
 | Tâches du projet (msdyn_projecttasks) | 1.0.0.4 | Non requis pour l’approvisionnement. ||

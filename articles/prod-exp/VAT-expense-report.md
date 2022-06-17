@@ -1,6 +1,6 @@
 ---
 title: Récupération de la TVA
-description: Cette rubrique explique comment récupérer des remboursements sur les transactions de taxe sur la valeur ajoutée (TVA).
+description: Cet article explique comment récupérer des remboursements sur les transactions de taxe sur la valeur ajoutée (TVA).
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ab390e399e0c709cd72219f0a1d85116b33b84e
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a5798c11b4f7a9e49318cdab097746f21c2e81e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934087"
 ---
 # <a name="vat-recovery"></a>Récupération de la TVA 
 
@@ -42,11 +42,11 @@ Les sections suivantes fournissent des exemples qui montrent comment les employ�
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Dans une note de frais, saisissez les informations fiscales relatives aux transactions par carte de crédit pour identifier les remboursements de TVA éligibles.
 
-Geneviève, une représentante commerciale de Contoso basée aux États-Unis, est récemment revenue d'un voyage d'affaires au Royaume-Uni. Pendant le voyage, elle a engagé des dépenses personnelles de carte de crédit pour les repas. Geneviève doit maintenant créer une note de frais pour rapprocher ses dépenses.
+Geneviève, une représentante commerciale de Contoso basée aux États-Unis, est récemment revenue d’un voyage d’affaires au Royaume-Uni. Pendant le voyage, elle a engagé des dépenses personnelles de carte de crédit pour les repas. Geneviève doit maintenant créer une note de frais pour rapprocher ses dépenses.
 
-Lorsque Geneviève entre des informations sur sa note de frais, elle sélectionne **Royaume-Uni** dans le champ **Pays/région** sur la page **Modifier la note de frais**. La liste des groupes de taxe est ensuite filtrée afin qu’elle n’affiche que les groupes qui s’appliquent au Royaume-Uni. Geneviève sélectionne le groupe de taxe **Royaume-Uni 001**, puis sélectionne le groupe de taxe d’article **Repas**. Elle ajoute ensuite une nouvelle transaction pour son hébergement. Comme il n'y a qu'un seul groupe de taxe et un seul groupe de taxe d'article pour l'hébergement au Royaume-Uni, ces informations sont automatiquement renseignées sur la note de frais de Geneviève.
+Lorsque Geneviève entre des informations sur sa note de frais, elle sélectionne **Royaume-Uni** dans le champ **Pays/région** sur la page **Modifier la note de frais**. La liste des groupes de taxe est ensuite filtrée afin qu’elle n’affiche que les groupes qui s’appliquent au Royaume-Uni. Geneviève sélectionne le groupe de taxe **Royaume-Uni 001**, puis sélectionne le groupe de taxe d’article **Repas**. Elle ajoute ensuite une nouvelle transaction pour son hébergement. Comme il n’y a qu’un seul groupe de taxe et un seul groupe de taxe d’article pour l’hébergement au Royaume-Uni, ces informations sont automatiquement renseignées sur la note de frais de Geneviève.
 
-Selon la stratégie Contoso, toutes les dépenses doivent avoir un reçu correspondant. Par conséquent, lorsque Geneviève enregistre sa note de frais, elle reçoit un message indiquant qu'elle doit joindre un reçu pour chaque transaction qu'elle a inscrite sur sa note de frais. Geneviève vérifie qu’elle a joint une image numérique de chaque reçu de transaction à son rapport de dépenses, puis soumet son rapport pour approbation. Elle envoie ensuite les reçus papier à l’équipe de traitement du back-office. Cette équipe enverra les données de récupération de TVA au fournisseur tiers qui dépose les déclarations internationales de récupération de TVA pour Contoso.
+Selon la stratégie Contoso, toutes les dépenses doivent avoir un reçu correspondant. Par conséquent, lorsque Geneviève enregistre sa note de frais, elle reçoit un message indiquant qu’elle doit joindre un reçu pour chaque transaction qu’elle a inscrite sur sa note de frais. Geneviève vérifie qu’elle a joint une image numérique de chaque reçu de transaction à son rapport de dépenses, puis soumet son rapport pour approbation. Elle envoie ensuite les reçus papier à l’équipe de traitement du back-office. Cette équipe enverra les données de récupération de TVA au fournisseur tiers qui dépose les déclarations internationales de récupération de TVA pour Contoso.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Assurez-vous que toutes les informations fiscales sont complètes, puis validez la note de frais.
 
@@ -56,7 +56,7 @@ Lorsque April publie la note de frais, un élément de travail de TVA récupéra
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Traiter les dépenses éligibles à la récupération internationale de la TVA
 
-Arnie, membre de l'équipe de traitement back-office de Contoso, est chargé de vérifier que toutes les informations requises pour la récupération de la TVA sont incluses dans les notes de frais. Il ouvre la page **Récupération de la taxe sur les dépenses** et sélectionne la note de frais que Geneviève a soumise. Arnie vérifie que tous les reçus requis sont joints et que le groupe de taxe et les codes de taxe d’article corrects ont été saisis.
+Arnie, membre de l’équipe de traitement back-office de Contoso, est chargé de vérifier que toutes les informations requises pour la récupération de la TVA sont incluses dans les notes de frais. Il ouvre la page **Récupération de la taxe sur les dépenses** et sélectionne la note de frais que Geneviève a soumise. Arnie vérifie que tous les reçus requis sont joints et que le groupe de taxe et les codes de taxe d’article corrects ont été saisis.
 
 Lorsqu’Arnie reçoit les reçus papier de Geneviève, il les vérifie par rapport aux reçus numériques, puis change le statut de la note de frais en **Prêt pour la récupération**.
 

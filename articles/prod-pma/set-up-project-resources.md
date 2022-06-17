@@ -1,6 +1,6 @@
 ---
 title: Configurer les ressources de projet
-description: Cette rubrique fournit des informations sur la configuration ou la demande de ressources de projet.
+description: Cet article fournit des informations sur la configuration ou la demande de ressources de projet.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9af71fe0638a5601ded3f0e80301ae5dfa198c1
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 5a4e6fe829d6b39aed9eb6aaea42f245fc997593
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933765"
 ---
 # <a name="set-up-project-resources"></a>Configurer les ressources de projet
 

@@ -1,17 +1,17 @@
 ---
 title: Créer une structure de répartition du travail
-description: Cette rubrique explique comment créer une structure de répartition du travail (WBS) incluant les commandes de base dans la nouvelle interface de planification.
+description: Cet article explique comment créer une structure de répartition du travail (WBS) incluant les contrôles de base dans la nouvelle interface de planification.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932063"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Créer une structure de répartition du travail (WBS)
 

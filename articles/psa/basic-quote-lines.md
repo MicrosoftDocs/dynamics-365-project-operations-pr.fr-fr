@@ -1,6 +1,6 @@
 ---
 title: Devis et lignes de devis
-description: Cette rubrique fournit des informations sur les devis et les lignes de devis.
+description: Cet article fournit des informations sur les devis et les lignes de devis.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933351"
 ---
 # <a name="quotes-and-quote-lines"></a>Devis et lignes de devis
 
@@ -39,7 +39,7 @@ Dans Dynamics 365 Project Service Automation, il existe deux types de devis : l
 - Un devis de vente ne comprend pas certains champs et les concepts qui se trouvent sur un devis de projet sont dotés de champs. Les champs incluent **Unité contractuelle**, **Gestionnaire de comptes** et **Nom du contact de facturation**.  
 - Les devis de vente et les devis de projet sont également identifiés par un champ basé sur un jeu de données nommé **Type**. Pour un devis de vente, ce champ a la valeur **Basé sur l’article**. Pour un devis de projet, il a la valeur **Basé sur le travail**.
 
-Cette rubrique se concentre sur les détails des devis de projet.
+Cet article se concentre sur les détails des devis de projet.
 
 Un devis de projet dans PSA peut avoir plusieurs lignes ou lignes de devis. En fait, un devis de projet a deux grilles pour les lignes. Une grille pour les lignes basées sur le projet qui permettent des estimations détaillées. L’autre grille est pour les lignes basées sur le produit qui utilisent un seul prix unitaire et une approche basée sur la quantité.
 

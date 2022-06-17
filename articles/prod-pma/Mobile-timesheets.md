@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 028e95008f5483ce3933f6248e037a10ab4fe2f4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 6332b80ff517c66834bfa4ca7bce35205fdc0a96
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933903"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Feuilles de temps de projet sur un appareil mobile
 

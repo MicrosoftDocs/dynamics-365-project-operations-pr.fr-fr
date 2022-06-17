@@ -1,17 +1,17 @@
 ---
 title: Confirmer une facture fournisseur de projet
-description: Cette rubrique explique comment confirmer une facture fournisseur de projet dans Microsoft Dynamics 365 Project Operations et l’impact financier de la confirmation d’une facture fournisseur de projet.
+description: Cet article explique comment confirmer une facture fournisseur de projet dans Microsoft Dynamics 365 Project Operations et l’impact financier de la confirmation d’une facture fournisseur de projet.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c248b3baec6d3f14a020e4fa93f3dad50c65b263
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 092b3cd5981f7d9bb8767c7a2acb2f4952801d06
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932431"
 ---
 # <a name="confirm-a-project-vendor-invoice"></a>Confirmer une facture fournisseur de projet
 

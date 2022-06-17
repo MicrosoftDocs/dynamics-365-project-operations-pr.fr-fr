@@ -1,24 +1,24 @@
 ---
 title: Nouveautés ou modifications dans Project Operations de juillet 2021 pour les scénarios basés sur le stock/la production
-description: Cette rubrique fournit des informations sur les mises à jour de qualité disponibles dans la version de juillet 2021 de Project Operations pour les scénarios basés sur le stock/la production.
+description: Cet article fournit des informations sur les mises à jour de qualité disponibles dans la version de juillet 2021 de Project Operations pour les scénarios basés sur la production/produits stockés.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933627"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Nouveautés ou modifications dans Project Operations de juillet 2021 pour les scénarios basés sur le stock/la production
 
 _**S’applique à :** Project Operations pour les scénarios basés sur le stock/la production_
 
-Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cet article s’applique aux composants et versions de Microsoft Dynamics 365 Project Operations suivants :
 
 - Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.20
  

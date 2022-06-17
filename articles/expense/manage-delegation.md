@@ -1,6 +1,6 @@
 ---
 title: Gérer la délégation
-description: Cette rubrique fournit des informations sur la façon dont un délégué aux dépenses peut créer et gérer les notes de frais d’un autre employé.
+description: Cet article fournit des informations sur la façon dont un délégué des dépenses peut créer et gérer des notes de frais pour un autre employé.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c2bb7ea9d93d7b60e639f2fe6dd37c466737157b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2796aca572eb0a239b6a23ef735e87a8aa46fbbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934593"
 ---
 # <a name="manage-delegation"></a>Gérer la délégation
 Un délégué aux dépenses peut créer et gérer des notes de frais pour un autre employé.

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933995"
 ---
 # <a name="configure-expense-management"></a>Configurer la gestion des dépenses
 
-Cette rubrique décrit les considérations et les décisions que vous devez prendre pendant le processus de planification avant de configurer la gestion des dépenses. Dans la gestion des dépenses, vous pouvez stocker des informations sur les modes de paiement, les demandes de déplacement, les notes de frais, les politiques, etc.
+Cet article décrit les considérations et les décisions que vous devez prendre au cours du processus de planification avant de configurer la gestion des dépenses. Dans la gestion des dépenses, vous pouvez stocker des informations sur les modes de paiement, les demandes de déplacement, les notes de frais, les politiques, etc.
 
 Étant donné qu’un grand nombre des décisions que vous prenez lorsque vous planifiez votre configuration pour la gestion des dépenses sont basées sur la hiérarchie et la structure financière de votre organisation, vous devez vous référer aux documents de planification de ces domaines.
 

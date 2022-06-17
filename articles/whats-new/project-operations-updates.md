@@ -1,18 +1,18 @@
 ---
-title: Mises à jour de Project Operations
-description: Cette rubrique fournit des informations sur les versions de Dynamics 365 Project Operations.
+title: Mises à jour de Project Operations
+description: Cet article donne des informations sur les versions publiées de Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732928"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959500"
 ---
 # <a name="project-operations-updates"></a>Mises à jour de Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations comprend deux composants :
 
 | Project Operations dans l’environnement Dataverse | Gestion de projet et comptabilité dans les environnements d’applications de finances et d’opérations | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Pour le scénario Project Operations basés sur les ressources/produits non stockés, nous vous recommandons d’utiliser la version d’orchestration à double écriture 2.3.1.15 ou une version ultérieure.
 
@@ -47,24 +47,24 @@ Des mises à jour de Project Operations dans l’environnement Dataverse sont di
 | Station | Région | Numéro de version actuelle | Mises à jour automatiques pour le déploiement simplifié | Mises à jour automatiques pour le déploiement basé sur les ressources/produits hors stock | Prochain numéro de version | Prochaine version généralement disponible |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Première version         |  4.42.0.70      | Terminée           | Terminée            | À définir                 | 27 mai 2022        |
+|   &nbsp;  | Première version         |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amérique du Sud         |  4.42.0.70      | Terminée           | Terminée            | À définir                 | 27 mai 2022        |
-|   &nbsp;  | Canada                |  4.42.0.70      | Terminée           | Terminée            | À définir                 | 27 mai 2022        |
-|   &nbsp;  | Inde                 |  4.42.0.70      | Terminée           | Terminée            | À définir                 | 27 mai 2022        |
-|   &nbsp;  | France                |  4.42.0.70      | Terminée           | Terminée            | À définir                 | 27 mai 2022        |
-|   &nbsp;  | Afrique du Sud          |  4.42.0.70      | Terminée           | Terminée            | À définir                 | 27 mai 2022        |
-|   &nbsp;  | Suisse           |  4.42.0.70      | Terminée           | Terminée            | À définir                 | 27 mai 2022        |
+|   &nbsp;  | Amérique du Sud         |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
+|   &nbsp;  | Canada                |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
+|   &nbsp;  | Inde                 |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
+|   &nbsp;  | France                |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
+|   &nbsp;  | Afrique du Sud          |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
+|   &nbsp;  | Suisse           |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japon                 |  4.42.0.70      | 13 mai 2022       | 13 mai 2022        | À définir                 | 03 juin 2022       |
-|   &nbsp;  | Asie-Pacifique          |  4.42.0.70      | 13 mai 2022       | 13 mai 2022        | À définir                 | 03 juin 2022       |
-|   &nbsp;  | Grande-Bretagne         |  4.42.0.70      | 13 mai 2022       | 13 mai 2022        | À définir                 | 03 juin 2022       |
-|   &nbsp;  | Océanie               |  4.42.0.70      | 13 mai 2022       | 13 mai 2022        | À définir                 | 03 juin 2022       |
-|   &nbsp;  | Émirats Arabes Unis  |  4.42.0.70      | 13 mai 2022       | 13 mai 2022        | À définir                 | 03 juin 2022       |
+|   &nbsp;  | Japon                 |  4.43.0.77      | 03 juin 2022      | 03 juin 2022       | À définir                 | 08 juillet 2022       |
+|   &nbsp;  | Asie-Pacifique          |  4.43.0.77      | 03 juin 2022      | 03 juin 2022       | À définir                 | 08 juillet 2022       |
+|   &nbsp;  | Grande-Bretagne         |  4.43.0.77      | 03 juin 2022      | 03 juin 2022       | À définir                 | 08 juillet 2022       |
+|   &nbsp;  | Océanie               |  4.43.0.77      | 03 juin 2022      | 03 juin 2022       | À définir                 | 08 juillet 2022       |
+|   &nbsp;  | Émirats Arabes Unis  |  4.43.0.77      | 03 juin 2022      | 03 juin 2022       | À définir                 | 08 juillet 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.41.0.45      | Terminée           | Terminée            | 4.42.0.70           | 13 mai 2022        |
+|   &nbsp;  | Europe                |  4.42.0.70      | Terminée           | Terminée            | 4.43.0.77           | 10 juin 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amérique du Nord         |  4.41.0.45      | Terminée           | Terminée            | 4.42.0.70           | 20 mai 2022        |
+|   &nbsp;  | Amérique du Nord         |  4.42.0.70      | Terminée           | Terminée            | 4.43.0.77           | 17 juin 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendrier de publication pour Gestion de projet et comptabilité dans l’environnement d’applications de finances et d’opérations
 
