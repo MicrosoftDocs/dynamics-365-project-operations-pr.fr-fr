@@ -1,24 +1,24 @@
 ---
 title: Configurer la rétention de fournisseurs
-description: Cette rubrique explique comment configurer la rétention de fournisseurs.
+description: Cet article explique comment configurer la rétention de fournisseurs.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929763"
 ---
 # <a name="set-up-vendor-retention"></a>Configurer la rétention de fournisseurs
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Cette rubrique fournit des informations sur la configuration de la rétention de fournisseurs.
+Cet article fournit des informations sur la configuration de la rétention de fournisseurs.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Configurer un compte de rétention de fournisseurs dans la comptabilité
 

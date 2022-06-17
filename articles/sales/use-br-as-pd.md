@@ -1,26 +1,26 @@
 ---
 title: Utiliser une ressource réservable comme dimension de tarification
-description: Cette rubrique donne des informations sur la manière d’utiliser une ressource réservable comme dimension de tarification.
+description: Cet article donne des informations sur l’utilisation d’une ressource réservable comme dimension de tarification.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598624"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914813"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Utiliser une ressource réservable comme dimension de tarification
 
- _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_ 
+ _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_ 
 
-Cette rubrique donne des informations sur la manière d’utiliser une ressource réservable comme dimension de tarification. Si votre stratégie de tarification est configurée de sorte que chaque ressource réservable doit avoir un prix ou un taux de coût spécifique, utilisez une ressource réservable comme dimension de tarification.
+Cet article donne des informations sur l’utilisation d’une ressource réservable comme dimension de tarification. Si votre stratégie de tarification est configurée de sorte que chaque ressource réservable doit avoir un prix ou un taux de coût spécifique, utilisez une ressource réservable comme dimension de tarification.
 
 ## <a name="prerequisites"></a>Conditions préalables
-Avant de suivre les procédures décrites dans cette rubrique, vous devez disposer d’une nouvelle solution de dimension de tarification pour votre organisation. Si vous n’en avez pas déjà créé une, voir [Créer des champs et des entités personnalisés](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Avant de terminer les procédures de cet article, vous devez disposer d’une nouvelle solution de dimension de tarification pour votre organisation. Si vous n’en avez pas déjà créé une, voir [Créer des champs et des entités personnalisés](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Ajouter le champ Ressource réservable aux formulaires et vues
 Pour que le champ **Ressource réservable** soit visible dans la solution de dimension de tarification, vous devez ajouter le champ à tous les formulaires et vues en tant qu’entité.

@@ -1,17 +1,17 @@
 ---
 title: Mapper les projets et les tâches sur une ligne du devis selon les projets
-description: Cette rubrique fournit des informations sur la façon de mapper des projets et des tâches à une ligne de tâches basée sur un projet.
+description: Cet article fournit des informations sur la façon de mapper les projets et les tâches à une ligne de tâches basée sur un projet.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ff2fa219fd1981e5e11f93dfe7cd65afefc6afb9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597289"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917159"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapper les projets et les tâches sur une ligne du devis selon les projets
 

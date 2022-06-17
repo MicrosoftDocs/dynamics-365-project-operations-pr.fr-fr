@@ -1,6 +1,6 @@
 ---
 title: Utiliser une ressource réservable comme dimension de tarification
-description: Cette rubrique donne des informations sur l’utilisation d’une ressource réservable comme dimension de tarification.
+description: Cet article donne des informations sur l’utilisation d’une ressource réservable comme dimension de tarification.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916101"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utiliser une ressource réservable comme dimension de tarification
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Cette rubrique donne des informations sur l’utilisation d’une ressource réservable comme dimension de tarification. Avant de commencer, si vos n’avez pas déjà créé une solution Dimension de tarification, vous devez en créer une. Si vous disposez déjà d’une solution Dimension de tarification, vous pouvez apporter vos modifications dans cette solution. Si vous n’avez pas créé de solution Dimension de tarification pour votre organisation, effectuez les procédures décrites dans la rubrique [Créer des champs et des entités personnalisés](create-custom-fields-entities.md).
+Cet article donne des informations sur l’utilisation d’une ressource réservable comme dimension de tarification. Avant de commencer, si vos n’avez pas déjà créé une solution Dimension de tarification, vous devez en créer une. Si vous disposez déjà d’une solution Dimension de tarification, vous pouvez apporter vos modifications dans cette solution. Si vous n’avez pas créé de solution Dimension de tarification pour votre organisation, effectuez les procédures décrites dans l’article [Créer des champs et des entités personnalisés](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Ajouter une ressource réservable aux formulaires et vues
 Pour rendre les champs visibles dans l’interface utilisateur de la solution Dimension de tarification, vous devrez parcourir tous les formulaires et vues des entités Project Service clés et ajouter ces champs aux formulaires et vues de ces entités.

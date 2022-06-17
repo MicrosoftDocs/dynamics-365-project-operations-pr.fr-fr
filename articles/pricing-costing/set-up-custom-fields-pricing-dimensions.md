@@ -1,6 +1,6 @@
 ---
 title: Configurer des champs personnalisés comme dimensions de tarification
-description: Cette rubrique donne des informations sur la configuration de dimensions de tarification à l’aide de champs personnalisés.
+description: Cet article donne des informations sur la configuration des dimensions de tarification à l’aide des champs personnalisés.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917573"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurer des champs personnalisés comme dimensions de tarification
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
-Avant de commencer, cette rubrique suppose que vous avez effectué les procédures décrites dans les rubriques, [Créer des champs et des entités personnalisés](create-custom-fields-entities-pricing-dimensions.md) et [Ajouter des champs personnalisés obligatoires au paramétrage de tarifs et aux entités transactionnelles](add-custom-fields-price-setup-transactional-entities.md). Si vous n’avez pas effectué ces procédures, revenez en arrière et effectuez-les, puis revenez à cette rubrique. 
+Avant de commencer, cet article suppose que vous avez effectué les procédures décrites dans les articles, [Créer des champs et des entités personnalisés](create-custom-fields-entities-pricing-dimensions.md) et [Ajouter des champs personnalisés obligatoires au paramétrage de tarifs et aux entités transactionnelles](add-custom-fields-price-setup-transactional-entities.md). Si vous n’avez pas effectué ces procédures, revenez en arrière et effectuez-les, puis revenez à cet article. 
 
-Cette rubrique donne des informations sur la configuration de dimensions de tarification personnalisées. Dans la page **Paramètres**, l’onglet **Dimensions de tarification basées sur le montant** affiche les enregistrements des entités Dimension de tarification. Par défaut, il y a deux lignes dans la grille sur cet onglet :
+Cet article donne des informations sur la configuration de dimensions de tarification personnalisées. Dans la page **Paramètres**, l’onglet **Dimensions de tarification basées sur le montant** affiche les enregistrements des entités Dimension de tarification. Par défaut, il y a deux lignes dans la grille sur cet onglet :
 
 - **msdyn_resourcecategory** (rôle)
 - **msdyn_OrganizationalUnit** (unité d’organisation)

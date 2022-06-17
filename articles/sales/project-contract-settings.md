@@ -1,23 +1,23 @@
 ---
 title: Paramètres de contrat de projet
-description: Cette rubrique fournit des informations sur les champs qui ont un impact sur les lignes de contrat et les informations sur le contrat qui sont résumées sur tous les éléments de ligne.
+description: Cet article fournit des informations sur les champs qui ont un impact sur les lignes de contrat et les informations sur le contrat qui sont résumées dans tous les éléments de ligne.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921575"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Détails d’en-tête pour les contrats basés sur un projet
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Cette rubrique fournit des informations sur les champs qui s’appliquent à l’ensemble du contrat de projet, y compris les paramètres qui affectent toutes les lignes de contrat. Sont également incluses des informations sur le contrat qui sont récapitulées sur tous les éléments de ligne pour piloter les indicateurs du contrat de projet.
+Cet article fournit des informations sur les champs qui s’appliquent à l’ensemble du contrat de projet, y compris les paramètres qui ont un impact sur toutes les lignes de contrat. Sont également incluses des informations sur le contrat qui sont récapitulées sur tous les éléments de ligne pour piloter les indicateurs du contrat de projet.
 
 Le tableau suivant répertorie les champs d’un contrat de projet qui sont propres à Dynamics 365 Project Operations ou qui ont des changements importants dans le comportement des commandes client dans Dynamics 365 Sales.
 

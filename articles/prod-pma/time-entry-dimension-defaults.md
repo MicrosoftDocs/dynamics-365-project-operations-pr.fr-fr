@@ -1,17 +1,17 @@
 ---
 title: Appliquer par défaut des dimensions financières aux entrées de temps de projet
-description: Cette rubrique donne des informations sur l’application par défaut de dimensions financières aux entrées de temps.
+description: Cet article donne des informations sur l’application par défaut de dimensions financières aux entrées de temps.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: cc51fcdcbbfec23591471c0f7522d571be813a84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9863738a2d6d0e001961554043939f62f65d9ce5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916561"
 ---
 # <a name="defaulting-financial-dimensions-for-project-time-entries"></a>Appliquer par défaut des dimensions financières aux entrées de temps de projet
 

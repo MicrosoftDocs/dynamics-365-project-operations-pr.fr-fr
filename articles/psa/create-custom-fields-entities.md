@@ -1,6 +1,6 @@
 ---
 title: Créer des champs et des entités personnalisés
-description: Cette rubrique explique comment créer des jeux d’options et des entités dans votre propre solution dans la plateforme Power Apps.
+description: Cet article explique comment créer des jeux d’options et des entités dans votre propre solution dans une plateforme Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926911"
 ---
 # <a name="create-custom-fields-and-entities"></a>Créer des champs et des entités personnalisés 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Effectuez les étapes suivantes chaque fois que vous voulez créer un jeu d’options ou une entité personnalisés sur la plateforme Power Apps.  
-Les procédures dans cette rubrique doivent être effectuées à l’aide de l’interface web Project Service Automation (PSA).
+Les procédures dans cet article doivent être effectuées à l’aide de l’interface web Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Il est recommandé d’apporter toutes les modifications de dimension de tarification personnalisées dans une solution distincte. Cette meilleure pratique importante procure la flexibilité nécessaire à l’avenir pour mettre à jour ou supprimer des modifications si nécessaire, permet une réutilisation de votre travail, et facilite le déplacement de ces modifications vers une autre instance. Après avoir apporté toutes les modifications requises, exportez cette solution en tant que **Solution gérée** et importez-la dans d’autres instances pour réutiliser votre configuration de tarification.

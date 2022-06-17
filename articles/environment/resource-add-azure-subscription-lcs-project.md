@@ -1,23 +1,23 @@
 ---
 title: Ajouter un abonnement Azure à un projet LCS
-description: Cette rubrique fournit des informations sur la connexion de votre abonnement Azure à un projet LCS.
+description: Cet article fournit des informations sur la façon de connecter votre abonnement Azure à un projet LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912145"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Ajouter un abonnement Azure à un projet LCS
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Les environnements hébergés dans le cloud doivent être déployés à l’aide d’un abonnement Azure existant. Cette rubrique explique comment connecter votre abonnement Azure existant à un projet LCS. 
+Les environnements hébergés dans le cloud doivent être déployés à l’aide d’un abonnement Azure existant. Cet article explique comment connecter votre abonnement Azure existant à un projet LCS. 
 
 ## <a name="grant-admin-consent"></a>Accorder un consentement d’administrateur
 
@@ -59,7 +59,7 @@ L’autorisation est maintenant terminée.
 2. Entrer votre ID d’abonnement Azure. Vous pouvez trouver votre ID d’abonnement Azure dans le [portail Azure](https://ms.portal.azure.com/), sous **Paramètres** en bas à gauche de l’écran.
 3. Dans le champ **Configurer pour utiliser Azure Resource Manager**, sélectionnez **Oui**.
 4. Assurez-vous que le domaine du client AAD d’abonnement d’Azure correspond à l’abonnement Azure propriétaire du domaine que vous utilisez, puis sélectionnez **Suivant**.
-5. Sur l’écran **Configuration Microsoft Azure**, sélectionnez **Suivant** pour confirmer. Si vous recevez une erreur sur cet écran, revenez à la section [Fournir l’accès à Dynamics Deployment Services à l’abonnement Azure](#provide) dans cette rubrique et assurez-vous que vous avez terminé toutes les étapes.
+5. Sur l’écran **Configuration Microsoft Azure**, sélectionnez **Suivant** pour confirmer. Si vous recevez une erreur sur cet écran, retournez à la section [Fournir un accès Dynamics Deployment Services à l’abonnement Azure](#provide) dans cet article et assurez-vous que vous avez suivi toutes les étapes.
 6. Téléchargez le certificat de gestion Azure dans un dossier local sur votre ordinateur. Demandez à votre administrateur d’abonnement Azure de charger le certificat sur le Portail de gestion Azure en sélectionnant l’abonnement et en accédant à **Paramètres** > **Certificats de gestion**. Ce certificat permet à LCS de communiquer avec Azure en votre nom. Vous pouvez ignorer cette étape si votre utilisateur a accès à l’abonnement.
 7. Cliquez sur **Suivant**.
 8. Sélectionnez la région Azure dans laquelle déployer et sélectionnez un centre de données proche de l’endroit où vous prévoyez d’utiliser ce système.

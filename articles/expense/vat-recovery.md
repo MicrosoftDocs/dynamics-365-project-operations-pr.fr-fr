@@ -1,17 +1,17 @@
 ---
 title: Récupération de la TVA dans Gestion des dépenses
-description: Cette rubrique explique comment recevoir des remboursements sur les transactions de taxe sur la valeur ajoutée (TVA) éligibles.
+description: Cet article explique comment recevoir des remboursements sur les transactions de taxe sur la valeur ajoutée (TVA) admissibles.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1df921bbef4c11c7e07ed38775644117215a50fb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927923"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Récupération de la TVA dans Gestion des dépenses
 

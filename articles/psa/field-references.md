@@ -1,6 +1,6 @@
 ---
 title: Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles
-description: Cette rubrique fournit des informations sur l’ajout de champs personnalisés aux entités de configuration du prix et de transaction.
+description: Cet article fournit des informations sur l’ajout de champs personnalisés aux entités de configuration du prix et de transaction.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920471"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Cette rubrique suppose que vous avez effectué les procédures de la rubrique [Création de champs et entités personnalisés](create-custom-fields-entities.md). Si vous n’avez pas effectué ces procédures, revenez en arrière et effectuez-les, puis revenez à cette rubrique. 
+Cet article suppose que vous avez effectué les procédures de l’article [Création de champs et entités personnalisés](create-custom-fields-entities.md). Si vous n’avez pas effectué ces procédures, revenez en arrière et effectuez-les, puis revenez à cet article. 
 
-Dans cette rubrique, les procédures vous afficheront comment ajouter des références de champ aux entités personnalisées requises et aux éléments de l’interface utilisateur (IU), tels que les formulaires et les vues.
+Dans cet article, les procédures vous afficheront comment ajouter des références de champ aux entités personnalisées requises et aux éléments de l’interface utilisateur (IU), tels que les formulaires et les vues.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Ajouter des champs de dimension de tarification personnalisée 
 Une fois les champs et entités personnalisés créés, l’étape suivante consiste à configurer les prix et informer les entités transactionnelles de toutes les entités ou jeux d’options personnalisés en créant des champs de référence. Selon que votre liste de dimensions de tarification comprend les dimensions de jeu d’options ou les dimensions d’entité, ou les deux, suivez uniquement les étapes de **Dimensions de tarification personnalisées basées sur un jeu d’options** ou **Dimensions de tarification personnalisées basées sur une entité**, ou les deux, respectivement.

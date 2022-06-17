@@ -1,24 +1,24 @@
 ---
 title: Nouveautés d’avril 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
-description: Cette rubrique fournit des informations sur les mises à jour de qualité disponibles dans la version d’avril 2021 de Project Operations pour les scénarios basés sur les ressources/produits non stockés.
+description: Cet article fournit des informations sur les mises à jour de qualité disponibles dans la version d’avril 2021 de Project Operations pour les scénarios basés sur les ressources/produits non stockés.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589101"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912421"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés d’avril 2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cet article s’applique aux composants et versions de Microsoft Dynamics 365 Project Operations suivants :
 
 - Version 4.9.0.221 de Project Operations dans l’environnement Dataverse
 - Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.17

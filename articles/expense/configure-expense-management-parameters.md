@@ -1,23 +1,23 @@
 ---
 title: Configurer les paramètres de gestion des dépenses
-description: Cette rubrique décrit les paramètres qui contrôlent le comportement général dans la gestion des dépenses.
+description: Cet article décrit les paramètres qui contrôlent le comportement général dans la gestion des dépenses.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: bbaabd34d8f4af5dbcaff507fbb9f8de79355aa4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6432e119f38071b028c013561bab99820778a11d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931465"
 ---
 # <a name="configure-expense-management-parameters"></a>Configurer les paramètres de gestion des dépenses
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Cette rubrique décrit les paramètres qui contrôlent le comportement général dans la gestion des dépenses.
+Cet article décrit les paramètres qui contrôlent le comportement général dans la gestion des dépenses.
 
 ## <a name="general"></a>GÉNÉRAL
 

@@ -1,6 +1,6 @@
 ---
 title: Facturation dans Project Service Automation
-description: Cette rubrique fournit des informations sur la facturation.
+description: Cet article fournit des informations sur la facturation.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579303"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926819"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturation dans Project Service Automation
 
@@ -94,7 +94,7 @@ Une fois **ProcessRunner** exécuté, il appelle **ProcessRunCaller**, fournit l
 Le processus de traitement par lots pour la création de factures est une tâche récurrente. Si ce processus de traitement par lots est exécuté plusieurs fois, plusieurs instances de la tâche sont créées et provoquent des erreurs. Par conséquent, vous devez démarrer le traitement par lots une seule fois, et vous devez le redémarrer uniquement s’il cesse de s’exécuter.
 
 > [!NOTE]
-> La facturation par lots dans Project Service Automation ne s’exécute que pour les lignes de contrat de projet qui sont configurées par des calendriers de facturation. Une ligne de contrat avec une méthode de facturation à prix fixe doit avoir des jalons configurés. Une ligne de contrat de projet avec une méthode de facturation en régie nécessite la configuration d’un calendrier de facturation basé sur la date. Des informations sur la configuration des fréquences de facturation dans le contexte d’un projet basé sur une ligne de devis sont fournies dans la rubrique, [Devis et lignes de devis](basic-quote-lines.md#invoice-schedule). Il en va de même pour une ligne de contrat basée sur un projet.      
+> La facturation par lots dans Project Service Automation ne s’exécute que pour les lignes de contrat de projet qui sont configurées par des calendriers de facturation. Une ligne de contrat avec une méthode de facturation à prix fixe doit avoir des jalons configurés. Une ligne de contrat de projet avec une méthode de facturation en régie nécessite la configuration d’un calendrier de facturation basé sur la date. Des informations sur la mise en place des fréquences de facturation dans le cadre d’un projet basé sur une ligne de devis, sont fournies dans l’article [Devis et lignes de devis](basic-quote-lines.md#invoice-schedule). Il en va de même pour une ligne de contrat basée sur un projet.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Modifier un brouillon de facture PSA
 

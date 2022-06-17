@@ -1,25 +1,25 @@
 ---
 title: Déployer manuellement l’application Project Operations Dataverse avec prise en charge de la double écriture
-description: Cette rubrique explique comment déployer manuellement l’application Project Operations Dataverse afin qu’elle prenne en charge la double écriture.
+description: Cet article explique comment déployer manuellement l’application Project Operations Dataverse afin qu’elle prenne en charge la double écriture.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912007"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Déployer manuellement l’application Project Operations Dataverse avec prise en charge de la double écriture
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Cette rubrique explique comment déployer manuellement Microsoft Dynamics 365 Project Operations dans Microsoft Dataverse afin qu’elle prenne en charge la double écriture. Project Operations détecte la configuration de l’environnement et ajoute une prise en charge supplémentaire pour la double écriture si les conditions préalables sont remplies.
+Cet article explique comment déployer manuellement Microsoft Dynamics 365 Project Operations dans Microsoft Dataverse afin qu’elle prenne en charge la double écriture. Project Operations détecte la configuration de l’environnement et ajoute une prise en charge supplémentaire pour la double écriture si les conditions préalables sont remplies.
 
-Lors du déploiement via Microsoft Dynamics Lifecycle Services (LCS), si vous avez suivi les instructions de cette rubrique, vous pouvez ignorer le déploiement de l’intégration de Microsoft Power Platform (anciennement appelé environnement Common Data Service).
+Pendant le déploiement à travers Microsoft Dynamics Lifecycle Services (LCS), si vous avez suivi les instructions de cet article, vous pouvez ignorer le déploiement de l’intégration Microsoft Power Platform (anciennement connue sous le nom d’environnement Common Data Service).
 
 Le processus de déploiement de Project Operations dans Dataverse pour qu’il prenne en charge la double écriture comporte quatre étapes principales :
 

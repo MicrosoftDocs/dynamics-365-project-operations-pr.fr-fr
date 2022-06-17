@@ -1,18 +1,18 @@
 ---
 title: Configurer le matériel non stocké et les factures fournisseur en attente
-description: Cette rubrique explique comment activer le matériel non stocké et les factures fournisseur en attente.
+description: Cet article explique comment activer les matériaux non stockés et les factures fournisseur en attente.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913755"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurer le matériel non stocké et les factures fournisseur en attente
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance :
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Exécuter des mappages à double écriture pour le matériel non stocké et l’intégration des factures fournisseur
 
-Cette section fournit des informations sur les mappages spécifiques requis pour le matériel non stocké et les factures fournisseur. Vérifiez que les mappages prérequis répertoriés dans la rubrique [Approvisionner un nouvel environnement](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) s’exécutent sur votre environnement.
+Cette section fournit des informations sur les mappages spécifiques requis pour le matériel non stocké et les factures fournisseur. Vérifiez que les cartes prérequises répertoriées dans l’article [Approvisionner un nouvel environnement](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) sont en cours d’exécution sur votre environnement.
 
 1. Accédez à Lifecycle Services (LCS), accédez à votre projet LCS et accédez à la page **Détails de l’environnement**.
 2. Dans la section **Informations sur l’environnement Common Data Service**, sélectionnez **Lien vers CDS for Apps**. Après avoir sélectionné le lien, vous serez redirigé vers la liste des entités dans les mappages.

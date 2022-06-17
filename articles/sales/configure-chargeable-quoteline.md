@@ -1,17 +1,17 @@
 ---
 title: Configurer les composants facturables d’une ligne de devis basée sur un projet
-description: Cette rubrique fournit des informations sur les composants inclus, facturables et non facturables sur les lignes de devis basées sur un projet.
+description: Cet article fournit des informations sur les composants inclus, facturables et non facturables sur les lignes de devis basées sur un projet.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 025a04fa63bfdb53aaababcd964a5dcb92c0a3a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ff409132ef9103641578f9c94f8ea1ff56738a71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915549"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Configurer les composants facturables d’une ligne de devis basée sur un projet
 

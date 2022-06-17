@@ -1,6 +1,6 @@
 ---
 title: Effectuer une mise à niveau de Project Service Automation vers Project Operations
-description: Cette rubrique fournit une vue d’ensemble du processus de mise à niveau de Microsoft Dynamics 365 Project Service Automation vers Dynamics 365 Project Operations.
+description: Cet article fournit une vue d’ensemble du processus de mise à niveau de Microsoft Dynamics 365 Project Service Automation vers Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626713"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912973"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Effectuer une mise à niveau de Project Service Automation vers Project Operations
 
-Nous sommes ravis d’annoncer la première des trois phases de mise à niveau de Microsoft Dynamics 365 Project Service Automation vers Dynamics 365 Project Operations. Ce sujet fournit une vue d’ensemble du processus aux clients qui se lancent dans ce voyage passionnant. Les prochaines rubriques aborderont les éléments à prendre en compte par les développeurs, ainsi que des détails sur les améliorations des fonctionnalités. Elles vous fourniront non seulement des conseils pour vous aider à préparer votre mise à niveau vers Project Operations, mais vous expliqueront également à quoi vous pouvez vous attendre après la mise à niveau.
+Nous sommes ravis d’annoncer la première des trois phases de mise à niveau de Microsoft Dynamics 365 Project Service Automation vers Dynamics 365 Project Operations. Cet article fournit une vue d’ensemble du processus aux clients qui se lancent dans ce voyage passionnant. Les prochains articles aborderont les éléments à prendre en compte par les développeurs, ainsi que des détails sur les améliorations des fonctionnalités. Elles vous fourniront non seulement des conseils pour vous aider à préparer votre mise à niveau vers Project Operations, mais vous expliqueront également à quoi vous pouvez vous attendre après la mise à niveau.
 
 Le programme de livraison de la mise à niveau sera divisé en trois phases.
 
@@ -90,7 +90,7 @@ Après avoir mis à jour vos personnalisations pour importer proprement Project 
     > [!NOTE]
     > Selon la quantité de données dans l’environnement, la mise à niveau peut prendre plusieurs heures. L’équipe principale qui gère la mise à niveau doit planifier en conséquence et exécuter la mise à niveau en dehors des heures ouvrables. Dans certains cas, si le volume de données est important, la mise à niveau doit être exécutée pendant le week-end. La décision concernant la planification doit être basée sur les résultats des tests dans des environnements inférieurs.
 
-3. Mettez à niveau les solutions personnalisées, le cas échéant. À ce stade, déployez toutes les modifications que vous avez apportées à vos personnalisations dans la section [Tester et refactoriser les personnalisations](#testing-and-refactoring-customizations) de la présente rubrique.
+3. Mettez à niveau les solutions personnalisées, le cas échéant. À ce stade, déployez toutes les modifications que vous avez apportées à vos personnalisations dans la section [Tester et refactoriser les personnalisations](#testing-and-refactoring-customizations) du présent article.
 4. Accédez à **Paramètres** \> **Solutions**, et sélectionnez pour désinstaller la solution **Composants obsolètes de Project Operations**.
 
     Cette solution est une solution temporaire qui contient le modèle de données existant et les composants présents lors de la mise à niveau. En supprimant cette solution, vous supprimez tous les champs et composants qui ne sont plus utilisés. De cette façon, vous contribuez à simplifier l’interface et à faciliter l’intégration et l’extension.
@@ -126,7 +126,6 @@ Dans le cadre de l’investissement continu dans Project Operations, plusieurs n
 | Automatisation de la gestion de projets                             | Déploiement simplifié de Project Operations                        | Prise en charge               |
 | Gestion et comptabilité des projets dans Dynamics 365 Finance | Déploiement simplifié de Project Operations                        | Actuellement non pris en charge |
 | Gestion et comptabilité des projets dans Finance              | Project Operations pour les scénarios basés sur les ressources/produits non stockés     | Actuellement non pris en charge |
-| Gestion et comptabilité des projets dans Finance              | Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication | Actuellement non pris en charge |
 | Project Service Automation 3.x                         | Project Operations pour les scénarios basés sur les ressources/produits non stockés     | Actuellement non pris en charge |
 | Project for the Web (environnement dédié)            | Déploiement simplifié de Project Operations                        | Actuellement non pris en charge |
 

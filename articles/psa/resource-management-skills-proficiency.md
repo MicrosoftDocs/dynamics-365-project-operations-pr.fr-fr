@@ -1,6 +1,6 @@
 ---
 title: Modèles de qualifications et de compétences
-description: Cette rubrique donne des informations sur l’utilisation des modèles de qualifications et de compétences.
+description: Cet article donne des informations sur l’utilisation des modèles de qualifications et de compétences.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d46382939e22c1ee1d9f5517798aabb3520ae3bd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 27a9668c3a0d6a2323fb4797a29f6c7d3d146c57
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925301"
 ---
 # <a name="skills-and-proficiency-models"></a>Modèles de qualifications et de compétences
 

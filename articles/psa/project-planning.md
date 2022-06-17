@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil de la planification de projet
-description: Cette rubrique fournit des informations sur la planification de projet.
+description: Cet article fournit des informations sur la planification de projet.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919091"
 ---
 # <a name="project-planning-home-page"></a>Page d’accueil de la planification de projet
 
@@ -43,7 +43,7 @@ Les outils de gestion de projet dans PSA vous permettent d’exécuter facilemen
 - prévoir les besoins en ressources pour les projets dans le pipeline ;
 - Livrer des projets en suivant la progression et la consommation des coûts.
 
-Les rubriques suivantes fournissent des informations qui aideront les chefs de projet à évaluer le travail, estimer les coûts du projet et prévoir les besoins en ressources à l’aide de les outils pris en charge par PSA :
+Les articles suivants fournissent des informations qui aideront les chefs de projet à évaluer le travail, estimer les coûts du projet et prévoir les besoins en ressources à l’aide des outils pris en charge par PSA :
 
 - [Définition d’un calendrier](project-creating.md)
 - [Estimation du coût et du revenu d’un projet](project-estimating.md)

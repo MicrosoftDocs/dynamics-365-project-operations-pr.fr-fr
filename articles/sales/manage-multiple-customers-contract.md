@@ -1,21 +1,21 @@
 ---
 title: Gérer plusieurs clients sur des contrats de projets
-description: Cette rubrique fournit des informations sur la manière de gérer plusieurs clients sur un contrat de projet.
+description: Cet article fournit des informations sur la gestion de plusieurs clients sur un contrat de projet.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928337"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Gérer plusieurs clients sur des contrats de projets
 
-Cette rubrique fournit des informations sur la manière de gérer plusieurs clients sur un contrat de projet. Vous pouvez utiliser un contrat de projet lorsqu’un accord contractuel pour plusieurs clients est nécessaire pour financer une transaction. Sur la page **Contrat de projet**, l’onglet **Récapitulatif** contient des informations sur le client principal d’une transaction. D’autres clients qui participent à l’offre peuvent être ajoutés sur l’onglet **Clients**.
+Cet article fournit des informations sur la gestion de plusieurs clients sur un contrat de projet. Vous pouvez utiliser un contrat de projet lorsqu’un accord contractuel pour plusieurs clients est nécessaire pour financer une transaction. Sur la page **Contrat de projet**, l’onglet **Récapitulatif** contient des informations sur le client principal d’une transaction. D’autres clients qui participent à l’offre peuvent être ajoutés sur l’onglet **Clients**.
 
 Tous les clients du contrat figurant sur l’onglet **Clients** du contrat de projet sont créés par défaut en tant que clients de ligne de contrat sur toutes les lignes de contrat basées sur un projet créées pour le contrat de projet. Les lignes de contrat basées un projet existantes n’héritent pas des nouveaux enregistrements de clients de contrat qui sont créés ultérieurement.
 

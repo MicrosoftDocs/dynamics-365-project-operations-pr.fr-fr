@@ -1,19 +1,19 @@
 ---
 title: Vue d’ensemble des lignes de contrat basées sur un projet – Simplifié
-description: Cette rubrique fournit des informations sur les lignes de contrat basées sur un produit.
+description: Cet article fournit des informations sur les lignes de contrat basées sur un produit.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8006e90e0d4fdf02042f26b261775a92f87f47ca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ad1fe6d5d56468d887535ddf107eefed3cbd28d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919873"
 ---
-# <a name="product-based-contract-lines-overview---lite"></a>Vue d’ensemble des lignes de contrat basées sur un projet – Simplifié
+# <a name="product-based-contract-lines-overview---lite"></a>Vue d’ensemble des lignes de contrat basées sur un produit – Simplifié
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 

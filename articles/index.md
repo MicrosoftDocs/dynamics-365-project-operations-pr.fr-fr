@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Project Operations
-description: Cette rubrique fournit des informations sur la fonctionnalité Gestion de projets dans Dynamics 365 Project Operations.
+description: Cet article fournit des informations sur Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 09/16/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7201435677560809474414d771bcb0d9f22c9101
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cda9df5b04e96dc347976d328a87739a48ac8a7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595127"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924427"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 

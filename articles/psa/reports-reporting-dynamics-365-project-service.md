@@ -1,6 +1,6 @@
 ---
-title: Page d’accueil de création de rapports
-description: Cette rubrique fournit des informations sur la génération de rapports dans Dynamics 365 Project Service Automation.
+title: Page d’accueil de la création de rapports
+description: Cet article fournit des informations sur la génération de rapports dans Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921667"
 ---
 # <a name="reporting-home-page"></a>Page d’accueil de la création de rapports
 
@@ -47,7 +47,7 @@ Ensemble, Microsoft Power BI et Dynamics 365 vous offrent la possibilité d’u
 
 
 ## <a name="additional-resources"></a>Ressources complémentaires
-Pour plus d’informations sur la génération de rapports dans PSA, consultez les rubriques suivantes :
+Pour plus d’informations sur la génération de rapports dans PSA, consultez les articles suivants :
 
 - [Utilisation des modèles de données Project Service](reports-working-project-service-data-model.md)
 - [Tableaux de bord](reports-dashboards.md)

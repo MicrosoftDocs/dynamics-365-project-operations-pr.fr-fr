@@ -1,17 +1,17 @@
 ---
 title: Configurer la facturation intersociétés
-description: Cette rubrique fournit des informations et des exemples sur la configuration de la facturation intersociétés pour les projets.
+description: Cet article fournit des informations et des exemples sur la configuration de la facturation intersociétés de projets.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ae0c2662bb6b2789ab520f08c7c21935b651ced5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929355"
 ---
 # <a name="configure-intercompany-invoicing"></a>Configurer la facturation intersociétés
 
@@ -21,7 +21,7 @@ Effectuez les étapes suivantes pour configurer la facturation intersociétés p
 
 ## <a name="example-configure-intercompany-invoicing"></a>Exemple : Configurer la facturation intersociétés
 
-Dans l'exemple suivant, Contoso Robotics USA (USPM) est l'entité juridique emprunteuse et Contoso Robotics UK (GBPM) est l'entité juridique prêteuse. 
+Dans l’exemple suivant, Contoso Robotics USA (USPM) est l’entité juridique emprunteuse et Contoso Robotics UK (GBPM) est l’entité juridique prêteuse. 
 
 1. **Configurer la comptabilité intersociétés entre des entités juridiques**. Chaque paire d’entités juridiques emprunteuses et prêteuses doit être configurée dans la page Comptabilité [Comptabilité intersociétés](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
@@ -35,14 +35,14 @@ Dans l'exemple suivant, Contoso Robotics USA (USPM) est l'entité juridique empr
      1. Dans Finance, sélectionnez l’entité juridique **GBPM**.
      2. Accédez à **Comptabilité client** > **Client** > **Tous les clients**. Créez un nouvel enregistrement pour l’entité juridiques, **USPM**.
      3. Développez **Nom**, filtrez les enregistrements par **Type** et sélectionnez **Entités juridiques**. 
-     4. Recherchez et sélectionnez l'enregistrement client pour **Contoso Robotics USA (USPM)**.
+     4. Recherchez et sélectionnez l’enregistrement client pour **Contoso Robotics USA (USPM)**.
      5. Cliquez sur **Utiliser une correspondance**. 
      6. Sélectionnez le groupe de clients **50 - Clients intersociétés**, puis enregistrez l’enregistrement.
      7. Sélectionnez l’entité juridique **USPM**.
      8. Accédez à **Comptabilité fournisseur** > **Fournisseurs** > **Tous les fournisseurs**. Créez un nouvel enregistrement pour l’entité juridique, **GBPM**.
      9. Développez **Nom**, filtrez les enregistrements par **Type** et sélectionnez **Entités juridiques**. 
-     10. Recherchez et sélectionnez l'enregistrement client pour **Contoso Robotics UK (GBPM)**.
-     11. Sélectionnez **Utiliser une correspondance**, sélectionnez le groupe de fournisseurs, puis enregistrez l'enregistrement.
+     10. Recherchez et sélectionnez l’enregistrement client pour **Contoso Robotics UK (GBPM)**.
+     11. Sélectionnez **Utiliser une correspondance**, sélectionnez le groupe de fournisseurs, puis enregistrez l’enregistrement.
      12. Dans l’enregistrement du fournisseur, sélectionnez **Général** > **Installer** > **Intersociétés**.
      13. Sur l’onglet **Relation commerciale**, définissez **Actif** sur **Oui**.
      14. Définissez le champ **Société du client** sur **GBPM** et dans **Mon enregistrement de compte**, sélectionnez l’enregistrement de client que vous avez créé précédemment dans la procédure.
@@ -86,13 +86,13 @@ Dans l'exemple suivant, Contoso Robotics USA (USPM) est l'entité juridique empr
       2. Dans la liste des prix de revient, créez un enregistrement avec les informations suivantes :
          - **Rôle** = **Développeur**
          - **Coût** = **88 GBP**
-      3. Accédez à **Paramètres** > **Unités d'organisation** et joignez cette liste de prix de revient à l'unité d’organisation **Contoso Robotics UK**.
+      3. Accédez à **Paramètres** > **Unités d’organisation** et joignez cette liste de prix de revient à l’unité d’organisation **Contoso Robotics UK**.
       4. Accédez à **Ventes** > **Listes de prix**. Créez une liste de prix de revient appelée **Tarifs de Contoso Robotics USA**. 
       5. Dans la liste des prix de revient, créez un enregistrement avec les informations suivantes :
           - **Rôle** = **Développeur**
           - **Société d’allocation de ressources** = **Contoso Robotics UK**
           - **Coût** = **120 USD**
-      6. Accédez à **Paramètres** > **Unités d'organisation** et joignez cette liste de prix de revient **Tarifs de Contoso Robotics USA** à l'unité d’organisation **Contoso Robotics USA**.
+      6. Accédez à **Paramètres** > **Unités d’organisation** et joignez cette liste de prix de revient **Tarifs de Contoso Robotics USA** à l’unité d’organisation **Contoso Robotics USA**.
       7. Accédez à **Ventes** > **Listes de prix**. Créez une liste de prix de vente appelée **Taux de facturation Adventure Works**. 
       8. Dans la liste des prix de vente, créez un enregistrement avec les informations suivantes :
           - **Rôle** = **Développeur**

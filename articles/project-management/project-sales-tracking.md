@@ -1,17 +1,17 @@
 ---
 title: Suivi des ventes du projet
-description: Cette rubrique fournit des informations sur la façon dont Project Operations suit la progression par rapport au revenu de la main d’œuvre d’un projet.
+description: Cet article fournit des informations sur la façon dont Project Operations suit la progression par rapport au produit de la main-d’œuvre d’un projet.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fff5fa6b12dddd780eb6bf77edca85a3a0c0629c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ce61acf95ee5e9ac10047406c9d4a5c9b1f92aad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911271"
 ---
 # <a name="project-sales-tracking"></a>Suivi des ventes du projet
 

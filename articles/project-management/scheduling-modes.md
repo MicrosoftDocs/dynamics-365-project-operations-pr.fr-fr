@@ -1,17 +1,17 @@
 ---
 title: Modes de planification
-description: Cette rubrique fournit des informations sur les modes de planification.
+description: Cet article fournit des informations sur les modes de planification.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923645"
 ---
 # <a name="scheduling-modes"></a>Modes de planification
 
@@ -38,7 +38,7 @@ Lorsque vous définissez le mode de planification d’un projet, vous définisse
 | Tâche avec effort fixe    | La durée est recalculée. | Les unités sont recalculées.    | La durée est recalculée. |
 | Tâche avec durée fixe  | L’effort est recalculé.   | L’effort est recalculé.    | Les unités sont recalculées.   |
 
-Pour plus d’informations sur les implications d’un mode donné, voir [Modifier le type de tâche pour obtenir une planification plus précise](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Dans la rubrique, le terme **Travail** est utilisé à la place du terme **Effort**.
+Pour plus d’informations sur les implications d’un mode donné, voir [Modifier le type de tâche pour obtenir une planification plus précise](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Dans l’article, le terme **Travail** est utilisé à la place de **Effort**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Changer le mode de planification de l’organisation
 

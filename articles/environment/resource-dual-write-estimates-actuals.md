@@ -1,24 +1,24 @@
 ---
 title: Intégration des estimations et des chiffres réels de projet
-description: Cette rubrique fournit des informations sur l’intégration en double écriture de Project Operations pour les estimations et les chiffres réels de projet.
+description: Cet article fournit des informations sur l’intégration de la double écriture de Project Operations pour les estimations et les chiffres réels du projet.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577187"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914583"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Intégration des estimations et des chiffres réels de projet
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Cette rubrique fournit des informations sur l’intégration en double écriture de Project Operations pour les estimations et les chiffres réels de projet.
+Cet article fournit des informations sur l’intégration de la double écriture de Project Operations pour les estimations et les chiffres réels du projet.
 
 ## <a name="project-estimates"></a>Estimations de projets
 

@@ -1,6 +1,6 @@
 ---
 title: Espace de travail mobile de saisie des heures de projet
-description: Cette rubrique donne des informations sur l’espace de travail mobile de saisie des heures de projet. Cet espace de travail permet aux utilisateurs de saisir et de gagner du temps sur un projet en utilisant leur appareil mobile.
+description: Cet article fournit des informations sur l’espace de travail mobile Saisie des heures du projet. Cet espace de travail permet aux utilisateurs de saisir et de gagner du temps sur un projet en utilisant leur appareil mobile.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919535"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Espace de travail mobile de saisie des heures de projet
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique donne des informations sur l’espace de travail mobile de **saisie des heures de projet**. Cet espace de travail permet aux utilisateurs de saisir et de gagner du temps sur un projet en utilisant leur appareil mobile.
+Cet article fournit des informations sur l’espace de travail mobile **Saisie des heures du projet**. Cet espace de travail permet aux utilisateurs de saisir et de gagner du temps sur un projet en utilisant leur appareil mobile.
 
 Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Dynamics 365 Unified Ops. 
 

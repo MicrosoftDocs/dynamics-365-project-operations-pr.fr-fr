@@ -1,6 +1,6 @@
 ---
 title: Devis - Concepts clés
-description: Cette rubrique fournit des informations sur les devis de projet et les devis de vente disponibles dans Project Operations.
+description: Cet article fournit des informations sur les devis de projet et les devis de vente disponibles dans Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912513"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Concepts propres aux devis basés sur des projets
 
@@ -35,7 +35,7 @@ Dans Dynamics 365 Project Operations, il existe deux types de devis : projet et
 - **Champs et concepts** : Un devis de vente ne comprend pas certains champs et les concepts qui se trouvent sur un devis de projet. Les champs incluent **Unité contractuelle**, **Gestionnaire de comptes** et **Nom du contact de facturation**.  
 - **Type** : Les devis de vente et les devis de projet sont également identifiés par un champ basé sur un jeu de données nommé **Type**. Pour un devis de vente, ce champ a la valeur **Basé sur l’article**. Pour un devis de projet, il a la valeur **Basé sur le travail**.
 
-Cette rubrique se concentre sur les détails des devis de projet.
+Cet article est axé sur les détails des devis de projet.
 
 Un devis de projet dans Project Operations peut avoir plusieurs lignes ou lignes de devis. En fait, un devis de projet a deux grilles pour les lignes. Une grille pour les lignes basées sur le projet qui permettent des estimations détaillées. L’autre grille est pour les lignes basées sur le produit qui utilisent un seul prix unitaire et une approche basée sur la quantité.
 

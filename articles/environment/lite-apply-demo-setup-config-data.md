@@ -1,17 +1,17 @@
 ---
 title: Appliquer la configuration de la démonstration et les données de configuration – Simplifié
-description: Cette rubrique fournit des informations sur l’application de la configuration de démonstration et des données de configuration dans Project Operations.
+description: Cet article fournit des informations sur l’application des données d’installation et de configuration de démonstration pour Project Operations.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ecb5da3bccf35f8ed7e2246f68dd4da2b145c6be
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922311"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Appliquer la configuration de la démonstration et les données de configuration pour Project Operations – Simplifié 
 

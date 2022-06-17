@@ -1,6 +1,6 @@
 ---
 title: Configurer des rôles sur des modèles de structure de répartition du travail
-description: Cette rubrique fournit des informations sur la configuration des informations de rôle sur les modèles de structure de répartition du travail.
+description: Cet article fournit des informations sur la configuration des informations de rôle sur les modèles de structure de répartition du travail.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ab88d61c9b1e9d9aebeb776d6a7783b96c62f6
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 8721c5e5798c2b80c6f3eb65cef118d1ade5e680
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682845"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920793"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurer des rôles sur des modèles de structure de répartition du travail
 

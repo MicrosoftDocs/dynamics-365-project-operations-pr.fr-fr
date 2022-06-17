@@ -1,17 +1,17 @@
 ---
 title: Estimations financières pour le matériel des projets
-description: Cette sujet fournit des informations sur la définition ou l’estimation du matériel basé sur le projet.
+description: Cet article fournit des informations sur la définition ou l’estimation des matériaux basés sur un projet.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
-ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
+ms.openlocfilehash: eb33c8e2ead2a558bf53256095645011212ff343
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925688"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Estimations financières pour le matériel des projets
 

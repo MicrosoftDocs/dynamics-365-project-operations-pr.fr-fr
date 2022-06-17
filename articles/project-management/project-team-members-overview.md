@@ -1,17 +1,17 @@
 ---
-title: les membres de l’équipe du projet ;
-description: Cette rubrique fournit des informations sur la façon de travailler avec les informations, les attributs et la planification des membres de l’équipe de projet.
+title: Membres de l’équipe du projet
+description: Cet article fournit des informations sur l’utilisation des informations, des attributs et de la planification des membres de l’équipe de projet.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 75b140a4ea17dbb3093f926367f439544c32d587
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3465688fb267f3ab785fcb0d252e8616ac1aa1c8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929303"
 ---
 # <a name="project-team-members"></a>les membres de l’équipe du projet ;
 

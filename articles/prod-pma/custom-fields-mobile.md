@@ -1,6 +1,6 @@
 ---
 title: Implémenter des champs personnalisés pour l’application mobile Microsoft Dynamics 365 Project Timesheet sur iOS et Android
-description: Cette rubrique offre des modèles courants pour utiliser les extensions en vue d’implémenter les champs personnalisés.
+description: Cet article fournit des modèles courants pour l’utilisation des extensions pour mettre en œuvre des champs personnalisés.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913709"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implémenter des champs personnalisés pour l’application mobile Microsoft Dynamics 365 Project Timesheet sur iOS et Android
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique offre des modèles courants pour utiliser les extensions en vue d’implémenter les champs personnalisés. Les rubriques suivantes sont abordées :
+Cet article fournit des modèles courants pour l’utilisation des extensions pour mettre en œuvre des champs personnalisés. Les articles suivants sont couverts :
 
 - Les différents types de données compatibles avec la structure de champs personnalisés
 - Procédure d’affichage des champs en lecture seule ou modifiables sur les entrées de feuille de temps et d’enregistrement des valeurs fournies par l’utilisateur dans la base de données
@@ -35,7 +35,7 @@ Cette rubrique offre des modèles courants pour utiliser les extensions en vue d
 
 ## <a name="audience"></a>Audience
 
-Cette rubrique est destinée aux développeurs qui intègrent leurs champs personnalisés dans l’application mobile Microsoft Dynamics 365 Project Timesheet disponible pour Apple iOS et Google Android. Supposons que les lecteurs connaissent bien le développement X++ et la fonctionnalité de feuille de temps de projet.
+Cet article est prévue pour les développeurs qui intègrent leurs champs personnalisés dans l’application mobile Microsoft Dynamics 365 Project Timesheet disponible pour Apple iOS et Google Android. Supposons que les lecteurs connaissent bien le développement X++ et la fonctionnalité de feuille de temps de projet.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Contrat de données - Classe TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ La propriété **FieldBaseType** sur l’objet **TsTimesheetCustom** détermine 
 
 - Si la propriété **stringOptions** est fournie sur l’objet **TSTimesheetCustomField**, ces éléments de liste sont les seules valeurs que les utilisateurs peuvent sélectionner à l’aide des boutons d’option.
 
-    Dans ce cas, le champ de chaîne peut agir comme une valeur d’énumération à des fins de saisie de l’utilisateur. Pour enregistrer la valeur dans la base de données en tant qu’énumération, mappez manuellement la valeur de chaîne vers la valeur d’énumération avant de procéder à l’enregistrement dans la base de données à l’aide d’une chaîne de commande (voir la section « Utiliser la chaîne de commande sur la classe TSTimesheetEntryService pour enregistrer une entrée de feuille de temps de l’application vers la base de données » ultérieurement dans cette rubrique pour un exemple).
+    Dans ce cas, le champ de chaîne peut agir comme une valeur d’énumération à des fins de saisie de l’utilisateur. Pour enregistrer la valeur dans la base de données comme énumération, mettez en correspondance manuellement la valeur de chaîne avec la valeur d’énumération avant d’enregistrer dans la base de données à l’aide de la chaîne de la commande (voir la section « Utiliser la chaîne de commande sur la classe TSTimesheetEntryService pour enregistrer une entrée de feuille de temps de l’application dans la base de données » plus loin dans cet article pour obtenir un exemple).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Cette propriété spécifie l’étiquette affichée à côté du champ dans l�
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (liste des chaînes)
 
-Cette propriété est applicable uniquement lorsque **fieldBaseType** est réglé sur **Chaîne**. Si **stringOptions** est défini, les valeurs de chaîne disponibles pour la sélection via les boutons d’option sont spécifiées par les chaînes de la liste. Si aucune chaîne n’est fournie, l’entrée de texte libre dans le champ de chaîne est autorisée (voir la section « Utiliser la chaîne de commande sur la classe TSTimesheetEntryService pour enregistrer une entrée de feuille de temps de l’application dans la base de données » ultérieurement dans cette rubrique pour un exemple).
+Cette propriété est applicable uniquement lorsque **fieldBaseType** est réglé sur **Chaîne**. Si **stringOptions** est défini, les valeurs de chaîne disponibles pour la sélection via les boutons d’option sont spécifiées par les chaînes de la liste. Si aucune chaîne n’est fournie, l’entrée de texte libre est autorisée dans le champ de chaîne (voir la section « Utiliser la chaîne de commande sur la classe TSTimesheetEntryService pour enregistrer une entrée de feuille de temps de l’application dans la base de données » plus loin dans cet article pour obtenir un exemple).
 
 ### <a name="stringlength-int"></a>stringLength (entier)
 

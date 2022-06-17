@@ -1,33 +1,33 @@
 ---
 title: Mettre à jour les attributs de plug-in avec de nouvelles dimensions de tarification
-description: Cette rubrique donne des informations sur la manière de mettre à jour des attributs de plug-in pour les dimensions de tarification.
+description: Cet article donne des informations sur la mise à jour des attributs de plug-in pour les dimensions de tarification.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920011"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Mettre à jour les attributs de plug-in avec de nouvelles dimensions de tarification
 
-Cette rubrique donne des informations sur la manière de mettre à jour des attributs de plug-in pour les dimensions de tarification.
+Cet article donne des informations sur la mise à jour des attributs de plug-in pour les dimensions de tarification.
 
 > [!NOTE]
-> Cette rubrique s’applique uniquement aux fonctionnalités de devis et de contrat dans Dynamics 365 Project Operations.
+> Cet article s’applique uniquement aux fonctionnalités de devis et de contrat dans Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Conditions préalables
-Avant de suivre les étapes de cette rubrique, vous devez avoir terminé les procédures décrites dans les rubriques suivantes :
+Avant de suivre les étapes de cet article, vous devez avoir suivi les procédures décrites dans les articles suivants :
 
   - [Créer des champs et des entités personnalisés](create-custom-fields-entities-pricing-dimensions.md) 
   - [Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles ](add-custom-fields-price-setup-transactional-entities.md)
   - [Configurer des champs personnalisés comme dimensions de tarification ](set-up-custom-fields-pricing-dimensions.md). 
   
-Si vous n’avez pas effectué ces procédures, effectuez-les, puis revenez à cette rubrique.
+Si vous n’avez pas effectué ces procédures, effectuez-les, puis revenez à cet article.
 
 ## <a name="register-a-plug-in"></a>Enregistrer un plug-in
 Lorsqu’un détail de ligne de devis est créé sur la page **Ligne de devis** pour une ligne de devis de projet, le système crée deux lignes d’estimation. Une ligne est pour le côté coût de l’estimation et l’autre ligne est pour le côté ventes. La même procédure s’applique aux lignes de contrat du projet.

@@ -1,6 +1,6 @@
 ---
 title: Subventions de projet
-description: Cette rubrique explique comment créer ou modifier une subvention.
+description: Cet article illustre la création ou la modification d’une subvention.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bc8240c2193bd2c27d54c04b55e14725ab208ac
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 40357bdfb74b6afdb26663e6439f90e762b79029
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913617"
 ---
 # <a name="project-grants"></a>Subventions de projet
 

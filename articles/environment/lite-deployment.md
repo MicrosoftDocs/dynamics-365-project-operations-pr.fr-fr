@@ -1,17 +1,17 @@
 ---
 title: Déployer Project Operations – Simplifié
-description: Cette rubrique fournit des informations sur la façon d’installer le déploiement simplifié de Project Operations – Traiter la facturation pro forma.
+description: Cet article fournit des informations sur la façon d’installer Déploiement simplifié – Opter pour la facturation pro forma de Project Operations.
 author: stsporen
 ms.date: 02/28/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 86293b725e86db3d4b8bdaf5810b16b7c670e8a3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580729"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930315"
 ---
 # <a name="deploy-project-operations---lite"></a>Déployer Project Operations – Simplifié
 

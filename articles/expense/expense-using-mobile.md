@@ -1,6 +1,6 @@
 ---
 title: Application mobile Gestion des dépenses
-description: Cette rubrique donne des informations sur l’espace de travail mobile Gestion des dépenses.
+description: Cet article fournit des informations sur l’espace de travail mobile pour la gestion des dépenses.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930223"
 ---
 # <a name="mobile-expense-app"></a>Application mobile Gestion des dépenses
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
-Cette rubrique donne des informations sur l’espace de travail mobile **Gestion des dépenses** . Cet espace de travail permet aux utilisateurs de capturer et de télécharger un reçu, afin de pouvoir le joindre à une note de frais ultérieurement. Les utilisateurs peuvent également créer rapidement une ligne de dépenses en utilisant un reçu joint, et créer et gérer leurs notes de frais. De plus, les approbateurs peuvent utiliser l’espace de travail mobile **Gestion des dépenses** pour afficher les notes de frais qui leur sont affectées et les approuver ou les rejeter.
+Cet article fournit des informations sur l’espace de travail mobile pour la **gestion des dépenses**. Cet espace de travail permet aux utilisateurs de capturer et de télécharger un reçu, afin de pouvoir le joindre à une note de frais ultérieurement. Les utilisateurs peuvent également créer rapidement une ligne de dépenses en utilisant un reçu joint, et créer et gérer leurs notes de frais. De plus, les approbateurs peuvent utiliser l’espace de travail mobile **Gestion des dépenses** pour afficher les notes de frais qui leur sont affectées et les approuver ou les rejeter.
 
 Cet espace de travail mobile est destiné à être utilisé avec l’application mobile Dynamics 365 Unified Ops.
 

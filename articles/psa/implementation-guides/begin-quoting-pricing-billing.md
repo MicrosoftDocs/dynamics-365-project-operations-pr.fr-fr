@@ -1,6 +1,6 @@
 ---
 title: Guide de base pour l’établissement de devis, la tarification et la facturation
-description: Cette rubrique fournit des liens vers des informations sur les devis, la facturation et la tarification de base dans Project Service Automation.
+description: Cet article fournit des liens vers des informations sur les devis, la facturation et la tarification de base dans Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910795"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Guide de base pour l’établissement de devis, la tarification et la facturation
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592229"
 
 La possibilité de rechercher les bonnes ressources au bon moment, de réserver ces ressources sur des projets, et de conserver les ressources utilisés permet aux organisations d’atteindre des cibles de revenu et des objectifs de satisfaction client. 
 
-Le lien PDF précédemment dans cette rubrique a été supprimé et le contenu a été déplacé vers les rubriques suivantes :
+Le lien PDF précédemment dans cet article a été supprimé et le contenu a été déplacé vers les articles suivantes :
 
 - [Devis, tarification et facturation](../quote-bill-price.md)
 - [Processus de vente](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Le lien PDF précédemment dans cette rubrique a été supprimé et le contenu a
 - [Enregistrement des chiffres réels](../advanced-actuals.md)
 
 > [!NOTE]
-> Cette rubrique sera supprimée dans une future mise à jour de documentation. 
+> Cet article sera supprimé dans une future mise à jour de documentation. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

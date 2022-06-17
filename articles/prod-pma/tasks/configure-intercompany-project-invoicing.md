@@ -1,6 +1,6 @@
 ---
 title: Configurer la facturation des projets intersociétés
-description: Cette rubrique présente comment configurer la facturation des projets entre deux sociétés au sein de votre organisation.
+description: Cet article décrit comment paramétrer la facturation d’un projet entre deux sociétés de votre organisation.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916607"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurer la facturation des projets intersociétés
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique présente comment configurer la facturation des projets entre deux sociétés au sein de votre organisation. Cette tâche utilise le jeu de données USSI.
+Cet article décrit comment paramétrer la facturation d’un projet entre deux sociétés de votre organisation. Cette tâche utilise le jeu de données USSI.
 
 1. Dans le volet de navigation, accédez à **Modules > Comptabilité fournisseur > Fournisseurs > Tous les fournisseurs**.
 2. Dans la liste **Tous les fournisseurs**, recherchez et sélectionnez l’enregistrement souhaité.

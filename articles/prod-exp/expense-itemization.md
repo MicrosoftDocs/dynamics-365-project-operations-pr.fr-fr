@@ -1,17 +1,17 @@
 ---
 title: Détail des dépenses
-description: Cette rubrique explique comment détailler les dépenses à l’aide de l’espace de travail repensé Dépenses.
+description: Cet article explique comment détailler les dépenses à l’aide de l’espace de travail repensé Dépenses.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 71bfbe83259804fc0b0355c81d430805da23dd45
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920931"
 ---
 # <a name="expense-itemization"></a>Détail des dépenses
 

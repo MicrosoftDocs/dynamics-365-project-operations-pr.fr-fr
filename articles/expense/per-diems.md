@@ -1,17 +1,17 @@
 ---
 title: Indemnités quotidiennes
-description: Cette rubrique fournit des informations sur les règles d’indemnités journalières utilisées dans la gestion des dépenses.
+description: Cet article fournit des informations sur les règles d’indemnités journalières utilisées dans Gestion des dépenses.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: e537d6c6112eb4baf38229e3e40897eacdf21983
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8fa634c23391c47c0c583647165dce2b396535e5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930177"
 ---
 # <a name="per-diems"></a>Indemnités quotidiennes
 

@@ -1,35 +1,35 @@
 ---
 title: Performances de l’API de planification de projets
-description: Cette rubrique fournit des informations sur les benchmarks de performance des API de planification de projets et identifie les pratiques recommandées pour une utilisation optimale.
+description: Cet article fournit des informations sur les benchmarks de performance des API de planification de projets et identifie les pratiques recommandées pour une utilisation optimale.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911179"
 ---
 # <a name="project-schedule-api-performance"></a>Performances de l’API de planification de projets
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés, déploiement simplifié : traiter la facturation pro forma, Project for the Web_
 
-Cette rubrique fournit des informations sur les benchmarks de performance des interfaces de programmation d’applications (API) de planification de projets et identifie les pratiques recommandées pour optimiser l’utilisation.
+Cet article fournit des informations sur les benchmarks de performance des interfaces de programmation d’applications (API) de planification de projets et identifie les pratiques recommandées pour optimiser l’utilisation.
 
 ## <a name="project-scheduling-service"></a>Service de planification de projets
 Le service de planification de projets est un service multiclient qui s’exécute dans Microsoft Azure. Il est conçu pour améliorer l’interaction en offrant une expérience rapide et fluide lorsque les utilisateurs travaillent sur des projets. Cette amélioration est obtenue en acceptant les demandes de modification, en les traitant, puis en renvoyant immédiatement le résultat. Le service persiste de manière asynchrone dans Dataverse et n’empêche pas les utilisateurs d’effectuer d’autres opérations.
 
-Les API de planification de projets s’appuient sur le service de planification de projets pour exécuter des demandes qui sont décrites plus en détail dans les sections suivantes de cette rubrique.
+Les API de planification de projets s’appuient sur le service de planification de projets pour exécuter des demandes qui sont décrites plus en détail dans les sections suivantes de cet article.
 
 Les API de planification de projets sont conçues pour fonctionner avec les entités de structure de répartition du travail (WBS) suivantes :
 
   - Project
   - Tâche du projet
   - Dépendance de la tâche du projet
-  - Membre de l'équipe du projet
+  - Membre de l’équipe du projet
   - Attribution de ressource
   
 Les champs prédéfinis et les champs personnalisés sont pris en charge. Sauf indication contraire, toutes les opérations courantes sont prises en charge, comme la création, la mise à jour et la suppression. Pour plus d’informations, consultez [Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification](schedule-api-preview.md).

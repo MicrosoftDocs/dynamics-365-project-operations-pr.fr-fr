@@ -1,6 +1,6 @@
 ---
 title: Tarifs des produits
-description: Cette rubrique fournit des informations sur les tarifs des catalogues utilisés pour les devis de projet et les contrats.
+description: Cet article fournit des informations sur les tarifs dans la tarification catalogue utilisée pour les devis de projet et les contrats.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4feb7638dd7b6826e575d83457ae7f74ef6793bf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 68203f5adf7bf41d97e662e335d481ccac959ed6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917619"
 ---
 # <a name="product-price-lists"></a>Tarifs des produits
 

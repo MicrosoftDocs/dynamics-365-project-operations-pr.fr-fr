@@ -1,6 +1,6 @@
 ---
 title: Processus de vente
-description: Cette rubrique fournit des informations sur les processus de vente de base.
+description: Cet article fournit des informations sur les processus de vente de base.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: bec8718e287500a7cbc778dc32758e793be8dc3b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 18a5ca0592dfefb611094685087351149a0f5e3b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923507"
 ---
 # <a name="sales-processes"></a>Processus de vente
 

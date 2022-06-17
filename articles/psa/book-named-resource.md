@@ -1,6 +1,6 @@
 ---
 title: Réserver des ressources nommées à partir des besoins en ressources.
-description: Cette rubrique fournit des informations sur la réservation des ressources nommées pour un besoin en ressources générique.
+description: Cet article fournit des informations sur la réservation des ressources nommées pour un besoin en ressources générique.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 92a61012beb9aa200f4ea65b777acb0fae04e7e6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9598490da1905227e517da8ba90f8ffd1df88566
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916239"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Réserver des ressources nommées à partir des besoins en ressources.
 

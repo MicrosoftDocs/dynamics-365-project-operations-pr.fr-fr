@@ -1,6 +1,6 @@
 ---
 title: Personnaliser une entrée de temps hebdomadaire
-description: Cette rubrique donne des informations sur la mise en œuvre de règles métier personnalisées qui prennent en charge les pratiques d’une organisation.
+description: Cet article donne des informations sur la mise en œuvre de règles métier personnalisées qui prennent en charge les pratiques d’une organisation.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918953"
 ---
 # <a name="customize-weekly-time-entry"></a>Personnaliser une entrée de temps hebdomadaire 
 
@@ -46,9 +46,9 @@ La section **Dimensions** affiche, sous forme d’en-têtes de colonne, toutes l
 - Type
 - Statut de l’entrée
 
-La section **Dimensions** n’autorise pas la modification intraligne. Cette section est étayée par une vue qui permet d’ajouter des champs personnalisés à la grille d’entrée de temps hebdomadaire. Pour plus d’informations sur l’ajout de champs personnalisés, consultez la section « Extensibilité » plus loin dans cette rubrique.
+La section **Dimensions** n’autorise pas la modification intraligne. Cette section est étayée par une vue qui permet d’ajouter des champs personnalisés à la grille d’entrée de temps hebdomadaire. Pour plus d’informations sur l’ajout de champs personnalisés, consultez la section « Extensibilité » plus loin dans cet article.
 
-### <a name="duration"></a>Durée
+### <a name="duration"></a>Duration
 La section Durée affiche les jours de la semaine sous forme d’en-têtes de colonne. Cette section autorise la modification intraligne. Une fois qu’une ligne d’entrée de temps avec les dimensions appropriées est créée, les utilisateurs peuvent rapidement entrer, en ligne, le temps qu’ils ont consacré à ces dimensions.
 
 ## <a name="create-a-new-time-entry"></a>Créer une entrée de temps

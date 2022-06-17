@@ -1,6 +1,6 @@
 ---
 title: Créer des estimations sur une ligne du devis
-description: Cette rubrique fournit des informations sur la façon de créer des estimations sur une ligne du devis pour un projet.
+description: Cet article fournit des informations sur la création d’une estimation sur une ligne de devis pour un projet.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2a673c3ff646e76cf150dbcac40373d5dddcc4ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9f606ff2c33c46063f7025e8bc58e704d472061b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912559"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Créer des estimations sur une ligne du devis
 

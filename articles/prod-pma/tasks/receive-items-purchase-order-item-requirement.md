@@ -1,6 +1,6 @@
 ---
 title: Recevoir les articles sur la commande achat depuis le besoin d’article
-description: Cette rubrique explique comment recevoir des articles sur une commande achat à partir d’un besoin d’article.
+description: Cet article explique comment recevoir des articles sur une commande fournisseur à partir d’une demande d’articles.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929533"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Recevoir les articles sur la commande achat depuis le besoin d’article
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment recevoir des articles sur une commande achat à partir d’un besoin d’article.
+Cet article explique comment recevoir des articles sur une commande fournisseur à partir d’une demande d’articles.
 
 En utilisant une demande d’article au lieu d’une transaction d’article, vous pouvez planifier la livraison juste avant que l’article ne soit réellement utilisé, créer une commande d’achat, inclure l’article dans le cadre de l’accord commercial et inclure l’exigence d’article dans la planification de la production. 
 

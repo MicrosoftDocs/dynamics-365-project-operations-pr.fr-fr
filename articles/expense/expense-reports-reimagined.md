@@ -1,6 +1,6 @@
 ---
 title: Notes de frais réinventées (contient une vidéo)
-description: Cette rubrique explique l’expérience reconçue et réinventée pour la saisie de notes de frais.
+description: Cet article explique l’expérience repensée et réinventée pour la saisie des notes de frais.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b4b70722af72bc66dba0662813c29d3d1df04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930269"
 ---
 # <a name="expense-reports-reimagined"></a>Notes de frais réinventées
 

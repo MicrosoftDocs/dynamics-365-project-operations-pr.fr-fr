@@ -1,28 +1,28 @@
 ---
 title: Utiliser une catégorie de transaction comme dimension de tarification
-description: Cette rubrique donne des informations sur la manière d’utiliser le champ Catégorie de transaction comme dimension de tarification.
+description: Cet article donne des informations sur l’utilisation du champ Catégorie de transaction comme dimension de tarification.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911691"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utiliser une catégorie de transaction comme dimension de tarification
 
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 
-Cette rubrique explique comment utiliser le champ **Catégorie de transaction** comme dimension de tarification. 
+Cet article explique comment utiliser le champ **Catégorie de transaction** comme dimension de tarification. 
 
 ## <a name="prerequisites"></a>Conditions préalables
-Avant de suivre les procédures décrites dans cette rubrique, vous devez disposer d’une nouvelle solution de dimension de tarification pour votre organisation. Si vous n’en avez pas déjà créé une, voir [Créer des champs et des entités personnalisés comme dimensions de tarification](create-custom-fields-entities-pricing-dimensions.md).
+Avant de terminer les procédures de cet article, vous devez disposer d’une nouvelle solution de dimension de tarification pour votre organisation. Si vous n’en avez pas déjà créé une, voir [Créer des champs et des entités personnalisés comme dimensions de tarification](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Ajouter le champ Catégorie de transaction aux formulaires et vues
 Pour que le champ **Catégorie de transaction** soit visible dans la solution de dimension de tarification, vous devez ajouter le champ à tous les formulaires et vues en tant qu’entité.

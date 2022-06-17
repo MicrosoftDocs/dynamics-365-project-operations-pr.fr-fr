@@ -1,6 +1,6 @@
 ---
 title: Dépenses d’indemnités journalières
-description: Cette rubrique fournit des informations sur la façon d’utiliser les dépenses d’indemnités journalières.
+description: Cet article fournit des informations sur la façon d’utiliser les dépenses d’indemnités journalières.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923185"
 ---
 # <a name="per-diem-expenses"></a>Dépenses d’indemnités journalières
 
 > [!IMPORTANT] 
-> La fonctionnalité décrite dans cette rubrique est accessible à des utilisateurs ciblés dans le cadre d’une préversion.
+> La fonctionnalité décrite dans cet article est accessible à des utilisateurs ciblés dans le cadre d’une préversion.
 
 Une indemnité journalière est une compensation journalière fixe et prédéterminée qu’une entreprise verse à ses employés pour l’hébergement (hôtels), les repas et les frais accessoires que ces employés encourent lors de leurs déplacements professionnels. L’entreprise verse cette indemnité aux employés au lieu de payer les frais de déplacement réels. Les employés peuvent utiliser leurs indemnités journalières **Frais accessoires/Autre** pour couvrir les pourboires, le service de chambre, les services de blanchisserie ou de nettoyage à sec pour les réunions d’affaires importantes. Le taux d’indemnités journalières peut varier selon que l’employeur choisit de rembourser les frais combinés d’hébergement et de repas, ou seulement les frais de repas et faux frais.
 

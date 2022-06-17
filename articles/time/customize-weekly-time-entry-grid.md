@@ -1,17 +1,17 @@
 ---
 title: Développement des entrées de temps
-description: Cette rubrique fournit des informations sur la façon dont les développeurs peuvent étendre le contrôle de saisie de l’heure.
+description: Cet article fournit des informations sur la façon dont les développeurs peuvent étendre le contrôle d’entrée de temps.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ed501af3fb2059ab3c3ab6f6c957fe518595d55
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914767"
 ---
 # <a name="extending-time-entries"></a>Développement des entrées de temps
 

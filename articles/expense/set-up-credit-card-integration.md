@@ -1,6 +1,6 @@
 ---
 title: Configurer l’intégration des cartes de crédit
-description: Cette rubrique explique comment utiliser les transactions par carte de crédit liées aux dépenses.
+description: Cet article décrit la procédure d’utilisation des transactions de carte de crédit liées aux dépenses.
 author: suvaidya
 ms.date: 11/17/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4d32754548af67bdd5b9f7345f6363bd6193b36d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924473"
 ---
 # <a name="set-up-credit-card-integration"></a>Configurer l’intégration des cartes de crédit
 

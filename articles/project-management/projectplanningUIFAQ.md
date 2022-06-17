@@ -1,25 +1,25 @@
 ---
 title: Résolution des problèmes lors de l’utilisation de la grille des tâches
-description: Cette rubrique fournit les informations de dépannage nécessaires lorsque vous travaillez dans la grille des tâches.
+description: Cet article fournit des informations sur le dépannage des problèmes pendant l’utilisation de la grille des tâches.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911041"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Résolution des problèmes lors de l’utilisation de la grille des tâches 
 
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés, déploiement simplifié : traiter la facturation pro forma, Project for the Web_
 
-La grille de tâches exploitée par Dynamics 365 Project Operations est un iFrame hébergé dans Microsoft Dataverse. Ainsi, des exigences spécifiques doivent être remplies pour garantir le bon fonctionnement de l’authentification et de l’autorisation. Cette rubrique décrit les problèmes courants qui peuvent avoir un impact sur l’affichage de la grille ou la gestion des tâches dans la structure de répartition du travail (WBS).
+La grille de tâches exploitée par Dynamics 365 Project Operations est un iFrame hébergé dans Microsoft Dataverse. Ainsi, des exigences spécifiques doivent être remplies pour garantir le bon fonctionnement de l’authentification et de l’autorisation. Cet article décrit les problèmes courants qui peuvent avoir un impact sur l’affichage de la grille ou la gestion des tâches dans la structure de répartition du travail (WBS).
 
 Les problèmes courants sont les suivants :
 

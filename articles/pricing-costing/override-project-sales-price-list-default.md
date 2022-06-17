@@ -1,18 +1,18 @@
 ---
 title: Remplacer les tarifs de vente des projets
-description: Cette rubrique fournit des informations sur la création de listes de prix de vente personnalisées.
+description: Cet article fournit des informations sur la création de tarifs de vente personnalisés.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16c2b53283b8aa2a243b55a0b887bb5bb461a5fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d0a769f415679b08f3228fcb14fbbbd37533ebc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911915"
 ---
 # <a name="override-project-sales-price-lists"></a>Remplacer les tarifs de vente des projets
 

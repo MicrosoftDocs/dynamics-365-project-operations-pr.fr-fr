@@ -1,17 +1,17 @@
 ---
 title: Lignes du contrat de sous-traitance pour les catégories de dépenses
-description: Cette rubrique explique comment enregistrer des lignes du contrat de sous-traitance pour les dépenses et comment utiliser les champs pour enregistrer l’achat de temps auprès des fournisseurs.
+description: Cet article explique comment enregistrer des lignes de sous-traitance pour les dépenses et utiliser les champs pour enregistrer l’achat de temps auprès des fournisseurs.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9eba8b70aeb98389515ee679e4bfb1426736ee2c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0b02a8aa0fce7bcb52374c0755d4bb85db16dad3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591677"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921023"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Lignes du contrat de sous-traitance pour les catégories de dépenses
 
@@ -40,7 +40,7 @@ Le tableau suivant fournit des informations sur les champs de la page des détai
 | Début demandé | Entrez la date à laquelle les catégories d’achat doivent être disponibles auprès du fournisseur. | Le début demandé permet de choisir un tarif du projet dans les tarifs du projet joints au contrat de sous-traitance. Le coût de la catégorie sur la ligne du contrat de sous-traitance provient de ce tarif. |
 | Fin demandée | Entrez la date à laquelle les catégories d’achat ne seraient plus nécessaires. | Elle permet d’afficher des avertissements si un chef de projet associe cette ligne du contrat de sous-traitance à des estimations de dépense spécifiques sur le projet qui sont nécessaires après cette date. |
 | Quantité commandée | Quantité de la catégorie achetée auprès du fournisseur. | Elle permet d’afficher des avertissements si un chef de projet puise excessivement dans cette quantité.|
-| Groupe d'unités | La valeur par défaut est basée sur le groupe d’unités par défaut configuré pour la catégorie sélectionnée. |Aucun(e) |
+| Groupe d’unités | La valeur par défaut est basée sur le groupe d’unités par défaut configuré pour la catégorie sélectionnée. |Aucun(e) |
 | Unité | La valeur par défaut est basée sur l’unité par défaut configurée pour la catégorie sélectionnée.  | L’association **Catégorie** et **Unité** est utilisée par défaut ou calculée pour le prix unitaire de la ligne du contrat de sous-traitance.  |
 | Prix unitaire | La valeur par défaut utilise l’association **Catégorie** et **Unité** des prix de catégorie associés au tarif du projet qui s’applique au début demandé de la ligne du contrat de sous-traitance. |Aucun(e) |
 | Sous-total | Champ en lecture seule calculé de la façon suivante : Quantité x Prix unitaire, si les valeurs de quantité et de prix unitaire sont entrées. Si un ou les deux champs sont vides, vous pouvez entrer une valeur dans ce champ. |Aucun(e) |

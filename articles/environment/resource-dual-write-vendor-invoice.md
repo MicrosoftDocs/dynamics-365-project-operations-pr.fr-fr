@@ -1,18 +1,18 @@
 ---
 title: Intégration des factures fournisseur
-description: Cette rubrique fournit des informations sur l’intégration des factures fournisseur dans Project Operations.
+description: Cet article fournit des informations sur l’intégration de facture fournisseur dans Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912053"
 ---
 # <a name="vendor-invoice-integration"></a>Intégration des factures fournisseur
 
@@ -21,7 +21,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 Les approvisionnements liés au projet dans Dynamics 365 Project Operations peuvent être enregistrés en accédant à **Comptabilité fournisseur** > **Factures** > **Factures fournisseur en attente** et en utilisant un document de facture fournisseur en attente. Pour plus d’informations, voir [Acheter du matériel non stocké à l’aide d’une facture fournisseur en attente](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Avant d’utiliser la fonctionnalité décrite dans cette rubrique, passez en revue et appliquez les configurations requises. Pour plus d’informations, voir [Activer le matériel non stocké et les factures fournisseur en attente](../procurement/configure-materials-nonstocked.md).
+> Avant d’utiliser la fonctionnalité décrite dans cet article, passez en revue et appliquez les configurations requises. Pour plus d’informations, voir [Activer le matériel non stocké et les factures fournisseur en attente](../procurement/configure-materials-nonstocked.md).
 
 Dans Project Operations, les factures fournisseur liées au projet sont validées à l’aide de règles de validation spéciales :
 

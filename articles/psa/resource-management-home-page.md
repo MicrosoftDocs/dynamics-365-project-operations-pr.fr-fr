@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil de la gestion des ressources
-description: Cette rubrique fournit des informations sur la façon de gérer les ressources.
+description: Cet article fournit des informations sur la façon de gérer les ressources.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913249"
 ---
 # <a name="resource-management-home-page"></a>Page d’accueil de la gestion des ressources
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578751"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Les ressources sont l’actif le plus important d’une organisation basée sur le service. La possibilité de rechercher et de réserver les ressources appropriées lorsque vous en avez besoin, et les maintenir utilisées, permet à l’organisation d’atteindre ses cibles en matière de revenu et ses objectifs de satisfaction client. Les rubriques suivantes sont axées sur les fonctionnalités de gestion des ressources de Dynamics 365 Project Service Automation :
+Les ressources sont l’actif le plus important d’une organisation basée sur le service. La possibilité de rechercher et de réserver les ressources appropriées lorsque vous en avez besoin, et les maintenir utilisées, permet à l’organisation d’atteindre ses cibles en matière de revenu et ses objectifs de satisfaction client. Les articles suivants sont axés sur les fonctionnalités de gestion des ressources de Dynamics 365 Project Service Automation :
 
 - [Gérer les ressources](manage-resources.md)
 - [Concepts clés](reports-key-concepts.md)

@@ -1,17 +1,17 @@
 ---
 title: Développer des modèles de projet avec Copier le projet
-description: Cette rubrique fournit des informations sur la création de modèles de projet à l’aide de l’action personnalisée Copier le projet.
+description: Cet article fournit des informations sur la création de modèles de projet à l’aide de l’action personnalisée Copier le projet.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47c1023bbc4c21e3571bffbf3670bf0f7854f81d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923829"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Développer des modèles de projet avec Copier le projet
 
@@ -23,7 +23,7 @@ Lorsque vous sélectionnez **Copier le projet**, le statut du projet cible est m
 
 ## <a name="copy-project-custom-action"></a>Copier l’action personnalisée du projet
 
-### <a name="name"></a>Nom  
+### <a name="name"></a>Nom 
 
 msdyn\_CopyProjectV3
 

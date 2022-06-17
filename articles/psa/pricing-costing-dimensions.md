@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil Dimensions de tarification et des coûts
-description: Cette rubrique présente les dimensions de tarification.
+description: Cet article présente les dimensions de tarification.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925439"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Page d’accueil Dimensions de tarification et des coûts
 
@@ -47,7 +47,7 @@ Expéditions PSA avec un ensemble par défaut de dimensions de tarification. Vou
 > [!IMPORTANT]
 > Si vous avez utilisé les champs prédéfinis du rôle et de l’unité d’organisation comme dimensions de tarification avant la version 3 de PSA, il n’existera pas de modification observable. Vous pouvez continuer à utiliser Project Service comme d’habitude. 
 
-Si vous devez évaluer un prix ou un coût pour vos ressources en utilisant des attributs supplémentaires, vous pouvez créer des champs, des entités, et des dimensions personnalisés. Pour plus d’informations, consultez les rubriques suivantes, toutefois notez que vous devez exécuter les procédures dans l’ordre indiqué ci-dessous :
+Si vous devez évaluer un prix ou un coût pour vos ressources en utilisant des attributs supplémentaires, vous pouvez créer des champs, des entités, et des dimensions personnalisés. Pour plus d’informations, consultez les articles suivants, toutefois notez que vous devez exécuter les procédures dans l’ordre indiqué ci-dessous :
 
 - [Créer des champs et des entités personnalisés](create-custom-fields-entities.md)
 - [Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles](field-references.md)

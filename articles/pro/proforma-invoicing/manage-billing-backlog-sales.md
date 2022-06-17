@@ -1,17 +1,17 @@
 ---
 title: Gérer la réplication de facturation des projets
-description: Cette rubrique fournit des informations sur les différentes vues disponibles pour être utilisées lors de la gestion de la réplication de facturation sur les projets.
+description: Cet article fournit des informations sur les différentes vues disponibles à utiliser lors de la gestion de l’arriéré de facturation sur les projets.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3a90d50fcca8824db10594352cbd1e204665c53
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f2e68449a8f1a0da62850454fb8ae56daffbab0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930085"
 ---
 # <a name="manage-project-billing-backlog"></a>Gérer la réplication de facturation des projets 
 

@@ -1,17 +1,17 @@
 ---
 title: Enregistrement du temps, des dépenses et de l’utilisation du matériel pour les composants en sous-traitance
-description: Cette rubrique explique comment le temps, les dépenses et l’utilisation des matériels enregistrés sur les projets à partir de composants sous-traités sont suivis par Microsoft Dynamics 365 Project Operations.
+description: Cet article explique comment le temps, les dépenses et l’utilisation des matériels enregistrés sur les projets à partir de composants sous-traités sont suivis par Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927647"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Enregistrement du temps, des dépenses et de l’utilisation du matériel sur les projets pour les composants en sous-traitance
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599221"
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Cette rubrique explique comment le temps, les dépenses et l’utilisation des matériels enregistrés sur les projets à partir de composants sous-traités sont suivis par Microsoft Dynamics 365 Project Operations.
+Cet article explique comment le temps, les dépenses et l’utilisation des matériels enregistrés sur les projets à partir de composants sous-traités sont suivis par Microsoft Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Chiffrage du temps des sous-traitants sur les projets
 Dans Project Operations, les contractuels peuvent enregistrer le temps sur les projets de la même manière que les employés. Lors de la saisie du temps sur des projets et/ou des tâches de projet, un collaborateur contractuel peut sélectionner un sous-contrat et une ligne de contrat de sous-traitance spécifiques.

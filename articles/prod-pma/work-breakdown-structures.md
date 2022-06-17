@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920655"
 ---
 # <a name="work-breakdown-structures-overview"></a>Vue d’ensemble des structures de répartition du travail
 
@@ -35,7 +35,7 @@ Le degré des détails dans une structure de répartition du travail dépend du 
 
 En revanche, les projets dans des secteurs tels que les médias et la publicité, les logiciels et l’infrastructure informatique ont tendance à être uniques en leur genre, et la productivité dépend de l’expérience et de la qualification de la personne qui exécute la tâche. Par conséquent, ces industries utilisent une structure de répartition du travail pour obtenir une approximation de la taille d’un projet, et non pour suivre l’avancement de ce projet en détail. 
 
-La création d’une WBS est un processus intensif qui se déroule généralement sur une longue période et qui nécessite la collaboration et les informations d’une grande variété de personnes. Cette rubrique décrit la manière dont vous pouvez utiliser les améliorations de la WBS pour répondre à vos besoins en matière d’estimations et de suivi.
+La création d’une WBS est un processus intensif qui se déroule généralement sur une longue période et qui nécessite la collaboration et les informations d’une grande variété de personnes. Cet article décrit la manière dont vous pouvez utiliser les améliorations de la WBS pour répondre à vos besoins pour les estimations et le suivi.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Conditions préalables à la création d’une WBS
 Pour créer une WBS, vous devez être en mesure de créer un calendrier de travail et d’estimer le coût du travail.
@@ -166,7 +166,7 @@ Finance dispose de trois vues pour la WBS d’un projet : la vue Planification,
 
 ### <a name="planning-view"></a>Vue Planification
 
-La vue Planification affiche l’estimation planifiée ou de référence du calendrier et des informations sur les coûts. Bien qu’il n’existe aucune fonctionnalité de suivi de la version et de la référence pour un projet WBS, les valeurs de cette vue sont destinées à représenter la version de référence. Les sections Estimation du calendrier et Estimation des coûts de cette rubrique décrivent cette vue et comment elle est utilisée pour créer une WBS.
+La vue Planification affiche l’estimation planifiée ou de référence du calendrier et des informations sur les coûts. Bien qu’il n’existe aucune fonctionnalité de suivi de la version et de la référence pour un projet WBS, les valeurs de cette vue sont destinées à représenter la version de référence. Les sections Estimation de planification et Estimation de coût de cet article décrivent cette vue et la manière de l’utiliser pour créer une WBS.
 
 ### <a name="effort-tracking-view"></a>Vue de suivi des efforts
 

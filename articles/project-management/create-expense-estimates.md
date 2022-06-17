@@ -1,17 +1,17 @@
 ---
 title: Estimations financières des dépenses des projets
-description: Cette rubrique fournit des informations sur la définition ou l’estimation des dépenses liées au projet.
+description: Cet article fournit des informations sur la définition ou l’estimation des dépenses basées sur un projet.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5a29244a65dd88d3ba0f8333a63627bb0c068273
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925681"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Estimations financières des dépenses des projets
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_

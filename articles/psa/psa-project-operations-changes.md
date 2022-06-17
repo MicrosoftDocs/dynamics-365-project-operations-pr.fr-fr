@@ -1,6 +1,6 @@
 ---
 title: Modifications de la fonctionnalité de Project Service Automation vers Project Operations
-description: Cette rubrique offre une vue d’ensemble des changements de fonctionnalités de Project Service Automation vers Dynamics 365 Project Operations.
+description: Cet article offre une vue d’ensemble des changements de fonctionnalités de Project Service Automation vers Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925347"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Modifications de la fonctionnalité de Project Service Automation vers Project Operations
 
-La mise à niveau de Dynamics 365 Project Service Automation vers Dynamics 365 Project Operations simplifié sera possible en trois phases. Cette rubrique offre les informations relatives aux modifications principales auxquelles vous attendre pour avoir la mise à niveau complète.
+La mise à niveau de Dynamics 365 Project Service Automation vers Dynamics 365 Project Operations simplifié sera possible en trois phases. Cet article offre les informations relatives aux modifications principales auxquelles vous attendre pour avoir la mise à niveau complète.
 
 | Livraison de la mise à niveau | Phase 1 <br>(Janvier 2022) | Phase 2 <br>(vague d’avril 2022) | Phase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
@@ -168,7 +168,7 @@ Les champs suivants ont été ajoutés.
 | msdyn_project     | msdyn_quotelineproject                       | La ligne de devis associée à ce projet. |
 | msdyn_project     | msdyn_replaylogheader                        | En-tête des journaux de relecture. |
 | msdyn_project     | msdyn_schedulemode                           | Mode de planification par défaut utilisé pour toutes les tâches du projet.  |
-| msdyn_project     | msdyn_taskearlieststart                      | Date de début la plus proche d'une tâche du projet.  |
+| msdyn_project     | msdyn_taskearlieststart                      | Date de début la plus proche d’une tâche du projet.  |
 | msdyn_project     | msdyn_valuestatement                         |                |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Membre de l’équipe du projet à partir duquel ce membre de l’équipe du projet a été copié. |
 | msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Indique si la ressource requise doit être créée pour un nouveau membre d’équipe générique créé.  |

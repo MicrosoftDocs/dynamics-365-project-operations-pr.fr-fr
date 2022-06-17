@@ -1,21 +1,21 @@
 ---
 title: Souscrire un abonnement à la version préliminaire – Simplifié
-description: Cette rubrique fournit des informations sur la façon de souscrire un abonnement et de déployer le scénario Déploiement simplifié de Project Operations – Opter pour la facturation pro forma.
+description: Cet article fournit des informations sur la façon de s’abonner et de déployer Déploiement simplifié – Opter pour la facturation pro forma de Project Operations.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921253"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Souscrire un abonnement à la version préliminaire – Simplifié 
 
-Cette rubrique explique comment souscrire à l’offre d’évaluation et déployer le scénario Déploiement simplifié de Dynamics 365 Project Operations - Opter pour la facturation pro forma.
+Cet article explique la façon de s’abonner à l’offre d’essai et de déployer Déploiement simplifié – Opter pour la facturation pro forma de Dynamics 365 Project Operations.
 
 > [!NOTE]
 > Ce processus changera dans les prochaines versions de Project Operations.
@@ -50,7 +50,7 @@ Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur av
 
 ## <a name="create-a-new-dataverse-environment"></a>Créez un environnement Dataverse
 
-1. Mettez en service un nouvel environnement de déploiement de Project Operations Dataverse en suivant les instructions de la rubrique, [Modèle de déploiement Dataverse](lite-deployment.md). Lorsque vous sélectionnez le type d’environnement, assurez-vous d’utiliser la **Version d’essai (basé sur un abonnement)**.
+1. Approvisionnez un nouvel environnement de déploiement Project Operations Dataverse en suivant les instructions de l’article, [Modèle de déploiement Dataverse](lite-deployment.md). Lorsque vous sélectionnez le type d’environnement, assurez-vous d’utiliser la **Version d’essai (basé sur un abonnement)**.
 
   ![Nouvel environnement.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Avant de commencer, assurez-vous que vous êtes connecté(e) à un navigateur av
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installez une configuration CDS et des données de démonstration de configuration
 
-Installez la configuration CDS et configurez les données de démonstration en suivant les instructions de la rubrique [Appliquer la configuration de démonstration et les données de configuration](lite-apply-demo-setup-config-data.md).
+Installez la configuration CDS et configurez les données de démonstration en suivant les instructions de l’article, [Appliquer la configuration de démonstration et les données de configuration](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

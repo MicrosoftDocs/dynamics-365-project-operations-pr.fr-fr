@@ -1,24 +1,24 @@
 ---
 title: Appliquer les données de démonstration à un environnement hébergé par le cloud Finance
-description: Cette rubrique explique comment appliquer les données de démonstration de Project Operations à un environnement hébergé par Dynamics 365 Finance Cloud.
+description: Cet article explique comment appliquer les données de démonstration de Project Operations à un environnement hébergé par Dynamics 365 Finance Cloud.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924657"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Appliquer les données de démonstration à un environnement hébergé par le cloud Finance
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
 > [!IMPORTANT]
-> Cette rubrique n’est applicable qu’à Microsoft Dynamics 365 Finance version 10.0.13 et ne peut être effectuée que sur un environnement hébergé dans le Cloud. Suivez les étapes de cette rubrique **AVANT** d’appliquer des mises à jour de qualité à l’environnement.
+> Cet article n’est applicable qu’à Microsoft Dynamics 365 Finance version 10.0.13 et ne peut être effectuée que sur un environnement hébergé dans le Cloud. Suivez les étapes de cet article **AVANT** d’appliquer des mises à jour de qualité à l’environnement.
 
 1. Dans votre projet LCS, ouvrez la page **Détails de l’environnement**. Notez qu’elle inclut les détails nécessaires pour se connecter à l’environnement à l’aide du protocole RDP (Remote Desktop Protocol).
 

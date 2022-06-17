@@ -1,24 +1,24 @@
 ---
 title: Nouveautés d’août 2021 - Déploiement simplifié de Project Operations
-description: Cette rubrique fournit des informations sur les mises à jour de qualité disponibles dans la version d’août 2021 du déploiement simplifié de Project Operations.
+description: Cet article fournit des informations sur les mises à jour de qualité disponibles dans la version d’août 2021 du déploiement simplifié de Project Operations.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3cb6f92bfb28dc64f0f689e0070b0506644c2320
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84318a26d97355fe56794e1d1532576cde4af661
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922035"
 ---
 # <a name="whats-new-august-2021---project-operations-lite-deployment"></a>Nouveautés d’août 2021 - Déploiement simplifié de Project Operations
 
 _S’applique à : Déploiement simplifié – Traiter la facturation pro forma_
 
-Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cet article s’applique aux composants et versions de Microsoft Dynamics 365 Project Operations suivants :
 
   - Version 4.13.0.152 de Project Operations dans l’environnement Dataverse
 

@@ -1,6 +1,6 @@
 ---
 title: Corrections en masse des chiffres réels créés par des entrées de temps et de dépenses approuvées
-description: Cette rubrique explique comment un administrateur peut apporter des corrections individuelles ou en masse aux entrées de temps ou de dépenses précédemment approuvées si la facturation n’a pas été effectuée.
+description: Cet article explique comment un administrateur peut apporter des corrections uniques ou groupées aux entrées de temps ou de dépenses précédemment approuvées si la facturation n’est pas complète.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683359"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916286"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Corrections en masse des chiffres réels créés par des entrées de temps et de dépenses approuvées
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683359"
 
 Il peut arriver qu’une entrée de temps ou de dépense soit mal saisie. Un consultant peut par exemple sélectionner la mauvaise date lors de la création d’une entrée de temps ou transposer les chiffres lors de la saisie d’une dépense. Si un consultant ne peut pas mettre à jour les entrées soumises, un administrateur peut directement corriger l’entrée pour un projet.
 
-Pour effectuer les procédures de cette rubrique, vous aurez besoin des autorisations Administrateur.
+Pour effectuer les procédures décrites dans cet article, vous aurez besoin des autorisations Administrateur.
 
 ## <a name="correct-approved-time-entries"></a>Corriger les entrées d’heure approuvées     
 

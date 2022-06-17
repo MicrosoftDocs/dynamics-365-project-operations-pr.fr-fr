@@ -1,6 +1,6 @@
 ---
 title: Créer des contrats avancés pour la facturation selon la progression
-description: Cette rubrique explique comment créer des contrats de projet afin que vous puissiez générer des factures pour les clients, en fonction d’un pourcentage du travail terminé.
+description: Cet article explique comment créer des contrats de projet afin de pouvoir générer des factures pour les clients, en fonction d’un pourcentage de travail terminé.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913663"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Créer des contrats avancés pour la facturation selon la progression
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment créer des contrats de projet afin que vous puissiez créer des factures pour les clients, en fonction d’un pourcentage du travail terminé. Les montants des factures sont automatiquement calculés pour les catégories de budget de travail que vous définissez pour un projet. Le délai de facturation est défini lorsque vous négociez le contrat de projet avec le client.
+Cet article explique comment créer des contrats de projet afin de pouvoir créer des factures pour les clients, en fonction d’un pourcentage de travail terminé. Les montants des factures sont automatiquement calculés pour les catégories de budget de travail que vous définissez pour un projet. Le délai de facturation est défini lorsque vous négociez le contrat de projet avec le client.
 
-Utilisez les procédures de cette rubrique pour configurer un contrat, un projet associé et les règles de facturation qui calculent les montants de facture pour les catégories de budget de travail que vous définissez pour le projet.
+Utilisez les procédures de cet article pour définir un contrat, un projet associé et les règles de facturation qui calculent les montants de la facture pour les catégories de travail budgétisées définies pour le projet.
 
 Une fois que vous avez créé le contrat et le projet, vous pouvez configurer les détails du projet. Par exemple, vous pouvez définir des activités et affecter des collaborateurs au projet.
 

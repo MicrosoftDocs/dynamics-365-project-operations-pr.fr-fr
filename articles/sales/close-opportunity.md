@@ -1,17 +1,17 @@
 ---
-title: Fermer une opportunité
-description: Cette rubrique fournit des informations sur la clôture d’une opportunité de projet.
+title: Fermeture d’une opportunité
+description: Cet article fournit des informations sur la clôture d’une opportunité pour un projet.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0e86231ee595646d676885f41674438ea7c3c02b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 72789d2d3fa6f362a5ccd8a4dae7bbcf1c735ea3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601383"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920241"
 ---
 # <a name="close-an-opportunity"></a>Fermer une opportunité
 

@@ -1,17 +1,17 @@
 ---
 title: Définir les rôles
-description: Cette sujet fournit un lien vers des informations sur la configuration des catégories de ressources réservables.
+description: Cet article donne un lien vers des informations sur la configuration de catégories de ressources réservables.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 4e8c965a1a977ba9c92d80f61b73ccab98635ec4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 87884fab51159744b1ebb287c34fb0414c8fd6da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924887"
 ---
 # <a name="define-roles"></a>Définir les rôles
 

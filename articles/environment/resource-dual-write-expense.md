@@ -1,24 +1,24 @@
 ---
 title: Intégration de la gestion des dépenses
-description: Cette rubrique fournit des informations sur l’intégration des notes de frais dans Project Operations à l’aide de la double écriture.
+description: Cet article fournit des informations sur l’intégration des notes de frais dans Project Operations à l’aide de la double écriture.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924611"
 ---
 # <a name="expense-management-integration"></a>Intégration de la gestion des dépenses
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Cette rubrique fournit des informations sur l’intégration des notes de frais dans le [déploiement de type Dépenses complètes](../expense/expense-overview.md) de Project Operations à l’aide de la double écriture.
+Cet article fournit des informations sur l’intégration des notes de frais dans le [déploiement complet des dépenses](../expense/expense-overview.md) dans Project Operations à l’aide de la double écriture.
 
 ## <a name="expense-categories"></a>Catégories de dépenses
 

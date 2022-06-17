@@ -1,24 +1,24 @@
 ---
 title: Nouveautés d’août 2021 – Project Operations pour les scénarios basés sur les ressources/hors stock
-description: Cette rubrique fournit des informations sur les mises à jour de qualité disponibles dans la version d’août 2021 de Project Operations pour les scénarios basés sur les ressources/hors stock.
+description: Cet article fournit des informations sur les mises à jour de qualité disponibles dans la version d’août 2021 de Project Operations pour les scénarios basés sur les ressources/produits non stockés.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd91f7f6b3a6f78161f8900aa06c810a58609b53
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912283"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés d’août 2021 – Project Operations pour les scénarios basés sur les ressources/hors stock
 
 *S’applique à : Project Operations pour les scénarios basés sur les ressources/hors stock*
 
-Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cet article s’applique aux composants et versions de Microsoft Dynamics 365 Project Operations suivants :
 
    - Project Operations dans l’environnement Microsoft Dataverse, version 4.13.0.152.
    - Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.20.

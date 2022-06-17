@@ -1,17 +1,17 @@
 ---
 title: Valeurs par défaut d’une dimension financière
-description: Cette rubrique fournit des informations sur la configuration des valeurs par défaut des dimensions financières.
+description: Cet article fournit des informations sur la manière de configurer des valeurs par défaut de dimension financière.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 10d9e0d739ac1b7681e2e77ec651daf3da8316ff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931051"
 ---
 # <a name="financial-dimension-defaults"></a>Valeurs par défaut d’une dimension financière
 

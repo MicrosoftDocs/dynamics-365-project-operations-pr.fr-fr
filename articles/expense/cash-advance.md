@@ -1,6 +1,6 @@
 ---
 title: Paiement en avance
-description: Cette rubrique fournit des informations sur les avances de fonds.
+description: Cet article fournit des informations sur les avances de disponibilités.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -8,16 +8,16 @@ ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bc270944faa7c16d2e97a988495a2a16380ba879
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931511"
 ---
 # <a name="cash-advance"></a>Paiement en avance
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
 Une avance de fonds permet aux employés d’emprunter de l’argent à leur entreprise avant d’engager des dépenses. Lorsqu’une avance de fonds demandée est approuvée et versée, l’employé peut utiliser l’argent pour les dépenses professionnelles qu’il est sur le point d’engager. 
 

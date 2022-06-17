@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications de la mise à jour (version 14) de Project Service Automation (correctif logiciel), V3
-description: Cette rubrique donne des informations sur les nouveautés de la mise à jour (version 14) de Project Service Automation, V3.
+description: Cet article donne des informations sur les nouveautés de la version 14 de la mise à jour de Project Service Automation V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926543"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Mise à jour (version 14) de Project Service Automation, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594300"
 
 Nous sommes heureux d’annoncer la dernière mise à jour de l’application Dynamics 365 Project Service Automation (PSA). Cette version comprend des améliorations importantes de la qualité, des performances et de l’utilisation. Cette version est compatible avec Dynamics 365 9.x. Pour effectuer une mise à jour vers cette version, visitez le centre d’administration de Dynamics 365 Online et accédez à la page des solutions pour installer la mise à jour. Pour plus d’informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](/power-platform/admin/install-remove-preferred-solution).
 
-Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour (version 14) de PSA V3. Cette version a le numéro de build V3.10.4.21 et est disponible selon le calendrier suivant :
+Cet article répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour version 14 de PSA V3. Cette version a le numéro de build V3.10.4.21 et est disponible selon le calendrier suivant :
 
 - **Disponibilité générale (mise à jour automatique) :** janvier 2020
 - **Mise à jour automatique :** février 2020

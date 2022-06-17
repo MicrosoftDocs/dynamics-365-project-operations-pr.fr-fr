@@ -1,6 +1,6 @@
 ---
 title: Mettre à niveau la page d’accueil
-description: Cette rubrique décrit où trouver des informations importantes concernant les fonctionnalités nouvelles et modifiées dans Dynamics 365 Project Service Automation, ainsi que le processus de mise à niveau vers la nouvelle version.
+description: Cet article décrit où trouver des informations importantes concernant les fonctionnalités nouvelles et modifiées dans Dynamics 365 Project Service Automation, ainsi que le processus de mise à niveau vers la nouvelle version.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926635"
 ---
 # <a name="upgrade-home-page"></a>Mettre à niveau la page d’accueil
 
@@ -48,14 +48,14 @@ Auparavant, les clients qui disposent d’une instance de PSA version 2.x et de
 Avant de commencer le processus de mise à niveau, nous vous recommandons d’effectuer les tâches suivantes :
 
 - Vérifiez si Dynamics 365 Field Service et Project Service Automation sont installées sur l’instance identifiée. Si les deux solutions sont installées, vous devez prévoir de les mettre à niveau toutes les deux avant de recommencer à utiliser normalement l’instance.
-- Examinez attentivement les rubriques suivantes. Prendre connaissance et comprendre les modifications entre les versions vous aideront dans le processus de mise à niveau. Ces rubriques donnent des informations sur les modifications majeures dans PSA, ainsi que les considérations et les recommandations pour la planification de votre mise à niveau vers la version 3.x.
+- Examinez attentivement les articles suivants. Prendre connaissance et comprendre les modifications entre les versions vous aideront dans le processus de mise à niveau. Ces articles donnent des informations sur les modifications majeures dans PSA, ainsi que les considérations et les recommandations pour la planification de votre mise à niveau vers la version 3.x.
 
     - [Nouveautés ou modifications dans Project Service Automation version 3](whats-new-changed-v3.md)
     - [Considérations relatives à la mise à niveau - Project Service Automation version 2.x ou 1.x vers la version 3.x](upgrade-v3.md)
 
 - Mettez à niveau votre instance sandbox pour évaluer les modifications de votre implémentation avant de mettre à niveau votre instance de production.
 
-Une fois que vous avez examiné les rubriques précédemment mentionnées et que vous êtes prêt à effectuer une mise à niveau vers PSA version 3.x ou la version basée sur UCI, envoyez une demande au Support Microsoft pour rendre la mise à niveau accessible à partir du Centre d’administration. Dans votre demande, fournissez les détails de votre instance.
+Une fois que vous avez examiné les articles précédemment mentionnés et que vous êtes prêt à effectuer une mise à niveau vers PSA version 3.x ou la version basée sur UCI, envoyez une demande au Support Microsoft pour rendre la mise à niveau accessible à partir du Centre d’administration. Dans votre demande, fournissez les détails de votre instance.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Anciennes versions de PSA (PSA version 2.x) dans une nouvelle instance créée
 

@@ -1,25 +1,25 @@
 ---
 title: Contrats de projet – Concepts clés
-description: Cette rubrique fournit des informations sur les concepts clés des contrats de projets dans Project Operations.
+description: Cet article fournit des informations sur les concepts clés des contrats de projet dans Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926221"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Concepts uniques aux contrats basés sur des projets
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
 
 
-Cette rubrique fournit les concepts clés à connaître avant de commencer à utiliser des contrats de projet dans Dynamics 365 Project Operations :
+Cet article fournit les concepts clés à connaître avant de commencer à utiliser les contrats de projet dans Dynamics 365 Project Operations :
 
 ## <a name="owning-company"></a>Société propriétaire
 

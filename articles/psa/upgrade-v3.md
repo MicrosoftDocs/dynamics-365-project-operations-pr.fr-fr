@@ -1,6 +1,6 @@
 ---
 title: 'Considérations relatives à la mise à niveau : Microsoft Dynamics 365 Project Service Automation version 2.x ou 1.x vers la version 3'
-description: Cette rubrique donne des informations sur les considérations que vous devez prendre en compte lors de la mise à niveau de Project Service Automation version 2.x ou 1.x vers la version 3.
+description: Cet article donne des informations sur les considérations que vous devez prendre en compte lors de la mise à niveau de Project Service Automation version 2.x ou 1.x vers la version 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918907"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considérations relatives à la mise à niveau - PSA version 2.x ou 1.x vers la version 3
 
@@ -40,7 +40,7 @@ Dans Project Service Automation version 2 et version 1, les affectations de t�
 
 Dans la version 3 de Project Service Automation, le schéma sous-jacent d’affectation de ressources réservables aux tâches a été modifié. La tâche de ligne a été déconseillée et il existe une relation directe de type 1:1 entre la tâche dans l’entité **Tâche** et le membre de l’équipe dans l’entité **Affectation de ressource**. Les tâches qui sont affectées à un membre de l’équipe du projet sont maintenant stockées directement dans l’entité Affectation de ressource.  
 
-Ces modifications ont une incidence sur la mise à niveau des projets existants qui ont des affectations de ressources pour les ressources réservables nommées et les ressources génériques d’une équipe du projet. Cette rubrique décrit les considérations vous devrez prendre en compte pour vos projets lors de la mise à niveau vers la version 3. 
+Ces modifications ont une incidence sur la mise à niveau des projets existants qui ont des affectations de ressources pour les ressources réservables nommées et les ressources génériques d’une équipe du projet. Cet article décrit les considérations vous devrez prendre en compte pour vos projets lors de la mise à niveau vers la version 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tâches affectées aux ressources nommées
 À l’aide de l’entité Tâche sous-jacente, les tâches dans la version 2 et la version 1 autorisaient les membres de l’équipe à utiliser un rôle autre que leur rôle défini par défaut. Par exemple, Charline Gauthier, à qui est affectée par défaut le rôle de Gestionnaire de programmes, pouvait être affectée à une tâche avec le rôle de Développeur. Dans la version 3, le rôle d’un membre de l’équipe nommé est toujours la valeur par défaut. Ainsi, toute tâche affectée à Charline Gauthier utilise son rôle par défaut de Gestionnaire de programmes.

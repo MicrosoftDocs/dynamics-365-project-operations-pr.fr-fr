@@ -1,6 +1,6 @@
 ---
 title: Guide de création de rapports
-description: Cette rubrique fournit des liens vers des informations sur la création de rapports.
+description: Cet article fournit des liens vers des informations sur la création de rapports.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919183"
 ---
 # <a name="reporting-guide"></a>Guide de création de rapports
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577555"
 
 Les méthodes et technologies de création de rapports dans cette application peuvent vous aider à déterminer l’intégrité de vos projets et à identifier quand vous devez prendre des mesures correctives. 
 
-Le lien PDF précédemment dans cette rubrique a été supprimé et le contenu a été déplacé vers les rubriques suivantes :
+Le lien PDF précédemment dans cet article a été supprimé et le contenu a été déplacé vers les articles suivantes :
 
 - [Page d’accueil de création de rapports](../reports-reporting-dynamics-365-project-service.md)
 - [Tableaux de bord](../reports-dashboards.md)
 - [Utilisation des modèles de données Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Cette rubrique sera supprimée dans une future mise à jour de documentation. 
+> Cet article sera supprimé dans une future mise à jour de documentation. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Considérations relatives à la mise à niveau de la structure de répartition du travail
-description: Cette rubrique donne des informations sur la mise à niveau de la structure de répartition du travail de Project Service Automation version 2.x vers la version 3.x.
+description: Cet article donne des informations sur la mise à niveau de la structure de répartition du travail de Project Service Automation version 2.x vers la version 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599727"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913111"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Considérations relatives à la mise à niveau de la structure de répartition du travail
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Cette rubrique donne des informations sur la mise à niveau de la structure de répartition du travail de Project Service Automation version 2.x vers la version 3.x. Cette rubrique définit l’état d’intégrité d’un projet dans Project Service Automation (PSA) qui est nécessaire pour une mise à niveau réussie. Elle fournit également des informations sur les situations de blocage courantes qui provoquent l’échec de la mise à niveau. Pour plus d’informations sur la définition de tâches de projet et leurs fonctions dans une planification de projet, consultez [Planifications de projets](project-creating.md).
+Cet article donne des informations sur la mise à niveau de la structure de répartition du travail de Project Service Automation version 2.x vers la version 3.x. Cet article définit l’état d’intégrité d’un projet dans Project Service Automation (PSA) qui est nécessaire pour une mise à niveau réussie. Elle fournit également des informations sur les situations de blocage courantes qui provoquent l’échec de la mise à niveau. Pour plus d’informations sur la définition de tâches de projet et leurs fonctions dans une planification de projet, consultez [Planifications de projets](project-creating.md).
 
 ## <a name="key-entities"></a>Entités clés
 Pour une structure de répartition du travail précise qui est déjà chargée avec des ressources, les entités suivantes sont nécessaires :

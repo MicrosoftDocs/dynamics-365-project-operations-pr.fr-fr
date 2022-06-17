@@ -1,25 +1,25 @@
 ---
 title: Utiliser les API de planification de projets avec Power Automate
-description: Cette rubrique fournit un exemple de flux qui utilise les interfaces de programmation d’application (API) de planification de projet.
+description: Cet article fournit un exemple de flux qui utilise les interfaces de programmation d’application (API) de planification de projet.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916331"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Utiliser les API de planification de projets avec Power Automate
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
-Cette rubrique décrit un exemple de flux qui montre comment créer un plan de projet complet en utilisant Microsoft Power Automate, comment créer un jeu d’opérations et comment mettre à jour une entité. L’exemple montre comment créer un projet, un membre d’équipe de projet, des groupes d’opérations, des tâches de projet et des affectations de ressources. Cette rubrique explique également comment mettre à jour une entité et exécuter un groupe d’opérations.
+Cet article décrit un exemple de flux qui montre comment créer un plan de projet complet en utilisant Microsoft Power Automate, comment créer un jeu d’opérations et comment mettre à jour une entité. L’exemple montre comment créer un projet, un membre d’équipe de projet, des groupes d’opérations, des tâches de projet et des affectations de ressources. Cet article explique également comment mettre à jour une entité et exécuter un groupe d’opérations.
 
-Voici une liste complète des étapes documentées dans l’exemple de flux dans cette rubrique :
+Voici une liste complète des étapes documentées dans l’exemple de flux dans cet article :
 
 1. [Créer un déclencheur PowerApps](#1)
 2. [Créer un projet](#2)
@@ -40,7 +40,7 @@ Voici une liste complète des étapes documentées dans l’exemple de flux dans
 
 ## <a name="assumptions"></a>Hypothèses
 
-Cette rubrique suppose que vous avez une connaissance de base de la plateforme Dataverse, des flux de cloud et de l’interface de programmation d’application (API) de planification de projet. Pour plus d’informations, voir la section [Références](#references) plus loin dans cette rubrique.
+Cet article suppose que vous avez une connaissance de base de la plateforme Dataverse, des flux de cloud et de l’interface de programmation d’application (API) de planification de projet. Pour plus d’informations, voir la section [Références](#references) plus loin dans cet article.
 
 ## <a name="create-a-flow"></a>Créer un flux
 
@@ -65,7 +65,7 @@ Effectuez les étapes suivantes pour créer un [flux basé sur une solution](/po
 1. Sur la page **Solutions**, choisissez la solution Mon automatisation que vous avez créée, puis sélectionnez **Nouveau**.
 2. Dans le volet de gauche, sélectionnez **Flux de cloud** \> **Automatisation** \> **Flux de cloud** \> **Instantané**.
 3. Dans le champ **Nom du flux**, entrez **Planifier le flux de démonstration de l’API**.
-4. Dans la liste **Choisir comment déclencher ce flux**, sélectionnez **Power Apps**. Lorsque vous créez un déclencheur Power Apps, la logique dépend de vous en tant qu’auteur. Dans cette rubrique, laissez les paramètres d’entrée vides à des fins de test.
+4. Dans la liste **Choisir comment déclencher ce flux**, sélectionnez **Power Apps**. Lorsque vous créez un déclencheur Power Apps, la logique dépend de vous en tant qu’auteur. Dans cet article, laissez les paramètres d’entrée vides à des fins de test.
 5. Cliquez sur **Créer**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Étape 2 : Créer un projet

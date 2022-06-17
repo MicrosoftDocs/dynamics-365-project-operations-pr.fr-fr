@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications dans Project Service Automation version 3
-description: Cette rubrique donne des informations sur les nouveautés et les modifications dans Project Service Automation version 3.
+description: Cet article donne des informations sur les nouveautés et les modifications dans Project Service Automation version 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926589"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nouveautés ou modifications dans Project Service Automation version 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581649"
 
 
 
-Cette rubrique donne des informations sur les modifications de l’interface utilisateur, des fonctionnalités et de la terminologie dans Project Service Automation entre la version 2 ou la version 1 et la version 3.
+Cet article donne des informations sur les modifications de l’interface utilisateur, des fonctionnalités et de la terminologie dans Project Service Automation entre la version 2 ou la version 1 et la version 3.
 
 ## <a name="project-scheduling"></a>Planification de projet
 La planification de projet, qui était appelée Structure de répartition du travail (WBS) dans les versions précédentes, a été renommée Planification et est accessible en cliquant sur l’onglet **Planification**. 
@@ -150,7 +150,7 @@ Lorsque vous avez des affectations de tâche pour une ressource sans réservatio
 Cette section donne des informations sur les modifications du temps, des dépenses et des approbations dans la version 3 de Project Service Automation. Dans le cadre de la solution Dynamics 365 Project Service Automation, la fonctionnalité **Entrée de temps** a été actualisée pour tirer parti de la structure Unified Interface. Cela permet de fournir une interface utilisateur cohérente et uniforme qui applique les principes de conception réactive pour une affichage optimal sur n’importe quelle taille d’écran ou n’importe quel appareil. 
 
 ### <a name="landing-page"></a>Page d’arrivée
-L’expérience d’entrée de temps personnalisée et non extensible a été déconseillée dans la version 3. À la place, il existe maintenant une expérience de grille native extensible et accessible. Vous pouvez accéder à la fonctionnalité d’entrée de temps en utilisant le plan de site à gauche. Avec ce changement, vous ne pourrez plus entrer le temps pour une semaine à la fois. À la place, vous devez créer une entrée de temps pour chaque jour dans la grille. Après avoir créé quelques entrées de temps, les utilisateurs peuvent créer des entrées de temps en bloc avec la fonction **Copier** expliquée plus loin dans cette rubrique. 
+L’expérience d’entrée de temps personnalisée et non extensible a été déconseillée dans la version 3. À la place, il existe maintenant une expérience de grille native extensible et accessible. Vous pouvez accéder à la fonctionnalité d’entrée de temps en utilisant le plan de site à gauche. Avec ce changement, vous ne pourrez plus entrer le temps pour une semaine à la fois. À la place, vous devez créer une entrée de temps pour chaque jour dans la grille. Après avoir créé quelques entrées de temps, les utilisateurs peuvent créer des entrées de temps en bloc avec la fonction **Copier** expliquée plus loin dans cet article. 
 
 ![Page d’arrivée des entrées de temps.](media/time-entry-landing-page-07.png)
  

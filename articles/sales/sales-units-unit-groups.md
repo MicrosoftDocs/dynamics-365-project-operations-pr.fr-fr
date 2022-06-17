@@ -1,6 +1,6 @@
 ---
 title: Unités et groupes d’unités
-description: Cette rubrique fournit des informations sur la création d’unités et de groupes d’unités dans Dynamics 365 Project Operations.
+description: Cet article fournit des informations sur la création d’unités et de groupes d’unités dans Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921437"
 ---
 # <a name="units-and-unit-groups"></a>Unités et groupes d’unités
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
-Les unités sont les quantités ou les mesures selon lesquelles vous vendez vos produits ou services. Par exemple, si vous vendez des fournitures de jardinage, vous pouvez vendre des graines par unités de paquets, de cartons et de palettes. Un groupe d’unités est une combinaison de ces différentes unités.
+Les unités sont les quantités ou les mesures selon lesquelles vous vendez vos produits ou services. Par exemple, si vous vendez des fournitures de jardinage, vous pouvez vendre des graines par unités de paquets, de cartons et de palettes. Un groupe d’unités est un ensemble de ces différentes unités.
 
-Pour effectuer les étapes de cette rubrique, assurez-vous de disposer du rôle d’Administrateur système ou de gestionnaire de Sales Professional ou d’autorisations équivalentes..
+Pour suivre les étapes de cet article, assurez-vous que vous avez été affecté au rôle administrateur système ou responsable Sales Professional ou que vous disposez d’autorisations équivalentes.
 
 ## <a name="create-a-unit-group"></a>Créer un groupe d’unités
 

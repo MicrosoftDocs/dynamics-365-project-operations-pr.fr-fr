@@ -1,6 +1,6 @@
 ---
 title: Application mobile Project Timesheet
-description: Cette rubrique offre des informations sur l’application mobile Microsoft Dynamics 365 Project Timesheet. L’application mobile Project Timesheet permet aux utilisateurs d’envoyer et d’approuver les feuilles de temps pour les projets sur leur appareil mobile.
+description: Cet article fournit des informations sur l’application mobile Microsoft Dynamics 365 Project Timesheet. L’application mobile Project Timesheet permet aux utilisateurs d’envoyer et d’approuver les feuilles de temps pour les projets sur leur appareil mobile.
 author: abruer
 ms.date: 04/08/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923967"
 ---
 # <a name="project-timesheet-mobile-application"></a>Application mobile Project Timesheet
 

@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil Devis, tarification et facturation
-description: Cette rubrique fournit des informations sur les devis, la tarification et la facturation.
+description: Cet article fournit des informations sur les devis, la tarification et la facturation.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926727"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Page d’accueil Devis, tarification et facturation
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581097"
 
 Les devis, la tarification et la facturation sont des fonctionnalités utilisées par de petites et grandes organisations. En comprenant comment ces fonctionnalités fonctionnent dans l’application, les organisations peuvent personnaliser plus facilement les configurations.
 
-Les rubriques suivantes fournissent plus d’informations sur les fonctionnalités de devis, de tarification et de facturation dans PSA :
+Les articles suivants fournissent plus d’informations sur les fonctionnalités de devis, de tarification et de facturation dans PSA :
 
 - [Processus de vente](basic-sales-process.md)
 - [Lignes du devis](basic-quote-lines.md)

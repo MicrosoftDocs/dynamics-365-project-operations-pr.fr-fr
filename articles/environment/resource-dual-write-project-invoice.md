@@ -1,22 +1,22 @@
 ---
 title: Intégration des factures de projet
-description: Cette rubrique fournit des informations sur l’intégration à double écriture Project Operations pour la facturation des clients.
+description: Cet article fournit des informations sur l’intégration en double écriture Project Operations de la facturation client.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912099"
 ---
 # <a name="project-invoice-integration"></a>Intégration des factures de projet
 
-Cette rubrique fournit des informations sur l’intégration à double écriture Project Operations pour la facturation des clients.
+Cet article fournit des informations sur l’intégration en double écriture Project Operations de la facturation client.
 
 Dans Project Operations, le gestionnaire de projet gère la réplication de facturation pour les projets et crée une facture pro forma pour le client dans Microsoft Dataverse. À partir de cette facture pro forma, le commis à la comptabilité clients ou le comptable de projet crée une facture destinée au client. L’intégration en double écriture garantit que les détails de la facture pro forma sont synchronisés avec les applications de finances et d’opérations. Une fois la facture adressée au client validée, le système met à jour les données réelles et pertinentes du projet dans Dataverse avec les détails comptables. Le graphique suivant fournit un aperçu conceptuel de haut niveau de cette intégration.
 

@@ -1,17 +1,17 @@
 ---
-title: Gestion de la sous-traitance dans Project Operations
-description: Cette rubrique présente le processus de gestion de la sous-traitance de bout en bout courant pour les organisations basées sur des projets.
+title: Gestion de la sous-traitance dans Project Operations
+description: Cet article fournit une vue d’ensemble du processus de gestion de sous-traitance de bout en bout généralement dans les organisations basées sur des projets.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911501"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Gestion de la sous-traitance dans Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593011"
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Cette rubrique présente le processus de gestion de la sous-traitance de bout en bout pour les organisations basées sur des projets. La sous-traitance des services suit généralement le flux des processus d’entreprise illustré dans le schéma suivant.
+Cet article fournit une vue d’ensemble du processus de gestion de sous-traitance de bout en bout dans les organisations basées sur des projets. La sous-traitance des services suit généralement le flux des processus d’entreprise illustré dans le schéma suivant.
 
 ![Flux de processus de sous-traitance](../media/SubcontractingProcessFlow.png)
 

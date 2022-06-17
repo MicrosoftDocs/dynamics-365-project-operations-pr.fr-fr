@@ -1,24 +1,24 @@
 ---
 title: Nouveautés ou modifications de Project Operations, avril 2021, pour les scénarios basés sur les produits stockés/ordres de fabrication
-description: Cette rubrique fournit des informations sur les mises à jour de qualité disponibles dans la version d’avril 2021 de Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication.
+description: Cet article fournit des informations sur les mises à jour de qualité disponibles dans la version d’avril 2021 de Project Operations pour les scénarios basés sur la production/produits stockés.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589607"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916469"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Nouveautés ou modifications de Project Operations, avril 2021, pour les scénarios basés sur les produits stockés/ordres de fabrication
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication_
 
-Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cet article s’applique aux composants et versions de Microsoft Dynamics 365 Project Operations suivants :
 
 - Gestion de projet et comptabilité dans un environnement Dynamics 365 Finance version 10.0.18
  

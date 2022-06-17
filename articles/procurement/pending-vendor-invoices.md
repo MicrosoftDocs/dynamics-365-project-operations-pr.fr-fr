@@ -1,18 +1,18 @@
 ---
 title: Acheter du matériel non stocké ou des catégories d’approvisionnement avec une facture fournisseur en attente
-description: Cette rubrique explique comment enregistrer les factures fournisseur en attente.
+description: Cet article explique comment enregistrer les factures fournisseur en attente.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612654"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921989"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Acheter du matériel non stocké ou des catégories d’approvisionnement avec une facture fournisseur en attente
 
@@ -23,7 +23,7 @@ Lorsqu’une entreprise achète des matériaux non stockés ou des catégories d
 Par exemple, Contoso Robotics US réalise un projet de renouvellement de ses équipements et a besoin de licences logicielles. Ces licences sont obtenues auprès d’un fournisseur tiers.  À l’aide de Dynamics 365 Finance, le commis à la comptabilité fournisseur enregistre un document de facture fournisseur en attente et attribue les coûts de licence directement au projet de renouvellement de l’équipement. 
 
 > [!IMPORTANT]
-> Avant d’utiliser la fonctionnalité décrite dans cette rubrique, passez en revue et appliquez les configurations requises. Pour plus d’informations, voir [Activer les matériaux non stockés et les factures fournisseur en attente](configure-materials-nonstocked.md) et [Utiliser les catégories d’approvisionnement avec les bons de commande de projet et les factures fournisseur en attente](configure-procurement-categories.md)
+> Avant d’utiliser la fonctionnalité décrite dans cet article, passez en revue et appliquez les configurations requises. Pour plus d’informations, voir [Activer les matériaux non stockés et les factures fournisseur en attente](configure-materials-nonstocked.md) et [Utiliser les catégories d’approvisionnement avec les bons de commande de projet et les factures fournisseur en attente](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Publier une facture fournisseur en attente liée au projet 
 

@@ -1,24 +1,24 @@
 ---
 title: Intégration des données de configuration et d’installation Project Operations
-description: Cette rubrique fournit des informations sur l’installation et la configuration de mappages à double écriture Project Operations.
+description: Cet article fournit des informations sur l’installation et la configuration des mappages à double écriture de Project Operations.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914537"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Intégration des données de configuration et d’installation Project Operations
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Cette rubrique fournit des informations sur l’intégration en double écriture de Project Operations pour les entités d’installation et de configuration.
+Cet article fournit des informations sur l’intégration de la double écriture de Project Operations pour l’installation et la configuration des entités.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Contrats de projet, lignes de contrat et projets
 

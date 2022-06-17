@@ -1,18 +1,18 @@
 ---
 title: Vue d’ensemble des dimensions de tarification
-description: Cette rubrique donne des informations sur les dimensions de tarification dans Dynamics 365 Project Operations.
+description: Cet article donne des informations sur les dimensions de tarification dans Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918033"
 ---
 # <a name="pricing-dimensions-overview"></a>Vue d’ensemble des dimensions de tarification
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations est fourni avec un ensemble par défaut de dimen
 
 ![Capture d’écran des paramètres de Project Service avec « Applicable aux ventes » en surbrillance.](media/PS-OOB-parameters.png)
 
-Si vous devez évaluer un prix ou un coût pour vos ressources en utilisant des attributs supplémentaires, vous pouvez créer des champs, des entités, et des dimensions personnalisés. Pour plus d’informations, voir les rubriques suivantes. 
+Si vous devez évaluer un prix ou un coût pour vos ressources en utilisant des attributs supplémentaires, vous pouvez créer des champs, des entités, et des dimensions personnalisés. Pour en savoir plus, consultez les articles suivants. 
   
   > [!NOTE]
   > Les procédures doivent être exécutées dans l’ordre dans lequel elles sont répertoriées.

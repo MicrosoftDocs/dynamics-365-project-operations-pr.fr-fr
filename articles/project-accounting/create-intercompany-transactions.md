@@ -1,17 +1,17 @@
 ---
 title: Créer des transactions intersociétés
-description: Cette rubrique fournit des informations sur la manière de créer des transactions intersociétés.
+description: Cet article offre des informations sur la création des transactions intersociétés.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: da6fd8e0e6bfe2e2543f5c4a453ed769e412f1e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919367"
 ---
 # <a name="create-intercompany-transactions"></a>Créer des transactions intersociétés
 
@@ -60,9 +60,9 @@ Molly Clark, développeuse employée chez GBPM enregistre 10 heures de travail 
     4. Définissez la devise sur **USD**.
     5. Enregistrez l’enregistrement.
 3. Accédez à **Ventes** > **Contrats de projet** et créez un nouveau contrat de projet pour Adventure Works.
-    1. Définissez la société propriétaire sur **USPM** et l'unité contractante sur **Contoso Robotics US**.
+    1. Définissez la société propriétaire sur **USPM** et l’unité contractante sur **Contoso Robotics US**.
     2. Sélectionnez Adventure Works comme client.
-    3. Sélectionnez des tarifs de produit et enregistrez l'enregistrement.
+    3. Sélectionnez des tarifs de produit et enregistrez l’enregistrement.
     4. Sur l’onglet **Lignes de contrat**, créez une nouvelle ligne de contrat. Définissez n’importe quel nom et sélectionnez **Temps et matériaux** comme méthode de facturation.
     5. Créez un nouveau projet et associez-le à cette ligne de contrat.
 4. Connectez-vous en tant que ressource, **Molly Clark**. Accédez à **Projets** > **Entrées de temps** et créez une entrée de temps pour le projet Adventure Works.

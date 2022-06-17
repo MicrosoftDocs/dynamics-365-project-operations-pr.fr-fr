@@ -1,6 +1,6 @@
 ---
 title: Modifications d’entité, de contrôle et d’interface utilisateur (Project Service Automation 3.x)
-description: Cette rubrique décrit les modifications de solution pour Microsoft Dynamics Project Service Automation 3.x.
+description: Cet article décrit les modifications de solution pour Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926865"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Modifications d’entité, de contrôle et d’interface utilisateur (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Avec la version Microsoft Dynamics Project Service Automation (PSA) 3.x, de nombreuses modifications ont été apportées aux entités, aux contrôles, aux vues et à l’interface utilisateur. Cette rubrique fournit des informations sur ces modifications importantes.
+Avec la version Microsoft Dynamics Project Service Automation (PSA) 3.x, de nombreuses modifications ont été apportées aux entités, aux contrôles, aux vues et à l’interface utilisateur. Cet article fournit des informations sur ces modifications importantes.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Relations parent-enfant pour les entités document vente, ligne de document vente, détails de la ligne de document de vente
 Dans les versions de Dynamics 365 Project Service Automation (PSA) publiées avant la version 3.0, certaines relations entre les entités de documents vente, lignes de document de vente, et détails de la ligne de document vente ont été mises en œuvre via les champs de type chaîne qui maintiendraient une représentation de chaîne du GUID de l’entité associée. C’était en raison des limitations de la plateforme qui nécessitaient un code personnalisé important côté serveur et client de la solution pour que ces relations fonctionnement similairement aux relations d’entités Dynamics CRM standard et faire agir les champs de la chaîne comme des champs de recherche.

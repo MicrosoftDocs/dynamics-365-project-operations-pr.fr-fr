@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications de la mise à jour (version 29) de Project Service Automation (correctif logiciel), V3
-description: Cette rubrique répertorie les fonctionnalités et les correctifs disponibles pour la mise à jour (version 29) de Project Service Automation, V3.
+description: Cet article répertorie les fonctionnalités et les correctifs disponibles dans la mise à jour de Project Service Automation version 29, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/22/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56cf47d207c7ee518d5d4b53866c3d6ddf1d1fb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 733bbad53933b2de62222e78e3c5c919543c59e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587215"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915366"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a>Nouveautés ou modifications de la mise à jour (version 29) de Project Service Automation (correctif logiciel), V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8587215"
 
 Nous sommes heureux d’annoncer la dernière mise à jour de l’application Project Service Automation pour Dynamics 365. Cette version comprend des améliorations importantes de la qualité, des performances et de l’utilisation. Cette version est compatible avec Dynamics 365 9.x. Pour effectuer une mise à jour vers cette version, visitez la page des solutions du centre d’administration de Dynamics 365 online pour installer la mise à jour. Pour plus d’informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](/power-platform/admin/install-remove-preferred-solution).
 
-Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour (version 29) de Project Service Automation V3. Cette version a un numéro de build V3.10.47.7 et est généralement disponible via une mise à jour automatique en février 2021.
+Cet article répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour version 29 de Project Service Automation V3. Cette version a un numéro de build V3.10.47.7 et est généralement disponible via une mise à jour automatique en février 2021.
 
 ## <a name="update-release-29"></a>Mise à jour (version 29)
 

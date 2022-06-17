@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil Ressources du projet
-description: Cette rubrique fournit des informations sur les ressources de projet.
+description: Cet article fournit des informations sur l’allocation des ressources de projet.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924013"
 ---
 # <a name="project-resourcing-home-page"></a>Page d’accueil Ressources du projet
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur les ressources de projet.
+Cet article fournit des informations sur l’allocation des ressources de projet.
 
 Un défi auquel sont confrontés les chefs de projet et les responsables des ressources au cours de la phase de planification de projet n’est autre que l’allocation des ressources, au cours de laquelle ils doivent déterminer et réserver la bonne ressource pour travailler sur un projet. Dans Dynamics 365 Finance, les fonctionnalités d’allocation des ressources pour les projets vous permettent de définir des rôles qui sont traités comme des ressources temporaires pouvant être réservées pour un engagement spécifique ou une partie d’un engagement. Ce type de ressources permet aux chefs de projet et aux gestionnaires de ressources d’effectuer les tâches suivantes :
 
@@ -41,7 +41,7 @@ Un défi auquel sont confrontés les chefs de projet et les responsables des res
 
 Au fur et à mesure de la planification du projet, les ressources planifiées peuvent être remplacées par des ressources dotées en personnel. Le chef de projet peut également revenir en arrière et mettre à jour les réservations de ressources à n’importe quelle étape du projet.
 
-Les rubriques suivantes fournissent des informations sur les tâches à effectuer lorsque vous travaillez sur des projets de ressources.
+Les articles suivants fournissent des informations sur les tâches à effectuer lorsque vous travaillez sur des projets de ressources.
 
 - [Configurer les ressources de projet](set-up-project-resources.md)
 - [Gérer les compétences de ressources](manage-resource-competencies.md)

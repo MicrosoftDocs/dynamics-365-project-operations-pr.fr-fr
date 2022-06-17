@@ -1,24 +1,24 @@
 ---
 title: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Project Operations
-description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Project Operations.
+description: Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921483"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Project Operations
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock, le déploiement simplifié – Traiter la facturation pro forma et Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication_
 
-Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Project Operations.
+Cet article décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Project Operations.
 
 - Une fonctionnalité *supprimée* n’est plus disponible dans le produit.
 - Une fonctionnalité *obsolète* n’est pas en développement actif et pourrait être supprimée lors d’une mise à jour future.

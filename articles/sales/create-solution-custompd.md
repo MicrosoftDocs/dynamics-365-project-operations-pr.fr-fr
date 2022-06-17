@@ -1,17 +1,17 @@
 ---
 title: Créer une solution pour les dimensions de tarification personnalisées
-description: Cette rubrique donne des informations sur la manière de créer des solutions pour les dimensions de tarification personnalisées.
+description: Cet article donne des informations sur la création de solutions pour les dimensions de tarification personnalisées.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cd7fedaa7bece16e99131bcc0faff3ce547580e8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915135"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Créer une solution pour les dimensions de tarification personnalisées
 

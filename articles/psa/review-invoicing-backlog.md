@@ -1,6 +1,6 @@
 ---
 title: Réviser l’arriéré de facturation sur les projets et les contrats de projet
-description: Cette rubrique explique comment vérifier les arriérés de temps, de dépenses, et de produits, et comment les marquer comme prêts pour la facturation.
+description: Cet article explique comment vérifier les arriérés de temps, de dépenses, et de produits, et comment les marquer comme prêts pour la facturation.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928889"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Réviser l’arriéré de facturation sur les projets et les contrats de projet
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600555"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Lorsqu’une transaction est prête pour qu’une facture soit créée et traitée, la transaction doit être marquée comme **Prêt pour la facturation**. Cette rubrique décrit les types de transactions qui peuvent être créés.
+Lorsqu’une transaction est prête pour qu’une facture soit créée et traitée, la transaction doit être marquée comme **Prêt pour la facturation**. Cet article décrit les types de transactions qui peuvent être créés.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Réviser les arriérés de facturation du temps et des matériaux
 

@@ -1,17 +1,17 @@
 ---
 title: Lignes de facture fournisseur pour le temps
-description: Cette rubrique explique comment enregistrer les lignes de facture fournisseur pour les coûts de temps que les sous-traitants ont mis en place.
+description: Cet article explique comment enregistrer les lignes de facture fournisseur pour les coûts de temps que les sous-traitants ont mis en place.
 author: rumant
 ms.date: 03/15/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ac598dff7b0b4a29ac0397a31130ada3b197fe44
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0b81d2884580e9054457906627c1f9101f435524
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597197"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927539"
 ---
 # <a name="vendor-invoice-lines-for-time"></a>Lignes de facture fournisseur pour le temps
 

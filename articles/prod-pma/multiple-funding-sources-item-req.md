@@ -1,23 +1,23 @@
 ---
 title: Demandes d’articles pour les contrats de projet avec plusieurs sources de financement
-description: Cette rubrique offre des informations sur la configuration et l’utilisation des demandes d’articles avec plusieurs sources de financement.
+description: Cet article offre des informations sur la configuration et l’utilisation des demandes d’articles avec plusieurs sources de financement.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931189"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Demandes d’articles pour les contrats de projet avec plusieurs sources de financement
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les produits stockés/ordres de fabrication_
 
-Certains accords contractuels pour les livrables basés sur des projets peuvent nécessiter plusieurs sources de financement. Cette rubrique explique comment sélectionner et configurer les sources de financement souhaitées lorsque plusieurs sources sont requises pour un projet ou un contrat de projet.
+Certains accords contractuels pour les livrables basés sur des projets peuvent nécessiter plusieurs sources de financement. Cet article explique comment sélectionner et configurer les sources de financement souhaitées lorsque plusieurs sources sont requises pour un projet ou un contrat de projet.
 
 ## <a name="terminology"></a>Terminologie
 

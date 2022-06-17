@@ -1,6 +1,6 @@
 ---
 title: Créer des modèles de prévision pour les budgets de projet
-description: Cette rubrique décrit comment créer un modèle de prévision pour les budgets restants.
+description: Cet article décrit comment créer un modèle de prévision pour les budgets restants.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683627"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916699"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Créer des modèles de prévision pour les budgets de projet 
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment créer un modèle de prévision pour les budgets restants. Un projet soumis au contrôle budgétaire utilise deux types de budget : d’origine et restant. Lorsque vous créez un budget de projet, vous devez spécifier les modèles de prévisions budgétaires d’origine et restants qui ont été créés dans la page **Modèles de prévision**. Les budgets de projet basés sur les modèles spécifiés sont créés lorsque vous engagez le budget de projet.
+Cet article décrit comment créer un modèle de prévision pour les budgets restants. Un projet soumis au contrôle budgétaire utilise deux types de budget : d’origine et restant. Lorsque vous créez un budget de projet, vous devez spécifier les modèles de prévisions budgétaires d’origine et restants qui ont été créés dans la page **Modèles de prévision**. Les budgets de projet basés sur les modèles spécifiés sont créés lorsque vous engagez le budget de projet.
 
 > [!NOTE]
 > Un modèle de prévision utilisé pour le contrôle budgétaire ne peut pas avoir de sous-modèle ou être utilisé comme sous-modèle.

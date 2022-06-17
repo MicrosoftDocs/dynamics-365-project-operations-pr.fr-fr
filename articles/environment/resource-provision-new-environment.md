@@ -1,26 +1,26 @@
 ---
 title: Mettre en service un nouvel environnement
-description: Cette rubrique fournit des informations sur la mise en service d’un nouvel environnement Project Operations.
+description: Cet article explique comment approvisionner un nouvel environnement Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931603"
 ---
 # <a name="provision-a-new-environment"></a>Mettre en service un nouvel environnement
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
 
 
-Cette rubrique fournit des informations sur la manière d’approvisionner un nouvel environnement Dynamics 365 Project Operations pour les scénarios basés sur les ressources/produits non stockés.
+Cet article fournit des informations sur la façon de provisionner un nouvel environnement Dynamics 365 Project Operations pour les scénarios basés sur les ressources/non stockés.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Activer la mise en service automatisée de Project Operations dans un projet LCS
 

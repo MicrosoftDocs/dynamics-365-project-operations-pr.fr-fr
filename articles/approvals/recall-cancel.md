@@ -1,17 +1,17 @@
 ---
 title: Rappel des entrées précédemment approuvées
-description: Cette rubrique explique comment un membre de l’équipe de projet peut demander le rappel des enregistrements de temps, de dépense et d’utilisation de matériel précédemment soumis et approuvés, et comment un chef de projet peut approuver ou rejeter les demandes de rappel.
+description: Cet article explique comment un membre de l’équipe de projet peut demander le rappel des enregistrements de temps, de dépense et d’utilisation de matériaux précédemment soumis et approuvés, et comment un chef de projet peut approuver ou rejeter les demandes de rappel.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930361"
 ---
 # <a name="recall-previously-approved-entries"></a>Rappel des entrées précédemment approuvées
 

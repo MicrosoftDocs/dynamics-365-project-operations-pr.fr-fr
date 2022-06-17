@@ -1,17 +1,17 @@
 ---
 title: Comportement de l’interface utilisateur de saisie de temps
-description: Cette rubrique donne des informations sur le comportement de l’interface utilisateur de saisie de temps.
+description: Cet article fournit des informations sur le comportement de l’interface utilisateur de saisie de temps.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5b7bd3e9145673268907e749decdd728dcfb533f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b39f182901681875eb90f17d9421bcad63762f54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918171"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportement de l’interface utilisateur de saisie de temps
 

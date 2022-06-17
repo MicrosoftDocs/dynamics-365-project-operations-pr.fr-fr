@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil des projets d’allocation des ressources
-description: Cette rubrique fournit des informations sur les fonctionnalités de gestion des ressources dans Project Service Automation (PSA) pour Dynamics 365.
+description: Cet article fournit des informations sur les fonctionnalités de gestion des ressources dans Project Service Automation (PSA) pour Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925255"
 ---
 # <a name="resourcing-projects-home-page"></a>Page d’accueil des projets d’allocation des ressources
 
@@ -46,7 +46,7 @@ Les ressources sont l’actif le plus important d’une organisation basée sur 
 - Tenir à jour un référentiel de compétences et de qualifications.
 
 
-Vous pouvez doter votre projet en personnel avec une équipe de ressources génériques ou nommées dans PSA. Vous pouvez utiliser différentes méthodes pour ajouter et affecter des membres de l’équipe, et gérer leurs réservations et attributions. Pour plus d’informations, voir les rubriques suivantes :
+Vous pouvez doter votre projet en personnel avec une équipe de ressources génériques ou nommées dans PSA. Vous pouvez utiliser différentes méthodes pour ajouter et affecter des membres de l’équipe, et gérer leurs réservations et attributions. Pour plus d’informations, voir les articles suivants :
 
 - [Réservation de ressources pouvant être réservées nommées à une équipe de projet et leur attribuer des tâches](assign-named-bookable-resource.md)
 - [Attribuer des ressources génériques pouvant être réservées à une tâche et générez des besoins en ressources](assign-generic-bookable-resource.md)

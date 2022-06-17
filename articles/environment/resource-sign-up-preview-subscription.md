@@ -1,17 +1,17 @@
 ---
 title: Souscrire des abonnements à la version préliminaire de Project Operations pour les scénarios de ressources/hors stock
-description: Cette rubrique fournit des informations sur la façon de souscrire un abonnement et de déployer des scénarios basés sur les ressources/hors stock Project Operations.
+description: Cet article fournit des informations sur la façon de s’abonner et de déployer Project Operations pour les scénarios basés sur les ressources/non stockés.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920103"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Souscrire des abonnements à la version préliminaire de Project Operations pour les scénarios de ressources/hors stock
 
@@ -19,7 +19,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 
 
-Cette rubrique explique comment souscrire à l’offre d’évaluation et déployer l’environnement Project Operations pour les scénarios basés sur des ressources/hors stock.
+Cet article explique comment s’abonner à l’offre d’essai et de déployer un environnement Project Operations pour les scénarios basés sur les ressources/non stockés.
 
 ## <a name="prerequisites"></a>Conditions préalables
 - L’utilisateur qui déploie la version préliminaire doit disposer des droits administrateur général du client Azure. Vous pouvez créer un client pendant la première acceptation de l’offre. 
@@ -60,19 +60,19 @@ Accédez à [Essai en version préliminaire de Dynamics 365 for Finance](https:/
 
 ## <a name="start-a-new-project-in-lcs"></a>Commencer un nouveau projet dans LCS
 
-Créez un projet LCS comme décrit dans la rubrique, [Démarrer un nouveau projet dans LCS](create-lcs-project.md)
+Créez un projet LCS comme décrit dans l’article, [Commencer un nouveau projet LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Ajouter un abonnement Azure à un projet LCS
 
-Pour terminer cette tâche, suivez les étapes du sujet, [Ajouter un abonnement Azure au projet LCS](resource-add-azure-subscription-lcs-project.md).
+Pour terminer cette tâche, suivez les étapes de l’article, [Ajouter un abonnement Azure au projet LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Déployer l’environnement de démonstration Finance avec Project Operations pour les scénarios basés sur des ressources/hors stock
 
-Suivez les instructions de la rubrique [Mettre en service un nouvel environnement](resource-provision-new-environment.md) pour terminer le déploiement. Utilisez le type de déploiement [d’environnement de démonstration](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pour la version préliminaire. 
+Suivez les conseils de l’article, [Approvisionner un nouvel environnement](resource-provision-new-environment.md) pour terminer le déploiement. Utilisez le type de déploiement [d’environnement de démonstration](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pour la version préliminaire. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Installer la configuration de la démonstration et les données de configuration CDS
 
-Installez les données d’installation et de configuration CDS comme décrit dans la rubrique [Configurer et appliquer les données de configuration dans Common Data Service](resource-apply-pro-setup-config-data.md).
+Installez les données d’installation et de configuration CDS comme décrit dans l’article, [Configurer et appliquer les données de configuration dans Common Data Service](resource-apply-pro-setup-config-data.md).
 N’effectuez cette étape qu’une fois que l’environnement de démonstration de Finance est déployé et que les données de démonstration sont prêtes.
 
 

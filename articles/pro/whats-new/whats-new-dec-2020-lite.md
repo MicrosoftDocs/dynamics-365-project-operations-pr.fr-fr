@@ -1,24 +1,24 @@
 ---
 title: Nouveautés de décembre 2020 – Déploiement simplifié de Project Operations – Traiter la facturation pro forma
-description: Cette rubrique fournit des informations sur les mises à jour qualité disponibles dans la version de décembre 2020 du déploiement simplifié de Project Operations – Traiter la facturation pro forma.
+description: Cet article fournit des informations sur les mises à jour de qualité disponibles dans la version de décembre 2020 de Déploiement simplifié de Project Operations – Opter pour la facturation pro forma.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924059"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nouveautés de décembre 2020 – Déploiement simplifié de Project Operations – Traiter la facturation pro forma
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cet article s’applique aux composants et versions de Microsoft Dynamics 365 Project Operations suivants :
 
   - Version 4.5.0.134 de Project Operations dans l’environnement Dataverse 
 

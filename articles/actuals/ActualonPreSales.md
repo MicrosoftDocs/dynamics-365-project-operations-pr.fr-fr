@@ -1,6 +1,6 @@
 ---
 title: Impact des chiffres réels pendant la phase de prévente d’un engagement
-description: Cette rubrique offre des informations sur l’impact sur le tableau des chiffres réels lors de divers événements lorsqu’un engagement est dans la phase de prévente dans Microsoft Dynamics 365 Project Operations.
+description: Cet article offre des informations sur l’impact sur le tableau des chiffres réels lors de divers événements lorsqu’un engagement est dans la phase de prévente dans Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad62639b345d5519b103d4bde3fbb033b9a7a519
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d03d6ac2154806189d0d9d0b232bb317f51071ba
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922357"
 ---
 # <a name="actuals-impact-during-the-pre-sales-stage-of-an-engagement"></a>Impact des chiffres réels pendant la phase de prévente d’un engagement
 

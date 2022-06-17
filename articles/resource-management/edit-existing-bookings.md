@@ -1,24 +1,24 @@
 ---
 title: Modifier les réservations
-description: Cette rubrique fournit des informations sur la façon de mettre à jour et de modifier les réservations.
+description: Cet article fournit des informations sur la façon de mettre à jour et de modifier les réservations.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594345"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915227"
 ---
 # <a name="edit-bookings"></a>Modifier les réservations
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
 
 
-Lorsque des modifications se produisent sur un projet qui vous oblige à mettre à jour des réservations existantes, il existe plusieurs façons d’effectuer les modifications. Cette rubrique décrit comment mettre à jour et de modifier les réservations.
+Lorsque des modifications se produisent sur un projet qui vous oblige à mettre à jour des réservations existantes, il existe plusieurs façons d’effectuer les modifications. Cet article décrit la façon de mettre à jour et de modifier les réservations.
 
 ## <a name="resource-reconciliation"></a>Rapprochement des ressources
 

@@ -1,17 +1,17 @@
 ---
 title: Configurer des sous-traitants en tant que ressources réservables
-description: Cette rubrique explique comment configurer et gérer les ressources de sous-traitant créées à partir des utilisateurs et des contacts dans le système pour qu′elles puissent être associées à des contrats de sous-traitance dans Microsoft Dynamics 365 Project Operations.
+description: Cet article explique comment configurer et gérer les ressources de sous-traitant créées à partir d’utilisateurs et de contacts dans le système, afin qu’elles puissent être associées à des sous-contrats dans Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 07/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6d2f250063afc24de99e308d8d7583d1822bcabb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f005a05fb874f9e32a0041db5fc8fa1228fc91f1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927511"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Configurer des sous-traitants en tant que ressources réservables
 

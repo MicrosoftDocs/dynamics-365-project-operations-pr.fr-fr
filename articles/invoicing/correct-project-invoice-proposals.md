@@ -1,17 +1,17 @@
 ---
 title: Corriger la comptabilité dans les propositions de facture de projet provisoires
-description: Cette rubrique explique comment ajuster les informations comptables dans une proposition de facture provisoire.
+description: Cet article explique comment ajuster les informations liées à la comptabilité sur une ébauche de proposition de facture.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921207"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Corriger la comptabilité dans les propositions de facture de projet provisoires
 
@@ -19,7 +19,7 @@ _**S’applique à :** Project Operations pour les scénarios selon les ressour
 
 Les *Détails opérationnels* des factures de projet sont maintenus par le chef de projet dans une facture pro forma. Ces détails comprennent la décision concernant les heures, dépenses, matériaux ou jalons à facturer, les tarifs et l’application des montants d’acompte et de provision. Une fois que vous avez confirmé la facture pro forma d’origine, vous pouvez ajuster les détails opérationnels en créant et en confirmant une [facture pro forma corrective](../proforma-invoicing/corrective-invoices.md).
 
-Les *Détails comptables* des factures de projet sont maintenus dans un document de facture destiné au client. Ces détails comprennent le calcul de la taxe de vente et les dimensions financières appliquées à la facture. Cette rubrique donne des informations sur la façon dont ces détails comptables peuvent être ajustés dans une proposition de facture de projet provisoire.
+Les *Détails comptables* des factures de projet sont maintenus dans un document de facture destiné au client. Ces détails comprennent le calcul de la taxe de vente et les dimensions financières appliquées à la facture. Cet article fournit des détails sur la façon dont ces détails comptables peuvent être ajustés sur une ébauche de proposition de facture de projet.
 
 ## <a name="adjust-sales-tax"></a>Ajuster la taxe
 

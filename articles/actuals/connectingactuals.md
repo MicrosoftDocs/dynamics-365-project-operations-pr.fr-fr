@@ -1,17 +1,17 @@
 ---
 title: Connexions de transaction – Associer les chiffres réels de différents types de transaction
-description: Cette rubrique explique comment une connexion de transaction est utilisée pour associer les chiffres réels de différents types afin de faciliter le suivi de la rentabilité, de l’arriéré de facturation et des calculs de revenus facturés et non facturés.
+description: Cet article explique comment une connexion de transaction est utilisée pour associer les chiffres réels de différents types afin de faciliter le suivi de la rentabilité, de l’arriéré de facturation et des calculs de revenus facturés et non facturés.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926083"
 ---
 # <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Connexions de transaction – Associer les chiffres réels de différents types de transaction
 

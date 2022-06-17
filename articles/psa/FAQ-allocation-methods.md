@@ -1,6 +1,6 @@
 ---
 title: Méthodes d’allocation des réservations dans Project Service Automation
-description: Cette rubrique fournit des informations sur les différentes moyens de réserver des répartitions.
+description: Cet article fournit des informations sur les différentes moyens de réserver des répartitions.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929165"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Méthodes d’allocation des réservations dans Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Que vous ajoutiez un membre d’équipe directement à un projet sur l’onglet **Équipe**, ou que vous réserviez une ressource pour un projet ou un besoin sur le tableau Planification, il existe quelques méthodes d’attribution de réservation que vous pouvez utiliser. Cette rubrique explique comment chaque mode fonctionne, et quels sont ceux pouvant mener à la surréservation des ressources.
+Que vous ajoutiez un membre d’équipe directement à un projet sur l’onglet **Équipe**, ou que vous réserviez une ressource pour un projet ou un besoin sur le tableau Planification, il existe quelques méthodes d’attribution de réservation que vous pouvez utiliser. Cet article explique comment chaque mode fonctionne, et quels sont ceux pouvant mener à la surréservation des ressources.
 
 ## <a name="full-capacity"></a>Capacité maximale 
 Le mode Capacité maximale réserve la capacité totale de la ressource pour les dates de début et de fin spécifiées. Par exemple, si une ressource a un calendrier défini pour fonctionner huit heures par jour, cinq jours par semaine, définir une date de début et une date de fin couvrant cinq jours ouvrables réserve la ressource pendant 40 heures. La réservation se fait sans tenir compte de la capacité restante de la ressource. Si une ressource est déjà réservée sur d’autres projets pendant cette période, les 40 heures sont réservées en tant qu’heures supplémentaires, ce qui entraîne potentiellement des surréservations.

@@ -1,6 +1,6 @@
 ---
 title: Nouveautés ou modifications de la mise à jour (version 15) de Project Service Automation (correctif logiciel), V3
-description: Cette rubrique donne des informations sur les nouveautés de la mise à jour (version 15) de Project Service Automation, V3.
+description: Cet article donne des informations sur les nouveautés de la version 15 de la mise à jour de Project Service Automation V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 26b9ee0a6ff1ad81d6c77a6a7091733667c493ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b87cae2cd8913457c2931d1661a57509d1398d29
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915641"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Mise à jour (version 15) de Project Service Automation, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8585145"
 
 Nous sommes heureux d’annoncer la dernière mise à jour de l’application Dynamics 365 Project Service Automation (PSA). Cette version comprend des améliorations importantes de la qualité, des performances et de l’utilisation. Cette version est compatible avec Dynamics 365 9.x. Pour effectuer une mise à jour vers cette version, visitez le centre d’administration de Dynamics 365 Online et accédez à la page des solutions pour installer la mise à jour. Pour plus d’informations, voir [Installer, mettre à jour ou supprimer une solution par défaut](/power-platform/admin/install-remove-preferred-solution).
 
-Cette rubrique répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour (version 15) de PSA V3. Cette version a le numéro de build V3.10.5.28 et est généralement disponible par mise à jour automatique en janvier 2020.
+Cet article répertorie les fonctionnalités et les correctifs nouveaux ou modifiés pour la mise à jour version 15 de PSA V3. Cette version a le numéro de build V3.10.5.28 et est généralement disponible par mise à jour automatique en janvier 2020.
 
 ## <a name="update-release-15"></a>Mise à jour (version 15) 
 

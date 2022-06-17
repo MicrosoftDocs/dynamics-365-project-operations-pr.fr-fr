@@ -1,17 +1,17 @@
 ---
 title: Copier des opportunités basées sur des projets
-description: Cette rubrique offre des informations sur la copie des devis selon les opportunités dans Project Operations.
+description: Cet article fournit des informations sur la copie d’opportunités basées sur un projet dans Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3ca48125d90ee50c5621780be19bd4ceb2130d2d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cc772391de97f4b2de6e9e29f97a6af4d5514319
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926129"
 ---
 # <a name="copy-project-based-opportunities"></a>Copier des opportunités basées sur des projets
 

@@ -1,24 +1,24 @@
 ---
 title: Nouveautés d’octobre 2021 - Déploiement simplifié de Project Operations
-description: Cette rubrique fournit des informations sur les mises à jour de qualité disponibles dans la version d’octobre 2021 du déploiement simplifié de Project Operations.
+description: Cet article fournit des informations sur les mises à jour de qualité disponibles dans la version d’octobre 2021 du déploiement simplifié de Project Operations.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d818ac832a9ccb7632f655e9d279b1d308f53827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7199853bea7e8e99a2a1ce19d6ce88736edb38f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921943"
 ---
 # <a name="whats-new-october-2021---project-operations-lite-deployment"></a>Nouveautés d’octobre 2021 - Déploiement simplifié de Project Operations
 
 _S’applique à : Déploiement simplifié – Traiter la facturation pro forma_
 
-Cette rubrique s’applique aux composants et versions suivants de Dynamics 365 Project Operations :
+Cet article s’applique aux composants et versions de Microsoft Dynamics 365 Project Operations suivants :
 
   - Version 4.25.0.91 de Project Operations dans l’environnement Microsoft Dataverse
 

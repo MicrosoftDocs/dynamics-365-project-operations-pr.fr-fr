@@ -1,17 +1,17 @@
 ---
 title: Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification
-description: Cette rubrique fournit des informations et des exemples pour utiliser les API de planification de projets.
+description: Cet article fournit des informations et des exemples d’utilisation des API de planification de projet.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929211"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification
 
@@ -25,7 +25,7 @@ Les API de planification de projets offrent la possibilité d’effectuer des op
 
 Le tableau suivant fournit une liste complète des entités de planification de projets.
 
-| Nom de l'entité  | Nom logique de l’entité |
+| Nom de l’entité  | Nom logique de l’entité |
 | --- | --- |
 | Project | msdyn_project |
 | Tâche du projet  | msdyn_projecttask  |

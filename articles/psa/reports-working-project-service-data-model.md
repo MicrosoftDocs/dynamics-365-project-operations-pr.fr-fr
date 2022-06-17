@@ -1,6 +1,6 @@
 ---
 title: Utilisation des modèles de données Project Service Automation
-description: Cette rubrique fournit des informations sur la façon d’utiliser le modèle de données.
+description: Cet article fournit des informations sur la façon d’utiliser le modèle de données.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926681"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Utilisation des modèles de données Project Service Automation
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587537"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation étend d’autres entités d’applications et intègre ses propres entités au modèle de données Common Data Service. Cette rubrique décrit certaines des entités que vous rencontrerez dans les scénarios courants de génération de rapports PSA.
+Dynamics 365 Project Service Automation étend d’autres entités d’applications et intègre ses propres entités au modèle de données Common Data Service. Cet article décrit certaines des entités que vous rencontrerez dans les scénarios courants de génération de rapports PSA.
 
 ## <a name="reporting-on-opportunities"></a>Génération de rapports sur les opportunités
 
@@ -121,7 +121,7 @@ Lorsque vous utilisez l’entité **Chiffre réel**, il est important de bien co
 
 L’entité **Origine de la transaction** enregistre l’origine de l’enregistrement **Chiffre réel**, et l’entité **Connexion de la transaction** enregistre les enregistrements associés de l’enregistrement **Chiffre réel**. En outre, l’enregistrement **Chiffre réel** contient des références au projet, au contrat du projet (commande), aux ressources réservables, et au client.
 
-![Graphique affichant la connexion de la transaction, les relation d'origine et réelles.](media/PS-Reporting-image6.png "Diagramme affichant la connexion, l’origine et les relations réelles de la transaction")
+![Graphique affichant la connexion de la transaction, les relation d’origine et réelles.](media/PS-Reporting-image6.png "Diagramme affichant la connexion, l’origine et les relations réelles de la transaction")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

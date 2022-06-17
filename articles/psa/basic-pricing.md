@@ -1,6 +1,6 @@
 ---
 title: Tarification de projet
-description: Cette rubrique fournit des informations sur le fonctionnement de la tarification dans Dynamics 365 Project Service Automation.
+description: Cet article fournit des informations sur le fonctionnement de la tarification dans Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c9a5e1ef52eec99ee580258b5dd6db9823cdb4cb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb2a63246a21e5f1306b5ce7f2e2420a93af7ff3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926957"
 ---
 # <a name="project-pricing"></a>Tarification de projet 
 
@@ -129,7 +129,7 @@ Comme les taux de factures, les taux de coûts pour les ressources humaines sont
 
     1. La liste de prix de revient qui est jointe à l’unité d’organisation.
     2. La liste de prix de revient qui est jointe aux paramètres Project Service. Étant donné que les listes de prix de revient dans de nombreux différentes devises peuvent être attachées aux paramètres Project Service, PSA crée une correspondance de devise entre la devise de l’unité d’organisation contractuelle du projet, du contrat ou du devis, et la devise de la liste de prix de revient.
-    3. Pour les dépenses, les modes de tarification À prix coûtant et Majoration du coût ne s’appliquent pas aux listes de prix de revient. Même si ces modes de tarification sont utilisés sur la liste de prix de revient pour configurer les coûts des catégories de transactions, le système les ignore, et aucun prix de revient par défaut n'est entré.
+    3. Pour les dépenses, les modes de tarification À prix coûtant et Majoration du coût ne s’appliquent pas aux listes de prix de revient. Même si ces modes de tarification sont utilisés sur la liste de prix de revient pour configurer les coûts des catégories de transactions, le système les ignore, et aucun prix de revient par défaut n’est entré.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

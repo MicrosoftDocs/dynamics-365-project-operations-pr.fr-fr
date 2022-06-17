@@ -1,6 +1,6 @@
 ---
 title: Configuration des champs personnalisés comme dimensions de tarification
-description: Cette rubrique donne des informations sur la configuration de dimensions de tarification personnalisées.
+description: Cet article donne des informations sur la configuration de dimensions de tarification personnalisées.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591907"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922594"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuration des champs personnalisés comme dimensions de tarification 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Avant de commencer, cette rubrique suppose que vous avez effectué les procédures décrites dans les rubriques, [Créer des champs et des entités personnalisés](create-custom-fields-entities.md) et [Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles](field-references.md). Si vous n’avez pas effectué ces procédures, revenez en arrière et effectuez-les, puis revenez à cette rubrique. 
+Avant de commencer, cet article suppose que vous avez effectué les procédures décrites dans les articles, [Créer des champs et des entités personnalisés](create-custom-fields-entities.md) et [Ajouter des champs personnalisés au paramétrage de tarifs et aux entités transactionnelles](field-references.md). Si vous n’avez pas effectué ces procédures, revenez en arrière et effectuez-les, puis revenez à cet article. 
 
-Cette rubrique donne des informations sur la configuration de dimensions de tarification personnalisées. Dans l’interface Web de Project Service, dans la page **Paramètres**, l’onglet **Dimensions de tarification basées sur le montant** affiche les enregistrements des entités Dimension de tarification. Par défaut, l’installation de Project Service crée 2 lignes dans la grille de cet onglet :
+Cet article donne des informations sur la configuration de dimensions de tarification personnalisées. Dans l’interface Web de Project Service, dans la page **Paramètres**, l’onglet **Dimensions de tarification basées sur le montant** affiche les enregistrements des entités Dimension de tarification. Par défaut, l’installation de Project Service crée 2 lignes dans la grille de cet onglet :
 
 - **msdyn_resourcecategory** (rôle)
 - **msdyn_OrganizationalUnit** (unité d’organisation)
@@ -77,7 +77,7 @@ Il existe deux types de dimensions de tarification :
 |             | Contoso US   |Local             |                    |Heures supplémentaires                 |20     |
 
 
-Si une ressource de Contoso Inde dont le taux de base est 100 USD travaille sur site, et elle consigne 8 heures de travail normales et 2 heures supplémentaires dans l'entrée de temps, le moteur de tarification de Project Service utilise le taux de base de 100 USD pour les 8 heures pour obtenir 800 USD. Pour les 2 heures supplémentaires, une majoration de 15 %% est appliquée au taux de base de 100 USD pour obtenir un prix unitaire de 115 USD et un coût total de 230 USD.
+Si une ressource de Contoso Inde dont le taux de base est 100 USD travaille sur site, et elle consigne 8 heures de travail normales et 2 heures supplémentaires dans l’entrée de temps, le moteur de tarification de Project Service utilise le taux de base de 100 USD pour les 8 heures pour obtenir 800 USD. Pour les 2 heures supplémentaires, une majoration de 15 %% est appliquée au taux de base de 100 USD pour obtenir un prix unitaire de 115 USD et un coût total de 230 USD.
 
 ### <a name="applicable-to-cost"></a>Applicable aux coûts 
 Si ce paramètre est défini sur **Oui**, cela indique que la valeur de dimension dans le contexte d’entrée doit être utilisée pour la mise en correspondance avec les champs **Prix du rôle** et **Majoration du prix du rôle** lors de la récupération des taux de coût et de majoration.

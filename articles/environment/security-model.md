@@ -1,17 +1,17 @@
 ---
 title: Modèle de sécurité
-description: Cette rubrique donne des informations sur le modèle de sécurité dans Dynamics 365 Project Operations.
+description: Cet article fournit des informations sur le modèle de sécurité dans Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2f4992b1ea0c2b93a83c6c2c9a146a7610afc5fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924496"
 ---
 # <a name="security-model"></a>Modèle de sécurité
 

@@ -1,23 +1,23 @@
 ---
 title: Gérer les estimations de revenus
-description: Cette rubrique fournit des informations sur la manière de gérer les estimations de revenus pour les projets.
+description: Cet article fournit des informations sur l’utilisation des estimations des revenus pour les projets.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928475"
 ---
 # <a name="manage-revenue-estimates"></a>Gérer les estimations de revenus
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Vous pouvez créer, calculer, valider, annuler ou éliminer des estimations de revenus. Vous pouvez le faire manuellement ou en utilisant un processus périodique. Cette rubrique fournit des informations sur la manière de gérer les estimations de revenus pour les projets.
+Vous pouvez créer, calculer, valider, annuler ou éliminer des estimations de revenus. Vous pouvez le faire manuellement ou en utilisant un processus périodique. Cet article fournit des informations sur l’utilisation des estimations des revenus pour les projets.
 
 ### <a name="manage-revenue-estimates-manually"></a>Gérer les estimations de revenus manuellement
 

@@ -1,6 +1,6 @@
 ---
 title: Créer et confirmer des journaux d’entrée
-description: Cette rubrique offre des informations sur la création et la confirmation des journaux d’entrées dans Microsoft Dynamics 365 Project Operations.
+description: Cet article offre des informations sur la création et la confirmation des journaux d’entrées dans Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912329"
 ---
 # <a name="create-and-confirm-entry-journals"></a>Créer et confirmer des journaux d’entrée
 
@@ -81,7 +81,7 @@ Il existe quelques différences clés entre les chiffres réels créés par la c
 - Les journaux d’entrées n’utilisent pas d’origines des transactions pour associer le chiffre réel du coût et le chiffre réel des ventes non facturées à tout enregistrement d’origine. Les chiffres réels qui sont créés lorsque les journaux d’utilisation du temps, des dépenses et des matériaux sont approuvés utilisent toujours des origines de transaction pour associer le coût et chiffres réels des ventes non facturées à l’entrée de temps d’origine.
 - Lorsque les chiffres réels des ventes non facturées créées par la confirmation du journal des entrées sont facturées, les chiffres réels des ventes facturées créées lors de la confirmation de la facture sont associées aux chiffres réels de ventes non facturées, de la même manière que les chiffres réels de ventes non facturées créées lorsque les journaux d’utilisation du temps, des dépenses et des matériaux sont approuvés.
 - Les lignes du journal des entrées créées pour le temps saisi par les ressources entre les organisations n’entraînent pas la création automatique des chiffres réels de types **Coût unitaire d’allocation des ressources** et **Ventes entre organisations**. Ces chiffres réels doivent être créés manuellement. Ce comportement diffère du comportement des entrées de temps qui sont enregistrées par des ressources entre organisations. Dans ce cas, lorsque le temps est approuvé, l’application crée automatiquement les chiffres réels de type **Coût** sur le projet et les chiffres réels de type **Coût unitaire d’allocation des ressources** et **Ventes entre organisations** sur la division propriétaire de l’employé. Puis elle utilise des connexions de transaction pour associer ces chiffres réels et des origines de transaction pour les associer à l’entrée de temps d’origine.
-- Lorsque les journaux d’entrée sont confirmés, ils créent des chiffres réels. Toutefois, les journaux de correction ne peuvent pas être utilisés pour corriger ces chiffres réels. Ce comportement diffère du comportement des chiffres réels qui sont créés lorsque les journaux de temps, de dépense et d'utilisation de matériel sont approuvés. Dans ce cas, l’application vous permet d’utiliser les journaux de correction pour corriger les chiffres réels afin de corriger les éventuelles erreurs, à condition que ces chiffres réels n’aient pas encore été facturés. S’ils ont déjà été facturés, vous pouvez toujours corriger un chiffre réel si vous traitez un crédit complet de ce chiffre réel au client.
+- Lorsque les journaux d’entrée sont confirmés, ils créent des chiffres réels. Toutefois, les journaux de correction ne peuvent pas être utilisés pour corriger ces chiffres réels. Ce comportement diffère du comportement des chiffres réels qui sont créés lorsque les journaux de temps, de dépense et d’utilisation de matériel sont approuvés. Dans ce cas, l’application vous permet d’utiliser les journaux de correction pour corriger les chiffres réels afin de corriger les éventuelles erreurs, à condition que ces chiffres réels n’aient pas encore été facturés. S’ils ont déjà été facturés, vous pouvez toujours corriger un chiffre réel si vous traitez un crédit complet de ce chiffre réel au client.
 
 > [!NOTE]
 > Les journaux d’entrée n’appliquent pas de règles strictes par défaut. Par conséquent, utilisez ces journaux d’entrées le moins possible et faites preuve de prudence pour vous assurer de ne pas créer de données financières corrompues dans votre système. Chaque fois que vous le pouvez, utilisez les journaux d’utilisation du temps, des dépenses et des matériaux, la configuration des jalons et des acomptes sur les contrats de projet et le processus de confirmation de facture de projet au lieu des journaux d’entrées pour créer des chiffres réels.

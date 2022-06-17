@@ -1,6 +1,6 @@
 ---
 title: Utiliser le module complémentaire Project Service pour planifier votre travail dans Microsoft Project | MicrosoftDocs
-description: Cette rubrique fournit des informations à suivre pour ajouter, configurer et utiliser le module complémentaire Microsoft Project pour Microsoft Project Service.
+description: Cet article fournit des informations à suivre pour ajouter, configurer et utiliser le module complémentaire Microsoft Project pour Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: d286adfdffa6a0b5f0c96eb14be588c6cedb80c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925531"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utiliser le module complémentaire Project Service Automation pour planifier votre travail dans Microsoft Project
 

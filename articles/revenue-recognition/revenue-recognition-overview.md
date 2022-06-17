@@ -1,23 +1,23 @@
 ---
 title: Vue d’ensemble de la constatation du produit
-description: Cette rubrique fournit des informations sur la constatation du produit dans Project Operations.
+description: Cet article fournit des informations sur la reconnaissance des revenus dans Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926267"
 ---
 # <a name="revenue-recognition-overview"></a>Vue d’ensemble de la constatation du produit
 
 _**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
 
-Dans Dynamics 365 Project Operations, les principes de constatation du produit varient en fonction de la méthode de facturation choisie pour un projet ou une partie du projet. Cette rubrique fournit des informations sur la constatation du produit dans Project Operations.
+Dans Dynamics 365 Project Operations, les principes de constatation du produit varient en fonction de la méthode de facturation choisie pour un projet ou une partie du projet. Cet article fournit des informations sur la reconnaissance des revenus dans Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transactions comptabilisées utilisant une méthode de facturation des temps et matières
 
