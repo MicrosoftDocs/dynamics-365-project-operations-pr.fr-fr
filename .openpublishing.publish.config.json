@@ -4,7 +4,7 @@
       "docset_name": "dynamics-365-project-operations",
       "build_source_folder": "articles",
       "build_output_subfolder": "dynamics-365-project-operations",
-      "locale": "fr-fr",
+      "locale": "fr-FR",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": true,
@@ -27,7 +27,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.fr-fr",
+      "url": "https://github.com/Microsoft/templates.docs.msft.fr-FR",
       "branch": "main",
       "branch_mapping": {}
     },
@@ -41,8 +41,17 @@
       }
     }
   ],
-  "branch_target_mapping": {},
-  "targets": {},
+  "branch_target_mapping": {
+    "live": [
+      "Publish",
+      "Pdf"
+    ]
+  },
+  "targets": {
+    "pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
   "docs_build_engine": {},
   "contribution_branch_mappings": {},
   "need_generate_pdf_url_template": false
