@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d03393de893c39ceb53c06a3031395f765a26f55
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914537"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029149"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Intégration des données de configuration et d’installation Project Operations
 
@@ -26,7 +26,7 @@ Les contrats de projet, les lignes de contrat et les projets sont créés dans D
 
   ![Concepts d’intégration de contrat de projet.](./media/1ProjectContract.jpg)
 
-Les prospects, les opportunités et les devis des activités de vente sont suivis dans Dataverse et ne se synchronisent pas avec les applications de finances et d’opérations, car il n’y a pas de comptabilité en aval associée à cette activité.
+Les prospects, les opportunités et les devis des activités de vente font l'objet d'un suivi dans Dataverse et ne se synchronisent pas avec les applications de finances et d’opérations, car il n’y a pas de comptabilité en aval associée à cette activité.
 
 La fonctionnalité de contrat de projet dans Dataverse crée un enregistrement de contrat de projet dans les applications de finances et d’opérations à l’aide du mappage de table **En-têtes de contrat de projet (commandes clients)**. L’enregistrement d’un contrat de projet dans Dataverse démarre également la création d’un enregistrement d’entité client de contrat de projet. Cet enregistrement est synchronisé avec les applications de finances et d’opérations à l’aide du mappage de table **Source de financement du projet (msdyn\_projectcontractssplitbillingrules)**. Ce mappage synchronise également les ajouts, les mises à jour et les suppressions des clients du contrat de projet. Les pourcentages de facturation fractionnés entre les clients du contrat de projet ne sont maîtrisés que dans Dataverse et non synchronisés avec les applications de finances et d’opérations.
 

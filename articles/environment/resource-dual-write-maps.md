@@ -2,16 +2,16 @@
 title: Versions du mappage à double écriture Project Operations
 description: Cet article fournit la liste des cartes à double écriture requises pour Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959409"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112426"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versions du mappage à double écriture Project Operations
 
@@ -25,7 +25,7 @@ Les mappages suivants sont des conditions préalables requises pour la solution 
 
 | Mappage de table | Synchronisation initiale |
 | --- | --- |
-| Registre (msdyn_ledgers) | Nécessite une synchronisation initiale pour le mappage de table et tous les prérequis. Sélection principale pour la synchronisation initiale est les applications de finances et d’opérations. |
+| Registre (msdyn_ledgers) | Nécessite une synchronisation initiale pour le mappage de table et tous les prérequis. Sélection principale pour la synchronisation initiale des applications de finances et d’opérations. |
 | Entités juridiques (cdm_companies) | Non requis. Le système remplit automatiquement cette entité lorsque les environnements sont liés à l’aide de la double écriture. |
 | Clients V3 (comptes) | Non requis pour l’approvisionnement. |
 | Fournisseurs V2 (msdyn_vendors) | Non requis pour l’approvisionnement. |

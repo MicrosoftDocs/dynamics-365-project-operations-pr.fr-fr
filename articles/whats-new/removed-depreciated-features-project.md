@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921483"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028326"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ Cet article décrit les fonctions qui ont été supprimées, ou qu’il est pré
 Cette liste est destinée à vous aider à prendre en compte ces suppressions et obsolescences pour votre propre planification.
 
 > [!NOTE]
-> Des informations détaillées sur les objets dans les applications de finances et d’opérations peuvent être consultés dans les [**États de référence technique**](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications de finances et d’opérations.
+> Des informations détaillées sur les objets dans les applications de finances et d’opérations peuvent être consultées dans les [**États de référence technique**](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés de chaque version des applications de finances et d’opérations.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Fonctionnalités supprimées ou obsolètes dans la version de mars 2022 de Project Operations
 

@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 07bc494d6e2650673f664ef13a38cf50bebf11c9
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
+ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959417"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "9190663"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Calendrier de publication des mises à jour pour Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "8959417"
 
 | Solution  | Version la plus récente |
 |-------|----|
-| Automatisation de la gestion de projets    | 3.10.75.142 |
+| Automatisation de la gestion de projets    | 3.10.76.168 |
 | Complément de bureau Project Service Automation                | 3.60          |
 
 Pour plus d’informations sur les mises à jour de Project Service, consultez le site [Plans de version Dynamics 365](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Pour plus d’informations sur les mises à jour de Project Service, consultez l
 | Station  | Région | Version actuelle | Prochaine version |  Date planifiée
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>Première version</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 01 juillet 2022
+| | <i>Première version</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 26 août 2022
 |<strong>Station 2</strong> | |  |  | |
-| | <i>Amérique du Sud</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 08 juillet 2022
-| | <i>Canada</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 08 juillet 2022
-| | <i>Inde</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 08 juillet 2022
-| | <i>France</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 08 juillet 2022
-| | <i>Afrique du Sud</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 08 juillet 2022
-| | <i>Allemagne</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 08 juillet 2022
-| | <i>Suisse</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 08 juillet 2022
-| | <i>Corée</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 08 juillet 2022
-| | <i>Norvège</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 08 juillet 2022
+| | <i>Amérique du Sud</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 02 septembre 2022
+| | <i>Canada</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 02 septembre 2022
+| | <i>Inde</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 02 septembre 2022
+| | <i>France</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 02 septembre 2022
+| | <i>Afrique du Sud</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 02 septembre 2022
+| | <i>Allemagne</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 02 septembre 2022
+| | <i>Suisse</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 02 septembre 2022
+| | <i>Corée</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 02 septembre 2022
+| | <i>Norvège</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 02 septembre 2022
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japon</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 15 juillet 2022
-| | <i>Asie-Pacifique</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 15 juillet 2022
-| | <i>Grande-Bretagne</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 15 juillet 2022
-| | <i>Océanie</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 15 juillet 2022
-| | <i>Émirats Arabes Unis</i> | [3.10.75.142](whats-new-ur-44.md) | À définir | 15 juillet 2022
+| | <i>Japon</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 09 septembre 2022
+| | <i>Asie-Pacifique</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 09 septembre 2022
+| | <i>Grande-Bretagne</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 09 septembre 2022
+| | <i>Océanie</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 09 septembre 2022
+| | <i>Émirats Arabes Unis</i> | [3.10.76.168](whats-new-ur-45.md) | À définir | 09 septembre 2022
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 17 juin 2022
+| | <i>Europe</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 29 juillet 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Amérique du Nord</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 juin 2022
+| | <i>Amérique du Nord</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 août 2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Cloud de la communauté du secteur public</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 juin 2022
-| | <i>Groupes d’échelles dédiés</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 01 juillet 2022
+| | <i>Cloud de la communauté du secteur public</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 03 août 2022
+| | <i>Groupes d’échelles dédiés</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 août 2022
 
 
 

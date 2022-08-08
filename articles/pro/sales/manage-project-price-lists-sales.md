@@ -6,16 +6,16 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: af89996fcaca9823d32e84e10ce6d29ead4f3d6d
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929947"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023610"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Gérer les tarifs des projets sur les devis de projet 
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma, Project Operations pour les scénarios basés sur les ressources/produits non stockés_
 
 Les devis de projet sont conçus pour prendre en charge des tarifs de vente effectifs à plusieurs dates. Avec Dynamics 365 Project Operations, une nouvelle entité associée appelée **Tarifs de projet** est ajoutée. Cette entité a une relation 1 à plusieurs avec un devis de projet.
 

@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959428"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029297"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>S’inscrire aux versions d’essai de Project Operations 
 
@@ -90,7 +90,7 @@ Avant de commencer, connectez-vous à un navigateur avec le compte professionnel
 
 ## <a name="configuring-dual-write"></a>Configuration de la double écriture
 - Pour configurer les rôles de sécurité pour la double écriture, voir [Mettre à jour les paramètres de sécurité de Project Operations dans Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Pour accéder à la configuration à double écriture, accédez à l’instance de Finance and Operations, puis accédez à **Gestion de données** > **Double écriture**.
+- Pour accéder à la configuration à double écriture, accédez à l’instance de finance et opérations, puis accédez à **Gestion de données** > **Double écriture**.
 - Pour configurer les mappages à double écriture, voir [Exécuter des mappages à double écriture Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Affecter des licences

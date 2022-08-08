@@ -4,7 +4,7 @@ description: Procédure de création d’un modèle de projet dans Project Servi
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598991"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177422"
 ---
 # <a name="create-a-project-template-project-service"></a>Créer un modèle de projet (Project Service)
 
@@ -40,9 +40,16 @@ Les modèles de projet vous font gagner du temps si votre société fait réguli
 - **Estimations du projet** : les estimations de projet dans les modèles fonctionnent de la même manière que dans les projets, excepté les tarifs permettant le calcul des tarifs de vente et de prix de revient par défaut qui sont toujours les tarifs de vente et de prix de revient par défaut définis dans les paramètres du [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Le reste des fonctionnalités est le même que dans un projet.  
   
 - **Formation de l’équipe du projet** : lors de la formation d’une équipe de projet pour un modèle de projet, vous ne pouvez pas inscrire une ressource nommée dans un modèle. Vous pouvez **Générez l’équipe du projet** dans la structure de répartition du travail pour générer un ensemble de ressources génériques. Vous pouvez également spécifier les aptitudes et les compétences requises pour les ressources génériques. Vous ne pouvez pas substituer une ressource générique avec une ressource pouvant être réservée dans les modèles de projet.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Créer un modèle de projet à partir d’un projet existant
+Vous pouvez créer un modèle de projet à partir d’un projet comme suit :
+
+- **Structure de répartition du travail** : une structure de répartition du travail dans un modèle dérivé d'un projet copiera toutes les tâches et dépendances. Les affectations créées seront basées sur les membres génériques de l'équipe ajoutés à l'équipe de projet lors de la création du modèle de projet.
+- **Estimations du projet** : lorsqu'un modèle de projet est créé à partir d'un projet existant, les estimations du projet source sont copiées dans le modèle de projet.
+- **Membres de l'équipe projet** : lorsqu'un modèle est créé à partir d'un projet existant, tous les membres de l'équipe nommés sont remplacés par la ressource générique de l'organisation. Tous les noms de poste et les rôles sont conservés.
+
 ## <a name="create-a-project-from-a-template"></a>Créer un projet à partir d’un modèle  
- Vous pouvez créer un projet à partir d’un modèle de ces méthodes suivantes :  
+ Vous pouvez créer un projet à partir d’un modèle comme suit :  
   
 -   En créant un projet à partir d’un devis, vous pouvez choisir un modèle de projet dans le formulaire de création rapide de projet.  
   

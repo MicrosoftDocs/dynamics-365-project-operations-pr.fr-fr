@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912375"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110881"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés d’avril 2022 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
@@ -25,7 +25,7 @@ Cet article s’applique aux composants et versions suivants de Microsoft Dynami
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Les catégories d’approvisionnement peuvent être utilisées avec les bons de commande de projet et les factures fournisseur en attente. Pour en savoir plus, voir [Utiliser les catégories d’approvisionnement avec les bons de commande de projet et les factures fournisseur en attente](configure-procurement-categories.md).
+Les catégories d’approvisionnement peuvent être utilisées avec les bons de commande de projet et les factures fournisseur en attente. Pour en savoir plus, voir [Utiliser les catégories d’approvisionnement avec les bons de commande de projet et les factures fournisseur en attente](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Mises à jour des mappages de double écriture de Project Operations
 

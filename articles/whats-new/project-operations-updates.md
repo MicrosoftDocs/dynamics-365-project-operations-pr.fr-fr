@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: b611862e74d04778ad46700ba6d33fc16cb79fae
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959500"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188275"
 ---
 # <a name="project-operations-updates"></a>Mises à jour de Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations comprend deux composants :
 - Gestion de projets et de comptabilité sur l’environnement Dynamics 365 Finance : ce composant couvre les capacités de gestion des dépenses, la comptabilité de projet et la constatation du produit. L’environnement de l’application de finances et d’opérations est utilisé dans Project Operations pour les scénarios basés sur les ressources/non stockés et Project Operations pour les scénarios stockés/basés sur la production.
 
 ## <a name="project-operations-release-notes"></a>Notes de publication de Project Operations
-- Notes de publication les plus récentes de Project Operations pour le scénario [Ressource/non-stocké](whats-new-may-2022-resource-based.md).
-- Notes de publication les plus récentes de Project Operations pour le scénario [Déploiement simplifié](../pro/whats-new/whats-new-may-2022-lite.md).
-- Notes de publication les plus récentes de Project Operations pour le scénario [Stocké/production](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
+- Notes de publication les plus récentes de Project Operations pour le scénario [Ressource/non-stocké](whats-new-july-2022-resource-based.md).
+- Notes de publication les plus récentes de Project Operations pour le scénario [Déploiement simplifié](../pro/whats-new/whats-new-july-2022-lite.md).
+- Notes de publication les plus récentes de Project Operations pour le scénario [Stocké/production](../prod-pma/whats-new/whats-new-jul-2022-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Version la plus récente de Project Operations
 
 | Project Operations dans l’environnement Dataverse | Gestion de projet et comptabilité dans les environnements d’applications de finances et d’opérations | 
 | --- | --- |
-| 4.43.0.77 | 10.0.26 |
+| 4.44.0.22 | 10.0.28 |
 
 Pour le scénario Project Operations basés sur les ressources/produits non stockés, nous vous recommandons d’utiliser la version d’orchestration à double écriture 2.3.1.15 ou une version ultérieure.
 
@@ -47,40 +47,38 @@ Des mises à jour de Project Operations dans l’environnement Dataverse sont di
 | Station | Région | Numéro de version actuelle | Mises à jour automatiques pour le déploiement simplifié | Mises à jour automatiques pour le déploiement basé sur les ressources/produits hors stock | Prochain numéro de version | Prochaine version généralement disponible |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Première version         |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
+|   &nbsp;  | Première version         |  4.44.0.22      | Terminée           | Terminée            | À définir                 | 05 août 2022       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amérique du Sud         |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
-|   &nbsp;  | Canada                |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
-|   &nbsp;  | Inde                 |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
-|   &nbsp;  | France                |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
-|   &nbsp;  | Afrique du Sud          |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
-|   &nbsp;  | Suisse           |  4.43.0.77      | Terminée           | Terminée            | À définir                 | 01 juillet 2022       |
+|   &nbsp;  | Amérique du Sud         |  4.44.0.22      | Terminée           | Terminée            | À définir                 | 06 août 2022       |
+|   &nbsp;  | Canada                |  4.44.0.22      | Terminée           | Terminée            | À définir                 | 06 août 2022       |
+|   &nbsp;  | Inde                 |  4.44.0.22      | Terminée           | Terminée            | À définir                 | 06 août 2022       |
+|   &nbsp;  | France                |  4.44.0.22      | Terminée           | Terminée            | À définir                 | 06 août 2022       |
+|   &nbsp;  | Afrique du Sud          |  4.44.0.22      | Terminée           | Terminée            | À définir                 | 06 août 2022       |
+|   &nbsp;  | Suisse           |  4.44.0.22      | Terminée           | Terminée            | À définir                 | 06 août 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japon                 |  4.43.0.77      | 03 juin 2022      | 03 juin 2022       | À définir                 | 08 juillet 2022       |
-|   &nbsp;  | Asie-Pacifique          |  4.43.0.77      | 03 juin 2022      | 03 juin 2022       | À définir                 | 08 juillet 2022       |
-|   &nbsp;  | Grande-Bretagne         |  4.43.0.77      | 03 juin 2022      | 03 juin 2022       | À définir                 | 08 juillet 2022       |
-|   &nbsp;  | Océanie               |  4.43.0.77      | 03 juin 2022      | 03 juin 2022       | À définir                 | 08 juillet 2022       |
-|   &nbsp;  | Émirats Arabes Unis  |  4.43.0.77      | 03 juin 2022      | 03 juin 2022       | À définir                 | 08 juillet 2022       |
+|   &nbsp;  | Japon                 |  4.44.0.22      | Terminée      | Terminée       | À définir                 | 12 août 2022       |
+|   &nbsp;  | Asie-Pacifique          |  4.44.0.22      | Terminée      | Terminée       | À définir                 | 12 août 2022       |
+|   &nbsp;  | Grande-Bretagne         |  4.44.0.22      | Terminée      | Terminée       | À définir                 | 12 août 2022       |
+|   &nbsp;  | Océanie               |  4.44.0.22      | Terminée      | Terminée       | À définir                 | 12 août 2022       |
+|   &nbsp;  | Émirats Arabes Unis  |  4.44.0.22      | Terminée      | Terminée       | À définir                 | 12 août 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.42.0.70      | Terminée           | Terminée            | 4.43.0.77           | 10 juin 2022       |
+|   &nbsp;  | Europe                |  4.43.0.119      | Terminée           | Terminée            | 4.44.0.22           | 29 juillet 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amérique du Nord         |  4.42.0.70      | Terminée           | Terminée            | 4.43.0.77           | 17 juin 2022       |
+|   &nbsp;  | Amérique du Nord         |  4.43.0.119      | Terminée           | Terminée            | 4.44.0.22           | 05 août 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendrier de publication pour Gestion de projet et comptabilité dans l’environnement d’applications de finances et d’opérations
 
 Des mises à jour de Gestion de projet et comptabilité sont publiées huit fois par an.
 
-|Version prise en charge| Disponibilité en version préliminaire (PEAP) | À disposition générale (mise à jour autonome) | Date de début de production du calendrier de mise à jour automatique (via les paramètres de mise à jour LCS) |   Fin de service   |
+|Version prise en charge| Disponibilité en version préliminaire | À disposition générale (mise à jour autonome) | Date de début de production du calendrier de mise à jour automatique (via les paramètres de mise à jour LCS) |   Fin de service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.26     |      4 mars 2022          |        15 avril 2022             |                          29 avril 2022                              | 15 juillet 2022      |
-|     10.0.25     |      31 janvier 2022       |        18 mars 2022             |                          1 avril 2022                               | 10 juin 2022      |
-
+|     10.0.28     |      27 mai 2022           |        15 juillet 2022              |                          29 juillet 2022                               | 21 octobre 2022   |
+|     10.0.27     |      22 avril 2022         |        17 juin 2022              |                          1 juillet 2022                                | 16 septembre 2022 |
 
 Les dates de publication prévues peuvent faire l’objet de modifications. Pour plus d’informations, consultez [Disponibilité des mises à jour de service](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|Version cible | Disponibilité en version préliminaire (PEAP) | À disposition générale (mise à jour autonome) | Date de début de production du calendrier de mise à jour automatique (via les paramètres de mise à jour LCS) |   Fin de service   |
+|Version cible | Disponibilité en version préliminaire | À disposition générale (mise à jour autonome) | Date de début de production du calendrier de mise à jour automatique (via les paramètres de mise à jour LCS) |   Fin de service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.27     |      22 avril 2022         |        17 juin 2022              |                          1 juillet 2022                                | 16 septembre 2022 |
-|     10.0.28     |      27 mai 2022           |        15 juillet 2022              |                          29 juillet 2022                               | 21 octobre 2022   |
+|     10.0.29     |      1 août 2022         |       16 septembre 2022          |                        30 septembre 2022                            | 13 janvier 2023   |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

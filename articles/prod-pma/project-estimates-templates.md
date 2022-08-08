@@ -1,5 +1,5 @@
 ---
-title: Synchroniser les estimations de projet directement de Project Service Automation vers Finance and Operations
+title: Synchroniser les estimations de projet directement de Project Service Automation vers les applications de finances et d’opérations
 description: Cet article décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les estimations d’heure projet et les estimations de dépense projet directement depuis Microsoft Dynamics 365 Project Service Automation vers Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a71a2a7ca0c9179ddd5667364d8b5c9e413b917
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920839"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029802"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchroniser les estimations de projet directement de Project Service Automation vers Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchroniser les estimations de projet directement de Project Service Automation vers les applications de finances et d’opérations
 
 [!include[banner](../includes/banner.md)]
 

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924841"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183971"
 ---
 # <a name="review-proposed-resources"></a>Vérifier les ressources proposées
 
@@ -40,8 +40,8 @@ Pour vérifier les ressources proposées, procédez comme suit :
     Les mises à jour de statut suivantes se produisent :
 
     - Sur la page **Assistant de planification**, les indicateurs de statut sont mis à jour pour indiquer que la réservation est proposée, et non pas réservée fermement.
-    - Sur la demande de ressource, le statut est changé en **Révision nécessaire**.
-    - Sur l’onglet **Équipe** du projet, la valeur **Statut de la demande** du membre d’équipe générique est remplacée par **Révision nécessaire**.
+    - Sur la demande de ressources, l'examinateur de la demande doit remplace le statut par **Révision nécessaire**.
+    - Sur l’onglet **Équipe** du projet, la valeur **Statut de la demande** du membre d’équipe générique est automatiquement remplacée par **Révision nécessaire**.
 
 Le chef du projet peut accepter ou rejeter la proposition.
 

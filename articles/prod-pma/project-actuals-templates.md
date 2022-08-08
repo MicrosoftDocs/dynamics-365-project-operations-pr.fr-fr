@@ -1,6 +1,6 @@
 ---
-title: Synchroniser les transactions réelles du projet directement dans Project Service Automation avec le journal d’intégration des projets pour la validation dans Finance and Operations
-description: Cet article décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les contrats de projet et les projets directement depuis Microsoft Dynamics 365 Project Service Automation vers Finance and Operations.
+title: Synchroniser les transactions réelles du projet directement dans Project Service Automation avec le journal d’intégration des projets pour la validation dans les applications de finances et d’opérations
+description: Cet article décrit les modèles et les tâches sous-jacentes utilisés pour synchroniser les contrats de projet et les projets directement depuis Microsoft Dynamics 365 Project Service Automation vers les applications de finances et d’opérations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929487"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028975"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchroniser les transactions réelles du projet directement dans Project Service Automation avec le journal d’intégration des projets pour la validation dans Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchroniser les transactions réelles du projet directement dans Project Service Automation avec le journal d’intégration des projets pour la validation dans les applications de finances et d’opérations
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ La solution d’intégration Project Service Automation vers Finance utilise l
 
 L’illustration suivante montre comment les données sont synchronisées entre Project Service Automation et Finance.
 
-[![Flux de données pour l’intégration de Project Service Automation avec Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Flux de données pour l’intégration de Project Service Automation avec les applications de finances et d’opérations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Chiffres réels du projet depuis Project Service Automation
 

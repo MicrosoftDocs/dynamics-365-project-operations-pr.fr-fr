@@ -2,26 +2,26 @@
 title: Journal d’intégration dans Project Operations
 description: Cet article fournit des informations sur l’utilisation du journal d’intégration dans Project Operations.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923875"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106272"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal d’intégration dans Project Operations
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Les entrées de temps et de dépenses créent des transactions **Réelles** qui sont la vue opérationnelle du travail effectué par rapport à un projet. Dynamics 365 Project Operations fournit aux comptables un outil permettant d’examiner les transactions et d’ajuster les attributs comptables, le cas échéant. Une fois l’examen et les ajustements terminés, les transactions sont validées dans la comptabilité auxiliaire de projet et la comptabilité. Un comptable peut effectuer ces activités à l’aide de la feuille **Intégration Project Operations** (**Dynamics 365 Finance** > **Gestion et comptabilité de projet** > **Feuilles** > Feuille **Intégration Project Operations**.
+Entrées de temps, de dépenses et de matériel créent des transactions **Réelles** représentant la vue opérationnelle du travail effectué par rapport à un projet. Dynamics 365 Project Operations fournit aux comptables un outil permettant d’examiner les transactions et d’ajuster les attributs comptables, le cas échéant. Une fois l’examen et les ajustements terminés, les transactions sont validées dans la comptabilité auxiliaire de projet et la comptabilité. Un comptable peut effectuer ces activités à l’aide de la feuille **Intégration Project Operations** (**Dynamics 365 Finance** > **Gestion et comptabilité de projet** > **Feuilles** > Feuille **Intégration Project Operations**.
 
 ![Flux du journal d’intégration.](./media/IntegrationJournal.png)
 
-### <a name="create-records-in-the-project-operations-integration-journal"></a>Créer des enregistrement dans le journal d’intégration de Project Operations
+### <a name="create-records-in-the-project-operations-integration-journal"></a>Créer des enregistrements dans le journal d’intégration de Project Operations
 
 Les enregistrements dans le journal d’intégration de Project Operations sont créés à l’aide d’un processus périodique, **Importer depuis la table intermédiaire**. Vous pouvez exécuter ce processus en accédant à **Dynamics 365 Finance** > **Gestion et comptabilité de projet** > **Périodique** > **Intégration Project Operations** > **Importer depuis la table intermédiaire**. Vous pouvez exécuter le processus de manière interactive ou configurer le processus pour qu’il s’exécute en arrière-plan si nécessaire.
 
@@ -36,7 +36,7 @@ Le système regroupe les lignes feuille dans des feuilles distinctes en fonction
 Les lignes de journal sont créées en fonction des chiffres réels du projet. La liste suivante comprend certaines des règles par défaut et de transformation les plus importantes :
 
   - Chaque transaction réelle de projet figure sur une ligne dans le journal d’intégration de Project Operations. Les transactions de coût et de vente non facturées pour le type de facturation Temps et matériel sont affichées sur des lignes séparées.
-  - Le champ **Date** représente la date de la transaction. Le champ **Date comptable** représente la date à laquelle la transaction est enregistrée dans le registre. Si la date comptable est dans une [période comptable close](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), et que le paramètre **Définir automatiquement la date comptable pour ouvrir la période comptable** est défini sur l’onglet **Finance** de la page **Paratèmetres de gestion de projet et comptabilité**, le système ajustera la date comptable de la transaction à la première date de la prochaine période comptable ouverte.
+  - Le champ **Date** représente la date de la transaction. Le champ **Date comptable** représente la date à laquelle la transaction est enregistrée dans le registre. Si la date comptable est dans une [période comptable close](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), et que le paramètre **Définir automatiquement la date comptable pour ouvrir la période comptable** est défini sur l’onglet **Finance** de la page **Paramètres de gestion de projet et comptabilité**, le système ajustera la date comptable de la transaction à la première date de la prochaine période comptable ouverte.
   - Le champ **N° document** affiche le numéro de document de chaque transaction réelle. La séquence de numéros de document est définie sous l’onglet **Séquences de numéros**, dans la page **Paramètres de gestion de projet et comptabilité**. Un nouveau numéro est attribué à chaque ligne. Une fois le document publié, vous pouvez voir comment le coût et la transaction de vente non facturée sont associés en sélectionnant **Documents associés** sur la page **N° document de transaction**.
   - Le champ **Catégorie** représente une transaction de projet et les valeurs par défaut basées sur la catégorie de transaction pour le chiffre réel associé du projet.
     - Si **Catégorie de transaction** est défini dans le chiffre réel d’un projet et qu’une **Catégorie de projet** existe dans une entité juridique donnée, la catégorie par défaut est cette catégorie de projet.
@@ -50,9 +50,21 @@ Seuls les attributs comptables suivants peuvent être mis à jour dans les ligne
 - **Facturation du groupe de taxes de vente** et **Facturation du groupe de taxe de vente d’articles**
 - **Dimensions financières** (en utilisant l’action **Répartir les montants**)
 
-Les lignes de journal d’intégration peuvent être supprimées, mais toutes les lignes non publiées seront à nouveau insérées dans le journal une fois que vous aurez réexécuté le processus périodique **Importer depuis la table intermédiaire**.
+Les lignes de journal d’intégration peuvent être supprimées. Toutefois, toutes les lignes non publiées seront à nouveau insérées dans le journal une fois que vous aurez réexécuté le processus périodique **Importer depuis la table intermédiaire**.
+
+### <a name="post-the-project-operations-integration-journal"></a>Publier le journal d’intégration Project Operations
 
 Lorsque vous publiez le journal d’intégration, des transactions auxiliaires et de comptabilité sont créées. Ces dernières sont utilisées dans la facturation client en aval, la constatation du produit et les rapports financiers.
 
+Le journal d'intégration Project Operations sélectionné peut être publié à l'aide de l'option **Publication** sur la page du journal d'intégration Project Operations. Tous les journaux peuvent être publiés automatiquement en exécutant un processus dans **Périodiques** > **Intégration Project Operations** > **Journal d’intégration Project Operations**.
+
+La publication peut être effectuée de manière interactive ou par lots. Notez que tous les journaux qui ont plus de 100 lignes seront automatiquement reportés dans un lot. Pour de meilleures performances lorsque des journaux comportant de nombreuses lignes sont validés dans un lot, activez la fonctionnalité **Publier le journal d'intégration Project Operations à l'aide de plusieurs tâches par lots** dans l'espace de travail **Gestion des fonctionnalités**. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Transférer toutes les lignes comportant des erreurs de validation vers un nouveau journal
+
+> [!NOTE]
+> Pour utiliser cette fonctionnalité, activez la fonctionnalité **Transférer toutes les lignes avec des erreurs de validation vers un nouveau journal d'intégration Project Operations** dans l'espace de travail **Gestion des fonctionnalités**.
+
+Lors de la validation dans le journal d'intégration Project Operations, le système valide chaque ligne du journal. Le système comptabilise toutes les lignes sans erreur et crée un nouveau journal pour toutes les lignes comportant des erreurs de comptabilisation. Pour consulter les journaux qui comportent des lignes d'erreur de validation, accédez à **Gestion et comptabilité des projets** > **Journaux** > **Journal d'intégration Project Operations**, et filtrez les journaux à l'aide du champ **Journal d’origine**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

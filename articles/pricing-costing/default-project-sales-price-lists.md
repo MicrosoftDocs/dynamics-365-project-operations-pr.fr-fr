@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917711"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036408"
 ---
 # <a name="default-price-lists"></a>Listes de prix par défaut
 
@@ -25,7 +25,7 @@ Chaque devis et contrat de projet dans Dynamics 365 Project Operations contient 
 Le système effectue le processus suivant pour déterminer le tarif par défaut sur un devis de projet :
 
 1. Le système examine les listes de prix qui sont jointes aux listes de prix de projet du compte. 
-2. Si des listes de prix de projet sont associées à l’enregistrement de compte, le système examine les listes de prix de vente attachées aux paramètres de projet qui correspondent à la devise du devis de projet.
+2. Si aucune liste de prix de projet n'est associée à l’enregistrement de compte, le système examine les listes de prix de vente attachées aux paramètres de projet qui correspondent à la devise du devis de projet.
 3. Ensuite, le système vérifie la date de validité des listes de prix qui correspondent à la plage de dates du devis de projet. Spécifiquement, la date de création du devis.
 4. S’il existe plusieurs listes de prix en vigueur à la date du devis de projet, toutes les listes de prix par défaut figurent dans le devis de projet.
 5. Si aucun tarif n’est en vigueur pour la date du devis de projet, il n’y a pas de tarif de projet par défaut dans le devis de projet. Un message d’avertissement apparaîtra sur le devis du projet. Le message indique que les chiffres réels et les estimations du projet ne seront pas facturés car aucun tarif de projet n’est jointe.

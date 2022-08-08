@@ -2,24 +2,24 @@
 title: Résolution des problèmes lors de l’utilisation de la grille des tâches
 description: Cet article fournit des informations sur le dépannage des problèmes pendant l’utilisation de la grille des tâches.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911041"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188228"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Résolution des problèmes lors de l’utilisation de la grille des tâches 
 
 
 _**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés, déploiement simplifié : traiter la facturation pro forma, Project for the Web_
 
-La grille de tâches exploitée par Dynamics 365 Project Operations est un iFrame hébergé dans Microsoft Dataverse. Ainsi, des exigences spécifiques doivent être remplies pour garantir le bon fonctionnement de l’authentification et de l’autorisation. Cet article décrit les problèmes courants qui peuvent avoir un impact sur l’affichage de la grille ou la gestion des tâches dans la structure de répartition du travail (WBS).
+La grille de tâches utilisée par Dynamics 365 Project Operations est un iFrame hébergé dans Microsoft Dataverse. Ainsi, des exigences spécifiques doivent être remplies pour garantir le bon fonctionnement de l’authentification et de l’autorisation. Cet article décrit les problèmes courants qui peuvent avoir un impact sur l’affichage de la grille ou la gestion des tâches dans la structure de répartition du travail (WBS).
 
 Les problèmes courants sont les suivants :
 
@@ -57,7 +57,7 @@ Pour Microsoft Edge ou les navigateurs Google Chrome, les procédures suivantes 
 
 ### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Atténuation 2 : vérifier que le point de terminaison PEX est correctement configuré
 
-Project Operations requiert qu’un paramètre de projet fasse référence au point de terminaison PEX. Ce point de terminaison est requis pour communiquer avec le service utilisé pour afficher la structure de répartition du travail. Si le paramètre n’est pas activé, vous recevrez l’erreur "Le paramètre de projet n’est pas valide". Pour mettre à jour le point de terminaison PEX, procédez comme suit.
+Project Operations requiert qu’un paramètre de projet fasse référence au point de terminaison PEX. Ce point de terminaison est requis pour communiquer avec le service utilisé pour afficher la structure de répartition du travail. Si le paramètre n’est pas activé, vous recevrez l’erreur « Le paramètre de projet n’est pas valide ». Pour mettre à jour le point de terminaison PEX, procédez comme suit.
 
 1. Ajoutez le champ **Point de terminaison PEX** à la page **Paramètres du projet**.
 2. Identifiez le type de produit que vous utilisez. Cette valeur est utilisée lorsque le point de terminaison PEX est défini. Lors de la récupération, le type de produit est déjà défini dans le point de terminaison PEX. Conservez cette valeur.
@@ -72,7 +72,10 @@ Project Operations requiert qu’un paramètre de projet fasse référence au po
 4. Supprimez le champ de la page **Paramètres du projet**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Atténuation 3 : Se connecter à project.microsoft.com
-Dans votre navigateur Microsoft Edge, ouvrez un nouvel onglet, accédez à project.microsoft.com et connectez-vous en utilisant le rôle d’utilisateur que vous utilisez pour accéder à Project Operations.
+
+Dans votre navigateur , ouvrez un nouvel onglet, accédez à project.microsoft.com et connectez-vous au rôle d’utilisateur que vous utilisez pour accéder à Project Operations. Il est important qu'un seul utilisateur soit connecté à un produit Microsoft dans le navigateur. Le message d'erreur « login.microsoftonline.com a refusé de se connecter » se produit le plus souvent lorsque plusieurs utilisateurs sont connectés, comme indiqué dans l'illustration suivante.
+
+![Choisissez une page de connexion au compte indiquant que deux utilisateurs sont connectés.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problème : le projet ne se charge pas et l’interface utilisateur est bloquée sur le compteur
 

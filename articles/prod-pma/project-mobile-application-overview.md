@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922863"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028883"
 ---
 # <a name="project-mobile-applications-overview"></a>Vue d’ensemble des applications mobiles du projet
 
@@ -33,11 +33,11 @@ L’application mobile Dynamics 365 Project Timesheet permet aux utilisateurs
 
 ## <a name="project-time-entry-workspace"></a>Espace de travail Saisie des heures de projet
 
-L’espace de travail Saisie des heures de projet permet aux utilisateurs de saisir les heures d’un projet et de gagner du temps dans le cadre de ce projet. Cependant, il ne permet pas aux utilisateurs de soumettre ou d’approuver les feuilles de temps des projets. Il ne peut être utilisé que pour la saisie du temps. Cet espace de travail mobile est destiné à être utilisé conjointement avec l’application mobile Finance and Operations.
+L’espace de travail Saisie des heures de projet permet aux utilisateurs de saisir les heures d’un projet et de gagner du temps dans le cadre de ce projet. Cependant, il ne permet pas aux utilisateurs de soumettre ou d’approuver les feuilles de temps des projets. Il ne peut être utilisé que pour la saisie du temps. Cet espace de travail mobile est destiné à être utilisé conjointement avec l’application mobile de finances et d’opérations.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Mes feuilles de temps/Feuilles de temps pour ma révision
 
-Mes feuilles de temps (optimisée pour mobile) et Feuilles de temps pour ma révision (optimisée pour mobile) constituent une solution qui permet aux employés de créer, soumettre et approuver les feuilles de temps de projet sur un appareil mobile. Les employés peuvent accéder à la fonctionnalité Finance via l’URL de l’application. Cette solution ne nécessite pas l’application mobile Finance and Operations.
+Mes feuilles de temps (optimisée pour mobile) et Feuilles de temps pour ma révision (optimisée pour mobile) constituent une solution qui permet aux employés de créer, soumettre et approuver les feuilles de temps de projet sur un appareil mobile. Les employés peuvent accéder à la fonctionnalité Finance via l’URL de l’application. Cette solution ne nécessite pas l’application mobile de finances et d’opérations.
 
 ## <a name="for-more-information"></a>Pour plus d’informations
 
