@@ -1,6 +1,6 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Prise en main
+- name: Mise en route
   items:
     - name: Déterminer votre type de déploiement
       href: environment/determine-deployment-type.md
@@ -14,7 +14,7 @@
           href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations pour les scénarios basés sur les ressources/produits non stockés
   items:
-    - name: Prise en main
+    - name: Mise en route
       items:
         - name: "Project\_Operations pour la présentation de déploiement des scénarios selon les ressources/produits non stockés"
           href: environment/project-operations-integrated-deployment-overview.md
@@ -58,46 +58,52 @@
               href: environment/resource-dual-write-expense.md
             - name: Intégration des factures fournisseur
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Désinstallation de Dynamics 365 Project Operations
+        - name: Désinstaller Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Nouveautés
       items:
-        - name: "Mai\_2022 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: "Avril\_2022 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: "Mars\_2022 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: "Février\_2022 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: "Décembre\_2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: "Novembre\_2021\_– Project\_Operations pour les scénarios selon les ressources/produits non stockés"
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: "Octobre\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: "Septembre\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: "Août\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: "Juillet\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: "Juin\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: "Mai\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: "Avril\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: "Mars\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: "Février\_2021 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: "Janvier\_2021 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: "Décembre\_2020 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: "Novembre\_2020\_– Project\_Operations pour les scénarios selon les ressources/produits non stockés"
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: "Juillet\_2022 – Project Operations pour les scénarios basés sur les ressources/hors stock"
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Archiver
+          items:
+            - name: "Juin\_2022 – Project Operations pour les scénarios basés sur les ressources/hors stock"
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: "Mai\_2022 – Project Operations pour les scénarios basés sur les ressources/hors stock"
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: "Avril\_2022 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: "Mars\_2022 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: "Février\_2022 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: "Décembre\_2021 – Project Operations pour les scénarios basés sur les ressources/produits non stockés"
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: "Novembre\_2021\_– Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: "Octobre\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: "Septembre\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: "Août\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: "Juillet\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: "Juin\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: "Mai\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: "Avril\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: "Mars\_2021 – Project\_Operations pour les scénarios basés sur les ressources/produits non stockés"
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: "Février\_2021 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: "Janvier\_2021 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: "Décembre\_2020 – Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: "Novembre\_2020\_– Project\_Operations pour les scénarios selon les ressources/produits non stockés"
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Processus de vente du projet
       items:
         - name: Vue d’ensemble du processus de vente du projet
@@ -404,7 +410,7 @@
           items:
             - name: Configurer les stratégies
               href: expense/set-up-policies.md
-            - name: Configurer les workflows
+            - name: Configurer les flux de travail
               href: expense/set-up-workflows.md
             - name: Gérer la délégation
               href: expense/manage-delegation.md
@@ -426,7 +432,7 @@
           items:
             - name: Distributions sur une note de frais
               href: expense/distributions-expense-report.md
-        - name: Approuver des notes de frais
+        - name: Approuver les notes de frais
           items:
             - name: Notes de frais et approbateurs multiples
               href: expense/expense-reports-multiple-approvers.md
@@ -438,7 +444,7 @@
           href: expense/cash-advance.md
         - name: Indemnités journalières
           href: expense/per-diem-expenses.md
-        - name: Application de frais de déplacement
+        - name: Application mobile Gestion des dépenses
           href: expense/expense-using-mobile.md
         - name: Gestion financière
           items:
@@ -464,13 +470,21 @@
               href: approvals/dev-notes-approvals.md
     - name: Chiffres réels
       items:
-        - name: Transactions commerciales dans Project Operations
+        - name: "Transactions commerciales dans Project\_Operations"
           href: actuals/businesstransactions.md
         - name: Vue d’ensemble des chiffres réels
           href: actuals/actuals-overview.md
-        - name: Origines des transactions - Lier les chiffres réels à la source
+        - name: Impact des chiffres réels dans un engagement pour le temps et les matériaux
+          href: actuals/ActualsonTM.md
+        - name: Impact des chiffres réels dans un engagement à prix fixe
+          href: actuals/ActualonFP.md
+        - name: Impact des chiffres réels pendant la phase de prévente d’un engagement
+          href: actuals/ActualonPreSales.md
+        - name: Impact des chiffres réels pour un projet interne
+          href: actuals/ActualonInternal.md
+        - name: "Origines des transactions\_–\_Associer les chiffres réels à la source"
           href: actuals/linkingactuals.md
-        - name: Connexions de transaction - Lier les chiffres réels des différents types de transaction
+        - name: "Connexions de transaction\_–\_Associer les chiffres réels de différents types de transaction"
           href: actuals/connectingactuals.md
         - name: Journaux
           items:
@@ -512,15 +526,17 @@
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
             - name: Confirmer une facture pro forma basée sur un projet
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Créer des factures correctives basées sur des projets
-              href: proforma-invoicing/corrective-invoices.md
-            - name: Configurer l’automatisation des factures basées sur des projets
+            - name: Créer des factures correctives basées sur un projet
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
+            - name: Configurer l’automatisation de facture basée sur un projet
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: Factures correctives basées sur un projet
+              href: proforma-invoicing/corrective-invoices.md
         - name: Facturation client
           items:
             - name: Gérer des propositions de facture pour un projet
               href: invoicing/format-update-project-invoice-proposals.md
-            - name: Corriger la comptabilité des propositions de facture de projet provisoires
+            - name: Corriger la comptabilité dans les propositions de facture de projet provisoires
               href: invoicing/correct-project-invoice-proposals.md
         - name: Facturation intersociétés
           items:
@@ -580,7 +596,7 @@
               href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: "Déploiement simplifié\_-\_Opter pour la facturation pro forma"
   items:
-    - name: Prise en main
+    - name: Mise en route
       items:
         - name: Vue d’ensemble du déploiement simplifié
           href: pro/project-operations-overview-lite.md
@@ -588,50 +604,56 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: "Déploiement de Project Operations\_–\_Simplifié"
           href: environment/lite-deployment.md
-        - name: Appliquer la configuration de la démonstration et les données de configuration – Simplifié
+        - name: "Appliquer la configuration de la démonstration et les données de configuration\_–\_Simplifié"
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Modèle de sécurité
           href: environment/security-model.md
     - name: Nouveautés
       items:
-        - name: "Nouveautés de l’accès anticipé à la 2e vague du lancement\_2021 - Déploiement simplifié"
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: "Nouveautés de mai\_2022 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: "Nouveautés d’avril\_2022 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: "Nouveautés de mars\_2022 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: "Nouveautés de février\_2022 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: "Nouveautés de décembre\_2021 – Déploiement léger"
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: "Nouveautés de novembre\_2021 – Déploiement léger"
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: "Nouveautés d’octobre\_2021 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: "Nouveautés de septembre\_2021 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: "Nouveautés d’août\_2021 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: "Nouveautés de juillet\_2021 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: "Nouveautés de juin\_2021 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: "Nouveautés de mai\_2021 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: "Nouveautés d’avril\_2021 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: "Nouveautés de mars\_2021 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: "Nouveautés de février\_2021 – Déploiement simplifié"
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: "Nouveautés de janvier\_2021 – Déploiement léger"
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: "Nouveautés de décembre\_2020 – Déploiement léger"
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: "Nouveautés de novembre\_2020 – Déploiement léger"
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: "Nouveautés de juillet\_2022 - Déploiement simplifié"
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Archiver
+          items:
+            - name: Nouveautés de juin 2022 - Déploiement simplifié
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: "Nouveautés de l’accès anticipé à la 2e vague de lancement\_2021 - Déploiement simplifié"
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: "Nouveautés de mai\_2022 - Déploiement simplifié"
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: "Nouveautés d’avril\_2022 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: "Nouveautés de mars\_2022 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: "Nouveautés de février\_2022 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: "Nouveautés de décembre\_2021 – Déploiement léger"
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: "Nouveautés de novembre\_2021 – Déploiement léger"
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: "Nouveautés d’octobre\_2021 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: "Nouveautés de septembre\_2021 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: "Nouveautés d’août\_2021 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: "Nouveautés de juillet\_2021 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: "Nouveautés de juin\_2021 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: "Nouveautés de mai\_2021 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: "Nouveautés d’avril\_2021 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: "Nouveautés de mars\_2021 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: "Nouveautés de février\_2021 – Déploiement simplifié"
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: "Nouveautés de janvier\_2021 – Déploiement léger"
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: "Nouveautés de décembre\_2020 – Déploiement léger"
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: "Nouveautés de novembre\_2020 – Déploiement léger"
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Processus de vente du projet
       items:
         - name: Vue d’ensemble du processus de vente du projet
@@ -1030,9 +1052,9 @@
           href: actuals/businesstransactions.md
         - name: Vue d’ensemble des chiffres réels
           href: actuals/actuals-overview.md
-        - name: Origines des transactions - Lier les chiffres réels à la source
+        - name: Origines des transactions - Associer les chiffres réels à la source
           href: actuals/linkingactuals.md
-        - name: Connexions de transaction - Lier les chiffres réels des différents types de transaction
+        - name: Connexions de transaction - Associer les chiffres réels de différents types de transaction
           href: actuals/connectingactuals.md
         - name: Journaux
           items:
@@ -1066,28 +1088,56 @@
       items:
         - name: Application Membre de l’équipe Project Operations
           href: team-member/project-operations-team-member.md
-- name: "Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+- name: "Project\_Operations pour les scénarios basés sur le stock/la production"
   items:
+    - name: Mise en route
+      items:
+        - name: Configurer l’intégration des données
+          items:
+            - name: "Vue d’ensemble de Project\_Service\_Automation"
+              href: prod-pma/PSA-integration.md
+            - name: "Paramètres d’intégration de Project\_Service\_Automation"
+              href: prod-pma/PSA-parameters.md
+            - name: Synchronisation des contrats de projet et des projets directement depuis Project Service Automation vers Finance
+              href: prod-pma/project-contracts-templates.md
+            - name: Synchroniser les transactions réelles du projet directement dans Project Service Automation avec le journal d’intégration des projets pour la validation dans finance et opérations
+              href: prod-pma/project-actuals-templates.md
+            - name: Synchroniser les estimations de projet directement de Project Service Automation vers Finance et Operations
+              href: prod-pma/project-estimates-templates.md
+            - name: Synchroniser les catégories de dépense de projet entre Finance et Operations et Project Service Automation
+              href: prod-pma/project-categories-templates.md
+            - name: Synchroniser les tâches de projet directement de Project Service Automation vers Finance et Operations
+              href: prod-pma/project-tasks-template.md
+        - name: Déployer des environnements
+          items:
+            - name: Mettre à jour Project Operations dans votre environnement Finance
+              href: whats-new/ur5-nonstocked-installation.md
     - name: Nouveautés
       items:
-        - name: "Nouveautés d’octobre\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: "Nouveautés de septembre\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: "Nouveautés de juillet\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: "Nouveautés de mai\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: "Nouveautés d’avril\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: "Nouveautés de mars\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: "Nouveautés de janvier\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: "Nouveautés de décembre\_2020 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: "Nouveautés de novembre\_2020 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: "Nouveautés de juillet\_2022 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Archiver
+          items:
+            - name: "Nouveautés de juin 2022 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: "Nouveautés d’octobre 2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: "Nouveautés de septembre\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: "Nouveautés de juillet\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: "Nouveautés de mai\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: "Nouveautés d’avril\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: "Nouveautés de mars\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: "Nouveautés de janvier\_2021 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: "Nouveautés de décembre\_2020 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: "Nouveautés de novembre\_2020 – Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: "Vue d’ensemble du déploiement de Project\_Operations pour les scénarios basés sur les produits stockés/ordres de fabrication"
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Vue d’ensemble de la gestion et comptabilité des projets
@@ -1118,10 +1168,12 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: Espace de travail mobile de saisie des heures de projet
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Application mobile des feuilles de temps du projet
+        - name: Application mobile Project Timesheet
           href: prod-pma/project-timesheet.md
-        - name: Feuilles de temps du projet sur un appareil mobile
+        - name: Feuilles de temps de projet sur un appareil mobile
           href: prod-pma/mobile-timesheets.md
+        - name: Renommer ou modifier une étape de projet
+          href: prod-pma/tasks/rename-project.md
         - name: Implémenter des champs personnalisés pour l’application mobile Project Timesheet
           href: prod-pma/custom-fields-mobile.md
     - name: Gestion des ressources
@@ -1146,13 +1198,15 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Exécution des ressources pour les ressources planifiées
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Prévisions et budgets du projet
+    - name: Prévisions de projet et budgets
       items:
-        - name: Prévisions et budgets du projet
+        - name: Prévisions de projet et budgets
           href: prod-pma/project-forecasts-budgets.md
+        - name: Allouer un budget de projet ou une révision budgétaire sur plusieurs périodes
+          href: prod-pma/tasks/allocate-project.md
         - name: Créer des modèles de prévision pour les budgets de projet
           href: prod-pma/create-forecast-models-project-budgets.md
-        - name: Transférer les budgets de projet à la fin de l’exercice comptable
+        - name: Transférer les budgets de projet à la fin de l’exercice
           href: prod-pma/process-project-budgets-for-fiscal-year-end.md
     - name: Temps
       items:
@@ -1172,7 +1226,7 @@
           items:
             - name: Configurer les stratégies
               href: expense/set-up-policies.md
-            - name: Configurer les workflows
+            - name: Configurer les flux de travail
               href: expense/set-up-workflows.md
             - name: Gérer la délégation
               href: expense/manage-delegation.md
@@ -1194,7 +1248,7 @@
           items:
             - name: Distributions sur une note de frais
               href: expense/distributions-expense-report.md
-        - name: Approuver des notes de frais
+        - name: Approuver les notes de frais
           items:
             - name: Notes de frais et approbateurs multiples
               href: expense/expense-reports-multiple-approvers.md
@@ -1206,7 +1260,7 @@
           href: expense/cash-advance.md
         - name: Indemnités journalières
           href: expense/per-diem-expenses.md
-        - name: Application de frais de déplacement
+        - name: Application mobile Gestion des dépenses
           href: expense/expense-using-mobile.md
         - name: Gestion financière
           items:
@@ -1240,15 +1294,19 @@
       items:
         - name: Facturation intersociétés
           href: prod-pma/intercompany-invoicing.md
-        - name: Configurer la facturation des projets intersociétés
+        - name: Configurer la facturation de projets intersociétés
           href: prod-pma/tasks/configure-intercompany-project-invoicing.md
     - name: Constatation du produit
       items:
         - name: Éliminer une estimation de projet
           href: prod-pma/eliminate-project-estimate.md
+    - name: Secteur public
+      items:
+        - name: Demande de Programme des dépenses des subventions fédérales
+          href: prod-pma/project-sefa-inquiry.md
 - name: Gestion des dépenses
   items:
-    - name: Présentation de la fonctionnalité de gestion des dépenses
+    - name: Vue d’ensemble de la gestion des dépenses
       href: prod-exp/expense-management.md
     - name: Nouvelle expérience de dépense
       items:
@@ -1260,10 +1318,12 @@
       items:
         - name: Configurer les stratégies
           href: expense/set-up-policies.md
-        - name: Configurer les workflows
+        - name: Configurer les flux de travail
           href: expense/set-up-workflows.md
         - name: Gérer la délégation
           href: expense/manage-delegation.md
+        - name: Configurer la gestion des dépenses
+          href: prod-exp/plan-expense-management.md
         - name: Configurer les paramètres de gestion des dépenses
           href: expense/configure-expense-management-parameters.md
         - name: Configurer l’intégration des cartes de crédit
@@ -1278,35 +1338,43 @@
       items:
         - name: Distributions sur une note de frais
           href: expense/distributions-expense-report.md
-    - name: Approuver des notes de frais
+        - name: Importer et tenir à jour les transactions de carte de crédit
+          href: prod-exp/import-credit-card.md
+    - name: Approuver les notes de frais
       items:
         - name: Notes de frais et approbateurs multiples
           href: expense/expense-reports-multiple-approvers.md
+        - name: Gérer la délégation des dépenses
+          href: prod-exp/manage-expense-delegation.md
     - name: Publier des notes de frais
       href: expense/posting-expense-reports.md
     - name: Demande de trajet
       href: expense/travel-requisition.md
     - name: Paiement en avance
       href: expense/cash-advance.md
-    - name: Indemnités journalières
+    - name: Indemnités quotidiennes
       href: expense/per-diems.md
-    - name: Application de frais de déplacement
+    - name: Application mobile Gestion des dépenses
       href: expense/expense-using-mobile.md
     - name: Gestion financière
       items:
         - name: Récupération de la TVA
           href: expense/vat-recovery.md
+        - name: Afficher une note de frais à partir de la comptabilité ou de Achats et approvisionnement
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
       href: psa/overview.md
     - name: Nouveautés
       items:
-        - name: "Calendrier de publication des mises à jour pour Project\_Service\_3.x"
+        - name: Calendrier de publication des mises à jour pour Project Service 3.x
           href: psa/version-history-ps.md
-        - name: "Nouveautés ou modifications de la mise à jour de la version\_43,\_V3"
+        - name: 'Nouveautés ou modifications de la mise à jour (version 44), V3'
+          href: psa/whats-new-ur-44.md
+        - name: 'Nouveautés ou modifications de la mise à jour (version 43), V3'
           href: psa/whats-new-ur43.md
-        - name: "Nouveautés ou modifications de la mise à jour de la version\_42,\_V3"
+        - name: 'Nouveautés ou modifications de la mise à jour (version 42), V3'
           href: psa/whats-new-ur-42.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_41,\_V3"
           href: psa/whats-new-ur-41.md
@@ -1360,11 +1428,13 @@
           href: psa/whats-new-ur-24.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_23,\_V3"
           href: psa/whats-new-ur-23.md
-        - name: "Nouveautés ou modifications de la mise à jour de la version\_22,\_V3"
+        - name: 'Nouveautés ou modifications de la mise à jour (version 22), V3'
+          href: psa/whats-new-ur-22.md
+        - name: 'Nouveautés ou modifications de la mise à jour (version 21), V3'
           href: psa/whats-new-ur-21.md
-        - name: "Nouveautés ou modifications de la mise à jour de la version\_20,\_V3"
+        - name: 'Nouveautés ou modifications de la mise à jour (version 20), V3'
           href: psa/whats-new-ur-20.md
-        - name: "Nouveautés ou modifications de la mise à jour de la version\_19,\_V3"
+        - name: 'Nouveautés ou modifications de la mise à jour (version 19), V3'
           href: psa/whats-new-ur-19.md
         - name: "Nouveautés ou modifications de la mise à jour de la version\_18,\_V3"
           href: psa/whats-new-ur-18.md
