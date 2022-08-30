@@ -1,30 +1,30 @@
 ---
-title: Configurer et appliquer les données de configuration dans Common Data Service
+title: Configurer et appliquer les données de configuration dans Microsoft Dataverse
 description: Cet article fournit des informations sur la configuration et l’application des données de configuration dans Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928015"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230234"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configurer et appliquer les données de configuration dans Common Data Service 
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
 
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant de commencer à configurer les données dans Common Data Service (CDS), les conditions préalables suivantes doivent être remplies :
+Avant de commencer à configurer les données dans Microsoft Dataverse, les conditions préalables suivantes doivent être remplies :
 
-1.  Provisionnez un environnement CDS et un environnement Dynamics 365 Finance pour Project Operations.
-2.  Les informations sur l’entité juridique de Dynamics 365 Finance sont partagées avec l’environnement CDS. Cela signifie que l’entité **Société** dans CDS possède les enregistrement de société suivants :
+1.  Provisionnez un environnement Dataverse et un environnement Dynamics 365 Finance pour Project Operations.
+2.  Les informations sur l’entité juridique de Dynamics 365 Finance sont partagées avec l’environnement Dataverse. Cela signifie que l’entité **Société** dans Dataverse possède les enregistrements de société suivants :
   - THPM
   - USPM
   - GBPM

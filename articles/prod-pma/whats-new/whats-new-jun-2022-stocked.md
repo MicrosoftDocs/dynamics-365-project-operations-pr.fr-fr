@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959427"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316938"
 ---
 # <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Nouveautés ou modifications de Project Operations en juin 2022 pour les scénarios basés sur les produits stockés/ordres de fabrication
 
@@ -24,7 +24,7 @@ Cet article s’applique aux composants et versions suivants de Microsoft Dynami
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Les exigences en matière d’articles peuvent être utilisées pour les contrats de projet avec plusieurs sources de financement. Pour plus d’informations, voir [Exigences en matière d’articles pour les contrats de projet avec plusieurs sources de financement](/multiple-funding-sources-item-req.md).
+Les exigences en matière d’articles peuvent être utilisées pour les contrats de projet avec plusieurs sources de financement. Pour plus d’informations, voir [Exigences en matière d’articles pour les contrats de projet avec plusieurs sources de financement](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Mises à jour qualité
 

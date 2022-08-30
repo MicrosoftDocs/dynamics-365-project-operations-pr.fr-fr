@@ -6,16 +6,14 @@ ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 206dd36a1a1e7141678da27d76a99561ac89044b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d38a447c576c095a7bbe2f5ed84342a88bf69a9b
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931373"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261555"
 ---
 # <a name="vendor-invoice-lines-for-products"></a>Lignes de facture fournisseur pour les produits
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 

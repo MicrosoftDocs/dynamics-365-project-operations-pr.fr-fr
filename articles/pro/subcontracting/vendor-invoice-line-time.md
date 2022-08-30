@@ -6,16 +6,14 @@ ms.date: 03/15/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0b81d2884580e9054457906627c1f9101f435524
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f28af3ad76d456dddcfd8e85d968cecb773f8fc
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927539"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262009"
 ---
 # <a name="vendor-invoice-lines-for-time"></a>Lignes de facture fournisseur pour le temps
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 

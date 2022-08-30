@@ -6,16 +6,14 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 649687cb9ac66e684069434a353b63155103aefb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916883"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261367"
 ---
 # <a name="subcontracting-project-team-members"></a>Membres de l’équipe du projet en sous-traitance
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 

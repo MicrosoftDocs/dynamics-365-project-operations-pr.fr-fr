@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929211"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230312"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification
 
@@ -45,9 +45,9 @@ Voici la liste des API de planification de projet actuelles.
 - **msdyn_CreateProjectV1** : Cette API peut être utilisée pour créer un projet. Le projet et le compartiment de projet par défaut sont créés immédiatement.
 - **msdyn_CreateTeamMemberV1** : Cette API peut être utilisée pour créer un membre de l’équipe de projet. L’enregistrement de membre de l’équipe est créé immédiatement.
 - **msdyn_CreateOperationSetV1** : Cette API peut être utilisée pour planifier plusieurs demandes qui doivent être effectuées dans une transaction.
-- **msdyn_PSSCreateV1** : Cette API peut être utilisée pour créer une entité. L’entité peut être n’importe laquelle des entités de planification de projets qui prennent en charge l’opération de création.
-- **msdyn_PSSUpdateV1** : Cette API peut être utilisée pour mettre à jour une entité. L’entité peut être n’importe laquelle des entités de planification de projets qui prennent en charge l’opération de mise à jour.
-- **msdyn_PSSDeleteV1** : Cette API peut être utilisée pour supprimer une entité. L’entité peut être n’importe laquelle des entités de planification de projets qui prennent en charge l’opération de suppression.
+- **msdyn_PssCreateV1** : cette API peut être utilisée pour créer une entité. L’entité peut être n’importe laquelle des entités de planification de projets qui prennent en charge l’opération de création.
+- **msdyn_PssUpdateV1** : cette API peut être utilisée pour mettre à jour une entité. L’entité peut être n’importe laquelle des entités de planification de projets qui prennent en charge l’opération de mise à jour.
+- **msdyn_PssDeleteV1** : cette API peut être utilisée pour supprimer une entité. L’entité peut être n’importe laquelle des entités de planification de projets qui prennent en charge l’opération de suppression.
 - **msdyn_ExecuteOperationSetV1** : Cette API est utilisée pour exécuter toutes les opérations dans l’ensemble d’opérations donné.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Utilisation des API de planification de projets avec OperationSet

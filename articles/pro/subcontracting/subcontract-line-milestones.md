@@ -6,16 +6,14 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b146bf0becff5d0fa0da59f50c0d04aafaf5115f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927601"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261790"
 ---
 # <a name="subcontract-line-milestones"></a>Jalons de la ligne du contrat de sous-traitance
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
