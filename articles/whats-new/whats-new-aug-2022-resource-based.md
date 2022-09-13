@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348008"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403853"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés d’août 2022 – Project Operations pour les scénarios basés sur les ressources/hors stock
 
@@ -38,6 +38,11 @@ Si vous rencontrez un problème lors du démarrage du mappage, suivez les instru
 | Fonctionnalités | Numéro de référence | Mise à jour qualité |
 | --- | --- | --- |
 | Gestion des opportunités | 2762089 | Gestion des erreurs lors de la clôture du contrat comme perdu si l’enregistrement automatique est désactivé dans l’organisation.|
+|Planification et suivi de projets | 2767841 | Mises à jour de télémétrie Entité de projet Créer ou mettre à jour des scénarios.|
+|Facturation et tarification | 2771072 | Gestion des exceptions de référence nulle lors de l’obtention du devis.|
+|Facturation et tarification | 2844181 |Échec de l’obtention d’un identifiant de corrélation et blocage de la création d’une facture.|
+|Facturation et tarification | 2852836 | Chiffres réels intersociétés manquants pour les dépenses intersociétés créées et approuvées dans CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Vue d’ensemble de la gestion et comptabilité des projets dans Finance
 

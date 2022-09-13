@@ -1,23 +1,23 @@
 ---
-title: Copier des contrats de projets – Simplifié
+title: Copier les contrats de projets
 description: Cet article fournit des informations sur la copie de contrat de projet dans Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a1846af677f7cea3ec22fdba4408f2bbd7db8a3c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8fa17bbd5738e4bc6330c728a3418a2be6828eef
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932615"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410025"
 ---
-# <a name="copy-project-contracts---lite"></a>Copier des contrats de projets – Simplifié
+# <a name="copy-project-contracts"></a>Copier les contrats de projets
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Vous pouvez facilement créer de nouveaux contrats de projet en faisant des copies de contrats existants de l’une des deux manières suivantes : 
+Vous pouvez facilement créer de nouveaux contrats de projet en faisant des copies de contrats existants de l'une des deux manières suivantes : 
 
   - Dans la page de liste **Contrats de projets**, sélectionnez un contrat de projet, puis sélectionnez **Copier**.
   - Sur la page de détails **Contrat de projet**, sélectionnez **Copier**.
