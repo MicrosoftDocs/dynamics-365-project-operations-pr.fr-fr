@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Remplacer les tarifs de vente des projets
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurer des remplacements de date d’effet pour des prix spécifiques dans les tarifs
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Déterminer les prix de revient pour les estimations et les chiffres réels
               href: pricing-costing/cost-price-resolution.md
             - name: Déterminer les prix de vente pour les estimations et les chiffres réels
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Commander des biens et des services pour les projets qui utilisent des bons de commande de projet
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Factures fournisseurs pour les sous-traitances Dataverse
+          items:
+            - name: Créer des factures fournisseur
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Vérification des factures fournisseurs avec les chiffres réels approuvés
+              href: pro/subcontracting/VI-Verification.md
+            - name: Confirmer des factures fournisseurs du projet
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Rétention de fournisseurs
           items:
             - name: Vue d’ensemble de la rétention de fournisseurs
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Remplacer les tarifs de vente des projets
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurer des remplacements de date d’effet pour des prix spécifiques dans les tarifs
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Déterminer les prix de revient pour les estimations et les chiffres réels du projet
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Déterminer les prix de vente pour les estimations et les chiffres réels du projet
