@@ -1,68 +1,95 @@
 ---
-title: Résoudre les prix de vente pour les estimations et les chiffres réels
-description: Cet article fournit des informations sur la résolution des taux de ventes sur les estimations et les chiffres réels.
+title: Déterminer les prix de vente pour les estimations et les chiffres réels du projet
+description: Cet article fournit des informations sur la façon dont les prix de vente sur les estimations de projet et les chiffres réels sont déterminés.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911823"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475366"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Résoudre les prix de vente pour les estimations et les chiffres réels
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Déterminer les prix de vente pour les estimations et les chiffres réels du projet
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Lorsque les prix de vente dans les estimations et les chiffres réels sont résolus dans Dynamics 365 Project Operations, le système utilise d’abord la date et la devise du devis ou contrat du projet associé pour résoudre les tarifs de vente. Une fois le tarif de vente est résolu, le système résout le taux de vente ou le taux de facturation.
+Pour déterminer les prix de vente dans les estimations et les chiffres réels dans Microsoft Dynamics 365 Project Operations, le système utilise d’abord la date et la devise du devis entrant ou du contexte des chiffres réels pour déterminer les tarifs de vente. Dans le contexte des chiffres réels en particulier, le système utilise le champ **Date de la transaction** pour déterminer quels tarifs sont applicables. La valeur **Date de la transaction** de l’estimation entrante ou réelle est comparée aux valeurs **Date de début effective (sans fuseau horaire)** et **Date de fin effective (sans fuseau horaire)** sur la liste de prix. Une fois les tarifs de vente déterminés, le système définit le taux de vente ou le taux de facturation.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Résoudre les taux de vente sur les lignes réelles et estimées pour le temps
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Détermination des taux de vente sur les lignes réelles et estimées pour le temps
 
-Dans Project Operations, les lignes d’estimation du temps sont utilisées pour indiquer la ligne de devis et les détails de la ligne de contrat pour le temps et les affectations de ressources sur le projet.
+Contexte de devis pour **Temps** fait référence à :
 
-Une fois le tarif des ventes résolu, le système exécute les étapes suivantes pour définir le taux de facturation par défaut.
+- Détails de la ligne de devis pour **Temps**.
+- Détails de la ligne de contrat pour **Temps**.
+- Attributions de ressources sur un projet.
 
-1. Le système utilise les champs **Rôle**, **Société d’allocation de ressources** et **Unité d’allocation des ressources** sur la ligne d’estimation pour Temps, afin de faire correspondre les lignes de prix de rôle dans le tarif résolu. Cette correspondance suppose que les dimensions de tarification prêtes à l’emploi sont utilisées pour les taux de facturation. Si vous avez configuré la tarification sur d’autres champs que **Rôle**, **Société d’allocation de ressources** et **Unité d’allocation des ressources** ou sur des champs supplémentaires, c’est cette combinaison qui sera utilisée pour récupérer une ligne de prix de rôle correspondante.
-2. Si le système trouve une ligne de prix de rôle qui a un taux de facturation pour la combinaison des champs **Rôle**, **Société d’allocation de ressources** et **Unité d’allocation des ressources**, ce taux de facturation est celui par défaut.
-3. Si le système ne parvient pas à faire correspondre les valeurs des champs **Rôle**, **Société d’allocation de ressources** et **Unité d’allocation de ressources**, alors il récupère les lignes de prix de rôle avec un rôle correspondant, sauf les valeurs nulles de **Unité d’allocation de ressources**. Une fois que le système a trouvé un enregistrement de prix de rôle correspondant, il utilisera par défaut le taux de facturation de cet enregistrement. Cette correspondance suppose une configuration prête à l’emploi pour la priorité relative de **Rôle** par rapport à **Unité d’allocation des ressources** comme dimension de tarification des ventes.
+Le contexte de chiffres réels pour **Temps** fait référence à :
+
+- Lignes de journal de saisie et de correction pour **Temps**.
+- Lignes de journal créées lorsqu’une entrée de temps est soumise.
+- Détails de la ligne de facture pour **Temps**. 
+
+Une fois le tarif des ventes déterminé, le système exécute les étapes suivantes pour saisir le taux de facturation par défaut.
+
+1. Le système associe la combinaison des champs **Rôle**, **Société d’allocation de ressources** et **Unité d’allocation des ressources** dans le contexte d’estimation ou réel pour que **Temps** corresponde aux lignes de prix du rôle sur le tarif. Cette correspondance suppose que les dimensions de tarification prêtes à l’emploi sont utilisées pour les taux de facturation. Si vous avez configuré la tarification sur d’autres champs que **Rôle**, **Société d’allocation de ressources** et **Unité d’allocation des ressources** ou sur des champs supplémentaires, c’est cette combinaison qui sera utilisée pour récupérer une ligne de prix de rôle correspondante.
+1. Si le système trouve une ligne de prix de rôle qui a un taux de facturation pour la combinaison des champs **Rôle**, **Société d’allocation de ressources** et **Unité d’allocation des ressources**, ce taux de facturation est celui par défaut.
 
 > [!NOTE]
-> Si vous avez configuré une hiérarchisation différente des valeurs **Rôle**, **Société d’allocation de ressources** et **Unité d’allocation de ressources**, ou si vous avez d’autres dimensions qui ont une priorité plus élevée, ce comportement changera en conséquence. Le système récupère les enregistrements de prix de rôle avec des valeurs correspondantes de chacune des valeurs de dimension de tarification par ordre de priorité avec les lignes qui ont des valeurs nulles pour ces dimensions venant en dernier.
+> Si vous configurez une hiérarchisation différente des valeurs **Rôle**, **Société d’allocation de ressources** et **Unité d’allocation de ressources**, ou si vous avez d’autres dimensions qui ont une priorité plus élevée, ce comportement changera en conséquence. Le système récupère les enregistrements de prix de rôle dont les valeurs correspondent à chaque valeur de dimension de prix par ordre de priorité. Les lignes qui ont des valeurs nulles pour ces dimensions viennent en dernier.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Résoudre les taux de vente sur les lignes réelles et estimées pour les dépenses
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Détermination des taux de vente sur les lignes réelles et estimées pour les dépenses
 
-Dans Project Operations, les lignes d’estimation des dépenses sont utilisées pour indiquer la ligne de devis et les détails de la ligne de contrat pour les dépenses et les lignes d’estimation de dépenses sur le projet.
+Contexte de devis pour **Dépense** fait référence à :
+
+- Détails de la ligne de devis pour **Dépense**.
+- Détails de la ligne de contrat pour **Dépense**.
+- Lignes d’estimation de dépense sur un projet.
+
+Le contexte de chiffres réels pour **Dépense** fait référence à :
+
+- Lignes de journal de saisie et de correction pour **Dépense**.
+- Lignes de journal créées lorsqu’une entrée de dépense est soumise.
+- Détails de la ligne de facturation pour **Dépense**. 
 
 Une fois le tarif des ventes résolu, le système exécute les étapes suivantes pour définir le prix de vente unitaire par défaut.
 
-1. Le système utilise une combinaison des champs **Catégorie** et **Unités** sur la ligne d’estimation pour qu’une dépense corresponde aux lignes de prix de la catégorie sur le tarif qui a été résolu.
-2. Si le système trouve une ligne de prix de catégorie qui a un taux de vente pour la combinaison de champs **Catégorie** et **Unité**, alors le taux de vente est défini par défaut.
-3. Si le système trouve une ligne de prix de catégorie correspondante, la méthode de tarification peut être utilisée pour le prix de vente par défaut. Le tableau ci-dessous montre le comportement par défaut du prix des dépenses dans Project Operations.
+1. Le système utilise une combinaison des champs **Catégorie** et **Unité** sur la ligne d’estimation pour qu’une **Dépense** corresponde aux lignes de prix de la catégorie sur le tarif qui a été résolu.
+1. Si le système trouve une ligne de prix de catégorie qui a un taux de vente pour la combinaison de champs **Catégorie** et **Unité**, alors le taux de vente est défini par défaut.
+1. Si le système trouve une ligne de prix de catégorie correspondante, la méthode de tarification peut être utilisée pour le prix de vente par défaut. Le tableau ci-dessous montre le comportement par défaut des prix des dépenses dans Project Operations.
 
-    | Contexte | Mode de tarification | Prix par défaut |
+    | Context | Mode de tarification | Prix par défaut |
     | --- | --- | --- |
-    | Estimation | Prix unitaire | Basé sur la ligne de prix de la catégorie |
-    | &nbsp; | À prix coûtant | 0.00 |
-    | &nbsp; | Majoration du coût | 0.00 |
-    | Réel | Prix unitaire | Basé sur la ligne de prix de la catégorie |
-    | &nbsp; | À prix coûtant | Basé sur les chiffres réels du coût associé |
-    | &nbsp; | Majoration du coût | En appliquant une majoration telle que définie par la ligne de prix de catégorie sur les chiffres réels du coût associé |
+    | Estimation | Prix unitaire | Basé sur la ligne de prix de la catégorie. |
+    |        | À prix coûtant | 0.00 |
+    |        | Majoration du coût | 0.00 |
+    | Réel | Prix unitaire | Basé sur la ligne de prix de la catégorie. |
+    |        | À prix coûtant | Basé sur les chiffres réels du coût associé. |
+    |        | Majoration du coût | Appliquer une majoration telle que définie par la ligne de prix de catégorie sur les chiffres réels du coût associé. |
 
-4. Si le système ne parvient pas à faire correspondre les valeurs des champs **Catégorie** et **Unité**, le taux de vente par défaut est zéro (0).
+1. Si le système ne correspond pas aux valeurs **Catégorie** et **Unité**, le taux de vente est défini sur **0** (zéro) par défaut.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Résoudre les taux de vente sur les lignes de chiffres réels et d’estimation pour le matériel
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Détermination des taux de vente sur les lignes de chiffres réels et d’estimation pour le matériel
 
-Dans Project Operations, les lignes d’estimation pour le matériel sont utilisées pour désigner les détails de la ligne de devis et de contrat pour le matériel et les lignes d’estimation de matériel du projet.
+Contexte de devis pour **Matériel** fait référence à :
+
+- Détails de la ligne de devis pour **Matériel**.
+- Détails de la ligne de contrat pour **Matériel**.
+- Lignes d’estimation du matériel du projet.
+
+Le contexte de chiffres réels pour **Matériel** fait référence à :
+
+- Lignes de journal de saisie et de correction pour **Matériel**.
+- Lignes de journal créées lorsqu’un journal d’utilisation du matériel est soumis.
+- Détails de la ligne de facturation pour **Matériel**. 
 
 Une fois le tarif des ventes résolu, le système exécute les étapes suivantes pour définir le prix de vente unitaire par défaut.
 
-1. Le système utilise la combinaison des champs **Produit** et **Unité** sur la ligne d’estimation pour que le matériel corresponde aux lignes d’élément tarifaire dans la liste de prix qui a été résolue.
-2. Si le système trouve une ligne d’élément tarifaire qui a un taux de vente pour la combinaison des champs **Produit** et **Unité** et que la méthode de tarification est **Montant en devise**, le prix de vente spécifié sur la ligne de tarif est utilisé.
-3. Si les valeurs des champs **Produit** et **Unité** ne correspondent pas, le taux de vente par défaut est égal à zéro.
-
-
+1. Le système utilise la combinaison des champs **Produit** et **Unité** sur la ligne d’estimation pour que le **matériel** corresponde aux lignes d’élément tarifaire dans la liste de prix qui a été résolue.
+1. Si le système trouve une ligne d’élément tarifaire qui a un taux de vente pour la combinaison des champs **Produit** et **Unité** et que la méthode de tarification est **Montant en devise**, le prix de vente spécifié sur la ligne de tarif est utilisé. 
+1. Si les valeurs **Produit** et **Unité** des champs ne correspondent pas ou si la méthode de tarification est différente du champ **Montant en devise**, le taux de vente est défini sur **0** (zéro) par défaut. Ce problème se produit, car Project Operations ne prend en charge que la méthode de tarification **Montant en devise** pour les matériaux utilisés sur un projet.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

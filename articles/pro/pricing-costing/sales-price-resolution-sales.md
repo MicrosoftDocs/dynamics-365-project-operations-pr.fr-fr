@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410115"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475181"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Déterminer les prix de vente pour les estimations et les chiffres réels de projet
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Pour déterminer les prix de vente dans les estimations et les chiffres réels dans Microsoft Dynamics 365 Project Operations, le système utilise d’abord la date et la devise du devis entrant ou du contexte des chiffres réels pour déterminer les tarifs de vente. Dans le contexte des chiffres réels en particulier, le système utilise le champ **Date de la transaction** pour déterminer quels tarifs sont applicables. Une fois les tarifs de vente déterminés, le système définit le taux de vente ou le taux de facturation.
+Pour déterminer les prix de vente dans les estimations et les chiffres réels dans Microsoft Dynamics 365 Project Operations, le système utilise d’abord la date et la devise du devis entrant ou du contexte des chiffres réels pour déterminer les tarifs de vente. Dans le contexte des chiffres réels en particulier, le système utilise le champ **Date de la transaction** pour déterminer quels tarifs sont applicables. La valeur **Date de la transaction** de l’estimation entrante ou réelle est comparée aux valeurs **Date de début effective (sans fuseau horaire)** et **Date de fin effective (sans fuseau horaire)** sur la liste de prix. Une fois les tarifs de vente déterminés, le système définit le taux de vente ou le taux de facturation.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Détermination des taux de vente sur les lignes réelles et estimées pour le temps
 

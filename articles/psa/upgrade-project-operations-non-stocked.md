@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230226"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446032"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Effectuer une mise à niveau de Project Service Automation vers Project Operations
 
@@ -29,7 +29,7 @@ Nous sommes ravis d’annoncer la première des trois phases de mise à niveau d
 
 Le programme de livraison de la mise à niveau sera divisé en trois phases.
 
-| Livraison de la mise à niveau | Phase 1 (janvier 2022) | Phase 2 (Vague d’avril 2022) | Phase 3  |
+| Livraison de la mise à niveau | Phase 1 (janvier 2022) | Phase 2 (novembre 2022) | Phase 3 (Vague d’avril 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Aucune dépendance vis-à-vis de la structure de répartition du travail (WBS) pour les projets | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | La WBS dans les limites actuellement prises en charge par Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Le programme de livraison de la mise à niveau sera divisé en trois phases.
 
 Dans le cadre du processus de mise à niveau, nous avons ajouté des journaux de mise à niveau au plan du site, afin que les administrateurs puissent diagnostiquer plus facilement les échecs. En plus de la nouvelle interface, de nouvelles règles de validation seront ajoutées pour garantir l’intégrité des données après une mise à niveau. Les validations suivantes seront ajoutées au processus de mise à niveau.
 
-| Contrôles | Phase 1 (janvier 2022) | Phase 2 (Vague d’avril 2022) | Phase 3  |
+| Contrôles | Phase 1 (janvier 2022) | Phase 2 (novembre 2022) | Phase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | La WBS sera validée par rapport aux violations courantes de l’intégrité des données (par exemple, les affectations de ressources associées à la même tâche parent mais ayant des projets parents différents). | | :heavy_check_mark: | :heavy_check_mark: |
 | La WBS sera validée par rapport aux [limites connues de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925347"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459923"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Modifications de la fonctionnalité de Project Service Automation vers Project Operations
 
 La mise à niveau de Dynamics 365 Project Service Automation vers Dynamics 365 Project Operations simplifié sera possible en trois phases. Cet article offre les informations relatives aux modifications principales auxquelles vous attendre pour avoir la mise à niveau complète.
 
-| Livraison de la mise à niveau | Phase 1 <br>(Janvier 2022) | Phase 2 <br>(vague d’avril 2022) | Phase 3  |
+| Livraison de la mise à niveau | Phase 1 <br>(Janvier 2022) | Phase 2 <br>(Novembre 2022) | Phase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Aucune dépendance vis-à-vis de la structure de répartition du travail (WBS) pour les projets. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | La WBS est incluse dans les limites actuellement prises en charge par Project Operations. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |

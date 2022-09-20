@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410146"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475228"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Déterminer les taux de coût pour les estimations et les réels du projet
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Pour déterminer les tarifs de prix de revient et les taux de revient dans les contextes d’estimation et de chiffres réels, le système utilise les informations des champs **Date**, **Devise** et **Unité contractante** du projet concerné.
+Pour déterminer les taux de revient dans les estimations et les chiffres réels dans Microsoft Dynamics 365 Project Operations, le système utilise d’abord la date et la devise du devis entrant ou du contexte des chiffres réels pour déterminer la liste des prix de revient. Dans le contexte des chiffres réels en particulier, le système utilise le champ **Date de la transaction** pour déterminer quels tarifs sont applicables. La valeur **Date de la transaction** de l’estimation entrante ou réelle est comparée aux valeurs **Date de début effective (sans fuseau horaire)** et **Date de fin effective (sans fuseau horaire)** sur la liste de prix. Une fois la liste de prix de revient déterminée, le système détermine le taux de coût. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Détermination des taux de revient dans les contextes d’estimation et de chiffres réels pour Temps
 
