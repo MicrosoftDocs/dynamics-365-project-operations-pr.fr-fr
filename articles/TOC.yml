@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Rappeler les entrées précédemment approuvées
           href: approvals/recall-cancel.md
+        - name: Sécurité et approbations
+          href: approvals/approvals-security.md
         - name: Notes du développeur
           items:
             - name: Notes du développeur pour les approbations
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Configurer la rétention de fournisseurs
               href: procurement/set-up-vendor-retention.md
+            - name: Payer quand payé
+              href: procurement/Pay-when-paid.md
     - name: Facturation
       items:
         - name: Vue d’ensemble du processus de facturation
@@ -1102,13 +1106,15 @@
           href: approvals/cancelapproval.md
         - name: Rappeler les entrées précédemment approuvées
           href: approvals/recall-cancel.md
+        - name: Sécurité et approbations
+          href: approvals/approvals-security.md
         - name: Notes du développeur
           items:
             - name: Notes du développeur pour les approbations
               href: approvals/dev-notes-approvals.md
     - name: Chiffres réels
       items:
-        - name: Transactions commerciales dans Project Operations
+        - name: "Transactions commerciales dans Project\_Operations"
           href: actuals/businesstransactions.md
         - name: Vue d’ensemble des chiffres réels
           href: actuals/actuals-overview.md
