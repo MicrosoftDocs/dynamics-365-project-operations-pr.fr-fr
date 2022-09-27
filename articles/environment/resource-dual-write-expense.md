@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029206"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527984"
 ---
 # <a name="expense-management-integration"></a>Intégration de la gestion des dépenses
 
@@ -34,7 +34,7 @@ Les catégories de dépenses dans les applications de finances et d’opération
 
 ## <a name="expense-reports"></a>Rapports de dépenses
 
-Les notes de frais sont créées et approuvées dans les applications de finances et d’opérations. Pour plus d’informations, voir [Créer et traiter des notes de frais dans Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Une fois la note de frais approuvée par le chef de projet, elle est enregistrée dans la comptabilité. Dans Project Operations, les lignes de notes de frais liées au projet sont validées à l’aide de règles de validation spéciales :
+Les notes de frais sont créées et approuvées dans les applications de finances et d’opérations. Pour plus d’informations, voir [Créer et traiter des notes de frais dans Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Une fois la note de frais approuvée par le chef de projet, elle est enregistrée dans la comptabilité. Dans Project Operations, les lignes de notes de frais liées au projet sont validées à l’aide de règles de validation spéciales :
 
   - Le coût lié au projet (y compris la taxe non récupérable) n’est pas immédiatement imputé au compte de coût du projet dans la comptabilité, mais est imputé au compte d’intégration des dépenses. Ce compte est configuré dans **Gestion et comptabilité des projets** > **Configurer** > **Paramètres de gestion et comptabilité des projets**, dans l’onglet **Project Operations sur Dynamics 365 Customer engagement**.
   - La double écriture est synchronisée avec Dataverse à l’aide du mappage de table **Entité d’exportation des dépenses de projet d’intégration de Project Operations (msdyn\_expenses)**.

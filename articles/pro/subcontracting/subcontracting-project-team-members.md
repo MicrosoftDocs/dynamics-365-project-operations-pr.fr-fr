@@ -2,20 +2,20 @@
 title: Membres de l’équipe du projet en sous-traitance
 description: Cet article explique comment contractualiser des membres de l’équipe de projet dans Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261367"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522792"
 ---
 # <a name="subcontracting-project-team-members"></a>Membres de l’équipe du projet en sous-traitance
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 Dans Microsoft Dynamics 365 Project Operations, vous pouvez choisir de sous-traiter des membres de l’équipe de projet avec ou sans dotation de personnel.
 

@@ -2,20 +2,20 @@
 title: Enregistrement du temps, des dépenses et de l’utilisation du matériel pour les composants en sous-traitance
 description: Cet article explique comment le temps, les dépenses et l’utilisation des matériels enregistrés sur les projets à partir de composants sous-traités sont suivis par Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261133"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522510"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Enregistrement du temps, des dépenses et de l’utilisation du matériel sur les projets pour les composants en sous-traitance
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 Cet article explique comment le temps, les dépenses et l’utilisation des matériels enregistrés sur les projets à partir de composants sous-traités sont suivis par Microsoft Dynamics 365 Project Operations.
 

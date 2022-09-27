@@ -2,20 +2,20 @@
 title: Jalons de la ligne du contrat de sous-traitance
 description: Cet article explique comment créer et gérer un échéancier de facturation basé sur des jalons pour un sous-contrat avec un fournisseur.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261790"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522416"
 ---
 # <a name="subcontract-line-milestones"></a>Jalons de la ligne du contrat de sous-traitance
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 Dans Dynamics 365 Project Operations, une ligne du contrat de sous-traitance avec une méthode de facturation à prix fixe peut spécifier un échéancier de facturation basé sur des jalons avec le fournisseur.
 

@@ -2,20 +2,20 @@
 title: Lignes du contrat de sous-traitance pour les produits
 description: Cet article explique comment enregistrer les lignes de sous-contrat pour les produits et utiliser les différents champs pour enregistrer les achats de produits auprès des fournisseurs.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262106"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522839"
 ---
 # <a name="subcontract-lines-for-products"></a>Lignes du contrat de sous-traitance pour les produits
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 Un contrat de sous-traitance dans Dynamics 365 Project Operations peut comporter des lignes pour les produits. Ces lignes permettent à un chef de projet d’acheter des produits auprès de fournisseurs et de les utiliser ensuite sur des tâches de projet.
 

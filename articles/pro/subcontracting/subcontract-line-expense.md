@@ -2,20 +2,20 @@
 title: Lignes du contrat de sous-traitance pour les catégories de dépenses
 description: Cet article explique comment enregistrer des lignes de sous-traitance pour les dépenses et utiliser les champs pour enregistrer l’achat de temps auprès des fournisseurs.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261837"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522604"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Lignes du contrat de sous-traitance pour les catégories de dépenses
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 Un contrat de sous-traitance dans Dynamics 365 Project Operations peut comporter une ligne pour les catégories de dépenses. Les lignes de contrat de sous-traitance pour les catégories de dépenses permettent à un chef de projet d’acheter des catégories de services ou de produits auprès de fournisseurs qu’il peut ensuite imputer à un projet.
 

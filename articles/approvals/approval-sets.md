@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918079"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524913"
 ---
 # <a name="approval-sets"></a>Ensembles d’approbations
 
@@ -45,14 +45,9 @@ Le fait de sélectionner **Réessayer** incrémente le compteur de durée de vie
 ## <a name="configure-approval-sets"></a>Configurer les ensembles d’approbation
 
 ### <a name="enable-the-approval-sets-feature"></a>Activer la fonctionnalité Ensembles d’approbation
-Avant d’activer la fonctionnalité Ensembles d’approbations, vérifiez qu’aucune approbation n’est en cours de traitement.
+Avant d’activer la fonctionnalité Ensembles d’approbations, vérifiez qu’aucune approbation n’est en cours de traitement. Une fois cette fonctionnalité activée, elle ne peut pas être désactivée.
 
 - Accédez à la page **Paramètres du projet** et sélectionnez **Contrôle de fonctionnalité** > **Activer les approbations modernes**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Désactiver la fonctionnalité Ensembles d’approbation
-Avant de désactiver la fonctionnalité Ensembles d’approbations, vérifiez qu’aucune approbation n’est en cours de traitement.
-
-- Accédez à la page **Paramètres du projet** et sélectionnez **Contrôle de fonctionnalité** > **Désactiver les approbations modernes**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Configuration du seuil asynchrone 
 Lorsque des ensembles d’approbation sont créés, le traitement passe à l’arrière-plan lorsque le nombre sélectionné d’enregistrements destinés à l’approbation dépasse le seuil indiqué. Utilisez le champ **Seuil asynchrone** pour configurer le moment où le traitement des approbations doit être exécuté de manière synchrone ou asynchrone. Sélectionnez l’une des valeurs suivantes :

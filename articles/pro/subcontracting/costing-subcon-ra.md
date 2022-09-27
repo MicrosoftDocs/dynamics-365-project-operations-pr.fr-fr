@@ -2,20 +2,20 @@
 title: Estimation du coût des attributions de ressources de sous-traitance
 description: Cet article explique comment Microsoft Dynamics 365 Project Operations calcule l’estimation de coût des affectations de ressources sous-traitées.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262056"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522651"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Estimation du coût des attributions de ressources de sous-traitance
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 Les affectations de tâches des membres de l’équipe de projet en sous-traitance sont chiffrées à l’aide des tarifs **Achat** joints au contrat de sous-traitance dans l’enregistrement du membre de l’équipe concerné. Cela diffère de la façon dont les affectations de ressources d’employés sont évaluées lorsque les affectations de tâches de ressources d’employés sont évaluées à l’aide des tarifs **Coût** qui sont joints à l’unité contractante du projet. 
 

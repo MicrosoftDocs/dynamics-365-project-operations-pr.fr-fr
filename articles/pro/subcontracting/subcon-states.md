@@ -2,20 +2,20 @@
 title: Transitions d’état dans un contrat de sous-traitance
 description: Cet article explique les transitions d’état sur un contrat de sous-traitance dans Microsoft Dynamics 365 Project Operations à mesure que le contrat de sous-traitance est créé, exécuté et clôturé.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261193"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522887"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Transitions d’état dans un contrat de sous-traitance 
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 Cet article explique les transitions d’état sur un sous-contrat dans Microsoft Dynamics 365 Project Operations. Chaque état est représenté comme brouillon, confirmé, fermé ou annulé. L’image suivante représente les transitions d’état.
 

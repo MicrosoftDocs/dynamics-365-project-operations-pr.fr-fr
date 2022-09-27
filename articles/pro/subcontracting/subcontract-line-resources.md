@@ -2,20 +2,20 @@
 title: Ressources de la ligne du contrat de sous-traitance
 description: Cet article explique comment spécifier les ressources dédiées qui sont fournies par le fournisseur pour une ligne de sous-traitance spécifique pour le temps.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261461"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522369"
 ---
 # <a name="subcontract-line-resources"></a>Ressources de la ligne du contrat de sous-traitance
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 Dans Dynamics 365 Project Operations, un fournisseur peut spécifier des ressources qui seront utilisées pour fournir la capacité de ressources achetée sur la ligne du contrat de sous-traitance pour le temps.
 

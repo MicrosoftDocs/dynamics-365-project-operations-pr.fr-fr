@@ -2,16 +2,16 @@
 title: Journal d’intégration dans Project Operations
 description: Cet article fournit des informations sur l’utilisation du journal d’intégration dans Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106272"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541074"
 ---
 # <a name="integration-journal-in-project-operations"></a>Journal d’intégration dans Project Operations
 
@@ -65,6 +65,12 @@ La publication peut être effectuée de manière interactive ou par lots. Notez 
 > [!NOTE]
 > Pour utiliser cette fonctionnalité, activez la fonctionnalité **Transférer toutes les lignes avec des erreurs de validation vers un nouveau journal d'intégration Project Operations** dans l'espace de travail **Gestion des fonctionnalités**.
 
-Lors de la validation dans le journal d'intégration Project Operations, le système valide chaque ligne du journal. Le système comptabilise toutes les lignes sans erreur et crée un nouveau journal pour toutes les lignes comportant des erreurs de comptabilisation. Pour consulter les journaux qui comportent des lignes d'erreur de validation, accédez à **Gestion et comptabilité des projets** > **Journaux** > **Journal d'intégration Project Operations**, et filtrez les journaux à l'aide du champ **Journal d’origine**.
+Cette fonctionnalité permet d’améliorer l’expérience avec le journal d’intégration de Project Operations. Lorsqu’elle est activée, les problèmes de synchronisation de double écriture et les problèmes de configuration n’empêchent plus la publication de journaux valides. Lors de la validation dans le journal d'intégration Project Operations, le système valide chaque ligne du journal. Elle valide toutes les lignes sans erreur et crée un journal pour toutes les lignes contenant des erreurs de validation.
+
+Pour consulter les journaux qui comportent des lignes d’erreur de report, accédez à **Gestion de projet et comptabilité** \>**Journaux**\> **Journal d’intégration de Project Operations**, et filtrez la liste des revues à l’aide du champ **Journal d’origine**. L’illustration suivante montre un exemple où les journaux de la page **Journal d’intégration de Project Operations** ont été filtrés de cette manière.
+
+![Journal d’origine affiché sur la page du journal d’intégration de Project Operations.](./media/transferLines-originalJournal.png)
+
+Si un traitement par lots périodique est configuré pour publier le journal d’intégration, la publication est retentée et les journaux sont publiés si le problème de synchronisation a été résolu. Tous les journaux restants doivent être révisés manuellement en examinant les journaux et en prenant les mesures nécessaires.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
