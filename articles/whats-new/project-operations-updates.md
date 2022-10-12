@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409932"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622007"
 ---
 # <a name="project-operations-updates"></a>Mises à jour de Project Operations
 
@@ -47,24 +47,24 @@ Des mises à jour de Project Operations dans l’environnement Dataverse sont di
 | Station | Région | Numéro de version actuelle | Mises à jour automatiques pour le déploiement simplifié | Mises à jour automatiques pour le déploiement basé sur les ressources/produits hors stock | Prochain numéro de version | Prochaine version généralement disponible |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Première version         |  4.45.0.53      | Terminée           | Terminée            | À définir                 | 09 septembre 2022      |
+|   &nbsp;  | Première version         |  4.46.0.60      | Terminée           | Terminée            | À définir                 | 07 octobre 2022      |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amérique du Sud         |  4.45.0.53      | Terminée           | Terminée            | À définir                 | 09 septembre 2022       |
-|   &nbsp;  | Canada                |  4.45.0.53      | Terminée           | Terminée            | À définir                 | 09 septembre 2022       |
-|   &nbsp;  | Inde                 |  4.45.0.53      | Terminée           | Terminée            | À définir                 | 09 septembre 2022       |
-|   &nbsp;  | France                |  4.45.0.53      | Terminée           | Terminée            | À définir                 | 09 septembre 2022       |
-|   &nbsp;  | Afrique du Sud          |  4.45.0.53      | Terminée           | Terminée            | À définir                 | 09 septembre 2022       |
-|   &nbsp;  | Suisse           |  4.45.0.53      | Terminée           | Terminée            | À définir                 | 09 septembre 2022       |
+|   &nbsp;  | Amérique du Sud         |  4.46.0.60      | Terminée           | Terminée            | À définir                 | 14 octobre 2022       |
+|   &nbsp;  | Canada                |  4.46.0.60      | Terminée           | Terminée            | À définir                 | 14 octobre 2022       |
+|   &nbsp;  | Inde                 |  4.46.0.60      | Terminée           | Terminée            | À définir                 | 14 octobre 2022       |
+|   &nbsp;  | France                |  4.46.0.60      | Terminée           | Terminée            | À définir                 | 14 octobre 2022       |
+|   &nbsp;  | Afrique du Sud          |  4.46.0.60      | Terminée           | Terminée            | À définir                 | 14 octobre 2022       |
+|   &nbsp;  | Suisse           |  4.46.0.60      | Terminée           | Terminée            | À définir                 | 14 octobre 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japon                 |  4.45.0.53      | Terminée      | Terminée       | À définir                 | 09 septembre 2022       |
-|   &nbsp;  | Asie-Pacifique          |  4.45.0.53      | Terminée      | Terminée       | À définir                 | 09 septembre 2022       |
-|   &nbsp;  | Grande-Bretagne         |  4.45.0.53      | Terminée      | Terminée       | À définir                 | 09 septembre 2022       |
-|   &nbsp;  | Océanie               |  4.45.0.53      | Terminée      | Terminée       | À définir                 | 09 septembre 2022       |
-|   &nbsp;  | Émirats Arabes Unis  |  4.45.0.53      | Terminée      | Terminée       | À définir                 | 09 septembre 2022       |
+|   &nbsp;  | Japon                 |  4.46.0.60      | Terminée      | Terminée       | À définir                 | 21 octobre 2022       |
+|   &nbsp;  | Asie-Pacifique          |  4.46.0.60      | Terminée      | Terminée       | À définir                 | 21 octobre 2022       |
+|   &nbsp;  | Grande-Bretagne         |  4.46.0.60      | Terminée      | Terminée       | À définir                 | 21 octobre 2022       |
+|   &nbsp;  | Océanie               |  4.46.0.60      | Terminée      | Terminée       | À définir                 | 21 octobre 2022       |
+|   &nbsp;  | Émirats Arabes Unis  |  4.46.0.60      | Terminée      | Terminée       | À définir                 | 21 octobre 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.45.0.53      | Terminée           | Terminée            | À définir           | 16 septembre 2022       |
+|   &nbsp;  | Europe                |  4.46.0.60      | Terminée           | Terminée            | À définir           | 28 octobre 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amérique du Nord         |  4.45.0.53      | Terminée           | Terminée            | À définir           | 16 septembre 2022       |
+|   &nbsp;  | Amérique du Nord         |  4.46.0.60      | Terminée           | Terminée            | À définir           | 04 novembre 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendrier de publication pour Gestion de projet et comptabilité dans l’environnement d’applications de finances et d’opérations
 
