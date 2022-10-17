@@ -1530,10 +1530,18 @@
           href: psa/whats-new-ur-12.md
         - name: "Nouveautés ou modifications dans Project\_Service\_Automation V3.x, 1re\_vague du lancement\_2021"
           href: psa/whats-new-2021-wave1.md
-        - name: "Nouveautés ou modifications dans Project\_Service\_Automation V3.x, 1re\_vague du lancement\_2020"
+        - name: "Nouveautés ou modifications dans Project Service Automation\_V3.x, 1re\_vague de lancement\_2020"
           href: psa/whats-new-v3-2020-wave1.md
-        - name: "Nouveautés ou modifications dans Project\_Service\_Automation V3"
+        - name: "Nouveautés ou modifications dans Project Service Automation\_V3"
           href: psa/whats-new-changed-v3.md
+    - name: "Mise à niveau de Project Service Automation (version de l’application Project Operations – Simplifié\_4.x)"
+      items:
+        - name: Effectuer une mise à niveau de Project Service Automation vers Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Modifications apportées aux fonctionnalités entre Project Service Automation et Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Processus de conversion de planification de projet de Project Service Automation vers Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: "Planifier votre implémentation (version\_3.x de l’application)"
       items:
         - name: Installation d’un exemple de données
