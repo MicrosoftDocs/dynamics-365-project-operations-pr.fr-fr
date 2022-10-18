@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932063"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655185"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Créer une structure de répartition du travail (WBS)
 
@@ -112,6 +112,18 @@ Le champ **Catégorie** gère les valeurs qui indiquent un type de travail élar
 Vous pouvez utiliser la planification dans Project Operations pour créer une relation de prédécesseur entre les tâches. Le champ **Prédécesseur** utilise une ou plusieurs valeurs pour identifier les tâches dont dépend une tâche. Lorsque vous attribuez des valeurs de prédécesseur à une tâche, la tâche peut démarrer uniquement une fois toutes les tâches de prédécesseur terminées. En raison de la dépendance, la date de début planifiée pour la tâche est redéfinie à la date où les tâches de prédécesseur sont terminées.
 
 Le mode de tâche n’a aucun impact sur les mises à jour apportées aux dates de début et de fin des tâches de prédécesseur/dépendantes.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Comprendre les impacts de la durée, des calendriers de ressources et des calendriers de projet sur les tâches
+La durée d’une tâche est définie comme le nombre d’heures de travail entre l’heure de début de la date de début et l’heure de fin de la date de fin de la tâche.   Project for the web définit les unités de mesure de durée comme suit :
+
+| **Mesure de durée** | **Quantité**|
+|----------------------------------------------------|----------------------|
+| Heures par jour | 8 |
+| Heures par semaine |  40 |
+| Jours par mois |  20 |
+
+Les tâches non affectées sont planifiées à l’aide du calendrier du projet. Cependant, pendant l’affectation initiale d’une ressource, la planification d’une tâche est mise à jour afin qu’elle respecte le calendrier de la ressource. Les modifications ultérieures apportées à une tâche comportant une affectation seront régies par le [mode de planification](scheduling-modes.md) du projet. Pour en savoir plus sur l’influence des calendriers sur les tâches, consultez [Calendriers de ressources dans Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) et [Heures de début des tâches et vos projets !](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Raccourcis clavier et accessibilité
 

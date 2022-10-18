@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621258"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634849"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Nouveautés de septembre 2022 - Déploiement simplifié de Project Operations
 
@@ -30,6 +30,7 @@ Cet article s’applique aux composants et versions suivants de Microsoft Dynami
 | Facturation et tarification | **Prix par défaut indépendant du fuseau horaire**<br>Project Operations a introduit le concept d’une date indépendante du fuseau horaire pour tous les chiffres réels du projet. Un nouveau champ, **Date de la transaction**, est maintenant disponible sur les lignes de journal et les chiffres réels, et sera utilisé pour stocker la date à laquelle la transaction s’est produite, mais sans convertir cette date en temps universel coordonné. Cette date sera utilisée pour les processus en aval tels que les prix par défaut et la création de factures. | <p>[Déterminer les taux de coût pour les estimations et les réels du projet](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Déterminer les prix de vente pour les estimations et les chiffres réels du projet](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Facturation et tarification | **Remplacements de prix à la date d’effet dans Project Operations**<br>Les Remplacements de prix à la date d’effet fournissent un moyen de remplacer ou de modifier des prix spécifiques dans la liste de prix. | [Remplacements de prix avec date d’effet](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Temps et dépenses | **Approbateur global**<br>Cette fonctionnalité active les éditeurs de logiciels indépendants (ISV) et l’approbation centralisée, quel que soit le projet ou le statut des membres de l’équipe dans le projet. | [Sécurité et approbations](/dynamics365/project-operations/approvals/approvals-security) |
+|Planification et suivi de projets|**Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification** </br> </br>L’API de modification des contours d’affectation des ressources permet aux développeurs de spécifier par programme l’effort d’une personne affectée à une tâche sur n’importe quelle plage de dates prise en charge pour une planification d’effort échelonnée dans le temps plus granulaire.|[Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Mises à jour qualité
 

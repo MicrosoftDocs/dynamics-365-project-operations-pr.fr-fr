@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621243"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634802"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nouveautés de septembre 2022 – Project Operations pour les scénarios basés sur les ressources/produits non stockés
 
@@ -35,6 +35,7 @@ Cet article s’applique aux composants et versions suivants de Microsoft Dynami
 | Gestion des dépenses | **Possibilité de publier le passif des dépenses dans la devise du fournisseur**<br>Cette fonctionnalité active les rapports de dépenses qui seront publiés dans une devise du fournisseur pour le mode de paiement en espèces. | [Possibilité de publier le passif des dépenses dans la devise du fournisseur](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Approvisionnement du projet | **Payer quand les paiements des fournisseurs sont payés**<br>Cette fonctionnalité permet d’utiliser la fonction Payer au moment du paiement (PWP) avec les environnements hors stock de Project Operations. Elle permet de bloquer/conserver les paiements fournisseur, en fonction des conditions de rétention, jusqu’à ce que le paiement soit reçu du client. | [Payer quand les paiements des fournisseurs sont payés](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Approvisionnement du projet | **Demandes d’achat du projet**<br>Cette fonctionnalité permet aux utilisateurs de créer des commandes fournisseur liées à un projet dans les entités juridiques où l’intégration de Project Operations sur Dynamics 365 Customer Engagement est activée. Les commandes fournisseur du projet peuvent être utilisées pour enregistrer l’approvisionnement en matériel hors stock par rapport au projet par la personne du département Approvisionnement. Les commandes fournisseur du projet ne seront pas synchronisés avec Dataverse. Cependant, vous pouvez utiliser une entité virtuelle pour afficher les lignes de commande fournisseur du projet dans Dataverse pour les informations du chef de projet. Le coût de la facture fournisseur liée au projet est intégré à l’entité Chiffres réels du projet dans Dataverse. Le coût du projet est enregistré dans la comptabilité auxilliaire du projet à l’aide du journal Intégration de Project Operations. | |
+|Planification et suivi de projets|**Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification** </br> </br>L’API de modification des contours d’affectation des ressources permet aux développeurs de spécifier par programme l’effort d’une personne affectée à une tâche sur n’importe quelle plage de dates prise en charge pour une planification d’effort échelonnée dans le temps plus granulaire.|[Utiliser les API de planification de projets pour effectuer des opérations avec les entités de planification](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Mises à jour des mappages de double écriture de Project Operations
 
