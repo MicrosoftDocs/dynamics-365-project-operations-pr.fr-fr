@@ -3,7 +3,7 @@ title: Effectuer une mise à niveau de Project Service Automation vers Project O
 description: Cet article fournit une vue d’ensemble du processus de mise à niveau de Microsoft Dynamics 365 Project Service Automation vers Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,28 +16,28 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446032"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686972"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Effectuer une mise à niveau de Project Service Automation vers Project Operations
 
-Nous sommes ravis d’annoncer la première des trois phases de mise à niveau de Microsoft Dynamics 365 Project Service Automation vers Dynamics 365 Project Operations. Cet article fournit une vue d’ensemble du processus aux clients qui se lancent dans ce voyage passionnant. Les prochains articles aborderont les éléments à prendre en compte par les développeurs, ainsi que des détails sur les améliorations des fonctionnalités. Elles vous fourniront non seulement des conseils pour vous aider à préparer votre mise à niveau vers Project Operations, mais vous expliqueront également à quoi vous pouvez vous attendre après la mise à niveau.
+Nous sommes ravis d’annoncer la deuxième des trois phases de mise à niveau de Microsoft Dynamics 365 Project Service Automation vers Microsoft Dynamics 365 Project Operations. Cet article fournit une vue d’ensemble du processus aux clients qui se lancent dans ce voyage passionnant. 
 
 Le programme de livraison de la mise à niveau sera divisé en trois phases.
 
 | Livraison de la mise à niveau | Phase 1 (janvier 2022) | Phase 2 (novembre 2022) | Phase 3 (Vague d’avril 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Aucune dépendance vis-à-vis de la structure de répartition du travail (WBS) pour les projets | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| La WBS dans les limites actuellement prises en charge par Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
-| La WBS en dehors des limites actuellement prises en charge par Project Operations, y compris la prise en charge de Project Desktop Client | | | :heavy_check_mark: |
+| Une WBS dans les limites actuellement prises en charge par Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
+| Une WBS en dehors des limites actuellement prises en charge par Project Operations, y compris la prise en charge de Project Desktop Client | | | :heavy_check_mark: |
 
 ## <a name="upgrade-process-features"></a>Fonctions du processus de mise à niveau 
 
-Dans le cadre du processus de mise à niveau, nous avons ajouté des journaux de mise à niveau au plan du site, afin que les administrateurs puissent diagnostiquer plus facilement les échecs. En plus de la nouvelle interface, de nouvelles règles de validation seront ajoutées pour garantir l’intégrité des données après une mise à niveau. Les validations suivantes seront ajoutées au processus de mise à niveau.
+Dans le cadre du processus de mise à niveau, nous avons ajouté des journaux de mise à niveau au plan du site pour permettre aux administrateurs de diagnostiquer plus facilement les échecs. En plus de la nouvelle interface, de nouvelles règles de validation seront ajoutées pour garantir l’intégrité des données après une mise à niveau. Les validations suivantes seront ajoutées au processus de mise à niveau.
 
 | Contrôles | Phase 1 (janvier 2022) | Phase 2 (novembre 2022) | Phase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
@@ -46,24 +46,31 @@ Dans le cadre du processus de mise à niveau, nous avons ajouté des journaux de
 | La WBS sera validée par rapport aux limites connues de Project Desktop Client. | |  | :heavy_check_mark: |
 | Les ressources réservables et les calendriers de projet seront évalués par rapport aux exceptions communes aux règles de calendrier incompatibles. | | :heavy_check_mark: | :heavy_check_mark: |
 
-Au cours de la phase 2, les clients qui passent à Project Operations verront leurs projets existants mis à niveau vers une expérience en lecture seule pour la planification de projet. Dans cette expérience en lecture seule, la WBS complète sera visible dans la grille de suivi. Pour modifier la WBS, les chefs de projet peuvent sélectionner **Convertir** sur la page principale **Projets**. Un processus d’arrière-plan mettra ensuite à jour le projet afin qu’il prenne en charge la nouvelle expérience de planification de projet à partir de Project for the Web. Cette phase est destinée aux clients qui ont des projets qui s’inscrivent dans les [limites connues de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+Au cours de la phase 2, les clients qui passent à Project Operations verront leurs projets existants mis à niveau vers une expérience en lecture seule pour la planification de projet. Dans cette expérience en lecture seule, la WBS complète sera visible dans la grille de suivi. Pour modifier la WBS, les chefs de projet peuvent sélectionner [**Convertir**](/PSA-Upgrade-Project-Conversion.md) sur la page principale du projet. Un processus en arrière-plan met ensuite à jour le projet afin qu’il prenne en charge la nouvelle expérience de planification de projet à partir de Project for the Web. Cette phase est destinée aux clients qui ont des projets qui s’inscrivent dans les [limites connues de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 Dans la phase 3, la prise en charge de Project Desktop Client sera ajoutée, au profit des clients qui souhaitent continuer à éditer leurs projets à partir de cette application. Cependant, si des projets existants sont convertis vers la nouvelle expérience Project for the Web, l’accès au complément sera désactivé pour chaque projet converti.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Pour être éligible à la phase 1 de la mise à niveau, un client doit répondre aux critères suivants :
+Pour être éligible à la phase 1 de la mise à niveau, vous devez répondre aux critères suivants :
 
 - L’environnement cible ne doit contenir aucun enregistrement dans l’entité **msdyn_projecttask**.
-- Des licences Project Operations valides doivent être attribuées à tous les utilisateurs actifs du client. 
-- Le client doit valider le processus de mise à niveau dans au moins un environnement hors production avec un jeu de données représentatif des données de production.
-- L’environnement cible doit être mis à jour à la version 41 ou ultérieure de Project Service Automation (3.10.62.162).
+- Des licences Project Operations valides doivent être attribuées à tous les utilisateurs actifs. 
+- Vous devez valider le processus de mise à niveau dans au moins un environnement hors production contenant un jeu de données représentatif de votre environnement de production.
+- L’environnement cible doit être mis à jour vers la version 37 ou ultérieure de Project Service Automation (V3.10.58.120).
 
-Les conditions requises pour les phases 2 et 3 actualisées à l’approche des dates de la disponibilité générale.
+Pour être éligible à la phase 2 de la mise à niveau, vous devez répondre aux critères suivants :
+
+- Des licences Project Operations valides doivent être attribuées à tous les utilisateurs actifs. 
+- Vous devez valider le processus de mise à niveau dans au moins un environnement hors production contenant un jeu de données représentatif de votre environnement de production.
+- L’environnement cible doit être mis à jour vers la version 37 ou ultérieure de Project Service Automation (V3.10.58.120).
+- Les environnements contenant des tâches (msdyn_projecttask) ne sont pris en charge que si le nombre total de tâches par projet est de 500 ou moins.
+
+Les conditions requises pour la phase 3 seront mises à jour à l’approche des dates de la disponibilité générale.
 
 ## <a name="licensing"></a>Gestion des licences
 
-Si vous disposez de licences actives pour Project Service Automation, vous pouvez installer et utiliser Project Operations, qui inclut toutes les fonctionnalités de Project Service Automation et plus encore. De cette façon, vous pouvez tester les capacités de Project Operations tout en continuant à utiliser Project Service Automation en production. Après l’expiration de vos licences Project Service Automation, vous devrez passer à Project Operations. Lorsque vous planifiez cette transition, vous devez tenir compte du fait que la licence Project Operations n’inclut pas de licence Project Service Automation.
+Si vous disposez de licences actives pour Project Service Automation, vous pouvez installer et utiliser Project Operations, qui inclut toutes les fonctionnalités de Project Service Automation et plus encore. Vous pouvez ensuite tester les capacités de Project Operations dans un environnement distinct tout en continuant à utiliser Project Service Automation en production. Après l’expiration de vos licences Project Service Automation, vous devrez passer à Project Operations. Lorsque vous planifiez cette transition, vous devez tenir compte du fait que la licence Project Operations n’inclut pas de licence Project Service Automation.
 
 ## <a name="testing-and-refactoring-customizations"></a>Tester et refactoriser les personnalisations
 
@@ -87,14 +94,23 @@ Après avoir mis à jour vos personnalisations pour importer proprement Project 
 
     Une fois la mise à niveau terminée, l’environnement doit indiquer que Project Operations est installé et que Project Service Automation n’est pas installé.
 
-    > [!NOTE]
-    > Selon la quantité de données dans l’environnement, la mise à niveau peut prendre plusieurs heures. L’équipe principale qui gère la mise à niveau doit planifier en conséquence et exécuter la mise à niveau en dehors des heures ouvrables. Dans certains cas, si le volume de données est important, la mise à niveau doit être exécutée pendant le week-end. La décision concernant la planification doit être basée sur les résultats des tests dans des environnements inférieurs.
+    Selon la quantité de données dans l’environnement, la mise à niveau peut prendre plusieurs heures. L’équipe principale qui gère la mise à niveau doit planifier en conséquence et exécuter la mise à niveau en dehors des heures ouvrables. Dans certains cas, si le volume de données est important, la mise à niveau doit être exécutée pendant le week-end. La décision concernant la planification doit être basée sur les résultats des tests dans des environnements inférieurs.
 
 3. Mettez à niveau les solutions personnalisées, le cas échéant. À ce stade, déployez toutes les modifications que vous avez apportées à vos personnalisations dans la section [Tester et refactoriser les personnalisations](#testing-and-refactoring-customizations) du présent article.
 4. Accédez à **Paramètres** \> **Solutions**, et sélectionnez pour désinstaller la solution **Composants obsolètes de Project Operations**.
 
     Cette solution est une solution temporaire qui contient le modèle de données existant et les composants présents lors de la mise à niveau. En supprimant cette solution, vous supprimez tous les champs et composants qui ne sont plus utilisés. De cette façon, vous contribuez à simplifier l’interface et à faciliter l’intégration et l’extension.
     
+### <a name="upgrade-to-project-operations-lite"></a>Mettre à niveau vers Project Operations Lite
+
+Les étapes suivantes décrivent le processus de mise à niveau et la journalisation des erreurs associée :
+
+1. **Vérification de la version de PSA :** pour installer Project Operations, vous devez disposer de la version V3.10.58.120 ou une version supérieure.
+1. **Pré-validation :** lorsqu’un administrateur lance une mise à niveau, le système exécute une opération de pré-validation sur chaque entité fondamentale pour la solution Project Operations. Cette étape vérifie que toutes les références d’entités sont valides et garantit que les données liées à la WBS se trouvent dans les limites publiées de Project for the Web.
+1. **Mise à niveau des métadonnées :** après une pré-validation réussie, le système apporte des modifications au schéma et crée une solution de composants obsolète. Vous pouvez supprimer cette solution obsolète une fois que vous avez terminé toute la refactorisation requise des personnalisations. Cette étape est la partie la plus longue du processus de mise à niveau et peut prendre jusqu’à quatre heures.
+1. **Mise à niveau des données :** une fois que toutes les modifications requises du schéma ont été effectuées lors de l’étape de mise à niveau des métadonnées, vos données sont migrées vers le nouveau schéma et les valeurs par défaut et les recalculs requis sont effectués.
+1. **Mise à jour du moteur de planification de projet :** après une mise à niveau réussie des données, l’onglet **Planification** de la page principale est renommé **Tâches**. Lorsqu’un utilisateur sélectionne cet onglet après la mise à niveau, il est invité à accéder à la grille de suivi pour voir une version en lecture seule de WBS. Pour modifier la WBS, il doit lancer le [processus de conversion](/PSA-Upgrade-Project-Conversion.md) de la planification. Tous les projets sans WBS préexistante peuvent utiliser la nouvelle expérience de planification directement, sans conversion.
+ 
 ### <a name="validate-common-scenarios"></a>Valider les scénarios courants
 
 Lorsque vous validez vos personnalisations spécifiques, nous vous recommandons d’examiner également les processus métier pris en charge dans les applications. Ces processus métier incluent, mais sans s’y limiter, la création d’entités de vente telles que des devis et des contrats, et la création de projets qui incluent des WBS et l’approbation des chiffres réels.
@@ -107,7 +123,7 @@ Cette section fournit un résumé des changements majeurs auxquels vous pouvez v
 
 Les fonctionnalités de planification de projet dans Project Operations ne reposent plus sur une combinaison de la logique côté client et de la logique côté serveur. AU lieu de cela, Project Operations utilise Project for the Web comme moteur de planification. Ce changement dans les capacités de planification rend possibles plusieurs nouvelles fonctionnalités, telles que les vues Tableau et Gantt, la planification axée sur les ressources, les [éléments de liste de contrôle des tâches](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) et les modes de planification de projet. Les nouvelles fonctionnalités de planification sont également appuyées sur un riche ensemble de nouvelles [interfaces de programmation d’applications (API)](../project-management/schedule-api-preview.md). Ces API sont destinées à garantir qu’aucune opération de programmation destinée à créer, mettre à jour ou supprimer une entité dans la WBS ne corrompra les champs calculés dans la planification.
 
-## <a name="billing-and-pricing"></a>Facturation et tarification
+### <a name="billing-and-pricing"></a>Facturation et tarification
 
 Dans le cadre de l’investissement continu dans Project Operations, plusieurs nouvelles fonctionnalités sont disponibles dans la facturation et la tarification. En voici quelques exemples :
 
@@ -116,6 +132,10 @@ Dans le cadre de l’investissement continu dans Project Operations, plusieurs n
 - [Paiements anticipés et contrats basés sur un acompte](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Statut et validations des limites à ne pas dépasser des contrats](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Facturation à la tâche
+
+### <a name="resource-management"></a>Gestion des ressources
+
+Project Operations fournit un support facultatif pour le tableau Universal Resource Scheduling (URS) et l’assistant de planification. Cette nouvelle expérience deviendra obligatoire dans la vague d’avril 2023.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes
 
@@ -136,5 +156,4 @@ Il existe deux options pour installer Project Operations avant que l’outil de 
 - Approvisionner un nouvel environnement.
 - Déployer Project Operations séparément sur n’importe quelle organisation commerciale où Project Service Automation n’est pas présent.
 
-> [!NOTE]
-> Si Project Service Automation est installé dans une organisation mais qu’il n’a pas été utilisé, il peut être désinstallé. Une fois que vous avez complètement supprimé Project Service Automation, Project Operations peut être installé dans la même organisation.
+Si Project Service Automation est installé dans une organisation mais qu’il n’a pas été utilisé, il peut être désinstallé. Une fois que vous avez complètement supprimé Project Service Automation, Project Operations peut être installé dans la même organisation.
