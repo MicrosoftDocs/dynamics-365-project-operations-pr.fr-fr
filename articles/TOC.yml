@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: "Comment personnaliser le flux des processus d’entreprise des phases du projet\_?"
               href: psa/FAQ-customize-bpf.md
-            - name: Considérations relatives à la mise à niveau de la structure de répartition du travail
-              href: psa/upgrade-considerations-tasks.md
         - name: Livres blancs
           href: psa/white-papers.md
         - name: Guide de l’administrateur
