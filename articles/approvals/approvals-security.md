@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525359"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709394"
 ---
 # <a name="security-and-approvals"></a>Sécurité et approbations
 
@@ -33,6 +33,6 @@ Pour approuver les entrées non liées à un projet, vous devez être le respons
 > [!NOTE]
 > La fonctionnalité [Ensembles d’approbation](approval-sets.md) doit être activée avant de pouvoir utiliser la fonctionnalité Administrateur approbateur de projet.
 
-Le rôle de sécurité **Administrateur approbateur de projet** permet aux utilisateurs de contourner les politiques et autorise l’approbation des entrées dans tous les projets. L’attribution de ce rôle contourne la logique de validation qui nécessite l’appartenance à une équipe et le fait d’être marqué comme approbateur. Vous devez avoir accès aux entités associées pertinentes, telles que **Projet**. Cet accès peut être attribué par un utilisateur avec le rôle **Chef de projet**.
+Le rôle de sécurité **Administrateur approbateur de projet** permet aux utilisateurs de contourner les politiques et autorise l’approbation des entrées dans tous les projets. L’attribution de ce rôle contourne la logique de validation qui nécessite l’appartenance à une équipe et le fait d’être marqué comme approbateur. Vous devez avoir accès aux tables associées pertinentes, telles que **Projet**, via les rôles de sécurité qui vous sont attribués.
 
 Le contexte utilisateur SYSTEM contourne les validations de la même manière que le rôle de sécurité Administrateur approbateur de projet.
