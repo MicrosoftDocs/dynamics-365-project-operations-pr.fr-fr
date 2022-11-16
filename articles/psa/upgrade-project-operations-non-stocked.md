@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709441"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736663"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Effectuer une mise à niveau de Project Service Automation vers Project Operations
 
@@ -97,7 +97,7 @@ Après avoir mis à jour vos personnalisations pour importer proprement Project 
     Selon la quantité de données dans l’environnement, la mise à niveau peut prendre plusieurs heures. L’équipe principale qui gère la mise à niveau doit planifier en conséquence et exécuter la mise à niveau en dehors des heures ouvrables. Dans certains cas, si le volume de données est important, la mise à niveau doit être exécutée pendant le week-end. La décision concernant la planification doit être basée sur les résultats des tests dans des environnements inférieurs.
 
 3. Mettez à niveau les solutions personnalisées, le cas échéant. À ce stade, déployez toutes les modifications que vous avez apportées à vos personnalisations dans la section [Tester et refactoriser les personnalisations](#testing-and-refactoring-customizations) du présent article.
-4. Accédez à **Paramètres** \> **Solutions**, et sélectionnez pour désinstaller la solution **Composants obsolètes de Project Operations**.
+4. Accédez à **make.powerapps.com**, sélectionnez votre environnement depuis le menu déroulant dans la partie supérieure du portail, sélectionnez **Solutions** depuis le menu de gauche, sélectionnez la solution **Composants obsolètes de Project Operations** et **Désinstaller**.
 
     Cette solution est une solution temporaire qui contient le modèle de données existant et les composants présents lors de la mise à niveau. En supprimant cette solution, vous supprimez tous les champs et composants qui ne sont plus utilisés. De cette façon, vous contribuez à simplifier l’interface et à faciliter l’intégration et l’extension.
     
