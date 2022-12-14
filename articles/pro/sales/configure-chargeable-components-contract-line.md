@@ -1,23 +1,23 @@
 ---
-title: Configurer les composants facturables d’une ligne de contrat basée sur un projet
+title: Configurer les composants facturables d’une ligne de contrat de projet
 description: Cet article fournit des informations sur la façon d’ajouter des composants facturables aux lignes de contrat dans Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0e4118e8e56d45ef75f53d828e267a8a9c1c903a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 33296c93964cc88499e7a98d499b99463e59d62a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922955"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825561"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurer les composants facturables d’une ligne de contrat basée sur un projet
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Configurer les composants facturables d’une ligne de contrat de projet
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma, Project Operations pour les scénarios basés sur les ressources/produits non stockés_
 
-Une ligne de contrat basée sur un projet a les composants *inclus* et *payant*.
+Une ligne de contrat du projet a les composants *inclus* et *payant*.
 
 Les composants inclus sont des composants soumis à :
 

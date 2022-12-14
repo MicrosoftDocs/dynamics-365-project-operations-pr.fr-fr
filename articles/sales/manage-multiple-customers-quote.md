@@ -1,23 +1,23 @@
 ---
-title: Gérer plusieurs clients sur un devis de projet
+title: Gérer plusieurs clients sur le devis d’un projet
 description: Cet article fournit des informations sur le travail sur des devis qui impliquent plusieurs clients qui financeront le projet.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928199"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825145"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Gérer plusieurs clients sur un devis de projet
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Gérer plusieurs clients sur le devis d’un projet
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
-Les devis de projet prennent en charge le scénario où la proposition implique plusieurs clients qui financeront la transaction. L’onglet **Synthèse** du devis a le champ **Client potentiel** qui identifie le client principal de l’opération. D’autres clients pour l’offre peuvent être configurés sur l’onglet **Clients** du devis du projet.
+Les devis basés sur un projet prennent en charge le scénario où la proposition implique plusieurs clients qui financeront la transaction. L’onglet **Synthèse** du devis a le champ **Client potentiel** qui identifie le client principal de l’opération. D’autres clients pour l’offre peuvent être configurés sur l’onglet **Clients** du devis du projet.
 
 Tous les clients du devis sur l’onglet **Clients** du devis de projet par défaut en tant que clients de la ligne de devis sur toutes les **nouvelles** lignes de devis selon le projet créées pour le devis. Les lignes de devis existantes selon un projet n’hériteront pas des enregistrements client de devis créés après elles.
 

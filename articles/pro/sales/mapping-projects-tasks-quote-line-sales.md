@@ -1,23 +1,23 @@
 ---
-title: Mapper les projets et les tâches sur une ligne du devis selon les projets
-description: Cet article fournit des informations sur la façon de mapper les projets et les tâches à une ligne de tâches basée sur un projet.
+title: Mapper les projets et les tâches sur des lignes de devis de projet
+description: Cet article fournit des informations sur la façon de mapper les projets et les tâches à des lignes de devis de projet.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917159"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824265"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapper les projets et les tâches sur une ligne du devis selon les projets
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mapper les projets et les tâches sur des lignes de devis de projet
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
-Sur les lignes de devis basées sur un projet, vous pouvez mapper les tâches spécifiques d’un projet déjà associé à une ligne de devis.
+Sur les lignes de devis de projet, vous pouvez mapper les tâches spécifiques d’un projet déjà associé à une ligne de devis.
 
 Lorsque vous mappez des tâches à une ligne de devis, les éléments suivants que vous avez définis sur la ligne de devis ne s’appliqueront qu’à ces tâches :
 

@@ -1,21 +1,21 @@
 ---
-title: Vue d’ensemble des lignes de contrat basées sur les projets
-description: Cet article fournit des informations sur l’utilisation de lignes de contrat basées sur un projet.
+title: Vue d’ensemble des lignes de contrat de projet
+description: Cet article fournit des informations sur l’utilisation des lignes de contrat de projet dans Project Operations.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f5a529233692a39b0674417cd4ea225e40243086
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931419"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824623"
 ---
-# <a name="project-based-contract-lines-overview"></a>Vue d’ensemble des lignes de contrat basées sur les projets
+# <a name="project-contract-lines-overview"></a>Vue d’ensemble des lignes de contrat de projet
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 Les lignes de contrat basées sur un projet dans Dynamics 365 Project Operations ont pour vocation de contenir l’estimation et les accords de facturation des composants spécifiques du travail de projet dans un engagement. La structure d’une ligne de contrat basée sur un projet est étendue pour les estimations de projet et les scénarios de facturation avec les concepts suivants :
 

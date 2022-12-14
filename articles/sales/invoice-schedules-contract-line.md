@@ -1,21 +1,21 @@
 ---
-title: Créer une planification de factures sur une ligne de contrat basée sur un projet
+title: Créer des planifications de facture sur une ligne de contrat basée sur un projet
 description: Cet article fournit des informations sur la création d’échéanciers de factures et de jalons pour les lignes de contrat.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 490a61b67f54bdad95ecfce905191c381dddc85b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: afc6357b7b221b91674035ae3181ef84eed8d586
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914997"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825094"
 ---
-# <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Créer une planification de factures sur une ligne de contrat basée sur un projet 
+# <a name="create-invoice-schedules-on-a-project-based-contract-line"></a>Créer des planifications de facture sur une ligne de contrat basée sur un projet
 
-_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits non stockés_
+_**S’applique à :** Project Operations pour les scénarios selon les ressources/produits hors stock_
 
 Vous pouvez créer une planification de factures sur une ligne de contrat basée sur un projet. La facturation n’est autorisée qu’après l’obtention du contrat et la création d’un contrat de projet. Une planification de facture permet de créer automatiquement des ébauches de factures pour une ligne de contrat basée sur un projet. Si toutefois vous ne créez que manuellement des factures, vous pouvez ignorer la création de planifications de factures sur les lignes de contrat.
 

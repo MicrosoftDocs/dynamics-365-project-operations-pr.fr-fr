@@ -1,21 +1,21 @@
 ---
-title: Fermeture d’une opportunité
+title: Fermer une opportunité de projet
 description: Cet article fournit des informations sur la clôture d’une opportunité pour un projet.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 72789d2d3fa6f362a5ccd8a4dae7bbcf1c735ea3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 21366e3371efb958055ac961a8ec88602d847446
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920241"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826031"
 ---
-# <a name="close-an-opportunity"></a>Fermer une opportunité
+# <a name="close-a-project-opportunity"></a>Fermer une opportunité de projet 
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 Les opportunités de projet peuvent être fermées comme « conclues » ou » perdues ». La boîte de dialogue **Fermer l’opportunité** vous permet de saisir le raison du statut, la date et d’autres détails sur l’opportunité conclue ou perdue.
 

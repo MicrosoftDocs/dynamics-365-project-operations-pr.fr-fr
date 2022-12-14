@@ -1,27 +1,27 @@
 ---
-title: Planifications de facture sur une ligne de devis selon les projets
+title: Planifications de facture sur une ligne de devis de projet
 description: Cet article fournit des informations sur la création d’échéanciers de factures et de jalons pour les lignes de devis.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918309"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825749"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Planifications de facture sur une ligne de devis selon les projets
+# <a name="invoice-schedules-on-project-quote-lines"></a>Planifications de facture sur une ligne de devis de projet
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
-Une ligne de devis selon les projets donne la possibilité d’exprimer une planification de facture. Ceci est facultatif lors de la phase de devis, car l’application ne prend pas en charge la facturation d’un projet lorsqu’il est lié à une ligne de devis. La facturation n’est autorisée qu’une fois le devis obtenu. Le seul impact en aval de la création d’une planification de facture pendant la phase de devis est que cette planification de facture est copiée dans la ligne de contrat basée sur le projet. Si vous ne créez pas de planification de facture pendant la phase de devis, vous pourrez le faire sur la ligne du contrat selon le projet.
+Une ligne de devis de projet donne la possibilité d’exprimer une planification de facture. Ceci est facultatif lors de la phase de devis, car l’application ne prend pas en charge la facturation d’un projet lorsqu’il est lié à une ligne de devis. La facturation n’est autorisée qu’une fois le devis obtenu. Le seul impact en aval de la création d’une planification de facture pendant la phase de devis est que cette planification de facture est copiée dans la ligne de contrat basée sur le projet. Si vous ne créez pas de planification de facture pendant la phase de devis, vous pourrez le faire sur la ligne du contrat selon le projet.
 
 Dans l’ensemble, le but des planifications de facture est de permettre la création automatique de projets de factures pour une ligne de contrat selon un projet. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Créer une planification de facture de temps et de matériel pour une ligne de devis selon un projet
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Créer une planification de facture de temps et de matériel pour une ligne de devis de projet
 
 Lorsque la méthode de facturation pour une ligne de devis selon un projet est Heure et matériel, le système génère une planification de facture basée sur la date. Pour générer automatiquement une planification de facture basée sur la date, procédez comme suit.
 
@@ -36,7 +36,7 @@ Lorsque la méthode de facturation pour une ligne de devis selon un projet est H
     - **Date limite de transaction** est défini sur la veille de la **Date d’exécution de la facture**.
     - **Statut d’exécution** est automatiquement défini sur **Ne pas exécuter**. Lorsque la tâche de création automatique de facture s’exécute pour une certaine date d’exécution de facture, elle met à jour ce champ sur **Exécution réussie** ou **Échec de l’exécution**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Créer une planification de facture à prix fixe pour une ligne de devis selon un projet
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Créer une planification de facture à prix fixe pour une ligne de devis de projet
 
 Lorsque la ligne de devis selon un projet a une méthode de facturation **Fixe**, le système crée une planification de facture basée sur des jalons. Effectuez les étapes suivantes pour générer automatiquement cette planification pour un ensemble fixe de jalons qui sont également répartis pour la période calendaire.
 

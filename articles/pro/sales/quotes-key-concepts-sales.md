@@ -1,17 +1,17 @@
 ---
-title: Devis – Concepts clé – Simplifié
+title: Concepts propres aux devis de projet
 description: Cet article fournit des informations sur l’utilisation de devis de projet dans Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916975"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825890"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Concepts propres aux devis de projet
 
@@ -82,9 +82,13 @@ Les planifications de facture sont spécifiques à chaque ligne de devis et sont
 
 Les devis Project Operations sont basés sur les devis Dynamics 365 Sales. Cependant, il existe des différences importantes dans les fonctionnalités dont vous devez être conscient :
 
-- Les actions **Réviser** et **Activer** ne sont pas prises en charge.
+
 - Les devis Project Operations ont deux types de lignes différents. L’une est destinée aux projets et l’autre aux produits.
 - Les devis Project Operations ont leurs propres éléments de formulaire et d’interface utilisateur, des règles métier, une logique métier dans les plug-ins et des scripts côté client qui les rendent uniques à partir des devis de vente.
+- Les devis de vente vous permettent de joindre plusieurs commandes à un devis de vente. Dans Project Operations, seul un contrat de projet peut être joint à un devis de projet.
+- Lorsque vous remportez un devis de vente, l’opportunité associée peut rester ouverte. Lorsqu’un devis de projet qui conclus, une opportunité associée est fermée.
+- Un devis de vente ne comprend pas certains champs et les concepts qui se trouvent sur un devis de projet. Les champs incluent **Unité contractuelle**, **Gestionnaire de comptes** et **Nom du contact de facturation**.  
+- **Type** : Les devis de vente et les devis de projet sont également identifiés par un champ basé sur un jeu de données nommé **Type**. Pour un devis de vente, ce champ a la valeur **Basé sur l’article**. Pour un devis de projet, il a la valeur **Basé sur le travail**.
 
 Pour ces raisons, il n’est pas recommandé d’utiliser de manière interchangeable un devis de vente et un devis Project Operations.
 

@@ -1,23 +1,23 @@
 ---
-title: Mapper les projets et les tâches à une ligne de contrat basée sur un projet – Simplifié
+title: Mapper les projets et les tâches à une ligne de contrat de projet
 description: Cet article fournit des informations sur l’ajout et la suppression de projets et de tâches dans une ligne de contrat.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932523"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825055"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapper les projets et les tâches sur une ligne de contrat basée sur un projet 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Mapper les projets et les tâches à une ligne de contrat de projet 
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma, Project Operations pour les scénarios basés sur les ressources/produits non stockés_
 
-Dans les lignes de contrat basées sur un projet, vous pouvez mapper des tâches spécifiques d’un projet à la ligne de contrat.
+Dans les lignes de contrat du projet, vous pouvez mapper des tâches spécifiques d’un projet à la ligne de contrat.
 
 Lorsque vous mappez des tâches spécifiques à une ligne de contrat, le mode de facturation, les options d’exigibilité, les limites à ne pas dépasser et les clients définis sur la ligne de contrat s’appliquent uniquement à ces tâches spécifiques.
 
@@ -25,7 +25,7 @@ Si vous vous trouvez dans un scénario dans lequel une seule phase de projet, pa
 
 Toutes les autres phases de la structure de répartition du travail (WBS) de votre projet peuvent être associées à la ligne de contrat basée sur le temps et le matériel.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Associer des tâches à des lignes de contrat basées sur un projet
+## <a name="associate-tasks-to-project-contract-lines"></a>Associer des tâches à des lignes de contrat du projet
 
 Les tâches peuvent être associées aux lignes de contrat à partir de l’onglet **Tâches facturables** sur la page **Ligne de contrat** ou depuis l’onglet **Facturation de la tâche** sur la page **Projet**.
 

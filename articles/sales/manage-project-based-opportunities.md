@@ -1,21 +1,21 @@
 ---
-title: Gérer des opportunités basées sur des projets
+title: Gérer les opportunités du projet
 description: Cet article fournit des informations sur l’utilisation des opportunités liées aux projets.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 56eba38476dd5b49f0043eee5d411d51f9bf56b8
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933213"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825299"
 ---
-# <a name="manage-project-based-opportunities"></a>Gérer des opportunités basées sur des projets
+# <a name="manage-project-opportunities"></a>Gérer les opportunités du projet
 
-_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits non stockés Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Project Operations pour les scénarios basés sur les ressources/produits hors stock Déploiement simplifié – Traiter la facturation pro forma_
 
 Pour les entreprises basées sur des projets, leurs opérations de livraison sont généralement réparties dans plusieurs pays et zones géographiques. Le coût de l’exécution et de la livraison du projet peut varier en fonction de la zone géographique ou de la division qui gère la livraison. De plus, cela peut avoir un impact sur les marges de la transaction. La livraison de services basés sur des projets implique généralement de grandes quantités de temps de ressources humaines, des dépenses considérables pour les déplacements, les frais de matériel et d’autres dépenses.
 

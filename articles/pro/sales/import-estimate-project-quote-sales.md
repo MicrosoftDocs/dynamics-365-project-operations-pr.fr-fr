@@ -1,19 +1,19 @@
 ---
-title: Importer des estimations pour un projet vers une ligne de devis basée sur un projet – Simplifié
-description: Cet article fournit des informations sur l’importation d’estimations d’un projet à une ligne de devis.
+title: Importer des estimations à partir d’un projet vers une ligne de devis de projet
+description: Cet article fournit des informations sur l’importation d’estimations d’un projet à une ligne de devis de projet.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61c9660f18882d12a7da8965c23b65e408256219
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917297"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824483"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importer des estimations pour un projet vers une ligne de devis basée sur un projet 
+# <a name="import-estimates-from-a-project-to-a-project-quote-line"></a>Importer des estimations à partir d’un projet vers une ligne de devis de projet 
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma, Project Operations pour les scénarios basés sur les ressources/produits non stockés_
 

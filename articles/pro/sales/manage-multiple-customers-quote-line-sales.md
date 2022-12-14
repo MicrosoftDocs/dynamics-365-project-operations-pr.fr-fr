@@ -1,23 +1,23 @@
 ---
-title: Gérer plusieurs clients sur les lignes de devis basées sur un projet – Simplifié
-description: Cet article décrit comment gérer plusieurs clients sur des lignes de devis basées sur des projets.
+title: Gérer plusieurs clients sur les lignes de devis de projet
+description: Cet article décrit comment gérer plusieurs clients sur des lignes de devis de projet.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927785"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824435"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Gérer plusieurs clients sur les lignes de devis basées sur un projet – Simplifié
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Gérer plusieurs clients sur les lignes de devis de projet
 
 _**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
 
-Les lignes de devis basées sur des projets prennent en charge des scénarios où chaque ligne de devis a une liste de clients qui paient pour cela. Cette liste de clients sur la ligne de devis basée sur le projet peut être la même que la liste de clients sur le devis. Vous pouvez également modifier la liste des clients pour qu’elle soit différente. Lorsqu’un devis de projet est remporté, la liste des clients de la ligne de devis basée sur le projet est copiée dans la ligne de contrat basée sur le projet correspondante pour créer l’éventuel contrat de projet. Les clients du devis basé sur le projet sont copiés dans le contrat de projet.
+Les lignes de devis de projet prennent en charge des scénarios où chaque ligne de devis a une liste de clients qui paient pour cela. Cette liste de clients sur la ligne de devis basée sur le projet peut être la même que la liste de clients sur le devis. Vous pouvez également modifier la liste des clients pour qu’elle soit différente. Lorsqu’un devis de projet est remporté, la liste des clients de la ligne de devis basée sur le projet est copiée dans la ligne de contrat basée sur le projet correspondante pour créer l’éventuel contrat de projet. Les clients du devis basé sur le projet sont copiés dans le contrat de projet.
 
 Lorsque vous facturez l’éventuel contrat de projet, la liste de clients de la ligne de contrat de projet est prioritaire sur la liste du contrat de projet. La liste des clients du contrat de projet n’est utilisée que pour les valeurs par défaut sur les nouvelles lignes de contrat de projet.
 

@@ -1,21 +1,21 @@
 ---
-title: Estimation d’une ligne de devis selon les projets
-description: Cet article fournit des informations sur la création d’une estimation sur une ligne de devis basée sur un projet.
+title: Estimer une ligne de devis de projet
+description: Cet article fournit des informations sur la création d’une estimation sur une ligne de devis d’un projet.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914353"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825984"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Estimation d’une ligne de devis selon les projets
+# <a name="estimate-a-project-quote-line"></a>Estimer une ligne de devis de projet
 
-_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma_
+_**S’applique à :** Déploiement simplifié – Traiter la facturation pro forma, Project Operations pour les scénarios basés sur les ressources/produits non stockés_
 
 Une ligne de devis selon les projets contient des détails qui aident à estimer le coût et les revenus potentiels du travail impliqué pour fournir la ligne de devis.
 
@@ -24,7 +24,7 @@ Pour estimer une ligne de devis selon les projets, sur la ligne de devis selon l
 - Créez manuellement l’estimation directement sur la ligne de devis en utilisant les détails de la ligne de devis. 
 - Créez un projet et un plan de projet, puis associez le projet et les tâches du projet à la ligne de devis. Le processus d’importation des estimations du plan de projet dans la ligne de devis en fonction des informations que vous avez fournies sera activé.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Créer des estimations directement à partir d’une ligne de devis selon les projets
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Créer des estimations directement à partir d’une ligne de devis de projet
 
 Pour créer une estimation sur une ligne de devis selon les projets, sélectionnez l’onglet **Détail de la ligne de devis**. L’élément de ligne que vous créez dans cet onglet résume la valeur citée pour cette ligne de devis. 
 
@@ -68,8 +68,7 @@ La devise du détail de la ligne de devis pour les coûts par défaut provient d
 
 Les calculs de rentabilité convertissent le montant des détails de la ligne de devis pour le coût et les ventes dans la devise de base de l’environnement pour indiquer la marge globale estimée sur le devis.
 
-> [!REMARQUE
-> > Des erreurs d’arrondi des devises et de marges modifiées peuvent se produire en raison de l’absence date effective de taux de change. Utilisez ces calculs uniquement pour les contrats de projet, car il s’agit d’approximations qui ne sont pas destinées à des rapports statutaires ou autres qui nécessitent une plus grande précision d’arrondi et une connaissance de la date de validité des taux de change.
+> [!REMARQUE Des erreurs d’arrondi des devises et de marges modifiées peuvent se produire en raison de l’absence date effective de taux de change. Utilisez ces calculs uniquement pour les contrats de projet, car il s’agit d’approximations qui ne sont pas destinées à des rapports statutaires ou autres qui nécessitent une plus grande précision d’arrondi et une connaissance de la date de validité des taux de change.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
