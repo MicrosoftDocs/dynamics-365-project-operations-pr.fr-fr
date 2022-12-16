@@ -212,7 +212,7 @@
               items:
                 - name: Paiements anticipés et les contrats de projet basés sur un acompte
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurer une planification de la provision
+                - name: Configurer une planification de provisions
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Créer une avance ad hoc sur un contrat de projet
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -846,7 +846,7 @@
               items:
                 - name: Avances et contrats basés sur des provisions
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurer un calendrier d’honorairesConfigurer un calendrier d’honoraires
+                - name: Configurer une planification de provisions
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Créer une avance ad hoc sur un contrat de projet
                   href: pro/sales/create-ad-hoc-advance-sales.md

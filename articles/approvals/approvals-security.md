@@ -3,15 +3,15 @@ title: Sécurité et approbations
 description: Cet article fournit des informations sur la configuration de la sécurité pour l’utilisation des approbations dans Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 08/29/2022
-ms.topic: security
+ms.topic: conceptual
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: 88186485dff43c3011095b267640151948b4d77c
+ms.sourcegitcommit: 0d11377bf3ac74c80afbd2013775fcc9869f926a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709394"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "9841920"
 ---
 # <a name="security-and-approvals"></a>Sécurité et approbations
 
